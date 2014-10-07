@@ -14,6 +14,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   suite/export/changes.rst
    integrations/automation_center/node.rst
 
 
