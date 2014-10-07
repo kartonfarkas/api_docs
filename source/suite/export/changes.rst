@@ -8,32 +8,27 @@ The request starts a background export process and returns its ID which can be u
 the export. The background process saves the results as a CSV file, either locally or via FTP on another
 computer.
 
-URI
----
+Endpoint
+--------
 
-``/api/v2/contact/getchanges``
-
-Method
-------
-
-**POST**
+ ``POST /api/v2/contact/getchanges``
 
 Required Parameters
 -------------------
 
- * (string) distribution_method
- * (date array) time_range
- * (string) origin
- * (integer array) origin_id
- * (integer array) contact_fields
+ * *(string)* distribution_method
+ * *(date array)* time_range
+ * *(string)* origin
+ * *(integer array)* origin_id
+ * *(integer array)* contact_fields
 
 Optional parameters
 -------------------
 
- * (string) delimiter
- * (integer) add_field_names_header
- * (string) language
- * (object) ftp_settings
+ * *(string)* delimiter
+ * *(integer)* add_field_names_header
+ * *(string)* language
+ * *(object)* ftp_settings
 
 Result Data Structure
 ---------------------
@@ -46,21 +41,21 @@ Request example
  .. code:: json
 
     {
-      "distribution_method":"ftp",
-      "origin":"form",
-      "origin_id":"123",
-      "time_range":["2012-02-09","2012-04-02"],
-      "contact_fields":["1","3","106533"],
-      "delimiter":";",
-      "add_field_names_header":1,
-      "language":"en",
+      "distribution_method": "ftp",
+      "origin": "form",
+      "origin_id": "123",
+      "time_range": ["2012-02-09", "2012-04-02"],
+      "contact_fields": ["1","3","106533"],
+      "delimiter": ";",
+      "add_field_names_header": 1,
+      "language": "en",
       "ftp_settings":
       {
-        "host":"www.example.com",
-        "port":"1234",
-        "username":"user",
-        "password":"pass",
-        "folder":"path/of/a/folder"
+        "host": "www.example.com",
+        "port": "1234",
+        "username": "user",
+        "password": "pass",
+        "folder": "path/of/a/folder"
       }
     }
 
@@ -70,11 +65,11 @@ Result Example
  .. code:: json
 
     {
-      "replyCode":0 ,
-      "replyText":"OK",
+      "replyCode": 0,
+      "replyText": "OK",
       "data":
       {
-        "id":2140
+        "id": 2140
       }
     }
 

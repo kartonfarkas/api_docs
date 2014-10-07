@@ -103,9 +103,7 @@ html_theme = 'default'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-html_theme_options = {
-  'cssfiles': ['_static/my_style.css'],
-}
+html_theme_options = {}
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []
@@ -328,3 +326,17 @@ epub_exclude_files = ['search.html']
 
 # If false, no index is generated.
 #epub_use_index = True
+
+#---
+
+# on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+
+if not on_rtd:  # only import and set the theme if we're building docs locally
+  # import sphinx_rtd_theme
+  html_theme = 'sphinx_rtd_theme'
+  html_theme_path = ['_themes', ]
+
+html_context = {
+  'css_files': ["_static/styles.css"]
+}
