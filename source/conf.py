@@ -104,9 +104,9 @@ html_theme = 'emarsys_theme'
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {}
-#html_context = {
-#  'css_files': ["_static/styles.css"]
-#}
+html_context = {
+  'css_files': ["_static/styles.css"]
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = ['_themes', ]
