@@ -18,7 +18,7 @@ This endpoint is called by Automation Center, when the program execution reaches
 .. list-table:: **Parameters (sent as form data)**
   :header-rows: 1
 
-  * - Parameter name
+  * - Name
     - Type
     - Description
   * - environment
