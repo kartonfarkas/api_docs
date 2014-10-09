@@ -10,7 +10,8 @@ More information:
 .. toctree::
    :maxdepth: 2
 
-   node_implementation.rst
+   node_trigger_endpoint.rst
+   node_authentication.rst
 
 Example Service in PHP
 
