@@ -12,6 +12,7 @@ More information:
 
    node_authentication.rst
    node_trigger_endpoint.rst
+   node_resources.rst
    
 Example Service in PHP
 
