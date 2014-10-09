@@ -7,3 +7,7 @@ code,
 .rst-content tt {
     font-size: 100%;
 }
+
+table .rst-content dl dd {
+    margin: 0;
+}
