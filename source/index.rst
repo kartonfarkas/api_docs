@@ -14,8 +14,8 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   suite/export/changes.rst
-   integrations/automation_center/node.rst
+   suite/index.rst
+   integrations/index.rst
 
 
 Indices and tables
