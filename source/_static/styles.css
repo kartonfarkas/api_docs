@@ -8,6 +8,6 @@ code,
     font-size: 100%;
 }
 
-table .rst-content dl dd {
+.rst-content table dl dd {
     margin: 0;
 }
