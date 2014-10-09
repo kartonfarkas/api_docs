@@ -5,7 +5,12 @@ The Automation Center node integration API allows you to add a node to Automatio
 
 In the first section we describe the HTTP interface that needs to be implemented by each service. The second section will introduce you to an example service written in PHP. The third section offers best practices recommended by Emarsys. In the last section you can read about planned changes to the API.
 
-Implementing the HTTP interface
+More information:
+
+.. toctree::
+   :maxdepth: 2
+
+   node_implementation.rst
 
 Example Service in PHP
 
