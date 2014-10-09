@@ -1,15 +1,5 @@
-Implementing the HTTP interface
-====================================
-
-Authentication
---------------
-
-We use the standard service authentication library of Emarsys to sign requests sent by Automation Center. Please refer to the authentication library documentation for details.
-
-Note that each of the endpoints are available through HTTPS protocol.
-
 Trigger endpoint
-----------------
+================
 
 This endpoint is called by Automation Center, when the program execution reaches your node. It should start the execution of your service.
 
