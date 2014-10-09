@@ -12,6 +12,6 @@ code,
     margin: 0;
 }
 
-.rst-content table .section ul li {
+.rst-content .section table ul li {
     margin-left: 16px;
 }
