@@ -1,20 +1,60 @@
-Automation Center - Node integration
+Implementing the HTTP interface
 ====================================
 
-The Automation Center node integration API allows you to add a node to Automation Center that will call your service on a predefined HTTP endpoint. When the program reaches your node, it will call the specified URL with a set of parameters, which you can use to trigger necessary actions for the contacts entering the node.
+Authentication
+--------------
 
-In the first section we describe the HTTP interface that needs to be implemented by each service. The second section will introduce you to an example service written in PHP. The third section offers best practices recommended by Emarsys. In the last section you can read about planned changes to the API.
+We use the standard service authentication library of Emarsys to sign requests sent by Automation Center. Please refer to the authentication library documentation for details.
 
-Implementing the HTTP interface
+Note that each of the endpoints are available through HTTPS protocol.
 
-Example Service in PHP
+Trigger endpoint
+----------------
 
-Best practices
+This endpoint is called by Automation Center, when the program execution reaches your node. It should start the execution of your service.
 
-Coming soon
+**HTTP Method:** POST
 
-.. image:: /_static/images/ac_node_custom_dialog_workflow.png
+.. list-table:: **Parameters (sent as form data)**
+  :header-rows: 1
 
-.. image:: /_static/images/ac_node_options_workflow.png
+  * - Parameter name
+    - Type
+    - Description
+  * - environment
+    - string
+    - The Suite environment that triggered the event. (example: login.emarsys.net)
+  * - customer_id
+    - integer
+    - The ID of the customer in Suite database
+  * - program_type
+    - string
+    - Possible values: ‘batch’, ‘transactional’, ‘recurring’
+  * - list_id
+    - integer
+    - Userlist ID in Suite database (Optional)
+  * - user_id
+    - integer
+    - Contact ID in Suite database (Optional)
+  * - resource_id
+    - integer/string
+    - The ID of a resource managed by the service. (Optional)
+  * - queue_id
+    - integer
+    - Identifies the trigger request. This value is unique for each trigger event from a given environment.
+  * - run_id
+    - string
+    - Identifies the program run. This value can be used to link together multiple trigger events from the same program resulting from a single entry.
+  * - data
+    - json
+    - Campaign specific external data (Optional)
+
+
+**Required response:** 
+ * In case of success, the service needs to respond with a HTTP status code in the 200-299 range.
+ * In case of error the HTTP status code should be in the range 400-499 in case of client error (i.e. the request is invalid, and cannot be fulfilled) or in the 500-599 range when there was a an error on server side. In case of server errors Automation Center will retry the request 3 times. 
+ * In case of errors the service should also return a json containing a userMessage and a code key.
+   Example: ::
+      {“userMessage”:”Could not trigger event”,”code”:”45”}
 
 .. image:: /_static/images/ac_node_trigger_workflow.png
