@@ -11,3 +11,7 @@ code,
 .rst-content table dl dd {
     margin: 0;
 }
+
+.rst-content table .section ul li {
+    margin-left: 16px;
+}
