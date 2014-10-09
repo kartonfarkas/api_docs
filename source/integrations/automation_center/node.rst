@@ -10,9 +10,9 @@ More information:
 .. toctree::
    :maxdepth: 2
 
-   node_trigger_endpoint.rst
    node_authentication.rst
-
+   node_trigger_endpoint.rst
+   
 Example Service in PHP
 
 Best practices
