@@ -27,7 +27,7 @@ Parameters
     * - distribution_method
       - *string*
       - **ftp** or **local**
-      - If distribution_method is **ftp**, then ftp_settings is a required parameter.
+      - If *distribution_method* is **ftp**, then *ftp_settings* is a required parameter.
     * - time_range
       - *date array*
       - An array with two elements (start date, end date)
@@ -53,14 +53,36 @@ Parameters
          * 33 – contact source
       - The array must not be empty.
 
+.. list-table:: **Optional parameters**
+    :header-rows: 1
+    :widths: 20 20 40 40
 
-Optional parameters
--------------------
+    * - Name
+      - Type
+      - Values
+      - Comments
+    * - delimiter
+      - *string*
+      - **,** (comma) or **;** (semicolon).
+      - Default value is **,** (comma).
+    * - add_field_names_header
+      - *integer*
+      - **0** or **1**
+      - Default value is **1**.
+    * - language
+      - *string*
+      - see supported `language codes <http://documentation.emarsys.com/?page_id=424>`_
+      - Default value is the account’s default language.
+    * - ftp_settings
+      - *object*
+      - an object with the following fields must be provided:
+         * *(string)* host
+         * *(integer)* port
+         * *(string)* username
+         * *(string)* password
+         * *(string)* folder – optional
+      - If *distribution_method* is **local**, then *ftp_settings* is ignored.
 
- * *(string)* delimiter
- * *(integer)* add_field_names_header
- * *(string)* language
- * *(object)* ftp_settings
 
 Result Data Structure
 ---------------------
