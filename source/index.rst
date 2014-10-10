@@ -9,7 +9,8 @@ Welcome to Emarsys APIs developer documentation! (alpha)
 This site is a work in progress. For more information, please visit the
 `Emarsys Documentation Site <https://documentation.emarsys.com>`_.
 
-Contents:
+Contents
+--------
 
 .. toctree::
    :maxdepth: 2

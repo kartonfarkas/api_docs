@@ -53,14 +53,15 @@ The size of the iframe that displays the custom content returned by the custom n
 To resize the dialog simply send the required iframe size in a message. The data sent should be of the following format:
 
 .. code-block:: json
+   :lineos:
 
-  {
-      "messageId": "dialog.resize",
-      "data": {
-         "width": "<width>",
-         "height": "<height>"
-      }
-  }
+   {
+     "messageId": "dialog.resize",
+     "data": {
+       "width": "<width>",
+       "height": "<height>"
+     }
+   }
 
 **Example response**
 
