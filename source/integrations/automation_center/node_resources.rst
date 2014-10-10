@@ -1,5 +1,5 @@
 ﻿Resources
-================
+=========
 
 Your service may or may not need a set of node specific settings from the user. We refer to such a setting as a resource.  If your service needs such resources, then there are two supported ways to handle them. 
 
@@ -12,11 +12,7 @@ The second option is using the ‘Custom node dialogue endpoint’. In this case
 More information:
 
 .. toctree::
-
    :maxdepth: 2
 
-
-
    node_resource_options_endpoint.rst
-
    node_custom_node_dialog_endpoint.rst
