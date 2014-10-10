@@ -30,13 +30,19 @@ This endpoint is called when the customer opens up the program node dialogue. Fo
 * A resource editor should be returned as an HTML page.
 * If the resource_id is sent as a GET parameter, then the page should be filled up with the current values for that resource.
 * The JavaScript in the page should listen to messages. See example receiveMessage implementation at the end of this section.
-  Example: ::
+  Example:
+
+  .. code-block:: js
+
     window.addEventListener("message", receiveMessage, false);
-* When a message with ‘messageId’ == ‘resource.save’ is received, the editor should save the values set up by the customer, and respond with another message to the parent iframe. The message should be of the following format:
+
+* When a message with ‘messageId’ == ‘resource.save’ is received, the editor should save the values set up by
+  the customer, and respond with another message to the parent iframe. The message should be of the following
+  format:
     * messageId: ‘resource.save’
     * data
-       * ID: <new resource ID>
-       * label: <new label to be displayed under the node>
+        * id: <new resource ID>
+        * label: <new label to be displayed under the node>
        
 .. image:: /_static/images/ac_node_custom_dialog_workflow.png
 
@@ -44,17 +50,21 @@ This endpoint is called when the customer opens up the program node dialogue. Fo
 
 The size of the iframe that displays the custom content returned by the custom node dialog is 360x100 pixels. Since the size of the content may be different, we provide an API that can be used to resize the dialog once your content has been loaded into the iframe. The maximum allowed size is 800x300 pixels.
 
-To resize the dialog simply send the required iframe size in a message. The data sent should be of the following format: ::
+To resize the dialog simply send the required iframe size in a message. The data sent should be of the following format:
+
+.. code-block:: json
 
   {
-      messageId: "dialog.resize",
-      data: {
-         width: <width>,
-         height: <height>
+      "messageId": "dialog.resize",
+      "data": {
+         "width": "<width>",
+         "height": "<height>"
       }
   }
 
-**Example response**::
+**Example response**
+
+.. code-block:: html
 
   <!DOCTYPE html>
   <html>

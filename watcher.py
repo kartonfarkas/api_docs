@@ -9,7 +9,7 @@ Usage
 
 To automatically keep Sphinx docs up to date::
 
-    python watcher.py 'make html' $(find . -name '*.rst')
+    python watcher.py 'make html' $(-regex '.*\.\(rst\|css\)')
 
 Problems
 --------
