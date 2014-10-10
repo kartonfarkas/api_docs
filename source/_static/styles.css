@@ -1,3 +1,8 @@
+.wy-side-nav-search,
+.wy-nav-side {
+    background: #163c8e;
+}
+
 .rst-content table td,
 .rst-content table th {
     white-space: normal !important;
@@ -26,6 +31,8 @@ code,
 .rst-content .section table ul li {
     margin-left: 16px;
 }
+
+
 
 
 /* Solarized Dark
