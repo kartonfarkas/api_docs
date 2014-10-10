@@ -43,7 +43,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Emarsys APIs developer documentation'
+project = u'Emarsys Suite Developer Documentation'
 copyright = u'2014, Emarsys'
 
 # The version info for the project you're documenting, acts as replacement for
