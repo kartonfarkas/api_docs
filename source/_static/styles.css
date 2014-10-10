@@ -1,11 +1,24 @@
 .wy-side-nav-search {
+    background: #163c8e;
+    background-image: url(images/suite_logo.png);
+    background-position: 12px 10px;
+    background-repeat: no-repeat;
+}
+
+.wy-side-nav-search a {
+    text-align: left;
+    padding: 6px 0 6px 53px;
+}
+
+.wy-side-nav-search a::before {
+    display: none;
+}
+
+.wy-nav-side {
     background: #072568;
 }
-.wy-nav-side {
-    background: #163c8e;
-}
 .rst-versions {
-    border-top-color: #163c8e;
+    border-top-color: #072568;
 }
 
 .rst-content table td,
