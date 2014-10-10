@@ -1,4 +1,6 @@
-.wy-side-nav-search,
+.wy-side-nav-search {
+    background: #072568;
+}
 .wy-nav-side {
     background: #163c8e;
 }
