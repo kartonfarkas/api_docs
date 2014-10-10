@@ -4,6 +4,9 @@
 .wy-nav-side {
     background: #163c8e;
 }
+.rst-versions {
+    border-top-color: #163c8e;
+}
 
 .rst-content table td,
 .rst-content table th {
