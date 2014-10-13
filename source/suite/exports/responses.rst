@@ -49,31 +49,31 @@ Parameters
         * 33 – contact source
      - The array must not be empty.
    * - sources
-     -*string*
+     - *string*
      - An array which defines sources
-        * - trackable_links
-        * - registration_forms
-        * - tell_a_friend
-        * - contact_us
-        * - change_profile
-        * - unsubscribe
-        * - mail_open
-        * - complaint
+     - * trackable_links
+       * registration_forms
+       * tell_a_friend
+       * contact_us
+       * change_profile
+       * unsubscribe
+       * mail_open
+       * complaint
    * - analysis_fields
      - *string*
      - An array which defines analysis fields
-        * 1 – Campaign title
-        * 2 – Section header
-        * 3 – Section group
-        * 4 – Link title
-        * 5 – URL
-        * 8 – Time
-        * 12 – Campaign ID
-        * 13 – Version Name
-        * 14 – Campaign category
-        * 15 – Link category
+     - * 1 – Campaign title
+       * 2 – Section header
+       * 3 – Section group
+       * 4 – Link title
+       * 5 – URL
+       * 8 – Time
+       * 12 – Campaign ID
+       * 13 – Version Name
+       * 14 – Campaign category
+       * 15 – Link category
 
- * The number of the fields provided for contact_fields and analysis_fields must be at least 1 and at most 20 in total.
+The number of the fields provided for contact_fields and analysis_fields must be at least 1 and at most 20 in total.
 
  .. list-table:: **Optional parameters**
     :header-rows: 1
