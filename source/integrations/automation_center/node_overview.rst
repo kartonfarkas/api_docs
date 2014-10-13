@@ -10,12 +10,13 @@ More information:
 .. toctree::
    :maxdepth: 2
 
+   node_overview.rst
    node_authentication.rst
    node_trigger_endpoint.rst
-   node_resources.rst
-   
-Example Service in PHP
-
-Best practices
-
-Coming soon
+   node_resource_options_endpoint.rst
+   node_custom_node_dialogue_endpoint.rst
+   node_registering_your_service.rst
+   node_example.rst
+   node_implementing_the_trigger.rst
+   node_implementing_the_resource.rst
+   node_best_practices.rst
