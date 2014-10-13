@@ -28,19 +28,23 @@ Parameters:
 Required response:
 
  * A resource editor should be returned as an HTML page.
- * If the resource_id is sent as a GET parameter, then the page should be filled up with the current values for that resource.
- * The JavaScript in the page should listen to messages. See example receiveMessage implementation at the end of this section.
-   * Example: : window.addEventListener("message", receiveMessage, false);
-   * See example reveiveMessage implementation at the end of this section.
-   * When a message with ‘messageId’ == ‘resource.save’ is received, the editor should save the values set up by the customer, and respond with another message to the parent iframe. The message should be of the following format:
-     * messageId: ‘resource.save’
-     * data
-       * id: <new resource id>
-       * label: <new label to be displayed under the node>
+ * If the resource_id is sent as a GET parameter, then the page should be filled up with the current
+   values for that resource.
+ * The JavaScript in the page should listen to messages. See example receiveMessage implementation
+   at the end of this section.
+    * Example: `window.addEventListener("message", receiveMessage, false);`
+    * See example reveiveMessage implementation at the end of this section.
+    * When a message with `messageId` == `resource.save` is received, the editor should save the values
+      set up by the customer, and respond with another message to the parent iframe. The message should
+      be of the following format:
+       * messageId: `resource.save`
+       * data
+          * id: <new resource id>
+          * label: <new label to be displayed under the node>
 
 .. code-block:: js
 
-    window.addEventListener("message", receiveMessage, false);
+   window.addEventListener("message", receiveMessage, false);
        
 .. image:: /_static/images/ac_node_custom_dialog_workflow.png
 
@@ -52,18 +56,17 @@ The iframe that displays the custom content returned by the custom node dialog e
 To resize the dialog simply send the required iframe size in a message. The data sent should be of the following format:
 
 .. code-block:: json
-   :lineos:
 
-           {
-             "messageId": "dialog.resize",
-             "data": {
-               "width": "<width>",
-               "height": "<height>"
-             }
-           }
+   {
+     "messageId": "dialog.resize",
+     "data": {
+       "width": "<width>",
+       "height": "<height>"
+     }
+   }
 
 Example
---------
+-------
 
 .. code-block:: html
 
