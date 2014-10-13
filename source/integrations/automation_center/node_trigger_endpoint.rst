@@ -90,14 +90,6 @@ The second option is using the ‘Custom node dialogue endpoint’. In this case
 an HTML page that will be rendered inside an iframe in the node dialogue. This can be used to integrate
 the resource management page into Automation Center.
 
-More information:
-
-.. toctree::
-:maxdepth: 2
-
-    node_resource_options_endpoint.rst
-    node_custom_node_dialog_endpoint.rst
-
 Campaign specific external data
 -------------------------------
 

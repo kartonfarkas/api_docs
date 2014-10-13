@@ -1,6 +1,3 @@
-HTTP Interface
-==============
-
 Authentication
 ==============
 

@@ -1,10 +1,10 @@
 Best practices
 ==============
 
-RESTfull services
------------------
+RESTful services
+----------------
 
-As a general rule, all of the endpoints should be RESTfull services. Most importantly, please return meaningful HTTP status codes. The range 200-299 should be used for success, 400-499 for client and 500-599 for server errors. Also, it’s strongly advised that endpoint urls begin with a version number. For example ‘/v1/send_sms’ could be a trigger endpoint url.
+As a general rule, all of the endpoints should be RESTful services. Most importantly, please return meaningful HTTP status codes. The range 200-299 should be used for success, 400-499 for client and 500-599 for server errors. Also, it’s strongly advised that endpoint urls begin with a version number. For example ‘/v1/send_sms’ could be a trigger endpoint url.
 
 Asynchronous execution
 ----------------------

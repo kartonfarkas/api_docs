@@ -9,7 +9,7 @@ More information:
 
 .. toctree::
    :maxdepth: 2
-   
+
    node_authentication.rst
    node_trigger_endpoint.rst
    node_resource_options_endpoint.rst

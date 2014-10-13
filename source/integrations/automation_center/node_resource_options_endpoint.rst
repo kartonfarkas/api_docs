@@ -38,9 +38,10 @@ Required response
 
 In case of error, the service should also provide a ‘userMessage’ that provides a human readable message indicating the cause of failure, and a ‘code’ key, that contains an error code.
 
- * Example:
+Example:
 
 .. code-block:: json
+
    {
      ”userMessage”:”Could not generate resource list”,
      “code”: 5
