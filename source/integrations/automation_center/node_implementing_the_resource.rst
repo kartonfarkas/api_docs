@@ -3,7 +3,7 @@ Implementing the resource options endpoint
 
 Similarly to the trigger api, the simplest implementation that returns no options is an options.php that looks something like this:
 
-.. code-block:: json
+.. code-block:: php
 
    <?php
 
@@ -11,7 +11,7 @@ Similarly to the trigger api, the simplest implementation that returns no option
 
 Now let’s suppose that our previous ‘MyService’ object can also return the list of services. We will use that to create a useful implementation for the resource options endpoint:
 
-.. code-block:: json
+.. code-block:: php
 
    <?php
 

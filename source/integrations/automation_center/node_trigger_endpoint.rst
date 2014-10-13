@@ -50,8 +50,8 @@ Example
 .. code-block:: json
 
    {
-     “userMessage”:”Could not trigger event”,
-     ”code”:”45”
+     "userMessage": "Could not trigger event",
+     "code": "45"
    }
 
 .. image:: /_static/images/ac_node_trigger_workflow.png

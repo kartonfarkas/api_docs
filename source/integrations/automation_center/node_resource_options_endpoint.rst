@@ -43,8 +43,8 @@ Example:
 .. code-block:: json
 
    {
-     ”userMessage”:”Could not generate resource list”,
-     “code”: 5
+     "userMessage": "Could not generate resource list",
+     "code": 5
    }
 
 .. image:: /_static/images/ac_node_options_workflow.png
