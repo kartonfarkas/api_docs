@@ -3,7 +3,7 @@ Trigger endpoint
 
 This endpoint is called by Automation Center, when the program execution reaches your node. It should start the execution of your service.
 
- * HTTP Method: POST
+HTTP Method: POST
 
 .. list-table:: **Parameters (sent as form data)**
    :header-rows: 1
@@ -39,11 +39,20 @@ This endpoint is called by Automation Center, when the program execution reaches
      - json
      - Campaign specific external data (Optional)
 
- * Required response:
-    * In case of success, the service needs to respond with a HTTP status code in the 200-299 range.
-    * In case of error the HTTP status code should be in the range 400-499 in case of client error (i.e. the request is invalid, and cannot be fulfilled) or in the 500-599 range when there was a an error on server side. In case of server errors Automation Center will retry the request 3 times.
-    * In case of errors the service should also return a json containing a userMessage and a code key.
- * Example: {“userMessage”:”Could not trigger event”,”code”:”45”}
+Required response
+
+ * In case of success, the service needs to respond with a HTTP status code in the 200-299 range.
+ * In case of error the HTTP status code should be in the range 400-499 in case of client error (i.e. the request is invalid, and cannot be fulfilled) or in the 500-599 range when there was a an error on server side. In case of server errors Automation Center will retry the request 3 times.
+ * In case of errors the service should also return a json containing a userMessage and a code key.
+
+Example
+
+.. code-block:: json
+
+   {
+     “userMessage”:”Could not trigger event”,
+     ”code”:”45”
+   }
 
 .. image:: /_static/images/ac_node_trigger_workflow.png
 

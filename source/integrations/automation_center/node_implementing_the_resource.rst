@@ -14,7 +14,7 @@ Now let’s suppose that our previous ‘MyService’ object can also return the
 .. code-block:: json
 
    <?php
-   
+
    try {
        // First we will copy the get values into a option
        // request object
@@ -25,15 +25,15 @@ Now let’s suppose that our previous ‘MyService’ object can also return the
        // In this example we assume that the validate function
        // throws an exception if one of the values is not valid.
        $request->validate();
-   
+
        // The class you implemented to perform the work.
        $service = new MyService();
-   
+
        // Finally we call the function that returns the resources.
        // As before, we assume that this method throws an exception
        // when something went wrong.
        $resources = $service->getResources($request);
-   
+
        // You may need to convert your resource objects to the
        // format required by the Automation Center node integration
        // APIs contract. For example if your resources are messages
@@ -46,13 +46,13 @@ Now let’s suppose that our previous ‘MyService’ object can also return the
                'name' => $resource->messageTitle
            );
        }
-   
+
        // Finally if all went well we respond with a success message
        // and return the array of options.
        echo json_encode(array('success' => true, 'options' => $options));
-   
+
    } catch(Exception $e) {
-   
+
        // If there was any exception we respond with a failure message
        // We assumed here that all exceptions have error messages that
        // make sense for the user. Usually you may need to rephrase
