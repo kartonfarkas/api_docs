@@ -24,6 +24,9 @@ Parameters:
    * - resource_label
      - string
      - The label that appeared below the node so far, if an existing resource is being edited (Optional)
+   * - language
+     - string
+     - It specifies the admin's preferred language
 
 Required response:
 
@@ -32,8 +35,6 @@ Required response:
    values for that resource.
  * The JavaScript in the page should listen to messages. See example receiveMessage implementation
    at the end of this section.
-    * Example: `window.addEventListener("message", receiveMessage, false);`
-    * See example reveiveMessage implementation at the end of this section.
     * When a message with `messageId` == `resource.save` is received, the editor should save the values
       set up by the customer, and respond with another message to the parent iframe. The message should
       be of the following format:
@@ -42,10 +43,6 @@ Required response:
           * id: <new resource id>
           * label: <new label to be displayed under the node>
 
-.. code-block:: js
-
-   window.addEventListener("message", receiveMessage, false);
-       
 .. image:: /_static/images/ac_node_custom_dialog_workflow.png
 
 Resizing the dialog

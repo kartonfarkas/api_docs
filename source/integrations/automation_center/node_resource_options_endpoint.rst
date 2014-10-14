@@ -17,12 +17,15 @@ This endpoint is called when the customer opens up the program node dialogue. Fo
    * - customer_id
      - int
      - The ID of the customer in Suite database
+   * - language
+     - string
+     - It specifies the admin's preferred language
 
 Required response
  * The service needs to respond with a JSON object. If the request was successful the HTTP status should be in the 200-299 range, while in case of errors it should be in the 400-599 range.
  * In case of success, the service should provide an array of objects with the following keys:
 
-.. list-table::
+.. list-table:: **Possible Keys**
    :header-rows: 1
   
    * - Key
@@ -34,7 +37,8 @@ Required response
    * - name
      - string
      - The name of the resource (usually this should be specified by the customer.)
-        * Example: [{“id”:3,”name”:”Some resource”},{“id”:12,”name”:”Some other resource”}]
+
+Example: [{“id”:3,”name”:”Some resource”},{“id”:12,”name”:”Some other resource”}]
 
 In case of error, the service should also provide a ‘userMessage’ that provides a human readable message indicating the cause of failure, and a ‘code’ key, that contains an error code.
 
