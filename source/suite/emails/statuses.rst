@@ -1,0 +1,40 @@
+Status Codes
+============
+
+E-Mail Status Codes
+-------------------
+
+The ID is one of the following:
+
+.. list-table:: E-Mail Status Codes
+
+   * - Status
+     - Description
+   * - 1
+     - In design
+   * - 2
+     - Tested
+   * - 3
+     - Launched
+   * - 4
+     - Ready to launch
+   * - -3
+     - Deactivated
+
+API Launch Statuses
+-------------------
+
+Emails have one of the following launch statuses:
+
+.. list-table:: E-Mail Status Codes
+
+   * - Status
+     - Description
+   * - 0
+     - Not launched
+   * - 1
+     - Launch called via API, launching in progress
+   * - 2
+     - Email launched or scheduled for future launch
+   * - 10
+     - Error (details in api_error)
