@@ -1,7 +1,7 @@
 Querying Contact Lists
 ======================
 
-...
+Returns a list of contact lists which can be used as recipient source for the email.
 
 Endpoint
 --------

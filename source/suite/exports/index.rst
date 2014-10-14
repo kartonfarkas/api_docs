@@ -1,10 +1,10 @@
-Exports
-=======
+Exporting Data
+==============
 
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    changes.rst
    contact_lists.rst

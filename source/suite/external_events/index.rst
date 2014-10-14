@@ -4,7 +4,7 @@ External Events
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    list.rst
    trigger.rst

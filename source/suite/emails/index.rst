@@ -1,10 +1,8 @@
-Emails
-======
-
-Contents:
+Emails Campaigns
+================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    emails_creating.rst
    emails_deleting.rst
