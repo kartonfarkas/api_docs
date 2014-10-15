@@ -35,7 +35,6 @@ Parameters
      -
      -
      -
-     -
 
 The optional key_id must be provided once.
 The parameters of the different contacts must be sent in an array (see example below).
