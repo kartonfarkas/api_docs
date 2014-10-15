@@ -1,0 +1,78 @@
+Getting Launches of E-Mail
+==========================
+
+Lists all the launches of an email with ID, launch date and ‘done’ status.
+
+Endpoint
+--------
+
+``POST /api/v2/email/getlaunchesofemail``
+
+Parameters
+----------
+
+.. list-table:: **Required parameters**
+   :header-rows: 1
+   :widths: 20 20 40 40
+
+   * - Name
+     - Type
+     - Description
+     - Comments
+   * - emailId
+     - int
+     -
+     -
+
+Result Data Structure
+---------------------
+
+id:string, done:string, launch_date:string
+id:string, done:string, launch_date:string
+…
+
+JSON Payload Example
+--------------------
+
+.. code-block:: json
+
+   {
+     "emailid":"1234"
+   }
+
+Result Example
+--------------
+
+.. code-block:: json
+
+   {
+     "replyCode" : 0 ,
+     "replyText" : "OK",
+     "data" : [{"id": "7555", "done": "y", :"launch_date": "2012-05-05"},   {"id" : "7556", :"done" : "n", "launch_date": "2012-05-05"}]
+   }
+
+Errors
+------
+
+.. list-table:: Possible error codes
+
+   * - HTTP Code
+     - Reply Code
+     - Message
+     - Description
+   * - 400
+     - 10001
+     - Missing parameter: [parameter]
+     - The required parameter [parameter] is missing.
+   * - 400
+     - 10001
+     - Invalid data format for [parameter]. Integer expected
+     - The value for [parameter] is not an integer.
+   * - 400
+     - 6004
+     - Invalid email ID
+     - No email found.
+   * - 400
+     - 6003
+     - Invalid email status
+     - No launch exists for the email.

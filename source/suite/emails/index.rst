@@ -1,18 +1,6 @@
 Emails Campaigns
 ================
 
-.. toctree::
-   :maxdepth: 1
-
-   emails_creating.rst
-   emails_deleting.rst
-   emails_attributes.rst
-   emails_get_email_category_lists.rst
-   languages.rst
-   conditions.rst
-   forms.rst
-   statuses.rst
-
 Working with Emails
 -------------------
 
@@ -30,8 +18,12 @@ Working with Launches
 .. toctree::
    :maxdepth: 1
 
-   conditions.rst
-   forms.rst
+   getting_delivery.rst
+   getting_launches.rst
+   launching.rst
+   previewing_emails.rst
+   sending_test.rst
+   viewing_response.rst
 
 Files and Folders
 -----------------
@@ -43,4 +35,34 @@ Files and Folders
    querying_folders.rst
    uploading_files.rst
 
+Condition
+---------
 
+.. toctree::
+   :maxdepth: 1
+
+   conditions.rst
+
+Form
+----
+
+.. toctree::
+   :maxdepth: 1
+
+   forms.rst
+
+Language
+--------
+
+.. toctree::
+   :maxdepth: 1
+
+   languages.rst
+
+Status
+------
+
+.. toctree::
+   :maxdepth: 1
+
+   statuses.rst
