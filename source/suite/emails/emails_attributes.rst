@@ -66,15 +66,15 @@ Result Data Structure
    * - email_category
      - integer
      - The category identifier of the email
-     - Categories may be retrieved via the `quering category lists <emails_get_email_category_lists.html>`_ endpoint
+     - Categories may be retrieved via the :doc:`emails_get_email_category_lists` endpoint
    * - filter
      - integer
      - The filter identifier
-     - Available filters can retrieved via the `querying available filters <../contacts/filters.html>`_ endpoint
+     - Available filters can retrieved via the :doc:`../contacts/querying_filters` endpoint
    * - contactlist
      - integer
      - The contact list identifier
-     - Contact lists may be retrieved via the `querying contact lists <../contacts/contact_lists.html>`_ endpoint
+     - Contact lists may be retrieved via the :doc:`../contacts/querying_contact_lists` endpoint
    * - html_source
      - string
      - The HTML source of the email
@@ -85,15 +85,15 @@ Result Data Structure
      -
    * - status
      - integer
-     - See `email statuses <statuses.html>`_
+     - See :doc:`statuses`
      -
    * - api_status
      - integer
-     - See `API launch statuses <statuses.html>`_
+     - See :doc:`statuses`
      -
    * - api_error
      - integer
-     - See `API launch errors <statuses.html>`_
+     - See :doc:`statuses`
      -
    * - source
      - string

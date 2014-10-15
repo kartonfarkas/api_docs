@@ -1,8 +1,7 @@
 Querying Export Status
 ======================
 
-Fetches the status data of an export.
-jkjk `xxx <responses.html>`_
+Fetches the status data of an export. Uses the ID returned by :doc:`responses` or :doc:`registrations`.
 
 Endpoint
 --------
