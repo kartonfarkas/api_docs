@@ -75,3 +75,86 @@ Result Example
        "id":366924307
      }
    }
+
+**Error**
+
+.. code-block:: json
+
+   {
+     "replyCode":0,
+     "replyText":"OK",
+     "data":
+     {
+       "ids":
+       [
+         123,
+         456
+       ],
+       "errors":
+       {
+         "user2@example.com":
+         {
+           "2010":"More contacts found with the external id: 3 - user2@example.com"
+         },
+         "user3@example.com":
+         {
+           "2010":"More contacts found with the external id: 3 - user3@example.com"
+         }
+       }
+     }
+   }
+
+JSON Payload Example
+--------------------
+
+.. code-block:: json
+
+   {
+     "key_id":"3",
+     "contacts":
+     [
+       {
+         "3":"user1@example.com",
+         "31":"2",
+         "source_id":"2"
+       }
+     ]
+   }
+
+Errors
+------
+
+.. list-table:: Possible error codes
+
+   * - HTTP Code
+     - Reply Code
+     - Message
+     - Description
+   * - 400
+     - 2006
+     - Empty field id for value: [value]
+     - A value has been provided without defining its field.
+   * - 400
+     - 2004
+     - Invalid key field id: [id]
+     - The provided field ID does not exist.
+   * - 400
+     - 2005
+     - No value provided for key field: [id]
+     - The value of the key field has not been provided or is empty.
+   * - 400
+     - 2005
+     - Invalid key field value: [error message]
+     - The value of the key field was provided but the value is invalid. The [error message] contains information on the error.
+   * - 400
+     - 2007
+     - Invalid field id: [id]
+     - The provided field ID does not exist.
+   * - 400
+     - 2010
+     - More contacts found with the external id [id]
+     - The provided external ID was not unique.
+   * - 400
+     - 2013
+     - Invalid source id: [id]
+     - The customer has no source with the requested ID.
