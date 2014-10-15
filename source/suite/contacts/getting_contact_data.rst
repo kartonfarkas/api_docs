@@ -1,2 +1,143 @@
 Getting Contact Data
 ====================
+
+Returns the selected fields of contacts. The contacts can be specified by either internal IDs or by using another column’s value as a key.
+
+Endpoint
+--------
+
+``POST /api/v2/contact/getdata``
+
+Parameters
+----------
+
+.. list-table:: **Required parameters**
+   :header-rows: 1
+   :widths: 20 20 40 40
+
+   * - Name
+     - Type
+     - Description
+     - Comments
+   * - keyId
+     - mixed
+     -
+     - must be an array containing contact IDs or values of the column used to select contacts
+   * - keyValues
+     - array
+     -
+     - can be a field id, id or uid. If empty, the internal ID will be used.
+
+.. list-table:: **Optional parameters**
+   :header-rows: 1
+   :widths: 20 20 40 40
+
+   * - Name
+     - Type
+     - Values
+     - Comments
+   * - fields
+     - array
+     - The fields in the result set can be set with the fields parameter.
+     - If empty, all fields will be returned.
+
+Result Data Structure
+---------------------
+
+Normal result:
+
+.. code-block:: json
+
+   {
+     "id":"23897",
+     "1":"testName1",
+     "3":"fakeemail1@test.com"
+   }
+
+.. code-block:: json
+
+   {
+     "id":"23898",
+     "1":"testName2",
+     "3":"fakeemail2@test.com"
+   }
+
+Error condition:
+
+.. code-block:: json
+
+   {
+     "key":"fakeemail1@example.com",
+     "errorCode":"2008",
+     "errorMsg":"No contact found with the external id: 3"
+   }
+
+.. code-block:: json
+
+   {
+     "key":"fakeemail2@example.com",
+     "errorCode":"2008",
+     "errorMsg":"No contact found with the external id: 3"
+   }
+   …
+
+JSON Payload Example
+--------------------
+
+.. code-block:: json
+
+   {
+     "keyId":"3",
+     "keyValues":["firstname1.lastname1@example.com","firstname2.lastname2@example.com"],
+     "fields":[1,2,3]
+   }
+
+Result Example
+--------------
+
+.. code-block:: json
+
+   {
+     "replyCode":0,
+     "replyText":"OK",
+     "data": {
+       "errors":[],
+       "result":[
+             {
+           "1":"testName1",
+           "3":"fakeemail1@example.com"
+           "id":"23897",
+         }
+       ]
+     }
+   }
+
+Errors
+------
+
+.. list-table:: Possible error codes
+
+   * - HTTP Code
+     - Reply Code
+     - Message
+     - Description
+   * - 400
+     - 10001
+     - Missing parameter: keyValues
+     - keyValues is a required parameter.
+   * - 400
+     - 10001
+     - keyValues must be an array
+     - keyValues must be a comma-separated list of key values.
+   * - 400
+     - 10001
+     - Fields must be an array
+     - fields must be a comma-separated list of field IDs.
+   * - 400
+     - 10001
+     - keyId must be an integer
+     - If filled, this must be an integer.
+   * - 400
+     - 10001
+     - Max. number of contacts: 1000
+     - The number of contacts is limited to 1,000.
