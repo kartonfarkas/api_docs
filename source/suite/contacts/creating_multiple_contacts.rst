@@ -31,7 +31,7 @@ Parameters
      -
      -
      -
-   * source_id = [source_id]
+   * - source_id = [source_id]
      -
      -
      -
