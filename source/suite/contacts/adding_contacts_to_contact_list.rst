@@ -44,7 +44,7 @@ Where *inserted_contacts* is the number of contacts successfully added to the li
 *errors* is an array of contacts not added to the list. The array contains the ID and
 reason for the error.
 
-Request example
+Request Example
 ---------------
 
 **Simple Values**

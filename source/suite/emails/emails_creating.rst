@@ -94,7 +94,7 @@ Result Data Structure
 
  * id:integer (the message ID)
 
-Request example
+Request Example
 ---------------
 
 .. code-block:: json

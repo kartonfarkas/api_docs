@@ -44,7 +44,7 @@ Supported parameters:
     * The default opt-in value for new contacts is false.
     * To enable opt-in, send parameter 31=1.
 
-Request example
+Request Example
 ---------------
 
 **The key_id is ommitted**

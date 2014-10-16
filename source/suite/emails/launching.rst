@@ -48,12 +48,12 @@ Parameters
      - If specified, the schedule parameter is interpreted in this timezone
      - See the `list of the supported timezones <http://documentation.emarsys.com/?page_id=3291>`_
 
-URI example
+URI Example
 -----------
 
 ``/api/v2/email/12345/launch``
 
-Request example
+Request Example
 ---------------
 
 .. code-block:: json

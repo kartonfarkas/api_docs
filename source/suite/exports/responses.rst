@@ -110,7 +110,7 @@ Result Data Structure
 
  * id:integer
 
-Request example
+Request Example
 ---------------
 
 .. code-block:: json
