@@ -1,5 +1,5 @@
 Querying Files
---------------
+==============
 
 Returns a media file from your account’s Media Database.
 
