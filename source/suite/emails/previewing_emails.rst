@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - id
      - integer
-     - The email's id to launch
+     - The email's id
      - (Part of the URL)
    * - version
      - integer

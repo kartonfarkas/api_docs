@@ -47,7 +47,8 @@ reason for the error.
 Request Example
 ---------------
 
-**Simple Values**
+Simple Values
+^^^^^^^^^^^^^
 
 .. code-block:: json
 
@@ -61,7 +62,8 @@ Request Example
      ]
    }
 
-**Multichoice values**
+Multichoice values
+^^^^^^^^^^^^^^^^^^
 
 .. code-block:: json
 

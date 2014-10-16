@@ -47,7 +47,8 @@ Supported parameters:
 Request Example
 ---------------
 
-**The key_id is ommitted**
+The key_id is ommitted
+^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: json
 
@@ -55,7 +56,8 @@ Request Example
      "3":"test@example.com",
    }
 
-**The key_id is provided**
+The key_id is provided
+^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: json
 
@@ -66,7 +68,8 @@ Request Example
      "source_id": "123"
    }
 
-**Multichoice field**
+Multichoice field
+^^^^^^^^^^^^^^^^^
 
 Request containing a multichoice field *405067*:
 
