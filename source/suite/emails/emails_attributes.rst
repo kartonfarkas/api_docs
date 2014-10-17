@@ -99,9 +99,10 @@ Result Data Structure
      - string
      - The source of the recipients.
      - Possible values are:
-        * userlist
-        * profile
-        * api
+
+       * userlist
+       * profile
+       * api
 
 Result Example
 --------------

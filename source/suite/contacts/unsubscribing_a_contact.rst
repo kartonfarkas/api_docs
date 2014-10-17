@@ -27,9 +27,11 @@ Parameters
    * - optin = [NULL; 1; 2]
      -
      - The second parameter optin (field_id: 31) has three possible values:
+
        * NULL = empty
        * 1 = true
        * 2 = false
+
      - Set optin=false to unsubscribe a contact!
 
 See document “Suite Field IDs and Values” for further information.

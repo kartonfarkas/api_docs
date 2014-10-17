@@ -31,12 +31,13 @@ Parameters
      - string
      - the type of the new field
      - supported types:
-     * shorttext: max 60 characters
-     * longtext: max 255 characters
-     * largetext: theoretically unlimited characters
-     * date
-     * url
-     * numeric: max 24 digits
+
+       * shorttext: max 60 characters
+       * longtext: max 255 characters
+       * largetext: theoretically unlimited characters
+       * date
+       * url
+       * numeric: max 24 digits
 
 Example parameters
 ------------------

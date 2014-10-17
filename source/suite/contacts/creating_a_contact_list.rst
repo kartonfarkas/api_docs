@@ -50,8 +50,9 @@ Result Data Structure
 
  * id:integer
  * errors:
-    * [id1]:string
-    * [id2]:string
+
+   * [id1]:string
+   * [id2]:string
 
 JSON Payload Example
 --------------------

@@ -46,11 +46,13 @@ Parameters
    * - contact_fields
      - *integer array*
      - It may contain any contact field ID except:
-        * 27 – avg. length of visit
-        * 28 – avg. pages per day
-        * 29 – last mail received
-        * 32 – user status
-        * 33 – contact source
+
+       * 27 – avg. length of visit
+       * 28 – avg. pages per day
+       * 29 – last mail received
+       * 32 – user status
+       * 33 – contact source
+
      - The array must not be empty.
 
 .. list-table:: **Optional parameters**
@@ -76,11 +78,13 @@ Parameters
    * - ftp_settings
      - *object*
      - an object with the following fields must be provided:
-        * *(string)* host
-        * *(integer)* port
-        * *(string)* username
-        * *(string)* password
-        * *(string)* folder – optional
+
+       * *(string)* host
+       * *(integer)* port
+       * *(string)* username
+       * *(string)* password
+       * *(string)* folder – optional
+
      - If *distribution_method* is **local**, then *ftp_settings* is ignored.
 
 

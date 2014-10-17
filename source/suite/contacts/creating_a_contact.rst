@@ -28,21 +28,22 @@ Supported parameters:
  * ``username``
  * ``password``
  * all fields returned by the API **except**:
-    * 0 – interests
-    * 27 – avg. length of visit
-    * 28 – avg. pages per day
-    * 29 – last mail received
-    * 30 – response rate
-    * 32 – user status
-    * 33 – contact source
-    * 34 – contact form
-    * 36 – newsletter
-    * 47 – email valid
-    * 48 – first registration
-    * voucher fields
-    * opt-in
-    * The default opt-in value for new contacts is false.
-    * To enable opt-in, send parameter 31=1.
+
+   * 0 – interests
+   * 27 – avg. length of visit
+   * 28 – avg. pages per day
+   * 29 – last mail received
+   * 30 – response rate
+   * 32 – user status
+   * 33 – contact source
+   * 34 – contact form
+   * 36 – newsletter
+   * 47 – email valid
+   * 48 – first registration
+   * voucher fields
+   * opt-in
+   * The default opt-in value for new contacts is false.
+   * To enable opt-in, send parameter 31=1.
 
 Request Example
 ---------------

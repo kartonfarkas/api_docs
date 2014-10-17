@@ -35,13 +35,16 @@ Required response:
    values for that resource.
  * The JavaScript in the page should listen to messages. See example receiveMessage implementation
    at the end of this section.
-    * When a message with `messageId` == `resource.save` is received, the editor should save the values
-      set up by the customer, and respond with another message to the parent iframe. The message should
-      be of the following format:
-       * messageId: `resource.save`
-       * data
-          * id: <new resource id>
-          * label: <new label to be displayed under the node>
+
+   * When a message with `messageId` == `resource.save` is received, the editor should save the values
+     set up by the customer, and respond with another message to the parent iframe. The message should
+     be of the following format:
+
+     * messageId: `resource.save`
+     * data
+
+       * id: <new resource id>
+       * label: <new label to be displayed under the node>
 
 .. image:: /_static/images/ac_node_custom_dialog_workflow.png
 

@@ -5,9 +5,10 @@ Checks the external ID list provided in the requests against the contact databas
 
  * Returns the list of external ID/internal ID pairs of existing contacts, and a list of errors indexed by the external IDs.
  * Errors are collected if
-    * no contact is found.
-    * more than one contact is found with the same external ID value.
-    * the external ID is invalid.
+
+   * no contact is found.
+   * more than one contact is found with the same external ID value.
+   * the external ID is invalid.
 
 Endpoint
 --------
