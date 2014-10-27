@@ -19,7 +19,7 @@ Parameters
      - Type
      - Description
      - Comments
-   * - emailid
+   * - emailId
      - int
      -
      - For emailId, a valid email ID must be provided.
