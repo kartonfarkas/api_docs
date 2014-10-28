@@ -36,7 +36,7 @@ Parameters
      -
      -
    * - access_level
-     - num
+     - int
      - the id of the access level of the new administrator
      - for possible access level identifiers see administrator/getaccesslevels
    * - interface_language
