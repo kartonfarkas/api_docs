@@ -15,22 +15,22 @@ Parameters
    :header-rows: 1
    :widths: 20 20 40 40
 
-       * - Name
-         - Type
-         - Description
-         - Comments
-       * - <id>
-         - int
-         -
-         -
-       * - key_id
-         - mixed
-         - (field id, “id” or “uid” can be used)
-         -
-       * - key_field
-         - mixed
-         -
-         -
+   * - Name
+     - Type
+     - Description
+     - Comments
+   * - <id>
+     - int
+     -
+     -
+   * - key_id
+     - mixed
+     - (field id, “id” or “uid” can be used)
+     -
+   * - key_field
+     - mixed
+     -
+     -
 
 Result Data Structure
 ---------------------

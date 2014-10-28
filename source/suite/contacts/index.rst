@@ -39,10 +39,12 @@ Working with Contact Lists
    querying_contact_lists.rst
    adding_contacts_to_contact_list.rst
    removing_contacts_from_contact_list.rst
+   list_contacts.rst
 
 
 Working with Filters/Segments
 -----------------------------
+
 .. toctree::
    :maxdepth: 1
 
@@ -51,6 +53,7 @@ Working with Filters/Segments
 
 Working with Contact Sources
 ----------------------------
+
 .. toctree::
    :maxdepth: 1
 

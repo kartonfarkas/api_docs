@@ -11,6 +11,8 @@ Working with Emails
    emails_deleting.rst
    emails_attributes.rst
    emails_get_email_category_lists.rst
+   querying_email_lists.rst
+   update_email_source.rst
 
 Working with Launches
 ---------------------
@@ -22,6 +24,7 @@ Working with Launches
    getting_launches.rst
    launching.rst
    previewing_emails.rst
+   viewing_urls.rst
    sending_test.rst
    viewing_response.rst
 
