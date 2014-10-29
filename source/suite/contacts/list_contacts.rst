@@ -11,7 +11,7 @@ Endpoint
 Parameters
 ----------
 
-.. list-table:: **Required parameters**
+.. list-table:: **Required Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -32,7 +32,7 @@ Example URI
 Result Data Structure
 ---------------------
 
-Normal result:
+Normal Result:
 
 .. code-block:: json
 
@@ -43,7 +43,7 @@ Normal result:
      [985762, 985786, 985654]
    }
 
-Error condition:
+Error Condition:
 
 .. code-block:: json
 
@@ -56,7 +56,7 @@ Error condition:
 Errors
 ------
 
-.. list-table:: Possible error codes
+.. list-table:: Possible Error Codes
 
    * - HTTP Code
      - Reply Code

@@ -11,7 +11,7 @@ Endpoint
 Errors
 ------
 
-.. list-table:: Possible error codes
+.. list-table:: Possible Error Codes
 
    * - HTTP Code
      - Reply Code

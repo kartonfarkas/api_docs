@@ -11,7 +11,7 @@ Endpoint
 Parameters
 ----------
 
-.. list-table:: **Required parameters**
+.. list-table:: **Required Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -37,7 +37,7 @@ Result Data Structure
      - Comments
    * - id
      - integer
-     - The internal identifier of the email
+     - The internal ID of the email
      -
    * - language
      - string
@@ -64,15 +64,15 @@ Result Data Structure
      - The email subject line
      -
    * - email_category
-     - integer
-     - The category identifier of the email
+     - int
+     - The category ID of the email
      - Categories may be retrieved via the :doc:`emails_get_email_category_lists` endpoint
    * - filter
-     - integer
-     - The filter identifier
-     - Available filters can retrieved via the :doc:`../contacts/querying_filters` endpoint
+     - int
+     - The filter ID
+     - Available filters can be retrieved via the :doc:`../contacts/querying_filters` endpoint
    * - contactlist
-     - integer
+     - int
      - The contact list identifier
      - Contact lists may be retrieved via the :doc:`../contacts/querying_contact_lists` endpoint
    * - html_source
@@ -84,15 +84,15 @@ Result Data Structure
      - The text source of the email
      -
    * - status
-     - integer
+     - int
      - See :doc:`statuses`
      -
    * - api_status
-     - integer
+     - int
      - See :doc:`statuses`
      -
    * - api_error
-     - integer
+     - int
      - See :doc:`statuses`
      -
    * - source
@@ -138,7 +138,7 @@ Result Example
 Errors
 ------
 
-.. list-table:: Possible error codes
+.. list-table:: Possible Error Codes
 
    * - HTTP Code
      - Reply Code

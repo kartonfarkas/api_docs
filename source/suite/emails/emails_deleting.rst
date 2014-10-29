@@ -1,7 +1,7 @@
 Deleting E-Mails
 ================
 
-Deletes an email and all related launches (test emails) in eMarketing Suite.
+Deletes an email and all related launches (test emails) in the eMarketing Suite.
 
 Endpoint
 --------
@@ -11,7 +11,7 @@ Endpoint
 Parameters
 ----------
 
-.. list-table:: **Required parameters**
+.. list-table:: **Required Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -40,7 +40,7 @@ Result Example
 Errors
 ------
 
-.. list-table:: Possible error codes
+.. list-table:: Possible Error Codes
 
    * - HTTP Code
      - Reply Code

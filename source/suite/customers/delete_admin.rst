@@ -1,4 +1,4 @@
-Delete admin
+Delete Admin
 ============
 
 .. warning::
@@ -15,7 +15,7 @@ Endpoint
 Parameters
 ----------
 
-.. list-table:: **Required parameters**
+.. list-table:: **Required Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -28,7 +28,7 @@ Parameters
      - the identifier of the administrator who takes over the deleted administrator's rights
      -
 
-Result example
+Result Example
 --------------
 
 .. code-block:: json
@@ -42,7 +42,7 @@ Result example
 Errors
 ------
 
-.. list-table:: Possible error codes
+.. list-table:: Possible Error Codes
 
    * - HTTP Code
      - Reply Code

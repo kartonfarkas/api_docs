@@ -9,7 +9,7 @@ E-Mail Status Codes
 
 The ID is one of the following:
 
-.. list-table:: **Email statuses**
+.. list-table:: **Email Statuses**
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -31,7 +31,7 @@ API Launch Statuses
 
 Emails have one of the following launch statuses:
 
-.. list-table:: **Launch statuses**
+.. list-table:: **Launch Statuses**
    :header-rows: 1
    :widths: 20 20 40 40
 

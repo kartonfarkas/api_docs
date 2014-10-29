@@ -1,4 +1,4 @@
-Administrator list
+Administrator List
 ==================
 
 .. warning::
@@ -12,7 +12,7 @@ Endpoint
 
 ``GET /api/v2/administrator``
 
-Result data structure
+Result Data Structure
 ---------------------
 
 id:integer
@@ -31,7 +31,7 @@ username:string
  * access_level - administrator role id, for possible values see administrator/getaccesslevels
  * interface_language - the language code of the user interface language of the administrator, for possible languages see administrator/getinterfacelanguages
 
-Result example
+Result Example
 --------------
 
 .. code-block:: json

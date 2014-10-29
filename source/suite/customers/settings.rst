@@ -11,7 +11,7 @@ Endpoint
 Result Data Structure
 ---------------------
 
-Normal result:
+Normal Result:
 
 .. code-block:: json
 
@@ -26,7 +26,7 @@ Normal result:
 
 For more information on timezones available in eMarketing Suite, see `here <http://documentation.emarsys.com/?page_id=3291>`_.
 
-Error condition:
+Error Condition:
 
 .. code-block:: json
 
@@ -41,7 +41,7 @@ Errors
 
 The error codes associated with the contact field ID and value can be found in the `check contact internal ID section <http://documentation.emarsys.com/?page_id=176>`_.
 
-.. list-table:: Possible error codes
+.. list-table:: Possible Error Codes
 
    * - HTTP Code
      - Reply Code

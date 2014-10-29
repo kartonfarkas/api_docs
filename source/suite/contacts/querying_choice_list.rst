@@ -11,7 +11,7 @@ Endpoint
 Parameters
 ----------
 
-.. list-table:: **Required parameters**
+.. list-table:: **Required Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -24,7 +24,7 @@ Parameters
      - Field ID, part of the URL
      -
 
-.. list-table:: **Optional parameters**
+.. list-table:: **Optional Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 

@@ -19,15 +19,15 @@ Notes:
  * As a key, id or uid can be used as well.
  * If the same field_ID is provided more than once, the last occurrence is accepted.
  * Multi-choice values must be passed as an array, even if they contain only one choice ID.
- * The expected data format is array if the field is a multi-choice.
+ * The expected data format is an array if the field is a multi-choice.
  * Empty arrays are not allowed.
 
-Supported parameters:
+Supported Parameters:
 
  * ``id``
  * ``username``
  * ``password``
- * all fields returned by the API **except**:
+ * all fields are returned by the API **except**:
 
    * 0 – interests
    * 27 – avg. length of visit
@@ -48,8 +48,8 @@ Supported parameters:
 Request Example
 ---------------
 
-The key_id is ommitted
-^^^^^^^^^^^^^^^^^^^^^^
+The key_id is Omitted
+^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: json
 
@@ -57,7 +57,7 @@ The key_id is ommitted
      "3":"test@example.com",
    }
 
-The key_id is provided
+The key_id is Provided
 ^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: json
@@ -69,7 +69,7 @@ The key_id is provided
      "source_id": "123"
    }
 
-Multichoice field
+Multichoice Field
 ^^^^^^^^^^^^^^^^^
 
 Request containing a multichoice field *405067*:
@@ -103,7 +103,7 @@ Result Example
 Errors
 ------
 
-.. list-table:: Possible error codes
+.. list-table:: Possible Error Codes
 
    * - HTTP Code
      - Reply Code

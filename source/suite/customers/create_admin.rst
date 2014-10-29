@@ -1,4 +1,4 @@
-Create admin
+Create Admin
 ============
 
 .. warning::
@@ -15,7 +15,7 @@ Endpoint
 Parameters
 ----------
 
-.. list-table:: **Required parameters**
+.. list-table:: **Required Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -38,13 +38,13 @@ Parameters
    * - access_level
      - int
      - the id of the access level of the new administrator
-     - for possible access level identifiers see administrator/getaccesslevels
+     - for possible access level identifiers, see administrator/getaccesslevels
    * - interface_language
      - string
      - the language the interface is shown to the new administrator
-     - for possible languages see administrator/getinterfacelanguages
+     - for possible languages, see administrator/getinterfacelanguages
 
-.. list-table:: **Optional parameters**
+.. list-table:: **Optional Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -65,14 +65,14 @@ Parameters
      -
      -
 
-Result data structure
+Result Data Structure
 ---------------------
 
 id: integer, where
 
  * the id is the internal identifier of the administrator
 
-Result example
+Result Example
 --------------
 
 .. code-block:: json
@@ -89,7 +89,7 @@ Result example
 Errors
 ------
 
-.. list-table:: Possible error codes
+.. list-table:: Possible Error Codes
 
    * - HTTP Code
      - Reply Code

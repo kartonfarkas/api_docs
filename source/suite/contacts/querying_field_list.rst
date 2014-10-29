@@ -11,7 +11,7 @@ Endpoint
 Parameters
 ----------
 
-.. list-table:: **Optional parameters**
+.. list-table:: **Optional Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 

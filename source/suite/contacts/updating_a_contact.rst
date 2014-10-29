@@ -11,7 +11,7 @@ Endpoint
 Parameters
 ----------
 
-.. list-table:: **Required parameters**
+.. list-table:: **Required Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -26,14 +26,14 @@ Parameters
 
 See `Create a Contact <http://documentation.emarsys.com/?page_id=166>`_ for further information.
 
-**Optional parameters**
+**Optional Parameters**
 
 See `Create a Contact <http://documentation.emarsys.com/?page_id=166>`_ for further information.
 
 Errors
 ------
 
-.. list-table:: Possible error codes
+.. list-table:: Possible Error Codes
 
    * - HTTP Code
      - Reply Code

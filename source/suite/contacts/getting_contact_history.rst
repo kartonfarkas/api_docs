@@ -11,7 +11,7 @@ Endpoint
 Parameters
 ----------
 
-.. list-table:: **Required parameters**
+.. list-table:: **Required Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -24,7 +24,7 @@ Parameters
      - contacts is an integer array which contains the contact IDs to check.
      -
 
-.. list-table:: **Optional parameters**
+.. list-table:: **Optional Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -90,7 +90,7 @@ Result Example
 Errors
 ------
 
-.. list-table:: Possible error codes
+.. list-table:: Possible Error Codes
 
    * - HTTP Code
      - Reply Code

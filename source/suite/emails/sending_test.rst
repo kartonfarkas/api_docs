@@ -11,7 +11,7 @@ Endpoint
 Parameters
 ----------
 
-.. list-table:: **Required parameters**
+.. list-table:: **Required Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -44,7 +44,7 @@ Parameters
    The number of recipients in any of the parameters must be less than 50. If more than 50 are
    included, only the first 50 will receive the testmail and the rest will be ignored.
 
-.. list-table:: **Optional parameters**
+.. list-table:: **Optional Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -60,8 +60,7 @@ Parameters
 Request Example
 ---------------
 
-
-With multiple email addresses
+With Multiple Email Addresses
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: json
@@ -71,7 +70,7 @@ With multiple email addresses
      "recipientlist": "address1@example.com;address2@example.com"
    }
 
-With a filter id
+With a Filter ID
 ^^^^^^^^^^^^^^^^
 
 .. code-block:: json
@@ -81,7 +80,7 @@ With a filter id
      "filter_id": "123"
    }
 
-With a contact list id
+With a Contact List ID
 ^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: json
@@ -104,7 +103,7 @@ Result Example
 Errors
 ------
 
-.. list-table:: Possible error codes
+.. list-table:: Possible Error Codes
 
    * - HTTP Code
      - Reply Code

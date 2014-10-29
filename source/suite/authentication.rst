@@ -5,7 +5,7 @@ Every call to the API must be authenticated. This must be done by adding a custo
 This page contains the detailed description on how to create valid headers to use with the eMarketing
 Suite API.
 
-X-WSSE format
+X-WSSE Format
 -------------
 
 The header has the following format (it is one HTTP header line, we just broke it to multiple lines for readability):
@@ -54,7 +54,7 @@ Please note that you can use any timezone you want, but it has to be indicated i
 an example: `2014-03-20T12:51:45+01:00`. We still recommend using UTC time as this is the global Emarsys
 standard.
 
-**Computing the password digest**
+**Computing the Password Digest**
 
 Computing the password digest takes 5 simple steps.
 
@@ -67,7 +67,7 @@ Computing the password digest takes 5 simple steps.
     sample codes below for more information.
  5. Apply a BASE64 encoding to the resulted hash to get the final PasswordDigest value
 
-**Sample codes**
+**Sample Codes**
 
 Sample codes are available in these languages:
 

@@ -1,4 +1,4 @@
-Get interface languages
+Get Interface Languages
 =======================
 
 .. warning::
@@ -12,14 +12,14 @@ Endpoint
 
 ``GET /api/v2/administrator/getinterfacelanguages``
 
-Result data structure
+Result Data Structure
 ---------------------
 
 string, string, ..., where
 
  * the strings are the two-letter identifiers of the languages
 
-Result example
+Result Example
 --------------
 
 .. code-block:: json

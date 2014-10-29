@@ -1,4 +1,4 @@
-Updating multiple contacts
+Updating Multiple Contacts
 ==========================
 
 Updates multiple contacts/recipients at once.
@@ -11,7 +11,7 @@ Endpoint
 Parameters
 ----------
 
-.. list-table:: **Required parameters**
+.. list-table:: **Required Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -32,7 +32,7 @@ Parameters
 
 See `Batch Create Contact <http://documentation.emarsys.com/?page_id=174>`_ for further information.
 
-.. list-table:: **Optional parameters**
+.. list-table:: **Optional Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -106,7 +106,7 @@ Result Example
 Errors
 ------
 
-.. list-table:: Possible error codes
+.. list-table:: Possible Error Codes
 
    * - HTTP Code
      - Reply Code

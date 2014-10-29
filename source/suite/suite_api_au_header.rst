@@ -50,7 +50,7 @@ This field contains the current UTC, GMT, ZULU timestamp in ISO8601 format.
 
 Please note that you can use any timezone you want, but it has to be indicated in the timestamp. Here is an example: 2014-03-20T12:51:45+01:00. We still recommend using UTC time as this is the global Emarsys standard.
 
-Computing the password digest
+Computing the Password Digest
 -----------------------------
 
 Computing the password digest takes 5 simple steps.
@@ -64,7 +64,7 @@ Computing the password digest takes 5 simple steps.
 
  * Apply a BASE64 encoding to the resulted hash to get the final PasswordDigest value
 
-Sample codes
+Sample Codes
 ------------
 
 Sample codes are available in 4 different languages.

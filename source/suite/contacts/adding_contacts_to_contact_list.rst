@@ -11,7 +11,7 @@ Endpoint
 Parameters
 ----------
 
-.. list-table:: **Required parameters**
+.. list-table:: **Required Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -20,7 +20,7 @@ Parameters
      - Description
      - Comments
    * - list_id
-     - integer
+     - int
      - The id of the contact list to extend
      - (part of the URI)
    * - key_id
@@ -63,7 +63,7 @@ Simple Values
      ]
    }
 
-Multichoice values
+Multichoice Values
 ^^^^^^^^^^^^^^^^^^
 
 .. code-block:: json
@@ -102,7 +102,7 @@ Result Example
 Errors
 ------
 
-.. list-table:: Possible error codes
+.. list-table:: Possible Error Codes
 
    * - HTTP Code
      - Reply Code
@@ -119,24 +119,24 @@ Errors
    * - 400
      - 3005
      - Contact list with the requested name already exists.
-     - A contact list with the requested name already exists.
+     -
    * - 400
      - 3004
      - Description contains invalid character(s).
-     - The provided description contains characters which are not allowed.
+     -
    * - 400
      - 3003
      - Invalid datatype for the list of external ids. Array expected.
-     - The provided data for the list of external IDs is not an array.
+     -
    * - 400
      - 3002
      - The list of external ids exceeds the maximum size.
-     - Too many contacts were requested; the number of contacts is limited to 10,000.
+     - the number of contacts is limited to 10,000.
    * - 400
      - 3004
      - Invalid contact list id: [id]
-     - The provided contact list ID has an invalid format or does not exist.
+     - the list ID has an invalid format or it does not exist.
    * - 400
      - 2008
      - No contact found with the external id: [field_id]
-     - No contact with the provided key field value exists in the database.
+     -

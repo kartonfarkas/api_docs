@@ -11,7 +11,7 @@ Endpoint
 Parameters
 ----------
 
-.. list-table:: **Required parameters**
+.. list-table:: **Required Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -22,18 +22,18 @@ Parameters
    * - language
      - string
      - The language of the email campaign.
-     - The short, 2 letter language code, like "en".
+     - short, 2 letter language code, like "en"
    * - name
      - string
      - The title of the email.
      -
    * - fromemail
      - string
-     - The sender email address
+     - The email address of the sender
      -
    * - fromname
      - string
-     - The sender name
+     - The name of the sender
      -
    * - subject
      - string
@@ -45,11 +45,11 @@ Parameters
      -
    * - filter
      - integer
-     - The filter id for the email
+     - The filter ID for the email
      -
    * - contactlist
      - integer
-     - The contact list id for the email
+     - The contact list ID for the email
      -
    * - html_source
      - string
@@ -62,10 +62,10 @@ Parameters
 
 .. note::
 
-   For filter and contactlist, at least one property must be sent and must not be 0 (zero).
+   For filter and contactlist, at least one property must be sent and it must not be 0 (zero).
    If both are sent, only one must be different from 0 (zero).
 
-.. list-table:: **Optional parameters**
+.. list-table:: **Optional Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -74,17 +74,17 @@ Parameters
      - Description
      - Comments
    * - unsubscribe
-     - integer
+     - int
      - if the email contains a link to unsubscribe
      - * 0: false
        * 1: true
    * - browse
-     - integer
+     - int
      - if the email contains a link to the online version
      - * 0: false
        * 1: true
    * - text_only
-     - integer
+     - int
      - The text_only parameter will be used only if both HTML and TEXT sources are available
      - * 0: false
        * 1: true
@@ -132,7 +132,7 @@ Result Example
 Errors
 ------
 
-.. list-table:: Possible error codes
+.. list-table:: Possible Error Codes
 
    * - HTTP Code
      - Reply Code
@@ -153,7 +153,7 @@ Errors
    * - 400
      - 10001
      - Invalid language
-     - The provided language code is not supported. For a list of supported languages, see the list of language codes.
+     - For a list of supported languages, see the list of language codes.
    * - 400
      - 10001
      - Invalid value: contactlist

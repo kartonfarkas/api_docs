@@ -11,7 +11,7 @@ Endpoint
 Parameters
 ----------
 
-.. list-table:: **Required parameters**
+.. list-table:: **Required Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -32,7 +32,7 @@ Parameters
      -
      - the maximum value is 10,000 contacts.
 
-.. list-table:: **Optional parameters**
+.. list-table:: **Optional Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -73,7 +73,7 @@ JSON Payload Example
      ]
    }
 
-**Multichoice values**
+**Multichoice Values**
 
 .. code-block:: json
 
@@ -113,7 +113,7 @@ Result Example
 Errors
 ------
 
-.. list-table:: Possible error codes
+.. list-table:: Possible Error Codes
 
    * - HTTP Code
      - Reply Code

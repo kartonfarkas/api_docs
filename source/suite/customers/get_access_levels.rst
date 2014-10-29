@@ -1,4 +1,4 @@
-Get access levels
+Get Access Levels
 =================
 
 .. warning::
@@ -12,7 +12,7 @@ Endpoint
 
 ``GET /api/v2/administrator/getaccesslevels``
 
-Result data structure
+Result Data Structure
 ---------------------
 
 id:integer
@@ -20,7 +20,7 @@ name:string
 id:integer
 name:string
 
-Result example
+Result Example
 --------------
 
 .. code-block:: json
