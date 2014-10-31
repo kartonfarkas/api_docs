@@ -44,7 +44,7 @@ Result Example
      "data":["749678081","674539823"]
    }
 
-.. note::
+.. warning::
 
    The values of data are internal IDs of the contacts.
 
