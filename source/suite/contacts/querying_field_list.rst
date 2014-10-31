@@ -6,7 +6,7 @@ Returns a list of fields (including custom fields and vouchers) which can be use
 Endpoint
 --------
 
-``GET /api/v2/field``
+``GET /api/v2/field/translate/<translate_id>``
 
 Parameters
 ----------
@@ -19,10 +19,15 @@ Parameters
      - Type
      - Values
      - Comments
-   * - /translate/<id>
+   * - <translate_id>
      - string
-     - <id> can be: en, de, ru, …
+     - can be: en, de, ru, …
      - For a full list of supported languages, see the `list of language codes. <http://documentation.emarsys.com/?page_id=424>`_
+
+URI Example
+-----------
+
+/api/v2/field/translate/en
 
 Result Data Structure
 ---------------------

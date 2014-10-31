@@ -24,7 +24,7 @@ Parameters
      - the ID of the contact list
      -
 
-Example URI
+URI Example
 -----------
 
 /api/v2/contactlist/123456
