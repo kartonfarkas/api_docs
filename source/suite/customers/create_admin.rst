@@ -68,9 +68,9 @@ Parameters
 Result Data Structure
 ---------------------
 
-id: integer, where
+ * id: integer, where
 
- * the id is the internal identifier of the administrator
+   * the id is the internal identifier of the administrator
 
 Result Example
 --------------
@@ -90,6 +90,7 @@ Errors
 ------
 
 .. list-table:: Possible Error Codes
+   :header-rows: 1
 
    * - HTTP Code
      - Reply Code

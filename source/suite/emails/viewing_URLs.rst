@@ -70,6 +70,7 @@ Errors
 The error codes associated with the contact field ID and value can be found in the `check contact internal ID section <http://documentation.emarsys.com/?page_id=176>`_.
 
 .. list-table:: Possible Error Codes
+   :header-rows: 1
 
    * - HTTP Code
      - Reply Code

@@ -27,6 +27,7 @@ API Launch Statuses
 Emails have one of the following launch statuses:
 
 .. list-table:: E-Mail Status Codes
+   :header-rows: 1
 
    * - Status
      - Description

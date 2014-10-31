@@ -15,21 +15,21 @@ Endpoint
 Result Data Structure
 ---------------------
 
-id:integer
-username:string
-email:string
-access_level:integer
-interface_language:string
-first_name:string
-last_name:string
-position:string
-id:integer
-username:string
-..., where
+ * id:integer
+ * username:string
+ * email:string
+ * access_level:integer
+ * interface_language:string
+ * first_name:string
+ * last_name:string
+ * position:string
+ * id:integer
+ * username:string
+   ..., where
 
- * id - the internal identifier of the administrator
- * access_level - administrator role id, for possible values see administrator/getaccesslevels
- * interface_language - the language code of the user interface language of the administrator, for possible languages see administrator/getinterfacelanguages
+   * id - the internal identifier of the administrator
+   * access_level - administrator role id, for possible values see administrator/getaccesslevels
+   * interface_language - the language code of the user interface language of the administrator, for possible languages see administrator/getinterfacelanguages
 
 Result Example
 --------------

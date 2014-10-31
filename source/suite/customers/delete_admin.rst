@@ -43,6 +43,7 @@ Errors
 ------
 
 .. list-table:: Possible Error Codes
+   :header-rows: 1
 
    * - HTTP Code
      - Reply Code
