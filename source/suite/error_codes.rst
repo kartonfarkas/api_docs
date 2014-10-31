@@ -8,7 +8,7 @@ For information on the error codes used by the API, please refer to the document
 
 If a resource is called with an unsupported method, the following error is returned:
 
-.. list-table:: Error Code
+.. list-table:: **Error Code**
 
    * - HTTP Response Code
      - Error Message
