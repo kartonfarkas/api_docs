@@ -5,7 +5,7 @@ Results in a list of contacts after applying the segment.
 
 .. note::
 
-This function does not answer immediately.
+   This function does not answer immediately.
 
 Endpoint
 --------
@@ -46,7 +46,7 @@ Result Example
 
 .. note::
 
-The values of data are internal IDs of the contacts.
+   The values of data are internal IDs of the contacts.
 
 Errors
 ------
