@@ -3,6 +3,10 @@ List Contacts in a Segment
 
 Results in a list of contacts after applying the segment.
 
+.. note::
+
+This function does not answer immediately.
+
 Endpoint
 --------
 

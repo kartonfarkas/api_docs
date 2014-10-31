@@ -21,8 +21,8 @@ Parameters
      - Comments
    * - list_id
      - int
-     - The id of the contact list to extend
-     - (part of the URI)
+     - The id of the contact list to extend, part of the URI
+     -
    * - key_id
      - mixed
      - The key identifies the contacts
