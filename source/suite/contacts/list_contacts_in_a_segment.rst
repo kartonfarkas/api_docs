@@ -3,7 +3,7 @@ List Contacts in a Segment
 
 Results in a list of contacts after applying the segment.
 
-.. note::
+.. warning::
 
    This function does not answer immediately.
 
@@ -44,7 +44,7 @@ Result Example
      "data":["749678081","674539823"]
    }
 
-.. warning::
+.. note::
 
    The values of data are internal IDs of the contacts.
 
