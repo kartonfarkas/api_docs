@@ -9,6 +9,7 @@ For information on the error codes used by the API, please refer to the document
 If a resource is called with an unsupported method, the following error is returned:
 
 .. list-table:: **Error Code**
+   :header-rows: 1
 
    * - HTTP Response Code
      - Error Message
@@ -24,7 +25,6 @@ Launching an email might produce one of the following launch errors:
 
 .. list-table:: **Launch Errors**
    :header-rows: 1
-   :widths: 20 20 40 40
 
    * - api_error
      - Description
