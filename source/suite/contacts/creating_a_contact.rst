@@ -155,11 +155,11 @@ Errors
      - An array value was provided for a non-multichoice field.
    * - 400
      - 2007
-     - No choice provided for field id: [id].
+     - No choice provided for field id: [id]
      - An empty array was provided in the request for a multichoice field.
    * - 400
      - 2008
-     - No contact found with the specified external ID.
+     - No contact found with the specified external ID
      - There is no match for the specified ID.
    * - 400
      - 2009
@@ -167,7 +167,7 @@ Errors
      - More than one contact with the provided key field value exists in the database; the specified key field is not unique.
    * - 400
      - 2010
-     - More than one contact found with the specified external ID.
+     - More than one contact found with the specified external ID
      - There is more than one contact selected.
    * - 400
      - 2013

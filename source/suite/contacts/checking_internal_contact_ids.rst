@@ -21,11 +21,11 @@ Parameters
      - Comments
    * - key_field_id
      - mixed
-     - the ID of the key field or ‘ID’ if internal ID used.
+     - the ID of the key field or ‘ID’ if internal ID used
      -
    * - key_field_value
      - field dependent
-     - the value of the key field.
+     - the value of the key field
      -
 
 Result Data Structure
@@ -78,9 +78,9 @@ Errors
      - The value of the key field has not been provided or is empty.
    * - 400
      - 2008
-     - No contact found with the specified external ID.
+     - No contact found with the specified external ID
      - There is no match for the specified ID.
    * - 400
      - 2010
-     - More than one contact found with the specified external ID.
+     - More than one contact found with the specified external ID
      - There is more than one contact selected.

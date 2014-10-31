@@ -21,16 +21,16 @@ Parameters
      - Comments
    * - key_id
      - mixed
-     -
-     - the field ID, **id** or **uid** can be used.
+     - the field ID
+     - **id** or **uid** can be used.
    * - name
      - string
-     -
+     - the name of the contact list
      -
    * - external_ids
-     - [id1],[id2],…
-     -
-     - the maximum value is 10,000 contacts.
+     - array
+     - the list of contact IDs to be inserted
+     - The maximum value is 10,000 contacts.
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
@@ -138,7 +138,7 @@ Errors
    * - 400
      - 9005
      - Parameters name and application_type are required.
-     - Please and both name and type.
+     - Please add both name and type.
    * - 400
      - 9006
      - This type of field cannot be created via API.

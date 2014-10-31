@@ -21,15 +21,15 @@ Parameters
      - Comments
    * - list_id
      - int
-     - The id of the contact list to extend, part of the URI
+     - the ID of the contact list to extend, part of the URI
      -
    * - key_id
      - mixed
-     - The key identifies the contacts
+     - the key identifies the contacts
      - field ID, id or uid can be used
    * - external_ids
      - array
-     - The list of contact IDs to be inserted
+     - the list of contact IDs to be inserted
      -
 
 Result Data Structure
@@ -138,5 +138,5 @@ Errors
      - the list ID has an invalid format or it does not exist.
    * - 400
      - 2008
-     - No contact found with the external ID: [field_id]
+     - No contact found with the external ID: [field_id].
      -
