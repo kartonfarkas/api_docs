@@ -1,5 +1,5 @@
-Getting Delivery Status
-=======================
+Querying Delivery Status
+========================
 
 Returns the delivery status of an email.
 
@@ -92,7 +92,7 @@ Errors
    * - 400
      - 10001
      - Missing parameter: [parameter]
-     - The required parameter [parameter] is missing.
+     -
    * - 400
      - 10001
      - Invalid data format for [parameter]. Integer expected
@@ -116,4 +116,4 @@ Errors
    * - 400
      - 6014
      - Launch ambiguous
-     - Multiple launch found for the given email. Please specify it in the launchId parameter.
+     - Multiple launch was found for the given email. Please specify it in the launchId parameter.

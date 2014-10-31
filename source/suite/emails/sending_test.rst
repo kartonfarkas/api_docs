@@ -20,26 +20,26 @@ Parameters
      - Description
      - Comments
    * - id
-     - integer
-     - The email's id
-     - (Part of the URL)
+     - int
+     - The email's id, part of the URL
+     -
    * - recipientlist
      - string
      - Recipient email addresses
      - Can contain multiple email addresses separated by ‘;’
    * - filter_id
-     - integer
-     - The id of the filter the emails will be sent to
+     - int
+     - The ID of the filter the emails will be sent to
      -
    * - contactlist_id
-     - integer
-     - The id of the contact list the emails will be sent to
+     - int
+     - The ID of the contact list the emails will be sent to
      -
 
 .. warning::
 
-   One, and only one, of the three required parameters ``recipientlist``, ``filter_id`` and
-   ``contactlist_id`` must be sent.
+   One and only one of the three required parameters (``recipientlist``, ``filter_id`` and
+   ``contactlist_id``) must be sent.
 
    The number of recipients in any of the parameters must be less than 50. If more than 50 are
    included, only the first 50 will receive the testmail and the rest will be ignored.

@@ -44,7 +44,7 @@ See document “Suite Field IDs and Values” for further information.
      - Type
      - Values
      - Comments
-   * - source_id = [source_id]
+   * - source_id
      -
      - For the source_id, pass the value for the appropriate source (we are using 2 in the examples below).
      - If more than one contact with the requested external ID is found, an error message is returned.
@@ -65,7 +65,7 @@ Result Data Structure
 Result Example
 --------------
 
-**Success**
+Success:
 
 .. code-block:: json
 
@@ -78,7 +78,7 @@ Result Example
      }
    }
 
-**Error**
+Error:
 
 .. code-block:: json
 
@@ -134,11 +134,11 @@ Errors
      - Description
    * - 400
      - 2006
-     - Empty field id for value: [value]
+     - Empty field ID for value: [value]
      - A value has been provided without defining its field.
    * - 400
      - 2004
-     - Invalid key field id: [id]
+     - Invalid key field ID: [id]
      - The provided field ID does not exist.
    * - 400
      - 2005
@@ -150,13 +150,13 @@ Errors
      - The value of the key field was provided but the value is invalid. The [error message] contains information on the error.
    * - 400
      - 2007
-     - Invalid field id: [id]
+     - Invalid field ID: [id]
      - The provided field ID does not exist.
    * - 400
      - 2010
-     - More contacts found with the external id [id]
+     - More contacts found with the external ID [id]
      - The provided external ID was not unique.
    * - 400
      - 2013
-     - Invalid source id: [id]
+     - Invalid source ID: [id]
      - The customer has no source with the requested ID.

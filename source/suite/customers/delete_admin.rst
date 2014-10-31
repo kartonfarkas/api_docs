@@ -78,8 +78,8 @@ Errors
      -
    * - 400
      - 8014
-     - Invalid successor administrator id: <id>
-     - Administrator id should be an integer.
+     - Invalid successor administrator ID: <id>
+     - Administrator ID should be an integer.
    * - 500
      - 1003
      - Database connection error

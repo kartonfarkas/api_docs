@@ -37,11 +37,11 @@ Parameters
      -
    * - access_level
      - int
-     - the id of the access level of the new administrator
+     - the ID of the access level of the new administrator
      - for possible access level identifiers, see administrator/getaccesslevels
    * - interface_language
      - string
-     - the language the interface is shown to the new administrator
+     - the language of the interface is shown to the new administrator
      - for possible languages, see administrator/getinterfacelanguages
 
 .. list-table:: **Optional Parameters**
@@ -106,11 +106,11 @@ Errors
    * - 400
      - 8003
      - Invalid access level
-     - For possible access level identifiers see administrator/getaccesslevels
+     - For possible access level identifiers, see administrator/getaccesslevels
    * - 400
      - 8004
      - Invalid interface language code
-     - For possible languages see administrator/getinterfacelanguages
+     - For possible languages, see administrator/getinterfacelanguages
    * - 400
      - 8005
      - Invalid email
@@ -122,7 +122,7 @@ Errors
    * - 400
      - 8006
      - Too weak password
-     - The password should be at least 8 character long, and should contain both letters and numbers.
+     - The password should be at least 8 character long and should contain both letters and numbers.
    * - 500
      - 1003
      - Database connection error

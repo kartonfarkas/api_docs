@@ -29,7 +29,7 @@ Parameters
      - field ID, id or uid can be used
    * - external_ids
      - array
-     - The list of contact ids to be inserted
+     - The list of contact IDs to be inserted
      -
 
 Result Data Structure
@@ -126,11 +126,11 @@ Errors
      -
    * - 400
      - 3003
-     - Invalid datatype for the list of external ids. Array expected.
+     - Invalid datatype for the list of external IDs. Array expected.
      -
    * - 400
      - 3002
-     - The list of external ids exceeds the maximum size.
+     - The list of external IDs exceeds the maximum size.
      - the number of contacts is limited to 10,000.
    * - 400
      - 3004
@@ -138,5 +138,5 @@ Errors
      - the list ID has an invalid format or it does not exist.
    * - 400
      - 2008
-     - No contact found with the external id: [field_id]
+     - No contact found with the external ID: [field_id]
      -

@@ -20,7 +20,7 @@ Errors
    * - 400
      - 7002
      - The requested external source does not exist.
-     - No source exists with the requested ID.
+     -
    * - 500
      - 7003
      - Database connection error.

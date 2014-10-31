@@ -45,7 +45,7 @@ Errors
    * - 400
      - 7001
      - An external event with the requested name already exists.
-     - This account already has an existing event with the requested name.
+     -
    * - 500
      - 7003
      - Database connection error.

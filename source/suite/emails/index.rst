@@ -20,7 +20,7 @@ Working with Launches
 .. toctree::
    :maxdepth: 1
 
-   getting_delivery.rst
+   querying_delivery.rst
    getting_launches.rst
    launching.rst
    previewing_emails.rst

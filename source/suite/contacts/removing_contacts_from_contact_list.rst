@@ -21,12 +21,12 @@ Parameters
      - Comments
    * - <list_id>
      - int
-     - Part of the URI
+     - the ID of the contact list, part of the URI
      - The maximum value is 10,000 contacts to be deleted with each request.
    * - key_id
      - mixed
-     -
-     -  field ID, **id** or **uid** can be used.
+     - field ID
+     - **id** or **uid** can be used.
    * - external_ids
      - [id1],[id2],…
      -
@@ -114,24 +114,24 @@ Errors
    * - 400
      - 3004
      - List name contains invalid character(s).
-     - The provided name contains characters which are not allowed.
+     -
    * - 400
      - 3005
      - Contact list with the requested name already exists.
-     - A contact list with the requested name already exists.
+     -
    * - 400
      - 3004
      - Description contains invalid character(s).
-     - The provided description contains characters which are not allowed.
+     -
    * - 400
      - 3003
-     - Invalid datatype for the list of external ids. Array expected.
-     - The provided data for the list of external IDs is not an array.
+     - Invalid datatype for the list of external IDs. Array expected.
+     -
    * - 400
      - 3002
-     - The list of external ids exceeds the maximum size.
+     - The list of external IDs exceeds the maximum size.
      - Too many contacts were requested; the number of contacts is limited to 10,000.
    * - 400
      - 3004
-     - Invalid contact list id: [id]
+     - Invalid contact list ID: [id]
      - The provided contact list ID has an invalid format or does not exist.

@@ -19,9 +19,9 @@ Parameters
      - Type
      - Values
      - Comments
-   * - integer <folder_id>
+   * - <folder_id>
+     - int
      - part of the URI
-     -
      - folder_id is the ID of an already existing folder in the Media Database. If it is provided, its subfolders are returned.
 
 Result Data Structure

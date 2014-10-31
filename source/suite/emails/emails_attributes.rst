@@ -20,9 +20,9 @@ Parameters
      - Description
      - Comments
    * - id
-     - integer
-     - The id of the email
-     - Part of the request URI
+     - int
+     - The ID of the email, part of the request URI
+     -
 
 Result Data Structure
 ---------------------
@@ -36,7 +36,7 @@ Result Data Structure
      - Description
      - Comments
    * - id
-     - integer
+     - int
      - The internal ID of the email
      -
    * - language
@@ -53,15 +53,15 @@ Result Data Structure
      -
    * - fromemail
      - string
-     - The sender email address
+     - The email address of the sender
      -
    * - fromname
      - string
-     - The sender name
+     - The name of the sender
      -
    * - subject
      - string
-     - The email subject line
+     - The subject line of the email
      -
    * - email_category
      - int
@@ -73,7 +73,7 @@ Result Data Structure
      - Available filters can be retrieved via the :doc:`../contacts/querying_filters` endpoint
    * - contactlist
      - int
-     - The contact list identifier
+     - The contact list ID
      - Contact lists may be retrieved via the :doc:`../contacts/querying_contact_lists` endpoint
    * - html_source
      - string
@@ -179,7 +179,7 @@ Errors
    * - 400
      - 10001
      - Subject must not be empty
-     - The subject line must contain content.
+     -
    * - 400
      - 10001
      - Invalid value: email_category

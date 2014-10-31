@@ -41,11 +41,11 @@ Errors
      - Description
    * - 400
      - 2010
-     - More contacts found with the external id: [field_id] – [value]
+     - More contacts found with the external ID: [field_id] – [value]
      - More than one contact with the provided key field value exists in the database. A unique external key must be provided.
    * - 400
      - 2008
-     - No contact found with the external id: [field_id] – [value]
+     - No contact found with the external ID: [field_id] – [value]
      - No contact with the provided key field value exists in the database. The contact must be created; see Create a Contact.
    * - 400
      - 2004

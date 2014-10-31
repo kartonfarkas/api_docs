@@ -140,4 +140,4 @@ Errors
    * - 400
      - 10001
      - Max. number of contacts: 1000
-     - The number of contacts is limited to 1,000.
+     -

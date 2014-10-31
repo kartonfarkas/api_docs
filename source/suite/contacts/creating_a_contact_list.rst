@@ -42,7 +42,7 @@ Parameters
      - Comments
    * - description
      - string
-     -
+     - additional information about the contact list
      -
 
 Result Data Structure

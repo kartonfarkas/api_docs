@@ -32,14 +32,11 @@ Parameters
      - Type
      - Values
      - Comments
-   * - startDate
+   * - startDate, endDate
      - date
      - can be used to filter the launch date of emails.
      -
-   * - endDate
-     - date
-     - can be used to filter the launch date of emails.
-     -
+
 
 Result Data Structure
 ---------------------
@@ -111,4 +108,4 @@ Errors
    * - 400
      - 10001
      - Max. number of contacts: 1000
-     - The number of contacts is limited to 1,000.
+     -

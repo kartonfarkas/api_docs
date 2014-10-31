@@ -1,5 +1,5 @@
-Get Access Levels
-=================
+Querying Access Levels
+======================
 
 .. warning::
 

@@ -8,11 +8,6 @@ Endpoint
 
 ``GET /api/v2/condition``
 
-Parameters
-----------
-
-None.
-
 Result Data Structure
 ---------------------
 

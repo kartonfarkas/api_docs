@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - key_id = [field_id]
      -
-     - field_id] = [field_value]
+     - [field_id] = [field_value]
        [field_id] = [field_value]
        …
        [field_id] = [field_value]

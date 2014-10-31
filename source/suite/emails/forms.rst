@@ -1,5 +1,5 @@
-Getting Customer Forms
-======================
+Querying Customer Forms
+=======================
 
 Returns a list of available forms.
 

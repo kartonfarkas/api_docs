@@ -19,9 +19,9 @@ Parameters
      - Type
      - Values
      - Comments
-   * - key_id = [field_id]
+   * - key_id
      -
-     -
+     - [field_id]
      -
    * - [field_id] = [field_value]
      -
@@ -122,8 +122,8 @@ Errors
    * - 400
      - 1000
      - The request exceeded the maximum batch size of 1,000
-     - Too many contacts were requested; contact creation is limited to 1,000.
+     - Too many contacts were requested.
    * - 400
      - 2004
-     - Can not use internal ID as key on contact creation.
-     - You can not specify the internal ID field as key for a new contact.
+     - Cannot use internal ID as key on contact creation.
+     -

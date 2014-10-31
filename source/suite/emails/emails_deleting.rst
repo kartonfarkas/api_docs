@@ -20,8 +20,8 @@ Parameters
      - Description
      - Comments
    * - emailId
-     - integer
-     - The id of the email to be deleted
+     - int
+     - The ID of the email to be deleted
      -
 
 Result Example
@@ -53,13 +53,13 @@ Errors
    * - 400
      - 6020
      - Error: could not delete the email.
-     - The email cannot be deleted.
+     -
    * - 400
      - 6021
-     - In order to delete an event-based email campaign you have to deactivate it first.
+     - In order to delete an event-based email campaign, you have to deactivate it first.
      - The selected email is an active event-based email; active event-based emails cannot be deleted.
    * - 400
      - 6022
-     - You cannot delete this email because it is being used in the following programs: <program names>
-     - If an email is being used by an active program, you cannot delete it. You must either end the
+     - You cannot delete this email because it is used by the following programs: <program names>
+     - If an email is used by an active program, you cannot delete it. You must either end the
        program or change the email.

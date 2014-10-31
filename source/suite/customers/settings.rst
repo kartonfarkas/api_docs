@@ -1,7 +1,7 @@
-Get Settings of Customer
-========================
+Querying Customer Settings
+==========================
 
-Gets the settings of the customer.
+Returns the settings of the customer.
 
 Endpoint
 --------
@@ -50,5 +50,5 @@ The error codes associated with the contact field ID and value can be found in t
    * - 500
      - 1003
      - Internal error
-     - An internal error occurred
+     -
 

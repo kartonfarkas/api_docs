@@ -21,8 +21,8 @@ Parameters
      - Comments
    * - key_id
      - mixed
-     -
-     - the field ID, **id** or **uid** can be used.
+     - the field ID
+     - **id** or **uid** can be used.
    * - name
      - string
      - the name of the new field

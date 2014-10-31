@@ -1,5 +1,5 @@
-Get Interface Languages
-=======================
+Querying Interface Languages
+============================
 
 .. warning::
 

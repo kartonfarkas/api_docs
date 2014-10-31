@@ -1,7 +1,7 @@
 Creating E-Mails
 ================
 
-Creates an email in eMarketing Suite and assigns it the respective parameters.
+Creates an email in eMarketing Suite and assigns the respective parameters to it.
 
 Endpoint
 --------
@@ -44,11 +44,11 @@ Parameters
      - The category (see :doc:`emails_get_email_category_lists`)
      -
    * - filter
-     - integer
+     - int
      - The filter ID for the email
      -
    * - contactlist
-     - integer
+     - int
      - The contact list ID for the email
      -
    * - html_source

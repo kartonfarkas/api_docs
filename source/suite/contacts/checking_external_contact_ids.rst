@@ -1,4 +1,4 @@
-Checking External Contact Ids
+Checking External Contact IDs
 =============================
 
 Checks the external ID list provided in the requests against the contact database.
@@ -28,12 +28,12 @@ Parameters
      - Comments
    * - key_id
      - mixed
-     -
+     - attribute via which the contact can be identified
      -
    * - external_ids
-     - [id1],[id2],…
-     -
-     - id can be integer, string or array depending on the key field type. For example, for custom numeric fields an integer is appropriate, for a multi-choice field an array must be provided, etc.).
+     - mixed
+     - [id1],[id2],…, values specified in the key_id for those contacts whose internal IDs the customer wants to receive
+     - ID can be integer, string or array depending on the key field type. For example, for custom numeric fields an integer is appropriate, for a multi-choice field an array must be provided, etc..
 
 Result Data Structure
 ---------------------
