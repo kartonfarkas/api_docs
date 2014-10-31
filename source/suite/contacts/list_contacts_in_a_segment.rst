@@ -40,6 +40,10 @@ Result Example
      "data":["749678081","674539823"]
    }
 
+.. note::
+
+The values of data are internal IDs of the contacts.
+
 Errors
 ------
 
@@ -52,7 +56,7 @@ Errors
    * - 202
      - 10001
      - The segment is currently evaluated.
-     - List again until you see the result.
+     - Use this resource again until you see the result.
    * - 404
      - 10002
      - The segment specified does not exist.
