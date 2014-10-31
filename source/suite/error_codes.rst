@@ -4,13 +4,18 @@ Error Codes
 General Error Codes
 -------------------
 
-For information on the error codes as used by the API, please refer to the documentation of the individual interfaces.
+For information on the error codes used by the API, please refer to the documentation of the individual interfaces.
 
 If a resource is called with an unsupported method, the following error is returned:
 
-HTTP response code: 501 Not implemented
-Error message: This feature has not been implemented yet.
-Problem: Interface was called with an unsupported method.
+.. list-table:: Error Code
+
+   * - HTTP Response Code
+     - Error Message
+     - Problem
+   * - 501 Not implemented
+     - This feature has not been implemented yet.
+     - Interface was called with an unsupported method.
 
 API Launch Error Codes
 ----------------------
