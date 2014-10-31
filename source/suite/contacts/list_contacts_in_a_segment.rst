@@ -1,0 +1,66 @@
+List Contacts in a Segment
+==========================
+
+Results in a list of contacts after applying the segment.
+
+Endpoint
+--------
+
+``GET /api/v2/filter/<segment_id>``
+
+Parameters
+----------
+
+.. list-table:: **Required Parameters**
+   :header-rows: 1
+   :widths: 20 20 40 40
+
+   * - Name
+     - Type
+     - Description
+     - Comments
+   * - <segment_id>
+     - int
+     - the ID of the segment to be evaluated
+     -
+
+URI Example
+-----------
+
+/api/v2/filter/100011553
+
+Result Example
+--------------
+
+.. code-block:: json
+
+   {
+     "replyCode":0,
+     "replyText":"OK",
+     "data":["749678081","674539823"]
+   }
+
+Errors
+------
+
+.. list-table:: Possible Error Codes
+
+   * - HTTP Code
+     - Reply Code
+     - Message
+     - Description
+   * - 202
+     - 10001
+     - The segment is currently evaluated.
+     - List again until you see the result.
+   * - 404
+     - 10002
+     - The segment specified does not exist.
+     -
+   * - 423
+     - 10003
+     - The admin already running a segment. Please wait until it is finished.
+     - You can run only one segment at a particular time.
+
+
+
