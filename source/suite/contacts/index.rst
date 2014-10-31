@@ -40,6 +40,7 @@ Working with Contact Lists
    adding_contacts_to_contact_list.rst
    removing_contacts_from_contact_list.rst
    list_contacts.rst
+   list_contacts_in_a_segment.rst
 
 
 Working with Filters/Segments
