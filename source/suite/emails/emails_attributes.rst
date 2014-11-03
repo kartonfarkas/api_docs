@@ -70,11 +70,11 @@ Result Data Structure
    * - filter
      - int
      - The filter ID
-     - Available filters can be retrieved via the :doc:`../contacts/querying_filters` endpoint
+     - Available filters can be retrieved via the :doc:`../contacts/listing_segments` endpoint
    * - contactlist
      - int
      - The contact list ID
-     - Contact lists may be retrieved via the :doc:`../contacts/querying_contact_lists` endpoint
+     - Contact lists may be retrieved via the :doc:`../contacts/listing_contact_lists` endpoint
    * - html_source
      - string
      - The HTML source of the email
