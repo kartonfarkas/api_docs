@@ -20,9 +20,9 @@ Example
  * Return values:
    The API sends data encapsulated in the following JSON structure:
 
-replyCode:<value>
-replyText:<value>
-data:<value>
+ * replyCode:<value>
+ * replyText:<value>
+ * data:<value>
 
 If no error occurred, the reply code is 0 (zero). Any other value indicates a problem which must be solved.
 
