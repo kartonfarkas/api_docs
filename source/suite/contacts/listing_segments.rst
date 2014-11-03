@@ -1,5 +1,5 @@
-Querying Filters
-================
+Listing Filters
+===============
 
 Returns a list of filters (segments) which can be used as recipient source for the email.
 

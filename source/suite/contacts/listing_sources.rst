@@ -1,5 +1,5 @@
-Querying Sources
-================
+Listing Sources
+===============
 
 Returns a list of sources which can be used for creating contacts.
 

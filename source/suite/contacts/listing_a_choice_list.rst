@@ -1,5 +1,5 @@
-Querying a Choice List
-======================
+Listing a Choice List
+=====================
 
 Returns the choice options (possible values) of a field.
 
