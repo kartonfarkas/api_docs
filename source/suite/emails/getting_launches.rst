@@ -27,9 +27,9 @@ Parameters
 Result Data Structure
 ---------------------
 
-id:string, done:string, launch_date:string
-id:string, done:string, launch_date:string
-…
+ * id:string, done:string, launch_date:string
+ * id:string, done:string, launch_date:string
+   …
 
 JSON Payload Example
 --------------------

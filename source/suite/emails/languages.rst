@@ -29,9 +29,9 @@ For a list of supported languages, see the list of `language codes <http://docum
 Result Data Structure
 ---------------------
 
-id:string, language:string
-id:string, language:string
-…
+ * id:string, language:string
+ * id:string, language:string
+   …
 
 Result Example
 --------------

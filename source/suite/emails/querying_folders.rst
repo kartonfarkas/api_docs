@@ -27,10 +27,11 @@ Parameters
 Result Data Structure
 ---------------------
 
-id:integer
-parent:integer
-name:string, where
- * parent = The parent folder. If a parent folder is specified, only its subfolders are returned.
+ * id:integer
+ * parent:integer
+ * name:string
+
+Where *parent* is the parent folder. If a parent folder is specified, only its subfolders are returned.
 
 URI Example
 -----------

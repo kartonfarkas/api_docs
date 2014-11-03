@@ -35,9 +35,9 @@ Parameters
 Result Data Structure
 ---------------------
 
-(string) url, where
+ * (string) url
 
- * **url** = The URL of the online version
+Where *url* is the URL of the online version.
 
 JSON Payload Example
 --------------------

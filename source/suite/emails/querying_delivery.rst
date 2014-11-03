@@ -44,15 +44,15 @@ Parameters
 Result Data Structure
 ---------------------
 
-resultSet:array
-lastId:integer
-…
-id:integer
-user_id:integer
-email:string
-status:string
-mail_type:string
-bounce_reason:string
+ * resultSet:array
+ * lastId:integer
+   …
+ * id:integer
+ * user_id:integer
+ * email:string
+ * status:string
+ * mail_type:string
+ * bounce_reason:string
 
 JSON Payload Example
 --------------------

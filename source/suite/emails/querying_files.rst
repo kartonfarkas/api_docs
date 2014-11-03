@@ -27,12 +27,12 @@ Parameters
 Result Data Structure
 ---------------------
 
-id:integer
-folder:integer
-filename:string
-size:integer
-original_name:string
-url:string
+ * id:integer
+ * folder:integer
+ * filename:string
+ * size:integer
+ * original_name:string
+ * url:string
 
 URI Examples
 ------------

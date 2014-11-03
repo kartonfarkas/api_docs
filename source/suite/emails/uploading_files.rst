@@ -47,13 +47,12 @@ The upload limit is 128 kB for images and 4 MB for other file types
 Result Data Structure
 ---------------------
 
-d:integer
-folder:integer
-filename:string
-size:integer
-original_name:string, where
- * filename – Resulting file name in the media database after upload
- * original_name – File name provided in the request
+ * id:integer
+ * folder:integer
+ * filename:string
+ * size:integer
+ * original_name:string
+Where *filename* is the resulting file name in the media database after upload, and *original_name* is the file name provided in the request
 
 JSON Payload Example
 --------------------

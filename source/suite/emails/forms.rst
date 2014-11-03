@@ -11,8 +11,10 @@ Endpoint
 Result Data Structure
 ---------------------
 
-id:integer type:integer, where
- * type = The form type. See `email and form types <http://documentation.emarsys.com/?page_id=417>`_ .
+ * id:integer
+ * type:integer
+
+Where type is the form type. See `email and form types <http://documentation.emarsys.com/?page_id=417>`_ .
 
 Result Example
 --------------

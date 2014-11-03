@@ -14,7 +14,7 @@ Result Data Structure
 
  * id:string, category:string
  * id:string, category:string
- * …
+   …
 
 Result Example
 --------------
