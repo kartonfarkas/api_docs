@@ -65,7 +65,7 @@ Result Data Structure
 Result Example
 --------------
 
-Success:
+Normal Result:
 
 .. code-block:: json
 
@@ -78,7 +78,7 @@ Success:
      }
    }
 
-Error:
+Error Condition:
 
 .. code-block:: json
 
