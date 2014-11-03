@@ -25,8 +25,8 @@ Working with Contact Fields
    :maxdepth: 1
 
    creating_a_field.rst
-   querying_choice_list.rst
-   querying_field_list.rst
+   listing_a_choice_list.rst
+   listing_field_lists.rst
 
 
 Working with Contact Lists
@@ -36,10 +36,10 @@ Working with Contact Lists
    :maxdepth: 1
 
    creating_a_contact_list.rst
-   querying_contact_lists.rst
+   listing_contact_lists.rst
    adding_contacts_to_contact_list.rst
    removing_contacts_from_contact_list.rst
-   list_contacts.rst
+   listing_contacts.rst
 
 
 Working with Segments
@@ -60,4 +60,4 @@ Working with Contact Sources
 
    creating_a_source.rst
    deleting_a_source.rst
-   querying_sources.rst
+   listing_sources.rst
