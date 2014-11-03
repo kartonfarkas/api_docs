@@ -22,7 +22,7 @@ Parameters
    * - filterId, contactlistId
      - int
      -
-     - at least one property must be sent and must not be 0 (zero). If both are sent, only one must be different from 0 (zero)
+     - At least one property must be sent and must not be 0 (zero). If both are sent, only one must be different from 0 (zero)
 
 JSON Payload Example
 --------------------

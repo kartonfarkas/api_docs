@@ -21,8 +21,8 @@ Parameters
      - Comments
    * - id
      - integer
-     - The email's id
-     - (Part of the URL)
+     - The email's ID, part of the URL
+     -
    * - version
      - integer
      - The content type of the response

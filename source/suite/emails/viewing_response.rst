@@ -20,7 +20,7 @@ Parameters
      - Description
      - Comments
    * - id
-     - integer
+     - int
      -
      -
 
