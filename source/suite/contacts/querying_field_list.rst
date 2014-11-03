@@ -32,10 +32,10 @@ URI Example
 Result Data Structure
 ---------------------
 
-id:integer, name:string, application_type:string
-id:integer, name:string, application_type:string
-id:integer, name:string, application_type:string
-…
+ * id:integer, name:string, application_type:string
+ * id:integer, name:string, application_type:string
+ * id:integer, name:string, application_type:string
+   …
 
 Result Example
 --------------

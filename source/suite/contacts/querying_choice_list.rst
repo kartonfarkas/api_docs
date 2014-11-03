@@ -40,10 +40,10 @@ Parameters
 Result Data Structure
 ---------------------
 
-id:integer
-choice:string, where
- * id = The internal identifier of the choice
- * choice = The name of the choice
+ * id:integer
+ * choice:string
+
+Where *id* is the internal identifier of the choice, and *choice* is the name of the choice
 
 URI Example
 -----------

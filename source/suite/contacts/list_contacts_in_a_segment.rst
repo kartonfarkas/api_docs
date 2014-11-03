@@ -10,7 +10,7 @@ Results in a list of contacts after applying the segment.
 Endpoint
 --------
 
-``GET /api/v2/filter/<segment_id>``
+``GET /api/v2/filter/<segment_id>/contacts``
 
 Parameters
 ----------
@@ -31,7 +31,7 @@ Parameters
 URI Example
 -----------
 
-/api/v2/filter/100011553
+/api/v2/filter/100011553/contacts
 
 Result Example
 --------------

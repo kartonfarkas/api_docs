@@ -47,10 +47,9 @@ Result Data Structure
    [id2]
     …
  * [key_field_value1] = [error1]
- * [key_field_value2] = [error2], where
+ * [key_field_value2] = [error2]
 
-   * **[idx]** = The IDs of successfully-created contacts are returned in an array.
-   * **[errorx]** = If an error occurred during the creation of a contact, the error message is returned with the value of the key_id.
+Where *[idx]* means that the IDs of successfully-created contacts are returned in an array, and *[errorx]* is that if an error occurred during the creation of a contact, the error message is returned with the value of the key_id.
 
 JSON Payload Example
 --------------------

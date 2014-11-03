@@ -35,12 +35,13 @@ Parameters
 Result Data Structure
 ---------------------
 
-deleted_contacts:integer
-errors:
-[id1]:string
-[id2]:string, where
- * deleted_contacts = Number of contacts successfully deleted from the list
- * errors = An array of contacts not removed from the list. The array contains the ID and reason for the error.
+ * deleted_contacts:integer
+ * errors:
+
+   * [id1]:string
+   * [id2]:string
+
+Where *deleted_contacts* is the number of contacts successfully deleted from the list, and *errors* is an array of contacts not removed from the list. The array contains the ID and reason for the error.
 
 JSON Payload Example
 --------------------

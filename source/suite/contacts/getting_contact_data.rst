@@ -22,11 +22,11 @@ Parameters
    * - keyId
      - mixed
      -
-     - must be an array containing contact IDs or values of the column used to select contacts
+     - It must be an array containing contact IDs or values of the column used to select contacts.
    * - keyValues
      - array
      -
-     - can be a field id, id or uid. If empty, the internal ID will be used.
+     - This can be a field id, id or uid. If empty, the internal ID will be used.
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1

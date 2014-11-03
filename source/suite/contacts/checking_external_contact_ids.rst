@@ -38,12 +38,15 @@ Parameters
 Result Data Structure
 ---------------------
 
-ids:
-[id1]:[internal ID (integer)]
-[id2]:[internal ID (integer)]
-errors:
-[id3]:[Error message (string)]
-[id4]:[Error message (string)]
+ * ids:
+
+   * [id1]:[internal ID (integer)]
+   * [id2]:[internal ID (integer)]
+
+ * errors:
+
+   * [id3]:[Error message (string)]
+   * [id4]:[Error message (string)]
 
 URI Examples
 ------------

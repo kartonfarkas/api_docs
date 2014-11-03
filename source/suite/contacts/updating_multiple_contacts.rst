@@ -50,9 +50,13 @@ See `Batch Create Contact <http://documentation.emarsys.com/?page_id=174>`_ for 
 Result Data Structure
 ---------------------
 
-[id1] [id2] … [key_field_value1] = [error1] [key_field_value2] = [error2], where
- * **[idx]** – The IDs of successfully-created contacts are returned in an array.
- * **[errorx]** – If an error occurred during the creation of a contact, the error message is returned with the value of the key_id.
+ * [id1]
+ * [id2]
+    …
+ * [key_field_value1] = [error1]
+ * [key_field_value2] = [error2]
+
+Where *[idx]* is the IDs of successfully-created contacts are returned in an array, and *[errorx]* means that if an error occurred during the creation of a contact, the error message is returned with the value of the key_id.
 
 JSON Payload Example
 --------------------

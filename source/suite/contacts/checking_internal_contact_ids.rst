@@ -31,8 +31,9 @@ Parameters
 Result Data Structure
 ---------------------
 
-"[id]" (internal ID of the contact), where
- * **[id]** = The Internal ID of the contact.
+ * "[id]" (internal ID of the contact)
+
+Where *[id]* is the Internal ID of the contact.
 
 URI Examples
 ------------
