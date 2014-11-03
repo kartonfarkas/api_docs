@@ -25,11 +25,10 @@ Result Data Structure
  * position:string
  * id:integer
  * username:string
-   ..., where
+   ...
 
-   * id - the internal identifier of the administrator
-   * access_level - administrator role id, for possible values see administrator/getaccesslevels
-   * interface_language - the language code of the user interface language of the administrator, for possible languages see administrator/getinterfacelanguages
+Where *id* is the internal ID of the administrator, *access_level* is the administrator role ID (for possible values see administrator/getaccesslevels), and
+*interface_language* is the language code of the user interface language of the administrator (for possible languages see administrator/getinterfacelanguages).
 
 Result Example
 --------------

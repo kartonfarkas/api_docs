@@ -15,9 +15,9 @@ Endpoint
 Result Data Structure
 ---------------------
 
- * string, string, ..., where
+ * string, string, ...
 
-   * the strings are the two-letter identifiers of the languages
+Where the strings are the two-letter identifiers of the languages.
 
 Result Example
 --------------

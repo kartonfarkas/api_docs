@@ -68,9 +68,9 @@ Parameters
 Result Data Structure
 ---------------------
 
- * id: integer, where
+ * id: integer
 
-   * the id is the internal identifier of the administrator
+Where the ID is the internal identifier of the administrator.
 
 Result Example
 --------------
