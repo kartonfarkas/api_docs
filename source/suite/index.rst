@@ -28,19 +28,12 @@ Contents:
    :maxdepth: 1
 
    authentication.rst
-   authentication_java.rst
-   authentication_perl.rst
-   authentication_php.rst
-   authentication_ruby.rst
    api_demo.rst
    email_and_form_types.rst
    encoding_and_responses.rst
    error_codes.rst
-   first_steps.rst
    get_request.rst
-   prerequisites.rst
    status_codes.rst
-   suite_api_au_header.rst
    time_zones.rst
    customers/index.rst
    contacts/index.rst
