@@ -29,10 +29,6 @@ Contents:
 
    authentication.rst
    api_demo.rst
-   email_and_form_types.rst
-   encoding_and_responses.rst
-   error_codes.rst
-   get_request.rst
    status_codes.rst
    time_zones.rst
    customers/index.rst
