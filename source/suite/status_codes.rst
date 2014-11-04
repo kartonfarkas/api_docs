@@ -32,7 +32,6 @@ Emails have one of the following launch statuses:
 
 .. list-table:: **Launch Statuses**
    :header-rows: 1
-   :widths: 20 20 40 40
 
    * - api_status
      - Description
