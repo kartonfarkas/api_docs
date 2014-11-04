@@ -3,26 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Emarsys APIs developer documentation! (alpha)
-========================================================
+Welcome to Emarsys APIs developer documentation!
+================================================
 
-This site is a work in progress. For more information, please visit the
-`Emarsys Documentation Site <https://documentation.emarsys.com>`_.
+This is a developer site, and the documentation of the product can be found
+at the `Emarsys Product Documentation Site <https://documentation.emarsys.com>`_.
 
 Contents
 --------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    suite/index.rst
    integrations/index.rst
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
