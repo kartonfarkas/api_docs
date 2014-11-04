@@ -11,7 +11,6 @@ The ID is one of the following:
 
 .. list-table:: **Email Statuses**
    :header-rows: 1
-   :widths: 20 20 40 40
 
    * - Status
      - Description
