@@ -61,7 +61,7 @@ Errors
    * - 202
      - 10001
      - The segment is currently evaluated.
-     - Use this resource again until you see the result.
+     - Call this resource again until you see the result.
    * - 404
      - 10002
      - The segment specified does not exist.
