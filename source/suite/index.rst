@@ -29,8 +29,6 @@ Contents:
 
    authentication.rst
    api_demo.rst
-   status_codes.rst
-   time_zones.rst
    customers/index.rst
    contacts/index.rst
    emails/index.rst
