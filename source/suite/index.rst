@@ -22,8 +22,6 @@ This information is required to create the API Authentication Header, which must
    or JavaScript source of your web page. Your username for the eMarketing Suite API differs from the
    username for the eMarketing Suite GUI.
 
-Contents:
-
 .. toctree::
    :maxdepth: 1
 
@@ -35,4 +33,4 @@ Contents:
    exports/index.rst
    external_events/index.rst
    others/index.rst
-
+   sdk.rst
