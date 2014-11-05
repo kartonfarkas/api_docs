@@ -1,7 +1,7 @@
 Listing Segments
 ================
 
-Returns a list of filters (segments) which can be used as recipient source for the email.
+Returns a list of segments which can be used as contact source for the email.
 
 Endpoint
 --------

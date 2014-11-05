@@ -1,7 +1,7 @@
 Creating Multiple Contacts
 ==========================
 
-Creates multiple new contacts/recipients at once.
+Creates multiple new contacts all at once.
 
 Endpoint
 --------
