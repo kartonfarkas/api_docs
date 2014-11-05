@@ -84,7 +84,7 @@ Parameters
 Result Data Structure
 ---------------------
 
- * id:integer
+ * id: integer
 
 Request Example
 ---------------

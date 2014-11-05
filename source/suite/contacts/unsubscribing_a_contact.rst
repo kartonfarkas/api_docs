@@ -55,8 +55,8 @@ Result Data Structure
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":"OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data": {
        "id": [id]
      }
@@ -70,11 +70,11 @@ Normal Result:
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":"OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data":
      {
-       "id":366924307
+       "id": 366924307
      }
    }
 
@@ -83,8 +83,8 @@ Error Condition:
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":"OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data":
      {
        "ids":
@@ -96,11 +96,11 @@ Error Condition:
        {
          "user2@example.com":
          {
-           "2010":"More contacts found with the external id: 3 - user2@example.com"
+           "2010": "More contacts found with the external id: 3 - user2@example.com"
          },
          "user3@example.com":
          {
-           "2010":"More contacts found with the external id: 3 - user3@example.com"
+           "2010": "More contacts found with the external id: 3 - user3@example.com"
          }
        }
      }
@@ -112,13 +112,13 @@ JSON Payload Example
 .. code-block:: json
 
    {
-     "key_id":"3",
+     "key_id": "3",
      "contacts":
      [
        {
-         "3":"user1@example.com",
-         "31":"2",
-         "source_id":"2"
+         "3": "user1@example.com",
+         "31": "2",
+         "source_id": "2"
        }
      ]
    }

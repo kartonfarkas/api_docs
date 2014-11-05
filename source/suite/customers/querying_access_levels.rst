@@ -15,10 +15,10 @@ Endpoint
 Result Data Structure
 ---------------------
 
- * id:integer
- * name:string
- * id:integer
- * name:string
+ * id: integer
+ * name: string
+ * id: integer
+ * name: string
 
 Result Example
 --------------
@@ -31,12 +31,12 @@ Result Example
        "data":
        [
            {
-               "id":"1"
-               "name":"Operator"
+               "id": "1"
+               "name": "Operator"
            },
            {
-               "id":"974"
-               "name":"Blacklist Administrator"
+               "id": "974"
+               "name": "Blacklist Administrator"
            }
        ]
    }

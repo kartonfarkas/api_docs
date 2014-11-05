@@ -92,7 +92,7 @@ Parameters
 Result Data Structure
 ---------------------
 
- * id:integer (the message ID)
+ * id: integer (the message ID)
 
 Request Example
 ---------------

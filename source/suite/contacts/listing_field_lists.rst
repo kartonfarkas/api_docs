@@ -32,9 +32,9 @@ URI Example
 Result Data Structure
 ---------------------
 
- * id:integer, name:string, application_type:string
- * id:integer, name:string, application_type:string
- * id:integer, name:string, application_type:string
+ * id: integer, name: string, application_type: string
+ * id: integer, name: string, application_type: string
+ * id: integer, name: string, application_type: string
    …
 
 Result Example
@@ -43,36 +43,36 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":"OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data":
      [
        {
-         "id":"0",
-         "name":"Interests"
-         "application_type":"interests"
+         "id": "0",
+         "name": "Interests"
+         "application_type": "interests"
        },
        {
-         "id":"1",
-         "name":"First Name"
-         "application_type":"shorttext"
+         "id": "1",
+         "name": "First Name"
+         "application_type": "shorttext"
        },
        {
-         "id":"9" ,
-         "name":"Title"
-         "application_type":"singlechoice"
+         "id": "9",
+         "name": "Title"
+         "application_type": "singlechoice"
        },
        …
        {
-         "id":"123",
-         "name":"CustomField18"
-         "application_type":"numeric"
+         "id": "123",
+         "name": "CustomField18"
+         "application_type": "numeric"
        },
          …
        {
-         "id":"456",
-         "name":"Voucher42"
-         "application_type":"voucher"
+         "id": "456",
+         "name": "Voucher42"
+         "application_type": "voucher"
        }
      ]
    }

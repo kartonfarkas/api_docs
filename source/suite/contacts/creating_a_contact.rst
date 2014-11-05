@@ -1,7 +1,7 @@
 Creating a Contact
 ==================
 
-Creates a new contact/recipient.
+Creates a new contact.
 
 Endpoint
 --------
@@ -54,7 +54,7 @@ The key_id is Omitted
 .. code-block:: json
 
    {
-     "3":"test@example.com",
+     "3": "test@example.com",
    }
 
 The key_id is Provided

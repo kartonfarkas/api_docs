@@ -45,8 +45,8 @@ Example Parameters
 .. code-block:: json
 
    {
-     "name":"The name of the new field",
-     "application_type":"shorttext"
+     "name": "The name of the new field",
+     "application_type": "shorttext"
    }
 
 Result Data Structure
@@ -57,11 +57,11 @@ Normal Result:
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":"OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data":
      {
-       "id":796
+       "id": 796
      }
    }
 
@@ -70,9 +70,9 @@ Error Condition:
 .. code-block:: json
 
    {
-     "replyCode":9002,
-     "replyText":"A field with this name already exists",
-     "data":""
+     "replyCode": 9002,
+     "replyText": "A field with this name already exists",
+     "data": ""
    }
 
 Errors

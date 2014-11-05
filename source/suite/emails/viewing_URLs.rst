@@ -45,8 +45,8 @@ JSON Payload Example
 .. code-block:: json
 
    {
-     "key_id":"3",
-     "key_value":"test@ema.il"
+     "key_id": "3",
+     "key_value": "test@ema.il"
    }
 
 Result Example
@@ -55,11 +55,11 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode":0 ,
-     "replyText":"OK",
+     "replyCode": 0 ,
+     "replyText": "OK",
      "data":
      {
-       "url":"http://www.emarsys.com/u/gm.php
+       "url": "http://www.emarsys.com/u/gm.php
        prm=uid369_119948266_123456789_369258147"
      }
    }

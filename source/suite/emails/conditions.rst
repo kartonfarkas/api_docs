@@ -11,8 +11,8 @@ Endpoint
 Result Data Structure
 ---------------------
 
- * id:integer, name:string, condName:string
- * id:integer, name:string, condName:string
+ * id: integer, name: string, condName: string
+ * id: integer, name: string, condName: string
    …
 
 Where *condName* is a placeholder to use in the email’s HTML or TEXT source.

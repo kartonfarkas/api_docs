@@ -27,15 +27,15 @@ Parameters
 Result Data Structure
 ---------------------
 
- * sent:integer
- * planned:integer
- * soft_bounces:integer
- * hard_bounces:integer
- * block_bounces:integer
- * opened:integer
- * unsubscribe:integer
- * total_clicks:integer
- * unique_clicks:integer
+ * sent: integer
+ * planned: integer
+ * soft_bounces: integer
+ * hard_bounces: integer
+ * block_bounces: integer
+ * opened: integer
+ * unsubscribe: integer
+ * total_clicks: integer
+ * unique_clicks: integer
 
 Where:
 
@@ -55,19 +55,19 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":"OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data":
      {
-       "sent":"1",
-       "planned":"2",
-       "soft_bounces":"3",
-       "hard_bounces":"4",
-       "block_bounces":"5",
-       "opened":"6",
-       "unsubscribe":"7",
-       "total_clicks":"8",
-       "unique_clicks":"9"
+       "sent": "1",
+       "planned": "2",
+       "soft_bounces": "3",
+       "hard_bounces": "4",
+       "block_bounces": "5",
+       "opened": "6",
+       "unsubscribe": "7",
+       "total_clicks": "8",
+       "unique_clicks": "9"
      }
    }
 

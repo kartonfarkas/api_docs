@@ -27,9 +27,9 @@ Parameters
 Result Data Structure
 ---------------------
 
- * id:integer
- * parent:integer
- * name:string
+ * id: integer
+ * parent: integer
+ * name: string
 
 Where *parent* is the parent folder. If a parent folder is specified, only its subfolders are returned.
 
@@ -48,19 +48,19 @@ Result Example
 .. code-block:: json
 
    {
-   "replyCode":0,
-   "replyText":"OK",
+   "replyCode": 0,
+   "replyText": "OK",
    "data":
    [
    {
-   "id":"123",
-   "parent":"1"
-   "name":"folder1"
+   "id": "123",
+   "parent": "1"
+   "name": "folder1"
    },
        {
-         "id":"456",
-         "parent":"1"
-         "name":"folder2"
+         "id": "456",
+         "parent": "1"
+         "name": "folder2"
        }
      ]
    }

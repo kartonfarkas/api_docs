@@ -57,26 +57,26 @@ JSON Payload Example
 .. code-block:: json
 
    {
-     "key_id":"3",
+     "key_id": "3",
      "contacts":
      [
        {
-         "3":"test1@ema.il",
-         "2":"name1",
-         "source_id":"1234"
+         "3": "test1@ema.il",
+         "2": "name1",
+         "source_id": "1234"
        },
        {
-         "3":"test2@ema.il",
-         "2":"name2"
+         "3": "test2@ema.il",
+         "2": "name2"
        },
        {
-         "3":"test3@ema.il",
-         "2":"name3",
-         "source_id":"5678"
+         "3": "test3@ema.il",
+         "2": "name3",
+         "source_id": "5678"
        },
        {
-         "3":"test4@ema.il",
-         "2":"name4"
+         "3": "test4@ema.il",
+         "2": "name4"
        }
      ]
    }
@@ -87,8 +87,8 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":"OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data":
      {
        "ids":
@@ -100,11 +100,11 @@ Result Example
        {
          "test1@ema.il":
          {
-           "2009":"Contact with the external id already exists: 3"
+           "2009": "Contact with the external id already exists: 3"
          },
          "test2@ema.il":
          {
-           "2009":"Contact with the external id already exists: 3"
+           "2009": "Contact with the external id already exists: 3"
          }
        }
      }

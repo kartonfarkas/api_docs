@@ -1,8 +1,8 @@
 Contacts
 ========
 
-Working with Contacts
----------------------
+Contacts
+--------
 
 .. toctree::
    :maxdepth: 1
@@ -10,7 +10,7 @@ Working with Contacts
    creating_a_contact.rst
    creating_multiple_contacts.rst
    getting_contact_data.rst
-   getting_contact_history.rst
+   getting_contact_email_history.rst
    updating_a_contact.rst
    updating_multiple_contacts.rst
    unsubscribing_a_contact.rst
@@ -18,8 +18,8 @@ Working with Contacts
    checking_internal_contact_ids.rst
 
 
-Working with Contact Fields
----------------------------
+Contact Fields
+--------------
 
 .. toctree::
    :maxdepth: 1
@@ -29,8 +29,8 @@ Working with Contact Fields
    listing_field_lists.rst
 
 
-Working with Contact Lists
---------------------------
+Contact Lists
+-------------
 
 .. toctree::
    :maxdepth: 1
@@ -42,8 +42,8 @@ Working with Contact Lists
    listing_contacts.rst
 
 
-Working with Segments
----------------------
+Segments
+--------
 
 .. toctree::
    :maxdepth: 1
@@ -52,8 +52,8 @@ Working with Segments
    list_contacts_in_a_segment.rst
 
 
-Working with Contact Sources
-----------------------------
+Contact Sources
+---------------
 
 .. toctree::
    :maxdepth: 1

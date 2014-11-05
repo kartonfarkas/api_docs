@@ -4,9 +4,6 @@ Status Codes
 E-Mail Status Codes
 -------------------
 
- * Retrieve an email’s status like this:
-   /status=<id>
-
 The ID is one of the following:
 
 .. list-table:: **Email Statuses**

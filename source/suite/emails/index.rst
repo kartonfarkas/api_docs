@@ -1,8 +1,8 @@
-Emails Campaigns
-================
+Email Campaigns
+===============
 
-Working with Emails
--------------------
+Emails
+------
 
 .. toctree::
    :maxdepth: 1
@@ -14,8 +14,8 @@ Working with Emails
    querying_email_lists.rst
    update_email_source.rst
 
-Working with Launches
----------------------
+Launches
+--------
 
 .. toctree::
    :maxdepth: 1
@@ -62,10 +62,3 @@ Language
 
    languages.rst
 
-Status
-------
-
-.. toctree::
-   :maxdepth: 1
-
-   statuses.rst

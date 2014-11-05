@@ -38,8 +38,8 @@ Result Data Structure
  * inserted_contacts:integer
  * errors:
 
-   * [id1]:string,
-   * [id2]:string
+   * [id1]: string,
+   * [id2]: string
 
 Where *inserted_contacts* is the number of contacts successfully added to the list, and
 *errors* is an array of contacts not added to the list. The array contains the ID and

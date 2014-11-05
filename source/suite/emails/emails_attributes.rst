@@ -110,8 +110,8 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":" OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data":
      [
        {

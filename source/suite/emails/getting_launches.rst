@@ -27,8 +27,8 @@ Parameters
 Result Data Structure
 ---------------------
 
- * id:string, done:string, launch_date:string
- * id:string, done:string, launch_date:string
+ * id: string, done: string, launch_date: string
+ * id: string, done: string, launch_date: string
    …
 
 JSON Payload Example
@@ -37,7 +37,7 @@ JSON Payload Example
 .. code-block:: json
 
    {
-     "emailid":"1234"
+     "emailid": "1234"
    }
 
 Result Example
@@ -46,9 +46,9 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode" : 0 ,
-     "replyText" : "OK",
-     "data" : [{"id": "7555", "done": "y", :"launch_date": "2012-05-05"},   {"id" : "7556", :"done" : "n", "launch_date": "2012-05-05"}]
+     "replyCode": 0 ,
+     "replyText": "OK",
+     "data": [{"id": "7555", "done": "y", "launch_date": "2012-05-05"},   {"id": "7556", "done": "n", "launch_date": "2012-05-05"}]
    }
 
 Errors

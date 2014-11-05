@@ -44,15 +44,15 @@ Parameters
 Result Data Structure
 ---------------------
 
- * resultSet:array
- * lastId:integer
+ * resultSet: array
+ * lastId: integer
    …
- * id:integer
- * user_id:integer
- * email:string
- * status:string
- * mail_type:string
- * bounce_reason:string
+ * id: integer
+ * user_id: integer
+ * email: string
+ * status: string
+ * mail_type: string
+ * bounce_reason: string
 
 JSON Payload Example
 --------------------
@@ -60,9 +60,9 @@ JSON Payload Example
 .. code-block:: json
 
    {
-     "emailId":"1234",
-     "launchId" : "5678",
-     "lastId" : "999"
+     "emailId": "1234",
+     "launchId": "5678",
+     "lastId": "999"
    }
 
 Result Example
@@ -71,12 +71,12 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode":0 ,
-     "replyText":"OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data":
      {
-       "resultSet": [{"id": "1", "user_id": "1", ::"bounce_reason" :     "soft", "status" : "launched", ::"mail_type" : "html"}]
-       "lastId" : "1"
+       "resultSet": [{"id": "1", "user_id": "1", "bounce_reason": "soft", "status": "launched", "mail_type": "html"}]
+       "lastId": "1"
      }
    }
 

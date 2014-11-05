@@ -40,8 +40,8 @@ Parameters
 Result Data Structure
 ---------------------
 
- * id:integer
- * choice:string
+ * id: integer
+ * choice: string
 
 Where *id* is the internal identifier of the choice, and *choice* is the name of the choice
 
@@ -58,17 +58,17 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode":0 ,
-     "replyText":"OK",
+     "replyCode": 0 ,
+     "replyText": "OK",
      "data":
      [
        {
-         "id":"1"
-         "choice":"HTML"
+         "id": "1"
+         "choice": "HTML"
        },
        {
-         "id":"2"
-         "choice":"Text only"
+         "id": "2"
+         "choice": "Text only"
        }
      ]
    }

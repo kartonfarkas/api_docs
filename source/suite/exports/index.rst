@@ -1,8 +1,6 @@
 Exporting Data
 ==============
 
-Contents:
-
 .. toctree::
    :maxdepth: 1
 

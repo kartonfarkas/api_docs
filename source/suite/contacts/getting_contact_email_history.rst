@@ -1,7 +1,7 @@
-Getting Contact History
-=======================
+Getting Contact Email History
+=============================
 
-Returns all the emailIDs for all the contacts you specified.
+Returns the list of the email campaign launch data for the specified contacts within the optionally defined date interval.
 
 Endpoint
 --------
@@ -32,7 +32,11 @@ Parameters
      - Type
      - Values
      - Comments
-   * - startDate, endDate
+   * - startDate
+     - date
+     - can be used to filter the launch date of emails.
+     -
+   * - endDate
      - date
      - can be used to filter the launch date of emails.
      -
@@ -45,11 +49,11 @@ Result Data Structure
 
    [
      {
-       emailId:integer
-       contactId:integer
-       launch_date:date
-       delivery_status:string
-       bounce_status:string
+       emailId: integer
+       contactId: integer
+       launch_date: date
+       delivery_status: string
+       bounce_status: string
      }
    ]
 
@@ -59,9 +63,9 @@ JSON Payload Example
 .. code-block:: json
 
    {
-     "startDate":"2012-05-01",
-     "endDate":"2012-06-01",
-     "contacts":[15]
+     "startDate": "2014-11-05",
+     "endDate": "2014-11-05",
+     "contacts": [176415518, 749678081]
    }
 
 Result Example
@@ -70,16 +74,23 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":"OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data":
      [
        {
-         "emailId":"123456",
-         "contactId":"15",
-         "launch_date":"2012-05-05",
-         "delivery_status":"launched",
-         "bounce_status":"soft"
+         "emailId": 100017517,
+         "contactId": "749678081",
+         "launch_date": "2014-11-05 09:42:00",
+         "delivery_status": "launched",
+         "bounce_status": "soft"
+       },
+       {
+         "emailId": 100017517,
+         "contactId": "176415518",
+         "launch_date": "2014-11-05 09:42:00",
+         "delivery_status": "launched",
+         "bounce_status": "soft"
        }
      }
    }

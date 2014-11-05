@@ -47,22 +47,22 @@ If two or more parameters are used, they must be separated by an & character.
 Result Data Structure
 ---------------------
 
- * id:integer
- * root_email:integer
- * language:string
- * created:datetime
- * deleted:datetime
- * name:string
- * fromemail:string
- * fromname:string
- * subject:string
- * email_category:integer
- * filter:integer
- * contactlist:integer
- * status:integer
- * api_status:integer
- * api_error:integer
- * source:string
+ * id: integer
+ * root_email: integer
+ * language: string
+ * created: datetime
+ * deleted: datetime
+ * name: string
+ * fromemail: string
+ * fromname: string
+ * subject: string
+ * email_category: integer
+ * filter: integer
+ * contactlist: integer
+ * status: integer
+ * api_status: integer
+ * api_error: integer
+ * source: string
    …
 
 Where:
@@ -95,50 +95,50 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":" OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data":
      [
        {
-         "id":"12345"
-         "root_email":"0"
-         "language":"en"
-         "created":"2011-08-12 18:12:23"
-         "deleted":""
-         "name":"Test1"
-         "status":"3"
-         "api_status":"2"
-         "api_error":"0"
-         "fromemail":"emarsys@emarsys.net"
-         "fromname":"emarsys"
-         "subject":"Test mail"
-         "email_category":"11111"
-         "filter":"22222"
-         "contactlist":"0"
-         "source":"userlist"
-         "html_source":"Hello $Last Name$. How are you?"
-         "text_source":"Hello $Last Name$
+         "id": "12345"
+         "root_email": "0"
+         "language": "en"
+         "created": "2011-08-12 18:12:23"
+         "deleted": ""
+         "name": "Test1"
+         "status": "3"
+         "api_status": "2"
+         "api_error": "0"
+         "fromemail": "emarsys@emarsys.net"
+         "fromname": "emarsys"
+         "subject": "Test mail"
+         "email_category": "11111"
+         "filter": "22222"
+         "contactlist": "0"
+         "source": "userlist"
+         "html_source": "Hello $Last Name$. How are you?"
+         "text_source": "Hello $Last Name$
          http://login.emarsys.net/u/nrd.php?p= $uid$_$llid$_$cid$_$sid$_2
        }
        {
-         "id":"67890"
-         "root_email":"0"
-         "language":"en"
-         "created":"2011-08-12 18:20:23"
-         "deleted":"2011-11-07 08:11:57"
-         "name":"Test2"
-         "status":"3"
-         "api_status":"2"
-         "api_error":"0"
-         "fromemail":"emarsys@emarsys.net"
-         "fromname":"emarsys"
-         "subject":"Test mail"
-         "email_category":"11111"
-         "filter":"22222"
-         "contactlist":"0"
-         "source":"api"
-         "html_source":"Hello $Last Name$. How are you?"
-         "text_source":"Hello $Last Name$ http://login.emarsys.net/u/nrd.php?p= $uid$_$llid$_$cid$_$sid$_2
+         "id": "67890"
+         "root_email": "0"
+         "language": "en"
+         "created": "2011-08-12 18:20:23"
+         "deleted": "2011-11-07 08:11:57"
+         "name": "Test2"
+         "status": "3"
+         "api_status": "2"
+         "api_error": "0"
+         "fromemail": "emarsys@emarsys.net"
+         "fromname": "emarsys"
+         "subject": "Test mail"
+         "email_category": "11111"
+         "filter": "22222"
+         "contactlist": "0"
+         "source": "api"
+         "html_source": "Hello $Last Name$. How are you?"
+         "text_source": "Hello $Last Name$ http://login.emarsys.net/u/nrd.php?p= $uid$_$llid$_$cid$_$sid$_2
        }
      ]
    }

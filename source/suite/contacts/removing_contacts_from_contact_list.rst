@@ -35,11 +35,11 @@ Parameters
 Result Data Structure
 ---------------------
 
- * deleted_contacts:integer
+ * deleted_contacts: integer
  * errors:
 
-   * [id1]:string
-   * [id2]:string
+   * [id1]: string
+   * [id2]: string
 
 Where *deleted_contacts* is the number of contacts successfully deleted from the list, and *errors* is an array of contacts not removed from the list. The array contains the ID and reason for the error.
 
@@ -51,9 +51,9 @@ JSON Payload Example
 .. code-block:: json
 
    {
-     "key_id":"3",
-     "name":"test name",
-     "description":"test description",
+     "key_id": "3",
+     "name": "test name",
+     "description": "test description",
      "external_ids":
      [
        "test1@example.com",
@@ -67,9 +67,9 @@ JSON Payload Example
 .. code-block:: json
 
    {
-     "key_id":"123",
-     "name":"test name",
-     "description":"test description",
+     "key_id": "123",
+     "name": "test name",
+     "description": "test description",
      "external_ids":
      [
        [1,2,3],
@@ -84,16 +84,16 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":"OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data":
      {
-       "deleted_contacts":"2",
+       "deleted_contacts": "2",
        "errors":
        {
          "test2@example.com":
           {
-            "2008":"No contact found with the external id: 3 - test2@example.com"
+            "2008": "No contact found with the external id: 3 - test2@example.com"
           }
        }
      }

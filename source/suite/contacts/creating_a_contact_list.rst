@@ -51,8 +51,8 @@ Result Data Structure
  * id:integer
  * errors:
 
-   * [id1]:string
-   * [id2]:string
+   * [id1]: string
+   * [id2]: string
 
 JSON Payload Example
 --------------------
@@ -62,9 +62,9 @@ JSON Payload Example
 .. code-block:: json
 
    {
-     "key_id":"3",
-     "name":"test name",
-     "description":"test description",
+     "key_id": "3",
+     "name": "test name",
+     "description": "test description",
      "external_ids":
      [
        "test1@example.com",
@@ -78,9 +78,9 @@ JSON Payload Example
 .. code-block:: json
 
    {
-     "key_id":"123",
-     "name":"test name",
-     "description":"test description",
+     "key_id": "123",
+     "name": "test name",
+     "description": "test description",
      "external_ids":
      [
        [1,2,3],
@@ -95,16 +95,16 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":"OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data":
      {
-       "id":"123",
+       "id": "123",
        "errors":
        [
          "test2@example.com":
          {
-           "2008":"No contact found with the external id: 3 - test2@example.com"
+           "2008": "No contact found with the external id: 3 - test2@example.com"
          }
        ]
      }

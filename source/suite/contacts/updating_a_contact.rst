@@ -1,7 +1,7 @@
 Updating a Contact
 ==================
 
-Updates a contact/recipient, identified by an external ID.
+Updates a contact identified by an external ID.
 
 Endpoint
 --------

@@ -29,8 +29,8 @@ For a list of supported languages, see the list of `language codes <http://docum
 Result Data Structure
 ---------------------
 
- * id:string, language:string
- * id:string, language:string
+ * id: string, language: string
+ * id: string, language: string
    …
 
 Result Example
@@ -39,21 +39,21 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":"OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data":
      {
        {
-         "id":"en",
-         "language":"english"
+         "id": "en",
+         "language": "english"
        },
          {
-           "id":"de",
-           "language":"german"
+           "id": "de",
+           "language": "german"
          },
            {
-             "id":"ru",
-             "language":"russian"
+             "id": "ru",
+             "language": "russian"
            }
      }
    }

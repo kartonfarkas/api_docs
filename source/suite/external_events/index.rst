@@ -1,8 +1,6 @@
 External Events
 ===============
 
-Contents:
-
 .. toctree::
    :maxdepth: 1
 

@@ -39,9 +39,9 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":"OK",
-     "data":["749678081","674539823"]
+     "replyCode": 0,
+     "replyText": "OK",
+     "data": ["749678081", "674539823"]
    }
 
 .. note::

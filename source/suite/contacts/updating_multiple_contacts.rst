@@ -1,7 +1,7 @@
 Updating Multiple Contacts
 ==========================
 
-Updates multiple contacts/recipients at once.
+Updates multiple contacts all at once.
 
 Endpoint
 --------
@@ -64,16 +64,16 @@ JSON Payload Example
 .. code-block:: json
 
    {
-     "key_id":"67",
+     "key_id": "67",
      "contacts":
      [
        {
-         "67":"identifier 1",
-         "2":"name1"
+         "67": "identifier 1",
+         "2": "name1"
        },
        {
-         "67":"identifier 2",
-         "679":["1","2"]
+         "67": "identifier 2",
+         "679": ["1","2"]
        }
      ]
    }
@@ -84,8 +84,8 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":"OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data":
      {
        "ids":
@@ -97,11 +97,11 @@ Result Example
        {
          "test1@ema.il":
          {
-           "2009":"Contact with the external id already exists: 3"
+           "2009": "Contact with the external id already exists: 3"
          },
          "test2@ema.il":
          {
-           "2009":"Contact with the external id already exists: 3"
+           "2009": "Contact with the external id already exists: 3"
          }
        }
      }

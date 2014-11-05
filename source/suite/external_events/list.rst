@@ -11,8 +11,8 @@ Endpoint
 Result Data Structure
 ---------------------
 
- * id:integer, name:string
- * id:integer, name:string
+ * id: integer, name: string
+ * id: integer, name: string
    ...
 
 Result Example
@@ -21,17 +21,17 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":"OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data":
      [
        {
-         "id":"123",
-         "name":"event name 1"
+         "id": "123",
+         "name": "event name 1"
        }
        {
-         "id":"456",
-         "name":"event name 2"
+         "id": "456",
+         "name": "event name 2"
        }
      ]
    }

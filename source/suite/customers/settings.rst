@@ -14,8 +14,8 @@ Result Data Structure
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":"OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data":
      {
        "timezone": "Europe/Vienna"

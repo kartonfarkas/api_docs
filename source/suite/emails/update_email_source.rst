@@ -30,8 +30,8 @@ JSON Payload Example
 .. code-block:: json
 
    {
-     "filterId":"1121",
-     "contactlistId":"0"
+     "filterId": "1121",
+     "contactlistId": "0"
    }
 
 Result Example
@@ -40,9 +40,9 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":"OK",
-     "data":true
+     "replyCode": 0,
+     "replyText": "OK",
+     "data": true
    }
 
 Errors

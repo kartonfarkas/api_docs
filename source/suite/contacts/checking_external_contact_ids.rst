@@ -40,13 +40,13 @@ Result Data Structure
 
  * ids:
 
-   * [id1]:[internal ID (integer)]
-   * [id2]:[internal ID (integer)]
+   * [id1]: [internal ID (integer)]
+   * [id2]: [internal ID (integer)]
 
  * errors:
 
-   * [id3]:[Error message (string)]
-   * [id4]:[Error message (string)]
+   * [id3]: [Error message (string)]
+   * [id4]: [Error message (string)]
 
 URI Examples
 ------------
@@ -65,7 +65,7 @@ JSON Payload Example
 .. code-block:: json
 
    {
-     "key_id":"3",
+     "key_id": "3",
      "external_ids":
      [
        "test1@example.com",
@@ -80,8 +80,8 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":"OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data":
      {
        "ids":

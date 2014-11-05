@@ -47,11 +47,12 @@ The upload limit is 128 kB for images and 4 MB for other file types
 Result Data Structure
 ---------------------
 
- * id:integer
- * folder:integer
- * filename:string
- * size:integer
- * original_name:string
+ * id: integer
+ * folder: integer
+ * filename: string
+ * size: integer
+ * original_name: string
+
 Where *filename* is the resulting file name in the media database after upload, and *original_name* is the file name provided in the request
 
 JSON Payload Example
@@ -64,8 +65,8 @@ The folder ID is not provided; the file will be uploaded to the root folder:
 .. code-block:: json
 
    {
-     "filename":"header.png",
-     "file":"Dm++/vUMBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAcO/w4Dvv70RCO+/veKCrO+/veKCrAMBIgRAQ==…",
+     "filename": "header.png",
+     "file": "Dm++/vUMBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAcO/w4Dvv70RCO+/veKCrO+/veKCrAMBIgRAQ==…",
    }
 
 **Specified Folder**
@@ -75,9 +76,9 @@ The file will be uploaded to the specified folder:
 .. code-block:: json
 
    {
-     "folder":"840559",
-     "filename":"logo.png",
-     "file":"Dm++/vUMBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAcO/w4Dvv70RCO+/veKCrO+/veKCrAMBIgRAQ==...",
+     "folder": "840559",
+     "filename": "logo.png",
+     "file": "Dm++/vUMBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAcO/w4Dvv70RCO+/veKCrO+/veKCrAMBIgRAQ==...",
    }
 
 Result Example
@@ -86,16 +87,16 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":"OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data":
      [
        {
-         "id":"123",
-         "folder":"1"
-         "filename":"md_1234.png"
-         "size":"96274211"
-         "original_name":"logo.png"
+         "id": "123",
+         "folder": "1"
+         "filename": "md_1234.png"
+         "size": "96274211"
+         "original_name": "logo.png"
        }
      ]
    }

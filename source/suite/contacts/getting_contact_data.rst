@@ -49,17 +49,17 @@ Normal Result:
 .. code-block:: json
 
    {
-     "id":"23897",
-     "1":"testName1",
-     "3":"fakeemail1@test.com"
+     "id": "23897",
+     "1": "testName1",
+     "3": "fakeemail1@test.com"
    }
 
 .. code-block:: json
 
    {
-     "id":"23898",
-     "1":"testName2",
-     "3":"fakeemail2@test.com"
+     "id": "23898",
+     "1": "testName2",
+     "3": "fakeemail2@test.com"
    }
 
 Error Condition:
@@ -67,17 +67,17 @@ Error Condition:
 .. code-block:: json
 
    {
-     "key":"fakeemail1@example.com",
-     "errorCode":"2008",
-     "errorMsg":"No contact found with the external id: 3"
+     "key": "fakeemail1@example.com",
+     "errorCode": "2008",
+     "errorMsg": "No contact found with the external id: 3"
    }
 
 .. code-block:: json
 
    {
-     "key":"fakeemail2@example.com",
-     "errorCode":"2008",
-     "errorMsg":"No contact found with the external id: 3"
+     "key": "fakeemail2@example.com",
+     "errorCode": "2008",
+     "errorMsg": "No contact found with the external id: 3"
    }
    …
 
@@ -87,9 +87,9 @@ JSON Payload Example
 .. code-block:: json
 
    {
-     "keyId":"3",
-     "keyValues":["firstname1.lastname1@example.com","firstname2.lastname2@example.com"],
-     "fields":[1,2,3]
+     "keyId": "3",
+     "keyValues": ["firstname1.lastname1@example.com", "firstname2.lastname2@example.com"],
+     "fields": [1,2,3]
    }
 
 Result Example
@@ -98,15 +98,15 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":"OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data": {
-       "errors":[],
-       "result":[
+       "errors": [],
+       "result": [
              {
-           "1":"testName1",
-           "3":"fakeemail1@example.com"
-           "id":"23897",
+           "1": "testName1",
+           "3": "fakeemail1@example.com"
+           "id": "23897",
          }
        ]
      }

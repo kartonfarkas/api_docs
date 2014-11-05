@@ -11,8 +11,8 @@ Endpoint
 Result Data Structure
 ---------------------
 
- * id:integer, name:string
- * id:integer, name:string
+ * id: integer, name: string
+ * id: integer, name: string
    …
 
 Result Example

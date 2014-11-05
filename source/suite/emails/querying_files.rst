@@ -27,12 +27,12 @@ Parameters
 Result Data Structure
 ---------------------
 
- * id:integer
- * folder:integer
- * filename:string
- * size:integer
- * original_name:string
- * url:string
+ * id: integer
+ * folder: integer
+ * filename: string
+ * size: integer
+ * original_name: string
+ * url: string
 
 URI Examples
 ------------
@@ -49,25 +49,25 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":"OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data":
      [
        {
-         "id":"123",
-         "folder":"1"
-         "filename":"md_2.jpg"
-         "size":"1234"
-         "original_name":"picture.jpg"
-         "url":"http://example.com/custloads/12345678/md_2.jpg"
+         "id": "123",
+         "folder": "1"
+         "filename": "md_2.jpg"
+         "size": "1234"
+         "original_name": "picture.jpg"
+         "url": "http://example.com/custloads/12345678/md_2.jpg"
        },
        {
-         "id":"456",
-         "folder":"1"
-         "filename":"md_3.jpg"
-         "size":"1234"
-         "original_name":"picture2.jpg"
-         "url":"http://example.com/custloads/12345678/md_3.jpg"
+         "id": "456",
+         "folder": "1"
+         "filename": "md_3.jpg"
+         "size": "1234"
+         "original_name": "picture2.jpg"
+         "url": "http://example.com/custloads/12345678/md_3.jpg"
        }
      ]
    }

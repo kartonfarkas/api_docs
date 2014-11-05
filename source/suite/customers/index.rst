@@ -1,7 +1,7 @@
 Customers
 =========
 
-Customer settings
+Customer Settings
 -----------------
 
 .. toctree::
@@ -9,7 +9,7 @@ Customer settings
 
    settings.rst
 
-Customer administrator
+Customer Administrator
 ----------------------
 
 .. toctree::

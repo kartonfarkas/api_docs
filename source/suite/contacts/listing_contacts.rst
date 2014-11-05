@@ -37,8 +37,8 @@ Normal Result:
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":"OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data":
      [985762, 985786, 985654]
    }
@@ -48,9 +48,9 @@ Error Condition:
 .. code-block:: json
 
    {
-     "replyCode":3006,
-     "replyText":"List does not exist",
-     "data":""
+     "replyCode": 3006,
+     "replyText": "List does not exist",
+     "data": ""
    }
 
 Errors
