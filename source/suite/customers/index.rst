@@ -1,7 +1,8 @@
-Customers
-=========
+Customer and Administrators
+===========================
 
-Those who buy the eMarketing Suite.
+Customer is the account owner (your company) of the eMarketing Suite. Administrators are people authorized to login to the service.
+Please note that there are different access levels for admins.
 
 Customer Settings
 -----------------

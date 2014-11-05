@@ -1,7 +1,7 @@
 Email Campaigns
 ===============
 
-The content the customer sends to the contacts.
+Emails are templates and their settings which eMarketing Suite can launch.
 The customer can create emails using the Suite UI, but also via the API. Since the API does not allow using all features (e.g. templates),
 it is easier to use the API to trigger emails created in the Suite UI.
 
@@ -32,8 +32,8 @@ Launches
    sending_test.rst
    viewing_response.rst
 
-Files and Folders
------------------
+Media Library
+-------------
 
 .. toctree::
    :maxdepth: 1
@@ -58,11 +58,4 @@ Form
 
    forms.rst
 
-Language
---------
-
-.. toctree::
-   :maxdepth: 1
-
-   languages.rst
 
