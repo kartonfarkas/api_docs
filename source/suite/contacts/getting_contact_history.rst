@@ -1,7 +1,7 @@
 Getting Contact History
 =======================
 
-Returns the list of emails sent to the specified contacts.
+Returns all the emailIDs for all the contacts you specified.
 
 Endpoint
 --------
@@ -61,7 +61,7 @@ JSON Payload Example
    {
      "startDate":"2012-05-01",
      "endDate":"2012-06-01",
-     "contacts":[1,2,3]
+     "contacts":[15]
    }
 
 Result Example
