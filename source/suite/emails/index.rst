@@ -1,6 +1,10 @@
 Email Campaigns
 ===============
 
+The content the customer sends to the contacts.
+The customer can create emails using the Suite UI, but also via the API. Since the API does not allow using all features (e.g. templates),
+it is easier to use the API to trigger emails created in the Suite UI.
+
 Emails
 ------
 

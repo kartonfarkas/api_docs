@@ -1,6 +1,8 @@
 Customers
 =========
 
+Those who buy the eMarketing Suite.
+
 Customer Settings
 -----------------
 

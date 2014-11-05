@@ -1,6 +1,8 @@
 Contacts
 ========
 
+The targeted user of the customer, the potential recipient of his/her emails.
+
 Contacts
 --------
 
