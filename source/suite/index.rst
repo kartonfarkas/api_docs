@@ -1,26 +1,26 @@
 Suite API
 =========
 
-Since you are using the eMarketing Suite API, we assume that you have a little background in programming
-and have a basic understanding of the techniques we use in our examples. In the Programmers’ Guide we
-will guide you through the necessary steps to sending your first request via the API.
+Suite REST API provides programmatic access to our service. You can work with Contacts, Email Campaigns,
+Launches and Export Data related to contacts and launches.
 
-If you have already connected successfully to the API you might want to skip this page and move straight
-to the Use Cases, where we show you a number of typical API-related scenarios.
+If you have already connected successfully to the API you might want to move straight to the Use Cases,
+where we show you a number of typical API-related scenarios.
 
 For each Suite API request you need:
 
+ * The URL of the Suite environment API you use (e.g.: https://suite5.emarsys.net/api/v2/)
  * Your username for the API
  * Your secret for the API
- * The URL of the Suite environment API you use (e.g.: https://suite5.emarsys.net/api/v2/)
 
-This information is required to create the API Authentication Header, which must be passed with every single request (click here for details). If you do not have any of the data listed above, please contact your Account Manager.
+This information is required to create the API Authentication Header, which must be passed with every single
+request. If you do not have any of the data listed above, please contact your Account Manager.
 
 .. note::
 
-   Always make sure not to reveal your API secret, for example by including it in plain text in the HTML
-   or JavaScript source of your web page. Your username for the eMarketing Suite API differs from the
-   username for the eMarketing Suite GUI.
+   Always make sure not to reveal your API secrets, for example by including it in plain text in the HTML
+   or JavaScript source of your web page. Your API username and secret differ from the username for the
+   eMarketing Suite GUI.
 
 .. toctree::
    :maxdepth: 1
