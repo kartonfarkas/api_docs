@@ -45,7 +45,7 @@ See document “Suite Field IDs and Values” for further information.
      - Values
      - Comments
    * - source_id
-     -
+     - the ID of the source
      - For the source_id, pass the value for the appropriate source (we are using 2 in the examples below).
      - If more than one contact with the requested external ID is found, an error message is returned.
 

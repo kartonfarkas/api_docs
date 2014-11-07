@@ -2,10 +2,10 @@ Suite API
 =========
 
 Suite API provides programmatic access to our service. Most of our customers are using our APIs
-to automate working with `Contacts <http://emarsys-dev.readthedocs.org/en/latest/suite/contacts/index.html>`_, `Email Campaigns <, Launches, or Export Data related to contacts and
+to automate working with `Contacts <http://emarsys-dev.readthedocs.org/en/latest/suite/contacts/index.html>`_, `Email Campaigns and Launches <http://emarsys-dev.readthedocs.org/en/latest/suite/emails/index.html>`_, or `Export Data <http://emarsys-dev.readthedocs.org/en/latest/suite/exports/index.html>`_ related to contacts and
 launches.
 
-If you have already connected successfully to the API you might want to move straight to the Use Cases,
+If you have already connected successfully to the API you might want to move straight to the `Use Cases <http://documentation.emarsys.com/?page_id=357>`_,
 where we show you a number of typical API-related scenarios.
 
 For each Suite API request you need:
@@ -14,14 +14,15 @@ For each Suite API request you need:
  * Your username for the API
  * Your secret for the API
 
-This information is required to create the API Authentication Header, which must be passed with every single
-request. If you do not have any of the data listed above, please contact your Account Manager.
+Requests to the API must be authenticated. The authentication method of the API is X-WSSE, see `Authentication <http://emarsys-dev.readthedocs.org/en/latest/suite/overview/authentication.html>`_.
 
-.. note::
+ * `PHP <http://emarsys-dev.readthedocs.org/en/latest/suite/overview/authentication_php.html>`_
+ * `Perl <http://emarsys-dev.readthedocs.org/en/latest/suite/overview/authentication_perl.html>`_
+ * `Ruby <http://emarsys-dev.readthedocs.org/en/latest/suite/overview/authentication_ruby.html>`_
+ * `Java <http://emarsys-dev.readthedocs.org/en/latest/suite/overview/authentication_ruby.html>`_
 
-   Always make sure not to reveal your API secrets, for example by including it in plain text in the HTML
-   or JavaScript source of your web page. Your API username and secret differ from the username for the
-   eMarketing Suite GUI.
+We also provide a demo page where you can get impressions on `The API Demo Page <http://emarsys-dev.readthedocs.org/en/latest/suite/overview/api_demo.html>`_.
+We have no SDKs at the moment, if you need more help, you can try SDKs `here <http://emarsys-dev.readthedocs.org/en/latest/suite/overview/sdk.html>`_.
 
 .. toctree::
    :maxdepth: 1
@@ -32,4 +33,4 @@ request. If you do not have any of the data listed above, please contact your Ac
    emails/index.rst
    exports/index.rst
    external_events/index.rst
-   others/index.rst
+   appendices/index.rst

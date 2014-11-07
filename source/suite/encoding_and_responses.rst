@@ -1,10 +1,6 @@
 Encoding and Responses
 ======================
 
- * When sending requests, make sure you meet the following `prerequisites <http://documentation.emarsys.com/?page_id=1131>`_.
- * Have a look at the encoding guidelines below.
- * Incorrect requests will result in errors, i.e. HTTP responses. Success or failure of a request must be checked against the HTTP status codes; a detailed list can be found `here <http://documentation.emarsys.com/?page_id=2424>`_.
-
 Encoding
 --------
 

@@ -7,6 +7,5 @@ Others
    ../time_zones.rst
    ../error_codes.rst
    ../email_and_form_types.rst
-   ../status_codes.rst
    ../encoding_and_responses.rst
    ../languages.rst

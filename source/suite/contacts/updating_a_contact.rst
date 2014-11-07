@@ -17,12 +17,12 @@ Parameters
 
    * - Name
      - Type
-     - Description
+     - Value
      - Comments
-   * - key_id = [field_id]
-     -
-     - The value provided for the key_id field identifies the contact which will be updated.
-     - The other fields contain the changes requested for the contact. If more than one contact with the requested external ID is found, an error message is returned.
+   * - key_id
+     - the key which identifies the contacts
+     - [field_id]
+     - The value provided for the key_id field identifies the contact which will be updated. The other fields contain the changes requested for the contact. If more than one contact with the requested external ID is found, an error message is returned.
 
 See `Create a Contact <http://documentation.emarsys.com/?page_id=166>`_ for further information.
 

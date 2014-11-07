@@ -48,17 +48,6 @@ Result Data Structure
    * [id3]: [Error message (string)]
    * [id4]: [Error message (string)]
 
-URI Examples
-------------
-
-"/api/v2/contact/3=email@example.com"
-
-"/api/v2/contact/5=1"
-
-"/api/v2/contact/98012=1,2,3,4"
-
-"/api/v2/contact/98205=http:////www.example.com"
-
 JSON Payload Example
 --------------------
 

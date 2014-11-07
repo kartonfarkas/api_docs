@@ -38,11 +38,11 @@ See `Batch Create Contact <http://documentation.emarsys.com/?page_id=174>`_ for 
 
    * - Name
      - Type
-     - Description
+     - Values
      - Comments
-   * - source_id = [source_id]
-     -
-     -
+   * - source_id
+     - the ID of the source
+     - [source_id]
      -
 
 See `Batch Create Contact <http://documentation.emarsys.com/?page_id=174>`_ for further information.

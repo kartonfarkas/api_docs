@@ -26,9 +26,9 @@ Parameters
      - Description
      - Comments
    * - id
-     - integer
-     - The email's id to launch
-     - (Part of the URL)
+     - int
+     - The email's ID to launch, part of the URL
+     -
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
@@ -41,11 +41,11 @@ Parameters
    * - schedule
      - datetime
      - If specified, the launch will be scheduled for this time in the default timezone
-       of the customer
+       of the customer.
      -
    * - timezone
      - string
-     - If specified, the schedule parameter is interpreted in this timezone
+     - If specified, the schedule parameter is interpreted in this timezone.
      - See the `list of the supported timezones <http://documentation.emarsys.com/?page_id=3291>`_
 
 URI Example

@@ -25,7 +25,7 @@ Parameters
      -
    * - key_id
      - mixed
-     - the key identifies the contacts
+     - the key which identifies the contacts
      - field ID, id or uid can be used
    * - external_ids
      - array
