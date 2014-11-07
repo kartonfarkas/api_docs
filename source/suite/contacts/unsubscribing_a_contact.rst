@@ -42,7 +42,7 @@ See document “Suite Field IDs and Values” for further information.
 
    * - Name
      - Type
-     - Values
+     - Description
      - Comments
    * - source_id
      - the ID of the source

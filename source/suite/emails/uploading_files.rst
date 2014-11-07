@@ -36,7 +36,7 @@ The upload limit is 128 kB for images and 4 MB for other file types
 
    * - Name
      - Type
-     - Values
+     - Description
      - Comments
    * - folder
      - int

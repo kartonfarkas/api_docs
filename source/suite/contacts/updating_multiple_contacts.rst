@@ -38,7 +38,7 @@ See `Batch Create Contact <http://documentation.emarsys.com/?page_id=174>`_ for 
 
    * - Name
      - Type
-     - Values
+     - Description
      - Comments
    * - source_id
      - the ID of the source

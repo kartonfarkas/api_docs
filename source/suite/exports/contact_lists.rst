@@ -16,7 +16,7 @@ Parameters
 
    * - Name
      - Type
-     - Values
+     - Description
      - Comments
    * - distribution_method
      - *string*
@@ -55,7 +55,7 @@ Parameters
 
    * - Name
      - Type
-     - Values
+     - Description
      - Comments
    * - delimiter
      - *string*

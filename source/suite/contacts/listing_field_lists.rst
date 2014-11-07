@@ -17,7 +17,7 @@ Parameters
 
    * - Name
      - Type
-     - Values
+     - Description
      - Comments
    * - <translate_id>
      - string

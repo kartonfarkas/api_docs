@@ -38,7 +38,7 @@ Parameters
 
    * - Name
      - Type
-     - Values
+     - Description
      - Comments
    * - description
      - string

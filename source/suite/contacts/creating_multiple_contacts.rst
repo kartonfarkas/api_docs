@@ -17,7 +17,7 @@ Parameters
 
    * - Name
      - Type
-     - Values
+     - Description
      - Comments
    * - key_id
      - the key which identifies the contacts

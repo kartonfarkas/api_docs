@@ -18,7 +18,7 @@ Parameters
 
    * - Name
      - Type
-     - Values
+     - Description
      - Comments
    * - distribution_method
      - string
@@ -83,7 +83,7 @@ The number of the fields provided for contact_fields and analysis_fields must be
 
     * - Name
       - Type
-      - Values
+      - Description
       - Comments
     * - delimiter
       - string

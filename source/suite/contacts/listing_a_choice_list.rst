@@ -30,7 +30,7 @@ Parameters
 
    * - Name
      - Type
-     - Values
+     - Description
      - Comments
    * - /translate/<id>
      - string
