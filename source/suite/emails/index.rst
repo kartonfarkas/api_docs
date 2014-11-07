@@ -17,8 +17,6 @@ Emails
    emails_get_email_category_lists.rst
    querying_email_lists.rst
    update_email_source.rst
-   statuses.rst
-   viewing_urls.rst
 
 Launches
 --------
