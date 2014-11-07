@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - id
      - int
-     -
+     - the ID of the email
      -
 
 Result Data Structure

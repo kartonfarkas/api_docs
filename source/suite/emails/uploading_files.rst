@@ -25,8 +25,8 @@ Parameters
      -
    * - file
      - string
+     - the base64 encoded content of the file
      -
-     - is the base64 encoded content of the file
 
 The upload limit is 128 kB for images and 4 MB for other file types
 

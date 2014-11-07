@@ -17,12 +17,12 @@ Parameters
 
    * - Name
      - Type
-     - Values
+     - Description
      - Comments
-   * - folder=<folder_id>
+   * - folder_id
+     - int
+     - folder_id is the ID of an already existing folder in the Media Database. If it is provided, the files in the folder are returned, part of the URI.
      -
-     - Part of the URI
-     - folder_id is the ID of an already existing folder in the Media Database. If it is provided, the files in the folder are returned.
 
 Result Data Structure
 ---------------------

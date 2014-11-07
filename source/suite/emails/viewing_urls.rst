@@ -1,7 +1,7 @@
 Viewing URLs of Online Versions
 ===============================
 
-Returns the URL to the online version of an email, provided it has been sent to the specified contact.
+Returns the URL to the online version of a launched email.
 
 Endpoint
 --------
@@ -21,15 +21,15 @@ Parameters
      - Comments
    * - <id>
      - int
-     -
+     - the ID of the email
      -
    * - key_id
      - mixed
-     - (field id, “id” or “uid” can be used)
-     -
-   * - key_field
+     - the key which which identifies the contacts
+     - field id, “id” or “uid” can be used
+   * - key_value
      - mixed
-     -
+     - the value of the field identified by the key_id
      -
 
 Result Data Structure
