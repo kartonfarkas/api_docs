@@ -28,10 +28,10 @@ request. If you do not have any of the data listed above, please contact your Ac
 
    authentication.rst
    api_demo.rst
+   sdk.rst
    customers/index.rst
    contacts/index.rst
    emails/index.rst
    exports/index.rst
    external_events/index.rst
    others/index.rst
-   sdk.rst
