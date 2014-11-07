@@ -2,7 +2,7 @@ Suite API
 =========
 
 Suite API provides programmatic access to our service. Most of our customers are using our APIs
-to automate working with Contacts, Email Campaigns, Launches, or Export Data related to contacts and
+to automate working with `Contacts <http://emarsys-dev.readthedocs.org/en/latest/suite/contacts/index.html>`_, `Email Campaigns <, Launches, or Export Data related to contacts and
 launches.
 
 If you have already connected successfully to the API you might want to move straight to the Use Cases,
@@ -26,9 +26,6 @@ request. If you do not have any of the data listed above, please contact your Ac
 .. toctree::
    :maxdepth: 1
 
-   authentication.rst
-   api_demo.rst
-   sdk.rst
    customers/index.rst
    contacts/index.rst
    emails/index.rst

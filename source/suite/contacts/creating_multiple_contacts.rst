@@ -19,21 +19,21 @@ Parameters
      - Type
      - Values
      - Comments
-   * - key_id = [field_id]
+   * - key_id
      -
+     - [field_id]
      -
+   * - field_id
+     - the ID of the field
+     - [field_value]
      -
-   * - [field_id] = [field_value]
+   * - field_id
+     - the ID of the field
+     - [field_value]
      -
-     -
-     -
-   * - [field_id] = [field_value]
-     -
-     -
-     -
-   * - source_id = [source_id]
-     -
-     -
+   * - source_id
+     - the ID of the source
+     - [source_id]
      -
 
 The optional key_id must be provided once.

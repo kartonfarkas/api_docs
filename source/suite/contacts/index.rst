@@ -2,6 +2,7 @@ Contacts, Contact Lists and Segments
 ====================================
 
 The targeted user of the customer, the potential recipient of his/her emails.
+We use field IDs for identifying fields, for example, first name is 1, family name is 2, and email is 3, etc.
 
 Contacts
 --------
@@ -9,13 +10,13 @@ Contacts
 .. toctree::
    :maxdepth: 1
 
+   getting_contact_data.rst
    creating_a_contact.rst
    creating_multiple_contacts.rst
-   getting_contact_data.rst
-   getting_contact_email_history.rst
    updating_a_contact.rst
    updating_multiple_contacts.rst
    unsubscribing_a_contact.rst
+   getting_contact_email_history.rst
    checking_external_contact_ids.rst
    checking_internal_contact_ids.rst
 
@@ -26,9 +27,9 @@ Contact Fields
 .. toctree::
    :maxdepth: 1
 
-   creating_a_field.rst
-   listing_a_choice_list.rst
    listing_field_lists.rst
+   listing_a_choice_list.rst
+   creating_a_field.rst
 
 
 Contact Lists
