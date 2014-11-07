@@ -1,8 +1,9 @@
 Suite API
 =========
 
-Suite REST API provides programmatic access to our service. You can work with Contacts, Email Campaigns,
-Launches and Export Data related to contacts and launches.
+Suite API provides programmatic access to our service. Most of our customers are using our APIs
+to automate working with Contacts, Email Campaigns, Launches, or Export Data related to contacts and
+launches.
 
 If you have already connected successfully to the API you might want to move straight to the Use Cases,
 where we show you a number of typical API-related scenarios.
