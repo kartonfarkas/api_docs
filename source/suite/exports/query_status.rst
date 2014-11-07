@@ -6,7 +6,7 @@ Fetches the status data of an export. Uses the ID returned by :doc:`responses` o
 Endpoint
 --------
 
-``GET /api/v2/export``
+``GET /api/v2/export/<id>``
 
 Parameters
 ----------
@@ -19,10 +19,10 @@ Parameters
      - Type
      - Values
      - Comments
-   * - (integer) /<id>
-     - *string*
-     - requested export id
-     - (Part of the URI)
+   * - <id>
+     - int
+     - requested export ID, part of the URI
+     -
 
 Result Data Structure
 ---------------------
@@ -36,7 +36,7 @@ Result Data Structure
      - Description
      - Comments
    * - status
-     - *string*
+     - string
      - status of the export
      - * **scheduled**: the export process has not been started yet
        * **in progress**: the export is being processed
@@ -46,20 +46,20 @@ Result Data Structure
        * In case of an FTP delivery, and if the FTP host is unavailable or the authentication failed, the export status remains **ready** and the process will try to connect to the FTP after one hour.
        * If the export process cannot connect and stays in **‘ready’** status for more than one hour, please contact your Emarsys Account Manager.
    * - type
-     - *string*
+     - string
      - type of the export
      - * **responses**
        * **registrations**
    * - file_name
-     - *string*
+     - string
      - The name of the output CSV file
      - If status is not done, it is **NULL**
    * - ftp_host
-     - *string*
+     - string
      - The export settings to locate the file if the distribution method is FTP.
      -
    * - ftp_dir
-     - *string*
+     - string
      - The export settings to locate the file if the distribution method is FTP.
      -
 
