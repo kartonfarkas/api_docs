@@ -28,8 +28,8 @@ Parameters
      - field ID
      - **id** or **uid** can be used.
    * - external_ids
-     - [id1],[id2],…
-     -
+     - [id1];[id2];…
+     - the field ID of the contacts
      -
 
 Result Data Structure

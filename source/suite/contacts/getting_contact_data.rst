@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - keyId
      - mixed
-     - the key which identifies the contacts
+     - the key which which identifies the contacts
      - It must be an array containing contact IDs or values of the column used to select contacts.
    * - keyValues
      - array

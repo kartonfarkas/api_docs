@@ -17,20 +17,20 @@ Parameters
 
    * - Name
      - Type
-     - Values
+     - Description
      - Comments
-   * - id (part of the URI)
+   * - id part of the URI
      - int
+     - ID of the external event, part of the URI
      -
-     - ID of the external event.
    * - key_id
      - mixed
-     -
+     - the key which which identifies the contacts
      - field id, "id" or "uid".
    * - external_id
      - string
-     -
      - External ID for the given field specified with field_id.
+     -
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
@@ -42,8 +42,8 @@ Parameters
      - Comments
    * - data
      - string
-     -
      - External Data in JSON format.
+     -
 
 JSON Payload Example
 --------------------

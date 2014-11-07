@@ -17,10 +17,10 @@ Parameters
 
    * - Name
      - Type
-     - Values
+     - Description
      - Comments
    * - /translate/<language_code>
-     -
+     - string
      - Language_code is one of the IDs returned in the list (e.g. en).
      -
 
