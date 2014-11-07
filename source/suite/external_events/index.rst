@@ -1,5 +1,5 @@
-External Events
-===============
+External Events  for Emails
+===========================
 
 This is a named event that triggers an email to be sent.
 External events always include references to the contact the email will be sent to.

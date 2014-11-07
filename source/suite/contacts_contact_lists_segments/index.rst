@@ -1,5 +1,5 @@
-Contacts
-========
+ Contacts, Contact Lists and Segments
+=====================================
 
 The targeted user of the customer, the potential recipient of his/her emails.
 

@@ -1,5 +1,5 @@
-Email Campaigns
-===============
+Email Campaigns and Launches
+============================
 
 Emails are templates and their settings which eMarketing Suite can launch.
 The customer can create emails using the Suite UI, but also via the API. Since the API does not allow using all features (e.g. templates),
