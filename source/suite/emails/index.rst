@@ -17,6 +17,7 @@ Emails
    emails_get_email_category_lists.rst
    querying_email_lists.rst
    update_email_source.rst
+   languages.rst
 
 Launches
 --------
@@ -57,5 +58,6 @@ Form
    :maxdepth: 1
 
    forms.rst
+   email_and_form_types.rst
 
 

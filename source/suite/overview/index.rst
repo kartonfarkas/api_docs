@@ -7,3 +7,4 @@ Overview
    authentication.rst
    api_demo.rst
    sdk.rst
+   encoding_and_ressponses.rst
