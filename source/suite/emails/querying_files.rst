@@ -24,16 +24,6 @@ Parameters
      - folder_id is the ID of an already existing folder in the Media Database. If it is provided, the files in the folder are returned, part of the URI.
      -
 
-Result Data Structure
----------------------
-
- * id: integer
- * folder: integer
- * filename: string
- * size: integer
- * original_name: string
- * url: string
-
 URI Examples
 ------------
 

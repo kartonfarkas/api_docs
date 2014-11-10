@@ -65,13 +65,6 @@ Parameters
      -
      -
 
-Result Data Structure
----------------------
-
- * id: integer
-
-Where the ID is the internal identifier of the administrator.
-
 Result Example
 --------------
 
@@ -85,6 +78,8 @@ Result Example
            id: 456
        }
    }
+
+Where *id* is the internal ID of the administrator.
 
 Errors
 ------

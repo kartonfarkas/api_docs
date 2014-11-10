@@ -44,42 +44,6 @@ For a list of possible values for <id>, see `E-Mail Statuses <http://documentati
 You can combine the fromdate and todate parameters.
 If two or more parameters are used, they must be separated by an & character.
 
-Result Data Structure
----------------------
-
- * id: integer
- * root_email: integer
- * language: string
- * created: datetime
- * deleted: datetime
- * name: string
- * fromemail: string
- * fromname: string
- * subject: string
- * email_category: integer
- * filter: integer
- * contactlist: integer
- * status: integer
- * api_status: integer
- * api_error: integer
- * source: string
-   …
-
-Where:
-
- * *id* = The internal identifier of the email.
- * *name* = The name of the email
- * *fromemail* = The sender email address
- * *fromname* = The sender name
- * *subject* = The email subject line
- * *email category* = The category identifier for this email. Categories can be retrieved via `/api/v2/emailcategory <http://documentation.emarsys.com/?page_id=164>`_.
- * *filter* = The filter identifier. Available filters can be retrieved via `/api/v2/filter <http://documentation.emarsys.com/?page_id=114>`_.
- * *contactlist* = The contact list identifier. Contact lists can be retrieved via `/api/v2/contactlist <http://documentation.emarsys.com/?page_id=184>`_.
- * *status* = See `E-Mail Statuses <http://documentation.emarsys.com/?page_id=426>`_
- * *api_status* = See `API launch statuses <http://documentation.emarsys.com/?page_id=426>`_
- * *api_error* = See `API launch errors <http://documentation.emarsys.com/?page_id=422>`_
- * *source* = The source of the recipients. Possible values are: **userlist, profile, api**
-
 URI Example
 -----------
 
@@ -142,6 +106,21 @@ Result Example
        }
      ]
    }
+
+Where:
+
+ * *id* = the internal identifier of the email
+ * *name* = the name of the email
+ * *fromemail* = the sender email address
+ * *fromname* = the sender name
+ * *subject* = the email subject line
+ * *email category* = the category identifier for this email. Categories can be retrieved via `/api/v2/emailcategory <http://documentation.emarsys.com/?page_id=164>`_.
+ * *filter* = the filter identifier. Available filters can be retrieved via `/api/v2/filter <http://documentation.emarsys.com/?page_id=114>`_.
+ * *contactlist* = the contact list identifier. Contact lists can be retrieved via `/api/v2/contactlist <http://documentation.emarsys.com/?page_id=184>`_.
+ * *status* = See `E-Mail Statuses <http://documentation.emarsys.com/?page_id=426>`_
+ * *api_status* = See `API launch statuses <http://documentation.emarsys.com/?page_id=426>`_
+ * *api_error* = See `API launch errors <http://documentation.emarsys.com/?page_id=422>`_
+ * *source* = the source of the recipients. Possible values are: **userlist, profile, api**
 
 Errors
 ------

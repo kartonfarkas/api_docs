@@ -41,27 +41,6 @@ Parameters
      - The fields in the result set can be set with the fields parameter.
      - If empty, all fields will be returned.
 
-Result Data Structure
----------------------
-
-Normal Result:
-
-.. code-block:: json
-
-   {
-     "id": "23897",
-     "1": "testName1",
-     "3": "fakeemail1@test.com"
-   }
-
-.. code-block:: json
-
-   {
-     "id": "23898",
-     "1": "testName2",
-     "3": "fakeemail2@test.com"
-   }
-
 Error Condition:
 
 .. code-block:: json
@@ -110,6 +89,27 @@ Result Example
          }
        ]
      }
+   }
+
+Result Data Structure
+---------------------
+
+Normal Result:
+
+.. code-block:: json
+
+   {
+     "id": "23897",
+     "1": "testName1",
+     "3": "fakeemail1@test.com"
+   }
+
+.. code-block:: json
+
+   {
+     "id": "23898",
+     "1": "testName2",
+     "3": "fakeemail2@test.com"
    }
 
 Errors

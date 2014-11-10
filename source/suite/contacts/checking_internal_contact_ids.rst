@@ -28,13 +28,6 @@ Parameters
      - the value of the key field
      -
 
-Result Data Structure
----------------------
-
- * "[id]" (internal ID of the contact)
-
-Where *[id]* is the Internal ID of the contact.
-
 URI Examples
 ------------
 
@@ -59,6 +52,8 @@ Result Example
        "id":"123"
      }
    }
+
+Where *id* is the internal ID of the contact.
 
 Errors
 ------

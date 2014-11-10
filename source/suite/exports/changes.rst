@@ -87,12 +87,6 @@ Parameters
 
      - If *distribution_method* is **local**, then *ftp_settings* is ignored.
 
-
-Result Data Structure
----------------------
-
- * id: integer
-
 Request Example
 ---------------
 

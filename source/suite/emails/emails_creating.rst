@@ -89,11 +89,6 @@ Parameters
      - * 0: false
        * 1: true
 
-Result Data Structure
----------------------
-
- * id: integer (the message ID)
-
 Request Example
 ---------------
 
@@ -128,6 +123,8 @@ Result Example
        "id": 2140
      }
    }
+
+Where *id* is the message ID.
 
 Errors
 ------

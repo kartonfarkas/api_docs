@@ -44,17 +44,6 @@ The upload limit is 128 kB for images and 4 MB for other file types
      - If folder is not specified, the file is uploaded to the root directory.
        The list of folders can be retrieved using the /api/v2/folder interface.
 
-Result Data Structure
----------------------
-
- * id: integer
- * folder: integer
- * filename: string
- * size: integer
- * original_name: string
-
-Where *filename* is the resulting file name in the media database after upload, and *original_name* is the file name provided in the request
-
 JSON Payload Example
 --------------------
 
@@ -100,6 +89,8 @@ Result Example
        }
      ]
    }
+
+Where *filename* is the resulting file name in the media database after upload, and *original_name* is the file name provided in the request
 
 Errors
 ------

@@ -32,29 +32,6 @@ Parameters
      - the list of contact IDs to be inserted
      -
 
-Result Data Structure
----------------------
-
-.. list-table:: Result
-   :header-rows: 1
-
-   * - Name
-     - Type
-   * - inserted_contacts
-     - int
-   * - errors
-
-       * - Name
-         - Type
-       * - [id1]
-         - string
-       * - [id2]
-         - string
-
-Where *inserted_contacts* is the number of contacts successfully added to the list, and
-*errors* is an array of contacts not added to the list. The array contains the ID and
-reason for the error.
-
 Request Example
 ---------------
 
@@ -108,6 +85,10 @@ Result Example
        }
      }
    }
+
+Where *inserted_contacts* is the number of contacts successfully added to the list, and
+*errors* is an array of contacts not added to the list. The array contains the ID and
+reason for the error.
 
 Errors
 ------

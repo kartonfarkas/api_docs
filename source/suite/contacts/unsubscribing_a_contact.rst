@@ -49,19 +49,6 @@ See document “Suite Field IDs and Values” for further information.
      - For the source_id, pass the value for the appropriate source (we are using 2 in the examples below).
      - If more than one contact with the requested external ID is found, an error message is returned.
 
-Result Data Structure
----------------------
-
-.. code-block:: json
-
-   {
-     "replyCode": 0,
-     "replyText": "OK",
-     "data": {
-       "id": [id]
-     }
-   }
-
 Result Example
 --------------
 

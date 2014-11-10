@@ -24,6 +24,37 @@ Parameters
      - The ID of the email, part of the request URI
      -
 
+Result Example
+--------------
+
+.. code-block:: json
+
+   {
+     "replyCode": 0,
+     "replyText": "OK",
+     "data":
+     [
+       {
+         "id": "12345",
+         "language": "en",
+         "created": "2011-08-12 18:12:23",
+         "name": "Test",
+         "status": "3",
+         "api_status": "2",
+         "api_error": "0",
+         "fromemail": "emarsys@emarsys.net",
+         "fromname": "emarsys",
+         "subject": "Test mail",
+         "email_category": "11111",
+         "filter": "22222",
+         "contactlist": "0",
+         "source": "api",
+         "html_source": "Hello $Last Name$. How are you?",
+         "text_source": "Hello $Last Name$ http://login.emarsys.net/u/nrd.php?p=$uid$_$llid$_$cid$_$sid$_2"
+       }
+     ]
+   }
+
 Result Data Structure
 ---------------------
 
@@ -103,37 +134,6 @@ Result Data Structure
        * userlist
        * profile
        * api
-
-Result Example
---------------
-
-.. code-block:: json
-
-   {
-     "replyCode": 0,
-     "replyText": "OK",
-     "data":
-     [
-       {
-         "id": "12345",
-         "language": "en",
-         "created": "2011-08-12 18:12:23",
-         "name": "Test",
-         "status": "3",
-         "api_status": "2",
-         "api_error": "0",
-         "fromemail": "emarsys@emarsys.net",
-         "fromname": "emarsys",
-         "subject": "Test mail",
-         "email_category": "11111",
-         "filter": "22222",
-         "contactlist": "0",
-         "source": "api",
-         "html_source": "Hello $Last Name$. How are you?",
-         "text_source": "Hello $Last Name$ http://login.emarsys.net/u/nrd.php?p=$uid$_$llid$_$cid$_$sid$_2"
-       }
-     ]
-   }
 
 Errors
 ------

@@ -32,17 +32,6 @@ Parameters
      - the field ID of the contacts
      -
 
-Result Data Structure
----------------------
-
- * deleted_contacts: integer
- * errors:
-
-   * [id1]: string
-   * [id2]: string
-
-Where *deleted_contacts* is the number of contacts successfully deleted from the list, and *errors* is an array of contacts not removed from the list. The array contains the ID and reason for the error.
-
 JSON Payload Example
 --------------------
 
@@ -98,6 +87,8 @@ Result Example
        }
      }
    }
+
+Where *deleted_contacts* is the number of contacts successfully deleted from the list, and *errors* is an array of contacts not removed from the list. The array contains the ID and reason for the error.
 
 Errors
 ------

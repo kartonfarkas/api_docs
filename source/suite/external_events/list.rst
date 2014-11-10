@@ -8,13 +8,6 @@ Endpoint
 
 ``GET /api/v2/event``
 
-Result Data Structure
----------------------
-
- * id: integer, name: string
- * id: integer, name: string
-   ...
-
 Result Example
 --------------
 

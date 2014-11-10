@@ -12,13 +12,6 @@ Endpoint
 
 ``GET /api/v2/administrator/getinterfacelanguages``
 
-Result Data Structure
----------------------
-
- * string, string, ...
-
-Where the strings are the two-letter identifiers of the languages.
-
 Result Example
 --------------
 
@@ -39,3 +32,4 @@ Result Example
        ]
    }
 
+Where the strings are the two-letter identifiers of the languages.

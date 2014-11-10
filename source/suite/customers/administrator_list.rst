@@ -12,24 +12,6 @@ Endpoint
 
 ``GET /api/v2/administrator``
 
-Result Data Structure
----------------------
-
- * id: integer
- * username: string
- * email: string
- * access_level: integer
- * interface_language: string
- * first_name: string
- * last_name: string
- * position: string
- * id: integer
- * username: string
-   ...
-
-Where *id* is the internal ID of the administrator, *access_level* is the administrator role ID (for possible values see administrator/getaccesslevels), and
-*interface_language* is the language code of the user interface language of the administrator (for possible languages see administrator/getinterfacelanguages).
-
 Result Example
 --------------
 
@@ -63,3 +45,5 @@ Result Example
        ]
    }
 
+Where *id* is the internal ID of the administrator, *access_level* is the administrator role ID (for possible values see administrator/getaccesslevels), and
+*interface_language* is the language code of the user interface language of the administrator (for possible languages see administrator/getinterfacelanguages).

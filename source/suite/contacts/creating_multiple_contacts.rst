@@ -40,17 +40,6 @@ The optional key_id must be provided once.
 The parameters of the different contacts must be sent in an array (see example below).
 The maximum size of the array (and therefore the **maximum number of new contacts**) is **1,000.**
 
-Result Data Structure
----------------------
-
- * [id1]
-   [id2]
-    …
- * [key_field_value1] = [error1]
- * [key_field_value2] = [error2]
-
-Where *[idx]* means that the IDs of successfully-created contacts are returned in an array, and *[errorx]* is that if an error occurred during the creation of a contact, the error message is returned with the value of the key_id.
-
 JSON Payload Example
 --------------------
 
@@ -109,6 +98,8 @@ Result Example
        }
      }
    }
+
+Where *[idx]* means that the IDs of successfully-created contacts are returned in an array, and *[errorx]* is that if an error occurred during the creation of a contact, the error message is returned with the value of the key_id.
 
 Errors
 ------

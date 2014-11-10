@@ -45,15 +45,6 @@ Parameters
      - additional information about the contact list
      -
 
-Result Data Structure
----------------------
-
- * id:integer
- * errors:
-
-   * [id1]: string
-   * [id2]: string
-
 JSON Payload Example
 --------------------
 
@@ -109,6 +100,8 @@ Result Example
        ]
      }
    }
+
+Where *id* is the ID of the contact list, and *errors* contains the error ID and the error message as a key-value pair.
 
 Errors
 ------

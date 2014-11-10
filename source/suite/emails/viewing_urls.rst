@@ -32,13 +32,6 @@ Parameters
      - the value of the field identified by the key_id
      -
 
-Result Data Structure
----------------------
-
- * (string) url
-
-Where *url* is the URL of the online version.
-
 JSON Payload Example
 --------------------
 
@@ -63,6 +56,8 @@ Result Example
        prm=uid369_119948266_123456789_369258147"
      }
    }
+
+Where *url* is the URL of the online version.
 
 Errors
 ------

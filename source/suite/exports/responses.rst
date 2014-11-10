@@ -109,11 +109,6 @@ The number of the fields provided for contact_fields and analysis_fields must be
 
       - If *distribution_method* is **local**, then *ftp_settings* is ignored.
 
-Result Data Structure
----------------------
-
- * id:integer
-
 Request Example
 ---------------
 

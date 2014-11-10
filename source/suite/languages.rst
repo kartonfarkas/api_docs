@@ -26,13 +26,6 @@ Parameters
 
 For a list of supported languages, see the list of `language codes <http://documentation.emarsys.com/?page_id=417>`_ .
 
-Result Data Structure
----------------------
-
- * id: string, language: string
- * id: string, language: string
-   …
-
 Result Example
 --------------
 

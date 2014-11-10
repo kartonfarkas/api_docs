@@ -8,13 +8,6 @@ Endpoint
 
 ``GET /api/v2/contactlist``
 
-Result Data Structure
----------------------
-
- * id: integer, name: string
- * id: integer, name: string
-   …
-
 Result Example
 --------------
 

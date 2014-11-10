@@ -35,19 +35,6 @@ Parameters
      - [id1],[id2],…, values specified in the key_id for those contacts whose internal IDs the customer wants to receive
      - ID can be integer, string or array depending on the key field type. For example, for custom numeric fields an integer is appropriate, for a multi-choice field an array must be provided, etc..
 
-Result Data Structure
----------------------
-
- * ids:
-
-   * [id1]: [internal ID (integer)]
-   * [id2]: [internal ID (integer)]
-
- * errors:
-
-   * [id3]: [Error message (string)]
-   * [id4]: [Error message (string)]
-
 JSON Payload Example
 --------------------
 
@@ -87,6 +74,9 @@ Result Example
       }
     }
    }
+
+
+Where *ids* are internal IDs,and *errors* contains the error ID and the error message as a key-value pair.
 
 Errors
 ------

@@ -8,14 +8,6 @@ Endpoint
 
 ``GET /api/v2/form``
 
-Result Data Structure
----------------------
-
- * id: integer
- * type: integer
-
-Where type is the form type. See `email and form types <http://documentation.emarsys.com/?page_id=417>`_ .
-
 Result Example
 --------------
 
@@ -35,6 +27,8 @@ Result Example
        …
      ]
    }
+
+Where type is the form type. See `email and form types <http://documentation.emarsys.com/?page_id=417>`_ .
 
 Errors
 ------

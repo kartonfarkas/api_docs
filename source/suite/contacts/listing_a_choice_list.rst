@@ -37,14 +37,6 @@ Parameters
      - <id> can be: en, de, ru, …
      - For a full list of supported languages, see the `list of language codes. <http://documentation.emarsys.com/?page_id=424>`_
 
-Result Data Structure
----------------------
-
- * id: integer
- * choice: string
-
-Where *id* is the internal identifier of the choice, and *choice* is the name of the choice
-
 URI Example
 -----------
 
@@ -72,6 +64,8 @@ Result Example
        }
      ]
    }
+
+Where *id* is the internal identifier of the choice, and *choice* is the name of the choice
 
 Errors
 ------
