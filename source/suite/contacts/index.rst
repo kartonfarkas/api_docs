@@ -17,8 +17,8 @@ Contacts
    updating_multiple_contacts.rst
    unsubscribing_a_contact.rst
    getting_contact_email_history.rst
-   checking_external_contact_ids.rst
-   checking_internal_contact_ids.rst
+   fetching_contact_internal_id.rst
+   checking_contact_internal_ids.rst
 
 
 Contact Fields
