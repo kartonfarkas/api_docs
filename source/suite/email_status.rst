@@ -1,8 +1,5 @@
-Status Codes
-============
-
 E-Mail Status Codes
--------------------
+===================
 
 The ID is one of the following:
 

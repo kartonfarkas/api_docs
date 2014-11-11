@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - id
      - int
-     - The ID of the email, part of the request URI
+     - ID of the email, part of the request URI
      -
 
 Result Example
@@ -68,55 +68,55 @@ Result Data Structure
      - Comments
    * - id
      - int
-     - The internal ID of the email
+     - internal ID of the email
      -
    * - language
      - string
-     - The language of the email
+     - language of the email
      -
    * - created
      - datetime
-     - The creation date of the email
+     - creation date of the email
      -
    * - name
      - string
-     - The name of the email
+     - name of the email
      -
    * - fromemail
      - string
-     - The email address of the sender
+     - email address of the sender
      -
    * - fromname
      - string
-     - The name of the sender
+     - name of the sender
      -
    * - subject
      - string
-     - The subject line of the email
+     - subject line of the email
      -
    * - email_category
      - int
-     - The category ID of the email
+     - category ID of the email
      - Categories may be retrieved via the :doc:`emails_get_email_category_lists` endpoint
    * - filter
      - int
-     - The filter ID
+     - filter ID
      - Available filters can be retrieved via the :doc:`../contacts/listing_segments` endpoint
    * - contactlist
      - int
-     - The contact list ID
+     - contact list ID
      - Contact lists may be retrieved via the :doc:`../contacts/listing_contact_lists` endpoint
    * - html_source
      - string
-     - The HTML source of the email
+     - HTML source of the email
      -
    * - text_source
      - string
-     - The text source of the email
+     - text source of the email
      -
    * - status
      - int
-     - the status of the email
+     - status of the email
      - See :doc:`email_status`
    * - api_status
      - int
@@ -128,7 +128,7 @@ Result Data Structure
      -
    * - source
      - string
-     - The source of the recipients.
+     - source of the recipients.
      - Possible values are:
 
        * userlist

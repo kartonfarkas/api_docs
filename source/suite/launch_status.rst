@@ -1,5 +1,5 @@
 Launch Statuses
----------------
+===============
 
 Emails have one of the following launch statuses:
 
