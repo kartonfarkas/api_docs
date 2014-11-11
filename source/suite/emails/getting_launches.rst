@@ -1,7 +1,7 @@
 Getting Launches of E-Mail
 ==========================
 
-Lists all the launches of an email with ID, launch date and ‘done’ status.
+Lists all the launches of an email with ID, launch date and 'done' status.
 
 Endpoint
 --------
