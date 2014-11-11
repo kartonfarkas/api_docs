@@ -2,6 +2,8 @@ Querying Customer Forms
 =======================
 
 Returns a list of available forms.
+Suite offers simple functionality to create different kinds of forms to collect data from contacts.
+Customers can embed these registration forms in web pages.
 
 Endpoint
 --------
@@ -28,7 +30,7 @@ Result Example
      ]
    }
 
-Where type is the form type. See `email and form types <http://documentation.emarsys.com/?page_id=417>`_ .
+Where *type* is the form type. See `email and form types <http://documentation.emarsys.com/?page_id=417>`_ .
 
 Errors
 ------
