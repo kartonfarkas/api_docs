@@ -40,7 +40,7 @@ Parameters
      - 0
      -
    * - contact_fields
-     - integer array
+     - int array
      - It may contain any contact field ID except:
 
        * 27 – avg. length of visit
@@ -61,7 +61,7 @@ Parameters
      - Comments
    * - delimiter
      - string
-     - **,** (comma) or **;** (semicolon).
+     - **,** (comma) or **;** (semicolon)
      - Default value is **,** (comma).
    * - add_field_names_header
      - int

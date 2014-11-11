@@ -19,16 +19,15 @@ Parameters
      - Type
      - Description
      - Comments
-   * - key_id = [field_id]
+   * - key_id
+     - int
+     - key_id identifies the contact to be updated
      -
-     - [field_id] = [field_value]
-       [field_id] = [field_value]
-       …
-       [field_id] = [field_value]
-       [field_id] = [field_value]
-       …
-     - key_id identifies the contact to be updated. The other fields contain the changes requested for the contact.
-       If more than one contact with the requested external ID is found, an error message is returned.
+   * - [field_id]
+     - int
+     - [field_value]
+     - these contain the changes requested for the contact
+       If more than one contact with the requested key ID is found, an error message is returned.
 
 See `Batch Create Contact <http://documentation.emarsys.com/?page_id=174>`_ for further information.
 
@@ -41,7 +40,7 @@ See `Batch Create Contact <http://documentation.emarsys.com/?page_id=174>`_ for 
      - Description
      - Comments
    * - source_id
-     - the ID of the source
+     - ID of the source
      - [source_id]
      -
 

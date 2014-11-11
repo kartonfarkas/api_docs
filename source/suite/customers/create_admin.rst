@@ -25,15 +25,15 @@ Parameters
      - Comments
    * - username
      - string
-     -
+     - name of the admin
      -
    * - password
      - string
-     -
+     - password of the admin
      -
    * - email
      - string
-     -
+     - email address
      -
    * - access_level
      - int
@@ -50,20 +50,12 @@ Parameters
 
    * - Name
      - Type
-     - Description
-     - Comments
    * - first_name
      - string
-     -
-     -
    * - last_name
      - string
-     -
-     -
    * - position
      - string
-     -
-     -
 
 Result Example
 --------------

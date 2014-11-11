@@ -21,11 +21,11 @@ Parameters
      - Comments
    * - key_field_id
      - mixed
-     - the ID of the key field or ‘ID’ if internal ID used
+     - ID of the key field or ‘ID’ if internal ID used
      -
    * - key_field_value
      - field dependent
-     - the value of the key field
+     - value of the key field
      -
 
 URI Examples

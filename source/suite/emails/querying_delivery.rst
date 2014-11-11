@@ -39,7 +39,7 @@ Parameters
    * - launchId
      - int
      - A valid launch ID must be provided. This parameter is mandatory if the campaign has multiple launches.
-     - The launch must be finished before you can retrieve its delivery status
+     - The launch must be finished before you can retrieve its delivery status.
 
 JSON Payload Example
 --------------------

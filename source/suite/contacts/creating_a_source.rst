@@ -25,7 +25,7 @@ Parameters
      - Comments
    * - name
      - string
-     - the name of the source to be created
+     - name of the source to be created
      -
 
 JSON Payload Example

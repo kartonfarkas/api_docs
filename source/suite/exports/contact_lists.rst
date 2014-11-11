@@ -19,26 +19,26 @@ Parameters
      - Description
      - Comments
    * - distribution_method
-     - *string*
+     - string
      - **ftp** or **local**
      - If *distribution_method* is **ftp**, then *ftp_settings* is a required parameter.
    * - time_range
-     - *date array*
+     - date array
      - An array with two elements (start date, end date)
      - The following date formats are accepted here:
        - [2014-06-20 16:16:00, 2014-06-20 16:16:21]
        - [2014-06-20 16:16, 2014-06-20 16:21]
        - [2014-06-20, 2014-06-21]
    * - origin
-     - *string*
+     - string
      - **form** or **api**
      -
    * - origin_id
-     - *integer array*
+     - int array
      - 0
      -
    * - contact_fields
-     - *integer array*
+     - int array
      - It may contain any contact field ID except:
 
        * 27 – avg. length of visit
@@ -58,19 +58,19 @@ Parameters
      - Description
      - Comments
    * - delimiter
-     - *string*
-     - **,** (comma) or **;** (semicolon).
+     - string
+     - **,** (comma) or **;** (semicolon)
      - Default value is **,** (comma).
    * - add_field_names_header
-     - *integer*
+     - int
      - **0** or **1**
      - Default value is **1**.
    * - language
-     - *string*
+     - string
      - see supported `language codes <http://documentation.emarsys.com/?page_id=424>`_
      - Default value is the account’s default language.
    * - ftp_settings
-     - *object*
+     - object
      - an object with the following fields must be provided:
        * *(string)* host
        * *(integer)* port

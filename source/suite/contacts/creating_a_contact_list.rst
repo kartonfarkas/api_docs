@@ -21,15 +21,15 @@ Parameters
      - Comments
    * - key_id
      - mixed
-     - the field ID
+     - [field ID]
      - **id** or **uid** can be used.
    * - name
      - string
-     - the name of the contact list
+     - name of the contact list
      -
    * - external_ids
      - array
-     - the list of contact IDs to be inserted
+     - list of contact IDs to be inserted
      - The maximum value is 10,000 contacts.
 
 .. list-table:: **Optional Parameters**

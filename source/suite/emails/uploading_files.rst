@@ -21,11 +21,11 @@ Parameters
      - Comments
    * - filename
      - string
-     - the full name of the file plus extension (e.g.: testimage.jpg)
+     - full name of the file plus extension (e.g.: testimage.jpg)
      -
    * - file
      - string
-     - the base64 encoded content of the file
+     - base64 encoded content of the file
      -
 
 The upload limit is 128 kB for images and 4 MB for other file types
@@ -40,7 +40,7 @@ The upload limit is 128 kB for images and 4 MB for other file types
      - Comments
    * - folder
      - int
-     - The ID of an already existing folder in the Media Database.
+     - ID of an already existing folder in the Media Database
      - If folder is not specified, the file is uploaded to the root directory.
        The list of folders can be retrieved using the /api/v2/folder interface.
 

@@ -85,7 +85,7 @@ Parameters
        * 1: true
    * - text_only
      - int
-     - The text_only parameter will be used only if both HTML and TEXT sources are available
+     - used only if both HTML and TEXT sources are available
      - * 0: false
        * 1: true
 

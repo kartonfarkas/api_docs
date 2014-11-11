@@ -25,7 +25,7 @@ Parameters
      - Comments
    * - <segment_id>
      - int
-     - the ID of the segment to be evaluated
+     - ID of the segment to be evaluated
      -
 
 URI Example

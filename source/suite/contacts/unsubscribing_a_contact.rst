@@ -19,20 +19,20 @@ Parameters
      - Type
      - Description
      - Comments
-   * - key_id = [field_id]
-     -
-     - The value provided for key_id field identifies the contact which will be unsubscribed.
-       Use 3 for email address.
-     -
-   * - optin = [NULL; 1; 2]
-     -
+   * - key_id
+     - int
+     - [field_id]
+     - The value provided for key_id field identifies the contact which will be unsubscribed. Use 3 for email address.
+   * - optin
+     - int
+     - [NULL; 1; 2]
      - The second parameter optin (field_id: 31) has three possible values:
 
-       * NULL = empty
-       * 1 = true
-       * 2 = false
+           * NULL = empty
+           * 1 = true
+           * 2 = false
 
-     - Set optin=false to unsubscribe a contact!
+       Set optin=false to unsubscribe a contact!
 
 See document “Suite Field IDs and Values” for further information.
 
@@ -45,9 +45,9 @@ See document “Suite Field IDs and Values” for further information.
      - Description
      - Comments
    * - source_id
-     - the ID of the source
-     - For the source_id, pass the value for the appropriate source (we are using 2 in the examples below).
-     - If more than one contact with the requested external ID is found, an error message is returned.
+     - int
+     - ID of the source
+     - For the source_id, pass the value for the appropriate source (we are using 2 in the examples below). If more than one contact with the requested external ID is found, an error message is returned.
 
 Result Example
 --------------

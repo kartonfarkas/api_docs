@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - contacts
      - array
-     - contacts is an integer array which contains the contact IDs to check.
+     - integer array which contains the contact IDs to check
      -
 
 .. list-table:: **Optional Parameters**

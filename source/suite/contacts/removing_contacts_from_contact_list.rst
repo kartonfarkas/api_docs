@@ -21,15 +21,15 @@ Parameters
      - Comments
    * - <list_id>
      - int
-     - the ID of the contact list, part of the URI
+     - ID of the contact list, part of the URI
      - The maximum value is 10,000 contacts to be deleted with each request.
    * - key_id
      - mixed
-     - field ID
+     - [field ID]
      - **id** or **uid** can be used.
    * - external_ids
      - [id1];[id2];…
-     - the field ID of the contacts
+     - field ID of the contacts
      -
 
 JSON Payload Example

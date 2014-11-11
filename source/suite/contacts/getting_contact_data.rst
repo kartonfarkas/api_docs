@@ -21,11 +21,11 @@ Parameters
      - Comments
    * - keyId
      - mixed
-     - the key which which identifies the contacts
+     - key which identifies the contacts
      - It must be an array containing contact IDs or values of the column used to select contacts.
    * - keyValues
      - array
-     - the value of the keyId
+     - value of the keyId
      - This can be a field id, id or uid. If empty, the internal ID will be used.
 
 .. list-table:: **Optional Parameters**

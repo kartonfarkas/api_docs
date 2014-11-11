@@ -25,11 +25,11 @@ Parameters
      - **id** or **uid** can be used.
    * - name
      - string
-     - the name of the new field
+     - name of the new field
      -
    * - application_type
      - string
-     - the type of the new field
+     - type of the new field
      - supported types:
 
        * shorttext: max 60 characters

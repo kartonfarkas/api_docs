@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - emailId
      - int
-     - The ID of the email to be deleted
+     - ID of the email to be deleted
      -
 
 Result Example

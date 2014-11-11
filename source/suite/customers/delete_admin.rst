@@ -25,7 +25,7 @@ Parameters
      - Comments
    * - successor_administrator_id
      - int
-     - the identifier of the administrator who takes over the deleted administrator's rights
+     - ID of the administrator who takes over the deleted administrator's rights
      -
 
 Result Example

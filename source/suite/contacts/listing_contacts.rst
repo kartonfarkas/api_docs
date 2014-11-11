@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - <list_id>
      - int
-     - the ID of the contact list
+     - ID of the contact list
      -
 
 URI Example

@@ -20,7 +20,7 @@ Parameters
      - Description
      - Comments
    * - key_id
-     - the key which identifies the contacts
+     - int
      - [field_id]
      - The value provided for the key_id field identifies the contact which will be updated. The other fields contain the changes requested for the contact. If more than one contact with the requested external ID is found, an error message is returned.
 

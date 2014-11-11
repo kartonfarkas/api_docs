@@ -26,7 +26,7 @@ Parameters
      - If *distribution_method* is **ftp**, then *ftp_settings* is a required parameter.
    * - time_range
      - date array
-     - An array with two elements (start date, end date)
+     - array with two elements (start date, end date)
      - The following date formats are accepted here:
         - [2014-06-20 16:16:00, 2014-06-20 16:16:21]
         - [2014-06-20 16:16, 2014-06-20 16:21]
@@ -52,7 +52,7 @@ Parameters
      - The array must not be empty.
    * - sources
      - string
-     - An array which defines sources
+     - array which defines sources
      - * trackable_links
        * registration_forms
        * tell_a_friend
@@ -63,7 +63,7 @@ Parameters
        * complaint
    * - analysis_fields
      - string
-     - An array which defines analysis fields
+     - array which defines analysis fields
      - * 1 – Campaign title
        * 2 – Section header
        * 3 – Section group
@@ -99,7 +99,7 @@ The number of the fields provided for contact_fields and analysis_fields must be
       - Default value is the account’s default language.
     * - ftp_settings
       - object
-      - an object with the following fields must be provided:
+      - An object with the following fields must be provided:
 
         * *(string)* host
         * *(integer)* port

@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - <id>
      - int
-     - the ID of the email
+     - ID of the email
      -
    * - key_id
      - mixed
@@ -29,7 +29,7 @@ Parameters
      - field id, “id” or “uid” can be used
    * - key_value
      - mixed
-     - the value of the field identified by the key_id
+     - value of the field identified by the key_id
      -
 
 JSON Payload Example

@@ -20,7 +20,7 @@ Parameters
      - Description
      - Comments
    * - key_id
-     - the key which identifies the contacts
+     - key which identifies the contacts
      - [field_id]
      -
    * - field_id

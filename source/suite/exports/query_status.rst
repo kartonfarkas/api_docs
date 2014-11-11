@@ -72,15 +72,15 @@ Result Data Structure
        * **registrations**
    * - file_name
      - string
-     - The name of the output CSV file
+     - name of the output CSV file
      - If status is not done, it is **NULL**
    * - ftp_host
      - string
-     - The export settings to locate the file if the distribution method is FTP.
+     - export settings to locate the file if the distribution method is FTP
      -
    * - ftp_dir
      - string
-     - The export settings to locate the file if the distribution method is FTP.
+     - export settings to locate the file if the distribution method is FTP
      -
 
 Errors

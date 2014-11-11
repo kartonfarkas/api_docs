@@ -21,15 +21,15 @@ Parameters
      - Comments
    * - list_id
      - int
-     - the ID of the contact list to extend, part of the URI
+     - ID of the contact list to extend, part of the URI
      -
    * - key_id
      - mixed
-     - the key which identifies the contacts
+     - key which identifies the contacts
      - field ID, id or uid can be used
    * - external_ids
      - array
-     - the list of contact IDs to be inserted
+     - list of contact IDs to be inserted
      -
 
 Request Example
