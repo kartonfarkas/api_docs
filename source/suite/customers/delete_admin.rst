@@ -5,7 +5,7 @@ Delete Admin
 
    The administrator API is available only from specific IP addresses. For more information, please contact emarsys support.
 
-This action deletes an administrator and passes the rights of the deleted administrator to a different administrator.
+Deletes an administrator and passes the rights to a different administrator.
 
 Endpoint
 --------

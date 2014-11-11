@@ -5,7 +5,7 @@ Querying Access Levels
 
    The administrator API is available only from specific IP addresses. For more information, please contact emarsys support.
 
-This returns the list of available access levels for the customer.
+Returns the list of available access levels for the customer.
 
 Endpoint
 --------

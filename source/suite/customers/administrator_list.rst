@@ -5,7 +5,7 @@ Administrator List
 
    The administrator API is available only from specific IP addresses. For more information, please contact emarsys support.
 
-This returns the list of administrators.
+Returns the list of administrators.
 
 Endpoint
 --------

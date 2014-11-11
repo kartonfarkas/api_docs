@@ -5,7 +5,7 @@ Create Admin
 
    The administrator API is available only from specific IP addresses. For more information, please contact emarsys support.
 
-This action creates a new administrator.
+Creates a new administrator.
 
 Endpoint
 --------

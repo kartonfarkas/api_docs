@@ -5,7 +5,7 @@ Querying Interface Languages
 
    The administrator API is available only from specific IP addresses. For more information, please contact emarsys support.
 
-This returns the list of available interface languages.
+Returns the list of available interface languages.
 
 Endpoint
 --------
