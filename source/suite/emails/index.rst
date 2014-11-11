@@ -43,8 +43,8 @@ Media Library
    querying_folders.rst
    uploading_files.rst
 
-Condition
----------
+Conditions
+----------
 
 .. toctree::
    :maxdepth: 1

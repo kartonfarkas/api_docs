@@ -6,4 +6,5 @@ Appendices
 
    ../time_zones.rst
    ../error_codes.rst
-   ../statuses.rst
+   ../launch_status.rst
+   ../email_status.rst
