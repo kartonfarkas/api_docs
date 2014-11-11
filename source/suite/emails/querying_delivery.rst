@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - emailId
      - int
-     -
+     - ID of the email
      - For emailId, a valid email ID must be provided.
 
 .. list-table:: **Optional Parameters**
@@ -34,7 +34,7 @@ Parameters
      - Comments
    * - lastId
      - int
-     -
+     - last returned ID
      -
    * - launchId
      - int

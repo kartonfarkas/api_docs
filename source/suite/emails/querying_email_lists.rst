@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - /status
      - int
-     - Part of the URI
+     - part of the URI
      -
    * - /contactlist
      - int
@@ -29,15 +29,15 @@ Parameters
      -
    * - /showdeleted
      - int
-     - Part of the URI
+     - part of the URI
      - If showdeleted is set to 1, deleted campaigns are also listed.
    * - /fromdate
      - int
-     - Part of the URI
+     - part of the URI
      - If fromdate is set, only those campaigns will be listed which were created after the given date, accepted format YYYY-MM-DD, example: 2013-01-25.
    * - /todate
      - int
-     - Part of the URI
+     - part of the URI
      - If todate is set, only those campaigns will be listed which were created before the given date, accepted format YYYY-MM-DD, example: 2013-01-25.
 
 For a list of possible values for <id>, see `E-Mail Statuses <http://documentation.emarsys.com/?page_id=426>`_

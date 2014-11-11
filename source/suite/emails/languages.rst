@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - /translate/<language_code>
      - string
-     - Language_code is one of the IDs returned in the list (e.g. en).
+     - language_code is one of the IDs returned in the list (e.g. en)
      -
 
 For a list of supported languages, see the list of `language codes <http://documentation.emarsys.com/?page_id=417>`_ .

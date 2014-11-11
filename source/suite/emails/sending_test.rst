@@ -21,19 +21,19 @@ Parameters
      - Comments
    * - id
      - int
-     - The email's id, part of the URL
+     - email ID, part of the URL
      -
    * - recipientlist
      - string
-     - Recipient email addresses
+     - recipient email addresses
      - Can contain multiple email addresses separated by ‘;’
    * - filter_id
      - int
-     - The ID of the filter the emails will be sent to
+     - ID of the filter the emails will be sent to
      -
    * - contactlist_id
      - int
-     - The ID of the contact list the emails will be sent to
+     - ID of the contact list the emails will be sent to
      -
 
 .. warning::
@@ -54,8 +54,8 @@ Parameters
      - Comments
    * - subject
      - string
-     - If specified, it will be appended to the email name
-     -
+     - subject of the email
+     - If specified, it will be appended to the email name.
 
 Request Example
 ---------------

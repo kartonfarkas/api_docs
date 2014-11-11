@@ -8,3 +8,4 @@ Appendices
    ../error_codes.rst
    ../launch_status.rst
    ../email_status.rst
+   ../launch_error_status.rst

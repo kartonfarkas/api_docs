@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - emailId
      - int
-     - the ID of the email
+     - ID of the email
      -
 
 JSON Payload Example

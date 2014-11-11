@@ -124,8 +124,8 @@ Result Data Structure
      - See :doc:`launch_status`
    * - api_error
      - int
-     - 
-     -
+     - launch error codes
+     - See :doc:`launch_error_status`
    * - source
      - string
      - source of the recipients.
