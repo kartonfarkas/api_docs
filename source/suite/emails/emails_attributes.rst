@@ -116,15 +116,15 @@ Result Data Structure
      -
    * - status
      - int
-     - See :doc:`statuses`
-     -
+     - the status of the email
+     - See :doc:`email_status`
    * - api_status
      - int
-     - See :doc:`statuses`
-     -
+     - launch status of the email
+     - See :doc:`launch_status`
    * - api_error
      - int
-     - See :doc:`statuses`
+     - 
      -
    * - source
      - string
