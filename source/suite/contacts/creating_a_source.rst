@@ -1,7 +1,11 @@
 Creating a Source
 =================
 
-Creates a new source for your contacts with the specified name.
+This creates a new source for your contacts with the specified name.
+Source is used for tracking the source of contact data changes.
+This information will be available for you at :doc:`../exports/changes.html`.
+Please note that for other purposes, contacts have a system source field (field id #33) dedicated to record the source of the
+contact (like Manual entry, Import or Registration form).
 
 Endpoint
 --------

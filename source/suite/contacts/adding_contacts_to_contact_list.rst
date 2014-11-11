@@ -1,7 +1,7 @@
 Adding Contacts to Contact Lists
 ================================
 
-Adds contacts to the contact list which can be used as recipient source for the email.
+Adds contacts to the contact list.
 
 Endpoint
 --------

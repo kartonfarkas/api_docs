@@ -1,7 +1,7 @@
 Removing Contacts from a Contact List
 =====================================
 
-This removes contacts from the contact list which can be used as recipient source for the email.
+This removes contacts from the contact list.
 
 Endpoint
 --------

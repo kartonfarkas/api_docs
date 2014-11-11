@@ -1,7 +1,7 @@
 Creating a Contact List
 =======================
 
-Creates a contact list which can be used as recipient source for the email.
+Creates a contact list with the specified contacts.
 
 Endpoint
 --------

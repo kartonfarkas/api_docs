@@ -1,7 +1,7 @@
 Fetching Contact Internal ID
 ============================
 
-Returns the internal ID of a contact specified by its keyID.
+Returns the internal ID of a contact specified by its key ID.
 
 Endpoint
 --------

@@ -1,7 +1,7 @@
 Deleting a Source
 =================
 
-Deletes an existing source.
+Deletes an existing source which is used for tracking the source of contact data changes.
 
 Endpoint
 --------

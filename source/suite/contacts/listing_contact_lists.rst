@@ -1,7 +1,7 @@
 Listing Contact Lists
 =====================
 
-Returns a list of contact lists which can be used as recipient source for the email.
+Returns a list of the available contact lists of the customer.
 
 Endpoint
 --------
