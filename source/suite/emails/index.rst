@@ -51,13 +51,5 @@ Condition
 
    conditions.rst
 
-Form
-----
-
-.. toctree::
-   :maxdepth: 1
-
-   forms.rst
-   email_and_form_types.rst
 
 

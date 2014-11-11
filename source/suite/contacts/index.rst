@@ -64,3 +64,11 @@ Contact Sources
    creating_a_source.rst
    deleting_a_source.rst
    listing_sources.rst
+
+Forms
+-----
+
+.. toctree::
+   :maxdepth: 1
+
+   forms.rst
