@@ -1,5 +1,5 @@
-E-Mail Attributes
-=================
+Email Attributes
+================
 
 Returns the attributes of an email and the personalized text and HTML source.
 

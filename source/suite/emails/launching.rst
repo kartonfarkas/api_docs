@@ -1,5 +1,5 @@
-Launching E-Mails
-=================
+Launching Emails
+================
 
 Launches an email. This is an asynchronous call, which returns ‘OK’ if the email is able to launch.
 

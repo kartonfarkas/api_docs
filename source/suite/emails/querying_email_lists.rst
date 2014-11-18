@@ -1,5 +1,5 @@
-Querying E-Mail Lists
-=====================
+Querying Email Lists
+====================
 
 Returns a list of emails.
 

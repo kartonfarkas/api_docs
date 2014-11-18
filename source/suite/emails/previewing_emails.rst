@@ -1,5 +1,5 @@
-Previewing E-Mails
-==================
+Previewing Emails
+=================
 
 Returns the HTML or text version of the email either as content type `application/json` or `text/html`.
 

@@ -1,5 +1,5 @@
-Update E-Mail Source
-====================
+Update Email Source
+===================
 
 Defines **Using API** as recipient source for an email in eMarketing Suite. Using this option, the contact source can later be set using this API call.
 

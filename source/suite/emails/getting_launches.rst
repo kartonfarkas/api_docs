@@ -1,5 +1,5 @@
-Getting Launches of E-Mail
-==========================
+Getting Launches of Email
+=========================
 
 Lists all the launches of an email with ID, launch date and 'done' status.
 

@@ -1,5 +1,5 @@
-Creating E-Mails
-================
+Creating Emails
+===============
 
 Creates an email in eMarketing Suite and assigns the respective parameters to it.
 

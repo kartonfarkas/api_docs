@@ -1,5 +1,5 @@
-Deleting E-Mails
-================
+Deleting Emails
+===============
 
 Deletes an email and all related launches (test emails) in the eMarketing Suite.
 

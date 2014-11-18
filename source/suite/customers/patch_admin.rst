@@ -26,7 +26,7 @@ Parameters
    * - admin_id
      - int
      - ID of the admin
-     - 
+     -
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1

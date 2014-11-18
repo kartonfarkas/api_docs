@@ -1,5 +1,5 @@
-Querying E-Mail Category Lists
-==============================
+Querying Email Category Lists
+=============================
 
 Returns a list of email categories which can be used in email creation. The list is sorted alphabetically
 by category name.
