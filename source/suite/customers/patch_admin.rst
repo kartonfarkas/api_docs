@@ -26,7 +26,7 @@ Parameters
    * - username
      - string
      - name of the admin
-     -
+     - unique, cannot be modified
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
