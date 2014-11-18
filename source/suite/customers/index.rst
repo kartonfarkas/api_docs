@@ -23,6 +23,7 @@ Customer Administrator
    querying_access_levels.rst
    create_admin.rst
    delete_admin.rst
+   patch_admin.rst
 
 
 
