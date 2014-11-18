@@ -43,6 +43,7 @@ Contact Lists
    adding_contacts_to_contact_list.rst
    removing_contacts_from_contact_list.rst
    listing_contacts.rst
+   replacing_contact_list.rst
 
 
 Segments
