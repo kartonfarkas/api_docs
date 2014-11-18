@@ -1,5 +1,5 @@
-Adding Contacts to Contact Lists
-================================
+Adding Contacts to a Contact List
+=================================
 
 Adds contacts to the contact list.
 
