@@ -1,5 +1,5 @@
-Create Admin
-============
+Creating an Administrator
+=========================
 
 .. warning::
 

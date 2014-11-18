@@ -1,5 +1,5 @@
-Delete Admin
-============
+Deleting an Administrator
+=========================
 
 .. warning::
 

@@ -1,5 +1,5 @@
-Patch Admin
-===========
+Updating an Administrator
+=========================
 
 .. warning::
 
