@@ -45,12 +45,12 @@ Result Example
      [
        {
          "id": "123",
-         "parent": "1"
+         "parent": "1",
          "name": "folder1"
        },
        {
          "id": "456",
-         "parent": "1"
+         "parent": "1",
          "name": "folder2"
        }
      ]
