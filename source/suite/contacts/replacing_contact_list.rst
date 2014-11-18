@@ -1,5 +1,5 @@
-Replacing Contact List
-======================
+Replacing a Contact List
+========================
 
 Overwrites an already existing contact list.
 
