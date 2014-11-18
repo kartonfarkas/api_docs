@@ -39,7 +39,7 @@ Parameters
    * - password
      - string
      - password of the admin
-     -
+     - has to exceed the password strength limit
    * - email
      - string
      - email address
