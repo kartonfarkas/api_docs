@@ -23,10 +23,10 @@ Parameters
      - Type
      - Description
      - Comments
-   * - username
-     - string
-     - name of the admin
-     - unique, cannot be modified
+   * - admin_id
+     - int
+     - ID of the admin
+     - 
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
@@ -36,6 +36,10 @@ Parameters
      - Type
      - Description
      - Comments
+   * - username
+     - string
+     - name of the admin
+     - unique, cannot be modified
    * - password
      - string
      - password of the admin
