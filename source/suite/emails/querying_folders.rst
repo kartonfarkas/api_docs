@@ -39,15 +39,15 @@ Result Example
 .. code-block:: json
 
    {
-   "replyCode": 0,
-   "replyText": "OK",
-   "data":
-   [
-   {
-   "id": "123",
-   "parent": "1"
-   "name": "folder1"
-   },
+     "replyCode": 0,
+     "replyText": "OK",
+     "data":
+     [
+       {
+         "id": "123",
+         "parent": "1"
+         "name": "folder1"
+       },
        {
          "id": "456",
          "parent": "1"
