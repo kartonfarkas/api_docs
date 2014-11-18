@@ -123,11 +123,11 @@ Errors
    * - 400
      - 3002
      - The list of external IDs exceeds the maximum size.
-     - the number of contacts is limited to 10,000.
+     - The number of contacts is limited to 10,000.
    * - 400
      - 3004
      - Invalid contact list id: [id]
-     - the list ID has an invalid format or it does not exist.
+     - The list ID has an invalid format or it does not exist.
    * - 400
      - 2008
      - No contact found with the external ID: [field_id].
