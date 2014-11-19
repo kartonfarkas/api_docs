@@ -20,20 +20,20 @@ Parameters
      - Description
      - Comments
    * - key_id
-     - key which identifies the contacts
-     - [field_id]
+     - mixed
+     - key which identifies the contacts [field_id]
      -
    * - field_id
-     - the ID of the field
-     - [field_value]
+     - int
+     - the ID of the field [field_value]
      -
    * - field_id
-     - the ID of the field
-     - [field_value]
+     - int
+     - the ID of the field [field_value]
      -
    * - source_id
-     - the ID of the source
-     - [source_id]
+     - int
+     - an ID assigned to the application of a customer to integrate, used to differentiate contacts created of modified by the customer's applications, [source_id]
      -
 
 The optional key_id must be provided once.

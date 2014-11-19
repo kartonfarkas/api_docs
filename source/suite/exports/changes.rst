@@ -39,11 +39,11 @@ Parameters
         - [2014-06-20, 2014-06-21]
    * - origin
      - string
-     - from which platform was the change executed, **form** or **api**
+     - from which platform was the change executed, **form**, **api**, or **all**
      -
    * - origin_id
      - int array
-     - 0
+     - formnál a form id-ja, apinál a source id (0: without source)
      -
    * - contact_fields
      - int array
