@@ -8,6 +8,8 @@ The request starts a background export process and returns its ID which can be u
 the export. The background process saves the results as a CSV file, either locally or via FTP on another
 computer.
 
+Local exports will save the CSV file to our own server which can be accessed via the WebDav protocol. For a WebDav account, please contact Emarsys Support.
+
 Endpoint
 --------
 
@@ -37,7 +39,7 @@ Parameters
         - [2014-06-20, 2014-06-21]
    * - origin
      - string
-     - **form** or **api**
+     - milyen felületről volt megváltoztatva, vagy formon keresztül, vagy api híváson keresztül történt, **form** or **api**
      -
    * - origin_id
      - int array
