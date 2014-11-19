@@ -81,7 +81,7 @@ Parameters
    * - notification_url
      - string
      - request is sent to the url if the export is ready
-     - The result data is the same as the result of `querying export status <http://emarsys-dev.readthedocs.org/en/latest/suite/exports/query_status.html>`_.
+     - The payload is the same as the result of `querying export status <http://emarsys-dev.readthedocs.org/en/latest/suite/exports/query_status.html>`_.
 
 Request Example
 ---------------
