@@ -82,7 +82,7 @@ Parameters
      - If *distribution_method* is **local**, then *ftp_settings* is ignored.
    * - notification_url
      - string
-     - request is sent to the url if the export is ready
+     - A request is sent to the url if the export is ready. This way it is not necessary to poll the export status.
      - The payload is the same as the result of `querying export status <http://emarsys-dev.readthedocs.org/en/latest/suite/exports/query_status.html>`_.
 
 Request Example
