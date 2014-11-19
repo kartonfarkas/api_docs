@@ -39,7 +39,7 @@ Parameters
         - [2014-06-20, 2014-06-21]
    * - origin
      - string
-     - milyen felületről volt megváltoztatva, vagy formon keresztül, vagy api híváson keresztül történt, **form** or **api**
+     - from which platform was the change executed, **form** or **api**
      -
    * - origin_id
      - int array
