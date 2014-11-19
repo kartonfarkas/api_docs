@@ -21,15 +21,15 @@ Parameters
      - Comments
    * - key_id
      - mixed
-     - key which identifies the contacts [field_id]
+     - key which identifies the contacts, [field_id]
      -
    * - field_id
      - int
-     - the ID of the field [field_value]
+     - the ID of the field, [field_value]
      -
    * - field_id
      - int
-     - the ID of the field [field_value]
+     - the ID of the field, [field_value]
      -
    * - source_id
      - int
