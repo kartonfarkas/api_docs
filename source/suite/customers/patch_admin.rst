@@ -80,7 +80,26 @@ Parameters
 Result Example
 --------------
 
+Normal Result:
+
 .. code-block:: json
+
+{
+   "replyCode":0,
+   "replyText":"OK",
+   "data":null
+}
+
+Error Condition:
+
+.. code-block:: json
+
+{
+   "replyCode":8002,
+   "replyText":"Invalid username",
+   "data":""
+}
+
 
 Errors
 ------
@@ -94,14 +113,46 @@ Errors
      - Description
    * - 400
      - 8015
-     -
+     - Invalid superadmin
      - its value is not 0 or 1
    * - 400
      - 8016
-     -
+     - Invalid disabled
      - its value is not 0 or 1
    * - 400
      - 8017
-     -
+     - Password is used recently
      - this password has already been used, it is not valid anymore
+   * - 400
+     - 8001
+     - An administrator with this user name already exists.
+     -
+   * - 400
+     - 8002
+     - Invalid username
+     - The provided username should only contain letters and numbers, or it is less then 3 characters long.
+   * - 400
+     - 8003
+     - Invalid access level
+     - For possible access level identifiers, see administrator/getaccesslevels
+   * - 400
+     - 8004
+     - Invalid interface language code
+     - For possible languages, see administrator/getinterfacelanguages
+   * - 400
+     - 8005
+     - Invalid email
+     -
+   * - 400
+     - 8006
+     - Invalid password
+     - Password should only contain letters and numbers.
+   * - 400
+     - 8006
+     - Too weak password
+     - The password should be at least 8 character long and should contain both letters and numbers.
+   * - 500
+     - 1003
+     - Database connection error
+     -
 
