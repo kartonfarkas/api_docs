@@ -15,7 +15,6 @@ Contacts
    creating_multiple_contacts.rst
    updating_a_contact.rst
    updating_multiple_contacts.rst
-   unsubscribing_a_contact.rst
    getting_contact_email_history.rst
    fetching_contact_internal_id.rst
    checking_contact_internal_ids.rst
