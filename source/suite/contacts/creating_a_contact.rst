@@ -16,11 +16,7 @@ You have to post a JSON with key_id, field_value pairs.
 Notes:
 
  * If the key_id is omitted, the default value for key_field ID is 3 (email).
- * As a key, id or uid can be used as well.
- * If the same field_ID is provided more than once, the last occurrence is accepted.
- * Multi-choice values must be passed as an array, even if they contain only one choice ID.
- * The expected data format is an array if the field is a multi-choice.
- * Empty arrays are not allowed.
+ * Multi-choice values must be passed as an array, even if they contain only one choice ID. Empty arrays are not allowed.
 
 Supported Parameters:
 
