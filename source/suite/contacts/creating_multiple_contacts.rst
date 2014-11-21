@@ -36,6 +36,7 @@ Parameters
      - an ID assigned to the application of a customer to integrate, used to differentiate contacts created of modified by the customer's applications, [source_id]
      -
 
+If the key_id is omitted, the default value for key_field ID is 3 (email).
 The optional key_id must be provided once.
 The parameters of the different contacts must be sent in an array (see example below).
 The maximum size of the array (and therefore the **maximum number of new contacts**) is **1,000.**
