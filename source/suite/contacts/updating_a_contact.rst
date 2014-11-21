@@ -33,7 +33,7 @@ Key-value pairs which identify the contact.
      - an ID assigned to the application of a customer to integrate, used to differentiate contacts created of modified by the customer's applications, [source_id]
      -
 
-See `Create a Contact <http://emarsys-dev.readthedocs.org/en/latest/suite/contacts/creating_a_contact.html>`_ for further information.
+See `Creating a Contact <http://emarsys-dev.readthedocs.org/en/latest/suite/contacts/creating_a_contact.html>`_ for further information.
 
 Errors
 ------
