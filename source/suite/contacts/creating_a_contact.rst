@@ -11,35 +11,32 @@ Endpoint
 Parameters
 ----------
 
-You have to post a JSON with key_id, field_value pairs.
+Required Parameters
+^^^^^^^^^^^^^^^^^^^
+
+Key-value pairs which identify the contact.
+
+.. list-table:: **Optional Parameters**
+   :header-rows: 1
+   :widths: 20 20 40 40
+
+       * - Name
+         - Type
+         - Description
+         - Comments
+       * - key_id
+         - mixed
+         - key which identifies the contacts, [field_id]
+         -
+       * - source_id
+         - int
+         - an ID assigned to the application of a customer to integrate, used to differentiate contacts created of modified by the customer's applications, [source_id]
+         -
 
 Notes:
 
  * If the key_id is omitted, the default value for key_field ID is 3 (email).
  * Multi-choice values must be passed as an array, even if they contain only one choice ID. Empty arrays are not allowed.
-
-Supported Parameters:
-
- * ``id``
- * ``username``
- * ``password``
- * all fields are returned by the API **except**:
-
-   * 0 – interests
-   * 27 – avg. length of visit
-   * 28 – avg. pages per day
-   * 29 – last mail received
-   * 30 – response rate
-   * 32 – user status
-   * 33 – contact source
-   * 34 – contact form
-   * 36 – newsletter
-   * 47 – email valid
-   * 48 – first registration
-   * voucher fields
-   * opt-in
-   * The default opt-in value for new contacts is false.
-   * To enable opt-in, send parameter 31=1.
 
 Request Example
 ---------------
