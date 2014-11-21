@@ -20,18 +20,18 @@ Key-value pairs which identify the contact.
    :header-rows: 1
    :widths: 20 20 40 40
 
-       * - Name
-         - Type
-         - Description
-         - Comments
-       * - key_id
-         - mixed
-         - key which identifies the contacts, [field_id]
-         -
-       * - source_id
-         - int
-         - an ID assigned to the application of a customer to integrate, used to differentiate contacts created of modified by the customer's applications, [source_id]
-         -
+   * - Name
+     - Type
+     - Description
+     - Comments
+   * - key_id
+     - mixed
+     - key which identifies the contacts, [field_id]
+     -
+   * - source_id
+     - int
+     - an ID assigned to the application of a customer to integrate, used to differentiate contacts created of modified by the customer's applications, [source_id]
+     -
 
 Notes:
 
