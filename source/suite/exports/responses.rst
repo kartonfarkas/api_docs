@@ -111,7 +111,7 @@ The number of the fields provided for contact_fields and analysis_fields must be
     * - notification_url
       - string
       - A request is sent to the url if the export is ready. This way it is not necessary to poll the export status.
-      - The payload is the same as the result of `querying export status <http://emarsys-dev.readthedocs.org/en/latest/suite/exports/query_status.html>`_.
+      - The payload is the same as the result of `querying export status <query_status.html>`_.
 
 Request Example
 ---------------

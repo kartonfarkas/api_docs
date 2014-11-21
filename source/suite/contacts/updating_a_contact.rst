@@ -33,7 +33,7 @@ Key-value pairs which identify the contact.
      - an ID assigned to the application of a customer to integrate, used to differentiate contacts created of modified by the customer's applications, [source_id]
      -
 
-See `Creating a Contact <http://emarsys-dev.readthedocs.org/en/latest/suite/contacts/creating_a_contact.html>`_ for further information.
+See `Creating a Contact <creating_a_contact.html>`_ for further information.
 
 Errors
 ------
@@ -62,4 +62,4 @@ Errors
      - Cannot set id or uid on contact creation
      - IDs cannot be specified manually.
 
-Also see `Create a Contact <http://documentation.emarsys.com/?page_id=166>`_ for further information.
+Also see `Creating a Contact <creating_a_contact.html>`_ for further information.
