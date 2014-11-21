@@ -16,7 +16,7 @@ For each Suite API request you need:
 
 Requests to the API must be authenticated. The authentication method of the API is X-WSSE, see `Authentication <http://emarsys-dev.readthedocs.org/en/latest/suite/overview/authentication.html>`_.
 
- * `PHP <http://emarsys-dev.readthedocs.org/en/latest/suite/overview/authentication_php.html>`_
+ * `PHP <overview/authentication_php.html>`_
  * `Perl <http://emarsys-dev.readthedocs.org/en/latest/suite/overview/authentication_perl.html>`_
  * `Ruby <http://emarsys-dev.readthedocs.org/en/latest/suite/overview/authentication_ruby.html>`_
  * `Java <http://emarsys-dev.readthedocs.org/en/latest/suite/overview/authentication_ruby.html>`_
