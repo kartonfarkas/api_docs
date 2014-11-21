@@ -1,7 +1,6 @@
 System Fields
 =============
 
-
 .. list-table:: System Fields
    :header-rows: 1
 
