@@ -11,26 +11,6 @@ Endpoint
 Parameters
 ----------
 
-.. list-table:: **Required Parameters**
-   :header-rows: 1
-   :widths: 20 20 40 40
-
-   * - Name
-     - Type
-     - Description
-     - Comments
-   * - key_id
-     - int
-     - key_id identifies the contact to be updated
-     -
-   * - [field_id]
-     - int
-     - [field_value]
-     - these contain the changes requested for the contact
-       If more than one contact with the requested key ID is found, an error message is returned.
-
-See `Batch Create Contact <http://documentation.emarsys.com/?page_id=174>`_ for further information.
-
 .. list-table:: **Optional Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
@@ -39,9 +19,21 @@ See `Batch Create Contact <http://documentation.emarsys.com/?page_id=174>`_ for 
      - Type
      - Description
      - Comments
+   * - key_id
+     - mixed
+     - key which identifies the contacts, [field_id]
+     -
+   * - field_id
+     - int
+     - the ID of the field, [field_value]
+     -
+   * - field_id
+     - int
+     - the ID of the field, [field_value]
+     -
    * - source_id
-     - ID of the source
-     - [source_id]
+     - int
+     - an ID assigned to the application of a customer to integrate, used to differentiate contacts created of modified by the customer's applications, [source_id]
      -
 
 See `Batch Create Contact <http://documentation.emarsys.com/?page_id=174>`_ for further information.

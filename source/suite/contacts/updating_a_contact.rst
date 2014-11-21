@@ -11,7 +11,12 @@ Endpoint
 Parameters
 ----------
 
-.. list-table:: **Required Parameters**
+Required Parameters
+^^^^^^^^^^^^^^^^^^^
+
+Key-value pairs which identify the contact.
+
+.. list-table:: **Optional Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -20,13 +25,13 @@ Parameters
      - Description
      - Comments
    * - key_id
+     - mixed
+     - The value provided for the key_id field identifies the contact which will be updated. The other fields contain the changes requested for the contact. If more than one contact with the requested external ID is found, an error message is returned, [field_id]
+     -
+   * - source_id
      - int
-     - [field_id]
-     - The value provided for the key_id field identifies the contact which will be updated. The other fields contain the changes requested for the contact. If more than one contact with the requested external ID is found, an error message is returned.
-
-See `Create a Contact <http://emarsys-dev.readthedocs.org/en/latest/suite/contacts/creating_a_contact.html>`_ for further information.
-
-**Optional Parameters**
+     - an ID assigned to the application of a customer to integrate, used to differentiate contacts created of modified by the customer's applications, [source_id]
+     -
 
 See `Create a Contact <http://emarsys-dev.readthedocs.org/en/latest/suite/contacts/creating_a_contact.html>`_ for further information.
 
