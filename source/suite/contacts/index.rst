@@ -18,6 +18,7 @@ Contacts
    getting_contact_email_history.rst
    fetching_contact_internal_id.rst
    checking_contact_internal_ids.rst
+   query_contacts.rst
 
 
 Contact Fields
