@@ -38,7 +38,7 @@ The upload limit is 128 kB for images and 4 MB for other file types
      - Type
      - Description
      - Comments
-   * - folder
+   * - folder_id
      - int
      - ID of an already existing folder in the Media Database
      - If folder is not specified, the file is uploaded to the root directory.
