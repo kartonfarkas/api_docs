@@ -4,7 +4,7 @@ Integrations
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    automation_center/node.rst
-   iframe.rst
+   iframe/node.rst
