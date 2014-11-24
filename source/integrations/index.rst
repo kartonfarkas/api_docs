@@ -7,4 +7,4 @@ Contents:
    :maxdepth: 1
 
    automation_center/node.rst
-   iframe/node.rst
+   iframe/iframe.rst
