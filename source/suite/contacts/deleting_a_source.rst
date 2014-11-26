@@ -8,6 +8,22 @@ Endpoint
 
 ``DELETE /api/v2/source/<id>``
 
+Parameters
+----------
+
+.. list-table:: **Required Parameters**
+   :header-rows: 1
+   :widths: 20 20 40 40
+
+   * - Name
+     - Type
+     - Description
+     - Comments
+   * - source_id
+     - int
+     - ID of the source to be deleted
+     -
+
 Errors
 ------
 

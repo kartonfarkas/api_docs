@@ -76,7 +76,7 @@ Result Example
          "delivery_status": "launched",
          "bounce_status": "soft"
        }
-     }
+     ]
    }
 
 Result Data Structure
