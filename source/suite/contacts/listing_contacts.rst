@@ -1,12 +1,12 @@
-List Contacts in a Contact List
-===============================
+Listing Contacts
+================
 
-Returns the IDs of users in a contact list.
+Returns the value of the requested field for every contacts that meets the optional condition specified.
 
 Endpoint
 --------
 
-``GET /api/v2/contactlist/<list_id>``
+``GET /api/v2/contact/query/return=``
 
 Parameters
 ----------
@@ -19,28 +19,65 @@ Parameters
      - Type
      - Description
      - Comments
-   * - <list_id>
+   * - return
      - int
-     - ID of the contact list
+     - the id of the field that should the response contain in addition to the internal id of the contact
+     -
+
+.. list-table:: **Optional Parameters**
+   :header-rows: 1
+   :widths: 20 20 40 40
+
+   * - Name
+     - Type
+     - Description
+     - Comments
+   * - return
+     - int
+     - the ID of the field that should the response contain in addition to the internal ID of the contact
+     -
+   * - field_id
+     - int
+     - to decide if we need to return a contact or not, [field_value]
+     - field_value can be an empty string, that will also match to cells with NULL value
+   * - limit
+     - int
+     - if set it limits the number of the returned contacts
+     - By default it is 10.000, and it is not possible to specify bigger limit then that.
+   * - offset
+     - int
+     - specifies an offset for pagination (like in SQL)
+     -
+   * - excludeempty
+     - boolean
+     - If true sent as the value of this parameter, the contacts having null or empty value at the field requested to return are not returned. Any value except from true will interpreted as false.
      -
 
 URI Example
 -----------
 
-/api/v2/contactlist/123456
+/api/v2/contact/query/return=3&limit=100&offset=200&1=FirstNameHere&excludeempty=true
 
-Result Data Structure
----------------------
+Result Example
+--------------
 
 Normal Result:
 
 .. code-block:: json
 
    {
-     "replyCode": 0,
-     "replyText": "OK",
-     "data":
-     [985762, 985786, 985654]
+     "replyCode": 0, "replyText": "OK", "data":  {
+       "result": [
+         {
+           "id": 3,
+           "3": "email1@address.com"
+         },
+         {
+           "id": 5,
+           "3": "email2@address.com"
+         }
+       ]
+     }
    }
 
 Error Condition:
@@ -48,22 +85,34 @@ Error Condition:
 .. code-block:: json
 
    {
-     "replyCode": 3006,
-     "replyText": "List does not exist",
-     "data": ""
+     "replyCode": 2014, "replyText": "No field specified to return", "data": ""
    }
 
 Errors
 ------
 
+
 .. list-table:: Possible Error Codes
    :header-rows: 1
 
-   * - HTTP Code
-     - Reply Code
-     - Message
-     - Description
-   * - 404
-     - 3006
-     - List does not exist
-     - There is no contact list with the specified ID.
+   * - 400
+     - 2006
+     - Invalid field id: <field_id>
+     - The id of a provided field is invalid.
+   * - 400
+     - 2014
+     - No field specified to return
+     - Parameter return is required.
+   * - 400
+     - 2015
+     - No index on column <field_id>
+     - Filtering enabled only for indexed columns
+   * - 400
+     - 2016
+     - Invalid limit
+     - Limit should be between 1 and 10000
+   * - 500
+     - 2011
+     - <depends on the error>
+     - An internal error occurred.
+

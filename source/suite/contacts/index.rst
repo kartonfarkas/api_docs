@@ -18,7 +18,7 @@ Contacts
    getting_contact_email_history.rst
    fetching_contact_internal_id.rst
    checking_contact_internal_ids.rst
-   query_contacts.rst
+   listing_contacts.rst
 
 
 Contact Fields
@@ -42,7 +42,7 @@ Contact Lists
    listing_contact_lists.rst
    adding_contacts_to_contact_list.rst
    removing_contacts_from_contact_list.rst
-   listing_contacts.rst
+   listing_contacts_in_a_list.rst
    replacing_contact_list.rst
 
 
