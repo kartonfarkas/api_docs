@@ -1,7 +1,7 @@
 Update Email Source
 ===================
 
-Defines **Using API** as recipient source for an email in eMarketing Suite. Using this option, the contact source can later be set using this API call.
+After defining **Using API** as recipient source for an email in eMarketing Suite, the contact source can be set using this API call.
 
 Endpoint
 --------
@@ -21,7 +21,11 @@ Parameters
      - Comments
    * - filterId, contactlistId
      - int
-     - At least one property must be sent and must not be 0 (zero). If both are sent, only one must be different from 0 (zero)
+     - Recipient source of the email. At least one property must be sent and must not be 0 (zero). If both are sent, only one must be different from 0 (zero).
+     -
+   * - email_id
+     - int
+     - the ID of the email
      -
 
 JSON Payload Example
