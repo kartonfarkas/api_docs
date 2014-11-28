@@ -54,7 +54,7 @@ Parameters
      - for possible access level identifiers, see administrator/getaccesslevels
    * - interface_language
      - string
-     - the language of the interface is shown to the new administrator
+     - the language of the interface which is shown to the new administrator
      - for possible languages, see administrator/getinterfacelanguages
    * - first_name
      - string

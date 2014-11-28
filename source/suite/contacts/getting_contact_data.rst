@@ -38,7 +38,7 @@ Parameters
      - Comments
    * - fields
      - array
-     - The fields in the result set can be set with the fields parameter.
+     - fields in the result set can be set with the fields parameter
      - If empty, all fields will be returned.
 
 Error Condition:

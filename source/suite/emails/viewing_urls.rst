@@ -25,7 +25,7 @@ Parameters
      -
    * - key_id
      - mixed
-     - the key which which identifies the contacts
+     - key which identifies the contacts
      - field id, “id” or “uid” can be used
    * - key_value
      - mixed

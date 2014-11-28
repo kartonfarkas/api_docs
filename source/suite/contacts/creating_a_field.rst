@@ -22,7 +22,7 @@ Parameters
    * - key_id
      - mixed
      - the field ID
-     - **id** or **uid** can be used.
+     - **id** or **uid** can be used
    * - name
      - string
      - name of the new field

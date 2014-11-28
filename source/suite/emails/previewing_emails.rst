@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - id
      - int
-     - email ID, part of the URL
+     - email ID, part of the URI
      -
    * - version
      - int

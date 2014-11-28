@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - id
      - int
-     - email ID, part of the URL
+     - email ID, part of the URI
      -
    * - recipientlist
      - string
@@ -29,7 +29,7 @@ Parameters
      - Can contain multiple email addresses separated by ‘;’
    * - filter_id
      - int
-     - ID of the filter the emails will be sent to
+     - ID of the segment the emails will be sent to
      -
    * - contactlist_id
      - int

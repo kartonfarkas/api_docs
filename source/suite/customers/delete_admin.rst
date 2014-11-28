@@ -28,6 +28,19 @@ Parameters
      - ID of the administrator who takes over the deleted administrator's rights
      -
 
+.. list-table:: **Optional Parameters**
+   :header-rows: 1
+   :widths: 20 20 40 40
+
+   * - Name
+     - Type
+     - Description
+     - Comments
+   * - admin_id
+     - int
+     - the ID of the admin to delete
+     -
+
 Result Example
 --------------
 

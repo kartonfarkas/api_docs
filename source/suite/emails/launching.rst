@@ -27,7 +27,7 @@ Parameters
      - Comments
    * - id
      - int
-     - email ID to launch, part of the URL
+     - email ID to launch, part of the URI
      -
 
 .. list-table:: **Optional Parameters**

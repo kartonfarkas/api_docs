@@ -26,7 +26,7 @@ Parameters
      - Comments
    * - key_id
      - mixed
-     - attribute via which the contact can be identified
+     - key which identifies the contacts
      -
    * - external_ids
      - mixed
