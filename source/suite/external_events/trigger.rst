@@ -19,7 +19,7 @@ Parameters
      - Type
      - Description
      - Comments
-   * - id part of the URI
+   * - id
      - int
      - ID of the external event, part of the URI
      -
