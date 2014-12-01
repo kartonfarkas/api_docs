@@ -43,7 +43,7 @@ Parameters
      -
    * - origin_id
      - int array
-     - formnál a form id-ja, apinál a source id (0: without source)
+     - in the case of form, it is the ID of the form, in api, it is the source ID (0: without source)
      -
    * - contact_fields
      - int array
@@ -75,7 +75,7 @@ Parameters
      - Default value is **1**.
    * - language
      - string
-     - See supported `language codes <http://documentation.emarsys.com/?page_id=424>`_.
+     - See supported language codes <http://documentation.emarsys.com/?page_id=424>`_.
      - Default value is the account’s default language.
    * - ftp_settings
      - object

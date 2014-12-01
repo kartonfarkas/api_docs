@@ -29,7 +29,7 @@ Parameters
      - field id, "id" or "uid".
    * - external_id
      - string
-     - External ID for the given field specified with field_id.
+     - external ID for the given field specified with field_id
      -
 
 .. list-table:: **Optional Parameters**
