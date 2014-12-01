@@ -13,6 +13,7 @@ Emails
 
    emails_creating.rst
    emails_deleting.rst
+   copying_emails.rst
    emails_attributes.rst
    emails_get_email_category_lists.rst
    querying_email_lists.rst
