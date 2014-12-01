@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - id
      - int
-     - ID of the email
+     - ID of the email to be copied
      -
 
 .. list-table:: **Optional Parameters**
