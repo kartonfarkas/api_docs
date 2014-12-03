@@ -1,10 +1,10 @@
 The API Demo Page
 =================
 
-API Demo Page: Experiment Before You Code!
+API Demo Page: Experiment before You Code!
 ------------------------------------------
 
-We offer all our customers an API-demo page, which is a graphical user interface to experiment with API requests, their parameters and also see the responses.
+We offer an API-demo page for our customers, which is a graphical user interface to experiment with API requests and their parameters. The responses are displayed.
 The URL of the API demo page is: <the URL of the Suite environment you use>/api-demo/
 
  * Example: if your account is on Suite 5,  the URL is https://suite5.emarsys.net/api-demo
@@ -35,21 +35,22 @@ The response will appear on the bottom of the same page. The following table sho
      - Something is wrong with your connection./API URL is invalid./Suite API is not available.
      - Check with your IT support why you cannot reach the API (e.g. if the traffic is blocked by your firewall.)/Check your access information again./Please try again later.
 
-If you have tried the suggested solution without success then please contact your Account Manager.
+If you have tried the suggested solutions without success, then please contact your Account Manager.
 
 Check the Response
 ^^^^^^^^^^^^^^^^^^
 
-The response of your request is always appears on the bottom of the page, so after sending a request you might need to scroll down to see the response.
+The response of your request always appears on the bottom of the page, so after sending a request, you might need to scroll down to see the response.
 
 .. note::
 
-   * If the Suite API is not available, or the URL is invalid, the last response will be displayed, rather than an error message.
+   * If the Suite API is not available or the URL is invalid, the last response will be displayed rather than an error message.
 
 Check the Request
 ^^^^^^^^^^^^^^^^^
 
-Above the tab bar you can see the request sent to the Suite API. With the aid of this you can assemble your request URI by simply concatenating this request to your API URL. For example, if your Suite API environment URL is:
+Above the tab bar, you can see the request sent to the Suite API. With the aid of this, you can assemble your
+request URI by simply concatenating this request to your API URL. For example, if your Suite API environment URL is:
 
  * https://suite5.emarsys.net/api/v2/
    and the request which appeared on the API-demo after you sent a contact ID check request is:

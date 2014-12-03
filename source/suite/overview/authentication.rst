@@ -8,7 +8,7 @@ Suite API.
 X-WSSE Format
 -------------
 
-The header has the following format (it is one HTTP header line, we just broke it to multiple lines for readability):
+The header has the following format (it is one HTTP header line, we just broke it into multiple lines for readability):
 
 .. code-block:: http
 
@@ -18,7 +18,7 @@ The header has the following format (it is one HTTP header line, we just broke i
    Nonce="d36e3162829ed4c89851497a717f",
    Created="2014-03-20T12:51:45Z"
 
-The following sections describes each part in detail:
+The following sections describe each part in detail:
 
 **X-WSSE**
 
@@ -26,7 +26,7 @@ This is the name of the HTTP header we use for authenticating the request.
 
 .. note::
 
-   You can also use the WSSE header name, however we recommend you to stick to X-WSSE.
+   You can also use the WSSE header name, however, we recommend you to stick to X-WSSE.
 
 **UsernameToken**
 
