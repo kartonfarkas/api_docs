@@ -1,7 +1,8 @@
 Trigger endpoint
 ================
 
-This endpoint is called by Automation Center, when the program execution reaches your node. It should start the execution of your service.
+This endpoint is called by Automation Center, when the program execution reaches your node. It should start the
+execution of your service.
 
 HTTP Method: POST
 
@@ -39,11 +40,13 @@ HTTP Method: POST
      - json
      - Campaign specific external data (Optional)
 
-Required response
+Required Response:
 
- * In case of success, the service needs to respond with a HTTP status code in the 200-299 range.
- * In case of error the HTTP status code should be in the range 400-499 in case of client error (i.e. the request is invalid, and cannot be fulfilled) or in the 500-599 range when there was a an error on server side. In case of server errors Automation Center will retry the request 3 times.
- * In case of errors the service should also return a json containing a userMessage and a code key.
+ * In case of success, the service needs to respond with an HTTP status code in the 200-299 range.
+ * In case of error, the HTTP status code should be in the range 400-499 in case of client error (i.e. the request is
+   invalid and cannot be fulfilled) or in the 500-599 range when there was an error on the server side.
+ * In case of server errors, Automation Center will retry the request 3 times. The service should also return a json
+   containing a userMessage and a code key.
 
 Example
 
@@ -61,11 +64,15 @@ Program types and users
 
 Automation Center makes a distinction between batch, recurring and transactional programs.
 
-Batch programs operate on user lists, and are triggered once by a timer. (See ‘Target segment’ entry point in Automation Center) Recurring programs are similar to batch programs, in that they operate on user lists, and they are also triggered by a timer, but recurring programs might get triggered several times as opposed to one time only.
+ * **Batch programs** operate on user lists and are triggered once by a timer (see ‘Target segment’ entry point in
+   Automation Center).
+ * **Recurring programs** are similar to batch programs in that they operate on user lists and they
+   are also triggered by a timer, but recurring programs might get triggered several times as opposed to one time only programs.
+ * **Transactional programs** operate on individual users and are triggered by user specific events
+   (for example ‘New contact’, ‘Datachange’ and ‘External event’ are transactional entry points).
 
-Transactional programs operate on individual users and are triggered by user specific events. (For example ‘New contact’, ‘Datachange’ and ‘External event’ are transactional entry points.)
-
-The post request will contain either a list_id or a user_id. In case of batch and recurring programs Automation Center will always send a list_id. In case of transactional programs normally a user_id is sent, but under high loads Automation Center may decide to batch up transactional events, and in that case it will send a list_id even if the program is transactional. **Always check for both user_id and list_id, and do not rely on program_type to decide which one to use.**
+The post request will contain either a list_id or a user_id. In case of batch and recurring programs
+Automation Center will always send a list_id. In case of transactional programs normally a user_id is sent, but under high loads Automation Center may decide to batch up transactional events, and in that case it will send a list_id even if the program is transactional. **Always check for both user_id and list_id, and do not rely on program_type to decide which one to use.**
 
 Resolving user_ids and list_ids
 -------------------------------

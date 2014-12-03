@@ -9,7 +9,8 @@ Similarly to the trigger api, the simplest implementation that returns no option
 
    echo json_encode(array('success' => true, 'options' => []));
 
-Now let’s suppose that our previous ‘MyService’ object can also return the list of services. We will use that to create a useful implementation for the resource options endpoint:
+Now let’s suppose that our previous ‘MyService’ object can also return the list of services. We will use that to create
+a useful implementation for the resource options endpoint:
 
 .. code-block:: php
 
