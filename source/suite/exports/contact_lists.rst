@@ -18,25 +18,14 @@ Parameters
      - Type
      - Description
      - Comments
+   * - contactlist_id
+     - int
+     - exports the fields of the contacts in this contactlist
+     -
    * - distribution_method
      - string
      - **ftp** or **local**
      - If *distribution_method* is **ftp**, then *ftp_settings* is a required parameter.
-   * - time_range
-     - date array
-     - An array with two elements (start date, end date)
-     - The following date formats are accepted here:
-       - [2014-06-20 16:16:00, 2014-06-20 16:16:21]
-       - [2014-06-20 16:16, 2014-06-20 16:21]
-       - [2014-06-20, 2014-06-21]
-   * - origin
-     - string
-     - **form** or **api**
-     -
-   * - origin_id
-     - int array
-     - 0
-     -
    * - contact_fields
      - int array
      - It may contain any contact field ID except:
@@ -57,6 +46,10 @@ Parameters
      - Type
      - Description
      - Comments
+   * - distribution_email_address
+     - string
+     - if the distribution method is set to "mail", then the result of the export is sent in an email
+     -
    * - delimiter
      - string
      - **,** (comma) or **;** (semicolon)

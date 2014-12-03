@@ -31,14 +31,6 @@ Parameters
         - [2014-06-20 16:16:00, 2014-06-20 16:16:21]
         - [2014-06-20 16:16, 2014-06-20 16:21]
         - [2014-06-20, 2014-06-21]
-   * - origin
-     - string
-     - **form** or **api**
-     -
-   * - origin_id
-     - int array
-     - 0
-     -
    * - contact_fields
      - int array
      - It may contain any contact field ID except:
@@ -85,6 +77,14 @@ The number of the fields provided for contact_fields and analysis_fields must be
       - Type
       - Description
       - Comments
+    * - email_id
+      - int
+      - campaign ID, provides the responses to this email
+      -
+    * - contactlist_id
+      - int
+      - if you check the contacts who answered within a contactlist
+      -
     * - delimiter
       - string
       - **,** (comma) or **;** (semicolon).

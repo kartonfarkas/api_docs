@@ -31,14 +31,6 @@ Parameters
         - [2014-06-20 16:16:00, 2014-06-20 16:16:21]
         - [2014-06-20 16:16, 2014-06-20 16:21]
         - [2014-06-20, 2014-06-21]
-   * - origin
-     - string
-     - **form** or **api**
-     -
-   * - origin_id
-     - int array
-     - 0
-     -
    * - contact_fields
      - int array
      - It may contain any contact field ID except:
@@ -59,6 +51,14 @@ Parameters
      - Type
      - Description
      - Comments
+   * - contactlist_id
+     - int
+     - if you check the contacts who registered within a contactlist
+     -
+   * - with_timestamp
+     - int
+     - 0 or 1, default is 1 , a timestamp is placed into the export file about the time of the registration
+     -
    * - delimiter
      - string
      - **,** (comma) or **;** (semicolon)
