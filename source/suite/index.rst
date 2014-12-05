@@ -1,5 +1,5 @@
-Suite API
-=========
+Suite REST API
+==============
 
 Suite API provides programmatic access to our service. Most of our customers are using our APIs
 to automate working with `Contacts <contacts/index.html>`_, `Email Campaigns and Launches <emails/index.html>`_, or `Export Data <exports/index.html>`_ related to contacts and
