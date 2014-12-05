@@ -15,6 +15,19 @@ Endpoint
 Parameters
 ----------
 
+.. list-table:: **Required Parameters**
+   :header-rows: 1
+   :widths: 20 20 40 40
+
+   * - Name
+     - Type
+     - Description
+     - Comments
+   * - type
+     - string
+     - state of the email(s), it can be 'opened', 'received', 'clicked', 'notopened', and 'notclicked.
+     -
+
 .. list-table:: **Optional Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
@@ -30,10 +43,6 @@ Parameters
    * - end_date
      - string
      - date until which we would like to return the states
-     -
-   * - type
-     - string
-     - state of the email(s), it can be 'opened', 'received', 'clicked', 'notopened', and 'notclicked.
      -
 
 Result Example
