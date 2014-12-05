@@ -1,5 +1,5 @@
-Automation Center - Node integration
-====================================
+Creating Automation Center Nodes
+================================
 
 The Automation Center node integration API allows you to add a node to Automation Center that will
 call your service on a predefined HTTP endpoint. When the program reaches your node, it will call
@@ -9,8 +9,6 @@ contacts entering the node.
 In the first sections we describe the HTTP interface that needs to be implemented by each service.
 Then we introduce you an example service written in PHP, and best practices recommended by
 Emarsys. In the last section, you can read about planned changes to the API.
-
-More information:
 
 .. toctree::
    :maxdepth: 1

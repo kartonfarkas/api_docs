@@ -1,7 +1,8 @@
 Implementing the resource options endpoint
 ==========================================
 
-Similarly to the trigger api, the simplest implementation that returns no options is an options.php that looks like this:
+Similarly to the trigger api, the simplest implementation that returns no options is an options.php
+that looks something like this:
 
 .. code-block:: php
 

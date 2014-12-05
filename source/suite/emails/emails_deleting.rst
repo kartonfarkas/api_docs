@@ -1,7 +1,7 @@
-Deleting Emails
-===============
+Deleting Email Campaigns
+========================
 
-Deletes an email and all related launches (test emails) in the eMarketing Suite.
+Deletes an email campaign and all related launches.
 
 Endpoint
 --------

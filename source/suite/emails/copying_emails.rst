@@ -1,7 +1,7 @@
-Copying Emails
-==============
+Copying Email Campaigns
+=======================
 
-Copies the specified campaign.
+Copies the specified email campaign.
 
 Endpoint
 --------

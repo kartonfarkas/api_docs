@@ -1,7 +1,7 @@
-Creating Emails
-===============
+Creating Email Campaigns
+========================
 
-Creates an email in eMarketing Suite and assigns the respective parameters to it.
+Creates an email campaign with the specified parameters.
 
 Endpoint
 --------

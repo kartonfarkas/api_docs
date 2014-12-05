@@ -1,7 +1,5 @@
 Authentication
 ==============
 
-We use the standard service authentication library of Emarsys to sign requests sent by Automation Center. Please
-refer to the authentication library documentation for details.
-
-Note that each endpoint is available through HTTPS protocol.
+We are using the open source Escher library for request signing. Note that each of the endpoints are available
+through the HTTPS protocol.

@@ -1,12 +1,14 @@
-Update Email Source
-===================
+Updating Email Campaign Recipient Source
+========================================
 
-After defining **Using API** as recipient source for an email in eMarketing Suite, the contact source can be set using this API call.
+Email campaigns can be created with *recipient source* set to *"Using the API"* using the Suite UI.
+This call can assign a segment or a contact list to an email campaign. It's only possible to change
+the recipient source parameter once, only when the value of it was *"Using the API"*.
 
 Endpoint
 --------
 
-``POST /api/v2/email/<id>/updatesource``
+``POST /api/v2/email/<email_id>/updatesource``
 
 Parameters
 ----------
@@ -19,13 +21,14 @@ Parameters
      - Type
      - Description
      - Comments
-   * - filterId, contactlistId
-     - int
-     - Recipient source of the email. At least one property must be sent and must not be 0 (zero). If both are sent, only one must be different from 0 (zero).
-     -
    * - email_id
      - int
-     - the ID of the email
+     - the ID of the email campaign
+     -
+   * - filterId, contactlistId
+     - int
+     - Recipient source for the email campaign. At least the filterId (segment ID) or the contactlistId
+       have to be specified and must not be 0. If both are sent, only one must be different from 0.
      -
 
 JSON Payload Example

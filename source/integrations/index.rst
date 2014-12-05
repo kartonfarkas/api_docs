@@ -1,7 +1,7 @@
-Integrations
-============
+Suite Integrations
+==================
 
-Contents:
+We are providing several opportunities to integrate with our services:
 
 .. toctree::
    :maxdepth: 1

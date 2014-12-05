@@ -1,7 +1,7 @@
-Email Attributes
-================
+Querying Email Campaign Attributes
+==================================
 
-Returns the attributes of an email and the personalized text and HTML source.
+Returns the details of an email campaign, including the personalized text and HTML source.
 
 Endpoint
 --------

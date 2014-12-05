@@ -1,8 +1,8 @@
 Trigger endpoint
 ================
 
-This endpoint is called by Automation Center when the program execution reaches your node. It should start the
-execution of your service.
+This endpoint is called by Automation Center, when the program execution reaches your node. It should start
+the execution of your service.
 
 HTTP Method: POST
 
