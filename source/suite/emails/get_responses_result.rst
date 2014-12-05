@@ -1,5 +1,5 @@
-Get Responses Result
-====================
+Querying Responses Result
+=========================
 
 Lists the contact IDs for an email state.
 

@@ -1,5 +1,5 @@
-Get Responses
-=============
+Querying Responses
+==================
 
 Returns the state of email(s) according to the contact activity within a particular time interval.
 
