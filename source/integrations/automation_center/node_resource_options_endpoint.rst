@@ -1,8 +1,8 @@
 Resource options endpoint
 =========================
 
-This endpoint is called when the customer opens up the program node dialogue. For this, your service should respond
-with the list of available resources as described below.
+This endpoint is called when the customer opens up the program node dialogue. For this your service
+should respond with the list of available resources as described below.
 
  * HTTP Method: GET
 
