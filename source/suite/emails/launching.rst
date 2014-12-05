@@ -15,7 +15,7 @@ only that the request was received by the API.
 Endpoint
 --------
 
-``POST /api/v2/email/<id>/launch``
+``POST /api/v2/email/<email_id>/launch``
 
 Parameters
 ----------
@@ -28,7 +28,7 @@ Parameters
      - Type
      - Description
      - Comments
-   * - id
+   * - email_id
      - int
      - email ID to launch, part of the URI
      -

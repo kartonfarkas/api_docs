@@ -1,7 +1,7 @@
-Querying Folders
-================
+Listing Folders
+===============
 
-Returns the available folders in your Media Database.
+Returns the available folders in the Media Database.
 
 Endpoint
 --------

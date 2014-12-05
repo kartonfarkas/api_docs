@@ -1,7 +1,7 @@
-Getting Launches of Email
-=========================
+Listing Email Campaign Launches
+===============================
 
-Lists all the launches of an email with ID, launch date and 'done' status.
+Lists all the launches of an email campaign, including launch ID, launch date and 'done' status.
 
 Endpoint
 --------
@@ -41,7 +41,18 @@ Result Example
    {
      "replyCode": 0 ,
      "replyText": "OK",
-     "data": [{"id": "7555", "done": "y", "launch_date": "2012-05-05"},   {"id": "7556", "done": "n", "launch_date": "2012-05-05"}]
+     "data": [
+       {
+         "id": "7555",
+         "done": "y",
+         "launch_date": "2012-05-05"
+       },
+       {
+         "id": "7556",
+         "done": "n",
+         "launch_date": "2012-05-05"
+       }
+     ]
    }
 
 Errors

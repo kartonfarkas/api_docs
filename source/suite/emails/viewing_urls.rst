@@ -1,12 +1,13 @@
-Viewing URLs of Online Versions
-===============================
+Querying URLs for Launched Email Campaign Contents
+==================================================
 
-Returns the URL to the online version of a launched email.
+Returns the URL of a launched email campaign's content for the specified
+contact.
 
 Endpoint
 --------
 
-``POST /api/v2/email/<id>/url``
+``POST /api/v2/email/<email_id>/url``
 
 Parameters
 ----------
@@ -19,13 +20,13 @@ Parameters
      - Type
      - Description
      - Comments
-   * - <id>
+   * - email_id
      - int
      - ID of the email
      -
    * - key_id
      - mixed
-     - key which identifies the contacts
+     - key which identifies the contact
      - field id, “id” or “uid” can be used
    * - key_value
      - mixed

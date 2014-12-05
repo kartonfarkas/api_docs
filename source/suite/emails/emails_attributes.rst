@@ -6,7 +6,7 @@ Returns the details of an email campaign, including the personalized text and HT
 Endpoint
 --------
 
-``GET /api/v2/email/<id>``
+``GET /api/v2/email/<email_id>``
 
 Parameters
 ----------
@@ -19,9 +19,9 @@ Parameters
      - Type
      - Description
      - Comments
-   * - id
+   * - email_id
      - int
-     - ID of the email, part of the request URI
+     - ID of the email, part of the URI
      -
 
 Result Example

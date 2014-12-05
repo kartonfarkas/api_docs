@@ -2,8 +2,7 @@ Authentication
 ==============
 
 Every call to the API must be authenticated. This must be done by adding a custom HTTP (X-WSSE) header.
-This page contains the detailed description on how to create valid headers for the eMarketing
-Suite API.
+This page contains the detailed description on how to create valid headers for the Suite REST API.
 
 X-WSSE Format
 -------------

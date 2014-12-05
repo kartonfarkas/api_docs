@@ -1,7 +1,7 @@
-Querying Files
-==============
+Listing Files
+=============
 
-Returns a media file from your account’s Media Database.
+Returns a media file from the Media Database.
 
 Endpoint
 --------

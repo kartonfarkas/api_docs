@@ -1,7 +1,7 @@
 Querying Delivery Status
 ========================
 
-Returns the delivery status of an email.
+Returns the delivery status of an email campaign.
 
 Endpoint
 --------
@@ -21,8 +21,8 @@ Parameters
      - Comments
    * - emailId
      - int
-     - ID of the email
-     - For emailId, a valid email ID must be provided.
+     - ID of the email campaign
+     - a valid email campaign ID must be provided.
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
@@ -62,7 +62,13 @@ Result Example
      "replyText": "OK",
      "data":
      {
-       "resultSet": [{"id": "1", "user_id": "1", "bounce_reason": "soft", "status": "launched", "mail_type": "html"}]
+       "resultSet": [{
+         "id": "1",
+         "user_id": "1",
+         "bounce_reason": "soft",
+         "status": "launched",
+         "mail_type": "html"
+       }],
        "lastId": "1"
      }
    }

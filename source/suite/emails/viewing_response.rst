@@ -1,12 +1,12 @@
-Viewing Response Summaries
-==========================
+Querying Response Summaries
+===========================
 
-Returns the summary of the responses of a launched, paused, activated or deactivated email.
+Returns the summary of the responses of a launched, paused, activated or deactivated email campaign.
 
 Endpoint
 --------
 
-``GET /api/v2/email/<id>/responsesummary``
+``GET /api/v2/email/<email_id>/responsesummary``
 
 Parameters
 ----------
@@ -19,9 +19,9 @@ Parameters
      - Type
      - Description
      - Comments
-   * - id
+   * - email_id
      - int
-     - ID of the email
+     - ID of the email, part of the URI
      -
 
 Result Example

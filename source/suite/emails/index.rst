@@ -29,12 +29,12 @@ Launches
    :maxdepth: 1
 
    launching.rst
-   querying_delivery.rst
    getting_launches.rst
+   querying_delivery.rst
+   viewing_response.rst
    previewing_emails.rst
    viewing_urls.rst
    sending_test.rst
-   viewing_response.rst
 
 Media Library
 -------------

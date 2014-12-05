@@ -1,7 +1,7 @@
-Uploading Files to a Media Database
-===================================
+Uploading Files
+===============
 
-Uploads a file to your Media Database.
+Uploads a file to the Media Database.
 
 Endpoint
 --------

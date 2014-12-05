@@ -19,9 +19,9 @@ Parameters
      - Type
      - Description
      - Comments
-   * - id
+   * - email_id
      - int
-     - ID of the email to be copied
+     - ID of the email campaign to be copied, part of the URI
      -
 
 .. list-table:: **Optional Parameters**
@@ -34,7 +34,7 @@ Parameters
      - Comments
    * - name
      - string
-     - The name of the copied campaign. If not defined, a unique name will be automatically generated.
+     - The name of the new email campaign. If not defined, a unique name will be automatically generated.
      -
 
 Result Data Structure

@@ -1,12 +1,12 @@
-Previewing Emails
-=================
+Previewing Email Campaign Contents
+==================================
 
 Returns the HTML or text version of the email either as content type `application/json` or `text/html`.
 
 Endpoint
 --------
 
-``POST /api/v2/email/<id>/preview``
+``POST /api/v2/email/<email_id>/preview``
 
 Parameters
 ----------
@@ -19,7 +19,7 @@ Parameters
      - Type
      - Description
      - Comments
-   * - id
+   * - email_id
      - int
      - email ID, part of the URI
      -
