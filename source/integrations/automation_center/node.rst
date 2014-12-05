@@ -7,8 +7,8 @@ the specified URL with a set of parameters, which you can use to trigger necessa
 contacts entering the node.
 
 In the first sections we describe the HTTP interface that needs to be implemented by each service.
-Then we introduce you to an example service written in PHP, and to best practices recommended by
-Emarsys. In the last section you can read about planned changes to the API.
+Then we introduce you an example service written in PHP, and best practices recommended by
+Emarsys. In the last section, you can read about planned changes to the API.
 
 More information:
 

@@ -11,7 +11,7 @@ trigger.php could look like this:
    echo json_encode(array('success' => true));
 
 This service doesn’t do anything. So let’s suppose that we have a class that can trigger the required actions when
-passed an ServiceRequest object. Then the trigger API could look something like this:
+passed a ServiceRequest object. Then the trigger API could look like this:
 
 .. code-block:: php
 

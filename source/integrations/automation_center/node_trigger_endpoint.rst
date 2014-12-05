@@ -1,7 +1,7 @@
 Trigger endpoint
 ================
 
-This endpoint is called by Automation Center, when the program execution reaches your node. It should start the
+This endpoint is called by Automation Center when the program execution reaches your node. It should start the
 execution of your service.
 
 HTTP Method: POST
@@ -14,33 +14,35 @@ HTTP Method: POST
      - Description
    * - environment
      - string
-     - The Suite environment that triggered the event. (example: login.emarsys.net)
+     - the Suite environment that triggered the event (example: login.emarsys.net)
    * - customer_id
      - int
-     - The ID of the customer in Suite database
+     - ID of the customer in the Suite database
    * - program_type
      - string
-     - Possible values: ‘batch’, ‘transactional’, ‘recurring’
+     - possible values: ‘batch’, ‘transactional’, ‘recurring’
    * - list_id
      - int
-     - Userlist ID in Suite database (Optional)
+     - userlist ID in the Suite database (optional)
    * - user_id
      - int
-     - Contact ID in Suite database (Optional)
+     - contact ID in the Suite database (optional)
    * - resource_id
      - int/string
-     - The ID of a resource managed by the service. (Optional)
+     - ID of a resource managed by the service (optional)
    * - queue_id
      - int
      - Identifies the trigger request. This value is unique for each trigger event from a given environment.
    * - run_id
      - string
-     - Identifies the program run. This value can be used to link together multiple trigger events from the same program resulting from a single entry.
+     - Identifies the program run. This value can be used to link together multiple trigger events from the same
+       program resulting from a single entry.
    * - data
      - json
-     - Campaign specific external data (Optional)
+     - campaign specific external data (optional)
 
-Required Response:
+Required Response
+-----------------
 
  * In case of success, the service needs to respond with an HTTP status code in the 200-299 range.
  * In case of error, the HTTP status code should be in the range 400-499 in case of client error (i.e. the request is
@@ -49,6 +51,7 @@ Required Response:
    containing a userMessage and a code key.
 
 Example
+-------
 
 .. code-block:: json
 
@@ -67,23 +70,29 @@ Automation Center makes a distinction between batch, recurring and transactional
  * **Batch programs** operate on user lists and are triggered once by a timer (see ‘Target segment’ entry point in
    Automation Center).
  * **Recurring programs** are similar to batch programs in that they operate on user lists and they
-   are also triggered by a timer, but recurring programs might get triggered several times as opposed to one time only programs.
+   are also triggered by a timer, but these might get triggered several times as opposed to one time only programs.
  * **Transactional programs** operate on individual users and are triggered by user specific events
    (for example ‘New contact’, ‘Datachange’ and ‘External event’ are transactional entry points).
 
-The post request will contain either a list_id or a user_id. In case of batch and recurring programs
-Automation Center will always send a list_id. In case of transactional programs normally a user_id is sent, but under high loads Automation Center may decide to batch up transactional events, and in that case it will send a list_id even if the program is transactional. **Always check for both user_id and list_id, and do not rely on program_type to decide which one to use.**
+The post request will contain either a list_id or a user_id. In case of batch and recurring programs, Automation Center
+will always send a list_id. In case of transactional programs, normally a user_id is sent but under high loads
+Automation Center may decide to batch up transactional events. In that case, it will send a list_id even if the program
+is transactional.
+
+.. note::
+
+   Always check for both user_id and list_id, and do not rely on program_type to decide which one to use.
 
 Resolving user_ids and list_ids
 -------------------------------
 
-Please use the suite API v2 to retrieve contact informations based on the user_id or list_id. Discussing the details of the Suite API is beyond the scope of this document, so please be referred to the Suite API documentation.
+ * Please use the suite API v2 to retrieve contact informations based on the user_id or list_id. Discussing the details of the Suite API is beyond the scope of this document, so please be referred to the Suite API documentation.
 
-Note, that user lists are deleted after ??? hours, so your service needs to resolve the list_id to the actual user data within that timeframe.
+ * Note, that user lists are deleted after ??? hours, so your service needs to resolve the list_id to the actual user data within that timeframe.
 
-If your service is specific to a customer, or a small set of customers, then use a regular API user/secret pair, and maintain the keys for your customers in your service. You can access the suite api through the external endpoint: ‘/api/v2’
+ * If your service is specific to a customer, or a small set of customers, then use a regular API user/secret pair, and maintain the keys for your customers in your service. You can access the suite api through the external endpoint: ‘/api/v2’
 
-If your service is generic to all customers, or a larger set of customers, then require (from whome?) an internal API secret and use the internal endpoint for the Suite API: ‘/api/v2/internal/<customer_id>’
+ * If your service is generic to all customers, or a larger set of customers, then require (from whome?) an internal API secret and use the internal endpoint for the Suite API: ‘/api/v2/internal/<customer_id>’
 
 Resources
 ---------
