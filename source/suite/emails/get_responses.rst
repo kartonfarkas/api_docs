@@ -33,7 +33,7 @@ Parameters
      -
    * - type
      - string
-     - state of the email(s)
+     - state of the email(s), it can be 'opened', 'received', 'clicked', 'notopened', and 'notclicked.
      -
 
 Result Example
