@@ -48,6 +48,7 @@ Result Example
          "email_category": "11111",
          "filter": "22222",
          "contactlist": "0",
+         "cc_list": 564365356,
          "source": "api",
          "html_source": "Hello $Last Name$. How are you?",
          "text_source": "Hello $Last Name$ http://login.emarsys.net/u/nrd.php?p=$uid$_$llid$_$cid$_$sid$_2"
@@ -106,6 +107,10 @@ Result Data Structure
      - int
      - contact list ID
      - Contact lists may be retrieved via the :doc:`../contacts/listing_contact_lists` endpoint
+   * - cc_list
+     - int
+     - Contact list ID, if the email is sent, this contactlist also receives it. Only works if BCC List is enabled.
+     -
    * - html_source
      - string
      - HTML source of the email
