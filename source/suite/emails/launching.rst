@@ -1,13 +1,16 @@
-Launching Emails
-================
+Launching Email Campaigns
+=========================
 
-Launches an email. This is an asynchronous call, which returns ‘OK’ if the email is able to launch.
+Launches an email campaign. The launch will happen later, an "OK" response will report
+only that the request was received by the API.
 
 .. warning::
 
-   Launches are asynchronous operations. A successfully initiated launch request might
-   end up in a failed launch. You should poll the :doc:`emails_attributes` endpoint to
-   obtain information on the launch progress.
+   Launches are asynchronous operations. A successful request might end up in a failed
+   launch (for example when email subject or recipient list was not specified). The
+   :doc:`emails_attributes` endpoint must be polled to obtain information on the
+   launch progress, where the *api_status* and *api_error* parameters will contain the
+   status.
 
 Endpoint
 --------

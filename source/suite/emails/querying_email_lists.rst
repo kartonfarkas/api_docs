@@ -1,7 +1,7 @@
-Querying Email Lists
-====================
+Listing Email Campaigns
+=======================
 
-Returns a list of emails.
+Returns the list of the email campaigns.
 
 Endpoint
 --------

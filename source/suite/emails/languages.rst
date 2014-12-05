@@ -1,7 +1,7 @@
-Querying Languages Lists
-========================
+Querying Email Campaign Languages
+=================================
 
-Returns a list of languages which you can use in email creation.
+Returns the list of languages which can be used in email creation.
 
 Endpoint
 --------

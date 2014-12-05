@@ -1,8 +1,8 @@
-Querying Email Category Lists
-=============================
+Querying Email Campaign Categories
+==================================
 
-Returns a list of email categories which can be used in email creation. The list is sorted alphabetically
-by category name.
+Returns the list of the email campaign categories which can be used in email creation. The list is sorted
+alphabetically by category name.
 
 Endpoint
 --------
