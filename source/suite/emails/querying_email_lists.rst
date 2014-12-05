@@ -64,44 +64,46 @@ Result Example
      "data":
      [
        {
-         "id": "12345"
-         "root_email": "0"
-         "language": "en"
-         "created": "2011-08-12 18:12:23"
-         "deleted": ""
-         "name": "Test1"
-         "status": "3"
-         "api_status": "2"
-         "api_error": "0"
-         "fromemail": "emarsys@emarsys.net"
-         "fromname": "emarsys"
-         "subject": "Test mail"
-         "email_category": "11111"
-         "filter": "22222"
-         "contactlist": "0"
-         "source": "userlist"
-         "html_source": "Hello $Last Name$. How are you?"
-         "text_source": "Hello $Last Name$
+         "id": "12345",
+         "root_email": "0",
+         "language": "en",
+         "created": "2011-08-12 18:12:23",
+         "deleted": "",
+         "name": "Test1",
+         "status": "3",
+         "api_status": "2",
+         "api_error": "0",
+         "fromemail": "emarsys@emarsys.net",
+         "fromname": "emarsys",
+         "subject": "Test mail",
+         "email_category": "11111",
+         "filter": "22222",
+         "contactlist": "0",
+         "cc_list": 0,
+         "source": "userlist",
+         "html_source": "Hello $Last Name$. How are you?",
+         "text_source": "Hello $Last Name$,
          http://login.emarsys.net/u/nrd.php?p= $uid$_$llid$_$cid$_$sid$_2
        }
        {
-         "id": "67890"
-         "root_email": "0"
-         "language": "en"
-         "created": "2011-08-12 18:20:23"
-         "deleted": "2011-11-07 08:11:57"
-         "name": "Test2"
-         "status": "3"
-         "api_status": "2"
-         "api_error": "0"
-         "fromemail": "emarsys@emarsys.net"
-         "fromname": "emarsys"
-         "subject": "Test mail"
-         "email_category": "11111"
-         "filter": "22222"
-         "contactlist": "0"
-         "source": "api"
-         "html_source": "Hello $Last Name$. How are you?"
+         "id": "67890",
+         "root_email": "0",
+         "language": "en",
+         "created": "2011-08-12 18:20:23",
+         "deleted": "2011-11-07 08:11:57",
+         "name": "Test2",
+         "status": "3",
+         "api_status": "2",
+         "api_error": "0",
+         "fromemail": "emarsys@emarsys.net",
+         "fromname": "emarsys",
+         "subject": "Test mail",
+         "email_category": "11111",
+         "filter": "22222",
+         "contactlist": "0",
+         "cc_list": 564365356,
+         "source": "api",
+         "html_source": "Hello $Last Name$. How are you?",
          "text_source": "Hello $Last Name$ http://login.emarsys.net/u/nrd.php?p= $uid$_$llid$_$cid$_$sid$_2
        }
      ]
@@ -117,6 +119,7 @@ Where:
  * *email category* = the category identifier for this email. Categories can be retrieved via `/api/v2/emailcategory <http://documentation.emarsys.com/?page_id=164>`_.
  * *filter* = the filter identifier. Available filters can be retrieved via `/api/v2/filter <http://documentation.emarsys.com/?page_id=114>`_.
  * *contactlist* = the contact list identifier. Contact lists can be retrieved via `/api/v2/contactlist <http://documentation.emarsys.com/?page_id=184>`_.
+ * *cc_list* = the contact list ID, if the email is sent, this contactlist also receives it. Only works if BCC List is enabled.
  * *status* = See `E-Mail Statuses <http://documentation.emarsys.com/?page_id=426>`_
  * *api_status* = See `API launch statuses <http://documentation.emarsys.com/?page_id=426>`_
  * *api_error* = See `API launch errors <http://documentation.emarsys.com/?page_id=422>`_

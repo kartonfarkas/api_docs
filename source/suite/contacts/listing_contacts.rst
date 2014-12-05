@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - return
      - int
-     - the id of the field that should the response contain in addition to the internal id of the contact
+     - the ID of the field that the response needs to contain in addition to the internal ID of the contact
      -
 
 .. list-table:: **Optional Parameters**
@@ -32,17 +32,13 @@ Parameters
      - Type
      - Description
      - Comments
-   * - return
-     - int
-     - the ID of the field that should the response contain in addition to the internal ID of the contact
-     -
    * - field_id
      - int
      - to decide if we need to return a contact or not, [field_value]
      - field_value can be an empty string, that will also match to cells with NULL value
    * - limit
      - int
-     - if set it limits the number of the returned contacts
+     - if set, it limits the number of the returned contacts
      - By default it is 10.000, and it is not possible to specify bigger limit then that.
    * - offset
      - int

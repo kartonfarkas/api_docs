@@ -27,6 +27,7 @@ trigger should be repeated. For that reason it is strongly recommended, that ser
 check if they have received the exact same request before and ignore duplicates. The queue_id,
 run_id and environment id parameters together should form a unique id for each request.
 
+
 Logging
 -------
 

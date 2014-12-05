@@ -88,6 +88,10 @@ Parameters
      - used only if both HTML and TEXT sources are available
      - * 0: false
        * 1: true
+   * - cc_list
+     - int
+     - Contact list ID, if the email is sent, this contactlist also receives it. Only works if BCC List is enabled.
+     -
 
 Request Example
 ---------------
@@ -184,4 +188,8 @@ Errors
      - 10001
      - No content
      - Both the html_source and the text_source are empty.
+   * - 400
+     - 6031
+     - CC feature not enabled
+     - if the BCC List feature is not enabled, then cc_list cannot be set
 

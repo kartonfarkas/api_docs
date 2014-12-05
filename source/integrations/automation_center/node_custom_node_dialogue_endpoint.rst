@@ -4,7 +4,7 @@ Custom node dialog endpoint
 This endpoint is called when the customer opens up the program node dialogue. For this, your service should respond with
 an HTTP page that contains a user interface for setting up a new resource or editing an existing one.
 The HTTP page should also contain a JavaScript code that can handle the ‘resource.save’ message when received from
-the parent page, and should respond with the ID and label of the saved resource as explained below.
+the parent page and should respond with the ID and label of the saved resource as explained below.
 
 HTTP Method: GET
 Parameters:
@@ -58,7 +58,7 @@ The iframe that displays the custom content returned by the custom node dialog e
 100 pixels high. Since the size of the content may be different, we provide an API that can be used to resize the dialog
 once your content has been loaded into the iframe. The maximum allowed size is 800x300 pixels.
 
-To resize the dialog simply send the required iframe size in a message. The data sent should be of the following format:
+To resize the dialog, simply send the required iframe size in a message. The data sent should be of the following format:
 
 .. code-block:: json
 

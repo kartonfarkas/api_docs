@@ -20,12 +20,13 @@ should respond with the list of available resources as described below.
      - ID of the customer in the Suite database
    * - language
      - string
-     - specifies the admin's preferred language
+     - specifies the preferred language of the admin
 
-Required Response:
+Required Response
+-----------------
 
  * The service needs to respond with a JSON object. If the request was successful, the HTTP status should be in
- the 200-299 range, while in case of errors it should be in the 400-599 range.
+   the 200-299 range while in case of errors, it should be in the 400-599 range.
  * In case of success, the service should provide an array of objects with the following keys:
 
 .. list-table:: **Possible Keys**
@@ -43,10 +44,11 @@ Required Response:
 
 Example: [{“id”:3,”name”:”Some resource”},{“id”:12,”name”:”Some other resource”}]
 
-In case of error, the service should also provide a ‘userMessage’ that provides a human readable message indicating
-the cause of failure, and a ‘code’ key that contains an error code.
+In case of error, the service should also provide a userMessage that is a human readable message indicating
+the cause of failure and a code key which contains an error code.
 
-Example:
+Example
+-------
 
 .. code-block:: json
 
