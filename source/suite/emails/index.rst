@@ -21,6 +21,8 @@ Email Campaigns
    update_email_source.rst
    emails_get_email_category_lists.rst
    languages.rst
+   get_responses.rst
+   get_responses_result.rst
 
 Launches
 --------
