@@ -23,11 +23,11 @@ Result Example
        "data":
        [
            {
-               "id": "1"
+               "id": "1",
                "name": "Operator"
            },
            {
-               "id": "974"
+               "id": "974",
                "name": "Blacklist Administrator"
            }
        ]

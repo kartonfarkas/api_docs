@@ -82,9 +82,9 @@ Result Example
      [
        {
          "id": "123",
-         "folder": "1"
-         "filename": "md_1234.png"
-         "size": "96274211"
+         "folder": "1",
+         "filename": "md_1234.png",
+         "size": "96274211",
          "original_name": "logo.png"
        }
      ]

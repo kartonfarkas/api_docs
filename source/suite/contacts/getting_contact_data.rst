@@ -84,8 +84,8 @@ Result Example
        "result": [
              {
            "1": "testName1",
-           "3": "fakeemail1@example.com"
-           "id": "23897",
+           "3": "fakeemail1@example.com",
+           "id": "23897"
          }
        ]
      }

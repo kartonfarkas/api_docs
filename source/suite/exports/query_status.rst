@@ -35,11 +35,11 @@ Result Example
      "data":
      {
        "id": "123",
-       "created": "2012-05-23 11:08:56"
-       "status": "done"
-       "type": "Responses"
-       "file_name": "clicks_3931993_1_en-df0ef2.csv"
-       "ftp_host": "88.99.123.23"
+       "created": "2012-05-23 11:08:56",
+       "status": "done",
+       "type": "Responses",
+       "file_name": "clicks_3931993_1_en-df0ef2.csv",
+       "ftp_host": "88.99.123.23",
        "ftp_dir": "folder/subfolder"
      }
    }

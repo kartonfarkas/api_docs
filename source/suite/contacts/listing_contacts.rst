@@ -62,18 +62,20 @@ Normal Result:
 .. code-block:: json
 
    {
-     "replyCode": 0, "replyText": "OK", "data":  {
-       "result": [
-         {
-           "id": 3,
-           "3": "email1@address.com"
-         },
-         {
-           "id": 5,
-           "3": "email2@address.com"
-         }
-       ]
-     }
+      "replyCode": 0,
+      "replyText": "OK",
+      "data": {
+         "result": [
+            {
+               "id": 3,
+               "3": "email1@address.com"
+            },
+            {
+               "id": 5,
+               "3": "email2@address.com"
+            }
+         ]
+      }
    }
 
 Error Condition:
@@ -81,7 +83,9 @@ Error Condition:
 .. code-block:: json
 
    {
-     "replyCode": 2014, "replyText": "No field specified to return", "data": ""
+      "replyCode": 2014,
+      "replyText": "No field specified to return",
+      "data": ""
    }
 
 Errors

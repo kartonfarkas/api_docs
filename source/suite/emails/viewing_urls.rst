@@ -49,7 +49,7 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode": 0 ,
+     "replyCode": 0,
      "replyText": "OK",
      "data":
      {

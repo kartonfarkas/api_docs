@@ -41,29 +41,29 @@ Result Example
      [
        {
          "id": "0",
-         "name": "Interests"
+         "name": "Interests",
          "application_type": "interests"
        },
        {
          "id": "1",
-         "name": "First Name"
+         "name": "First Name",
          "application_type": "shorttext"
        },
        {
          "id": "9",
-         "name": "Title"
+         "name": "Title",
          "application_type": "singlechoice"
        },
        …
        {
          "id": "123",
-         "name": "CustomField18"
+         "name": "CustomField18",
          "application_type": "numeric"
        },
          …
        {
          "id": "456",
-         "name": "Voucher42"
+         "name": "Voucher42",
          "application_type": "voucher"
        }
      ]

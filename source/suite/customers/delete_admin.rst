@@ -48,7 +48,7 @@ Result Example
 
    {
        "replyCode": 0,
-       "replyText": "OK"
+       "replyText": "OK",
        "data":{}
    }
 

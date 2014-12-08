@@ -20,11 +20,11 @@ Result Example
      "data":
      {
        {
-         "id": "1111"
+         "id": "1111",
          "category": "Cat1"
        },
        {
-         "id": "1112"
+         "id": "1112",
          "category": "Cat2"
        }
      }

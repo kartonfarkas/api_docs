@@ -45,11 +45,11 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":"OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data":
      {
-       "id":"123"
+       "id": "123"
      }
    }
 

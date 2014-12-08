@@ -45,18 +45,18 @@ Result Example
      [
        {
          "id": "123",
-         "folder": "1"
-         "filename": "md_2.jpg"
-         "size": "1234"
-         "original_name": "picture.jpg"
+         "folder": "1",
+         "filename": "md_2.jpg",
+         "size": "1234",
+         "original_name": "picture.jpg",
          "url": "http://example.com/custloads/12345678/md_2.jpg"
        },
        {
          "id": "456",
-         "folder": "1"
-         "filename": "md_3.jpg"
-         "size": "1234"
-         "original_name": "picture2.jpg"
+         "folder": "1",
+         "filename": "md_3.jpg",
+         "size": "1234",
+         "original_name": "picture2.jpg",
          "url": "http://example.com/custloads/12345678/md_3.jpg"
        }
      ]
