@@ -25,7 +25,7 @@ Parameters
      - Comments
    * - type
      - string
-     - Reaction of contacts to emails, it can be 'opened', 'notopened', 'received', 'clicked' and 'notclicked' ( a
+     - Reaction of contacts to emails, it can be 'opened', 'notopened', 'received', 'clicked' and 'notclicked' (a
        link in the email).
      -
 
