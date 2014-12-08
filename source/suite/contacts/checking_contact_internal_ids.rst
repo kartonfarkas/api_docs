@@ -42,9 +42,9 @@ JSON Payload Example
      "key_id": "3",
      "external_ids":
      [
-       "test1@example.com",
-       "test2@example.com",
-       "test3@example.com"
+       "obadiahstane@example.com",
+       "jinsen@example.com",
+       "raza@example.com"
      ]
    }
 
@@ -60,12 +60,12 @@ Result Example
      {
        "ids":
        {
-         "test1@example.com":"9832304",
-         "test3@example.com":"9839473"
+         "obadiahstane@example.com":"9832304",
+         "raza@example.com":"9839473"
        }
        "errors":
        {
-         "test2@example.com":
+         "jinsen@example.com":
          {
            "2008":"No contact found with the external id: 3"
          }

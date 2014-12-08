@@ -51,22 +51,22 @@ JSON Payload Example
      "contacts":
      [
        {
-         "3": "test1@ema.il",
-         "2": "name1",
+         "3": "erikselvig@example.com",
+         "2": "Selvig",
          "source_id": "1234"
        },
        {
-         "3": "test2@ema.il",
-         "2": "name2"
+         "3": "ianboothby@example.com",
+         "2": "Boothby"
        },
        {
-         "3": "test3@ema.il",
-         "2": "name3",
+         "3": "jamesrhodes@example.com",
+         "2": "Rhodes",
          "source_id": "5678"
        },
        {
-         "3": "test4@ema.il",
-         "2": "name4"
+         "3": "virginiapotts@example.com",
+         "2": "Potts"
        }
      ]
    }
@@ -88,11 +88,11 @@ Result Example
        ],
        "errors":
        {
-         "test1@ema.il":
+         "jamesrhodes@example.com":
          {
            "2009": "Contact with the external id already exists: 3"
          },
-         "test2@ema.il":
+         "virginiapotts@example.com":
          {
            "2009": "Contact with the external id already exists: 3"
          }

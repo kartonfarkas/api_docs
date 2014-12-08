@@ -44,15 +44,15 @@ JSON Payload Example
 .. code-block:: json
 
    {
-     "key_id": "67",
+     "key_id": "1",
      "contacts":
      [
        {
-         "67": "identifier 1",
-         "2": "name1"
+         "1": "Malekith",
+         "2": "Evil"
        },
        {
-         "67": "identifier 2",
+         "1": "Wonder Woman",
          "679": ["1","2"]
        }
      ]
@@ -75,11 +75,11 @@ Result Example
        ],
        "errors":
        {
-         "test1@ema.il":
+         "malekith@example.com":
          {
            "2009": "Contact with the external id already exists: 3"
          },
-         "test2@ema.il":
+         "wonderwoman@example.com":
          {
            "2009": "Contact with the external id already exists: 3"
          }

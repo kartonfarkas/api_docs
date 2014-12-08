@@ -20,11 +20,11 @@ Result Example
      [
        {
          "id": "123",
-         "name": "List 1"
+         "name": "asgardians"
        },
        {
          "id": "124",
-         "name": "List 2"
+         "name": "asgardenemies"
        }
      ]
    }

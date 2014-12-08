@@ -54,13 +54,13 @@ JSON Payload Example
 
    {
      "key_id": "3",
-     "name": "test name",
-     "description": "test description",
+     "name": "asgardians",
+     "description": "those who fight for Asgard",
      "external_ids":
      [
-       "test1@example.com",
-       "test2@example.com",
-       "test3@example.com"
+       "thor@example.com",
+       "odin@example.com",
+       "loki@example.com"
      ]
    }
 
@@ -70,8 +70,8 @@ JSON Payload Example
 
    {
      "key_id": "123",
-     "name": "test name",
-     "description": "test description",
+     "name": "asgardians",
+     "description": "those who fight for Asgard",
      "external_ids":
      [
        [1,2,3],
@@ -93,9 +93,9 @@ Result Example
        "id": "123",
        "errors":
        {
-         "test2@example.com":
+         "loki@example.com":
          {
-           "2008": "No contact found with the external id: 3 - test2@example.com"
+           "2008": "No contact found with the external id: 3 - loki@example.com"
          }
        }
      }

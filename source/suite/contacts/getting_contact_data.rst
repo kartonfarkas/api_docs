@@ -46,7 +46,7 @@ Error Condition:
 .. code-block:: json
 
    {
-     "key": "fakeemail1@example.com",
+     "key": "ironman@example.com",
      "errorCode": "2008",
      "errorMsg": "No contact found with the external id: 3"
    }
@@ -54,7 +54,7 @@ Error Condition:
 .. code-block:: json
 
    {
-     "key": "fakeemail2@example.com",
+     "key": "hulk@example.com",
      "errorCode": "2008",
      "errorMsg": "No contact found with the external id: 3"
    }
@@ -66,7 +66,7 @@ JSON Payload Example
 
    {
      "keyId": "3",
-     "keyValues": ["firstname1.lastname1@example.com", "firstname2.lastname2@example.com"],
+     "keyValues": ["tony.stark@example.com", "bruce.banner@example.com"],
      "fields": [1,2,3]
    }
 
@@ -82,8 +82,8 @@ Result Example
          "errors": [],
          "result": [
             {
-               "1": "testName1",
-               "3": "fakeemail1@example.com",
+               "1": "Loki",
+               "3": "loki@example.com",
                "id": "23897"
             }
          ]
@@ -99,16 +99,16 @@ Normal Result:
 
    {
      "id": "23897",
-     "1": "testName1",
-     "3": "fakeemail1@test.com"
+     "1": "Odin",
+     "3": "odin@example.com"
    }
 
 .. code-block:: json
 
    {
      "id": "23898",
-     "1": "testName2",
-     "3": "fakeemail2@test.com"
+     "1": "Frigga",
+     "3": "frigga@example.com"
    }
 
 Errors
