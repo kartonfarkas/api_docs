@@ -25,7 +25,8 @@ Parameters
      - Comments
    * - type
      - string
-     - state of the email(s), it can be 'opened', 'received', 'clicked', 'notopened', and 'notclicked.
+     - Reaction of contacts to emails, it can be 'opened', 'notopened', 'received', 'clicked' and 'notclicked ( a
+       link in the email).
      -
 
 .. list-table:: **Optional Parameters**
