@@ -45,8 +45,8 @@ Normal Result:
 .. code-block:: json
 
    {
-     "replyCode":0,
-     "replyText":"OK",
+     "replyCode": 0,
+     "replyText": "OK",
      "data":
      {
        "campaignId": 123456
@@ -60,9 +60,9 @@ Error Condition:
 .. code-block:: json
 
    {
-     "replyCode":6023,
-     "replyText":"Campaign name already taken",
-     "data":""
+     "replyCode": 6023,
+     "replyText": "Campaign name already taken",
+     "data": ""
    }
 
 Errors

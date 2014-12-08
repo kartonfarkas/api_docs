@@ -85,9 +85,9 @@ Normal Result:
 .. code-block:: json
 
    {
-      "replyCode":0,
-      "replyText":"OK",
-      "data":null
+      "replyCode": 0,
+      "replyText": "OK",
+      "data": null
    }
 
 Error Condition:
@@ -95,9 +95,9 @@ Error Condition:
 .. code-block:: json
 
    {
-      "replyCode":8002,
-      "replyText":"Invalid username",
-      "data":""
+      "replyCode": 8002,
+      "replyText": "Invalid username",
+      "data": ""
    }
 
 
