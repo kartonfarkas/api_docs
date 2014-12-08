@@ -52,7 +52,7 @@ Parameters
 URI Example
 -----------
 
- * `/api/v2/contact/query/return=3&limit=100&offset=200&1=FirstNameHere&excludeempty=true`
+ * ``/api/v2/contact/query/return=3&limit=100&offset=200&1=FirstNameHere&excludeempty=true``
 
 Result Example
 --------------
