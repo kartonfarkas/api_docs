@@ -99,16 +99,16 @@ Normal Result:
 
    {
      "id": "23897",
-     "1": "Odin",
-     "3": "odin@example.com"
+     "1": "Ironman",
+     "3": "tony.stark@example.com"
    }
 
 .. code-block:: json
 
    {
      "id": "23898",
-     "1": "Frigga",
-     "3": "frigga@example.com"
+     "1": "Thor",
+     "3": "thor@example.com"
    }
 
 Errors
