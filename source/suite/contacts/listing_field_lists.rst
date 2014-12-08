@@ -27,7 +27,7 @@ Parameters
 URI Example
 -----------
 
-/api/v2/field/translate/en
+ * `/api/v2/field/translate/en`
 
 Result Example
 --------------

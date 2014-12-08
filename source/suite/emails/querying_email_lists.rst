@@ -47,11 +47,11 @@ If two or more parameters are used, they must be separated by an & character.
 URI Example
 -----------
 
-/api/v2/email/status=3
-/api/v2/email/contactlist=123
-/api/v2/email/showdeleted=1
-/api/v2/email/status=3&contactlist=123&showdeleted=1
-/api/v2/email/fromdate=2013-01-01&todate=2013-02-01
+ * `/api/v2/email/status=3`
+ * `/api/v2/email/contactlist=123`
+ * `/api/v2/email/showdeleted=1`
+ * `/api/v2/email/status=3&contactlist=123&showdeleted=1`
+ * `/api/v2/email/fromdate=2013-01-01&todate=2013-02-01`
 
 Result Example
 --------------

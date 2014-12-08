@@ -27,7 +27,7 @@ Parameters
 URI Example
 -----------
 
-/api/v2/contactlist/123456
+ * `/api/v2/contactlist/123456`
 
 Result Data Structure
 ---------------------
