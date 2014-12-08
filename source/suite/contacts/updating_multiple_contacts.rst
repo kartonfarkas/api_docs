@@ -49,7 +49,7 @@ JSON Payload Example
      [
        {
          "1": "Malekith",
-         "2": "Evil"
+         "2": "the Accursed"
        },
        {
          "1": "Wonder Woman",
