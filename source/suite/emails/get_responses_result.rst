@@ -3,6 +3,10 @@ Querying Responses Result
 
 Lists the contact IDs for an email state.
 
+.. note::
+
+   The result is kept for 2 hours.
+
 Endpoint
 --------
 
