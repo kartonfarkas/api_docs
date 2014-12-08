@@ -92,12 +92,12 @@ Result Example
      {
        "id": "123",
        "errors":
-       [
-         "test2@example.com",
+       {
+         "test2@example.com":
          {
            "2008": "No contact found with the external id: 3 - test2@example.com"
          }
-       ]
+       }
      }
    }
 

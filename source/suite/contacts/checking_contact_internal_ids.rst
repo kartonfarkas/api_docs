@@ -59,10 +59,10 @@ Result Example
      "data":
      {
        "ids":
-       [
+       {
          "test1@example.com":"9832304",
          "test3@example.com":"9839473"
-       ],
+       },
        "errors":
        {
          "test2@example.com":

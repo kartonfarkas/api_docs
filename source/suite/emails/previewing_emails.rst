@@ -45,9 +45,7 @@ Result Example
    {
      "replyCode": 0,
      "replyText": "OK",
-     "data":
-     {
-     }
+     "data": {}
    }
 
 Errors

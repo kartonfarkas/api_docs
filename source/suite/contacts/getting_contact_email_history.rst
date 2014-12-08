@@ -84,7 +84,6 @@ Result Data Structure
 
 .. code-block:: json
 
-   [
      {
        "emailId": integer,
        "contactId": integer,
@@ -92,7 +91,6 @@ Result Data Structure
        "delivery_status": string,
        "bounce_status": string
      }
-   ]
 
 Errors
 ------

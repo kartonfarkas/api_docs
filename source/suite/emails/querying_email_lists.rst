@@ -82,7 +82,7 @@ Result Example
          "cc_list": 0,
          "source": "userlist",
          "html_source": "Hello $Last Name$. How are you?",
-         "text_source": "Hello $Last Name$ http://login.emarsys.net/u/nrd.php?p=$uid$_$llid$_$cid$_$sid$_2
+         "text_source": "Hello $Last Name$ http://login.emarsys.net/u/nrd.php?p=$uid$_$llid$_$cid$_$sid$_2"
        },
        {
          "id": "67890",
@@ -103,7 +103,7 @@ Result Example
          "cc_list": 564365356,
          "source": "api",
          "html_source": "Hello $Last Name$. How are you?",
-         "text_source": "Hello $Last Name$ http://login.emarsys.net/u/nrd.php?p=$uid$_$llid$_$cid$_$sid$_2
+         "text_source": "Hello $Last Name$ http://login.emarsys.net/u/nrd.php?p=$uid$_$llid$_$cid$_$sid$_2"
        }
      ]
    }
