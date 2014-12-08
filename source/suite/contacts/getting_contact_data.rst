@@ -58,7 +58,6 @@ Error Condition:
      "errorCode": "2008",
      "errorMsg": "No contact found with the external id: 3"
    }
-   …
 
 JSON Payload Example
 --------------------

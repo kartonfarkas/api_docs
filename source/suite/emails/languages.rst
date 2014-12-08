@@ -32,23 +32,22 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode": 0,
-     "replyText": "OK",
-     "data":
-     {
-       {
-         "id": "en",
-         "language": "english"
-       },
+      "replyCode": 0,
+      "replyText": "OK",
+      "data": [
          {
-           "id": "de",
-           "language": "german"
+            "id": "en",
+            "language": "english"
          },
-           {
-             "id": "ru",
-             "language": "russian"
-           }
-     }
+         {
+            "id": "de",
+            "language": "german"
+         },
+         {
+            "id": "ru",
+            "language": "russian"
+         }
+      ]
    }
 
 Errors

@@ -15,19 +15,18 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode": 0,
-     "replyText": "OK",
-     "data":
-     {
-       {
-         "id": "1111",
-         "category": "Cat1"
-       },
-       {
-         "id": "1112",
-         "category": "Cat2"
-       }
-     }
+      "replyCode": 0,
+      "replyText": "OK",
+      "data": [
+         {
+            "id": "1111",
+            "category": "Cat1"
+         },
+         {
+            "id": "1112",
+            "category": "Cat2"
+         }
+      ]
    }
 
 Errors

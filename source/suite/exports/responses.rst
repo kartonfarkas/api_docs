@@ -69,49 +69,46 @@ Parameters
 
 The number of the fields provided for contact_fields and analysis_fields must be at least 1 and at most 20 in total.
 
- .. list-table:: **Optional Parameters**
-    :header-rows: 1
-    :widths: 20 20 40 40
-
-    * - Name
-      - Type
-      - Description
-      - Comments
-    * - email_id
-      - int
-      - campaign ID, provides the responses to this email
-      -
-    * - contactlist_id
-      - int
-      - if you check the contacts who answered within a contactlist
-      -
-    * - delimiter
-      - string
-      - **,** (comma) or **;** (semicolon).
-      - Default value is **,** (comma).
-    * - add_field_names_header
-      - int
-      - **0** or **1**
-      - Default value is **1**.
-    * - language
-      - string
-      - see supported `language codes <http://documentation.emarsys.com/?page_id=424>`_
-      - Default value is the account’s default language.
-    * - ftp_settings
-      - object
-      - An object with the following fields must be provided:
-
-        * *(string)* host
-        * *(integer)* port
-        * *(string)* username
-        * *(string)* password
-        * *(string)* folder – optional
-
-      - If *distribution_method* is **local**, then *ftp_settings* is ignored.
-    * - notification_url
-      - string
-      - A request is sent to the url if the export is ready. This way it is not necessary to poll the export status.
-      - The payload is the same as the result of `querying export status <query_status.html>`_.
+.. list-table:: **Optional Parameters**
+   :header-rows: 1
+   :widths: 20 20 40 40
+   * - Name
+     - Type
+     - Description
+     - Comments
+   * - email_id
+     - int
+     - campaign ID, provides the responses to this email
+     -
+   * - contactlist_id
+     - int
+     - if you check the contacts who answered within a contactlist
+     -
+   * - delimiter
+     - string
+     - **,** (comma) or **;** (semicolon).
+     - Default value is **,** (comma).
+   * - add_field_names_header
+     - int
+     - **0** or **1**
+     - Default value is **1**.
+   * - language
+     - string
+     - see supported `language codes <http://documentation.emarsys.com/?page_id=424>`_
+     - Default value is the account’s default language.
+   * - ftp_settings
+     - object
+     - An object with the following fields must be provided:
+       * *(string)* host
+       * *(integer)* port
+       * *(string)* username
+       * *(string)* password
+       * *(string)* folder – optional
+     - If *distribution_method* is **local**, then *ftp_settings* is ignored.
+   * - notification_url
+     - string
+     - A request is sent to the url if the export is ready. This way it is not necessary to poll the export status.
+     - The payload is the same as the result of `querying export status <query_status.html>`_.
 
 Request Example
 ---------------

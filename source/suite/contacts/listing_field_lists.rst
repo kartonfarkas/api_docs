@@ -54,7 +54,6 @@ Result Example
          "name": "Title",
          "application_type": "singlechoice"
        },
-       …
        {
          "id": "123",
          "name": "CustomField18",

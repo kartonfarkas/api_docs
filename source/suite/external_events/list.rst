@@ -21,7 +21,7 @@ Result Example
        {
          "id": "123",
          "name": "event name 1"
-       }
+       },
        {
          "id": "456",
          "name": "event name 2"

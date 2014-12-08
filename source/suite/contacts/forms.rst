@@ -43,7 +43,6 @@ Result Example
        {
          "id": "124","type": "3"
        },
-       …
      ]
    }
 
