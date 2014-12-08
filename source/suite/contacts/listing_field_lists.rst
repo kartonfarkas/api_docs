@@ -59,7 +59,6 @@ Result Example
          "name": "CustomField18",
          "application_type": "numeric"
        },
-         …
        {
          "id": "456",
          "name": "Voucher42",

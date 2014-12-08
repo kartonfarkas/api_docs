@@ -62,14 +62,16 @@ Result Example
      "replyText": "OK",
      "data":
      {
-       "resultSet": [{
-         "id": "1",
-         "user_id": "1",
-         "bounce_reason": "soft",
-         "status": "launched",
-         "mail_type": "html"
-       }],
-       "lastId": "1"
+        "resultSet":[
+           {
+              "id": 1,
+              "user_id": 1,
+              "bounce_reason": "soft",
+              "status": "launched",
+              "mail_type": "html"
+           }
+        ],
+        "lastId": 1
      }
    }
 

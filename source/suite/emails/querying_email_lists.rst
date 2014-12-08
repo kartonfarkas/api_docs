@@ -83,7 +83,7 @@ Result Example
          "source": "userlist",
          "html_source": "Hello $Last Name$. How are you?",
          "text_source": "Hello $Last Name$ http://login.emarsys.net/u/nrd.php?p=$uid$_$llid$_$cid$_$sid$_2
-       }
+       },
        {
          "id": "67890",
          "root_email": "0",

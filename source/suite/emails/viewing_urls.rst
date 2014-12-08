@@ -53,8 +53,7 @@ Result Example
      "replyText": "OK",
      "data":
      {
-       "url": "http://www.emarsys.com/u/gm.php
-       prm=uid369_119948266_123456789_369258147"
+       "url": "http://www.emarsys.com/u/gm.phpprm=uid369_119948266_123456789_369258147"
      }
    }
 
