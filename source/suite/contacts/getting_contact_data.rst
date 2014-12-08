@@ -76,18 +76,18 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode": 0,
-     "replyText": "OK",
-     "data": {
-       "errors": [],
-       "result": [
-             {
-           "1": "testName1",
-           "3": "fakeemail1@example.com",
-           "id": "23897"
-         }
-       ]
-     }
+      "replyCode": 0,
+      "replyText": "OK",
+      "data": {
+         "errors": [],
+         "result": [
+            {
+               "1": "testName1",
+               "3": "fakeemail1@example.com",
+               "id": "23897"
+            }
+         ]
+      }
    }
 
 Result Data Structure

@@ -21,7 +21,7 @@ Result Example
        {
          "id": "123",
          "name": "source name 1"
-       }
+       },
        {
          "id": "456",
          "name": "source name 2"

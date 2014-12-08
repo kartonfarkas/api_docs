@@ -70,7 +70,7 @@ Result Example
               "status": "launched",
               "mail_type": "html"
            }
-        ],
+        ]
         "lastId": 1
      }
    }

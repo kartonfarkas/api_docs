@@ -85,11 +85,11 @@ Result Data Structure
 .. code-block:: json
 
      {
-       "emailId": integer,
-       "contactId": integer,
-       "launch_date": date,
-       "delivery_status": string,
-       "bounce_status": string
+       "emailId": "integer",
+       "contactId": "integer",
+       "launch_date": "date",
+       "delivery_status": "string",
+       "bounce_status": "string"
      }
 
 Errors

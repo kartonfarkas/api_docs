@@ -21,7 +21,7 @@ Result Example
        "replyCode": 0,
        "replyText": "OK",
        "data":
-       [
+       {
            "en",
            "de",
            "fr",
@@ -29,7 +29,7 @@ Result Example
            "ru",
            "zh",
            "cn"
-       ]
+       }
    }
 
 Where the strings are the two-letter identifiers of the languages.
