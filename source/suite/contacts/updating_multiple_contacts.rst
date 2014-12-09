@@ -52,7 +52,7 @@ JSON Payload Example
          "2": "the Accursed"
        },
        {
-         "1": "Wonder Woman",
+         "1": "Frigga",
          "679": ["1","2"]
        }
      ]
@@ -79,7 +79,7 @@ Result Example
          {
            "2009": "Contact with the external id already exists: 3"
          },
-         "wonderwoman@example.com":
+         "frigga@example.com":
          {
            "2009": "Contact with the external id already exists: 3"
          }
