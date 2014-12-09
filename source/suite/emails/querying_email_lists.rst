@@ -69,7 +69,7 @@ Result Example
          "language": "en",
          "created": "2011-08-12 18:12:23",
          "deleted": "",
-         "name": ""be_afraid_email"",
+         "name": "be_afraid_email",
          "status": "3",
          "api_status": "2",
          "api_error": "0",

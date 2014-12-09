@@ -20,11 +20,11 @@ Result Example
      [
        {
          "id": "123",
-         "name": "Asgard Protectors"
+         "name": "asgard_protectors"
        },
        {
          "id": "124",
-         "name": "Asgard Enemies"
+         "name": "asgard_enemies"
        }
      ]
    }

@@ -42,7 +42,7 @@ JSON Payload Example
      "key_id": "3",
      "external_ids":
      [
-       "obadiahstane@example.com",
+       "obadiah.stane@example.com",
        "jinsen@example.com",
        "raza@example.com"
      ]
@@ -60,7 +60,7 @@ Result Example
      {
        "ids":
        {
-         "obadiahstane@example.com":"9832304",
+         "obadiah.stane@example.com":"9832304",
          "jinsen@example.com":"9839473"
        }
        "errors":

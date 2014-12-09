@@ -44,7 +44,7 @@ Simple Values
      "key_id": "3",
      "external_ids":
      [
-       "natasharomanoff@example.com",
+       "natasha.romanoff@example.com",
        "loki@example.com"
      ]
    }

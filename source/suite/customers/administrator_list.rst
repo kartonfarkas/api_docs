@@ -24,8 +24,8 @@ Result Example
       [
          {
             "id": "3",
-            "username": "captainamerica",
-            "email": "captainamerica@.example.com",
+            "username": "captain_america",
+            "email": "captain.america@.example.com",
             "first_name": "Steve",
             "last_name": "Rogers",
             "interface_language": "en",
@@ -38,8 +38,8 @@ Result Example
          },
          {
             "id":"32",
-            "username": "janefoster",
-            "email": "janefoster@example.com",
+            "username": "jane_foster",
+            "email": "jane.foster@example.com",
             "first_name": "Jane",
             "last_name": "Foster",
             "interface_language": "en",
