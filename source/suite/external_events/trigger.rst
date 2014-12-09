@@ -52,12 +52,12 @@ JSON Payload Example
 
    {
      "key_id": "3",
-     "external_id": "test@example.com",
+     "external_id": "thor@example.com",
      "data":
      {
        "global":
        {
-         "itemName": "keyboard",
+         "itemName": "hammer",
          "itemPrice": "123"
        }
      }

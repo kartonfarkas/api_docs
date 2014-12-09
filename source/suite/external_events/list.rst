@@ -1,7 +1,8 @@
 Querying External Events
 ========================
 
-Returns a list of external events which can be used in programs.
+Returns a list of external events which can be used in programs. External event has an ID with which emails can be sent or AC
+programs can be started for a contact through the API.
 
 Endpoint
 --------
@@ -20,11 +21,11 @@ Result Example
      [
        {
          "id": "123",
-         "name": "event name 1"
+         "name": "purchasing"
        },
        {
          "id": "456",
-         "name": "event name 2"
+         "name": "checking an item"
        }
      ]
    }
