@@ -20,12 +20,12 @@ Result Example
        [
          {
            "id": "123",
-           "name": "Rule 1",
+           "name": "first_name_is_tony",
            "condName": "$COND_Rule 1$"
          },
          {
            "id": "124",
-           "name": "Rule 2",
+           "name": "last_name_is_stark",
            "condName": "$COND_Rule 2$"
          }
        ]

@@ -46,18 +46,18 @@ Result Example
        {
          "id": "123",
          "folder": "1",
-         "filename": "fantastic_four.jpg",
+         "filename": "md_2.jpg",
          "size": "1234",
          "original_name": "picture.jpg",
-         "url": "http://example.com/custloads/12345678/fantastic_four.jpg"
+         "url": "http://example.com/custloads/12345678/md_2.jpg"
        },
        {
          "id": "456",
          "folder": "1",
-         "filename": "the_avengers.jpg",
+         "filename": "md_3.jpg",
          "size": "1234",
          "original_name": "picture2.jpg",
-         "url": "http://example.com/custloads/12345678/the_avengers.jpg"
+         "url": "http://example.com/custloads/12345678/md_3.jpg"
        }
      ]
    }

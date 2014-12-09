@@ -20,7 +20,7 @@ Result Example
       "data": [
          {
             "id": "1111",
-            "category": "emails_to_asgardians"
+            "category": "emails_to_the_asgardians"
          },
          {
             "id": "1112",
