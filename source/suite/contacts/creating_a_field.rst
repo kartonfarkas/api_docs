@@ -19,10 +19,6 @@ Parameters
      - Type
      - Description
      - Comments
-   * - key_id
-     - mixed
-     - the field ID
-     - **id** or **uid** can be used
    * - name
      - string
      - name of the new field
@@ -109,4 +105,12 @@ Errors
      - 3002
      - The list of external ids exceeds the maximum size.
      - Too many contacts were requested; the number of contacts is limited to 10,000.
+   * - 400
+     - 9006
+     - This type of field cannot be created via API.
+     - You must define the type as well.
+   * - 400
+     - 9002
+     - A field with this name already exists
+     -
 
