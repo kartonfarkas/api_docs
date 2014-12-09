@@ -54,7 +54,7 @@ JSON Payload Example
 
    {
      "key_id": "3",
-     "name": "asgardians",
+     "name": "asgard_protectors",
      "description": "those who fight for Asgard",
      "external_ids":
      [
@@ -70,7 +70,7 @@ JSON Payload Example
 
    {
      "key_id": "123",
-     "name": "asgardians",
+     "name": "asgard_protectors",
      "description": "those who fight for Asgard",
      "external_ids":
      [

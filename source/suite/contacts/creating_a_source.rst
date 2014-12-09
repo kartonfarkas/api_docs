@@ -34,7 +34,7 @@ JSON Payload Example
 .. code-block:: json
 
    {
-     "name": "my_new_source"
+     "name": "my_super_source"
    }
 
 Errors

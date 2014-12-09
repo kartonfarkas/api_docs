@@ -85,6 +85,11 @@ Result Example
                "1": "Ironman",
                "3": "tony.stark@example.com",
                "id": "23897"
+            },
+            {
+               "1": "Hulk",
+               "3": "bruce.banner@example.com",
+               "id": "23898"
             }
          ]
       }
@@ -107,8 +112,8 @@ Normal Result:
 
    {
      "id": "23898",
-     "1": "Thor",
-     "3": "thor@example.com"
+     "1": "Hulk",
+     "3": "bruce.banner@example.com"
    }
 
 Errors

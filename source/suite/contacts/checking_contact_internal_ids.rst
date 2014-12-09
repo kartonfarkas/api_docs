@@ -61,11 +61,11 @@ Result Example
        "ids":
        {
          "obadiahstane@example.com":"9832304",
-         "raza@example.com":"9839473"
+         "jinsen@example.com":"9839473"
        }
        "errors":
        {
-         "jinsen@example.com":
+         "raza@example.com":
          {
            "2008":"No contact found with the external id: 3"
          }

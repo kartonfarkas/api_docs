@@ -44,9 +44,8 @@ Simple Values
      "key_id": "3",
      "external_ids":
      [
-       "test1@example.com",
-       "test2@example.com",
-       "test3@example.com"
+       "natasharomanoff@example.com",
+       "loki@example.com"
      ]
    }
 
@@ -78,9 +77,9 @@ Result Example
        "inserted_contacts": 1,
        "errors":
        {
-        "ps":
+        "loki@example.com":
         {
-          "2008":"No contact found with the external id: 1"
+          "2008":"No contact found with the external id: 3"
         }
        }
      }

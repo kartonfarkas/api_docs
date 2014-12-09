@@ -20,11 +20,11 @@ Result Example
      [
        {
          "id": "123",
-         "name": "source name 1"
+         "name": "my_super_source"
        },
        {
          "id": "456",
-         "name": "source name 2"
+         "name": "the_avengers_source"
        }
      ]
    }

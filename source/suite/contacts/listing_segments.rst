@@ -20,11 +20,11 @@ Result Example
      [
        {
          "id": "123",
-         "name": "filter name 1"
+         "name": "superheroes"
        },
        {
          "id": "456",
-         "name": "filter name 2"
+         "name": "superhero_supporters"
        }
      ]
    }
