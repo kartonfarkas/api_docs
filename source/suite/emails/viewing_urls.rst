@@ -40,7 +40,7 @@ JSON Payload Example
 
    {
      "key_id": "3",
-     "key_value": "test@ema.il"
+     "key_value": "clint.barton@example.com"
    }
 
 Result Example

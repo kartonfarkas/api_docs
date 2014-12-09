@@ -66,8 +66,8 @@ With Multiple Email Addresses
 .. code-block:: json
 
    {
-     "subject": "subject here",
-     "recipientlist": "address1@example.com;address2@example.com"
+     "subject": "superhero_party_invitation",
+     "recipientlist": "tony.stark@example.com; pepper.potts@example.com"
    }
 
 With a Filter ID
@@ -76,7 +76,7 @@ With a Filter ID
 .. code-block:: json
 
    {
-     "subject": "subject here",
+     "subject": "superhero_party_invitation",
      "filter_id": "123"
    }
 

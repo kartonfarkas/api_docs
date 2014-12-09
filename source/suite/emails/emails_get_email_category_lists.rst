@@ -20,11 +20,11 @@ Result Example
       "data": [
          {
             "id": "1111",
-            "category": "Cat1"
+            "category": "emails_to_asgardians"
          },
          {
             "id": "1112",
-            "category": "Cat2"
+            "category": "emails_to_the_superheroes"
          }
       ]
    }

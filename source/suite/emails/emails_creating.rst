@@ -99,14 +99,14 @@ Request Example
 .. code-block:: json
 
    {
-     "name": "test api 010",
+     "name": "be_afraid_email",
      "language": "en",
-     "subject": "subject here",
-     "fromname": "sender email",
-     "fromemail": "sender@example.com",
+     "subject": "convergence",
+     "fromname": "Malekith",
+     "fromemail": "malekith@example.com",
      "email_category": "17",
      "html_source": "<html>Hello $First Name$,... </html>",
-     "text_source": "email text",
+     "text_source": "Hello $First Name$,...",
      "browse": 0,
      "text_only": 0,
      "unsubscribe": 1,
