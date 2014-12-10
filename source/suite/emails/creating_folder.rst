@@ -24,7 +24,7 @@ Parameters
      - the name of the new folder
      -
    * - parent
-     - integer
+     - int
      - the ID of the parent folder
      -
 
