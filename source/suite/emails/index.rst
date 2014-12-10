@@ -45,8 +45,10 @@ Media Library
    :maxdepth: 1
 
    querying_files.rst
-   querying_folders.rst
    uploading_files.rst
+   querying_folders.rst
+   creating_folder.rst
+
 
 Conditions
 ----------
