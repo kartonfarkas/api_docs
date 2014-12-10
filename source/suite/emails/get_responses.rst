@@ -1,11 +1,16 @@
 Querying Responses
 ==================
 
-Returns the contact email activity within a particular time interval.
+The goal of this call is to list the contacts who reacted to the email campaigns in the given time interval
+the same way, for example all contacts who opened emails.
+
+A call to this endpoint starts a background query and returns an ID which can be used to poll the
+``Querying Responses Result`` endpoint for the results. Ideally, the results will be available
+in some minutes.
 
 .. note::
 
-   Within a minute, a customer can launch only one call.
+   Within a minute, a customer can do only one request.
 
 Endpoint
 --------
