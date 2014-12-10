@@ -62,7 +62,7 @@ Errors
    * - 400
      - 11003
      - The provided name is not a valid name.
-     - letters, numbers, _ and - are allowed and it cannot start with -
+     - letters, numbers, "_" and "-" are allowed and it cannot start with "-"
    * - 400
      - 11004
      - Missing parameter "parent"
