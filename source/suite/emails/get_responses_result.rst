@@ -1,7 +1,7 @@
 Querying Responses Result
 =========================
 
-Lists the contact IDs for those who reacted to the email(s).
+Lists the contact IDs for the email campaigns.
 
 .. note::
 
@@ -10,7 +10,7 @@ Lists the contact IDs for those who reacted to the email(s).
 Endpoint
 --------
 
-``GET /api/v2/email/{id}/responses``
+``GET /api/v2/email/responses/{query_id}``
 
 Parameters
 ----------
@@ -23,13 +23,15 @@ Parameters
      - Type
      - Description
      - Comments
-   * - id
+   * - query_id
      - int
-     - the result ID from ``Querying Responses``
+     - the query ID from the ``Querying Responses`` response
      -
 
 Result Example
 --------------
+
+Normal Result:
 
 .. code-block:: json
 
@@ -42,6 +44,16 @@ Result Example
             "176415518"
          ]
       }
+   }
+
+Error Condition:
+
+.. code-block:: json
+
+   {
+      "replyCode":202,
+      "replyText":"The requested data is currently generated",
+      "data":""
    }
 
 Errors
@@ -57,8 +69,4 @@ Errors
    * - 404
      - 6029
      - There is no job with the provided id
-     -
-   * - 202
-     - 6030
-     - The requested data is currently generated
      -
