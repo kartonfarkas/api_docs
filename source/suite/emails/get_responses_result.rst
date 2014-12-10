@@ -25,7 +25,7 @@ Parameters
      - Comments
    * - id
      - int
-     - the result ID from the responses api call
+     - the result ID from ``Querying Responses``
      -
 
 Result Example
