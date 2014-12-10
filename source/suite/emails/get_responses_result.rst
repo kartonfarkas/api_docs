@@ -1,7 +1,7 @@
 Querying Responses Result
 =========================
 
-Lists the contact IDs for an email state.
+Lists the contact IDs for those who reacted to email(s).
 
 .. note::
 
