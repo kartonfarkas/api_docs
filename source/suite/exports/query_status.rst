@@ -65,7 +65,7 @@ Result Data Structure
        * **ready**: the CSV file is ready to be distributed
        * **done**: the export finished without errors, the CSV file was created and distributed successfully
        * **error**: an error occurred during the export process
-       * In case of an FTP delivery, and if the FTP host is unavailable or the authentication failed, the export status remains **ready** and the process will try to connect to the FTP after one hour.
+       * In case of an FTP delivery and if the FTP host is unavailable or the authentication failed, the export status remains **ready** and the process will try to connect to the FTP after one hour.
        * If the export process cannot connect and stays in **‘ready’** status for more than one hour, please contact your Emarsys Account Manager.
    * - type
      - string
@@ -75,7 +75,7 @@ Result Data Structure
    * - file_name
      - string
      - name of the output CSV file
-     - If status is not done, it is **NULL**
+     - If status is not done, it is **NULL**.
    * - ftp_host
      - string
      - export settings to locate the file if the distribution method is FTP
