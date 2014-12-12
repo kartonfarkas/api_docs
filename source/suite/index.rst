@@ -19,7 +19,7 @@ Requests to the API must be authenticated. The authentication method of the API 
  * `PHP <overview/authentication_php.html>`_
  * `Perl <overview/authentication_perl.html>`_
  * `Ruby <overview/authentication_ruby.html>`_
- * `Java <overview/authentication_ruby.html>`_
+ * `Java <overview/authentication_java.html>`_
 
 We also provide a demo page where you can get impressions on `The API Demo Page <overview/api_demo.html>`_.
 We have no SDKs at the moment, if you need more help, you can try SDKs `here <overview/sdk.html>`_.
