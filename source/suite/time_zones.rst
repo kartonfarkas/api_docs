@@ -1,7 +1,7 @@
 Time Zones
 ==========
 
-The following timezones are supported by eMarketing Suite:
+The following timezones are supported by the Suite:
 
  * Pacific/Midway
  * Pacific/Marquesas

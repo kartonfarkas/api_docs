@@ -94,7 +94,7 @@ Errors
    * - 409
      - 6003
      - Invalid email status
-     - The email cannot be launched. Reason: It has already been launched either via the API or the eMarketing Suite user interface.
+     - The email cannot be launched. Reason: It has already been launched either via the API or the Suite user interface.
    * - 409
      - 6005
      - Invalid email type
