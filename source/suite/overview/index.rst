@@ -7,4 +7,3 @@ Get Started: Authentication, API Demo, SDKs
    authentication.rst
    api_demo.rst
    sdk.rst
-   encoding_and_responses.rst

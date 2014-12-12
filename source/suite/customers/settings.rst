@@ -3,8 +3,6 @@ Querying Customer Settings
 
 Returns the settings of the customer.
 
-.. include:: _warning.rst
-
 Endpoint
 --------
 
