@@ -1,12 +1,7 @@
 Exporting Contact Lists
 =======================
 
-.. warning::
-
-   If you would like to use the Export functions, please contact Emarsys Support.
-   The (S)FTP server IP address must be whitelisted on our server for security reasons.
-   WebDav has it's own user/password for authentication, and WebDav access must be
-   enabled for the customer.
+.. include:: _warning.rst
 
 Exports selected fields of contacts. Contacts are passed as a contact list with the given ID.
 
