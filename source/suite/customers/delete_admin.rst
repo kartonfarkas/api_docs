@@ -1,9 +1,7 @@
 Deleting an Administrator
 =========================
 
-.. warning::
-
-   Accessing the administrator endpoints might be limited. If you need access, please contact Emarsys Support.
+.. include:: _warning.rst
 
 Deletes an administrator and passes the rights to a different administrator.
 

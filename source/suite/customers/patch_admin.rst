@@ -1,9 +1,7 @@
 Updating an Administrator
 =========================
 
-.. warning::
-
-   Accessing the administrator endpoints might be limited. If you need access, please contact Emarsys Support.
+.. include:: _warning.rst
 
 Modifies specific properties of an admin.
 

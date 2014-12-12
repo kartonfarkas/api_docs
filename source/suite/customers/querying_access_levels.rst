@@ -1,9 +1,7 @@
 Querying Access Levels
 ======================
 
-.. warning::
-
-   Accessing the administrator endpoints might be limited. If you need access, please contact Emarsys Support.
+.. include:: _warning.rst
 
 Returns the list of available access levels for the customer.
 
