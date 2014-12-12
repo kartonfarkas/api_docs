@@ -93,7 +93,7 @@ Parameters
    * - notification_url
      - string
      - A request is sent to the url if the export is ready. This way it is not necessary to poll the export status.
-     - The payload is the same as the result of `querying export status <query_status.html>`_.
+     - The payload is the same as the result of `Querying Export Status <query_status.html>`_.
 
 Request Example
 ---------------
@@ -170,7 +170,7 @@ Errors
    * - 400
      - 10001
      - Invalid value for [parameter]: [value]
-     - The provided [value] value for the parameter [parameter] is not valid.
+     - The provided value [value] for the parameter [parameter] is not valid.
    * - 400
      - 10001
      - Invalid contact field id: [id1], [id2]
