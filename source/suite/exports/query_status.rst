@@ -59,12 +59,12 @@ Result Data Structure
      - string
      - status of the export
      - * **scheduled**: the export process has not been started yet
-   * **in progress**: the export is being processed
-   * **ready**: the CSV file is ready to be distributed
-   * **done**: the export finished without errors, the CSV file was created and distributed successfully
-   * **error**: an error occurred during the export process
-   * In case of an FTP delivery, and if the FTP host is unavailable or the authentication failed, the export status remains **ready** and the process will try to connect to the FTP after one hour.
-   * If the export process cannot connect and stays in **‘ready’** status for more than one hour, please contact your Emarsys Account Manager.
+       * **in progress**: the export is being processed
+       * **ready**: the CSV file is ready to be distributed
+       * **done**: the export finished without errors, the CSV file was created and distributed successfully
+       * **error**: an error occurred during the export process
+       * In case of an FTP delivery, and if the FTP host is unavailable or the authentication failed, the export status remains **ready** and the process will try to connect to the FTP after one hour.
+       * If the export process cannot connect and stays in **‘ready’** status for more than one hour, please contact your Emarsys Account Manager.
    * - type
      - string
      - type of the export

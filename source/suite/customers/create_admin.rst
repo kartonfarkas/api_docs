@@ -3,7 +3,7 @@ Creating an Administrator
 
 .. warning::
 
-   The administrator API is available only from specific IP addresses. For more information, please contact Emarsys Support.
+   Accessing the administrator endpoints might be limited. If you need access, please contact Emarsys Support.
 
 Creates a new administrator.
 
@@ -46,7 +46,6 @@ Parameters
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
-   :widths: 20 20 40 40
 
    * - Name
      - Type

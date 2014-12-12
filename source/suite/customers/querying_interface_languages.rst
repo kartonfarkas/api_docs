@@ -3,7 +3,7 @@ Querying Interface Languages
 
 .. warning::
 
-   The administrator API is available only from specific IP addresses. For more information, please contact Emarsys Support.
+   Accessing the administrator endpoints might be limited. If you need access, please contact Emarsys Support.
 
 Returns the list of available interface languages.
 
