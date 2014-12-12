@@ -1,12 +1,7 @@
 Exporting Responses
 ===================
 
-.. warning::
-
-   If you would like to use the Export functions, please contact Emarsys Support.
-   The (S)FTP server IP address must be whitelisted on our server for security reasons.
-   WebDav has it's own user/password for authentication, and WebDav access must be
-   enabled for the customer.
+.. include:: _warning.rst
 
 Exports the selected fields of all contacts who responded to emails within the specified time range.
 The request starts a background export process and returns its ID which can be used to obtain the status of the export. The background process saves the results as a CSV file, either locally or via FTP on another computer.
