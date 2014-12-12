@@ -70,8 +70,8 @@ Result Data Structure
    * - type
      - string
      - type of the export
-     - * **responses**
-       * **registrations**
+     - * responses
+       * registrations
    * - file_name
      - string
      - name of the output CSV file

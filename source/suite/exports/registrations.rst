@@ -30,9 +30,11 @@ Parameters
      - date array
      - An array with two elements (start date, end date)
      - The following date formats are accepted here:
+
         - [2014-06-20 16:16:00, 2014-06-20 16:16:21]
         - [2014-06-20 16:16, 2014-06-20 16:21]
         - [2014-06-20, 2014-06-21]
+
    * - contact_fields
      - int array
      - It may contain any contact field ID except:
@@ -68,7 +70,7 @@ Parameters
    * - add_field_names_header
      - int
      - **0** or **1**
-     - Default value is **1**.
+     - Default value is 1.
    * - language
      - string
      - see supported `language codes <http://documentation.emarsys.com/?page_id=424>`_
@@ -85,7 +87,7 @@ Parameters
    * - notification_url
      - string
      - A request is sent to the url if the export is ready. This way it is not necessary to poll the export status.
-     - The payload is the same as the result of `querying export status <query_status.html>`_.
+     - The payload is the same as the result of `Querying Export Status <query_status.html>`_.
 
 Request Example
 ---------------

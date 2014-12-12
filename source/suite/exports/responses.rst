@@ -30,9 +30,11 @@ Parameters
      - date array
      - array with two elements (start date, end date)
      - The following date formats are accepted here:
+
         - [2014-06-20 16:16:00, 2014-06-20 16:16:21]
         - [2014-06-20 16:16, 2014-06-20 16:21]
         - [2014-06-20, 2014-06-21]
+
    * - contact_fields
      - int array
      - It may contain any contact field ID except:
@@ -94,7 +96,7 @@ The number of the fields provided for contact_fields and analysis_fields must be
    * - add_field_names_header
      - int
      - **0** or **1**
-     - Default value is **1**.
+     - Default value is 1.
    * - language
      - string
      - see supported `language codes <http://documentation.emarsys.com/?page_id=424>`_
@@ -107,11 +109,11 @@ The number of the fields provided for contact_fields and analysis_fields must be
        * *(string)* username
        * *(string)* password
        * *(string)* folder – optional
-     - If *distribution_method* is **local**, then *ftp_settings* is ignored.
+     - If *distribution_method* is local, then *ftp_settings* is ignored.
    * - notification_url
      - string
      - A request is sent to the url if the export is ready. This way it is not necessary to poll the export status.
-     - The payload is the same as the result of `querying export status <query_status.html>`_.
+     - The payload is the same as the result of `Querying Export Status <query_status.html>`_.
 
 Request Example
 ---------------
@@ -188,7 +190,7 @@ Errors
    * - 400
      - 10001
      - Invalid value for [parameter]: [value]
-     - The provided [value] value for the parameter [parameter] is not valid.
+     - The provided value [value] for the parameter [parameter] is not valid.
    * - 400
      - 10001
      - Invalid contact field id: [id1], [id2]
