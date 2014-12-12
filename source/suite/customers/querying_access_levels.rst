@@ -1,9 +1,9 @@
 Querying Access Levels
 ======================
 
-.. include:: _warning.rst
-
 Returns the list of available access levels for the customer.
+
+.. include:: _warning.rst
 
 Endpoint
 --------

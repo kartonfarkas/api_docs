@@ -1,10 +1,10 @@
 Exporting Registrations
 =======================
 
-.. include:: _warning.rst
-
 Exports the selected fields of all contacts who registered within the specified time range.
 The request starts a background export process and returns its ID which can be used to obtain the status of the export. The background process saves the results as a CSV file, either locally or via FTP on another computer.
+
+.. include:: _warning.rst
 
 Endpoint
 --------

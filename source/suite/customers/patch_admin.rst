@@ -1,9 +1,9 @@
 Updating an Administrator
 =========================
 
-.. include:: _warning.rst
-
 Modifies specific properties of an admin.
+
+.. include:: _warning.rst
 
 Endpoint
 --------

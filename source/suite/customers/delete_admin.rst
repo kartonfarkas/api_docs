@@ -1,9 +1,9 @@
 Deleting an Administrator
 =========================
 
-.. include:: _warning.rst
-
 Deletes an administrator and passes the rights to a different administrator.
+
+.. include:: _warning.rst
 
 Endpoint
 --------

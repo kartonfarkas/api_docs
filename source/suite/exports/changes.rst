@@ -1,8 +1,6 @@
 Exporting Changes
 =================
 
-.. include:: _warning.rst
-
 Exports the selected fields of all contacts with properties that changed within the time range specified.
 The contacts must belong to the given form or API source.
 
@@ -11,6 +9,8 @@ the export. The background process saves the results as a CSV file, either local
 computer.
 
 Local exports will save the CSV file to our own server which can be accessed via the WebDav protocol. For a WebDav account, please contact Emarsys Support.
+
+.. include:: _warning.rst
 
 Endpoint
 --------

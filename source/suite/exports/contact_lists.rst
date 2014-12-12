@@ -1,9 +1,9 @@
 Exporting Contact Lists
 =======================
 
-.. include:: _warning.rst
-
 Exports selected fields of contacts. Contacts are passed as a contact list with the given ID.
+
+.. include:: _warning.rst
 
 Endpoint
 --------

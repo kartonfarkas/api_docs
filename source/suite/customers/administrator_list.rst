@@ -1,9 +1,9 @@
 Administrator List
 ==================
 
-.. include:: _warning.rst
-
 Returns the list of administrators.
+
+.. include:: _warning.rst
 
 Endpoint
 --------

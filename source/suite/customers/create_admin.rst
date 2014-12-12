@@ -1,9 +1,9 @@
 Creating an Administrator
 =========================
 
-.. include:: _warning.rst
-
 Creates a new administrator.
+
+.. include:: _warning.rst
 
 Endpoint
 --------

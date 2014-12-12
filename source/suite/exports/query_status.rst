@@ -1,9 +1,9 @@
 Querying Export Status
 ======================
 
-.. include:: _warning.rst
-
 Fetches the status data of an export. Uses the ID returned by :doc:`responses` or :doc:`registrations`.
+
+.. include:: _warning.rst
 
 Endpoint
 --------

@@ -1,9 +1,9 @@
 Querying Customer Settings
 ==========================
 
-.. include:: _warning.rst
-
 Returns the settings of the customer.
+
+.. include:: _warning.rst
 
 Endpoint
 --------

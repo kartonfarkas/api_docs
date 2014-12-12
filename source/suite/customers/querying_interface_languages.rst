@@ -1,9 +1,9 @@
 Querying Interface Languages
 ============================
 
-.. include:: _warning.rst
-
 Returns the list of available interface languages.
+
+.. include:: _warning.rst
 
 Endpoint
 --------
