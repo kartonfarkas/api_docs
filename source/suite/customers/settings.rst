@@ -18,9 +18,12 @@ Result Data Structure
      "replyText": "OK",
      "data":
      {
-       "timezone": "Europe/Vienna"
+       "timezone": "America/New_York",
+       "name": "Heimdall"
      }
    }
+
+Where *name* is the name of the customer.
 
 For more information on timezones available in eMarketing Suite, see `here <http://documentation.emarsys.com/?page_id=3291>`_.
 
