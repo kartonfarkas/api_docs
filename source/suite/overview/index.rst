@@ -1,5 +1,5 @@
-Overview
-========
+Get started: Authentication, API Demo, SDKs
+===========================================
 
 .. toctree::
    :maxdepth: 1
