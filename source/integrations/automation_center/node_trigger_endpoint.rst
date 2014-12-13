@@ -118,4 +118,8 @@ the resource management page into Automation Center.
 Campaign specific external data
 -------------------------------
 
-The external event entry point allows the user to post a JSON data structure along with the triggered external event. This JSON data structure is passed along the program, and can be used to customize program runs. For example in case of email this data is used to generate sections dynamically. API based nodes will receive this JSON object in the data field when it is present.
+The external event entry point allows the user to post a JSON data structure along with the triggered external event.
+This JSON data structure is passed along the program, and can be used to customize program runs. For example in case
+of email this data is used to generate sections dynamically. API based nodes will receive this JSON object in the data
+field when it is present.
+
