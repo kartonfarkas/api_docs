@@ -13,11 +13,11 @@ Emarsys. In the last section, you can read about planned changes to the API.
 .. toctree::
    :maxdepth: 1
 
+   node_registering_your_service.rst
    node_authentication.rst
    node_trigger_endpoint.rst
    node_resource_options_endpoint.rst
    node_custom_node_dialogue_endpoint.rst
-   node_registering_your_service.rst
    node_example.rst
    node_implementing_the_trigger.rst
    node_implementing_the_resource.rst
