@@ -31,6 +31,6 @@ Parameters
      - int
      - the ID of the admin
 
-Useful API Endpoints:
+Useful API Endpoint:
 
 `Querying Customer Settings <settings.html>`_
