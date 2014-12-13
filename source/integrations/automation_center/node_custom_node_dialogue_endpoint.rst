@@ -7,7 +7,9 @@ The HTTP page should also contain a JavaScript code that can handle the ‘resou
 the parent page and should respond with the ID and label of the saved resource as explained below.
 
 HTTP Method: GET
-Parameters:
+
+Parameters
+----------
 
 .. list-table:: **Parameters**
    :header-rows: 1
