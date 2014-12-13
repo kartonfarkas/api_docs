@@ -33,4 +33,4 @@ Parameters
 
 Useful API Endpoint:
 
-`Querying Customer Settings <settings.html>`_
+`Querying Customer Settings </suite/customers/settings.html>`_
