@@ -9,7 +9,7 @@ a resource is used and disable deleting that resource.
 
 Related Resources:
 
- * `Querying Used Program Resources <../../program_resources.html>`_
+ * `Querying Used Program Resources <suite/../program_resources.html>`_
  * `List Contacts in a Contact List <../listing_contacts_in_a_list.html>`_
  * `Getting Contact Data <../getting_contact_data.html>`_
 
