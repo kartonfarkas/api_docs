@@ -10,7 +10,7 @@ where we show you a number of typical API-related scenarios.
 
 For each Suite API request you need:
 
- * The URL of the Suite environment API you use (e.g.: https://suite5.emarsys.net/api/v2/)
+ * The URL of the Suite environment API you use (e.g.: "https://suite5.emarsys.net/api/v2/")
  * Your username for the API
  * Your secret for the API
 
