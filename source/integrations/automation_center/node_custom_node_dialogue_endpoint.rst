@@ -8,9 +8,6 @@ the parent page and should respond with the ID and label of the saved resource a
 
 HTTP Method: GET
 
-Parameters
-----------
-
 .. list-table:: **Parameters**
    :header-rows: 1
 
