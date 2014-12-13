@@ -8,7 +8,7 @@ Center team. Please send the following information to your contact person:
 
    * a 20x20 pixel icon that will appear on the toolbar
    * a 50x50 pixel icon that will be used inside the editor
-   
+
  * a name for your service that will appear next to the icon
  * description about which customers should have access to the API node (all customers or customers with a given feature)
  * trigger endpoint URL - the URL that needs to be called when the program wants to trigger your service
