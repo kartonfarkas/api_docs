@@ -30,7 +30,6 @@ Parameters
    * - admin_id
      - int
      - the ID of the admin
-     -
 
 Useful API Endpoints:
 
