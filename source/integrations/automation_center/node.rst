@@ -23,3 +23,6 @@ Emarsys. In the last section, you can read about planned changes to the API.
    node_implementing_the_resource.rst
    node_best_practices.rst
    node_usage.rst
+
+See `Querying Used Program Resources <program_resources.html`_.
+
