@@ -24,5 +24,5 @@ Emarsys. In the last section, you can read about planned changes to the API.
    node_best_practices.rst
    node_usage.rst
 
-See `Querying Used Program Resources <program_resources.html`_.
+See `Querying Used Program Resources <suite/program_resources.html`_.
 
