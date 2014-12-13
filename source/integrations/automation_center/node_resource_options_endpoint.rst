@@ -72,7 +72,7 @@ Error Condition:
    }
 
 PHP Implementation
-==================
+-------------------
 
 Similarly to the trigger api, the simplest implementation that returns no options is an options.php
 that looks something like this:
