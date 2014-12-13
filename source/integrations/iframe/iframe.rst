@@ -12,9 +12,6 @@ Information you need to provide:
  * Describe which customers should have access to the API node (all customers, or customers with a given feature).
  * Iframe URL - it provides the access of the services.
 
-Parameters
-----------
-
 .. list-table:: **Parameters**
    :header-rows: 1
 
