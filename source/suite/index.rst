@@ -10,9 +10,8 @@ where we show you a number of typical API-related scenarios.
 
 For each Suite API request you need:
 
- * The URL of the Suite environment API you use (e.g.: "https://suite5.emarsys.net/api/v2/")
- * Your username for the API
- * Your secret for the API
+ * The API URL based on the Suite environment you use (e.g. `https://suite5.emarsys.net/api/v2/`)
+ * Your *username* and *secret* for the API (please ask if from your contact person)
 
 Requests to the API must be authenticated. The authentication method of the API is X-WSSE, see `Authentication <overview/authentication.html>`_.
 
@@ -21,8 +20,8 @@ Requests to the API must be authenticated. The authentication method of the API 
  * `Ruby <overview/authentication_ruby.html>`_
  * `Java <overview/authentication_java.html>`_
 
-We also provide a demo page where you can get impressions on `The API Demo Page <overview/api_demo.html>`_.
-We have no SDKs at the moment, if you need more help, you can try SDKs `here <overview/sdk.html>`_.
+We also provide a demo page where you can try the API (see `The API Demo Page <overview/api_demo.html>`_).
+If you need more help, we have listed some third party clients on the :doc:`overview/sdk` page.
 
 .. toctree::
    :maxdepth: 1

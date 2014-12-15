@@ -6,8 +6,9 @@
 Welcome to Emarsys APIs developer documentation!
 ================================================
 
-This is a developer site, and the documentation of the product can be found
-at the `Emarsys Product Documentation Site <https://documentation.emarsys.com>`_.
+This is a developer site with detailed information about using our REST APIs or
+developing integrations with our services. Please visit the product documentation
+for more information at the `Emarsys Product Documentation Site <https://documentation.emarsys.com>`_.
 
 Contents
 --------

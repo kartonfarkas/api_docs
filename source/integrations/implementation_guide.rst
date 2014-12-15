@@ -1,32 +1,33 @@
-Integration Implementation Guide
-================================
+Integration Guide
+=================
 
-We are providing several opportunities to integrate with our services. In the following sections, we illustrate how it
-is possible to integrate with the Suite via an example implementation.
+In the following, we illustrate how it is possible to integrate with the Suite. We will use
+an SMS Automation Center Node as an example service to give you ideas. Please note that this
+is just an example, you can implement an Automation Center node, or a Suite Page only.
 
-A typical service provides a platform with an iframe which is displayed in the Suite and it provides access for Emarsys
-customers to the partner service with `Escher <http://escherauth.readthedocs.org/en/latest/#>`_. For example,
-the SMS Node makes the editing of the SMS campaigns possible.
+A partner service can provide an UI with an iframe displayed as a *page in Suite*. Depending on
+the implementation, (selected or all) customers will be able to access it via a Suite menu point.
+For example an SMS Automation Center Node can provide the editing of the SMS campaigns via this
+interface.
 
 .. image:: /_static/images/iframe.png
 
-The partner service can integrate with the Automation Center as well (see `Registering your Service with Automation
-Center <http://emarsys-dev.readthedocs.org/integrations/automation_center/node_registering_your_service.html>`_ for
-instructions).
+The partner service can integrate with the Automation Center as well
+(see :doc:`automation_center/node` for details).
 
-The Automation Center program can trigger the partner service as a part of the program (see `Trigger Endpoint
-<http://emarsys-dev.readthedocs.org/integrations/automation_center/node_trigger_endpoint.html>`_).
+The Automation Center program can trigger the partner service as part of an Automation Center program
+(see :doc:`automation_center/node_trigger_endpoint`).
 
 .. image:: /_static/images/AC.png
 
-During this process, the Automation Center passes a resource as well (e.g. an SMS campaign in the SMS Node). To select this resource,
-the partner service has to attain the `resource options endpoint
-<http://emarsys-dev.readthedocs.org/integrations/automation_center/node_resource_options_endpoint.html>`_. The customer
-can select the resource when a node is added by clicking on it. In this popup dialog, the items provided by the
-resource options endpoint appear.
+During this process, the Automation Center optionally passes a service resource as well
+(for example an SMS campaign in the SMS Node). The resource can be selected by the customer
+during configuring the node, by clicking on it. When the dialog appears, it calls the partner service
+to obtain the list of the available resources via the :doc:`automation_center/node_resource_options_endpoint`.
 
 .. image:: /_static/images/sms_campaign.png
 
-If some services require more complex solutions, the `custom node dialog endpoint
-<http://emarsys-dev.readthedocs.org/integrations/automation_center/node_custom_node_dialogue_endpoint.html>`_ is used
-instead of the resource options endpoint.
+If some services require more complex solutions to configure the node, the
+:doc:`automation_center/node_custom_node_dialogue_endpoint` should be used instead of the
+resource options endpoint. It can embed the configuration interface provided by the
+service via an iframe.

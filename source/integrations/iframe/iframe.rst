@@ -1,16 +1,23 @@
 Suite Page (iframe)
 ===================
 
-Suite provides an integration point where your service can be integrated to Suite as a page. We will add a new menu entry, and
-load your page via an iframe. The design of your page should match the Suite design, so it will look like it is part of the Suite.
+Suite provides an integration point where your service can be integrated to Suite as a page.
+We will add a new menu entry, and load your page via an iframe. The design of your page
+should match the Suite design, so it will look like it is part of the Suite.
 
-Suite passes environment name, customer ID, administrator ID and presigns the iframe URL using `Escher <http://escherauth.readthedocs.org/en/latest/#>`_ which serves authentication.
+Authentication
+--------------
 
-Information you need to provide:
+We are using the open source `Escher <http://escherauth.io/>`_ library to
+"presign" our requests. Note that each of the endpoints are available through the HTTPS protocol.
+The Escher *credential scope* is service specific (your contact person will share this information),
+and *algo_prefix* and *vendor_key* are both "**EMS**".
 
-* A name for your service.
-* Describe which customers should have access to the API node (all customers, or customers with a given feature).
-* Iframe URL - it provides the access of the services.
+Parameters
+----------
+
+Suite embeds your service URL as an iframe by extending it with query parameters the service needs
+to authenticate the customer. The following information will be available:
 
 .. list-table:: **Parameters**
    :header-rows: 1
@@ -28,6 +35,20 @@ Information you need to provide:
      - int
      - the ID of the admin
 
-Useful API Endpoint:
+Integration
+-----------
 
-`Querying Customer Settings </suite/customers/settings.html>`_
+We have created a checklist about the information we need to enable an iframe integration.
+Please send the following information to your contact person:
+
+* A name for your service.
+* Describe which customers should have access to the API node (all customers, or customers with a given feature).
+* Iframe URL - it provides the access of the services.
+
+Useful Resources
+----------------
+
+We recommend checking out these resources. Querying the timezone (for displaying time information
+in the customer's timezone) or the name of a customer might be useful for a service.
+
+* :doc:`../../suite/customers/settings`

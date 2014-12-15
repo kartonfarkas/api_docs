@@ -1,7 +1,8 @@
 Copying Email Campaigns
 =======================
 
-Copies the specified email campaign.
+Copies the specified email campaign. Optionally, a name can be defined for the new
+email campaign.
 
 Endpoint
 --------

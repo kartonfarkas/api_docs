@@ -4,13 +4,13 @@ Querying Responses
 The goal of this call is to list the contacts who reacted to the email campaigns in the given time interval
 the same way, for example all contacts who opened emails.
 
-A call to this endpoint starts a background query and returns an ID which can be used to poll the
-``Querying Responses Result`` endpoint for the results. Ideally, the results will be available
+A call to this endpoint starts a background query and returns a Query ID which can be used to poll the
+:doc:`get_responses_result` endpoint for the results. Ideally, the results will be available
 in some minutes.
 
 .. note::
 
-   Within a minute, a customer can do only one request.
+   This endpoint is rate limited. Within a minute, a customer can do only one request.
 
 Endpoint
 --------
@@ -30,8 +30,8 @@ Parameters
      - Comments
    * - type
      - string
-     - Reaction of contacts to emails, it can be 'opened', 'notopened', 'received', 'clicked' and 'notclicked' (a
-       link in the email).
+     - Reaction of contacts to emails, it can be 'opened', 'not_opened', 'received', 'clicked'
+       or 'not_clicked' (a link in the email).
      -
 
 .. list-table:: **Optional Parameters**

@@ -3,32 +3,47 @@ Creating Automation Center Nodes
 
 The Automation Center node integration API allows you to add a node to Automation Center that will
 call your service on a predefined HTTP endpoint. When the program reaches your node, it will call
-the specified URL with a set of parameters, which you can use to trigger necessary actions for the
-contacts entering the node.
-
-In the first sections we describe the HTTP interface that needs to be implemented by each service.
-Then we introduce you an example service written in PHP, and best practices recommended by
-Emarsys. In the last section, you can read about planned changes to the API.
+the specified :doc:`node_trigger_endpoint` with a set of parameters (including a contact
+list ID), which you can use to trigger necessary actions for the contacts entering the node.
 
 Authentication
 --------------
 
-We are using the open source `Escher <http://escherauth.readthedocs.org/en/latest/#>`_ library for request signing. Note that each of the endpoints are available
-through the HTTPS protocol.
+We are using the open source `Escher <http://escherauth.readthedocs.org/en/latest/#>`_ library to
+sign our requests. Note that each of the endpoints are available through the HTTPS protocol.
+
+HTTP interfaces
+---------------
+
+In these pages we describe the HTTP interface that needs to be implemented for each
+Automation Center node integration. An example PHP code is included.
 
 .. toctree::
    :maxdepth: 1
 
-   node_registering_your_service.rst
-   node_trigger_endpoint.rst
-   node_resource_options_endpoint.rst
-   node_custom_node_dialogue_endpoint.rst
-   node_best_practices.rst
+   node_trigger_endpoint
+   node_resource_options_endpoint
+   node_custom_node_dialogue_endpoint
+
+Integration
+-----------
+
+We have created a checklist about the information we need to enable an Automation Center
+node. And collected some best practices based on our experiences with Suite integrations.
+
+.. toctree::
+   :maxdepth: 1
+
+   node_registering_your_service
+   node_best_practices
 
 Useful Resources
 ----------------
 
-* `Querying Used Program Resources </suite/program_resources.html>`_
-* `List Contacts in a Contact List </suite/contacts/listing_contacts_in_a_list.html>`_
-* `Getting Contact Data </suite/contacts/getting_contact_data.html>`_
+We recommend checking out these resources. These can provide details of the contacts
+from the contact list specified at the trigger endpoint, or information about
+the usage of a resource.
 
+* :doc:`../../suite/contacts/listing_contacts_in_a_list`
+* :doc:`../../suite/contacts/getting_contact_data`
+* :doc:`../../suite/program_resources`

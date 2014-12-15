@@ -1,8 +1,8 @@
 Appendices
 ==========
 
-Useful Charts
--------------
+Useful Resources
+----------------
 
 .. toctree::
    :maxdepth: 1
@@ -14,10 +14,11 @@ Useful Charts
    ../launch_error_status.rst
    ../system_fields.rst
 
-Special Endpoint
-----------------
+Special Endpoints
+-----------------
 
-This endpoint is part of the API. It is useful for the creation of an integration.
+While these endpoints are part of the REST API, only useful for Automation Center
+integrations.
 
 .. toctree::
    :maxdepth: 1
