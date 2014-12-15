@@ -34,21 +34,21 @@ HTTP Method: GET
 
 Required Response:
 
- * A resource editor should be returned as an HTML page.
- * If the resource_id is sent as a GET parameter, then the page should be filled up with the current
+* A resource editor should be returned as an HTML page.
+* If the resource_id is sent as a GET parameter, then the page should be filled up with the current
    values for that resource.
- * The JavaScript in the page should listen to messages. See example receiveMessage implementation
+* The JavaScript in the page should listen to messages. See example receiveMessage implementation
    at the end of this section.
 
-   * When a message with `messageId` == `resource.save` is received, the editor should save the values
+  * When a message with `messageId` == `resource.save` is received, the editor should save the values
      set up by the customer, and respond with another message to the parent iframe. The message should
      be of the following format:
 
-     * messageId: `resource.save`
-     * data
+    * messageId: `resource.save`
+    * data
 
-       * id: <new resource id>
-       * label: <new label to be displayed under the node>
+      * id: <new resource id>
+      * label: <new label to be displayed under the node>
 
 Resizing the Dialog
 -------------------

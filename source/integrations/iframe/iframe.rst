@@ -8,9 +8,9 @@ Suite passes environment name, customer ID, administrator ID and presigns the if
 
 Information you need to provide:
 
- * A name for your service.
- * Describe which customers should have access to the API node (all customers, or customers with a given feature).
- * Iframe URL - it provides the access of the services.
+* A name for your service.
+* Describe which customers should have access to the API node (all customers, or customers with a given feature).
+* Iframe URL - it provides the access of the services.
 
 .. list-table:: **Parameters**
    :header-rows: 1

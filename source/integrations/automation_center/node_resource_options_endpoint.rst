@@ -27,9 +27,9 @@ should respond with the list of available resources as described below.
 Required Response
 -----------------
 
- * The service needs to respond with a JSON object. If the request was successful, the HTTP status should be in
+* The service needs to respond with a JSON object. If the request was successful, the HTTP status should be in
    the 200-299 range while in case of errors, it should be in the 400-599 range.
- * In case of success, the service should provide an array of objects with the following keys:
+* In case of success, the service should provide an array of objects with the following keys:
 
 .. list-table:: **Possible Keys**
    :header-rows: 1

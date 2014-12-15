@@ -46,10 +46,10 @@ HTTP Method: POST
 Required Response
 -----------------
 
- * In case of success, the service needs to respond with an HTTP status code in the 200-299 range.
- * In case of error, the HTTP status code should be in the range 400-499 in case of client error (i.e. the request is
+* In case of success, the service needs to respond with an HTTP status code in the 200-299 range.
+* In case of error, the HTTP status code should be in the range 400-499 in case of client error (i.e. the request is
    invalid and cannot be fulfilled) or in the 500-599 range when there was an error on the server side.
- * In case of server errors, Automation Center will retry the request 3 times. The service should also return a json
+* In case of server errors, Automation Center will retry the request 3 times. The service should also return a json
    containing a userMessage and a code key.
 
 Example
@@ -62,16 +62,16 @@ Example
      "code": "45"
    }
 
-Program types and users
+Program Types and Users
 -----------------------
 
 Automation Center makes a distinction between batch, recurring and transactional programs.
 
- * **Batch programs** operate on user lists and are triggered once by a timer (see ‘Target segment’ entry point in
+* **Batch programs** operate on user lists and are triggered once by a timer (see ‘Target segment’ entry point in
    Automation Center).
- * **Recurring programs** are similar to batch programs in that they operate on user lists and they
+* **Recurring programs** are similar to batch programs in that they operate on user lists and they
    are also triggered by a timer, but these might get triggered several times as opposed to one time only programs.
- * **Transactional programs** operate on individual users and are triggered by user specific events
+* **Transactional programs** operate on individual users and are triggered by user specific events
    (for example ‘New contact’, ‘Datachange’ and ‘External event’ are transactional entry points).
 
 The post request will contain either a list_id or a user_id. In case of batch and recurring programs, Automation Center
@@ -86,13 +86,13 @@ is transactional.
 Resolving user_ids and list_ids
 -------------------------------
 
- * Please use the suite API v2 to retrieve contact informations based on the user_id or list_id. Discussing the details of the Suite API is beyond the scope of this document, so please be referred to the Suite API documentation.
+* Please use the suite API v2 to retrieve contact informations based on the user_id or list_id. Discussing the details of the Suite API is beyond the scope of this document, so please be referred to the Suite API documentation.
 
- * Note, that user lists are deleted after ??? hours, so your service needs to resolve the list_id to the actual user data within that timeframe.
+* Note that user lists are deleted after ??? hours, so your service needs to resolve the list_id to the actual user data within that timeframe.
 
- * If your service is specific to a customer, or a small set of customers, then use a regular API user/secret pair, and maintain the keys for your customers in your service. You can access the suite api through the external endpoint: ‘/api/v2’
+* If your service is specific to a customer, or a small set of customers, then use a regular API user/secret pair, and maintain the keys for your customers in your service. You can access the suite api through the external endpoint: ‘/api/v2’
 
- * If your service is generic to all customers, or a larger set of customers, then require (from whome?) an internal API secret and use the internal endpoint for the Suite API: ‘/api/v2/internal/<customer_id>’
+* If your service is generic to all customers, or a larger set of customers, then require (from whome?) an internal API secret and use the internal endpoint for the Suite API: ‘/api/v2/internal/<customer_id>’
 
 Resources
 ---------
