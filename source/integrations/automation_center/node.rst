@@ -23,9 +23,6 @@ through the HTTPS protocol.
    node_trigger_endpoint.rst
    node_resource_options_endpoint.rst
    node_custom_node_dialogue_endpoint.rst
-   node_example.rst
-   node_implementing_the_trigger.rst
-   node_implementing_the_resource.rst
    node_best_practices.rst
 
 Useful Resources
