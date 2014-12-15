@@ -6,6 +6,8 @@ an HTTP page that contains a user interface for setting up a new resource or edi
 The HTTP page should also contain a JavaScript code that can handle the ‘resource.save’ message when received from
 the parent page and should respond with the ID and label of the saved resource as explained below.
 
+.. image:: /_static/images/ac_node_custom_dialog_workflow.png
+
 HTTP Method: GET
 
 .. list-table:: **Parameters**
@@ -47,8 +49,6 @@ Required Response:
 
        * id: <new resource id>
        * label: <new label to be displayed under the node>
-
-.. image:: /_static/images/ac_node_custom_dialog_workflow.png
 
 Resizing the dialog
 -------------------

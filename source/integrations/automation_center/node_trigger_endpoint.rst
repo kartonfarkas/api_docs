@@ -4,6 +4,8 @@ Trigger endpoint
 This endpoint is called by Automation Center, when the program execution reaches your node. It should start
 the execution of your service.
 
+.. image:: /_static/images/ac_node_trigger_workflow.png
+
 HTTP Method: POST
 
 .. list-table:: **Parameters (sent as form data)**
@@ -59,8 +61,6 @@ Example
      "userMessage": "Could not trigger event",
      "code": "45"
    }
-
-.. image:: /_static/images/ac_node_trigger_workflow.png
 
 Program types and users
 -----------------------
@@ -123,8 +123,8 @@ This JSON data structure is passed along the program, and can be used to customi
 of email this data is used to generate sections dynamically. API based nodes will receive this JSON object in the data
 field when it is present.
 
-Implementing the trigger endpoint
-----------------------------------
+PHP Implementation
+------------------
 
 In it’s simplest form the trigger endpoint is just a single url that returns a JSON object.
 For example our trigger.php could look like this:
