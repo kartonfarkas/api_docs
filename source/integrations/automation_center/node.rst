@@ -31,7 +31,7 @@ through the HTTPS protocol.
 Useful Resources
 ================
 
- * `Querying Used Program Resources </suite/program_resources.html>`_
- * `List Contacts in a Contact List </suite/contacts/listing_contacts_in_a_list.html>`_
- * `Getting Contact Data </suite/contacts/getting_contact_data.html>`_
+* `Querying Used Program Resources </suite/program_resources.html>`_
+* `List Contacts in a Contact List </suite/contacts/listing_contacts_in_a_list.html>`_
+* `Getting Contact Data </suite/contacts/getting_contact_data.html>`_
 
