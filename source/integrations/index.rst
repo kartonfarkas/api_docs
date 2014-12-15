@@ -15,7 +15,7 @@ Center <http://emarsys-dev.readthedocs.org/integrations/automation_center/node_r
 instructions).
 
 The Automation Center program can trigger the partner service as a part of the program (see `Trigger endpoint
-<http://emarsys-dev.readthedocs.org/integrations/automation_center/node_trigger_endpoint.html>`_.)
+<http://emarsys-dev.readthedocs.org/integrations/automation_center/node_trigger_endpoint.html>`_).
 
 .. image:: /_static/images/AC.jpg
 
