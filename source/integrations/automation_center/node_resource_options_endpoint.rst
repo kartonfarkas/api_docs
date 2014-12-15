@@ -1,4 +1,4 @@
-Resource options endpoint
+Resource Options Endpoint
 =========================
 
 This endpoint is called when the customer opens up the program node dialogue. For this your service
@@ -72,7 +72,7 @@ Error Condition:
    }
 
 PHP Implementation
--------------------
+------------------
 
 Similarly to the trigger api, the simplest implementation that returns no options is an options.php
 that looks something like this:

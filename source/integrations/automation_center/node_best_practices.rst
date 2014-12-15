@@ -1,7 +1,7 @@
-Best practices
+Best Practices
 ==============
 
-RESTful services
+RESTful Services
 ----------------
 
 As a general rule, all of the endpoints should be RESTful services. Most importantly, please return
@@ -9,7 +9,7 @@ meaningful HTTP status codes. The range 200-299 should be used for success, 400-
 500-599 for server errors. Also, it’s strongly advised that endpoint urls begin with a version number.
 For example ‘/v1/send_sms’ could be a trigger endpoint url.
 
-Asynchronous execution
+Asynchronous Execution
 ----------------------
 
 Since most services will do something that may take considerable amount of time, it is highly advised
@@ -17,7 +17,7 @@ that requests are added to some kind of queue (or database table) and executed i
 This way your service can respond to Automation Center immediately, and won’t make it wait while you
 are processing the request.
 
-Idempotent services
+Idempotent Services
 -------------------
 
 When a trigger fails Automation Center retries. That also means that if the HTTP connection fails

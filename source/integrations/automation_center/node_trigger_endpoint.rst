@@ -115,7 +115,7 @@ The second option is using the ‘Custom node dialogue endpoint’. In this case
 an HTML page that will be rendered inside an iframe in the node dialogue. This can be used to integrate
 the resource management page into Automation Center.
 
-Campaign specific external data
+Campaign Specific External Data
 -------------------------------
 
 The external event entry point allows the user to post a JSON data structure along with the triggered external event.

@@ -1,4 +1,4 @@
-Custom node dialog endpoint
+Custom Node Dialog Endpoint
 ===========================
 
 This endpoint is called when the customer opens up the program node dialogue. For this, your service should respond with
@@ -50,7 +50,7 @@ Required Response:
        * id: <new resource id>
        * label: <new label to be displayed under the node>
 
-Resizing the dialog
+Resizing the Dialog
 -------------------
 
 The iframe that displays the custom content returned by the custom node dialog endpoint is 360 pixels wide and

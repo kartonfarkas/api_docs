@@ -1,4 +1,4 @@
-Registering your service with Automation Center
+Registering your Service with Automation Center
 ===============================================
 
 At this point, we do not have a UI for registering services, so this will need to be handled by the Automation
