@@ -1,4 +1,4 @@
-Trigger endpoint
+Trigger Endpoint
 ================
 
 This endpoint is called by Automation Center, when the program execution reaches your node. It should start
