@@ -14,13 +14,13 @@ The partner service can integrate with the Automation Center as well (see `Regis
 Center <http://emarsys-dev.readthedocs.org/integrations/automation_center/node_registering_your_service.html>`_ for
 instructions).
 
-The Automation Center program can trigger the partner service as a part of the program (see `Trigger endpoint
+The Automation Center program can trigger the partner service as a part of the program (see `Trigger Endpoint
 <http://emarsys-dev.readthedocs.org/integrations/automation_center/node_trigger_endpoint.html>`_).
 
 .. image:: /_static/images/AC.png
 
 The Automation Center will trigger a particular resource (e.g. an SMS campaign in the SMS Node). To select this resource,
-the partner service has to attain the `Resource options endpoint
+the partner service has to attain the `Resource Options Endpoint
 <http://emarsys-dev.readthedocs.org/integrations/automation_center/node_resource_options_endpoint.html>`_.
 
 .. image:: /_static/images/sms_campaign.png
