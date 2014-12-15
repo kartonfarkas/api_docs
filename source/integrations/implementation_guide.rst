@@ -19,8 +19,14 @@ The Automation Center program can trigger the partner service as a part of the p
 
 .. image:: /_static/images/AC.png
 
-The Automation Center will trigger a particular resource (e.g. an SMS campaign in the SMS Node). To select this resource,
-the partner service has to attain the `Resource Options Endpoint
-<http://emarsys-dev.readthedocs.org/integrations/automation_center/node_resource_options_endpoint.html>`_.
+During this process, the Automation Center passes a resource as well (e.g. an SMS campaign in the SMS Node). To select this resource,
+the partner service has to attain the `resource options endpoint
+<http://emarsys-dev.readthedocs.org/integrations/automation_center/node_resource_options_endpoint.html>`_. The customer
+can select the resource when a node is added by clicking on it. In this popup dialog, the items provided by the
+resource options endpoint appear.
 
 .. image:: /_static/images/sms_campaign.png
+
+If some services require more complex solutions, the `custom node dialog endpoint
+<http://emarsys-dev.readthedocs.org/integrations/automation_center/node_custom_node_dialogue_endpoint.html>`_ is used
+instead of the resource options endpoint.
