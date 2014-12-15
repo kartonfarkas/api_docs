@@ -11,7 +11,7 @@ Then we introduce you an example service written in PHP, and best practices reco
 Emarsys. In the last section, you can read about planned changes to the API.
 
 Authentication
-==============
+--------------
 
 We are using the open source `Escher <http://escherauth.readthedocs.org/en/latest/#>`_ library for request signing. Note that each of the endpoints are available
 through the HTTPS protocol.
@@ -29,7 +29,7 @@ through the HTTPS protocol.
    node_best_practices.rst
 
 Useful Resources
-================
+----------------
 
 * `Querying Used Program Resources </suite/program_resources.html>`_
 * `List Contacts in a Contact List </suite/contacts/listing_contacts_in_a_list.html>`_
