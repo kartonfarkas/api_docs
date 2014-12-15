@@ -36,7 +36,7 @@ Form Types
 These are the possible values for the form's *type*:
 
 .. list-table:: **Form Types**
-:header-rows: 1
+   :header-rows: 1
 
    * - Name
      - Type
