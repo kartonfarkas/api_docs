@@ -49,7 +49,7 @@ Parameters
    * - timezone
      - string
      - If specified, the schedule parameter is interpreted in this timezone.
-     - See the `list of the supported timezones <http://documentation.emarsys.com/?page_id=3291>`_
+     - See :doc:`../time_zones`.
 
 URI Example
 -----------

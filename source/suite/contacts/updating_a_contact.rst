@@ -62,4 +62,4 @@ Errors
      - Cannot set id or uid on contact creation
      - IDs cannot be specified manually.
 
-Also see `Creating a Contact <creating_a_contact.html>`_ for further information.
+Also see :doc:`creating_a_contact` for further information.

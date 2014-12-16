@@ -12,8 +12,8 @@ Customer Settings
 
    settings.rst
 
-Customer Administrator
-----------------------
+Administrators
+--------------
 
 .. toctree::
    :maxdepth: 1

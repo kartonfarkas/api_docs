@@ -36,7 +36,7 @@ Parameters
      - an ID assigned to the application of a customer to integrate, used to differentiate contacts created of modified by the customer's applications, [source_id]
      -
 
-See `Creating Multiple Contacts <creating_multiple_contacts.html>`_ for further information.
+See :doc:`creating_multiple_contacts` for further information.
 
 JSON Payload Example
 --------------------

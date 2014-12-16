@@ -73,7 +73,7 @@ Parameters
      - Default value is 1.
    * - language
      - string
-     - see supported `language codes <http://dev.emarsys.com/suite/language_codes.html>`_
+     - see supported :doc:`language_codes`
      - Default value is the account’s default language.
    * - ftp_settings
      - object
@@ -87,7 +87,7 @@ Parameters
    * - notification_url
      - string
      - A request is sent to the url if the export is ready. This way it is not necessary to poll the export status.
-     - The payload is the same as the result of `Querying Export Status <query_status.html>`_.
+     - The payload is the same as the result of :doc:`query_status`.
 
 Request Example
 ---------------

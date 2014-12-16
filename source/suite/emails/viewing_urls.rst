@@ -62,7 +62,7 @@ Where *url* is the URL of the online version.
 Errors
 ------
 
-The error codes associated with the contact field ID and value can be found in the `check contact internal ID section <http://dev.emarsys.com/suite/contacts/checking_contact_internal_ids.html>`_.
+The error codes associated with the contact field ID and value can be found in :doc:`../contacts/checking_contact_internal_ids`.
 
 .. list-table:: Possible Error Codes
    :header-rows: 1
