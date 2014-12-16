@@ -7,7 +7,7 @@ is just an example, you can implement an Automation Center node, or a Suite Page
 
 A partner service can provide a UI with an iframe displayed as a *page in Suite*. Depending on
 the implementation, (selected or all) customers will be able to access it via a Suite menu point.
-For example, an SMS Automation Center Node can provide the editing of the SMS campaigns via this
+For example, an SMS Automation Center node can provide the editing of the SMS campaigns via this
 interface.
 
 .. image:: /_static/images/iframe.png

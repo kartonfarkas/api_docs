@@ -10,4 +10,4 @@ service to the Suite as a menu point and provide an integrated experience for yo
 
    automation_center/node.rst
    iframe/iframe.rst
-   implementation_guide.rst
+   integration_guide.rst
