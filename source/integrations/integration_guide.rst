@@ -2,8 +2,8 @@ Integration Guide
 =================
 
 In the following sections, we illustrate how it is possible to integrate with the Suite. We will use
-an SMS Automation Center Node as an example service to give you ideas. Please note that this
-is just an example, you can implement an Automation Center node, or a Suite Page only.
+an SMS Automation Center node as an example service to give you ideas. Please note that this
+is just an example, you can implement an Automation Center node, or a Suite page only.
 
 A partner service can provide a UI with an iframe displayed as a *page in Suite*. Depending on
 the implementation, (selected or all) customers will be able to access it via a Suite menu point.
@@ -21,7 +21,7 @@ The Automation Center program can trigger the partner service as part of an Auto
 .. image:: /_static/images/AC.png
 
 During this process, the Automation Center optionally passes a service resource as well
-(for example an SMS campaign in the SMS Node). The resource can be selected by the customer
+(for example, an SMS campaign in the SMS node). The resource can be selected by the customer
 during configuring the node by clicking on it. When the dialog appears, it calls the partner service
 to obtain the list of the available resources via the :doc:`automation_center/node_resource_options_endpoint`.
 
