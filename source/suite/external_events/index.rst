@@ -8,5 +8,5 @@ Therefore, external events can be used to send transactional emails.
 .. toctree::
    :maxdepth: 1
 
-   list.rst
-   trigger.rst
+   external_event_list.rst
+   external_event_trigger.rst

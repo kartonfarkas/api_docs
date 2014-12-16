@@ -20,9 +20,9 @@ when the export is finished.
 .. toctree::
    :maxdepth: 1
 
-   changes.rst
-   contact_lists.rst
-   registrations.rst
-   responses.rst
-   query_status.rst
+   export_changes.rst
+   export_contact_lists.rst
+   export_registrations.rst
+   export_responses.rst
+   export__status.rst
 

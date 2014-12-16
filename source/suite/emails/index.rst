@@ -13,16 +13,16 @@ Email Campaigns
 .. toctree::
    :maxdepth: 1
 
-   emails_creating.rst
-   querying_email_lists.rst
-   emails_attributes.rst
-   copying_emails.rst
-   emails_deleting.rst
-   update_email_source.rst
-   emails_get_email_category_lists.rst
-   languages.rst
-   get_responses.rst
-   get_responses_result.rst
+   email_create.rst
+   email_list.rst
+   email_data.rst
+   email_copy.rst
+   email_delete.rst
+   email_update_source.rst
+   email_categories.rst
+   email_languages.rst
+   email_responses.rst
+   email_responses_result.rst
 
 Launches
 --------
@@ -30,13 +30,13 @@ Launches
 .. toctree::
    :maxdepth: 1
 
-   launching.rst
-   getting_launches.rst
-   querying_delivery.rst
-   viewing_response.rst
-   previewing_emails.rst
-   viewing_urls.rst
-   sending_test.rst
+   launch.rst
+   launch_list.rst
+   launch_delivery_status.rst
+   launch_response_summaries.rst
+   launch_preview.rst
+   launch_urls.rst
+   launch_tests.rst
 
 Media Library
 -------------
@@ -44,10 +44,10 @@ Media Library
 .. toctree::
    :maxdepth: 1
 
-   querying_files.rst
-   uploading_files.rst
-   querying_folders.rst
-   creating_folder.rst
+   media_file_list.rst
+   media_file_upload.rst
+   media_folder_list.rst
+   media_folder_create.rst
 
 
 Conditions

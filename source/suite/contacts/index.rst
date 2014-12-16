@@ -10,15 +10,15 @@ Contacts
 .. toctree::
    :maxdepth: 1
 
-   getting_contact_data.rst
-   creating_a_contact.rst
-   creating_multiple_contacts.rst
-   updating_a_contact.rst
-   updating_multiple_contacts.rst
-   getting_contact_email_history.rst
-   fetching_contact_internal_id.rst
-   checking_contact_internal_ids.rst
-   listing_contacts.rst
+   contact_data.rst
+   contact_create.rst
+   contact_multiple_create.rst
+   contact_update.rst
+   contact_multiple_update.rst
+   contact_email_history.rst
+   contact_fetch_internal_id.rst
+   contact_check_internal_ids.rst
+   contact_list.rst
 
 
 Contact Fields
@@ -27,9 +27,9 @@ Contact Fields
 .. toctree::
    :maxdepth: 1
 
-   listing_field_lists.rst
-   listing_a_choice_list.rst
-   creating_a_field.rst
+   contact_field_list.rst
+   contact_field_choice_list.rst
+   contact_field_create.rst
 
 
 Contact Lists
@@ -38,12 +38,12 @@ Contact Lists
 .. toctree::
    :maxdepth: 1
 
-   creating_a_contact_list.rst
-   listing_contact_lists.rst
-   adding_contacts_to_contact_list.rst
-   removing_contacts_from_contact_list.rst
-   listing_contacts_in_a_list.rst
-   replacing_contact_list.rst
+   contact_list_create.rst
+   contact_list_list.rst
+   contact_list_add_contacts.rst
+   contact_list_remove_contacts.rst
+   contact_list_list_contacts.rst
+   contact_list_replace.rst
 
 
 Segments
@@ -52,8 +52,8 @@ Segments
 .. toctree::
    :maxdepth: 1
 
-   listing_segments.rst
-   list_contacts_in_a_segment.rst
+   segment_list.rst
+   segment_list_contacts.rst
 
 
 Contact Sources
@@ -62,9 +62,9 @@ Contact Sources
 .. toctree::
    :maxdepth: 1
 
-   creating_a_source.rst
-   deleting_a_source.rst
-   listing_sources.rst
+   source_create.rst
+   source_delete.rst
+   sources_list.rst
 
 Forms
 -----

@@ -10,7 +10,7 @@ Customer Settings
 .. toctree::
    :maxdepth: 1
 
-   settings.rst
+   customer_settings.rst
 
 Administrators
 --------------
@@ -19,11 +19,11 @@ Administrators
    :maxdepth: 1
 
    administrator_list.rst
-   querying_interface_languages.rst
-   querying_access_levels.rst
-   create_admin.rst
-   delete_admin.rst
-   patch_admin.rst
+   administrator_interface_languages.rst
+   administrator_access_levels.rst
+   administrator_create.rst
+   administrator_delete.rst
+   administrator_update.rst
 
 
 
