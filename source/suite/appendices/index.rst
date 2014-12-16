@@ -13,6 +13,7 @@ Useful Resources
    ../email_status.rst
    ../launch_error_status.rst
    ../system_fields.rst
+   ../language_codes.rst
 
 Special Endpoints
 -----------------
