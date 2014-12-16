@@ -9,14 +9,14 @@ list ID), which you can use to trigger necessary actions for the contacts enteri
 Authentication
 --------------
 
-We are using the open source `Escher <http://escherauth.readthedocs.org/en/latest/#>`_ library to
-sign our requests. Note that each of the endpoints are available through the HTTPS protocol.
+We are using the open source `Escher <http://escherauth.io>`_ library to sign our requests. Note that each of the
+endpoints are available through the HTTPS protocol.
 
-HTTP interfaces
+HTTP Interfaces
 ---------------
 
-In these pages we describe the HTTP interface that needs to be implemented for each
-Automation Center node integration. An example PHP code is included.
+In these pages, we describe the HTTP interface that needs to be implemented for each Automation Center node
+integration. An example PHP code is included.
 
 .. toctree::
    :maxdepth: 1
@@ -28,8 +28,8 @@ Automation Center node integration. An example PHP code is included.
 Integration
 -----------
 
-We have created a checklist about the information we need to enable an Automation Center
-node. And collected some best practices based on our experiences with Suite integrations.
+We have created a checklist about the information we need to enable an Automation Center node, and collected some best
+practices based on our experiences with Suite integrations.
 
 .. toctree::
    :maxdepth: 1
@@ -40,8 +40,8 @@ node. And collected some best practices based on our experiences with Suite inte
 Useful Resources
 ----------------
 
-We recommend checking out these resources. These can provide details of the contacts
-from the contact list specified at the trigger endpoint, or information about
+We recommend checking out these resources. These can provide the details of the contacts
+from the contactlist specified at the trigger endpoint, or information about
 the usage of a resource.
 
 * :doc:`../../suite/contacts/listing_contacts_in_a_list`

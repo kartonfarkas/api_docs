@@ -4,7 +4,7 @@ Querying Responses
 The goal of this call is to list the contacts who reacted to the email campaigns in the given time interval
 the same way, for example all contacts who opened emails.
 
-A call to this endpoint starts a background query and returns a Query ID which can be used to poll the
+A call to this endpoint starts a background query and returns a query ID which can be used to poll the
 :doc:`get_responses_result` endpoint for the results. Ideally, the results will be available
 in some minutes.
 

@@ -18,8 +18,7 @@ Useful Resources
 Special Endpoints
 -----------------
 
-While these endpoints are part of the REST API, only useful for Automation Center
-integrations.
+These endpoints are part of the REST API, but are only useful for Automation Center integrations.
 
 .. toctree::
    :maxdepth: 1

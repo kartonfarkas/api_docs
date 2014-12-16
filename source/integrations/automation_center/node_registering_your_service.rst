@@ -24,6 +24,6 @@ Center team. Please send the following information to your contact person:
    our graphic designer.
 
 Based on this information, the Automation Center team will add your service and notify you when it is
-available. During development time, the new node will be available only for you, and you can test
+available. During development time, the new node will be available only for you and you can test
 before it is released to the customers.
 

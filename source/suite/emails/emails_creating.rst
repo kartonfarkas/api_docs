@@ -91,7 +91,7 @@ Parameters
    * - cc_list
      - int
      - Contact list ID, if the email is sent, this contactlist also receives it.
-       Only works if the BCC List feature is enabled for customer.
+       Only works if the BCC List feature is enabled for the customer.
      -
 
 Request Example

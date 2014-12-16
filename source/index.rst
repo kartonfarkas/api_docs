@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Emarsys APIs developer documentation!
+Welcome to Emarsys APIs Developer Documentation!
 ================================================
 
 This is a developer site with detailed information about using our REST APIs or
@@ -14,7 +14,7 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    suite/index.rst
    integrations/index.rst

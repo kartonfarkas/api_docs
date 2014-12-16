@@ -10,8 +10,8 @@ where we show you a number of typical API-related scenarios.
 
 For each Suite API request you need:
 
- * The API URL based on the Suite environment you use (e.g. `https://suite5.emarsys.net/api/v2/`)
- * Your *username* and *secret* for the API (please ask if from your contact person)
+ * the API URL based on the Suite environment you use (e.g. `https://suite5.emarsys.net/api/v2/`)
+ * your *username* and *secret* for the API (please ask it from your contact person)
 
 Requests to the API must be authenticated. The authentication method of the API is X-WSSE, see `Authentication <overview/authentication.html>`_.
 
