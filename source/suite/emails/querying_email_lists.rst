@@ -115,13 +115,13 @@ Where:
  * *fromemail* = the sender email address
  * *fromname* = the sender name
  * *subject* = the email subject line
- * *email category* = the category identifier for this email. Categories can be retrieved via `/api/v2/emailcategory <http://documentation.emarsys.com/?page_id=164>`_.
- * *filter* = the filter identifier. Available filters can be retrieved via `/api/v2/filter <http://documentation.emarsys.com/?page_id=114>`_.
- * *contactlist* = the contact list identifier. Contact lists can be retrieved via `/api/v2/contactlist <http://documentation.emarsys.com/?page_id=184>`_.
+ * *email category* = the category identifier for this email. Categories can be retrieved via `/api/v2/emailcategory <http://dev.emarsys.com/suite/emails/emails_get_email_category_lists.html>`_.
+ * *filter* = the filter identifier. Available filters can be retrieved via `/api/v2/filter <http://dev.emarsys.com/suite/contacts/listing_segments.html>`_.
+ * *contactlist* = the contact list identifier. Contact lists can be retrieved via `/api/v2/contactlist <http://dev.emarsys.com/suite/contacts/listing_contact_lists.html>`_.
  * *cc_list* = the contact list ID, if the email is sent, this contactlist also receives it. Only works if BCC List is enabled.
- * *status* = See `E-Mail Statuses <http://documentation.emarsys.com/?page_id=426>`_
- * *api_status* = See `API launch statuses <http://documentation.emarsys.com/?page_id=426>`_
- * *api_error* = See `API launch errors <http://documentation.emarsys.com/?page_id=422>`_
+ * *status* = See `E-Mail Statuses <http://dev.emarsys.com/suite/email_status.html>`_
+ * *api_status* = See `API launch statuses <http://dev.emarsys.com/suite/launch_status.html>`_
+ * *api_error* = See `API launch errors <http://dev.emarsys.com/suite/error_codes.html>`_
  * *source* = the source of the recipients. Possible values are: **userlist, profile, api**
 
 Errors

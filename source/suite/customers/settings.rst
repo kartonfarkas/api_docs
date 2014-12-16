@@ -25,7 +25,7 @@ Result Data Structure
 
 Where *name* is the name of the customer.
 
-For more information on timezones available in the Suite, see `here <http://documentation.emarsys.com/?page_id=3291>`_.
+For more information on timezones available in the Suite, see `here <http://dev.emarsys.com/suite/time_zones.html>`_.
 
 
 
