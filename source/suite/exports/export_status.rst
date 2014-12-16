@@ -1,7 +1,7 @@
 Querying Export Status
 ======================
 
-Fetches the status data of an export. Uses the ID returned by :doc:`responses` or :doc:`registrations`.
+Fetches the status data of an export. Uses the ID returned by :doc:`export_responses` or :doc:`export_registrations`.
 
 Endpoint
 --------

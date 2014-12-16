@@ -49,7 +49,7 @@ Parameters
    * - timezone
      - string
      - If specified, the schedule parameter is interpreted in this timezone.
-     - See :doc:`../time_zones`.
+     - See :doc:`../appendices/time_zones`.
 
 URI Example
 -----------

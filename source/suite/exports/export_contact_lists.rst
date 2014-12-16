@@ -62,7 +62,7 @@ Parameters
      - Default value is **1**.
    * - language
      - string
-     - see supported :doc:`../language_codes`
+     - see supported :doc:`../appendices/language_codes`
      - Default value is the account’s default language.
    * - ftp_settings
      - object
@@ -76,7 +76,7 @@ Parameters
    * - notification_url
      - string
      - A request is sent to the url if the export is ready. This way it is not necessary to poll the export status.
-     - The payload is the same as the result of :doc:`query_status`.
+     - The payload is the same as the result of :doc:`export_status`.
 
 Request Example
 ---------------

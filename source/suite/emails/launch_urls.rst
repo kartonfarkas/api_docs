@@ -62,7 +62,7 @@ Where *url* is the URL of the online version.
 Errors
 ------
 
-The error codes associated with the contact field ID and value can be found in :doc:`../contacts/checking_contact_internal_ids`.
+The error codes associated with the contact field ID and value can be found in :doc:`../contacts/contact_check_internal_ids`.
 
 .. list-table:: Possible Error Codes
    :header-rows: 1

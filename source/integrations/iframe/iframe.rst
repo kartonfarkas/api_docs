@@ -51,4 +51,4 @@ Useful Resources
 We recommend checking out these resources. Querying the timezone (for displaying time information
 in the customer's timezone) or the name of a customer might be useful for a service.
 
-* :doc:`../../suite/customers/settings`
+* :doc:`../../suite/customers/customer_settings`

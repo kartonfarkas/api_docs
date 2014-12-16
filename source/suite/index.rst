@@ -21,12 +21,12 @@ Requests to the API must be authenticated. The authentication method of the API 
  * `Java <overview/authentication_java.html>`_
 
 We also provide a demo page where you can try the API (see `The API Demo Page <overview/api_demo.html>`_).
-If you need more help, we have listed some third party clients on the :doc:`overview/sdk` page.
+If you need more help, we have listed some third party clients on the :doc:`get_started/sdk` page.
 
 .. toctree::
    :maxdepth: 1
 
-   overview/index.rst
+   get_started/index.rst
    customers/index.rst
    contacts/index.rst
    emails/index.rst

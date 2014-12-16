@@ -98,15 +98,15 @@ Result Data Structure
    * - email_category
      - int
      - category ID of the email
-     - Categories may be retrieved via the :doc:`emails_get_email_category_lists` endpoint
+     - Categories may be retrieved via the :doc:`email_categories` endpoint
    * - filter
      - int
      - filter ID
-     - Available filters can be retrieved via the :doc:`../contacts/listing_segments` endpoint
+     - Available filters can be retrieved via the :doc:`../contacts/segment_list` endpoint
    * - contactlist
      - int
      - contact list ID
-     - Contact lists may be retrieved via the :doc:`../contacts/listing_contact_lists` endpoint
+     - Contact lists may be retrieved via the :doc:`../contacts/contact_list_list` endpoint
    * - cc_list
      - int
      - Contact list ID, if the email is sent, this contactlist also receives it. Only works if BCC List is enabled.
@@ -122,15 +122,15 @@ Result Data Structure
    * - status
      - int
      - status of the email
-     - See :doc:`../email_status`
+     - See :doc:`../appendices/email_status`
    * - api_status
      - int
      - launch status of the email
-     - See :doc:`../launch_status`
+     - See :doc:`../appendices/launch_status`
    * - api_error
      - int
      - launch error codes
-     - See :doc:`../launch_error_status`
+     - See :doc:`../appendices/launch_error_status`
    * - source
      - string
      - source of the recipients.

@@ -44,6 +44,6 @@ We recommend checking out these resources. These can provide the details of the 
 from the contact list specified at the trigger endpoint, or information about
 the usage of a resource.
 
-* :doc:`../../suite/contacts/listing_contacts_in_a_list`
-* :doc:`../../suite/contacts/getting_contact_data`
+* :doc:`../../suite/contacts/contact_list_list_contacts`
+* :doc:`../../suite/contacts/contact_data`
 * :doc:`../../suite/program_resources`

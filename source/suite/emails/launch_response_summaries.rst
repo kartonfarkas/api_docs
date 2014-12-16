@@ -2,7 +2,7 @@ Querying Response Summaries
 ===========================
 
 Returns the summary of the responses of a launched, paused, activated or deactivated email campaign.
-The :doc:`get_responses` endpoint can provide exact contact IDs.
+The :doc:`email_responses` endpoint can provide exact contact IDs.
 
 Endpoint
 --------

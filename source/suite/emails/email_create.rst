@@ -41,7 +41,7 @@ Parameters
      -
    * - email_category
      - string
-     - category (see :doc:`emails_get_email_category_lists`)
+     - category (see :doc:`email_categories`)
      -
    * - filter
      - int

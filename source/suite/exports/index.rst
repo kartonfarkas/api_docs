@@ -6,7 +6,7 @@ The CSV file is either uploaded to a specified (S)FTP server or stored on an Ema
 Storage server (when *distribution method* is set to *local*). In this case the data
 is available via a WebDav connection.
 
-Exports are happening asynchronously. The status can be polled with the :doc:`query_status`
+Exports are happening asynchronously. The status can be polled with the :doc:`export_status`
 endpoint, or it's possible to specify a *notification_url*, which will be called
 when the export is finished.
 

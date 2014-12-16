@@ -93,7 +93,7 @@ Parameters
    * - notification_url
      - string
      - A request is sent to the url if the export is ready. This way it is not necessary to poll the export status.
-     - The payload is the same as the result of :doc:`query_status`.
+     - The payload is the same as the result of :doc:`export_status`.
 
 Request Example
 ---------------
