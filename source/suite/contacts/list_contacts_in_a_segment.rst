@@ -31,7 +31,7 @@ Parameters
 URI Example
 -----------
 
-/api/v2/filter/100011553/contacts
+* /api/v2/filter/100011553/contacts
 
 Result Example
 --------------

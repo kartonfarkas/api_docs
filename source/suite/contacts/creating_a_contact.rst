@@ -35,8 +35,8 @@ Key-value pairs which identify the contact.
 
 Notes:
 
- * If the key_id is omitted, the default value for key_field ID is 3 (email).
- * Multi-choice values must be passed as an array, even if they contain only one choice ID. Empty arrays are not allowed.
+* If the key_id is omitted, the default value for key_field ID is 3 (email).
+* Multi-choice values must be passed as an array, even if they contain only one choice ID. Empty arrays are not allowed.
 
 Request Example
 ---------------

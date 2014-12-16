@@ -54,7 +54,7 @@ Parameters
 URI Example
 -----------
 
- * ``/api/v2/email/12345/launch``
+* ``/api/v2/email/12345/launch``
 
 Request Example
 ---------------

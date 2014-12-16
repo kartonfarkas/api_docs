@@ -4,9 +4,9 @@ Checking Contact Internal IDs
 Returns the list of internal IDs of existing contacts and a list of errors indexed by the key IDs.
 Errors are collected if
 
-   * no contact is found
-   * more than one contact is found with the same keyID value
-   * the keyID is invalid
+* no contact is found
+* more than one contact is found with the same keyID value
+* the keyID is invalid
 
 Endpoint
 --------

@@ -42,7 +42,7 @@ URI Example
 
 List the choices of the field with ID ’5′ in French:
 
- * ``/api/v2/field/5/choice/translate/fr``
+* ``/api/v2/field/5/choice/translate/fr``
 
 Result Example
 --------------

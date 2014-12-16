@@ -47,11 +47,11 @@ If two or more parameters are used, they must be separated by an & character.
 URI Example
 -----------
 
- * ``/api/v2/email/status=3``
- * ``/api/v2/email/contactlist=123``
- * ``/api/v2/email/showdeleted=1``
- * ``/api/v2/email/status=3&contactlist=123&showdeleted=1``
- * ``/api/v2/email/fromdate=2013-01-01&todate=2013-02-01``
+* ``/api/v2/email/status=3``
+* ``/api/v2/email/contactlist=123``
+* ``/api/v2/email/showdeleted=1``
+* ``/api/v2/email/status=3&contactlist=123&showdeleted=1``
+* ``/api/v2/email/fromdate=2013-01-01&todate=2013-02-01``
 
 Result Example
 --------------
@@ -110,19 +110,19 @@ Result Example
 
 Where:
 
- * *id* = the internal identifier of the email
- * *name* = the name of the email
- * *fromemail* = the sender email address
- * *fromname* = the sender name
- * *subject* = the email subject line
- * *email category* = the category identifier for this email. Categories can be retrieved via :doc:`../emails/emails_get_email_category_lists`.
- * *filter* = the filter identifier. Available filters can be retrieved via :doc:`../contacts/listing_segments`.
- * *contactlist* = the contact list identifier. Contact lists can be retrieved via :doc:`../contacts/listing_contact_lists`.
- * *cc_list* = the contact list ID, if the email is sent, this contactlist also receives it. Only works if BCC List is enabled.
- * *status* = See :doc:`../email_status`.
- * *api_status* = See :doc:`../launch_status`.
- * *api_error* = See :doc:`../error_codes`.
- * *source* = the source of the recipients. Possible values are: **userlist, profile, api**
+* *id* = the internal identifier of the email
+* *name* = the name of the email
+* *fromemail* = the sender email address
+* *fromname* = the sender name
+* *subject* = the email subject line
+* *email category* = the category identifier for this email. Categories can be retrieved via :doc:`../emails/emails_get_email_category_lists`.
+* *filter* = the filter identifier. Available filters can be retrieved via :doc:`../contacts/listing_segments`.
+* *contactlist* = the contact list identifier. Contact lists can be retrieved via :doc:`../contacts/listing_contact_lists`.
+* *cc_list* = the contact list ID, if the email is sent, this contactlist also receives it. Only works if BCC List is enabled.
+* *status* = See :doc:`../email_status`.
+* *api_status* = See :doc:`../launch_status`.
+* *api_error* = See :doc:`../error_codes`.
+* *source* = the source of the recipients. Possible values are: **userlist, profile, api**
 
 Errors
 ------

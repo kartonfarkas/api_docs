@@ -53,9 +53,9 @@ Result Example
 
 Where
 
- * *id* is the internal ID of the administrator
- * *interface_language* is the language code of the user interface language of the administrator (for possible languages see administrator/getinterfacelanguages)
- * *access_level* is the administrator role ID (for possible values see administrator/getaccesslevels)
- * *tz* is the time zone, the default is valid if it is empty
- * *superadmin* assigns 1 to the superadmin of the customer and 0 to others. Superadmin can set admins on the UI.
- * *disabled* is 1 if it is locked, 0 if unlocked
+* *id* is the internal ID of the administrator
+* *interface_language* is the language code of the user interface language of the administrator (for possible languages see administrator/getinterfacelanguages)
+* *access_level* is the administrator role ID (for possible values see administrator/getaccesslevels)
+* *tz* is the time zone, the default is valid if it is empty
+* *superadmin* assigns 1 to the superadmin of the customer and 0 to others. Superadmin can set admins on the UI.
+* *disabled* is 1 if it is locked, 0 if unlocked

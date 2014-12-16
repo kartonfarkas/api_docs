@@ -28,10 +28,10 @@ URI Example
 -----------
 
 To query all folders:
- * ``/api/v2/folder``
+* ``/api/v2/folder``
 
 To query subfolders of a specific folder:
- * ``/api/v2/folder/folder=12``
+* ``/api/v2/folder/folder=12``
 
 Result Example
 --------------

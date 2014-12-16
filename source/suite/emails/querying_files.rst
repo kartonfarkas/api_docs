@@ -28,10 +28,10 @@ URI Examples
 ------------
 
 To return all files:
- * ``/api/v2/file``
+* ``/api/v2/file``
 
 To return files in a specified folder:
- * ``/api/v2/file/folder=12``
+* ``/api/v2/file/folder=12``
 
 Result Example
 --------------

@@ -3,121 +3,121 @@ Time Zones
 
 The following timezones are supported by the Suite:
 
- * Pacific/Midway
- * Pacific/Marquesas
- * Pacific/Tahiti
- * Pacific/Honolulu
- * America/Sitka
- * America/Metlakatla
- * America/Juneau
- * America/Anchorage
- * America/Vancouver
- * America/Tijuana
- * America/Phoenix
- * America/Los_Angeles
- * America/Creston
- * Pacific/Galapagos
- * America/Denver
- * America/Costa_Rica
- * America/Chihuahua
- * America/Caracas
- * America/Panama
- * America/North_Dakota/Center
- * America/North_Dakota/Beulah
- * America/Mexico_City
- * America/Lima
- * America/Jamaica
- * America/Chicago
- * America/Puerto_Rico
- * America/New_York
- * America/Montreal
- * America/Lower_Princes
- * America/Kralendijk
- * America/Grenada
- * America/St_Johns
- * Atlantic/Stanley
- * Atlantic/Bermuda
- * America/Sao_Paulo
- * America/Santiago
- * Atlantic/South_Georgia
- * America/Montevideo
- * Atlantic/Cape_Verde
- * Atlantic/Azores
- * Atlantic/Reykjavik
- * Atlantic/Canary
- * Europe/Dublin
- * Europe/Lisbon
- * Europe/London
- * Asia/Hebron
- * Europe/Amsterdam
- * Europe/Berlin
- * Europe/Brussels
- * Europe/Busingen
- * Europe/Madrid
- * Europe/Paris
- * Europe/Rome
- * Europe/Stockholm
- * Europe/Vienna
- * Europe/Zurich
- * Asia/Baghdad
- * Asia/Jerusalem
- * Asia/Riyadh
- * Europe/Athens
- * Europe/Helsinki
- * Europe/Istanbul
- * Europe/Kiev
- * Europe/Minsk
- * Indian/Comoro
- * Asia/Tehran
- * Asia/Dubai
- * Asia/Tbilisi
- * Europe/Moscow
- * Indian/Mauritius
- * Asia/Kabul
- * Asia/Karachi
- * Asia/Samarkand
- * Indian/Kerguelen
- * Asia/Colombo
- * Asia/Kathmandu
- * Asia/Almaty
- * Asia/Dhaka
- * Asia/Yekaterinburg
- * Indian/Chagos
- * Asia/Rangoon
- * Asia/Bangkok
- * Asia/Ho_Chi_Minh
- * Asia/Jakarta
- * Asia/Omsk
- * Indian/Christmas
- * Asia/Brunei
- * Asia/Hong_Kong
- * Asia/Kuala_Lumpur
- * Asia/Manila
- * Asia/Shanghai
- * Asia/Singapore
- * Asia/Taipei
- * Asia/Ulaanbaatar
- * Australia/Perth
- * Australia/Eucla
- * Asia/Irkutsk
- * Asia/Pyongyang
- * Asia/Seoul
- * Asia/Tokyo
- * Pacific/Palau
- * Australia/Darwin
- * Asia/Khandyga
- * Asia/Yakutsk
- * Australia/Brisbane
- * Pacific/Guam
- * Australia/Adelaide
- * Asia/Ust-Nera
- * Asia/Vladivostok
- * Australia/Melbourne
- * Australia/Sydney
- * Pacific/Guadalcanal
- * Asia/Kamchatka
- * Pacific/Fiji
- * Pacific/Nauru
- * Pacific/Auckland
- * Pacific/Chatham
- * Pacific/Kiritimati
+* Pacific/Midway
+* Pacific/Marquesas
+* Pacific/Tahiti
+* Pacific/Honolulu
+* America/Sitka
+* America/Metlakatla
+* America/Juneau
+* America/Anchorage
+* America/Vancouver
+* America/Tijuana
+* America/Phoenix
+* America/Los_Angeles
+* America/Creston
+* Pacific/Galapagos
+* America/Denver
+* America/Costa_Rica
+* America/Chihuahua
+* America/Caracas
+* America/Panama
+* America/North_Dakota/Center
+* America/North_Dakota/Beulah
+* America/Mexico_City
+* America/Lima
+* America/Jamaica
+* America/Chicago
+* America/Puerto_Rico
+* America/New_York
+* America/Montreal
+* America/Lower_Princes
+* America/Kralendijk
+* America/Grenada
+* America/St_Johns
+* Atlantic/Stanley
+* Atlantic/Bermuda
+* America/Sao_Paulo
+* America/Santiago
+* Atlantic/South_Georgia
+* America/Montevideo
+* Atlantic/Cape_Verde
+* Atlantic/Azores
+* Atlantic/Reykjavik
+* Atlantic/Canary
+* Europe/Dublin
+* Europe/Lisbon
+* Europe/London
+* Asia/Hebron
+* Europe/Amsterdam
+* Europe/Berlin
+* Europe/Brussels
+* Europe/Busingen
+* Europe/Madrid
+* Europe/Paris
+* Europe/Rome
+* Europe/Stockholm
+* Europe/Vienna
+* Europe/Zurich
+* Asia/Baghdad
+* Asia/Jerusalem
+* Asia/Riyadh
+* Europe/Athens
+* Europe/Helsinki
+* Europe/Istanbul
+* Europe/Kiev
+* Europe/Minsk
+* Indian/Comoro
+* Asia/Tehran
+* Asia/Dubai
+* Asia/Tbilisi
+* Europe/Moscow
+* Indian/Mauritius
+* Asia/Kabul
+* Asia/Karachi
+* Asia/Samarkand
+* Indian/Kerguelen
+* Asia/Colombo
+* Asia/Kathmandu
+* Asia/Almaty
+* Asia/Dhaka
+* Asia/Yekaterinburg
+* Indian/Chagos
+* Asia/Rangoon
+* Asia/Bangkok
+* Asia/Ho_Chi_Minh
+* Asia/Jakarta
+* Asia/Omsk
+* Indian/Christmas
+* Asia/Brunei
+* Asia/Hong_Kong
+* Asia/Kuala_Lumpur
+* Asia/Manila
+* Asia/Shanghai
+* Asia/Singapore
+* Asia/Taipei
+* Asia/Ulaanbaatar
+* Australia/Perth
+* Australia/Eucla
+* Asia/Irkutsk
+* Asia/Pyongyang
+* Asia/Seoul
+* Asia/Tokyo
+* Pacific/Palau
+* Australia/Darwin
+* Asia/Khandyga
+* Asia/Yakutsk
+* Australia/Brisbane
+* Pacific/Guam
+* Australia/Adelaide
+* Asia/Ust-Nera
+* Asia/Vladivostok
+* Australia/Melbourne
+* Australia/Sydney
+* Pacific/Guadalcanal
+* Asia/Kamchatka
+* Pacific/Fiji
+* Pacific/Nauru
+* Pacific/Auckland
+* Pacific/Chatham
+* Pacific/Kiritimati
