@@ -40,7 +40,7 @@ Parameters
      - part of the URI
      - If todate is set, only those campaigns will be listed which were created before the given date, accepted format YYYY-MM-DD, example: 2013-01-25.
 
-For a list of possible values for <id>, see :doc:`email_status`.
+For a list of possible values for <id>, see :doc:`../appendices/email_status`.
 You can combine the fromdate and todate parameters.
 If two or more parameters are used, they must be separated by an & character.
 
@@ -115,13 +115,13 @@ Where:
  * *fromemail* = the sender email address
  * *fromname* = the sender name
  * *subject* = the email subject line
- * *email category* = the category identifier for this email. Categories can be retrieved via `/api/v2/emailcategory <http://dev.emarsys.com/suite/emails/emails_get_email_category_lists.html>`_.
- * *filter* = the filter identifier. Available filters can be retrieved via `/api/v2/filter <http://dev.emarsys.com/suite/contacts/listing_segments.html>`_.
- * *contactlist* = the contact list identifier. Contact lists can be retrieved via `/api/v2/contactlist <http://dev.emarsys.com/suite/contacts/listing_contact_lists.html>`_.
+ * *email category* = the category identifier for this email. Categories can be retrieved via :doc:`../emails/emails_get_email_category_lists`.
+ * *filter* = the filter identifier. Available filters can be retrieved via :doc:`../contacts/listing_segments`.
+ * *contactlist* = the contact list identifier. Contact lists can be retrieved via :doc:`../contacts/listing_contact_lists`.
  * *cc_list* = the contact list ID, if the email is sent, this contactlist also receives it. Only works if BCC List is enabled.
- * *status* = See :doc:`email_status`.
- * *api_status* = See :doc:`launch_status`.
- * *api_error* = See :doc:`error_codes`.
+ * *status* = See :doc:`../appendices/email_status`.
+ * *api_status* = See :doc:`../appendices/launch_status`.
+ * *api_error* = See :doc:`../appendices/error_codes`.
  * *source* = the source of the recipients. Possible values are: **userlist, profile, api**
 
 Errors
