@@ -40,7 +40,7 @@ Parameters
      - part of the URI
      - If todate is set, only those campaigns will be listed which were created before the given date, accepted format YYYY-MM-DD, example: 2013-01-25.
 
-For a list of possible values for <id>, see :doc:``email_status``.
+For a list of possible values for <id>, see :doc: ``email_status``.
 You can combine the fromdate and todate parameters.
 If two or more parameters are used, they must be separated by an & character.
 
@@ -119,9 +119,9 @@ Where:
  * *filter* = the filter identifier. Available filters can be retrieved via `/api/v2/filter <http://dev.emarsys.com/suite/contacts/listing_segments.html>`_.
  * *contactlist* = the contact list identifier. Contact lists can be retrieved via `/api/v2/contactlist <http://dev.emarsys.com/suite/contacts/listing_contact_lists.html>`_.
  * *cc_list* = the contact list ID, if the email is sent, this contactlist also receives it. Only works if BCC List is enabled.
- * *status* = See :doc:``email_status``.
- * *api_status* = See :doc:``launch_status``.
- * *api_error* = See :doc:``error_codes``.
+ * *status* = See :doc: ``email_status``.
+ * *api_status* = See :doc: ``launch_status``.
+ * *api_error* = See :doc: ``error_codes``.
  * *source* = the source of the recipients. Possible values are: **userlist, profile, api**
 
 Errors
