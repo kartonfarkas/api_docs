@@ -3,8 +3,8 @@ Creating Automation Center Nodes
 
 The Automation Center node integration API allows you to add a node to Automation Center that will
 call your service on a predefined HTTP endpoint. When the program reaches your node, it will call
-the specified :doc:`node_trigger_endpoint` with a set of parameters (including a contact
-list ID), which you can use to trigger necessary actions for the contacts entering the node.
+the specified :doc:`node_trigger_endpoint` with a set of parameters (including a contact list ID),
+which you can use to trigger necessary actions for the contacts entering the node.
 
 Authentication
 --------------
@@ -41,7 +41,7 @@ Useful Resources
 ----------------
 
 We recommend checking out these resources. These can provide the details of the contacts
-from the contactlist specified at the trigger endpoint, or information about
+from the contact list specified at the trigger endpoint, or information about
 the usage of a resource.
 
 * :doc:`../../suite/contacts/listing_contacts_in_a_list`

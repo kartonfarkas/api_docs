@@ -87,7 +87,7 @@ The number of the fields provided for contact_fields and analysis_fields must be
      -
    * - contactlist_id
      - int
-     - if you check the contacts who answered within a contactlist
+     - if you check the contacts who answered within a contact list
      -
    * - delimiter
      - string

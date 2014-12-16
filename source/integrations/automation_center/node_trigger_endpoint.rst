@@ -25,7 +25,7 @@ HTTP Method: POST
      - possible values: ‘batch’, ‘transactional’, ‘recurring’
    * - list_id
      - int
-     - contactlist ID in the Suite database (optional)
+     - contact list ID in the Suite database (optional)
    * - user_id
      - int
      - contact ID in the Suite database (optional)

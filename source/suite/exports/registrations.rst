@@ -57,7 +57,7 @@ Parameters
      - Comments
    * - contactlist_id
      - int
-     - if you check the contacts who registered within a contactlist
+     - if you check the contacts who registered within a contact list
      -
    * - with_timestamp
      - int

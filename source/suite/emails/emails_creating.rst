@@ -49,7 +49,7 @@ Parameters
      -
    * - contactlist
      - int
-     - contactlist ID for the email
+     - contact list ID for the email
      -
    * - html_source
      - string
@@ -62,7 +62,7 @@ Parameters
 
 .. note::
 
-   For filter and contactlist, at least one property must be sent and it must not be 0 (zero).
+   For filter and contact list, at least one property must be sent and it must not be 0 (zero).
    If both are sent, only one must be different from 0 (zero).
 
 .. list-table:: **Optional Parameters**
@@ -90,7 +90,7 @@ Parameters
        * 1: true
    * - cc_list
      - int
-     - Contact list ID, if the email is sent, this contactlist also receives it.
+     - Contact list ID, if the email is sent, this contact list also receives it.
        Only works if the BCC List feature is enabled for the customer.
      -
 

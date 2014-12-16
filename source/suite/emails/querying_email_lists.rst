@@ -118,7 +118,7 @@ Where:
 * *email category* = the category identifier for this email. Categories can be retrieved via :doc:`../emails/emails_get_email_category_lists`.
 * *filter* = the filter identifier. Available filters can be retrieved via :doc:`../contacts/listing_segments`.
 * *contactlist* = the contact list identifier. Contact lists can be retrieved via :doc:`../contacts/listing_contact_lists`.
-* *cc_list* = the contact list ID, if the email is sent, this contactlist also receives it. Only works if BCC List is enabled.
+* *cc_list* = the contact list ID, if the email is sent, this contact list also receives it. Only works if BCC List is enabled.
 * *status* = See :doc:`../email_status`.
 * *api_status* = See :doc:`../launch_status`.
 * *api_error* = See :doc:`../error_codes`.

@@ -22,7 +22,7 @@ Parameters
      - Comments
    * - contactlist_id
      - int
-     - exports the fields of the contacts in this contactlist
+     - exports the fields of the contacts in this contact list
      -
    * - distribution_method
      - string
