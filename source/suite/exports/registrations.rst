@@ -73,7 +73,7 @@ Parameters
      - Default value is 1.
    * - language
      - string
-     - see supported `language codes <http://documentation.emarsys.com/?page_id=424>`_
+     - see supported `language codes <http://dev.emarsys.com/suite/language_codes.html>`_
      - Default value is the account’s default language.
    * - ftp_settings
      - object

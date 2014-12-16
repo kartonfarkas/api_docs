@@ -35,7 +35,7 @@ Parameters
    * - /translate/<id>
      - string
      - <id> can be: en, de, ru, …
-     - For a full list of supported languages, see the `list of language codes. <http://dev.emarsys.com/suite/language_codes.html>`_
+     - For a full list of supported languages, see :doc:`language_codes`.
 
 URI Example
 -----------
