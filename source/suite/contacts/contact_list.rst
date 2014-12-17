@@ -95,6 +95,10 @@ Errors
 .. list-table:: Possible Error Codes
    :header-rows: 1
 
+   * - HTTP Code
+     - Reply Code
+     - Message
+     - Description
    * - 400
      - 2006
      - Invalid field id: <field_id>
