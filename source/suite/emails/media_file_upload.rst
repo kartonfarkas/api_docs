@@ -1,5 +1,5 @@
-Uploading Files
-===============
+Uploading a File
+================
 
 Uploads a file to the Media Database.
 

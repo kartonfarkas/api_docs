@@ -1,5 +1,5 @@
-Querying Email Campaign Data
-============================
+Querying the Email Campaign Data
+================================
 
 Returns the details of an email campaign, including the personalized text and HTML source.
 

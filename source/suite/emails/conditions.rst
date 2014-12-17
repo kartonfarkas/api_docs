@@ -1,5 +1,5 @@
-Conditions
-==========
+Querying the Conditions
+=======================
 
 Returns a list of rules for conditional text. In a condition, you can define a part of the
 content of the email campaign according to a criterion.

@@ -1,5 +1,5 @@
-Listing Contacts
-================
+Listing the Contacts
+====================
 
 Returns the value of the requested field for every contacts that meets the optional condition specified.
 

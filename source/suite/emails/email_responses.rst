@@ -1,5 +1,5 @@
-Querying Responses
-==================
+Querying the Responses
+======================
 
 The goal of this call is to list the contacts who reacted to the email campaigns in the given time interval
 the same way, for example all contacts who opened emails.

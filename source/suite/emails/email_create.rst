@@ -1,5 +1,5 @@
-Creating Email Campaigns
-========================
+Creating an Email Campaign
+==========================
 
 Creates an email campaign with the specified parameters.
 

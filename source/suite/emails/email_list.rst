@@ -1,5 +1,5 @@
-Listing Email Campaigns
-=======================
+Listing the Email Campaigns
+===========================
 
 Returns the list of the email campaigns.
 

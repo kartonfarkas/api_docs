@@ -1,5 +1,5 @@
-Querying Email Campaign Languages
-=================================
+Querying the Email Campaign Languages
+=====================================
 
 Returns the list of languages which can be used in email creation.
 

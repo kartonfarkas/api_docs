@@ -1,5 +1,5 @@
-Querying Delivery Status
-========================
+Querying the Delivery Status
+============================
 
 Returns the delivery status of an email campaign.
 

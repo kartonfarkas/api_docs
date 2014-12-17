@@ -1,7 +1,7 @@
-Listing Files
-=============
+Listing the Files
+=================
 
-Returns a media file from the Media Database.
+Returns the media files from the Media Database.
 
 Endpoint
 --------

@@ -1,5 +1,5 @@
-Sending Test Emails
-===================
+Sending a Test Email
+====================
 
 Instructs the system to send a test email.
 

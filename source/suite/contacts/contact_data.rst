@@ -1,5 +1,5 @@
-Querying Contact Data
-=====================
+Querying the Contact Data
+=========================
 
 Returns the selected fields of contacts. The contacts can be specified by either internal IDs or by using another column’s value as a key.
 

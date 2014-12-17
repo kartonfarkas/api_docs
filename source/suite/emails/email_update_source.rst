@@ -1,5 +1,5 @@
-Updating Email Campaign Recipient Source
-========================================
+Updating an Email Campaign Recipient Source
+===========================================
 
 Email campaigns can be created with *recipient source* set to *"Using the API"* using the Suite UI.
 This call can assign a segment or a contact list to an email campaign. It's only possible to change

@@ -1,5 +1,5 @@
-Querying Contact Email History
-==============================
+Querying the Contact Email History
+==================================
 
 Returns the list of the email campaign launch data for the specified contacts within the optionally defined date interval.
 

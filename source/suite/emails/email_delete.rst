@@ -1,5 +1,5 @@
-Deleting Email Campaigns
-========================
+Deleting an Email Campaign
+==========================
 
 Deletes an email campaign and all related launches.
 

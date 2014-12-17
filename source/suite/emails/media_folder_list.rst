@@ -1,5 +1,5 @@
-Listing Folders
-===============
+Listing the Folders
+===================
 
 Returns the available folders in the Media Database.
 

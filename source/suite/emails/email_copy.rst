@@ -1,5 +1,5 @@
-Copying Email Campaigns
-=======================
+Copying an Email Campaign
+=========================
 
 Copies the specified email campaign. Optionally, a name can be defined for the new
 email campaign.

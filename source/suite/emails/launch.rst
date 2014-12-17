@@ -1,5 +1,5 @@
-Launching Email Campaigns
-=========================
+Launching an Email Campaign
+===========================
 
 Launches an email campaign. The launch will happen later, an "OK" response will report
 only that the request was received by the API.

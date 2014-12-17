@@ -1,5 +1,5 @@
-Querying Customer Forms
-=======================
+Querying the Customer Forms
+===========================
 
 Returns a list of available forms.
 Suite offers simple functionality to create different kinds of forms to collect data from contacts.
