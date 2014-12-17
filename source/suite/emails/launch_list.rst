@@ -1,5 +1,5 @@
-Listing the Email Campaign Launches
-===================================
+Listing Email Campaign Launches
+===============================
 
 Lists all the launches of an email campaign, including launch ID, launch date and 'done' status.
 

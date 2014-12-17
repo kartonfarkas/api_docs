@@ -17,8 +17,6 @@ Email Campaigns
    email_data.rst
    email_languages.rst
    email_categories.rst
-   email_responses.rst
-   email_responses_result.rst
    email_create.rst
    email_copy.rst
    email_delete.rst
@@ -30,11 +28,13 @@ Launches
 .. toctree::
    :maxdepth: 1
 
-   launch.rst
    launch_list.rst
    launch_delivery_status.rst
-   launch_response_summaries.rst
+   launch_responses.rst
+   launch_responses_result.rst
+   launch_response_summary.rst
    launch_urls.rst
+   launch.rst
    launch_preview.rst
    launch_tests.rst
 

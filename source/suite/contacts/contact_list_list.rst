@@ -1,5 +1,5 @@
-Listing the Contact Lists
-=========================
+Listing Contact Lists
+=====================
 
 Returns a list of the available contact lists of the customer.
 

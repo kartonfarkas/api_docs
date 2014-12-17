@@ -1,5 +1,5 @@
-Listing the Segments
-====================
+Listing Segments
+================
 
 Returns a list of segments. Segment is used for filtering according to different criteria.
 

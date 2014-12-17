@@ -1,5 +1,5 @@
-Listing the Sources
-===================
+Listing Sources
+===============
 
 Returns a list of sources.
 

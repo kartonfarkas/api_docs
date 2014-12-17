@@ -1,5 +1,5 @@
-Listing the Administrators
-==========================
+Listing Administrators
+======================
 
 Returns the administrator users of the customer.
 

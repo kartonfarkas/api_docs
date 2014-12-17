@@ -1,5 +1,5 @@
-Querying the Customer Settings
-==============================
+Querying Customer Settings
+==========================
 
 Returns the settings of the customer.
 

@@ -1,5 +1,5 @@
-Previewing the Email Campaign Contents
-======================================
+Previewing Email Campaign Contents
+==================================
 
 Returns the HTML or text version of the email either as content type `application/json` or `text/html`.
 

@@ -1,5 +1,5 @@
-Querying the Interface Languages
-================================
+Querying Interface Languages
+============================
 
 Returns the list of available interface languages.
 

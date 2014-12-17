@@ -1,5 +1,5 @@
-Listing the Files
-=================
+Listing Files
+=============
 
 Returns the media files from the Media Database.
 

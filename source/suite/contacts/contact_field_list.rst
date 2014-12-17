@@ -1,5 +1,5 @@
-Listing the Field Lists
-=======================
+Listing Field Lists
+===================
 
 Returns a list of fields (including custom fields and vouchers) which can be used to personalize content.
 

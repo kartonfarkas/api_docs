@@ -1,5 +1,5 @@
-Querying the Access Levels
-==========================
+Querying Access Levels
+======================
 
 Returns the list of available access levels for the customer.
 
