@@ -1,7 +1,7 @@
-Administrator List
-==================
+Listing Administrators
+======================
 
-Returns the list of administrators.
+Returns the administrator users of the customer.
 
 .. include:: _warning.rst
 
