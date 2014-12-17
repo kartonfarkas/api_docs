@@ -27,8 +27,8 @@ Contact Fields
    :maxdepth: 1
 
    contact_field_list.rst
-   contact_field_choice_list.rst
    contact_field_create.rst
+   contact_field_choice_list.rst
 
 Contact Lists
 -------------

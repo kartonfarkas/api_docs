@@ -16,9 +16,9 @@ Email Campaigns
    email_list.rst
    email_data.rst
    email_languages.rst
+   email_categories.rst
    email_responses.rst
    email_responses_result.rst
-   email_categories.rst
    email_create.rst
    email_copy.rst
    email_delete.rst
@@ -34,8 +34,8 @@ Launches
    launch_list.rst
    launch_delivery_status.rst
    launch_response_summaries.rst
-   launch_preview.rst
    launch_urls.rst
+   launch_preview.rst
    launch_tests.rst
 
 Media Library
