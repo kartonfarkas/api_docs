@@ -1,0 +1,38 @@
+Keeping Contacts Up-to-date
+===========================
+
+If you already have contacts in the Suite, then inserting further ones requires a little care as you need to use different
+methods depending on whether the contact already exists or not. If the contact do not yet exists in the Suite, then you have
+to create it, otherwise you have to update it.
+
+This use case is about deciding whether a given contact exists and creating or updating it accordingly.
+
+.. :note:: We say that a contact exists in the Suite if a contact with the same key can be found.
+
+Basic Scenario
+--------------
+
+Step 1: Check whether Contact Exists in the Suite
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can check whether a contact exists in the Suite by requesting its internal contact ID. Please see
+:doc:`../../suite/contacts/contact_check_internal_ids`.
+
+* If you get a result with replyCode 0, then it already exists so you have to update it.
+* If you get a result with replyCode 2008, then it does not yet exist so you have to create it.
+* If the replyCode differs from the ones mentioned above, it indicates an error so please refer to
+  :doc:`../../suite/appendices/error_codes`.
+
+Step 2a: Update a Contact
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You have to execute this step if replyCode 0 was returned in Step 1. This means that you have to update the contact
+(not create it) in the Suite. Please see :doc:`../../suite/contacts/contact_update`.
+
+.. :note:: Each field value that you provide here will override the already existing ones in the Suite.
+
+Step 2b: Create a New Contact
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You have to execute this step if replyCode 2008 was returned in Step 1. Here you can simply create the new contact
+in the Suite. For further information, please see :doc:`../../suite/contacts/contact_create`.
