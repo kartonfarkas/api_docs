@@ -1,5 +1,5 @@
-Querying External Events
-========================
+Querying the External Events
+============================
 
 Returns a list of external events which can be used in programs. External event has an ID with which emails can be sent or AC
 programs can be started for a contact through the API.

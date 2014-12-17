@@ -1,5 +1,5 @@
-Triggering External Events
-==========================
+Triggering the External Events
+==============================
 
 Triggers the given event for the specified contact.
 

@@ -1,5 +1,5 @@
-Exporting Changes
-=================
+Exporting the Changes
+=====================
 
 Exports the selected fields of all contacts with properties that changed within the time range specified.
 The contacts must belong to the given form or API source.

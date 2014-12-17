@@ -1,5 +1,5 @@
-Exporting Contact Lists
-=======================
+Exporting a Contact List
+========================
 
 Exports selected fields of contacts. Contacts are passed as a contact list with the given ID.
 
