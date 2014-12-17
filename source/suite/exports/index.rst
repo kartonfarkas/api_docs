@@ -24,5 +24,5 @@ when the export is finished.
    export_contact_lists.rst
    export_registrations.rst
    export_responses.rst
-   export__status.rst
+   export_status.rst
 

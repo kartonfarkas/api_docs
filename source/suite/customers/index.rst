@@ -22,8 +22,8 @@ Administrators
    administrator_interface_languages.rst
    administrator_access_levels.rst
    administrator_create.rst
-   administrator_delete.rst
    administrator_update.rst
+   administrator_delete.rst
 
 
 

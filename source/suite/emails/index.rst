@@ -13,16 +13,16 @@ Email Campaigns
 .. toctree::
    :maxdepth: 1
 
-   email_create.rst
    email_list.rst
    email_data.rst
-   email_copy.rst
-   email_delete.rst
-   email_update_source.rst
-   email_categories.rst
    email_languages.rst
    email_responses.rst
    email_responses_result.rst
+   email_categories.rst
+   email_create.rst
+   email_copy.rst
+   email_delete.rst
+   email_update_source.rst
 
 Launches
 --------
