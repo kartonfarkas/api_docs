@@ -8,7 +8,7 @@ only that the request was received by the API.
 
    Launches are asynchronous operations. A successful request might end up in a failed
    launch (for example when email subject or recipient list was not specified). The
-   :doc:`emails_attributes` endpoint must be polled to obtain information on the
+   :doc:`email_data` endpoint must be polled to obtain information on the
    launch progress, where the *api_status* and *api_error* parameters will contain the
    status.
 
