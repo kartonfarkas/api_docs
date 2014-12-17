@@ -11,3 +11,4 @@ are available through third party developers.
    authentication.rst
    api_demo.rst
    sdk.rst
+   change_policy.rst
