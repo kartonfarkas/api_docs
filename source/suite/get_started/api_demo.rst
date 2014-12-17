@@ -4,10 +4,11 @@ The API Demo Page
 API Demo Page: Experiment before You Code!
 ------------------------------------------
 
-We offer an API-demo page for our customers, which is a graphical user interface to experiment with API requests and their parameters. The responses are displayed.
-The URL of the API demo page is: <the URL of the Suite environment you use>/api-demo/
+We offer an API-demo page for our customers, which is a graphical user interface to experiment with API requests and
+their parameters. The responses are displayed. The URL of the API demo page is: <the URL of the Suite environment
+you use>/api-demo/
 
-* Example: if your account is on Suite 5,  the URL is https://suite5.emarsys.net/api-demo
+* Example: if your account is on Suite 5, the URL is https://suite5.emarsys.net/api-demo
 
 Check Your Access to the Suite API
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -44,7 +45,7 @@ The response of your request always appears on the bottom of the page, so after 
 
 .. note::
 
-   * If the Suite API is not available or the URL is invalid, the last response will be displayed rather than an error message.
+   If the Suite API is not available or the URL is invalid, the last response will be displayed rather than an error message.
 
 Check the Request
 ^^^^^^^^^^^^^^^^^
@@ -62,4 +63,4 @@ request URI by simply concatenating this request to your API URL. For example, i
 
 .. note::
 
-   * The payload of the request (e.g. in the case of a ‘POST’ request) is not displayed on the API Demo page.
+   The payload of the request (e.g. in the case of a ‘POST’ request) is not displayed on the API Demo page.
