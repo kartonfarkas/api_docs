@@ -46,4 +46,4 @@ the usage of a resource.
 
 * :doc:`../../suite/contacts/contact_list_list_contacts`
 * :doc:`../../suite/contacts/contact_data`
-* :doc:`../../suite/program_resources`
+* :doc:`../../appendices/program_resources`
