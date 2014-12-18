@@ -9,6 +9,6 @@ are available through third party developers.
    :maxdepth: 1
 
    authentication.rst
+   change_policy.rst
    api_demo.rst
    sdk.rst
-   change_policy.rst
