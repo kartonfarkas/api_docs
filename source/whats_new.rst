@@ -6,7 +6,7 @@ Listing Contacts of a Segment
 
 We created a new call which lists contacts in a particular segment. You need to provide the segment ID, and then it
 will be evaluated. The result is a list of the contacts from the last hour. Note that if the segment is currently
-evaluated, you need to call the resource again. Documentation is available at :doc:`../contacts/segment_list_contacts`.
+evaluated, you need to call the resource again. Documentation is available at :doc:`contacts/segment_list_contacts`.
 
 Internal API
 ------------
@@ -33,14 +33,14 @@ Replacing a Contact List
 
 We created a new call which replaces the contacts of a particular contact list (it was possible to create a new contact
 list with new contacts, or add new contacts to a contact list, but it was not possible to replace). Documentation is
-available at :doc:`../contacts/contact_list_replace`.
+available at :doc:`contacts/contact_list_replace`.
 
 Updating an Administrator
 -------------------------
 
 Another API call is responsible for modifying specific properties of an admin. The only required parameter is admin_id.
 Please note that the username is unique, the password has to exceed the strength limit and it can only be used once.
-Documentation is available at :doc:`../customers/administrator_update`.
+Documentation is available at :doc:`customers/administrator_update`.
 
 cc_list
 -------
@@ -53,7 +53,7 @@ Querying Responses
 ------------------
 
 We created a new endpoint which lists the contact IDs for the email campaigns of a customer for an exact reaction of
-the contacts (like email opened, clicked, etc.) between the specified dates. Documentation is available at :doc:`../emails/launch_responses`.
+the contacts (like email opened, clicked, etc.) between the specified dates. Documentation is available at :doc:`emails/launch_responses`.
 
 Creating a Media DB Folder
 --------------------------
