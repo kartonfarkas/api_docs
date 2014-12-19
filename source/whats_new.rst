@@ -11,7 +11,7 @@ evaluated, you need to call the resource again. Documentation is available at :d
 Internal API
 ------------
 
-If you are working on an Suite integration, it would be useful for you to use the internal API. Please contact us for details and
+If you are working on a Suite integration, it would be useful for you to use the internal API. Please contact us for details and
 credentials.
 
 EscherAuth.io
@@ -19,7 +19,7 @@ EscherAuth.io
 
 The documentation of our new stateless HTTP request signing library called Escher is now available at http://escherauth.io/.
 It allows secure authorization and request validation as it adds a security and authentication layer over HTTPS. The
-Internal API is already using this protocol for authentication.
+internal API already uses this protocol for authentication.
 
 notification_url
 ----------------
@@ -32,7 +32,7 @@ Replacing a Contact List
 ------------------------
 
 We created a new call which replaces the contacts of a particular contact list (it was possible to create a new contact
-list with new contacts, or add new contacts to a contact list, but it was not possible to replace). Documentation is
+list with new contacts, or add new contacts to a contact list, but it was not possible to replace a list). Documentation is
 available at :doc:`../../suite/contacts/contact_list_replace`.
 
 Updating an Administrator
@@ -47,13 +47,14 @@ cc_list
 
 An optional API parameter is added to the ``Creating an Email Campaign`` and ``Querying Email Campaign Data`` calls.
 Its value is a contactlist ID. If an email is sent, this contactlist also receives it. Please note that it only works
-if the BCC List feature is enabled in the eMarketing Suite.
+if the BCC List feature is enabled in the Suite.
 
 Querying Responses
 ------------------
 
 We created a new endpoint which lists the contact IDs for the email campaigns of a customer for an exact reaction of
-the contacts (like email opened, clicked, etc.) between the specified dates. Documentation is available at :doc:`../../suite/emails/launch_responses`.
+the contacts (like email opened, clicked, etc.) between the specified dates. Documentation is available at
+:doc:`../../suite/emails/launch_responses`.
 
 Creating a Media DB Folder
 --------------------------

@@ -105,13 +105,13 @@ Request Example
      "subject": "convergence",
      "fromname": "Malekith",
      "fromemail": "malekith@example.com",
-     "email_category": "17",
+     "email_category": "111111111",
      "html_source": "<html>Hello $First Name$... </html>",
      "text_source": "Hello $First Name$...",
      "browse": 0,
      "text_only": 0,
      "unsubscribe": 1,
-     "filter": "1121",
+     "filter": "222222222",
      "contactlist": 0
    }
 

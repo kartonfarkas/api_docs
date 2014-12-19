@@ -2,7 +2,7 @@ Keeping Contacts Up-to-date
 ===========================
 
 If you already have contacts in the Suite, then inserting further ones requires a little care as you need to use different
-methods depending on whether the contact already exists or not. If the contact does not yet exist in the Suite, then you have
+methods depending on whether the contact already exists or not. If the contact does not exist in the Suite yet, then you have
 to create it, otherwise you have to update it.
 
 This use case is about deciding whether a given contact exists and creating or updating it accordingly.
