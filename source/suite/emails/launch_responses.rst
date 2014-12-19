@@ -30,8 +30,8 @@ Parameters
      - Comments
    * - type
      - string
-     - Reaction of contacts to emails, it can be 'opened', 'not_opened', 'received', 'clicked'
-       or 'not_clicked' (a link in the email).
+     - Reaction of contacts to emails, it can be 'opened', 'not_opened', 'received', 'clicked', 'not_clicked',
+       'bounced', 'hard_bounced', 'soft_bounced' or 'block_bounced' (a link in the email).
      -
 
 .. list-table:: **Optional Parameters**
