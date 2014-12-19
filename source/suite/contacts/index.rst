@@ -58,7 +58,7 @@ Contact Sources
 .. toctree::
    :maxdepth: 1
 
-   sources_list.rst
+   source_list.rst
    source_create.rst
    source_delete.rst
 
