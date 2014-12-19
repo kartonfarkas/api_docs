@@ -5,7 +5,7 @@ The goal of this call is to list the contacts who reacted to the email campaigns
 the same way, for example all contacts who opened emails.
 
 A call to this endpoint starts a background query and returns a query ID which can be used to poll the
-:doc:`email_responses_result` endpoint for the results. Ideally, the results will be available
+:doc:`launch_responses_result` endpoint for the results. Ideally, the results will be available
 in some minutes.
 
 .. note::

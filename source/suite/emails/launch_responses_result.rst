@@ -1,7 +1,7 @@
 Querying Responses Result
 =========================
 
-Lists the contact IDs for the email campaigns, based on the :doc:`email_responses` endpoint.
+Lists the contact IDs for the email campaigns, based on the :doc:`launch_responses` endpoint.
 
 .. note::
 

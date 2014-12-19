@@ -25,7 +25,7 @@ Result Data Structure
 
 Where *name* is the name of the customer.
 
-For more information on timezones available in the Suite, see :doc:`time_zones`.
+For more information on timezones available in the Suite, see :doc:`../appendices/time_zones`.
 
 
 
