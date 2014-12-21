@@ -4,6 +4,9 @@ What's New
 Listing Contacts of a Segment
 -----------------------------
 
+1st december 2014
+`````````````````
+
 We created a new call which lists contacts in a particular segment. You need to provide the segment ID, and then it
 will be evaluated. The result is a list of the contacts from the last hour. Note that if the segment is currently
 evaluated, you need to call the resource again. Documentation is available at :doc:`../../suite/contacts/segment_list_contacts`.
