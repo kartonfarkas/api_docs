@@ -40,7 +40,7 @@ Normal Result:
      "replyCode": 0,
      "replyText": "OK",
      "data":
-     [985762, 985786, 985654]
+     ["985762", "985786", "985654"]
    }
 
 Error Condition:
