@@ -15,6 +15,7 @@ We currently offer use cases covering these three activities:
 * Sending transactional emails
 * Sending batch email campaigns
 * Updating contacts
+* Querying contact data
 
 If you would like to see use cases covering different marketing activities, please pass a request on to your Account Manager.
 
