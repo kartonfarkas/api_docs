@@ -88,7 +88,8 @@ Result Example
      }
    }
 
-Where *deleted_contacts* is the number of contacts successfully deleted from the list, and *errors* is an array of contacts not removed from the list. The array contains the ID and reason for the error.
+Where *deleted_contacts* is the number of contacts successfully deleted from the list, and *errors* is an array of
+contacts not removed from the list. The array contains the ID and reason for the error.
 
 Errors
 ------
