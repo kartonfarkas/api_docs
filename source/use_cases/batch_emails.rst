@@ -8,8 +8,8 @@ Scenario #1: Daily news for different segments
 
 For this scenario you will need the following API requests:
 
-* Creating Emails
-* Launching Emails
+* Creating an Email Campaign
+* Launching an Email Campaign
 
 Extension of scenario #1: Using the Media Database
 --------------------------------------------------
@@ -18,9 +18,9 @@ Extension of scenario #1: Using the Media Database
 
 For this scenario you will need the following API requests:
 
-* Uploading Files to a Media Database
-* Creating Emails
-* Launching Emails
+* Uploading a File
+* Creating an Email Campaign
+* Launching an Email Campaign
 
 Scenario #2: Recurring email to a contact list with changing members
 --------------------------------------------------------------------
@@ -29,8 +29,10 @@ Scenario #2: Recurring email to a contact list with changing members
 
 For this scenario you will need the following API requests:
 
-* Removing Contacts from Contact Lists
-* Adding Contacts to Contact Lists
+* Removing Contacts from a Contact List
+* Adding Contacts to a Contact List
+* Creating an Email Campaign
+* Launching an Email Campaign
 
 Scenario #2b: Recurring email to a contact list; changing the email source assigned to the email
 ------------------------------------------------------------------------------------------------
@@ -39,4 +41,5 @@ Scenario #2b: Recurring email to a contact list; changing the email source assig
 
 For this scenario you will need the following API requests:
 
-* Creating Contact Lists
+* Updating an Email Campaign Recipient Source
+* Launching an Email Campaign
