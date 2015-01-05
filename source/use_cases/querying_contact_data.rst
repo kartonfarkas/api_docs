@@ -13,12 +13,12 @@ This example shows a minimal payload:
 
    [
       {
-         "id":"123",
-         "name":"asgard_protectors"
+         "id": "123",
+         "name": "asgard_protectors"
       },
       {
-         "id":"124",
-         "name":"asgard_enemies"
+         "id": "124",
+         "name": "asgard_enemies"
       }
    ]
 
