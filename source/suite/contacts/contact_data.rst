@@ -22,7 +22,7 @@ Parameters
    * - keyId
      - mixed
      - key which identifies the contacts
-     - This can be a field id, id or uid. If empty, the internal ID will be used.
+     - This can be a field id, **id** or **uid**. If empty, the internal ID will be used.
    * - keyValues
      - array
      - value of the keyId
