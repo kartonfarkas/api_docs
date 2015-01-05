@@ -20,7 +20,7 @@ The following example shows a minimal payload:
             "id": "124",
             "name": "asgard_enemies"
           }
-        ]
+   ]
 
 Where *id* is the ID of the contact list, and *name* is the name of the contact list.
 
