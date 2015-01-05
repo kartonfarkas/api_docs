@@ -12,14 +12,14 @@ The following example shows a minimal payload:
 .. code-block:: json
 
    [
-          {
-            "id": "123",
-            "name": "asgard_protectors"
-          },
-          {
-            "id": "124",
-            "name": "asgard_enemies"
-          }
+      {
+         "id":"123",
+         "name":"asgard_protectors"
+      },
+      {
+         "id":"124",
+         "name":"asgard_enemies"
+      }
    ]
 
 Where *id* is the ID of the contact list, and *name* is the name of the contact list.
