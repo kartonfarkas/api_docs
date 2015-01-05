@@ -12,10 +12,10 @@ product the contact has just bought is a more complex one.
 
 We currently offer use cases covering these three activities:
 
-* Sending transactional emails
-* Sending batch email campaigns
-* Updating contacts
-* Querying contact data
+* :doc:`transactional_emails`
+* :doc:`batch_emails`
+* :doc:`keeping_contacts`
+* :doc:`querying_contact_data`
 
 If you would like to see use cases covering different marketing activities, please pass a request on to your Account Manager.
 
