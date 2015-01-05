@@ -7,7 +7,7 @@ The steps will be as follows:
 
 1. querying the contact list ID (:doc:`../../suite/contacts/contact_list_list`)
 
-The following example shows a minimal payload:
+This example shows a minimal payload:
 
 .. code-block:: json
 
