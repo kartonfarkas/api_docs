@@ -5,8 +5,6 @@ We are providing several opportunities to integrate with our services. You can i
 Automation Center by creating a custom node that works with contacts, or you can add your
 service to the Suite as a menu point and provide an integrated experience for your customers.
 
-.. image:: /_static/images/suite_integrations.png
-
 .. toctree::
    :maxdepth: 1
 

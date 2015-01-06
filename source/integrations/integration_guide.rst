@@ -5,6 +5,8 @@ In the following sections, we illustrate how it is possible to integrate with th
 an SMS Automation Center node as an example service to give you ideas. Please note that this
 is just an example, you can implement an Automation Center node, or a Suite page only.
 
+.. image:: /_static/images/suite_integrations.png
+
 A partner service can provide a UI with an iframe displayed as a *page in Suite*. Depending on
 the implementation, (selected or all) customers will be able to access it via a Suite menu point.
 For example, an SMS Automation Center node can provide the editing of the SMS campaigns via this
