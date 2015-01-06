@@ -64,7 +64,7 @@ For further information about creating an email via the Suite UI, please see the
 .. note:: To identify the contact we are using their email address, which is also the default key. Therefore, we do not have to
           define a key_id here.
 
-For further information about creating and updating a contact in Suite, see :doc:`../../contacts/contact_create` and :doc:`../../contacts/contact_update`.
+For further information about creating and updating a contact in Suite, see :doc:`../suite/contacts/contact_create` and :doc:`../suite/contacts/contact_update`.
 
 2. Trigger the Event
 
@@ -130,6 +130,7 @@ Preconditions:
   To create a contact with custom fields like our **externalID** you need the IDs of the fields you want to involve. You can
   fetch them via the API (see :doc:`../suite/contacts/contact_field_list`).
 
+
 * Create an External Event
 
 Create the external event in the Suite UI. You can find external events in the **Admin** menu.
@@ -139,6 +140,7 @@ Create the external event in the Suite UI. You can find external events in the *
   * set **Generated through an event** as the **Recipient source**.
   * set **On External Event** as the event.
   * choose your event
+
 
 * Launch Email
 
@@ -164,7 +166,7 @@ For further information about creating an email via the Suite UI, please see the
 
 To identify the contact, we are using the key_id of the **externalID** field mentioned in the preparation.
 
-For further information about creating or updating a contact in Suite, see :doc:`../suite/contacts/contact_create` and :doc:`../suite/contacts/contact_update`.
+For further information about creating or updating a contact in the Suite, see :doc:`../suite/contacts/contact_create` and :doc:`../suite/contacts/contact_update`.
 
 2. Trigger the Event
 
@@ -222,9 +224,9 @@ Preparation
 Preconditions:
 
 * To perform these preparatory steps, you will need the credentials for your Suite account (account name and environment,
-user name and password).
+  user name and password).
 * Create a dedicated external event for each of your emails, otherwise a single external event may accidentally
-trigger many emails.
+  trigger many emails.
 
 * Create an External Event
 
@@ -232,9 +234,11 @@ Create the external event in the Suite UI. You can find external events in the *
 
 * Create the Email
 
+
   * set **Generated through an event** as the **Recipient source**
   * set **On External Event** as the event
   * choose your event
+
 
 * Launch Email
 
@@ -256,14 +260,14 @@ For further information about creating an email via the Suite UI, please see the
       "3": "test@example.com"
    }
 
-To identify the contact, we are using their email address, which is also the default key. Therefore, we do not have to
+To identify the contact, we are using the email address, which is also the default key. Therefore, we do not have to
 define a ``key_id`` here.
 
-For further information about creating or updating a contact in Suite, see :doc:`../suite/contacts/contact_create` and :doc:`../suite/contacts/contact_update`.
+For further information about creating or updating a contact in the Suite, see :doc:`../suite/contacts/contact_create` and :doc:`../suite/contacts/contact_update`.
 
 2. Trigger the Event
 
-.. note:: You need at least one contact available in Suite so that the contact data can be used.
+.. note:: You need at least one contact available in the Suite so that the contact data can be used.
 
 **Request**:
 
@@ -294,7 +298,7 @@ Where
   get the ID, and use it in your integration script.
 * *key_id* is the ID of the key field of the contact. We are using ‘3’ meaning the e-mail address.
 * *external_id* is the value of the key field, the contact’s email in this case.
-* *data* is your transaction-specific content in the form of **placeholder:value** that are included in a **global** object.
+* *data* is your transaction-specific content in the form of **placeholder: value** that are included in a *global* object.
 
 Retrieve external event IDs by querying all external events on the API (see :doc:`../suite/external_events/external_event_list`).
 For further information about triggering external events, see :doc:`../suite/external_events/external_event_trigger`.
