@@ -7,14 +7,14 @@ To trigger a welcome mail, we use an external event which contains information a
 The steps of this use case will be as follows:
 
 1. A new contact registers on your website and you want to add them to your Suite database as well.
-2. Tell the Suite to send a welcome mail to the contact via an external event
+2. Send a welcome mail to the contact via an external event in the Suite
 3. Check the results
 
 This use case will be presented in varying degrees of complexity:
 
-* Using the email address as key
-* Using the external ID as key
-* Customizing the email with data from the external event
+* using the email address as key
+* using the external ID as key
+* customizing the email with data from the external event
 
 Basic Scenario: Using the Email Address as Key
 ----------------------------------------------
@@ -23,12 +23,13 @@ The simplest way to send a welcome mail is to use the default value for the “w
 
 Preparation
 ^^^^^^^^^^^
-Preconditions:
+**Preconditions**:
+
 To perform these preparatory steps, you will need the credentials for your Suite account (account name and environment,
 user name and password).
 
 .. note:: Create a dedicated external event for each of your emails, otherwise a single external event may accidentally
-trigger many emails.
+          trigger many emails.
 
 * Create an external event
 
@@ -36,9 +37,9 @@ Create the external event in the Suite UI. You can find external events in the A
 
 * Create the Email
 
-* set **Generated through an event** as the **Recipient source**
-* set **On External Event** as the Event.
-* choose your event
+  * set **Generated through an event** as the **Recipient source**
+  * set **On External Event** as the Event.
+  * choose your event
 
 * Launch Email
 
@@ -57,14 +58,13 @@ For further information about creating an email via the Suite UI, please see the
 .. code-block:: json
 
    {
-   “3”:”test@example.com”
+      "3":"test@example.com"
    }
 
 .. note:: To identify the contact we are using their email address, which is also the default key. Therefore, we do not have to
-define a key_id here.
+          define a key_id here.
 
-For further information about creating and updating a contact in Suite, see Creating/Updating a Contact in the
-:doc:`technical_reference`.
+For further information about creating and updating a contact in Suite, see :doc:`../../contacts/contact_create` and :doc:`../../contacts/contact_update`.
 
 2. Trigger the Event
 
@@ -81,8 +81,8 @@ Use your external event ID as id. For more information about the external ID, se
 .. code-block:: json
 
    {
-   “key_id”: ”3″,
-   “external_id”: “test@example.com”
+      "key_id":"3",
+      "external_id":"test@example.com"
    }
 
 Where
@@ -92,7 +92,7 @@ Where
 * *key_id* is the ID of the key field of the contact. We are using ‘3’, which stands for the email address.
 * *external_id* is the value of the key field, the contact’s email in this case.
 
-Retrieve external event IDs by querying all external events on the API (see :doc:`../../external_events/external_event_list`).
+Retrieve external event IDs by querying all external events on the API (see :doc:`../external_events/external_event_list`).
 For further information about triggering external events, see :doc:`../../external_events/external_event_trigger`.
 For a list of available Field IDs, see :doc:`../../appendices/system_fields`.
 
