@@ -10,7 +10,8 @@ The steps will be as follows:
 
 **Request**:
 
-``GET /api/v2/contactlist/<111111111>``
+``GET /api/v2/contactlist/111111111``
+
 
 **Response**:
 
@@ -32,6 +33,14 @@ See :doc:`../../suite/contacts/contact_list_list_contacts`.
 **Request**:
 
 ``POST /api/v2/contact/getdata``
+
+.. code-block:: json
+
+   {
+     "keyId": "3",
+     "keyValues": ["tony.stark@example.com", "bruce.banner@example.com"],
+     "fields": [1,2,3]
+   }
 
 **Response**:
 

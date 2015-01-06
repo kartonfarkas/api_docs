@@ -21,6 +21,18 @@ You can check whether a contact exists in the Suite by requesting its internal c
 
 ``POST /api/v2/contact/checkids``
 
+.. code-block:: json
+
+   {
+     "key_id": "3",
+     "external_ids":
+     [
+       "obadiah.stane@example.com",
+       "jinsen@example.com",
+       "raza@example.com"
+     ]
+   }
+
 **Response**:
 
 .. code-block:: json
@@ -53,6 +65,46 @@ You have to execute this step if replyCode 0 was returned in step 1. This means 
 
 ``PUT /api/v2/contact``
 
+The key_id is Omitted
+^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block:: json
+
+   {
+     "3": "thor@example.com"
+   }
+
+The key_id is Provided
+^^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block:: json
+
+   {
+     "key_id": "15",
+     "15": "1234567",
+     "7": "3",
+     "source_id": "123"
+   }
+
+Where *source_id* is an ID assigned to the application of a customer to integrate.
+
+Multichoice Field
+^^^^^^^^^^^^^^^^^
+
+Request containing a multichoice field *405067*:
+
+.. code-block:: json
+
+   {
+     "key_id": "10675",
+     "10675": "1234567",
+     "405067":
+     [
+       "6789",
+       "6792"
+     ]
+   }
+
 **Response**:
 
 .. code-block:: json
@@ -74,6 +126,46 @@ in the Suite.
 **Request**:
 
 ``POST /api/v2/contact``
+
+The key_id is Omitted
+^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block:: json
+
+   {
+     "3": "thor@example.com"
+   }
+
+The key_id is Provided
+^^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block:: json
+
+   {
+     "key_id": "15",
+     "15": "1234567",
+     "7": "3",
+     "source_id": "123"
+   }
+
+Where *source_id* is an ID assigned to the application of a customer to integrate.
+
+Multichoice Field
+^^^^^^^^^^^^^^^^^
+
+Request containing a multichoice field *405067*:
+
+.. code-block:: json
+
+   {
+     "key_id": "10675",
+     "10675": "1234567",
+     "405067":
+     [
+       "6789",
+       "6792"
+     ]
+   }
 
 **Response**:
 
