@@ -93,14 +93,15 @@ Where
 * *external_id* is the value of the key field, the contact’s email in this case.
 
 Retrieve external event IDs by querying all external events on the API (see :doc:`../suite/external_events/external_event_list`).
-For further information about triggering external events, see :doc:`suite/external_events/external_event_trigger`.
-For a list of available Field IDs, see :doc:`../../appendices/system_fields`.
+For further information about triggering external events, see :doc:`../suite/external_events/external_event_trigger`.
+For a list of available Field IDs, see :doc:`../suite/appendices/system_fields`.
 
 3. Check the Results
 
 Check Sent-Counter
 
 * Check whether an email was sent successfully:
+
   * Check with a test contact if the ‘Welcome email’ has arrived – it should be delivered within seconds.
   * Use the Suite UI to check if an email was sent.
   * In the Analysis module in the Emails page, you can see that the count of sent emails increases.
@@ -112,23 +113,22 @@ Advanced Scenario: Use Custom External ID as a Key
 
 If you want to use the same ID that you have in your external database to identify contacts in Suite, you can use an
 external ID.
-
 Let’s suppose that external ID is the name of the column in your database that contains the external ID and you want to
-use the same name for your custom field in Suite.
+use the same name for your custom field in the Suite.
 
 Preparation
 ^^^^^^^^^^^
 
 Preconditions:
-* To perform these preparatory steps, you will need the credentials for your Suite account (account name and environment,
-  user name and password).
+
+* To perform these preparatory steps, you will need the credentials for your Suite account (account name and environment, user name and password).
 * Create a dedicated external event for each of your emails, otherwise a single external event may accidentally
   trigger many emails.
 * You should already have a custom field for the external ID, called **externalId**.
   If you do not have one, create it in the Suite via the **Admin** menu, **Field editor**.
 * Fetch the field ID of the **externalID** field.
   To create a contact with custom fields like our **externalID** you need the IDs of the fields you want to involve. You can
-  fetch them via the API (see :doc:`../../contacts/contact_field_list`).
+  fetch them via the API (see :doc:`../suite/contacts/contact_field_list`).
 
 * Create an External Event
 
@@ -164,7 +164,7 @@ Make sure that your email is launched.
 
 To identify the contact, we are using the key_id of the **externalID** field mentioned in the preparation.
 
-For further information about creating or updating a contact in Suite, see :doc:`../../contacts/contact_create` and :doc:`../../contacts/contact_update`.
+For further information about creating or updating a contact in Suite, see :doc:`../suite/contacts/contact_create` and :doc:`../suite/contacts/contact_update`.
 
 2. Trigger the Event
 
@@ -193,15 +193,16 @@ the ID, and use it in your integration script.
 during the preparation.
 * *external_id* is the value of the key field, your ‘external ID’ in this case.
 
-Retrieve external event IDs by querying all external events on the API (see :doc:`../../external_events/external_event_list`).
-For further information about triggering external events, see :doc:`../../external_events/external_event_trigger`.
-For a list of available Field IDs, see :doc:`../../appendices/system_fields`.
+Retrieve external event IDs by querying all external events on the API (see :doc:`../suite/external_events/external_event_list`).
+For further information about triggering external events, see :doc:`../suite/external_events/external_event_trigger`.
+For a list of available Field IDs, see :doc:`../suite/appendices/system_fields`.
 
 3. Check the Results
 
 Check Sent-Counter
 
 * Check whether an email was sent successfully:
+
   * Check with a test contact if the ‘Welcome email’ has arrived – it should be delivered within seconds.
   * Use the Suite UI to check if an email was sent.
     In the **Analysis** module in the **Emails** page you can see that the count of sent emails increases.
@@ -257,7 +258,7 @@ Make sure that your email is launched.
 To identify the contact, we are using their email address, which is also the default key. Therefore, we do not have to
 define a ``key_id`` here.
 
-For further information about creating or updating a contact in Suite, see :doc:`../../contacts/contact_create` and :doc:`../../contacts/contact_update`.
+For further information about creating or updating a contact in Suite, see :doc:`../suite/contacts/contact_create` and :doc:`../suite/contacts/contact_update`.
 
 2. Trigger the Event
 
@@ -294,9 +295,9 @@ Where
 * *external_id* is the value of the key field, the contact’s email in this case.
 * *data* is your transaction-specific content in the form of **placeholder:value** that are included in a **global** object.
 
-Retrieve external event IDs by querying all external events on the API (see :doc:`../../external_events/external_event_list`).
-For further information about triggering external events, see :doc:`../../external_events/external_event_trigger`.
-For a list of available Field IDs, see :doc:`../../appendices/system_fields`.
+Retrieve external event IDs by querying all external events on the API (see :doc:`../suite/external_events/external_event_list`).
+For further information about triggering external events, see :doc:`../suite/external_events/external_event_trigger`.
+For a list of available Field IDs, see :doc:`../suite/appendices/system_fields`.
 
 3. Check the Results
 
