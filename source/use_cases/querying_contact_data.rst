@@ -6,7 +6,7 @@ If you already have contacts in the Suite, then you can query contact data if yo
 The steps will be as follows:
 
 1. Querying Contact IDs from a Contact List ID
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------------------
 
 **Request**:
 
@@ -28,7 +28,7 @@ Where the IDs are the contact IDs.
 See :doc:`../../suite/contacts/contact_list_list_contacts`.
 
 2. Querying Contact Data with a Specific Contact ID
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------------------------
 
 **Request**:
 
