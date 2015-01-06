@@ -95,7 +95,7 @@ Request containing a multichoice field *405067*:
 
 To identify the contact, we are using the key_id of the **externalID** field mentioned in the preparation.
 
-For further information about creating or updating a contact in the Suite, see :doc:`../suite/contacts/contact_create` and :doc:`../suite/contacts/contact_update`.
+For further information about creating or updating a contact in the Suite, see :doc:`../../suite/contacts/contact_create` and :doc:`../suite/contacts/contact_update`.
 
 2. Trigger the Event
 --------------------
