@@ -18,7 +18,7 @@ You can check whether a contact exists in the Suite by requesting its internal c
 
 * If you get a result with replyCode 0, then it already exists, so you have to update it.
 * If you get a result with replyCode 2008, then it does not yet exist, so you have to create it.
-* If the replyCode differs from the ones mentioned above, it indicates an error, so please refer to
+* If the replyCode differs from the ones mentioned above, it indicates an error, so please refer to the
   :doc:`../../suite/appendices/error_codes`.
 
 **Request**:
@@ -45,7 +45,7 @@ Where *ids* are internal IDs,and *errors* contains the error ID and the error me
 
 2(a) Update a Contact (:doc:`../../suite/contacts/contact_update`)
 
-You have to execute this step if replyCode 0 was returned in Step 1. This means that you have to update the contact
+You have to execute this step if replyCode 0 was returned in step 1. This means that you have to update the contact
 (not create it) in the Suite.
 
 .. :note:: Each field value that you provide here will override the already existing ones in the Suite.
@@ -66,7 +66,7 @@ Where *id* is the ID of the updated contact.
 
 2(b) Create a New Contact (:doc:`../../suite/contacts/contact_create`)
 
-You have to execute this step if replyCode 2008 was returned in Step 1. Here you can simply create the new contact
+You have to execute this step if replyCode 2008 was returned in step 1. Here you can simply create the new contact
 in the Suite.
 
 **Request**:

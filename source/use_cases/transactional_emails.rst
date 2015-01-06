@@ -6,9 +6,9 @@ To trigger a welcome email, we use an external event which contains information 
 
 The steps of this use case will be as follows:
 
-1. Add a new contact to your Suite database
-2. Send a welcome email to the contact via an external event in the Suite
-3. Check the results
+1. Add a new contact to your Suite database.
+2. Send a welcome email to the contact via an external event in the Suite.
+3. Check the results.
 
 This use case will be presented in varying degrees of complexity:
 
@@ -64,7 +64,7 @@ For further information about creating an email via the Suite UI, please see the
       "3": "test@example.com"
    }
 
-To identify the contact we are using their email address, which is also the default key. Therefore, we do not have to
+To identify the contact we are using their email address which is also the default key. Therefore, we do not have to
 define a key_id here.
 
 For further information about creating and updating a contact in the Suite, see :doc:`../suite/contacts/contact_create` and :doc:`../suite/contacts/contact_update`.
@@ -102,9 +102,9 @@ For a list of available Field IDs, see :doc:`../suite/appendices/system_fields`.
 
 Check whether an email was sent successfully:
 
-* Check with a test contact if the ‘Welcome email’ has arrived – it should be delivered within seconds.
+* Check with a test contact if the welcome email has arrived – it should be delivered within seconds.
 * Use the Suite UI to check if an email was sent.
-* In the Analysis module in the Emails page, you can see that the count of sent emails increases.
+* In the **Analysis** module in the **Emails** page, you can see that the count of sent emails increases.
 
 For further information, please see the Suite Online Help.
 
@@ -133,7 +133,7 @@ Preconditions:
   (see :doc:`../suite/contacts/contact_field_list`).
 
 * **Create an External Event**:
-Create the external event in the Suite UI. You can find external events in the **Admin** menu.
+  Create the external event in the Suite UI. You can find external events in the **Admin** menu.
 
 * **Create the Email**:
 
@@ -142,7 +142,7 @@ Create the external event in the Suite UI. You can find external events in the *
   * choose your event
 
 * **Launch Email**:
-Make sure that your email is launched.
+  Make sure that your email is launched.
 
 For further information about creating an email via the Suite UI, please see the Suite Online Help.
 
@@ -202,7 +202,7 @@ Check whether an email was sent successfully:
 
 * Check with a test contact if the ‘Welcome email’ has arrived – it should be delivered within seconds.
 * Use the Suite UI to check if an email was sent.
-* In the **Analysis** module in the **Emails** page you can see that the count of sent emails increases.
+* In the **Analysis** module in the **Emails** page, you can see that the count of sent emails increases.
 
 For further information, please see the Suite Online Help.
 
