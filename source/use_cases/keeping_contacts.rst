@@ -9,9 +9,6 @@ This use case is about deciding whether a given contact exists and creating or u
 
 .. :note:: We say that a contact exists in the Suite if a contact with the same key can be found.
 
-Basic Scenario
---------------
-
 1. Check whether Contact Exists in the Suite (:doc:`../../suite/contacts/contact_check_internal_ids`)
 
 You can check whether a contact exists in the Suite by requesting its internal contact ID.
@@ -30,13 +27,13 @@ You can check whether a contact exists in the Suite by requesting its internal c
 .. code-block:: json
 
    {
-      "ids":{
-         "obadiah.stane@example.com":"9832304",
-         "jinsen@example.com":"9839473"
+      "ids": {
+         "obadiah.stane@example.com": "9832304",
+         "jinsen@example.com": "9839473"
       },
-      "errors":{
-         "raza@example.com":{
-            "2008":"No contact found with the external id: 3"
+      "errors": {
+         "raza@example.com": {
+            "2008": "No contact found with the external id: 3"
          }
       }
    }

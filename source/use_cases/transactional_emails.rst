@@ -41,9 +41,9 @@ user name and password).
 
 * **Create the Email**:
 
-  * set **Generated through an event** as the **Recipient source**
-  * set **On External Event** as the Event.
-  * choose your event
+  * Set **Generated through an event** as the **Recipient source**.
+  * Set **On External Event** as the Event.
+  * Choose your event.
 
 * **Launch Email**:
   Make sure that your email is launched.
@@ -137,9 +137,9 @@ Preconditions:
 
 * **Create the Email**:
 
-  * set **Generated through an event** as the **Recipient source**.
-  * set **On External Event** as the event.
-  * choose your event
+  * Set **Generated through an event** as the **Recipient source**.
+  * Set **On External Event** as the event.
+  * Choose your event.
 
 * **Launch Email**:
   Make sure that your email is launched.
@@ -229,9 +229,9 @@ Preconditions:
 
 * **Create the Email**:
 
-  * set **Generated through an event** as the **Recipient source**
-  * set **On External Event** as the event
-  * choose your event
+  * Set **Generated through an event** as the **Recipient source**.
+  * Set **On External Event** as the event.
+  * Choose your event.
 
 * **Launch Email**:
   Make sure that your email is launched.
