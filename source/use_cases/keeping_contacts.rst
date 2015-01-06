@@ -13,7 +13,7 @@ You can check whether a contact exists in the Suite by requesting its internal c
 
 * If you get a result with replyCode 0, then it already exists, so you have to update it.
 * If you get a result with replyCode 2008, then it does not yet exist, so you have to create it.
-* If the replyCode differs from the ones mentioned above, it indicates an error, so please refer to the
+* If the replyCode differs from the ones mentioned above, it indicates an error, so please check the
   :doc:`../../suite/appendices/error_codes`.
 
 **Request**:
