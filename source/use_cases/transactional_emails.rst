@@ -2,13 +2,12 @@ Sending Transactional Emails
 ============================
 
 The aim of this use case is to send a welcome mail to all newly-registered contacts.
-
 To trigger a welcome mail, we use an external event which contains information about the intended recipient.
 
 The steps of this use case will be as follows:
 
-1. A new contact registers on your website and you want to add them to your eMarketing Suite database as well.
-2. Tell the eMarketing Suite to send a welcome mail to the contact via an external event
+1. A new contact registers on your website and you want to add them to your Suite database as well.
+2. Tell the Suite to send a welcome mail to the contact via an external event
 3. Check the results
 
 This use case will be presented in varying degrees of complexity:
@@ -17,86 +16,98 @@ This use case will be presented in varying degrees of complexity:
 * Using the external ID as key
 * Customizing the email with data from the external event
 
-Basic Scenario: Using the email address as key
+Basic Scenario: Using the Email Address as Key
 ----------------------------------------------
 
 The simplest way to send a welcome mail is to use the default value for the “where to?” parameter, which is the contact’s email address.
-Preparation
 
+Preparation
+^^^^^^^^^^^
 Preconditions:
-To perform these preparatory steps you will need the credentials for your Suite account (account name and environment, user name and password).
-Icon BeCareful.png	Create a dedicated external event for each of your emails, otherwise a single external event may accidentally trigger many emails.
-Create an external event
+To perform these preparatory steps, you will need the credentials for your Suite account (account name and environment,
+user name and password).
+
+.. note:: Create a dedicated external event for each of your emails, otherwise a single external event may accidentally
+trigger many emails.
+
+* Create an external event
 
 Create the external event in the Suite UI. You can find external events in the Admin menu.
 
-Email Settings
+* Create the Email
 
-Create the email:
-Set Generated through an event as the Recipient source.
-Set On External Event as the Event.
-Choose your event
+* set **Generated through an event** as the **Recipient source**
+* set **On External Event** as the Event.
+* choose your event
 
-Launch Email
+* Launch Email
 
 Make sure that your email is launched.
 
-Icon FurtherReading.png	For further information about creating an email via the Suite UI please see the eMarketing Suite Online Help.
-Step 1: Create the contact
+For further information about creating an email via the Suite UI, please see the Suite Online Help.
 
-To create a new contact, send a POST request to the /api/v2/contact URI.
+1. Create the Contact
 
-The following example shows a minimal payload:
+**Request**:
 
-{
-“3”:”test@example.com”
-}
+``POST /api/v2/contact``
 
-To identify the contact we are using their email address, which is also the default key. Therefore, we do not have to define a key_id here.
-Please Note:
-You cannot create an already existing contact.
-Icon FurtherReading.png	For further information about creating a contact in Suite, see Creating a Contact in the Suite API Technical Reference.
-Icon FurtherReading.png	For further information about updating a contact in Suite, see Updating a Contact in the Suite API Technical Reference.
-Step 2: Trigger the event
+**Response**:
 
-Preconditions:
+.. code-block:: json
 
-You need at least one contact available in Suite so that the contact data can be used.
+   {
+   “3”:”test@example.com”
+   }
 
-Trigger your external event by sending a POST request to the /api/v2/event//trigger URI. Use your external event ID as the id. For more about the external ID, see below.
+.. note:: To identify the contact we are using their email address, which is also the default key. Therefore, we do not have to
+define a key_id here.
 
-The following example shows a minimal payload:
+For further information about creating and updating a contact in Suite, see Creating/Updating a Contact in the
+:doc:`technical_reference`.
 
-{
-“key_id”:”3″,
-“external_id”: “test@example.com”
-}
+2. Trigger the Event
 
-Where…
+.. note:: You need at least one contact available in Suite so that the contact data can be used.
 
-id = The external event ID (not the name!). Since these IDs don’t change, you can just use the API demo page to get the ID, and use it in your integration script.
+**Request**:
 
-key_id = The ID of the key field of the contact. We are using ‘3’ meaning the email address.
+``POST /api/v2/event/trigger``
 
-external_id = The value of the key field, the contact’s email in this case.
-Icon FurtherReading.png
+Use your external event ID as id. For more information about the external ID, see below.
 
-Retrieve external event IDs by querying all external events on the API (see the ‘Getting All External Events’ chapter in the Suite API Technical Reference).
-For further information about triggering external events, see the chapter Triggering External Events in the Suite API Technical Reference.
-For a list of available Field IDs, click here
+**Response**:
 
-Step 3: Check results
+.. code-block:: json
+
+   {
+   “key_id”: ”3″,
+   “external_id”: “test@example.com”
+   }
+
+Where
+
+* *id* is the external event ID (not the name!). Since these IDs don’t change, you can just use the API demo page to
+  get the ID, and use it in your integration script.
+* *key_id* is the ID of the key field of the contact. We are using ‘3’, which stands for the email address.
+* *external_id* is the value of the key field, the contact’s email in this case.
+
+Retrieve external event IDs by querying all external events on the API (see :doc:`../../external_events/external_event_list`).
+For further information about triggering external events, see :doc:`../../external_events/external_event_trigger`.
+For a list of available Field IDs, see :doc:`../../appendices/system_fields`.
+
+3. Check the Results
 
 Check Sent-Counter
 
-Check whether an email was sent successfully:
-Check with a test contact if the ‘Welcome email’ has arrived – it should be delivered within seconds.
-Use the Suite UI to check if an email was sent.
-In the Analysis module in the Emails page you can see that the count of Sent emails increases.
+* Check whether an email was sent successfully:
+  * Check with a test contact if the ‘Welcome email’ has arrived – it should be delivered within seconds.
+  * Use the Suite UI to check if an email was sent.
+  * In the Analysis module in the Emails page, you can see that the count of sent emails increases.
 
-Icon FurtherReading.png	For further information please see the eMarketing Suite Online Help.
+For further information, please see the Suite Online Help.
 
-Advanced scenario: Use custom external ID as a key
+Advanced Scenario: Use Custom External ID as a Key
 --------------------------------------------------
 
 If you want to use the same ID that you have in your external database to identify contacts in Suite, you can use an
@@ -106,179 +117,164 @@ Let’s suppose that external ID is the name of the column in your database that
 use the same name for your custom field in Suite.
 
 Preparation
+^^^^^^^^^^^
+
 Preconditions:
+* To perform these preparatory steps, you will need the credentials for your Suite account (account name and environment,
+  user name and password).
+* Create a dedicated external event for each of your emails, otherwise a single external event may accidentally
+  trigger many emails.
+* You should already have a custom field for the external ID, called **externalId**.
+  If you do not have one, create it in the Suite via the **Admin** menu, **Field editor**.
+* Fetch the field ID of the **externalID** field.
+  To create a contact with custom fields like our **externalID** you need the IDs of the fields you want to involve. You can
+  fetch them via the API (see :doc:`../../contacts/contact_field_list`).
 
-To perform these preparatory steps you will need the credentials for your Suite account (account name and environment,
-user name and password).
+* Create an External Event
 
-.. note:: Create a dedicated external event for each of your emails, otherwise a single external event may accidentally
-trigger many emails.
+Create the external event in the Suite UI. You can find external events in the **Admin** menu.
 
-1. You should already have a custom field for the external ID, called **externalId**.
-If you do not have one, create it in Suite via the **Admin** menu, **Field editor**.
-2. Fetch the field ID of the **externalID** field.
-To create a contact with custom fields like our **externalID** you need the IDs of the fields you want to involve. You can
-fetch them via the API (see the ‘Querying Field Lists’ chapter in the Suite API Technical Reference).
+* Create the Email
 
-Create an external event
+* set **Generated through an event** as the **Recipient source**.
+* set **On External Event** as the event.
+* choose your event
 
-* Create the external event in the Suite UI. You can find external events in the **Admin** menu.
+* Launch Email
 
-Suite_API_create_external_event_crop
+Make sure that your email is launched.
 
-Email Settings
+.. note:: For further information about creating an email via the Suite UI, please see the Suite Online Help.
 
-* Create the email:
-  * Set **Generated through an event** as the **Recipient source**.
-  * Set **On External Event** as the **Event**.
-* Choose your event
+1. Create User
 
-Suite_API_set_external_event_as_recipient_source_of_an_email_crop
+**Request**:
 
-Launch Email
+``POST /api/v2/contact``
 
-* Make sure that your email is launched.
-
-Suite_API_acivate_email_colour
-
-.. note:: For further information about creating an email via the Suite UI please see the eMarketing Suite Online Help.
-
-Step 1: Create user
-
-To create a new contact, send a ``POST`` request to the ``/api/v2/contact`` URI.
-
-The following example shows a minimal payload:
+**Response**:
 
 .. code-block:: json
 
    {
-      "key_id":"123456",
-      "123456":"789",
-      "3":"test@example.com"
+      "key_id": "123456",
+      "123456": "789",
+      "3": "test@example.com"
    }
 
-To identify the contact we are using the key id of the **externalID** field you figured out during the preparation step.
+To identify the contact, we are using the key_id of the **externalID** field mentioned in the preparation.
 
-.. note:: You cannot create an already existing contact. For further information about creating a contact in Suite,
-see Creating a Contact in the Suite API Technical Reference. For further information about updating a contact in Suite,
-see Updating a Contact in the Suite API Technical Reference.
+For further information about creating or updating a contact in Suite, see :doc:`../../contacts/contact_create` and :doc:`../../contacts/contact_update`.
 
-Step 2: Trigger the event
+2. Trigger the Event
 
-Preconditions:
+.. note:: You need at least one contact available in Suite so that the contact data can be used.
 
-* You need at least one contact available in Suite so that the contact data can be used.
-Trigger your external event by sending a ``POST`` request to the ``/api/v2/event/<id>/trigger`` URI. Use your **external event ID**
-as the ``id``. For more about the external ID, see below.
+**Request**:
 
-The following example shows a minimal payload:
+``POST /api/v2/event/<id>/trigger``
+
+Use your **external event ID** as *id*. For more about the external ID, see below.
+
+**Response**:
 
 .. code-block:: json
 
    {
-      "key_id":"123456",
+      "key_id": "123456",
       "external_id": "789"
    }
 
-**Where…**
+Where
 
-**id** = The external event ID (not the name!). Since these IDs don’t change, you can just use the API demo page to get the ID, and use it in your integration script.
+* *id* is the external event ID (not the name!). Since these IDs don’t change, you can just use the API demo page to get
+the ID, and use it in your integration script.
+* *key_id* is the ID of the key field of the contact. We are using the key id of the **externalID** field you identified
+during the preparation.
+* *external_id* is the value of the key field, your ‘external ID’ in this case.
 
-**key_id** = The ID of the key field of the contact. We are using the key id of the **externalID** field you identified during the preparation step.
+Retrieve external event IDs by querying all external events on the API (see :doc:`../../external_events/external_event_list`).
+For further information about triggering external events, see :doc:`../../external_events/external_event_trigger`.
+For a list of available Field IDs, see :doc:`../../appendices/system_fields`.
 
-**external_id** = The value of the key field, your ‘external ID’ in this case.
-
-.. note::
-* Retrieve external event IDs by querying all external events on the API (see the ‘Getting All External Events’ chapter in the Suite API Technical Reference).
-* For further information about triggering external events, see the chapter Triggering External Events in the Suite API Technical Reference.
-* For a list of available Field IDs, click here
-
-Step 3: Check results
+3. Check the Results
 
 Check Sent-Counter
 
 * Check whether an email was sent successfully:
   * Check with a test contact if the ‘Welcome email’ has arrived – it should be delivered within seconds.
   * Use the Suite UI to check if an email was sent.
-    In the **Analysis** module in the **Emails** page you can see that the count of **Sent** emails increases.
+    In the **Analysis** module in the **Emails** page you can see that the count of sent emails increases.
 
-Suite_API_check_email_sent_colour
+For further information, please see the Suite Online Help.
 
-.. note:: For further information please see the eMarketing Suite Online Help.
-
-Advanced scenario: Customize your email with data from external events
+Advanced Scenario: Customize your Email with Data from External Events
 ----------------------------------------------------------------------
 
 If you want to thank contacts for their first purchase and you also want to mention the product they bought, you need
-to include **transaction-specific content**. In this case you have to use a placeholder for the transaction-specific content
+to include **transaction-specific content**. In this case, you have to use a placeholder for the transaction-specific content
 in your email and send the item name along with the external event.
 
 Preparation
+^^^^^^^^^^^
+
 Preconditions:
-
-To perform these preparatory steps you will need the credentials for your Suite account (account name and environment,
+* To perform these preparatory steps, you will need the credentials for your Suite account (account name and environment,
 user name and password).
-
-.. note:: Create a dedicated external event for each of your emails, otherwise a single external event may accidentally
+* Create a dedicated external event for each of your emails, otherwise a single external event may accidentally
 trigger many emails.
 
-Create an external event
+* Create an External Event
 
-* Create the external event in the Suite UI. You can find external events in the **Admin** menu.
+Create the external event in the Suite UI. You can find external events in the **Admin** menu.
 
-Suite_API_create_external_event_crop
+* Create the Email
 
-Email Settings
+* set **Generated through an event** as the **Recipient source**
+* set **On External Event** as the event
+* choose your event
 
-* Create the email:
-  * Set **Generated through an event** as the **Recipient source**.
-  * Set **On External Event** as the **Event**.
-* Choose your event
+* Launch Email
 
-Suite_API_set_external_event_as_recipient_source_of_an_email_crop
+Make sure that your email is launched.
 
-Launch Email
+.. note:: For further information about creating an email via the Suite UI, please see the Suite Online Help.
 
-* Make sure that your email is launched.
+1. Create User
 
-Suite_API_acivate_email_colour
+**Request**:
 
-.. note:: For further information about creating an email via the Suite UI please see the eMarketing Suite Online Help.
+``POST /api/v2/contact``
 
-Step 1: Create user
-
-To create a new contact, send a ``POST`` request to the ``/api/v2/contact`` URI.
-
-The following example shows a minimal payload:
+**Response**:
 
 .. code-block:: json
 
    {
-      "3":"test@example.com"
+      "3": "test@example.com"
    }
 
-To identify the contact we are using their email address, which is also the default key. Therefore, we do not have to
+To identify the contact, we are using their email address, which is also the default key. Therefore, we do not have to
 define a ``key_id`` here.
 
-.. note:: You cannot create an already existing contact. For further information about creating a contact in Suite, see
-Creating a Contact in the Suite API Technical Reference. For further information about updating a contact in Suite, see
-Updating a Contact in the Suite API Technical Reference.
+For further information about creating or updating a contact in Suite, see :doc:`../../contacts/contact_create` and :doc:`../../contacts/contact_update`.
 
-Step 2: Trigger the event
+2. Trigger the Event
 
-Preconditions:
+.. note:: You need at least one contact available in Suite so that the contact data can be used.
 
-* You need at least one contact available in Suite so that the contact data can be used.
+**Request**:
 
-You can trigger your external event by sending a ``POST`` request to the ``/api/v2/event/<id>/trigger`` URI, where the ``<id>`` is
-your external event ID.
+``POST /api/v2/event/<id>/trigger``
 
-The following example shows a minimal payload:
+The ``<id>`` is your external event ID.
+
+**Response**:
 
 .. code-block:: json
 
    {
-      "key_id":"3",
+      "key_id": "3",
       "external_id": "test@example.com"
       "data":
       {
@@ -290,24 +286,19 @@ The following example shows a minimal payload:
       }
    }
 
-Where…
+Where
 
-**id** = The external event ID (not the name!). Since these IDs don’t change, you can just use the API demo page to get the ID, and use it in your integration script.
+* *id* is the external event ID (not the name!). Since these IDs don’t change, you can just use the API demo page to
+  get the ID, and use it in your integration script.
+* *key_id* is the ID of the key field of the contact. We are using ‘3’ meaning the e-mail address.
+* *external_id* is the value of the key field, the contact’s email in this case.
+* *data* is your transaction-specific content in the form of **placeholder:value** that are included in a **global** object.
 
-**key_id** = The ID of the key field of the contact. We are using ‘3’ meaning the e-mail address.
+Retrieve external event IDs by querying all external events on the API (see :doc:`../../external_events/external_event_list`).
+For further information about triggering external events, see :doc:`../../external_events/external_event_trigger`.
+For a list of available Field IDs, see :doc:`../../appendices/system_fields`.
 
-**external_id** = The value of the key field, the contact’s email in this case.
-
-**data** = Your transaction-specific content in form of **placeholder:value** that are included in a **global** object.
-
-.. note::
-* Retrieve external event IDs by querying all external events on the API (see the ‘Getting All External Events’ chapter
-  in the Suite API Technical Reference).
-* For further information about triggering external events, see the chapter Triggering External Events in the Suite API
-  Technical Reference.
-* For a list of available Field IDs, click here
-
-Step 3: Check results
+3. Check the Results
 
 Check Sent-Counter
 
@@ -316,6 +307,4 @@ Check Sent-Counter
   * Use the Suite UI to check if an email was sent. In the Analysis module in the Emails page you can see that the
     count of Sent emails increases.
 
-Suite_API_check_email_sent_colour
-
-.. note:: For further information please see the eMarketing Suite Online Help.
+.. note:: For further information, please see the Suite Online Help.

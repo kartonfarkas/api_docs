@@ -1,7 +1,7 @@
 Technical Reference
 -------------------
 
-Below is a reference of the interfaces implemented in the eMarketing Suite API.
+Below is a reference of the interfaces implemented in the Suite API.
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
