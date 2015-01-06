@@ -6,7 +6,8 @@ Scenario #1: Daily News for Different Segments
 
 For this scenario, you will need to:
 
-1. Create an Email Campaign (:doc:`../../suite/emails/email_create`)
+1. Create an Email Campaign
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Request**:
 
@@ -22,18 +23,24 @@ For this scenario, you will need to:
 
 Where *id* is the new email campaign ID.
 
-2. Launch an Email Campaign (:doc:`../../suite/emails/launch`)
+See :doc:`../../suite/emails/email_create`.
+
+2. Launch an Email Campaign
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Request**:
 
 ``POST /api/v2/email/<2140>/launch``
+
+See :doc:`../../suite/emails/launch`.
 
 Extension of Scenario #1: Using the Media Database
 --------------------------------------------------
 
 For this scenario, you will need to:
 
-1. Upload a File (:doc:`../../suite/emails/media_file_upload`)
+1. Upload a File
+^^^^^^^^^^^^^^^^
 
 **Request**:
 
@@ -55,7 +62,10 @@ For this scenario, you will need to:
 
 Where *filename* is the resulting file name in the media database after upload, and *original_name* is the file name provided in the request.
 
-2. Create an Email Campaign (:doc:`../../suite/emails/email_create`)
+See :doc:`../../suite/emails/media_file_upload`.
+
+2. Create an Email Campaign
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Request**:
 
@@ -71,18 +81,24 @@ Where *filename* is the resulting file name in the media database after upload, 
 
 Where *id* is the new email campaign ID.
 
-3. Launch an Email Campaign (:doc:`../../suite/emails/launch`)
+See :doc:`../../suite/emails/email_create`
+
+3. Launch an Email Campaign
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Request**:
 
 ``POST /api/v2/email/<2140>/launch``
+
+See :doc:`../../suite/emails/launch`.
 
 Scenario #2: Recurring Email to a Contact List with Changing Members
 --------------------------------------------------------------------
 
 For this scenario, you will need to:
 
-1. Remove Contacts from a Contact List (:doc:`../../suite/contacts/contact_list_remove_contacts`)
+1. Remove Contacts from a Contact List
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Request**:
 
@@ -104,7 +120,10 @@ For this scenario, you will need to:
 Where *deleted_contacts* is the number of contacts successfully deleted from the list, and *errors* is an array of
 contacts not removed from the list. The array contains the ID and reason for the error.
 
-2. Add Contacts to a Contact List (:doc:`../../suite/contacts/contact_list_add_contacts`)
+See :doc:`../../suite/contacts/contact_list_remove_contacts`.
+
+2. Add Contacts to a Contact List
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Request**:
 
@@ -127,7 +146,10 @@ Where *inserted_contacts* is the number of contacts successfully added to the li
 *errors* is an array of contacts not added to the list. The array contains the ID and
 reason for the error.
 
-3. Create an Email Campaign (:doc:`../../suite/emails/email_create`)
+See :doc:`../../suite/contacts/contact_list_add_contacts`.
+
+3. Create an Email Campaign
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Request**:
 
@@ -143,25 +165,36 @@ reason for the error.
 
 Where *id* is the new email campaign ID.
 
-4. Launch an Email Campaign (:doc:`../../suite/emails/launch`)
+See :doc:`../../suite/emails/email_create`.
+
+4. Launch an Email Campaign
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Request**:
 
 ``POST /api/v2/email/2140/launch``
+
+See :doc:`../../suite/emails/launch`.
 
 Scenario #2b: Recurring Email to a Contact List; Changing the Email Source Assigned to the Email
 ------------------------------------------------------------------------------------------------
 
 For this scenario, you will need to:
 
-1. Update an Email Campaign Recipient Source (:doc:`../../suite/emails/email_update_source`)
+1. Update an Email Campaign Recipient Source
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Request**:
 
 ``POST /api/v2/email/2140/updatesource``
 
-2. Launch an Email Campaign (:doc:`../../suite/emails/launch`)
+See :doc:`../../suite/emails/email_update_source`.
+
+2. Launch an Email Campaign
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Request**:
 
 ``POST /api/v2/email/2140/launch``
+
+See :doc:`../../suite/emails/launch`.

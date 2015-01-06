@@ -51,6 +51,7 @@ user name and password).
 For further information about creating an email via the Suite UI, please see the Suite Online Help.
 
 1. Create the Contact
+^^^^^^^^^^^^^^^^^^^^^
 
 **Request**:
 
@@ -70,6 +71,7 @@ define a key_id here.
 For further information about creating and updating a contact in the Suite, see :doc:`../suite/contacts/contact_create` and :doc:`../suite/contacts/contact_update`.
 
 2. Trigger the Event
+^^^^^^^^^^^^^^^^^^^^
 
 .. note:: You need at least one contact available in the Suite so that the contact data can be used.
 
@@ -99,6 +101,7 @@ For further information about triggering external events, see :doc:`../suite/ext
 For a list of available Field IDs, see :doc:`../suite/appendices/system_fields`.
 
 3. Check Sent-Counter
+^^^^^^^^^^^^^^^^^^^^^
 
 Check whether an email was sent successfully:
 
@@ -147,6 +150,7 @@ Preparation
 For further information about creating an email via the Suite UI, please see the Suite Online Help.
 
 1. Create User
+^^^^^^^^^^^^^^
 
 **Request**:
 
@@ -167,6 +171,7 @@ To identify the contact, we are using the key_id of the **externalID** field men
 For further information about creating or updating a contact in the Suite, see :doc:`../suite/contacts/contact_create` and :doc:`../suite/contacts/contact_update`.
 
 2. Trigger the Event
+^^^^^^^^^^^^^^^^^^^^
 
 .. note:: You need at least one contact available in the Suite so that the contact data can be used.
 
@@ -197,6 +202,7 @@ For further information about triggering external events, see :doc:`../suite/ext
 For a list of available Field IDs, see :doc:`../suite/appendices/system_fields`.
 
 3. Check Sent-Counter
+^^^^^^^^^^^^^^^^^^^^^
 
 Check whether an email was sent successfully:
 
@@ -239,6 +245,7 @@ Preparation
 For further information about creating an email via the Suite UI, please see the Suite Online Help.
 
 1. Create User
+^^^^^^^^^^^^^^
 
 **Request**:
 
@@ -258,6 +265,7 @@ define a key_id here.
 For further information about creating or updating a contact in the Suite, see :doc:`../suite/contacts/contact_create` and :doc:`../suite/contacts/contact_update`.
 
 2. Trigger the Event
+^^^^^^^^^^^^^^^^^^^^
 
 .. note:: You need at least one contact available in the Suite so that the contact data can be used.
 
@@ -296,6 +304,7 @@ For further information about triggering external events, see :doc:`../suite/ext
 For a list of available Field IDs, see :doc:`../suite/appendices/system_fields`.
 
 3. Check Sent-Counter
+^^^^^^^^^^^^^^^^^^^^^
 
 Check whether an email was sent successfully:
 

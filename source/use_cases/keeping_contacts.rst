@@ -7,7 +7,8 @@ to create it, otherwise you have to update it. This use case is about deciding w
 
 .. :note:: We say that a contact exists in the Suite if a contact with the same key can be found.
 
-1. Check whether Contact Exists in the Suite (:doc:`../../suite/contacts/contact_check_internal_ids`)
+1. Check whether Contact Exists in the Suite
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can check whether a contact exists in the Suite by requesting its internal contact ID.
 
@@ -38,7 +39,10 @@ You can check whether a contact exists in the Suite by requesting its internal c
 
 Where *ids* are internal IDs,and *errors* contains the error ID and the error message as a key-value pair.
 
-2(a) Update a Contact (:doc:`../../suite/contacts/contact_update`)
+See :doc:`../../suite/contacts/contact_check_internal_ids`.
+
+2(a) Update a Contact
+^^^^^^^^^^^^^^^^^^^^^
 
 You have to execute this step if replyCode 0 was returned in step 1. This means that you have to update the contact
 (not create it) in the Suite.
@@ -59,7 +63,10 @@ You have to execute this step if replyCode 0 was returned in step 1. This means 
 
 Where *id* is the ID of the updated contact.
 
-2(b) Create a New Contact (:doc:`../../suite/contacts/contact_create`)
+See :doc:`../../suite/contacts/contact_update`.
+
+2(b) Create a New Contact
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You have to execute this step if replyCode 2008 was returned in step 1. Here you can simply create the new contact
 in the Suite.
@@ -78,5 +85,5 @@ in the Suite.
 
 Where *id* is the ID of the new contact.
 
-
+See :doc:`../../suite/contacts/contact_create`.
 
