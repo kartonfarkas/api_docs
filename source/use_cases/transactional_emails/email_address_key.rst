@@ -86,7 +86,8 @@ Request containing a multichoice field *405067*:
 To identify the contact we are using their email address which is also the default key. Therefore, we do not have to
 define a key_id here.
 
-For further information about creating and updating a contact in the Suite, see :doc:`../suite/contacts/contact_create` and :doc:`../suite/contacts/contact_update`.
+For further information about creating and updating a contact in the Suite, see
+:doc:`../../suite/contacts/contact_create` and :doc:`../../suite/contacts/contact_update`.
 
 2. Trigger the Event
 --------------------
@@ -116,9 +117,9 @@ Where
 * *key_id* is the ID of the key field of the contact. We are using *3*, which stands for the email address.
 * *external_id* is the value of the key field, the contact’s email in this case.
 
-Retrieve external event IDs by querying all external events on the API (see :doc:`../suite/external_events/external_event_list`).
-For further information about triggering external events, see :doc:`../suite/external_events/external_event_trigger`.
-For a list of available Field IDs, see :doc:`../suite/appendices/system_fields`.
+Retrieve external event IDs by querying all external events on the API (see :doc:`../../suite/external_events/external_event_list`).
+For further information about triggering external events, see :doc:`../../suite/external_events/external_event_trigger`.
+For a list of available Field IDs, see :doc:`../../suite/appendices/system_fields`.
 
 3. Check the Result
 -------------------

@@ -125,9 +125,9 @@ Where
 * *external_id* is the value of the key field, the contact’s email in this case.
 * *data* is your transaction-specific content in the form of **placeholder: value** that are included in a *global* object.
 
-Retrieve external event IDs by querying all external events on the API (see :doc:`../suite/external_events/external_event_list`).
-For further information about triggering external events, see :doc:`../suite/external_events/external_event_trigger`.
-For a list of available Field IDs, see :doc:`../suite/appendices/system_fields`.
+Retrieve external event IDs by querying all external events on the API (see :doc:`../../suite/external_events/external_event_list`).
+For further information about triggering external events, see :doc:`../../suite/external_events/external_event_trigger`.
+For a list of available Field IDs, see :doc:`../../suite/appendices/system_fields`.
 
 3. Check the Result
 -------------------
