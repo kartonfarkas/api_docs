@@ -119,7 +119,7 @@ use the same name for your custom field in the Suite.
 Preparation
 ^^^^^^^^^^^
 
-Preconditions:
+**Preconditions**:
 
 + To perform these preparatory steps, you will need the credentials for your Suite account (account name and environment, user name and password).
 
@@ -216,7 +216,7 @@ in your email and send the item name along with the external event.
 Preparation
 ^^^^^^^^^^^
 
-Preconditions:
+**Preconditions**:
 
 * To perform these preparatory steps, you will need the credentials for your Suite account (account name and environment,
   user name and password).
