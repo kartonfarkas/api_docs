@@ -88,7 +88,7 @@ Request containing a multichoice field *405067*:
 To identify the contact, we are using the email address, which is also the default key. Therefore, we do not have to
 define a key_id here.
 
-For further information about creating or updating a contact in the Suite, see :doc:`../suite/contacts/contact_create` and :doc:`../suite/contacts/contact_update`.
+For further information about creating or updating a contact in the Suite, see :doc:`../../suite/contacts/contact_create` and :doc:`../../suite/contacts/contact_update`.
 
 2. Trigger the Event
 --------------------
