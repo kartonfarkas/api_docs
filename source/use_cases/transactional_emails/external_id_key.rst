@@ -95,7 +95,7 @@ Request containing a multichoice field *405067*:
 
 To identify the contact, we are using the key_id of the **externalID** field mentioned in the preparation.
 
-For further information about creating or updating a contact in the Suite, see :doc:`../../suite/contacts/contact_create` and :doc:`../suite/contacts/contact_update`.
+For further information about creating or updating a contact in the Suite, see :doc:`../../suite/contacts/contact_create` and :doc:`../../suite/contacts/contact_update`.
 
 2. Trigger the Event
 --------------------
@@ -124,9 +124,9 @@ Where
   during the preparation.
 * *external_id* is the value of the key field, your ‘external ID’ in this case.
 
-Retrieve external event IDs by querying all external events on the API (see :doc:`../suite/external_events/external_event_list`).
-For further information about triggering external events, see :doc:`../suite/external_events/external_event_trigger`.
-For a list of available Field IDs, see :doc:`../suite/appendices/system_fields`.
+Retrieve external event IDs by querying all external events on the API (see :doc:`../../suite/external_events/external_event_list`).
+For further information about triggering external events, see :doc:`../../suite/external_events/external_event_trigger`.
+For a list of available Field IDs, see :doc:`../../suite/appendices/system_fields`.
 
 3. Check the Result
 -------------------
