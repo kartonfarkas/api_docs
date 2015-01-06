@@ -1,31 +1,36 @@
 Sending Transactional Emails
 ============================
 
-The aim of this use case is to send a welcome mail to all newly-registered contacts.
-To trigger a welcome mail, we use an external event which contains information about the intended recipient.
+The aim of this use case is to send a welcome email to all newly-registered contacts.
+To trigger a welcome email, we use an external event which contains information about the intended recipient.
 
 The steps of this use case will be as follows:
 
-1. A new contact registers on your website and you want to add them to your Suite database as well.
+1. Add a new contact to your Suite database
 2. Send a welcome mail to the contact via an external event in the Suite
 3. Check the results
 
 This use case will be presented in varying degrees of complexity:
 
+**Basic Scenario**:
+
 * using the email address as key
+
+**Advanced Scenario**:
+
 * using the external ID as key
 * customizing the email with data from the external event
 
 Basic Scenario: Using the Email Address as Key
 ----------------------------------------------
 
-The simplest way to send a welcome mail is to use the default value for the “where to?” parameter, which is the contact’s email address.
+The simplest way to send a welcome email is to use the default value for the “where to?” parameter, which is the contact’s email address.
 
 Preparation
 ^^^^^^^^^^^
 **Preconditions**:
 
-To perform these preparatory steps, you will need the credentials for your Suite account (account name and environment,
+To perform these preparatory steps, you will need the credentials of your Suite account (account name and environment,
 user name and password).
 
 .. note:: Create a dedicated external event for each of your emails, otherwise a single external event may accidentally
@@ -33,13 +38,15 @@ user name and password).
 
 * Create an external event
 
-Create the external event in the Suite UI. You can find external events in the Admin menu.
+Create the external event in the Suite UI. You can find external events in the **Admin** menu.
 
 * Create the Email
+
 
   * set **Generated through an event** as the **Recipient source**
   * set **On External Event** as the Event.
   * choose your event
+
 
 * Launch Email
 
@@ -58,23 +65,23 @@ For further information about creating an email via the Suite UI, please see the
 .. code-block:: json
 
    {
-      "3":"test@example.com"
+      "3": "test@example.com"
    }
 
 .. note:: To identify the contact we are using their email address, which is also the default key. Therefore, we do not have to
-          define a key_id here.
+          define a ``key_id`` here.
 
-For further information about creating and updating a contact in Suite, see :doc:`../suite/contacts/contact_create` and :doc:`../suite/contacts/contact_update`.
+For further information about creating and updating a contact in the Suite, see :doc:`../suite/contacts/contact_create` and :doc:`../suite/contacts/contact_update`.
 
 2. Trigger the Event
 
-.. note:: You need at least one contact available in Suite so that the contact data can be used.
+.. note:: You need at least one contact available in the Suite so that the contact data can be used.
 
 **Request**:
 
-``POST /api/v2/event/trigger``
+``POST /api/v2/event/<id>/trigger``
 
-Use your external event ID as id. For more information about the external ID, see below.
+Use your external event ID as *id*. For more information about the external ID, see below.
 
 **Response**:
 
@@ -111,7 +118,7 @@ For further information, please see the Suite Online Help.
 Advanced Scenario: Use Custom External ID as a Key
 --------------------------------------------------
 
-If you want to use the same ID that you have in your external database to identify contacts in Suite, you can use an
+If you want to use the same ID that you have in your external database to identify contacts in the Suite, you can use an
 external ID.
 Let’s suppose that external ID is the name of the column in your database that contains the external ID and you want to
 use the same name for your custom field in the Suite.
@@ -122,12 +129,14 @@ Preparation
 Preconditions:
 
 * To perform these preparatory steps, you will need the credentials for your Suite account (account name and environment, user name and password).
-* Create a dedicated external event for each of your emails, otherwise a single external event may accidentally
-  trigger many emails.
+
+.. note:: Create a dedicated external event for each of your emails, otherwise a single external event may accidentally
+          trigger many emails.
+
 * You should already have a custom field for the external ID, called **externalId**.
   If you do not have one, create it in the Suite via the **Admin** menu, **Field editor**.
 * Fetch the field ID of the **externalID** field.
-  To create a contact with custom fields like our **externalID** you need the IDs of the fields you want to involve. You can
+  To create a contact with custom fields like our **externalID**, you need the IDs of the fields you want to involve. You can
   fetch them via the API (see :doc:`../suite/contacts/contact_field_list`).
 
 
@@ -199,15 +208,13 @@ Retrieve external event IDs by querying all external events on the API (see :doc
 For further information about triggering external events, see :doc:`../suite/external_events/external_event_trigger`.
 For a list of available Field IDs, see :doc:`../suite/appendices/system_fields`.
 
-3. Check the Results
+3. Check Sent-Counter
 
-Check Sent-Counter
+Check whether an email was sent successfully:
 
-* Check whether an email was sent successfully:
-
-  * Check with a test contact if the ‘Welcome email’ has arrived – it should be delivered within seconds.
-  * Use the Suite UI to check if an email was sent.
-  * In the **Analysis** module in the **Emails** page you can see that the count of sent emails increases.
+* Check with a test contact if the ‘Welcome email’ has arrived – it should be delivered within seconds.
+* Use the Suite UI to check if an email was sent.
+* In the **Analysis** module in the **Emails** page you can see that the count of sent emails increases.
 
 For further information, please see the Suite Online Help.
 
@@ -225,8 +232,9 @@ Preconditions:
 
 * To perform these preparatory steps, you will need the credentials for your Suite account (account name and environment,
   user name and password).
-* Create a dedicated external event for each of your emails, otherwise a single external event may accidentally
-  trigger many emails.
+
+.. note:: Create a dedicated external event for each of your emails, otherwise a single external event may accidentally
+          trigger many emails.
 
 * Create an External Event
 
@@ -273,7 +281,7 @@ For further information about creating or updating a contact in the Suite, see :
 
 ``POST /api/v2/event/<id>/trigger``
 
-The ``<id>`` is your external event ID.
+The *id* is your external event ID.
 
 **Response**:
 
@@ -304,14 +312,12 @@ Retrieve external event IDs by querying all external events on the API (see :doc
 For further information about triggering external events, see :doc:`../suite/external_events/external_event_trigger`.
 For a list of available Field IDs, see :doc:`../suite/appendices/system_fields`.
 
-3. Check the Results
+3. Check Sent-Counter
 
-Check Sent-Counter
+Check whether an email was sent successfully:
 
-* Check whether an email was sent successfully:
-
-  * Check with a test contact if the ‘Welcome email’ has arrived – it should be delivered within seconds.
-  * Use the Suite UI to check if an email was sent. In the Analysis module in the Emails page you can see that the
-    count of Sent emails increases.
+* Check with a test contact if the ‘Welcome email’ has arrived – it should be delivered within seconds.
+* Use the Suite UI to check if an email was sent. In the Analysis module in the Emails page you can see that the
+  count of Sent emails increases.
 
 For further information, please see the Suite Online Help.
