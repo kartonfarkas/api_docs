@@ -136,15 +136,15 @@ Create the external event in the Suite UI. You can find external events in the *
 
 * Create the Email
 
-* set **Generated through an event** as the **Recipient source**.
-* set **On External Event** as the event.
-* choose your event
+  * set **Generated through an event** as the **Recipient source**.
+  * set **On External Event** as the event.
+  * choose your event
 
 * Launch Email
 
 Make sure that your email is launched.
 
-.. note:: For further information about creating an email via the Suite UI, please see the Suite Online Help.
+For further information about creating an email via the Suite UI, please see the Suite Online Help.
 
 1. Create User
 
@@ -188,9 +188,9 @@ Use your **external event ID** as *id*. For more about the external ID, see belo
 Where
 
 * *id* is the external event ID (not the name!). Since these IDs don’t change, you can just use the API demo page to get
-the ID, and use it in your integration script.
+  the ID, and use it in your integration script.
 * *key_id* is the ID of the key field of the contact. We are using the key id of the **externalID** field you identified
-during the preparation.
+  during the preparation.
 * *external_id* is the value of the key field, your ‘external ID’ in this case.
 
 Retrieve external event IDs by querying all external events on the API (see :doc:`../suite/external_events/external_event_list`).
@@ -205,7 +205,7 @@ Check Sent-Counter
 
   * Check with a test contact if the ‘Welcome email’ has arrived – it should be delivered within seconds.
   * Use the Suite UI to check if an email was sent.
-    In the **Analysis** module in the **Emails** page you can see that the count of sent emails increases.
+  * In the **Analysis** module in the **Emails** page you can see that the count of sent emails increases.
 
 For further information, please see the Suite Online Help.
 
@@ -220,6 +220,7 @@ Preparation
 ^^^^^^^^^^^
 
 Preconditions:
+
 * To perform these preparatory steps, you will need the credentials for your Suite account (account name and environment,
 user name and password).
 * Create a dedicated external event for each of your emails, otherwise a single external event may accidentally
@@ -231,15 +232,15 @@ Create the external event in the Suite UI. You can find external events in the *
 
 * Create the Email
 
-* set **Generated through an event** as the **Recipient source**
-* set **On External Event** as the event
-* choose your event
+  * set **Generated through an event** as the **Recipient source**
+  * set **On External Event** as the event
+  * choose your event
 
 * Launch Email
 
 Make sure that your email is launched.
 
-.. note:: For further information about creating an email via the Suite UI, please see the Suite Online Help.
+For further information about creating an email via the Suite UI, please see the Suite Online Help.
 
 1. Create User
 
@@ -304,8 +305,9 @@ For a list of available Field IDs, see :doc:`../suite/appendices/system_fields`.
 Check Sent-Counter
 
 * Check whether an email was sent successfully:
+
   * Check with a test contact if the ‘Welcome email’ has arrived – it should be delivered within seconds.
   * Use the Suite UI to check if an email was sent. In the Analysis module in the Emails page you can see that the
     count of Sent emails increases.
 
-.. note:: For further information, please see the Suite Online Help.
+For further information, please see the Suite Online Help.
