@@ -1,5 +1,5 @@
-Use Custom External ID as a Key
-===============================
+Use Custom External ID as Key
+=============================
 
 If you want to use the same ID that you have in your external database to identify contacts in the Suite, you can use an
 external ID.
@@ -20,7 +20,7 @@ trigger many emails.
   If you do not have one, create it in the Suite via the **Admin** menu, **Field editor**.
 + Fetch the field ID of the **externalID** field.
   To create a contact with custom fields like our **externalID**, you need the IDs of the fields you want to involve
-  (see :doc:`../suite/contacts/contact_field_list`).
+  (see :doc:`../../suite/contacts/contact_field_list`).
 
 * **Create an External Event**:
   Create the external event in the Suite UI. You can find external events in the **Admin** menu.
