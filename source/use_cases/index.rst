@@ -13,8 +13,8 @@ product the contact has just bought is a more complex one.
 
 We currently offer use cases covering these activities:
 
-* :doc:`transactional_emails`
-* :doc:`batch_emails`
+* :doc:`transactional_emails/index`
+* :doc:`batch_emails/index`
 * :doc:`keeping_contacts`
 * :doc:`querying_contact_data`
 
