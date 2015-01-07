@@ -1,6 +1,8 @@
 Recurring Email to a Contact List; Changing the Email Source Assigned to the Email
 ==================================================================================
 
+You have to create the email in the Suite, it is possible only once.
+
 For this scenario, you will need to:
 
 1. Update an Email Campaign Recipient Source
