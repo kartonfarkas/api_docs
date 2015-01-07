@@ -13,8 +13,9 @@ We currently offer use cases covering these activities:
 Sending Transactional Emails
 ----------------------------
 
-The aim of this use case is to send a welcome email to all newly-registered contacts.
-To trigger a welcome email, we use an external event which contains information about the intended recipient.
+The aim of this use case is to send an email after an event took place (e.g.: send an email to all newly-registered
+contacts, or for those who purchased a product). To trigger an email, we use an external event which contains
+information about the intended recipient.
 
 This use case will be presented in varying degrees of complexity:
 
@@ -25,7 +26,7 @@ This use case will be presented in varying degrees of complexity:
 
    transactional_emails/email_address_key.rst
 
-**Advanced Scenario**:
+**Advanced Scenarios**:
 
 .. toctree::
    :maxdepth: 1
