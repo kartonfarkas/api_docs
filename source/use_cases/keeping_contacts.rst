@@ -65,44 +65,10 @@ You have to execute this step if replyCode 0 was returned in step 1. This means 
 
 ``PUT /api/v2/contact``
 
-The key_id is Omitted
-^^^^^^^^^^^^^^^^^^^^^
-
 .. code-block:: json
 
    {
      "3": "thor@example.com"
-   }
-
-The key_id is Provided
-^^^^^^^^^^^^^^^^^^^^^^
-
-.. code-block:: json
-
-   {
-     "key_id": "15",
-     "15": "1234567",
-     "7": "3",
-     "source_id": "123"
-   }
-
-Where *source_id* is an ID assigned to the application of a customer to integrate.
-
-Multichoice Field
-^^^^^^^^^^^^^^^^^
-
-Request containing a multichoice field *405067*:
-
-.. code-block:: json
-
-   {
-     "key_id": "10675",
-     "10675": "1234567",
-     "405067":
-     [
-       "6789",
-       "6792"
-     ]
    }
 
 **Response**:
@@ -115,7 +81,8 @@ Request containing a multichoice field *405067*:
 
 Where *id* is the ID of the updated contact.
 
-See :doc:`../../suite/contacts/contact_update`.
+This is the easiest way to update a contact. For further information about updating a contact, see
+:doc:`../../suite/contacts/contact_update`.
 
 2(b) Create a New Contact
 -------------------------
@@ -127,44 +94,10 @@ in the Suite.
 
 ``POST /api/v2/contact``
 
-The key_id is Omitted
-^^^^^^^^^^^^^^^^^^^^^
-
 .. code-block:: json
 
    {
      "3": "thor@example.com"
-   }
-
-The key_id is Provided
-^^^^^^^^^^^^^^^^^^^^^^
-
-.. code-block:: json
-
-   {
-     "key_id": "15",
-     "15": "1234567",
-     "7": "3",
-     "source_id": "123"
-   }
-
-Where *source_id* is an ID assigned to the application of a customer to integrate.
-
-Multichoice Field
-^^^^^^^^^^^^^^^^^
-
-Request containing a multichoice field *405067*:
-
-.. code-block:: json
-
-   {
-     "key_id": "10675",
-     "10675": "1234567",
-     "405067":
-     [
-       "6789",
-       "6792"
-     ]
    }
 
 **Response**:
@@ -177,5 +110,6 @@ Request containing a multichoice field *405067*:
 
 Where *id* is the ID of the new contact.
 
-See :doc:`../../suite/contacts/contact_create`.
+This is the easiest way to create a contact. For further information about creating a contact, see
+:doc:`../../suite/contacts/contact_create`.
 

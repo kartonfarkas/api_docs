@@ -39,48 +39,16 @@ For further information about creating an email via the Suite UI, please see the
 1. Create the Contact
 ---------------------
 
+You need at least one contact available in the Suite so that the contact data can be used.
+
 **Request**:
 
 ``POST /api/v2/contact``
-
-The key_id is Omitted
-^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: json
 
    {
      "3": "thor@example.com"
-   }
-
-The key_id is Provided
-^^^^^^^^^^^^^^^^^^^^^^
-
-.. code-block:: json
-
-   {
-     "key_id": "15",
-     "15": "1234567",
-     "7": "3",
-     "source_id": "123"
-   }
-
-Where *source_id* is an ID assigned to the application of a customer to integrate.
-
-Multichoice Field
-^^^^^^^^^^^^^^^^^
-
-Request containing a multichoice field *405067*:
-
-.. code-block:: json
-
-   {
-     "key_id": "10675",
-     "10675": "1234567",
-     "405067":
-     [
-       "6789",
-       "6792"
-     ]
    }
 
 **Response**:
@@ -95,12 +63,11 @@ Request containing a multichoice field *405067*:
 
 To identify the contact, we are using the key_id of the **externalID** field mentioned in *Preparation*.
 
-For further information about creating or updating a contact in the Suite, see :doc:`../../suite/contacts/contact_create` and :doc:`../../suite/contacts/contact_update`.
+This is the easiest way to create a contact. For further information about creating or updating a contact in the Suite,
+see :doc:`../../suite/contacts/contact_create` and :doc:`../../suite/contacts/contact_update`.
 
 2. Trigger the Event
 --------------------
-
-.. note:: You need at least one contact available in the Suite so that the contact data can be used.
 
 **Request**:
 
@@ -121,19 +88,18 @@ get the ID, and use it in your integration script.
 Where
 
 * *key_id* is the ID of the key field of the contact. We are using the key id of the **externalID** field you identified
-  during the preparation.
+  during the preparation. For a list of available Field IDs, see :doc:`../../suite/appendices/system_fields`.
 * *external_id* is the value of the key field, your ‘external ID’ in this case.
 
 Retrieve external event IDs by querying all external events on the API (see :doc:`../../suite/external_events/external_event_list`).
 For further information about triggering external events, see :doc:`../../suite/external_events/external_event_trigger`.
-For a list of available Field IDs, see :doc:`../../suite/appendices/system_fields`.
 
 3. Check the Result
 -------------------
 
 Find out whether an email was sent successfully:
 
-* Check with a test contact if the welcome email has arrived – it should be delivered within seconds.
+* Check with a test contact if the email has arrived – it should be delivered within seconds.
 * Use the Suite UI to check if an email was sent.
 * In the **Analysis** module in the **Emails** page, you can see that the count of sent emails increases.
 

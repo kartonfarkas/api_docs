@@ -12,7 +12,6 @@ The steps will be as follows:
 
 ``GET /api/v2/contactlist/111111111``
 
-
 **Response**:
 
 .. code-block:: json
