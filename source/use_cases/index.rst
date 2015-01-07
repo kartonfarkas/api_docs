@@ -34,7 +34,7 @@ This use case will be presented in varying degrees of complexity:
    transactional_emails/data_from_external_events.rst
 
 Sending Batch Emails
-====================
+--------------------
 
 .. toctree::
    :maxdepth: 1
@@ -45,7 +45,7 @@ Sending Batch Emails
    batch_emails/recurring_email.rst
 
 Keeping Contacts Up-to-date
-===========================
+---------------------------
 
 .. toctree::
    :maxdepth: 1
@@ -53,7 +53,7 @@ Keeping Contacts Up-to-date
    keeping_contacts.rst
 
 Querying Contact Data from a Contact List
-=========================================
+-----------------------------------------
 
 .. toctree::
    :maxdepth: 1
