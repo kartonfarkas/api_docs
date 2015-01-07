@@ -14,7 +14,7 @@ Preparation
 + To perform these preparatory steps, you will need the credentials for your Suite account (account name and environment, user name and password).
 
 .. note:: Create a dedicated external event for each of your emails, otherwise a single external event may accidentally
-trigger many emails.
+          trigger many emails.
 
 + You should already have a custom field for the external ID, called **externalId**.
   If you do not have one, create it in the Suite via the **Admin** menu, **Field editor**.
@@ -36,8 +36,8 @@ trigger many emails.
 
 For further information about creating an email via the Suite UI, please see the Suite Online Help.
 
-1. Create User
---------------
+1. Create the Contact
+---------------------
 
 **Request**:
 
@@ -93,7 +93,7 @@ Request containing a multichoice field *405067*:
       "3": "test@example.com"
    }
 
-To identify the contact, we are using the key_id of the **externalID** field mentioned in the preparation.
+To identify the contact, we are using the key_id of the **externalID** field mentioned in *Preparation*.
 
 For further information about creating or updating a contact in the Suite, see :doc:`../../suite/contacts/contact_create` and :doc:`../../suite/contacts/contact_update`.
 
@@ -131,9 +131,9 @@ For a list of available Field IDs, see :doc:`../../suite/appendices/system_field
 3. Check the Result
 -------------------
 
-Check whether an email was sent successfully:
+Find out whether an email was sent successfully:
 
-* Check with a test contact if the ‘Welcome email’ has arrived – it should be delivered within seconds.
+* Check with a test contact if the welcome email has arrived – it should be delivered within seconds.
 * Use the Suite UI to check if an email was sent.
 * In the **Analysis** module in the **Emails** page, you can see that the count of sent emails increases.
 

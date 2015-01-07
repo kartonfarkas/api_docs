@@ -8,7 +8,7 @@ Use Case Groups
 ---------------
 
 The use cases are divided into groups covering similar actions but with increasing complexity. For example sending a
-‘Welcome’ email without any bells and whistles is a simple use case, whereas sending a ‘Welcome’ email referring to a
+welcome email without any bells and whistles is a simple use case, whereas sending a welcome email referring to a
 product the contact has just bought is a more complex one.
 
 We currently offer use cases covering these activities:

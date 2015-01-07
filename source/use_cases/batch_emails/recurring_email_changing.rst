@@ -10,7 +10,7 @@ For this scenario, you will need to:
 
 ``POST /api/v2/contactlist/111111111/delete``
 
-**Simple Values**
+**Simple Values**:
 
 .. code-block:: json
 
@@ -26,7 +26,7 @@ For this scenario, you will need to:
      ]
    }
 
-**Multichoice Values**
+**Multichoice Values**:
 
 .. code-block:: json
 
@@ -67,7 +67,7 @@ See :doc:`../../suite/contacts/contact_list_remove_contacts`.
 
 ``POST /api/v2/contactlist/111111111/add``
 
-**Simple Values**
+**Simple Values**:
 
 .. code-block:: json
 
@@ -81,7 +81,7 @@ See :doc:`../../suite/contacts/contact_list_remove_contacts`.
      ]
    }
 
-**Multichoice Values**
+**Multichoice Values**:
 
 .. code-block:: json
 
@@ -109,7 +109,7 @@ See :doc:`../../suite/contacts/contact_list_remove_contacts`.
    }
 
 Where *inserted_contacts* is the number of contacts successfully added to the list, and
-*errors* is an array of contacts not added to the list. The array contains the ID and
+*errors* is an array of contacts not added to the list. The array contains the ID and the
 reason for the error.
 
 See :doc:`../../suite/contacts/contact_list_add_contacts`.

@@ -71,7 +71,7 @@ See :doc:`../../suite/emails/media_file_upload`.
 
 Where *id* is the new email campaign ID.
 
-See :doc:`../../suite/emails/email_create`
+See :doc:`../../suite/emails/email_create`.
 
 3. Launch an Email Campaign
 ---------------------------

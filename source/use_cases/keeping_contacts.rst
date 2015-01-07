@@ -49,7 +49,7 @@ You can check whether a contact exists in the Suite by requesting its internal c
       }
    }
 
-Where *ids* are internal IDs,and *errors* contains the error ID and the error message as a key-value pair.
+Where *ids* are internal IDs, and *errors* contains the error ID and the error message as a key-value pair.
 
 See :doc:`../../suite/contacts/contact_check_internal_ids`.
 

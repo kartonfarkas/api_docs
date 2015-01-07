@@ -12,9 +12,9 @@ To perform these preparatory steps, you will need the credentials of your Suite 
 user name and password).
 
 .. note:: Create a dedicated external event for each of your emails, otherwise a single external event may accidentally
-trigger many emails.
+          trigger many emails.
 
-* **Create an external event**:
+* **Create an External Event**:
   Create the external event in the Suite UI. You can find external events in the **Admin** menu.
 
 * **Create the Email**:
@@ -83,7 +83,7 @@ Request containing a multichoice field *405067*:
       "3": "test@example.com"
    }
 
-To identify the contact we are using their email address which is also the default key. Therefore, we do not have to
+To identify the contact, we are using their email address which is also the default key. Therefore, we do not have to
 define a key_id here.
 
 For further information about creating and updating a contact in the Suite, see
@@ -101,7 +101,7 @@ For further information about creating and updating a contact in the Suite, see
 
 
 Use your external event ID (not the name!) as *id*. Since these IDs don’t change, you can just use the API demo page to
-get the ID, and use it in your integration script.
+get the ID, and put it into your integration script.
 
 **Response**:
 
@@ -124,7 +124,7 @@ For a list of available Field IDs, see :doc:`../../suite/appendices/system_field
 3. Check the Result
 -------------------
 
-Check whether an email was sent successfully:
+Find out whether an email was sent successfully:
 
 * Check with a test contact if the welcome email has arrived – it should be delivered within seconds.
 * Use the Suite UI to check if an email was sent.

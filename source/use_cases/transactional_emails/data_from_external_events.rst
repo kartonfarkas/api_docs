@@ -14,7 +14,7 @@ Preparation
   user name and password).
 
 .. note:: Create a dedicated external event for each of your emails, otherwise a single external event may accidentally
-trigger many emails.
+          trigger many emails.
 
 * **Create an External Event**:
   Create the external event in the Suite UI. You can find external events in the **Admin** menu.
@@ -30,8 +30,8 @@ trigger many emails.
 
 For further information about creating an email via the Suite UI, please see the Suite Online Help.
 
-1. Create User
---------------
+1. Create the Contact
+---------------------
 
 **Request**:
 
@@ -85,7 +85,7 @@ Request containing a multichoice field *405067*:
       "3": "test@example.com"
    }
 
-To identify the contact, we are using the email address, which is also the default key. Therefore, we do not have to
+To identify the contact, we are using the email address which is also the default key. Therefore, we do not have to
 define a key_id here.
 
 For further information about creating or updating a contact in the Suite, see :doc:`../../suite/contacts/contact_create` and :doc:`../../suite/contacts/contact_update`.
@@ -121,7 +121,7 @@ get the ID, and use it in your integration script.
 
 Where
 
-* *key_id* is the ID of the key field of the contact. We are using ‘3’ meaning the e-mail address.
+* *key_id* is the ID of the key field of the contact. We are using *3* meaning the email address.
 * *external_id* is the value of the key field, the contact’s email in this case.
 * *data* is your transaction-specific content in the form of **placeholder: value** that are included in a *global* object.
 
@@ -132,7 +132,7 @@ For a list of available Field IDs, see :doc:`../../suite/appendices/system_field
 3. Check the Result
 -------------------
 
-Check whether an email was sent successfully:
+Find out whether an email was sent successfully:
 
 * Check with a test contact if the ‘Welcome email’ has arrived – it should be delivered within seconds.
 * Use the Suite UI to check if an email was sent. In the Analysis module in the Emails page you can see that the
