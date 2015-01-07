@@ -20,12 +20,12 @@ This use case will be presented in varying degrees of complexity:
 
 **Basic Scenario**:
 
-* :doc:`email_address_key`
+* :doc:`transactional_emails/email_address_key`
 
 **Advanced Scenario**:
 
-* :doc:`external_id_key`
-* :doc:`data_from_external_events`
+* :doc:`transactional_emails/external_id_key`
+* :doc:`transactional_emails/data_from_external_events`
 
 Sending Batch Emails
 ====================
@@ -33,10 +33,10 @@ Sending Batch Emails
 .. toctree::
    :maxdepth: 1
 
-   daily_news_for_segments.rst
-   using_the_database.rst
-   recurring_email_changing.rst
-   recurring_email.rst
+   batch_emails/daily_news_for_segments.rst
+   batch_emails/using_the_database.rst
+   batch_emails/recurring_email_changing.rst
+   batch_emails/recurring_email.rst
 
 Keeping Contacts Up-to-date
 ===========================
