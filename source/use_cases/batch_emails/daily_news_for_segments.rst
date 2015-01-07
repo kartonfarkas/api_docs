@@ -13,20 +13,22 @@ For this scenario, you will need to:
 .. code-block:: json
 
    {
-      "name":"be_afraid_email",
-      "language":"en",
-      "subject":"convergence",
-      "fromname":"Malekith",
-      "fromemail":"malekith@example.com",
-      "email_category":"111111111",
-      "html_source":"<html>Hello $First Name$... </html>",
-      "text_source":"Hello $First Name$...",
-      "browse":0,
-      "text_only":0,
-      "unsubscribe":1,
-      "filter":"222222222",
-      "contactlist":0
+      "name": "be_afraid_email",
+      "language": "en",
+      "subject": "convergence",
+      "fromname": "Malekith",
+      "fromemail": "malekith@example.com",
+      "email_category": "111111111",
+      "html_source": "<html>Hello $First Name$... </html>",
+      "text_source": "Hello $First Name$...",
+      "browse": 0,
+      "text_only": 0,
+      "unsubscribe": 1,
+      "filter": "222222222",
+      "contactlist": 0
    }
+
+Where *filter* is the segment ID to which the email is sent.
 
 **Response**:
 
