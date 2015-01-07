@@ -14,17 +14,10 @@ This use case will be presented in varying degrees of complexity:
 
 **Basic Scenario**:
 
-* using the email address as key
+* :doc:`email_address_key`
 
 **Advanced Scenario**:
 
-* using the external ID as key
-* customizing the email with data from the external event
-
-.. toctree::
-   :maxdepth: 1
-
-   email_address_key.rst
-   external_id_key.rst
-   data_from_external_events.rst
+* :doc:`external_id_key`
+* :doc:`data_from_external_events`
 

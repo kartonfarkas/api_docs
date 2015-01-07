@@ -1,5 +1,5 @@
-Scenario #1: Daily News for Different Segments
-==============================================
+Daily News for Different Segments
+=================================
 
 For this scenario, you will need to:
 

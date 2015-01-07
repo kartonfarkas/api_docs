@@ -1,5 +1,5 @@
-Scenario #2: Recurring Email to a Contact List with Changing Members
-====================================================================
+Recurring Email to a Contact List with Changing Members
+=======================================================
 
 For this scenario, you will need to:
 

@@ -1,5 +1,5 @@
-Extension of Scenario #1: Using the Media Database
-==================================================
+Using the Media Database
+========================
 
 For this scenario, you will need to:
 

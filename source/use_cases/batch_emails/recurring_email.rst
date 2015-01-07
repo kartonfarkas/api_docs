@@ -1,5 +1,5 @@
-Scenario #2b: Recurring Email to a Contact List; Changing the Email Source Assigned to the Email
-================================================================================================
+Recurring Email to a Contact List; Changing the Email Source Assigned to the Email
+==================================================================================
 
 For this scenario, you will need to:
 
