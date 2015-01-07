@@ -67,8 +67,6 @@ This is the easiest way to create a contact. For further information about creat
 Use your external event ID (not the name!) as *id*. Since these IDs don’t change, you can just use the API demo page to
 get the ID, and put it into your integration script.
 
-**Response**:
-
 .. code-block:: json
 
    {
