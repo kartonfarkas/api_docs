@@ -48,7 +48,10 @@ You need at least one contact available in the Suite so that the contact data ca
 .. code-block:: json
 
    {
-     "3": "thor@example.com"
+     "key_id": "15",
+     "15": "1234567",
+     "7": "3",
+     "source_id": "123"
    }
 
 **Response**:
@@ -56,9 +59,7 @@ You need at least one contact available in the Suite so that the contact data ca
 .. code-block:: json
 
    {
-      "key_id": "123456",
-      "123456": "789",
-      "3": "test@example.com"
+      "id": 111111111
    }
 
 To identify the contact, we are using the key_id of the **externalID** field mentioned in *Preparation*.
@@ -75,8 +76,6 @@ see :doc:`../../suite/contacts/contact_create` and :doc:`../../suite/contacts/co
 
 Use your external event ID (not the name!) as *id*. Since these IDs don’t change, you can just use the API demo page to
 get the ID, and use it in your integration script.
-
-**Response**:
 
 .. code-block:: json
 
