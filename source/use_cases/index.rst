@@ -17,20 +17,10 @@ The aim of this use case is to send an email after an event took place (e.g.: se
 contacts, or for those who purchased a product). To trigger an email, we use an external event which contains
 information about the intended recipient.
 
-This use case will be presented in varying degrees of complexity:
-
-**Basic Scenario**:
-
 .. toctree::
    :maxdepth: 1
 
    transactional_emails/email_address_key.rst
-
-**Advanced Scenarios**:
-
-.. toctree::
-   :maxdepth: 1
-
    transactional_emails/external_id_key.rst
    transactional_emails/data_from_external_events.rst
 
