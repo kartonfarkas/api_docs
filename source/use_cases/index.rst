@@ -20,12 +20,18 @@ This use case will be presented in varying degrees of complexity:
 
 **Basic Scenario**:
 
-* :doc:`transactional_emails/email_address_key`
+.. toctree::
+   :maxdepth: 1
+
+   transactional_emails/email_address_key.rst
 
 **Advanced Scenario**:
 
-* :doc:`transactional_emails/external_id_key`
-* :doc:`transactional_emails/data_from_external_events`
+.. toctree::
+   :maxdepth: 1
+
+   transactional_emails/external_id_key.rst
+   transactional_emails/data_from_external_events.rst
 
 Sending Batch Emails
 ====================
