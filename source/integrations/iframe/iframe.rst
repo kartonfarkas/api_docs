@@ -1,5 +1,5 @@
-Suite Page (iframe)
-===================
+Single Sign-on
+==============
 
 Suite provides an integration point where your service can be integrated to Suite as a page.
 We will add a new menu entry, and load your page via an iframe. The design of your page
