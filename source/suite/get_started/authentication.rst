@@ -55,6 +55,10 @@ Please note that you can use any timezone you want, but it has to be indicated i
 an example: `2014-03-20T12:51:45+01:00`. We still recommend using UTC time as this is the global Emarsys
 standard.
 
+.. note::
+
+   The Created timestamp must be within **five** minutes of the Emarsys server's time. If it is not within the specified timeframe the request will be rejected. We recommend using NTP to synchronize your time.
+
 **Computing the Password Digest**
 
 Computing the password digest takes 5 simple steps:
