@@ -76,7 +76,7 @@ Sending an Email with a Condition
    condition_email.rst
 
 Adding a New Contact to a Contact List
-======================================
+--------------------------------------
 
 .. toctree::
    :maxdepth: 1

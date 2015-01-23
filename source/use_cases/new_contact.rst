@@ -197,4 +197,3 @@ See :doc:`../../suite/emails/email_create`.
    }
 
 See :doc:`../../suite/emails/launch`.
-
