@@ -6,12 +6,6 @@ call your service on a predefined HTTP endpoint. When the program reaches your n
 the specified :doc:`node_trigger_endpoint` with a set of parameters (including a contact list ID),
 which you can use to trigger necessary actions for the contacts entering the node.
 
-Authentication
---------------
-
-We are using the open source `Escher <http://escherauth.io>`_ library to sign our requests. Note that each of the
-endpoints are available through the HTTPS protocol.
-
 HTTP Interfaces
 ---------------
 

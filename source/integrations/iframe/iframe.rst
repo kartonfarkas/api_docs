@@ -5,14 +5,6 @@ Suite provides an integration point where your service can be integrated to Suit
 We will add a new menu entry, and load your page via an iframe. The design of your page
 should match the Suite design, so it will look like it is part of the Suite.
 
-Authentication
---------------
-
-We are using the open source `Escher <http://escherauth.io/>`_ library to
-"presign" our requests. Note that each of the endpoints are available through the HTTPS protocol.
-The Escher *credential scope* is service specific (your contact person will share this information),
-and *algo_prefix* and *vendor_key* are both "**EMS**".
-
 Parameters
 ----------
 
