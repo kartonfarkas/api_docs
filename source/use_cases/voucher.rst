@@ -23,7 +23,7 @@ The steps will be as follows:
      "fromemail": "webshop@example.com",
      "email_category": "111111111",
      "html_source": "<html>You are one of our greatest customers, so here we are sending you a voucher: $voucher$... </html>",
-     "text_source": "You are one of our greatest customers, so here we are sending you a voucher: $voucher$...",
+     "text_source": "You are one of our greatest customers, so here we are sending you a voucher: voucher01...",
      "browse": 0,
      "text_only": 0,
      "unsubscribe": 1,
@@ -50,8 +50,8 @@ Where *id* is the new email campaign ID.
 
 See :doc:`../../suite/emails/email_create`.
 
-After creating the email, go to the UI and set the "Recipient Source" to "Generated through an event", the "Event" to
-"On External Event", and choose the proper external event under.
+After creating the email, go to the UI and set the *Recipient Source* to "**Generated through an event**", the *Event* to
+"**On External Event**", and choose the proper external event under.
 
 2. Triggering External Events
 -----------------------------
@@ -60,6 +60,6 @@ After creating the email, go to the UI and set the "Recipient Source" to "Genera
 
 ``POST /api/v2/event/<123>/trigger``
 
-With this last step, the email is launched to the contact.
+With setting that the email has to be triggered to a specific external event, the email is launched to the contact.
 
 See :doc:`../../suite/external_events/external_event_trigger`.
