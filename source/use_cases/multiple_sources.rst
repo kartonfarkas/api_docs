@@ -66,7 +66,7 @@ See :doc:`../../suite/contacts/source_list`.
      "source_id": "456"
    }
 
-Where *source_id* is an ID assigned to the application of a customer to integrate.
+Where *source_id* is the ID assigned to the application of a customer to integrate.
 
 **Response**:
 
@@ -92,7 +92,7 @@ See :doc:`../../suite/contacts/contact_create` and :doc:`../../suite/contacts/co
    {
      "distribution_method": "ftp",
      "origin": "form",
-     "origin_id": "123",
+     "origin_id": "456",
      "time_range": ["2012-02-09", "2012-04-02"],
      "contact_fields": ["1", "3", "106533"],
      "delimiter": ";",
@@ -108,6 +108,8 @@ See :doc:`../../suite/contacts/contact_create` and :doc:`../../suite/contacts/co
      }
    }
 
+Where *origin_id* is the *source_id*.
+
 **Response**:
 
 .. code-block:: json
@@ -120,6 +122,3 @@ See :doc:`../../suite/contacts/contact_create` and :doc:`../../suite/contacts/co
        "id": 2140
      }
    }
-
-
-
