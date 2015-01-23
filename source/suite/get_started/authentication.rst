@@ -57,7 +57,7 @@ standard.
 
 .. note::
 
-   The Created timestamp must be within **five** minutes of the Emarsys server's time. If it is not within the specified timeframe the request will be rejected. We recommend using NTP to synchronize your time.
+   The Created timestamp must be within **five** minutes of the Emarsys server's time. If it is not within the specified timeframe, the request will be rejected. We recommend using NTP to synchronize your time.
 
 **Computing the Password Digest**
 
