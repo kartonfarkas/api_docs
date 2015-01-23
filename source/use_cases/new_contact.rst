@@ -40,17 +40,12 @@ Add 3 contacts here.
 .. code-block:: json
 
    {
-     "replyCode": 0,
-     "replyText": "OK",
-     "data":
-     {
-       "ids":
-       [
-         123,
-         456,
-         789
-       ]
-     }
+     "ids":
+     [
+       123456789,
+       456789123,
+       789123456
+     ]
    }
 
 See :doc:`../../suite/contacts/contact_multiple_create`.
@@ -81,7 +76,7 @@ See :doc:`../../suite/contacts/contact_multiple_create`.
 .. code-block:: json
 
      {
-       "id": "123"
+       "id": "111111111"
      }
 
 Where *id* is the ID of the contact list.
@@ -106,7 +101,7 @@ See :doc:`../../suite/contacts/contact_list_create`.
 .. code-block:: json
 
      {
-       "id": 456
+       "id": 987654321
      }
 
 See :doc:`../../suite/contacts/contact_create`.
@@ -134,9 +129,9 @@ After the new contact is created:
 
 .. code-block:: json
 
-     {
-       "inserted_contacts": "1"
-     }
+   {
+     "inserted_contacts": "1"
+   }
 
 See :doc:`../../suite/contacts/contact_list_add_contacts`.
 
@@ -156,13 +151,13 @@ See :doc:`../../suite/contacts/contact_list_add_contacts`.
      "fromname": "webshop_2",
      "fromemail": "webshop_2@example.com",
      "email_category": "111111111",
-     "html_source": "<html>A new item arrived... </html>",
-     "text_source": "A new item arrived...",
+     "html_source": "<html>A new item has arrived... </html>",
+     "text_source": "A new item has arrived...",
      "browse": 0,
      "text_only": 0,
      "unsubscribe": 1,
-     "filter": "111111111",
-     "contactlist": 123
+     "filter": "",
+     "contactlist": 111111111
    }
 
 **Response**:
@@ -170,12 +165,7 @@ See :doc:`../../suite/contacts/contact_list_add_contacts`.
 .. code-block:: json
 
    {
-     "replyCode": 0,
-     "replyText": "OK",
-     "data":
-     {
-       "id": 2140
-     }
+     "id": 111111111
    }
 
 Where *id* is the new email campaign ID.

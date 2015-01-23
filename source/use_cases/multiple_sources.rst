@@ -32,21 +32,16 @@ See :doc:`../../suite/contacts/source_create`.
 
 .. code-block:: json
 
-   {
-     "replyCode": 0,
-     "replyText": "OK",
-     "data":
-     [
-       {
-         "id": "123",
-         "name": "webshop_1"
-       },
-       {
-         "id": "456",
-         "name": "webshop_2"
-       }
-     ]
-   }
+  [
+    {
+      "id": "123",
+      "name": "webshop_1"
+    },
+    {
+      "id": "456",
+      "name": "webshop_2"
+    }
+  ]
 
 See :doc:`../../suite/contacts/source_list`.
 
@@ -115,12 +110,7 @@ Where *origin_id* is the *source_id*.
 .. code-block:: json
 
    {
-     "replyCode": 0,
-     "replyText": "OK",
-     "data":
-     {
-       "id": 2140
-     }
+     "id": 2140
    }
 
 See :doc:`../../suite/exports/export_changes`.

@@ -56,7 +56,7 @@ See :doc:`../../suite/emails/conditions`.
      "fromemail": "webshop_1@example.com",
      "email_category": "111111111",
      "html_source": "<html>$COND_Rule 1$... </html>",
-     "text_source": "Hi Peter! Happy nameday...",
+     "text_source": "Hi Peter! Happy nameday!...",
      "browse": 0,
      "text_only": 0,
      "unsubscribe": 1,
@@ -71,12 +71,7 @@ See :doc:`../../suite/emails/conditions`.
 .. code-block:: json
 
    {
-     "replyCode": 0,
-     "replyText": "OK",
-     "data":
-     {
-       "id": 2140
-     }
+     "id": 2140
    }
 
 Where *id* is the new email campaign ID.
