@@ -67,6 +67,22 @@ Checking to which Source the Contact Belongs to
 
    multiple_sources.rst
 
+Sending an Email with a Condition
+---------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   condition_email.rst
+
+Adding a New Contact to a Contact List
+======================================
+
+.. toctree::
+   :maxdepth: 1
+
+   new_contact.rst
+
 If you would like to see use cases covering different marketing activities, please pass a request on to your Account Manager.
 
 
