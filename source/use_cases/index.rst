@@ -51,6 +51,22 @@ Querying Contact Data from a Contact List
 
    querying_contact_data.rst
 
+Put a Voucher into the Email
+----------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   voucher.srt
+
+Checking to which Source the Contact Belongs to
+-----------------------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   multiple_sources.rst
+
 If you would like to see use cases covering different marketing activities, please pass a request on to your Account Manager.
 
 
