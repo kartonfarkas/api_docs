@@ -4,7 +4,7 @@ Checking Email Data
 1. Creating Multiple Contacts
 -----------------------------
 
-Add 3 contacts here.
+If you want to add 3 contacts:
 
 **Request**:
 
@@ -44,9 +44,9 @@ Add 3 contacts here.
      {
        "ids":
        [
-         123,
-         456,
-         789
+         222222222,
+         333333333,
+         444444444
        ]
      }
    }
@@ -79,7 +79,7 @@ See :doc:`../../suite/contacts/contact_multiple_create`.
 .. code-block:: json
 
      {
-       "id": "123"
+       "id": "222222222"
      }
 
 Where *id* is the ID of the contact list.
@@ -96,28 +96,28 @@ See :doc:`../../suite/contacts/contact_list_create`.
 .. code-block:: json
 
    {
-     "name": "be_afraid_email",
+     "name": "new_item",
      "language": "en",
-     "subject": "convergence",
-     "fromname": "Malekith",
-     "fromemail": "malekith@example.com",
+     "subject": "informing",
+     "fromname": "webshop_2",
+     "fromemail": "webshop_2@example.com",
      "email_category": "111111111",
-     "html_source": "<html>Hello $First Name$... </html>",
-     "text_source": "Hello $First Name$...",
+     "html_source": "<html>A new item has arrived... </html>",
+     "text_source": "A new item has arrived...",
      "browse": 0,
      "text_only": 0,
      "unsubscribe": 1,
-     "filter": "222222222",
-     "contactlist": 0
+     "filter": "",
+     "contactlist": 222222222
    }
 
 **Response**:
 
 .. code-block:: json
 
-     {
-       "id": 2140
-     }
+   {
+     "id": 2140
+   }
 
 See :doc:`../../suite/emails/email_create`.
 
@@ -137,7 +137,7 @@ See :doc:`../../suite/emails/email_create`.
 
 See :doc:`../../suite/emails/launch`.
 
-After waiting for 1 day in order to get the statuses 'clicked', 'opened'...etc.:
+After waiting for 1 day in order to get the responses 'clicked', 'opened'...etc.:
 
 5. Exporting Responses
 ----------------------
@@ -172,7 +172,7 @@ After waiting for 1 day in order to get the statuses 'clicked', 'opened'...etc.:
 .. code-block:: json
 
    {
-     "id": 2140
+     "id": 555555555
    }
 
-See :doc:`../../suite/exports/expport_responses`.
+See :doc:`../../suite/exports/export_responses`.
