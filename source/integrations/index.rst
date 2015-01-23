@@ -10,8 +10,8 @@ service to the Suite as a menu point and provide an integrated experience for yo
 We are using the open source `Escher <http://escherauth.io/>`_ library to
 "presign" our requests. Note that each of the endpoints are available through the HTTPS protocol.
 The Escher *credential scope* is service specific (your contact person will share this information),
-*AlgoPrefix* and *VendorKey* are both set to "**EMS**", *DateHeaderKey* is **X-Ems-Date**, and *AuthHeaderKey* is
-**X-Ems-Auth**.
+*AlgoPrefix* and *VendorKey* are both set to "**EMS**", *DateHeaderKey* is "**X-Ems-Date**", and *AuthHeaderKey* is
+"**X-Ems-Auth**".
 
 .. toctree::
    :maxdepth: 1
