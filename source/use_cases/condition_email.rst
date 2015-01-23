@@ -1,5 +1,5 @@
 Sending an Email with a Condition
----------------------------------
+=================================
 
 In a condition, you can define a part of the content of the email campaign according to a criterion (e.g.: if the first
 name of the contact is Peter, put "Hi Peter! Happy nameday!" into the email).
