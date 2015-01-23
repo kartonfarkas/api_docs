@@ -5,11 +5,12 @@ We are providing several opportunities to integrate with our services. You can i
 Automation Center by creating a custom node that works with contacts, or you can add your
 service to the Suite as a menu point and provide an integrated experience for your customers.
 
+
 Authentication
 --------------
 
 We are using the open source `Escher <http://escherauth.io/>`_ library to
-"presign" our requests. Note that each of the endpoints are available through the HTTPS protocol.
+sign our requests. It is demanded that the endpoints are implemented through the HTTPS protocol.
 The Escher *credential scope* is service specific (your contact person will share this information),
 *AlgoPrefix* and *VendorKey* are both set to "**EMS**", *DateHeaderKey* is "**X-Ems-Date**", and *AuthHeaderKey* is
 "**X-Ems-Auth**".

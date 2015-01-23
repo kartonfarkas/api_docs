@@ -1,51 +1,53 @@
 Installation
 ============
 
+This endpoint is called by the Marketplace, when the customer installs the add-on.
+
 Endpoint
 --------
 
-``POST to a SPECIFIED URL (provided by the customer)``
+``POST <integration_installation_url>``
 
 Parameters
 ----------
 
-.. list-table:: **Required Parameters**
+.. list-table:: **Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 
    * - Name
      - Type
      - Description
-     - Comments
+   * - integration_installation_url
+     - url
+     - provided by the integration partner
    * - customer_id
      - int
      - the ID of the customer
-     -
    * - environment
      - int
-     -
-     -
+     - the ID of the environment
 
-.. list-table:: **Optional Parameters**
+.. list-table:: **Optionally Sent Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
 
    * - Name
      - Type
      - Description
-     - Comments
    * - configuration
-     -
-     -
-     -
+     - hash
+     - integration-specific data (based on the integration needs)
 
 Request Example
 ---------------
 
+``POST https://emarsys.partnerservice.com/api/install``
+
 .. code-block:: json
 
    {
-     "customer_id": $customerId,
-     "environment": $this->environment(),
+     "customer_id": 111111111,
+     "environment": "suite5.emarsys.net",
      "configuration": {}
    }

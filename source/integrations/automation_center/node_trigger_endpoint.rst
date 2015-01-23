@@ -1,7 +1,7 @@
 Trigger Endpoint
 ================
 
-This endpoint is called by Automation Center, when the program execution reaches your node. It should start
+This endpoint is called by the Automation Center, when the program execution reaches your node. It should start
 the execution of your service.
 
 .. image:: /_static/images/ac_node_trigger_workflow.png
