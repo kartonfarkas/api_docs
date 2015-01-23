@@ -57,7 +57,7 @@ Put a Voucher into the Email
 .. toctree::
    :maxdepth: 1
 
-   voucher.srt
+   voucher.rst
 
 Checking to which Source the Contact Belongs to
 -----------------------------------------------
