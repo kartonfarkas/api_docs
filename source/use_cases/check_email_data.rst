@@ -142,4 +142,37 @@ After waiting for 1 day in order to get the statuses 'clicked', 'opened'...etc.:
 5. Exporting Responses
 ----------------------
 
+**Request**:
 
+``POST /api/v2/email/getresponses``
+
+.. code-block:: json
+
+   {
+     "distribution_method": "ftp",
+     "origin": "form",
+     "origin_id": "123",
+     "time_range": ["2012-02-09", "2012-04-02"],
+     "contact_fields": ["1", "3", "106533"],
+     "delimiter": ";",
+     "add_field_names_header": 1,
+     "language": "en",
+     "ftp_settings":
+     {
+       "host": "www.example.com",
+       "port": "1234",
+       "username": "user",
+       "password": "pass",
+       "folder": "path/of/a/folder"
+     }
+   }
+
+**Response**:
+
+.. code-block:: json
+
+   {
+     "id": 2140
+   }
+
+See :doc:`../../suite/exports/expport_responses`.

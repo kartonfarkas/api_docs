@@ -83,6 +83,14 @@ Adding a New Contact to a Contact List
 
    new_contact.rst
 
+Checking Email Data
+-------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   check_email_data.rst
+
 If you would like to see use cases covering different marketing activities, please pass a request on to your Account Manager.
 
 
