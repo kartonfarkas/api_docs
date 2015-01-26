@@ -25,5 +25,6 @@ sign our requests. It is demanded that the endpoints are implemented through the
    automation_center/node.rst
    iframe/iframe.rst
    integration_guide.rst
+   marketplace/index.rst
 
 .. image:: /_static/images/marketplace.png
