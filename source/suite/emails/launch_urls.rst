@@ -66,6 +66,7 @@ The error codes associated with the contact field ID and value can be found in :
 
 .. list-table:: Possible Error Codes
    :header-rows: 1
+   :widths: 20 20 40 40
 
    * - HTTP Code
      - Reply Code

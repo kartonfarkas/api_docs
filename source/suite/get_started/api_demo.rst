@@ -21,6 +21,8 @@ Check whether your access data is valid by requesting the available languages as
 The response will appear on the bottom of the same page. The following table shows the possible responses and the reasons for failure:
 
 .. list-table:: Possible Responses
+   :header-rows: 1
+   :widths: 30 40 40
 
    * - Response (replyCode, replyText)
      - Possible reason

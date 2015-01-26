@@ -44,6 +44,7 @@ Parameters
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
+   :widths: 20 20
 
    * - Name
      - Type
@@ -75,6 +76,7 @@ Errors
 
 .. list-table:: Possible Error Codes
    :header-rows: 1
+   :widths: 20 20 40 40
 
    * - HTTP Code
      - Reply Code
