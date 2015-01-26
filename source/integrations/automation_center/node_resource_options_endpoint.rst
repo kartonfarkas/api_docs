@@ -34,7 +34,8 @@ Required Response
 
 .. list-table:: **Possible Keys**
    :header-rows: 1
-  
+   :widths: 20 20 40
+
    * - Key
      - Value type
      - Description
