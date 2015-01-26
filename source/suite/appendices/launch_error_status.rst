@@ -3,6 +3,7 @@ Launch Error Statuses
 
 .. list-table:: Launch Error Codes
    :header-rows: 1
+   :widths: 20 40
 
    * - Status
      - Description

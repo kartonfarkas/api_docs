@@ -13,6 +13,7 @@ to authenticate the customer. The following information will be available:
 
 .. list-table:: **Parameters**
    :header-rows: 1
+   :widths: 30 20 40
 
    * - Parameter Name
      - Type

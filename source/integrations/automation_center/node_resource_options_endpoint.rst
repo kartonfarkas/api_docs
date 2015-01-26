@@ -10,6 +10,7 @@ should respond with the list of available resources as described below.
 
 .. list-table:: **Parameters**
    :header-rows: 1
+   :widths: 30 20 40
 
    * - Parameter name
      - Type

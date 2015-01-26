@@ -4,6 +4,8 @@ E-Mail Status Codes
 The ID is one of the following:
 
 .. list-table:: E-Mail Status Codes
+   :header-rows: 1
+   :widths: 20 40
 
    * - Status
      - Description

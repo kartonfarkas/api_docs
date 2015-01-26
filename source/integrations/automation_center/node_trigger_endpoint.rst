@@ -10,6 +10,7 @@ HTTP Method: POST
 
 .. list-table:: **Parameters (sent as form data)**
    :header-rows: 1
+   :widths: 30 20 40
 
    * - Name
      - Type
