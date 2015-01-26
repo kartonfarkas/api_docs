@@ -26,7 +26,7 @@ Launching an email might produce one of the following launch errors:
 
 .. list-table:: **Launch Errors**
    :header-rows: 1
-   :widths: 20 60
+   :widths: 10 40
 
    * - api_error
      - Description

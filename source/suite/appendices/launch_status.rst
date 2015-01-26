@@ -5,7 +5,7 @@ Emails have one of the following launch statuses:
 
 .. list-table:: E-Mail Status Codes
    :header-rows: 1
-   :widths: 20 60
+   :widths: 10 40
 
    * - Status
      - Description

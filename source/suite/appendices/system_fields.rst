@@ -3,7 +3,7 @@ System Fields
 
 .. list-table:: System Fields
    :header-rows: 1
-   :widths: 20 60 40
+   :widths: 10 40 40
 
    * - ID
      - Name
