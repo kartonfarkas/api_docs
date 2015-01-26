@@ -11,9 +11,13 @@ service to the Suite as a menu point and provide an integrated experience for yo
 
 We are using the open source `Escher <http://escherauth.io/>`_ library to
 sign our requests. It is demanded that the endpoints are implemented through the HTTPS protocol.
-The Escher *credential scope* is service specific (your contact person will share this information),
-*AlgoPrefix* and *VendorKey* are both set to "**EMS**", *DateHeaderKey* is "**X-Ems-Date**", and *AuthHeaderKey* is
-"**X-Ems-Auth**".
+
+**Escher parameters**:
+
+* *credentialScope* is service specific (your contact person will share this information)
+* *AlgoPrefix* and *VendorKey* are both set to "**EMS**"
+* *DateHeaderKey* is set to "**X-Ems-Date**"
+* *AuthHeaderKey* is set to "**X-Ems-Auth**"
 
 .. toctree::
    :maxdepth: 1

@@ -4,9 +4,13 @@ Removal
 Endpoint
 --------
 
-``DELETE to a SPECIFIED_URL (provided by the customer) + {$identifier}``
+``DELETE <integration_removal_url><environment>:<$customerId>``
 
-Where the *id* is {$environment}:{$customerId}.
+Request Example
+---------------
+
+``DELETE https://emarsys.partnerservice.com/api/removal?customer=suite5.emarsys.net:111111111``
+
 
 See :doc:`installation`.
 
