@@ -30,7 +30,7 @@ Parameters
 
 .. list-table:: **Optionally Sent Parameters**
    :header-rows: 1
-   :widths: 30 20 40
+   :widths: 30 20 50
 
    * - Name
      - Type
