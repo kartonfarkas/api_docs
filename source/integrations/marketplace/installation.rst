@@ -28,12 +28,9 @@ Parameters
      - int
      - the ID of the environment
 
-Parameters
-----------
-
 .. list-table:: **Optionally Sent Parameters**
    :header-rows: 1
-   :widths: 30 20 40
+   :widths: 30 20 60
 
    * - Name
      - Type
