@@ -12,12 +12,12 @@ service to the Suite as a menu point and provide an integrated experience for yo
 We are using the open source `Escher <http://escherauth.io/>`_ library to
 sign our requests. It is demanded that the endpoints are implemented through the HTTPS protocol.
 
-**Escher parameters**:
+**Integration Points**:
 
-* *credentialScope* is service specific (your contact person will share this information)
-* *AlgoPrefix* and *VendorKey* are both set to "**EMS**"
-* *DateHeaderKey* is set to "**X-Ems-Date**"
-* *AuthHeaderKey* is set to "**X-Ems-Auth**"
+* *Credential Scope* is service specific (your contact person will share this information)
+* *Algo Prefix* and *Vendor Key* are both set to "**EMS**"
+* *Date Header Key* is set to "**X-Ems-Date**"
+* *Authentication Header Key* is set to "**X-Ems-Auth**"
 
 .. toctree::
    :maxdepth: 1
@@ -25,3 +25,5 @@ sign our requests. It is demanded that the endpoints are implemented through the
    automation_center/node.rst
    iframe/iframe.rst
    integration_guide.rst
+
+.. image:: /_static/images/marketplace.png
