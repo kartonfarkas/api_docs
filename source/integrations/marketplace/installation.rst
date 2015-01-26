@@ -28,6 +28,8 @@ Parameters
      - int
      - the ID of the environment
 
+Parameters
+----------
 
 .. list-table:: **Optionally Sent Parameters**
    :header-rows: 1
