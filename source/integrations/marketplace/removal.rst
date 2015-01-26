@@ -13,7 +13,6 @@ Parameters
 
 .. list-table:: **Parameters**
    :header-rows: 1
-   :widths: 20 20 40 40
 
    * - Name
      - Type
