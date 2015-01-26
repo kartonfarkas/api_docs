@@ -37,6 +37,7 @@ These are the possible values for the form's *type*:
 
 .. list-table:: **Form Types**
    :header-rows: 1
+   :widths: 20 40
 
    * - Name
      - Type

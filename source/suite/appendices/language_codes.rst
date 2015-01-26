@@ -5,7 +5,7 @@ The following languages are supported by the Suite for email campaigns.
 
 .. list-table:: **Language Codes**
    :header-rows: 1
-   :widths: 10 40
+   :widths: 20 40
 
    * - Language Code
      - Description
