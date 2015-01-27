@@ -75,7 +75,7 @@ See :doc:`../../suite/emails/conditions`.
      "replyText": "OK",
      "data":
      {
-       "id": 2140
+       "id": 444444444
      }
    }
 
@@ -88,7 +88,7 @@ See :doc:`../../suite/emails/email_create`.
 
 **Request**:
 
-``POST /api/v2/email/<email_id>/preview``
+``POST /api/v2/email/444444444/preview``
 
 .. code-block:: json
 
@@ -115,7 +115,7 @@ If the email in the preview is good for the customer:
 
 **Request**:
 
-``POST /api/v2/email/<email_id>/launch``
+``POST /api/v2/email/444444444/launch``
 
 .. code-block:: json
 

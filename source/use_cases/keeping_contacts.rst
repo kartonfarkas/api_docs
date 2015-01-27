@@ -27,9 +27,9 @@ You can check whether a contact exists in the Suite by requesting its internal c
      "key_id": "3",
      "external_ids":
      [
-       "obadiah.stane@example.com",
-       "jinsen@example.com",
-       "raza@example.com"
+       "mary@example.com",
+       "sarah@example.com",
+       "jane@example.com"
      ]
    }
 
@@ -44,14 +44,14 @@ You can check whether a contact exists in the Suite by requesting its internal c
      {
        "ids":
        {
-         "obadiah.stane@example.com":"9832304",
-         "jinsen@example.com":"9839473"
+         "mary@example.com": "111111111",
+         "sarah@example.com": "222222222"
        },
        "errors":
        {
-         "raza@example.com":
+         "jane@example.com":
          {
-           "2008":"No contact found with the external id: 3"
+           "2008": "No contact found with the external id: 3"
          }
        }
      }
@@ -76,7 +76,7 @@ You have to execute this step if replyCode 0 was returned in step 1. This means 
 .. code-block:: json
 
    {
-     "3": "thor@example.com"
+     "3": "mary@example.com"
    }
 
 **Response**:
@@ -88,7 +88,7 @@ You have to execute this step if replyCode 0 was returned in step 1. This means 
      "replyText": "OK",
      "data":
      {
-       "id": 111111111
+       "id": 333333333
      }
    }
 
@@ -110,7 +110,7 @@ in the Suite.
 .. code-block:: json
 
    {
-     "3": "thor@example.com"
+     "3": "jane@example.com"
    }
 
 **Response**:
@@ -122,7 +122,7 @@ in the Suite.
      "replyText": "OK",
      "data":
      {
-       "id": 222222222
+       "id": 444444444
      }
    }
 

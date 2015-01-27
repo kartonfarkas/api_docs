@@ -40,7 +40,7 @@ You need at least one contact available in the Suite so that the contact data ca
 .. code-block:: json
 
    {
-     "3": "thor@example.com"
+     "3": "ryan@example.com"
    }
 
 **Response**:
@@ -52,7 +52,7 @@ You need at least one contact available in the Suite so that the contact data ca
      "replyText": "OK",
      "data":
      {
-       "id": 123
+       "id": 222222222
      }
    }
 
@@ -76,7 +76,7 @@ get the ID, and put it into your integration script.
 
    {
       "key_id": "3",
-      "external_id": "test@example.com"
+      "external_id": "ryan@example.com"
    }
 
 Where

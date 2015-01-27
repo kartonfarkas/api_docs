@@ -20,7 +20,7 @@ The steps will be as follows:
      "replyCode": 0,
      "replyText": "OK",
      "data":
-     ["111111111", "222222222", "333333333"]
+     ["123456789", "456789123", "789123456"]
    }
 
 Where the IDs are the contact IDs.
@@ -38,7 +38,7 @@ See :doc:`../../suite/contacts/contact_list_list_contacts`.
 
    {
      "keyId": "3",
-     "keyValues": ["tony.stark@example.com", "bruce.banner@example.com"],
+     "keyValues": ["richard@example.com", "robert@example.com"],
      "fields": [1,2,3]
    }
 
@@ -47,22 +47,22 @@ See :doc:`../../suite/contacts/contact_list_list_contacts`.
 .. code-block:: json
 
    {
-      "replyCode":0,
-      "replyText":"OK",
-      "data":{
-         "errors":[
+      "replyCode": 0,
+      "replyText": "OK",
+      "data": {
+         "errors": [
 
          ],
-         "result":[
+         "result": [
             {
-               "1":"Ironman",
-               "3":"tony.stark@example.com",
-               "id":"111111111"
+               "1": "Richard",
+               "3": "richard@example.com",
+               "id": "123456789"
             },
             {
-               "1":"Hulk",
-               "3":"bruce.banner@example.com",
-               "id":"222222222"
+               "1": "Robert",
+               "3": "robert@example.com",
+               "id": "456789123"
             }
          ]
       }

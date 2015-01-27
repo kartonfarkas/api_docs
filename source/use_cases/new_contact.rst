@@ -19,17 +19,17 @@ Add 3 contacts here.
      "contacts":
      [
        {
-         "3": "erik.selvig@example.com",
-         "2": "Selvig",
+         "3": "richard@example.com",
+         "2": "Smith",
          "source_id": "1234"
        },
        {
-         "3": "ian.boothby@example.com",
-         "2": "Boothby"
+         "3": "robert@example.com",
+         "2": "Johnson"
        },
        {
-         "3": "loki@example.com",
-         "2": "Rhodes",
+         "3": "david@example.com",
+         "2": "Freeman",
          "source_id": "5678"
        }
      ]
@@ -64,13 +64,13 @@ See :doc:`../../suite/contacts/contact_multiple_create`.
 
    {
      "key_id": "3",
-     "name": "thor_characters",
+     "name": "young men",
      "description": "",
      "external_ids":
      [
-       "erik.selvig@example.com",
-       "ian.boothby@example.com",
-       "loki@example.com"
+       "richard@example.com",
+       "robert@example.com",
+       "david@example.com"
      ]
    }
 
@@ -79,10 +79,10 @@ See :doc:`../../suite/contacts/contact_multiple_create`.
 .. code-block:: json
 
    {
-      "replyCode":0,
-      "replyText":"OK",
-      "data":{
-         "id":"111111111"
+      "replyCode": 0,
+      "replyText": "OK",
+      "data": {
+         "id": "111111111"
       }
    }
 
@@ -100,7 +100,7 @@ See :doc:`../../suite/contacts/contact_list_create`.
 .. code-block:: json
 
    {
-     "3": "odin@example.com"
+     "3": "jeremy@example.com"
    }
 
 **Response**:
@@ -133,7 +133,7 @@ After the new contact is created:
      "key_id": "3",
      "external_ids":
      [
-       "odin@example.com"
+       "jeremy@example.com"
      ]
    }
 
@@ -142,10 +142,10 @@ After the new contact is created:
 .. code-block:: json
 
    {
-      "replyCode":0,
-      "replyText":"OK",
-      "data":{
-         "inserted_contacts":"1"
+      "replyCode": 0,
+      "replyText": "OK",
+      "data": {
+         "inserted_contacts": "1"
       }
    }
 

@@ -14,13 +14,13 @@ For this scenario, you will need to:
 
    {
      "key_id": "3",
-     "name": "asgard_enemies",
-     "description": "those who fight against Asgard",
+     "name": "women",
+     "description": "women contacts",
      "external_ids":
      [
-       "thor@example.com",
-       "odin@example.com",
-       "loki@example.com"
+       "mary@example.com",
+       "sue@example.com",
+       "anna@example.com"
      ]
    }
 
@@ -36,9 +36,9 @@ For this scenario, you will need to:
        "deleted_contacts": "2",
        "errors":
        {
-         "loki@example.com":
+         "sue@example.com":
           {
-            "2008": "No contact found with the external id: 3 - loki@example.com"
+            "2008": "No contact found with the external id: 3 - sue@example.com"
           }
        }
      }
@@ -62,9 +62,9 @@ See :doc:`../../suite/contacts/contact_list_remove_contacts`.
      "key_id": "3",
      "external_ids":
      [
-       "thor@example.com",
-       "odin@example.com",
-       "loki@example.com"
+       "virginia@example.com",
+       "sarah@example.com",
+       "kate@example.com"
      ]
    }
 
@@ -80,9 +80,9 @@ See :doc:`../../suite/contacts/contact_list_remove_contacts`.
        "inserted_contacts": "2",
        "errors":
        {
-         "loki@example.com":
+         "virginia@example.com":
          {
-           "2008": "No contact found with the external id: 3 - loki@example.com"
+           "2008": "No contact found with the external id: 3 - virginia@example.com"
          }
        }
      }
@@ -104,19 +104,19 @@ See :doc:`../../suite/contacts/contact_list_add_contacts`.
 .. code-block:: json
 
    {
-      "name":"be_afraid_email",
-      "language":"en",
-      "subject":"convergence",
-      "fromname":"Malekith",
-      "fromemail":"malekith@example.com",
-      "email_category":"111111111",
-      "html_source":"<html>Hello $First Name$... </html>",
-      "text_source":"Hello $First Name$...",
-      "browse":0,
-      "text_only":0,
-      "unsubscribe":1,
-      "filter":"222222222",
-      "contactlist":0
+      "name": "new item",
+      "language": "en",
+      "subject": "Informing",
+      "fromname": "webshop_2",
+      "fromemail": "webshop_2@example.com",
+      "email_category": "111111111",
+      "html_source": "<html>Hello $First Name$... </html>",
+      "text_source": "Hello $First Name$...",
+      "browse": 0,
+      "text_only": 0,
+      "unsubscribe": 1,
+      "filter": 0,
+      "contactlist": "111111111"
    }
 
 **Response**:
@@ -128,7 +128,7 @@ See :doc:`../../suite/contacts/contact_list_add_contacts`.
      "replyText": "OK",
      "data":
      {
-       "id": 2140
+       "id": 111111111
      }
    }
 
@@ -141,7 +141,7 @@ See :doc:`../../suite/emails/email_create`.
 
 **Request**:
 
-``POST /api/v2/email/2140/launch``
+``POST /api/v2/email/111111111/launch``
 
 .. code-block:: json
 

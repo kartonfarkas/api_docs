@@ -37,7 +37,8 @@ For this scenario, you will need to:
      ]
    }
 
-Where *filename* is the resulting file name in the media database after upload, and *original_name* is the file name provided in the request.
+Where *filename* is the resulting file name in the media database after upload, and *original_name* is the file name
+provided in the request.
 
 See :doc:`../../suite/emails/media_file_upload`.
 
@@ -51,19 +52,19 @@ See :doc:`../../suite/emails/media_file_upload`.
 .. code-block:: json
 
    {
-      "name":"be_afraid_email",
-      "language":"en",
-      "subject":"convergence",
-      "fromname":"Malekith",
-      "fromemail":"malekith@example.com",
-      "email_category":"111111111",
-      "html_source":"<html>Hello $First Name$... </html>",
-      "text_source":"Hello $First Name$...",
-      "browse":0,
-      "text_only":0,
-      "unsubscribe":1,
-      "filter":"222222222",
-      "contactlist":0
+      "name": "new item",
+      "language": "en",
+      "subject": "Informing",
+      "fromname": "webshop_2",
+      "fromemail": "webshop_2@example.com",
+      "email_category": "111111111",
+      "html_source": "<html>Hello $First Name$... </html>",
+      "text_source": "Hello $First Name$...",
+      "browse": 0,
+      "text_only": 0,
+      "unsubscribe": 1,
+      "filter": 0,
+      "contactlist": "111111111"
    }
 
 **Response**:
@@ -75,7 +76,7 @@ See :doc:`../../suite/emails/media_file_upload`.
      "replyText": "OK",
      "data":
      {
-       "id": 2140
+       "id": 222222222
      }
    }
 
@@ -88,7 +89,7 @@ See :doc:`../../suite/emails/email_create`.
 
 **Request**:
 
-``POST /api/v2/email/2140/launch``
+``POST /api/v2/email/222222222/launch``
 
 .. code-block:: json
 

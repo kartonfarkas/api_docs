@@ -22,16 +22,16 @@ If you want to add 3 contacts:
      "contacts":
      [
        {
-         "3": "erik.selvig@example.com",
+         "3": "eric@example.com",
          "2": "Selvig",
          "source_id": "1234"
        },
        {
-         "3": "ian.boothby@example.com",
+         "3": "ian@example.com",
          "2": "Boothby"
        },
        {
-         "3": "loki@example.com",
+         "3": "thom@example.com",
          "2": "Rhodes",
          "source_id": "5678"
        }
@@ -49,9 +49,9 @@ If you want to add 3 contacts:
      {
        "ids":
        [
-         222222222,
          333333333,
-         444444444
+         444444444,
+         555555555
        ]
      }
    }
@@ -69,13 +69,13 @@ See :doc:`../../suite/contacts/contact_multiple_create`.
 
    {
      "key_id": "3",
-     "name": "thor_characters",
-     "description": "",
+     "name": "men",
+     "description": "men contacts",
      "external_ids":
      [
-       "erik.selvig@example.com",
-       "ian.boothby@example.com",
-       "loki@example.com"
+       "erik@example.com",
+       "ian@example.com",
+       "thom@example.com"
      ]
    }
 
@@ -116,8 +116,8 @@ See :doc:`../../suite/contacts/contact_list_create`.
      "browse": 0,
      "text_only": 0,
      "unsubscribe": 1,
-     "filter": "",
-     "contactlist": 222222222
+     "filter": 0,
+     "contactlist": "222222222"
    }
 
 **Response**:
@@ -129,7 +129,7 @@ See :doc:`../../suite/contacts/contact_list_create`.
      "replyText": "OK",
      "data":
      {
-       "id": 2140
+       "id": 333333333
      }
    }
 

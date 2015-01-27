@@ -42,7 +42,7 @@ You need at least one contact available in the Suite so that the contact data ca
 .. code-block:: json
 
    {
-     "3": "thor@example.com"
+     "3": "peter@example.com"
    }
 
 **Response**:
@@ -54,7 +54,7 @@ You need at least one contact available in the Suite so that the contact data ca
      "replyText": "OK",
      "data":
      {
-       "id": 123
+       "id": 111111111
      }
    }
 
@@ -78,15 +78,7 @@ Use your external event ID (not the name!) as *id*. Since these IDs don’t chan
 
    {
       "key_id": "3",
-      "external_id": "test@example.com"
-      "data":
-      {
-         "global":
-         {
-            "itemName": "keyboard",
-            "itemPrice": "123"
-         }
-      }
+      "external_id": "peter@example.com"
    }
 
 Where

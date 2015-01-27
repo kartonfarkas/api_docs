@@ -15,7 +15,7 @@ For this scenario, you will need to:
 .. code-block:: json
 
    {
-     "filterId": "1121",
+     "filterId": "111111111",
      "contactlistId": "0"
    }
 

@@ -18,7 +18,7 @@ The steps will be as follows:
    {
      "name": "present",
      "language": "en",
-     "subject": "voucher",
+     "subject": "Voucher",
      "fromname": "webshop",
      "fromemail": "webshop@example.com",
      "email_category": "111111111",
@@ -42,7 +42,7 @@ The steps will be as follows:
      "replyText": "OK",
      "data":
      {
-       "id": 2140
+       "id": 555555555
      }
    }
 
@@ -65,8 +65,8 @@ After creating the email, go to the UI and set the *Recipient Source* to "**Gene
 .. code-block:: json
 
    {
-      "key_id":"3",
-      "external_id":"thor@example.com"
+      "key_id": "3",
+      "external_id": "peter@example.com"
    }
 
 With setting that the email has to be triggered to a specific external event, the email is launched to the contact.
