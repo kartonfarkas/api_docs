@@ -154,8 +154,6 @@ See :doc:`../../suite/emails/email_create`.
 
 .. code-block:: json
 
-.. code-block:: json
-
    {
      "replyCode": 0,
      "replyText": "OK",
