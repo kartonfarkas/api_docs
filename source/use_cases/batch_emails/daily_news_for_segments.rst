@@ -13,11 +13,11 @@ For this scenario, you will need to:
 .. code-block:: json
 
    {
-      "name": "be_afraid_email",
+      "name": "daily news for Wednesday",
       "language": "en",
-      "subject": "convergence",
-      "fromname": "Malekith",
-      "fromemail": "malekith@example.com",
+      "subject": "Daily News",
+      "fromname": "webshop_2",
+      "fromemail": "webshop_2@example.com",
       "email_category": "111111111",
       "html_source": "<html>Hello $First Name$... </html>",
       "text_source": "Hello $First Name$...",
@@ -35,7 +35,12 @@ Where *filter* is the segment ID to which the email is sent.
 .. code-block:: json
 
    {
-      "id": 2140
+     "replyCode": 0,
+     "replyText": "OK",
+     "data":
+     {
+       "id": 2140
+     }
    }
 
 Where *id* is the new email campaign ID.
@@ -54,6 +59,16 @@ See :doc:`../../suite/emails/email_create`.
    {
      "schedule": "2011-08-12 08:35",
      "timezone": "America/New_York"
+   }
+
+**Response**:
+
+.. code-block:: json
+
+   {
+     "replyCode": 0,
+     "replyText": "OK",
+     "data": ""
    }
 
 See :doc:`../../suite/emails/launch`.

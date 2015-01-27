@@ -60,6 +60,15 @@ After creating the email, go to the UI and set the *Recipient Source* to "**Gene
 
 ``POST /api/v2/event/<123>/trigger``
 
+**Response**:
+
+.. code-block:: json
+
+   {
+      "key_id":"3",
+      "external_id":"thor@example.com"
+   }
+
 With setting that the email has to be triggered to a specific external event, the email is launched to the contact.
 
 See :doc:`../../suite/external_events/external_event_trigger`.

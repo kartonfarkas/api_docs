@@ -57,9 +57,13 @@ You need at least one contact available in the Suite so that the contact data ca
 **Response**:
 
 .. code-block:: json
-
    {
-      "id": 111111111
+     "replyCode": 0,
+     "replyText": "OK",
+     "data":
+     {
+       "id": 111111111
+     }
    }
 
 To identify the contact, we are using the key_id of the **externalID** field mentioned in *Preparation*.

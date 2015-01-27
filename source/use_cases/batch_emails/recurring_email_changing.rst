@@ -10,8 +10,6 @@ For this scenario, you will need to:
 
 ``POST /api/v2/contactlist/111111111/delete``
 
-**Simple Values**:
-
 .. code-block:: json
 
    {
@@ -26,33 +24,24 @@ For this scenario, you will need to:
      ]
    }
 
-**Multichoice Values**:
-
-.. code-block:: json
-
-   {
-     "key_id": "123",
-     "name": "asgard_enemies",
-     "description": "those who fight against Asgard",
-     "external_ids":
-     [
-       [1,2,3],
-       [2,3],
-       [1,4]
-     ]
-   }
-
 **Response**:
 
 .. code-block:: json
 
    {
-      "deleted_contacts": "2",
-      "errors": {
-         "loki@example.com": {
+     "replyCode": 0,
+     "replyText": "OK",
+     "data":
+     {
+       "deleted_contacts": "2",
+       "errors":
+       {
+         "loki@example.com":
+          {
             "2008": "No contact found with the external id: 3 - loki@example.com"
-         }
-      }
+          }
+       }
+     }
    }
 
 Where *deleted_contacts* is the number of contacts successfully deleted from the list, and *errors* is an array of
@@ -67,8 +56,6 @@ See :doc:`../../suite/contacts/contact_list_remove_contacts`.
 
 ``POST /api/v2/contactlist/111111111/add``
 
-**Simple Values**:
-
 .. code-block:: json
 
    {
@@ -81,31 +68,24 @@ See :doc:`../../suite/contacts/contact_list_remove_contacts`.
      ]
    }
 
-**Multichoice Values**:
-
-.. code-block:: json
-
-   {
-     "key_id": "123",
-     "external_ids":
-     [
-       [1,2,3],
-       [2,3],
-       [1,4]
-     ]
-   }
-
 **Response**:
 
 .. code-block:: json
 
    {
-      "inserted_contacts": "2",
-      "errors": {
-         "loki@example.com": {
-            "2008": "No contact found with the external id: 3 - loki@example.com"
+     "replyCode": 0,
+     "replyText": "OK",
+     "data":
+     {
+       "inserted_contacts": "2",
+       "errors":
+       {
+         "loki@example.com":
+         {
+           "2008": "No contact found with the external id: 3 - loki@example.com"
          }
-      }
+       }
+     }
    }
 
 Where *inserted_contacts* is the number of contacts successfully added to the list, and
@@ -144,7 +124,12 @@ See :doc:`../../suite/contacts/contact_list_add_contacts`.
 .. code-block:: json
 
    {
-      "id": 2140
+     "replyCode": 0,
+     "replyText": "OK",
+     "data":
+     {
+       "id": 2140
+     }
    }
 
 Where *id* is the new email campaign ID.
@@ -163,6 +148,18 @@ See :doc:`../../suite/emails/email_create`.
    {
      "schedule": "2011-08-12 08:35",
      "timezone": "America/New_York"
+   }
+
+**Response**:
+
+.. code-block:: json
+
+.. code-block:: json
+
+   {
+     "replyCode": 0,
+     "replyText": "OK",
+     "data": ""
    }
 
 See :doc:`../../suite/emails/launch`.

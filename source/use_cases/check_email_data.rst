@@ -1,5 +1,10 @@
-Checking Email Data
-===================
+Checking the Content of a Launched Email
+========================================
+
+If a contact list had been created to which an email campaign was sent, the customer can export the selected fields of all contacts who
+responded to the email within the specified time range.
+
+The steps will be as follows:
 
 1. Creating Multiple Contacts
 -----------------------------
@@ -78,9 +83,13 @@ See :doc:`../../suite/contacts/contact_multiple_create`.
 
 .. code-block:: json
 
-     {
-       "id": "222222222"
-     }
+   {
+      "replyCode":0,
+      "replyText":"OK",
+      "data":{
+         "id":"222222222"
+      }
+   }
 
 Where *id* is the ID of the contact list.
 
@@ -96,9 +105,9 @@ See :doc:`../../suite/contacts/contact_list_create`.
 .. code-block:: json
 
    {
-     "name": "new_item",
+     "name": "new item",
      "language": "en",
-     "subject": "informing",
+     "subject": "Informing",
      "fromname": "webshop_2",
      "fromemail": "webshop_2@example.com",
      "email_category": "111111111",
@@ -116,7 +125,12 @@ See :doc:`../../suite/contacts/contact_list_create`.
 .. code-block:: json
 
    {
-     "id": 2140
+     "replyCode": 0,
+     "replyText": "OK",
+     "data":
+     {
+       "id": 2140
+     }
    }
 
 See :doc:`../../suite/emails/email_create`.
@@ -133,6 +147,16 @@ See :doc:`../../suite/emails/email_create`.
    {
      "schedule": "2011-08-12 08:35",
      "timezone": "America/New_York"
+   }
+
+**Response**:
+
+.. code-block:: json
+
+   {
+     "replyCode": 0,
+     "replyText": "OK",
+     "data": ""
    }
 
 See :doc:`../../suite/emails/launch`.
@@ -172,7 +196,12 @@ After waiting for 1 day in order to get the responses 'clicked', 'opened'...etc.
 .. code-block:: json
 
    {
-     "id": 555555555
+     "replyCode": 0,
+     "replyText": "OK",
+     "data":
+     {
+       "id": 555555555
+     }
    }
 
 See :doc:`../../suite/exports/export_responses`.

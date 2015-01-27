@@ -19,6 +19,16 @@ For this scenario, you will need to:
      "contactlistId": "0"
    }
 
+**Response**:
+
+.. code-block:: json
+
+   {
+     "replyCode": 0,
+     "replyText": "OK",
+     "data": true
+   }
+
 See :doc:`../../suite/emails/email_update_source`.
 
 2. Launch an Email Campaign
@@ -33,6 +43,16 @@ See :doc:`../../suite/emails/email_update_source`.
    {
      "schedule": "2011-08-12 08:35",
      "timezone": "America/New_York"
+   }
+
+**Response**:
+
+.. code-block:: json
+
+   {
+     "replyCode": 0,
+     "replyText": "OK",
+     "data": ""
    }
 
 See :doc:`../../suite/emails/launch`.

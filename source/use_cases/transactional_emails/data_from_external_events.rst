@@ -50,7 +50,12 @@ You need at least one contact available in the Suite so that the contact data ca
 .. code-block:: json
 
    {
-     "id": 123
+     "replyCode": 0,
+     "replyText": "OK",
+     "data":
+     {
+       "id": 123
+     }
    }
 
 To identify the contact, we are using the email address which is also the default key. Therefore, we do not have to

@@ -7,8 +7,8 @@ to create it, otherwise you have to update it. This use case is about deciding w
 
 .. :note:: We say that a contact exists in the Suite if a contact with the same key can be found.
 
-1. Check whether Contact Exists in the Suite
---------------------------------------------
+1. Check whether a Contact Exists in the Suite
+----------------------------------------------
 
 You can check whether a contact exists in the Suite by requesting its internal contact ID.
 
@@ -38,15 +38,23 @@ You can check whether a contact exists in the Suite by requesting its internal c
 .. code-block:: json
 
    {
-      "ids": {
-         "obadiah.stane@example.com": "9832304",
-         "jinsen@example.com": "9839473"
-      },
-      "errors": {
-         "raza@example.com": {
-            "2008": "No contact found with the external id: 3"
+     "replyCode": 0,
+     "replyText": "OK",
+     "data":
+     {
+       "ids":
+       {
+         "obadiah.stane@example.com":"9832304",
+         "jinsen@example.com":"9839473"
+       },
+       "errors":
+       {
+         "raza@example.com":
+         {
+           "2008":"No contact found with the external id: 3"
          }
-      }
+       }
+     }
    }
 
 Where *ids* are internal IDs, and *errors* contains the error ID and the error message as a key-value pair.
@@ -76,7 +84,12 @@ You have to execute this step if replyCode 0 was returned in step 1. This means 
 .. code-block:: json
 
    {
-      "id": 111111111
+     "replyCode": 0,
+     "replyText": "OK",
+     "data":
+     {
+       "id": 111111111
+     }
    }
 
 Where *id* is the ID of the updated contact.
@@ -105,7 +118,12 @@ in the Suite.
 .. code-block:: json
 
    {
-      "id": 222222222
+     "replyCode": 0,
+     "replyText": "OK",
+     "data":
+     {
+       "id": 222222222
+     }
    }
 
 Where *id* is the ID of the new contact.

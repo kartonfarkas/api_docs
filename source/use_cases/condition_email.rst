@@ -51,7 +51,7 @@ See :doc:`../../suite/emails/conditions`.
    {
      "name": "toasting",
      "language": "en",
-     "subject": "nameday",
+     "subject": "Nameday",
      "fromname": "webshop_1",
      "fromemail": "webshop_1@example.com",
      "email_category": "111111111",
@@ -71,7 +71,12 @@ See :doc:`../../suite/emails/conditions`.
 .. code-block:: json
 
    {
-     "id": 2140
+     "replyCode": 0,
+     "replyText": "OK",
+     "data":
+     {
+       "id": 2140
+     }
    }
 
 Where *id* is the new email campaign ID.
@@ -91,6 +96,16 @@ See :doc:`../../suite/emails/email_create`.
      "version": "html"
    }
 
+**Response**:
+
+.. code-block:: json
+
+   {
+     "replyCode": 0,
+     "replyText": "OK",
+     "data": {}
+   }
+
 See :doc:`../../suite/emails/launch_preview`.
 
 If the email in the preview is good for the customer:
@@ -107,6 +122,16 @@ If the email in the preview is good for the customer:
    {
      "schedule": "2011-08-12 08:35",
      "timezone": "America/New_York"
+   }
+
+**Response**:
+
+.. code-block:: json
+
+   {
+     "replyCode": 0,
+     "replyText": "OK",
+     "data": ""
    }
 
 See :doc:`../../suite/emails/launch`.

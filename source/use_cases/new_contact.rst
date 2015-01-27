@@ -40,12 +40,15 @@ Add 3 contacts here.
 .. code-block:: json
 
    {
-     "ids":
-     [
-       123456789,
-       456789123,
-       789123456
-     ]
+      "replyCode":0,
+      "replyText":"OK",
+      "data":{
+         "ids":[
+            123456789,
+            456789123,
+            789123456
+         ]
+      }
    }
 
 See :doc:`../../suite/contacts/contact_multiple_create`.
@@ -75,9 +78,13 @@ See :doc:`../../suite/contacts/contact_multiple_create`.
 
 .. code-block:: json
 
-     {
-       "id": "111111111"
-     }
+   {
+      "replyCode":0,
+      "replyText":"OK",
+      "data":{
+         "id":"111111111"
+      }
+   }
 
 Where *id* is the ID of the contact list.
 
@@ -100,9 +107,14 @@ See :doc:`../../suite/contacts/contact_list_create`.
 
 .. code-block:: json
 
+   {
+     "replyCode": 0,
+     "replyText": "OK",
+     "data":
      {
        "id": 987654321
      }
+   }
 
 See :doc:`../../suite/contacts/contact_create`.
 
@@ -130,7 +142,11 @@ After the new contact is created:
 .. code-block:: json
 
    {
-     "inserted_contacts": "1"
+      "replyCode":0,
+      "replyText":"OK",
+      "data":{
+         "inserted_contacts":"1"
+      }
    }
 
 See :doc:`../../suite/contacts/contact_list_add_contacts`.
@@ -145,9 +161,9 @@ See :doc:`../../suite/contacts/contact_list_add_contacts`.
 .. code-block:: json
 
    {
-     "name": "new_item",
+     "name": "new item",
      "language": "en",
-     "subject": "informing",
+     "subject": "Informing",
      "fromname": "webshop_2",
      "fromemail": "webshop_2@example.com",
      "email_category": "111111111",
@@ -165,7 +181,12 @@ See :doc:`../../suite/contacts/contact_list_add_contacts`.
 .. code-block:: json
 
    {
-     "id": 111111111
+     "replyCode": 0,
+     "replyText": "OK",
+     "data":
+     {
+       "id": 111111111
+     }
    }
 
 Where *id* is the new email campaign ID.
@@ -184,6 +205,16 @@ See :doc:`../../suite/emails/email_create`.
    {
      "schedule": "2011-08-12 08:35",
      "timezone": "America/New_York"
+   }
+
+**Response**:
+
+.. code-block:: json
+
+   {
+     "replyCode": 0,
+     "replyText": "OK",
+     "data": ""
    }
 
 See :doc:`../../suite/emails/launch`.

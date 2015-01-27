@@ -32,16 +32,21 @@ See :doc:`../../suite/contacts/source_create`.
 
 .. code-block:: json
 
-  [
-    {
-      "id": "123",
-      "name": "webshop_1"
-    },
-    {
-      "id": "456",
-      "name": "webshop_2"
-    }
-  ]
+   {
+     "replyCode": 0,
+     "replyText": "OK",
+     "data":
+     [
+       {
+         "id": "123",
+         "name": "webshop_1"
+       },
+       {
+         "id": "456",
+         "name": "webshop_2"
+       }
+     ]
+   }
 
 See :doc:`../../suite/contacts/source_list`.
 
@@ -68,7 +73,12 @@ Where *source_id* is the ID assigned to the application of a customer to integra
 .. code-block:: json
 
    {
-     "id": 111111111
+     "replyCode": 0,
+     "replyText": "OK",
+     "data":
+     {
+       "id": 111111111
+     }
    }
 
 .. note:: You can also update a contact here.
@@ -110,7 +120,12 @@ Where *origin_id* is the *source_id*.
 .. code-block:: json
 
    {
-     "id": 2140
+     "replyCode": 0,
+     "replyText": "OK",
+     "data":
+     {
+       "id": 2140
+     }
    }
 
 See :doc:`../../suite/exports/export_changes`.
