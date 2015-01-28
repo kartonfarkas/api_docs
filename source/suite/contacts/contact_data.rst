@@ -1,7 +1,7 @@
 Querying Contact Data
 =====================
 
-Returns the selected fields of contacts. The contacts can be specified by either internal IDs or by using another column’s value as a key.
+Return the values of specified fields for contacts. The contacts can be specified by using either the internal IDs or by using another column value.
 
 Endpoint
 --------
@@ -21,12 +21,12 @@ Parameters
      - Comments
    * - keyId
      - mixed
-     - key which identifies the contacts
-     - This can be a field id, **id** or **uid**. If empty, the internal ID will be used.
+     - Key which identifies the contacts
+     - This can be a field id, **id** or **uid**. If left empty, the internal ID will be used by default.
    * - keyValues
      - array
-     - value of the keyId
-     - It must be an array containing contact IDs or values of the column used to select contacts.
+     - Value of the keyId
+     - Must be expressed as an array containing contact IDs or values of the column used to select contacts.
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
@@ -38,7 +38,7 @@ Parameters
      - Comments
    * - fields
      - array
-     - fields in the result set can be set with the fields parameter
+     - Define which results to include by using the fields parameter.
      - If empty, all fields will be returned.
 
 JSON Payload Example
