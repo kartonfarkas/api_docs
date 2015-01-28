@@ -1,7 +1,7 @@
 Updating a Contact
 ==================
 
-Update a contact using their external ID as reference.
+Updates a contact using their external ID as reference.
 
 Endpoint
 --------
