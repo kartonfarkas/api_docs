@@ -42,17 +42,17 @@ If you have tried the suggested solutions without success, then please contact y
 Check the Response
 ^^^^^^^^^^^^^^^^^^
 
-The response of your request always appears on the bottom of the page, so after sending a request, you might need to scroll down to see the response.
+The response of your request always appears on the bottom of the page, so after sending a request, don't forget that you might need to scroll down to see the response.
 
 .. note::
 
-   If the Suite API is not available or the URL is invalid, the last response will be displayed rather than an error message.
+   If the Suite API is not available or the URL is invalid, the last successful response will be displayed rather than an error message.
 
 Check the Request
 ^^^^^^^^^^^^^^^^^
 
-Above the tab bar, you can see the request sent to the Suite API. With the aid of this, you can assemble your
-request URI by simply concatenating this request to your API URL. For example, if your Suite API environment URL is:
+Above the tab bar, you can see the language availability request sent to the Suite API. With the aid of this, you can assemble your
+request URI by simply concatenating this request with your API URL. For example, if your Suite API environment URL is:
 
 * https://suite5.emarsys.net/api/v2/
    and the request which appeared on the API-demo after you sent a contact ID check request is:
