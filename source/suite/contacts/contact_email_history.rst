@@ -1,7 +1,7 @@
 Querying Contact Email History
 ==============================
 
-Returns the list of the email campaign launch data for the specified contacts within the optionally defined date interval.
+Returns a list of email campaign launch data for specified contacts within a specified timeframe (optional).
 
 Endpoint
 --------
@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - contacts
      - array
-     - integer array which contains the contact IDs to check
+     - Integer array which contains the contact IDs to check
      -
 
 .. list-table:: **Optional Parameters**
@@ -34,11 +34,11 @@ Parameters
      - Comments
    * - startDate
      - date
-     - can be used to filter the launch date of emails
+     - Can be used to filter the launch date of emails
      -
    * - endDate
      - date
-     - can be used to filter the launch date of emails
+     - Can be used to filter the launch date of emails
      -
 
 JSON Payload Example
@@ -79,7 +79,7 @@ Result Example
      ]
    }
 
-Result Data Structure
+Result Example
 ---------------------
 
 .. code-block:: json
