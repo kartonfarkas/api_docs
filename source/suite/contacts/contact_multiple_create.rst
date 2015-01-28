@@ -105,7 +105,7 @@ Result Example
 Where:
 
 * *[idx]* are the IDs of successfully-created contacts (returned as an array).
-* *[errorx]* indicates that an error occurred during the creation of a contact, and the error message returns the value of the key_id (i.e. the failed contact).
+* *[errorx]* indicates that an error occurred during the creation of a contact, and the error message returns the value of the key_id.
 
 Errors
 ------
