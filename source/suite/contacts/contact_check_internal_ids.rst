@@ -1,12 +1,12 @@
 Checking Contact Internal IDs
 =============================
 
-Returns the list of internal IDs of existing contacts and a list of errors indexed by the key IDs.
+Generates a list of existing contacts and errors indexed by a specified key ID.
 Errors are collected if
 
-* no contact is found
-* more than one contact is found with the same keyID value
-* the keyID is invalid
+* The keyID is invalid
+* No contact is found
+* More than one contact is found with the same keyID value
 
 Endpoint
 --------
@@ -31,7 +31,7 @@ Parameters
    * - external_ids
      - mixed
      - [id1];[id2];… values specified in the key_id for those contacts whose internal IDs the customer wants to receive
-     - ID can be integer, string or array depending on the key field type. For example, for custom numeric fields an integer is appropriate, for a multi-choice field an array must be provided, etc..
+     - ID can be an integer, string or array depending on the key field type. For example, for custom numeric fields use an integer, for a multi-choice field use an array, etc..
 
 JSON Payload Example
 --------------------
