@@ -1,7 +1,7 @@
 Querying Contact Email History
 ==============================
 
-Returns a list of email campaign launch data for specified contacts within a specified timeframe (optional).
+Returns a list of email campaign launch data for specified contacts, can also be restricted to specified timeframe (optional).
 
 Endpoint
 --------
