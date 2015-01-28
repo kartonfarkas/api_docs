@@ -1,7 +1,7 @@
 Updating an Administrator
 =========================
 
-Modifies specific properties of an admin.
+Modifies specific properties of an admin account.
 
 .. include:: _warning.rst
 
@@ -36,43 +36,43 @@ Parameters
      - Comments
    * - username
      - string
-     - name of the admin
-     - unique, cannot be modified
+     - Name of the admin
+     - Unique, cannot be modified
    * - password
      - string
-     - password of the admin
-     - has to exceed the password strength limit
+     - Password of the admin
+     - Has to meet the password strength requirements
    * - email
      - string
      - email address
      -
    * - access_level
      - int
-     - the ID of the access level of the new administrator
-     - for possible access level identifiers, see administrator/getaccesslevels
+     - Access level ID of the admin
+     - For a list of available access level IDs, see administrator/getaccesslevels
    * - interface_language
      - string
-     - the language of the interface which is shown to the new administrator
-     - for possible languages, see administrator/getinterfacelanguages
+     - The interface language for the admin account
+     - For a list of available languages, see administrator/getinterfacelanguages
    * - first_name
      - string
-     - first name of the admin
+     - First name of the admin
      -
    * - last_name
      - string
-     - last name of the admin
+     - Last name of the admin
      -
    * - position
      - string
-     - position of the admin
+     - Admin's role/position
      -
    * - disabled
      - int
-     - 0 is unlocked, 1 is locked/unavailable
+     - Disabled (1) or not disabled (0)
      -
    * - superadmin
      - int
-     - assigns 1 to the superadmin of the customer and 0 to others. Superadmin can set admins on the UI.
+     - Indicates if this administrator has superadmin access (1) or not (0).
      -
 
 Result Example
