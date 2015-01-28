@@ -1,7 +1,7 @@
 Listing Contacts
 ================
 
-Return a list of all contacts, or optionally all contacts meeting a specific field requirement (e.g. field_id).
+Returns a list of all contacts, or optionally all contacts meeting a specific field requirement (e.g. field_id).
 
 Endpoint
 --------
@@ -46,7 +46,7 @@ Parameters
      -
    * - excludeempty
      - boolean
-     - If set to true, then all contacts with a null or empty value in the requested field not returned. Any value except from true will be interpreted as false.
+     - If set to true, then all contacts with a null or empty value in the requested field are not returned. Any value except from true will be interpreted as false.
      -
 
 URI Example

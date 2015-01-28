@@ -79,8 +79,8 @@ Result Example
      ]
    }
 
-Result Example
----------------------
+Data Structure of the Result
+----------------------------
 
 .. code-block:: json
 

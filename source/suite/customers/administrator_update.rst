@@ -37,11 +37,11 @@ Parameters
    * - username
      - string
      - Username of the admin
-     - Unique, cannot be modified
+     - Unique, it cannot be modified.
    * - password
      - string
      - Password used by the admin
-     - Has to meet the password strength requirements
+     - Has to meet the password strength requirements.
    * - email
      - string
      - email address
@@ -49,11 +49,11 @@ Parameters
    * - access_level
      - int
      - Access level ID of the admin
-     - For a list of available access level IDs, see administrator/getaccesslevels
+     - For a list of available access level IDs, see administrator/getaccesslevels.
    * - interface_language
      - string
      - Interface language of the admin account
-     - For a list of available languages, see administrator/getinterfacelanguages
+     - For a list of available languages, see administrator/getinterfacelanguages.
    * - first_name
      - string
      - First name of the admin

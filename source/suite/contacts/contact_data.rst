@@ -1,7 +1,7 @@
 Querying Contact Data
 =====================
 
-Return the values of specified fields for contacts. The contacts can be specified by using either the internal IDs or by using another column value.
+Returns the values of specified fields for contacts. The contacts can be specified by using either the internal IDs or by using another column value.
 
 Endpoint
 --------
