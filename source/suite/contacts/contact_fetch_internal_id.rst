@@ -1,7 +1,7 @@
 Fetching Contact Internal ID
 ============================
 
-Returns the internal ID of a contact specified by its key ID.
+Returns the internal ID of a contact based on a specified key ID.
 
 Endpoint
 --------
@@ -21,11 +21,11 @@ Parameters
      - Comments
    * - key_field_id
      - mixed
-     - ID of the key field or ‘ID’ if internal ID used
+     - ID of the key field to use, or ‘ID’ if the internal ID used
      -
    * - key_field_value
      - field dependent
-     - value of the key field
+     - Key field value to use in the query
      -
 
 URI Examples
