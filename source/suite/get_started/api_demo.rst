@@ -12,10 +12,10 @@ their parameters. The responses to the requests are then displayed so they can s
 Check Your Access to the Suite API
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Check whether your access data is valid by making a test request to see what languages are available:
+Check whether your access data is valid by making a test request to see what languages are available. The steps for this are the following:
 
-* Go to the **Language** tab
-* Leave the text field empty and click **OK**
+* Go to the **Language** tab.
+* Leave the text field empty and click on **OK**.
 
 The response will appear on the bottom of the same page. The following table shows the possible responses and the reasons for failure:
 
