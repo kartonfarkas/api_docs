@@ -1,7 +1,8 @@
 Uploading a File
 ================
 
-Uploads a file to the Media Database.
+Uploads a file to the Media Database. When an email campaign is created, the uploaded file has to be referred
+to like this: ``<img src=”/custloads/<customer_id>/img.png”>``.
 
 Endpoint
 --------
