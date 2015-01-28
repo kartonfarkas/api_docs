@@ -35,11 +35,11 @@ Parameters
      -
    * - access_level
      - int
-     - Desired access level ID of the new administrator
+     - Desired access level ID of the new admin
      - For a list of available access level IDs, see administrator/getaccesslevels
    * - interface_language
      - string
-     - The interface language for the new administrators account
+     - The interface language for the new admin account
      - For a list of available languages, see administrator/getinterfacelanguages
 
 .. list-table:: **Optional Parameters**
@@ -69,7 +69,7 @@ Result Example
        }
    }
 
-Where *id* is the internal ID of the administrator.
+Where *id* is the internal ID of the admin.
 
 Errors
 ------
