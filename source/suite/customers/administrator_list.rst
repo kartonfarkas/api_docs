@@ -1,7 +1,7 @@
 Listing Administrators
 ======================
 
-Returns a list of administrators for the customer's account.
+Returns a list of admins for the customer's account.
 
 .. include:: _warning.rst
 
@@ -53,9 +53,9 @@ Result Example
 
 Where:
 
-* *id* is the internal ID of the administrator for the customer.
-* *interface_language* is the ISO code of the current language used in the Suite UI by the administrator (for a list of possible languages see administrator/getinterfacelanguages)
-* *access_level* is the administrator role ID (for a list of possible values see :doc:`administrator_access_levels`)
+* *id* is the internal ID of the admin for the customer.
+* *interface_language* is the ISO code of the current language used in the Suite UI by the admin (for a list of possible languages see administrator/getinterfacelanguages)
+* *access_level* is the admin role ID (for a list of possible values see :doc:`administrator_access_levels`)
 * *tz* is the time zone, the default is valid if it is empty
-* *superadmin* indicates if this administrator has superadmin access (1) or not (0). Superadmin can set admins on the UI.
+* *superadmin* indicates if this admin has superadmin access (1) or not (0). Superadmin can set admins on the UI.
 * *disabled* indicates if the account is locked (1) or unlocked (0).
