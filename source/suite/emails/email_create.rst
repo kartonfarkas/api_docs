@@ -129,7 +129,9 @@ Result Example
      }
    }
 
-Where *id* is the new email campaign ID.
+Where:
+
+* *id* is the new email campaign ID
 
 Errors
 ------

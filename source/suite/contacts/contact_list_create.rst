@@ -101,7 +101,10 @@ Result Example
      }
    }
 
-Where *id* is the ID of the contact list, and *errors* contains the error ID and the error message as a key-value pair.
+Where:
+
+* *id* is the ID of the contact list
+* *errors* contains the error ID and the error message as a key-value pair.
 
 Errors
 ------

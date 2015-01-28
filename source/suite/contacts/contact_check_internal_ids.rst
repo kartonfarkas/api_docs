@@ -74,7 +74,10 @@ Result Example
    }
 
 
-Where *ids* are internal IDs,and *errors* contains the error ID and the error message as a key-value pair.
+Where:
+
+* *ids* are the internal IDs
+* *errors* contain the error ID and the error message as a key-value pair
 
 Errors
 ------

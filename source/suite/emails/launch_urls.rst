@@ -57,7 +57,9 @@ Result Example
      }
    }
 
-Where *url* is the URL of the online version.
+Where:
+
+* *url* is the URL of the online version
 
 Errors
 ------

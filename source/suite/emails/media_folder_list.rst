@@ -56,7 +56,9 @@ Result Example
      ]
    }
 
-Where *parent* is the parent folder. If a parent folder is specified, only its subfolders are returned.
+Where:
+
+* *parent* is the parent folder. If a parent folder is specified, only its subfolders are returned.
 
 Errors
 ------

@@ -100,7 +100,10 @@ Result Example
      }
    }
 
-Where *[idx]* means that the IDs of successfully-created contacts are returned in an array, and *[errorx]* is that if an error occurred during the creation of a contact, the error message is returned with the value of the key_id.
+Where:
+
+* *[idx]* means that the IDs of successfully-created contacts are returned in an array
+* *[errorx]* is that if an error occurred during the creation of a contact, the error message is returned with the value of the key_id
 
 Errors
 ------

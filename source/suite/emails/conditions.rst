@@ -32,7 +32,9 @@ Result Example
        ]
    }
 
-Where *condName* is a placeholder to use in the email’s HTML or TEXT source.
+Where:
+
+* *condName* is a placeholder to use in the email’s HTML or TEXT source
 
 Errors
 ------

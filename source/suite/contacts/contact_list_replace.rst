@@ -85,9 +85,10 @@ Result Example
      }
    }
 
-Where *inserted_contacts* is the number of contacts successfully added to the list, and
-*errors* is an array of contacts not added to the list. The array contains the ID and
-reason for the error.
+Where:
+
+* *inserted_contacts* is the number of contacts successfully added to the list
+* *errors* is an array of contacts not added to the list. The array contains the ID and the reason for the error.
 
 Errors
 ------

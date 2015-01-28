@@ -65,7 +65,9 @@ Result Example
      ]
    }
 
-Where *id* is the internal identifier of the choice, and *choice* is the name of the choice
+Where:
+
+* *id* is the internal identifier of the choice, and *choice* is the name of the choice
 
 Errors
 ------

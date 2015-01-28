@@ -69,7 +69,9 @@ Result Example
        }
    }
 
-Where *id* is the internal ID of the admin.
+Where:
+
+* *id* is the internal ID of the admin
 
 Errors
 ------

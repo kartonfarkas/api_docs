@@ -91,7 +91,10 @@ Result Example
      ]
    }
 
-Where *filename* is the resulting file name in the media database after upload, and *original_name* is the file name provided in the request.
+Where:
+
+* *filename* is the resulting file name in the media database after upload
+* *original_name* is the file name provided in the request
 
 Errors
 ------

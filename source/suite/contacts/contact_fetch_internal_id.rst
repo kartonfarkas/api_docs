@@ -53,7 +53,9 @@ Result Example
      }
    }
 
-Where *id* is the internal ID of the contact.
+Where:
+
+* *id* is the internal ID of the contact
 
 Errors
 ------
