@@ -1,8 +1,8 @@
 Customers and Administrators
 ============================
 
-Customer is the owner of the Suite account (i.e. your company). Administrators are people authorized to login to the service.
-Please note that there are different access levels for admins.
+Customer is the owner of the Suite account (i.e. your company). Administrators are people authorized to login on behalf
+of the Customer to the service. Please note that there are different access levels for admins.
 
 Customer Settings
 -----------------
