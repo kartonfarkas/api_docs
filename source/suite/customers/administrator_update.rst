@@ -36,11 +36,11 @@ Parameters
      - Comments
    * - username
      - string
-     - Name of the admin
+     - name of the admin
      - Unique, cannot be modified
    * - password
      - string
-     - Password of the admin
+     - password of the admin
      - Has to meet the password strength requirements
    * - email
      - string
@@ -52,27 +52,27 @@ Parameters
      - For a list of available access level IDs, see administrator/getaccesslevels
    * - interface_language
      - string
-     - The interface language for the admin account
+     - interface language for the admin account
      - For a list of available languages, see administrator/getinterfacelanguages
    * - first_name
      - string
-     - First name of the admin
+     - first name of the admin
      -
    * - last_name
      - string
-     - Last name of the admin
+     - last name of the admin
      -
    * - position
      - string
-     - Admin's role/position
+     - admin's role/position
      -
    * - disabled
      - int
-     - Indicates if the account is disabled (1) or not (0)
+     - It indicates if the account is disabled (1) or not (0).
      -
    * - superadmin
      - int
-     - Indicates if this administrator has superadmin access (1) or not (0).
+     - It indicates if this administrator has superadmin access (1) or not (0).
      -
 
 Result Example
@@ -117,11 +117,11 @@ Errors
    * - 400
      - 8016
      - Invalid disabled
-     - its value is not 0 or 1
+     - Its value is not 0 or 1.
    * - 400
      - 8017
      - Password is used recently
-     - this password has already been used, it is not valid anymore
+     - This password has already been used, it is not valid anymore.
    * - 400
      - 8001
      - An administrator with this user name already exists.
@@ -133,11 +133,11 @@ Errors
    * - 400
      - 8003
      - Invalid access level
-     - For possible access level identifiers, see administrator/getaccesslevels
+     - For possible access level identifiers, see administrator/getaccesslevels.
    * - 400
      - 8004
      - Invalid interface language code
-     - For possible languages, see administrator/getinterfacelanguages
+     - For possible languages, see administrator/getinterfacelanguages.
    * - 400
      - 8005
      - Invalid email
