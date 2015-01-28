@@ -58,7 +58,7 @@ See :doc:`../../suite/emails/media_file_upload`.
       "fromname": "webshop_2",
       "fromemail": "webshop_2@example.com",
       "email_category": "111111111",
-      "html_source": "<html>Hello $First Name$... </html>",
+      "html_source": "<html>Hello $First Name$! <img src=”/custloads/<customer_id>/img.png”>... </html>",
       "text_source": "Hello $First Name$...",
       "browse": 0,
       "text_only": 0,
