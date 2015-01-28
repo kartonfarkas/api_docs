@@ -23,11 +23,11 @@ Parameters
      - Comments
    * - username
      - string
-     - name of the admin
-     -
+     - Username for the new admin
+     - Use actual names for easy maintenance, etc.
    * - password
      - string
-     - password of the admin
+     - Password for the new admin
      -
    * - email
      - string
@@ -35,12 +35,12 @@ Parameters
      -
    * - access_level
      - int
-     - the ID of the access level of the new administrator
-     - for possible access level identifiers, see administrator/getaccesslevels
+     - Desired access level ID of the new administrator
+     - For a list of available access level IDs, see administrator/getaccesslevels
    * - interface_language
      - string
-     - the language of the interface which is shown to the new administrator
-     - for possible languages, see administrator/getinterfacelanguages
+     - The interface language for the new administrators account
+     - For a list of available languages, see administrator/getinterfacelanguages
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
@@ -93,11 +93,11 @@ Errors
    * - 400
      - 8003
      - Invalid access level
-     - For possible access level identifiers, see administrator/getaccesslevels
+     - For a list of available access level IDs, see administrator/getaccesslevels
    * - 400
      - 8004
      - Invalid interface language code
-     - For possible languages, see administrator/getinterfacelanguages
+     - For a list of available languages, see administrator/getinterfacelanguages
    * - 400
      - 8005
      - Invalid email
