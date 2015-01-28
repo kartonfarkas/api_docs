@@ -57,5 +57,6 @@ Where:
 * *interface_language* is the ISO code of the current language used in the Suite UI by the admin (for a list of possible languages see administrator/getinterfacelanguages)
 * *access_level* is the admin role ID (for a list of possible values see :doc:`administrator_access_levels`)
 * *tz* is the time zone, the default is valid if it is empty
-* *superadmin* indicates if this admin has superadmin access (1) or not (0). Superadmin can set admins on the UI.
+* *superadmin* indicates if this admin has superadmin access (1) or not (0). Superadmin can set admins on the UI. They
+  can define who should be administrators, and also provide administrator data.
 * *disabled* indicates if the account is locked (1) or unlocked (0).
