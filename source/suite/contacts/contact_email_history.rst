@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - contacts
      - array
-     - Integer array which contains the contact IDs to check
+     - Integer array which contains the contact IDs to include
      -
 
 .. list-table:: **Optional Parameters**
@@ -34,7 +34,7 @@ Parameters
      - Comments
    * - startDate
      - date
-     - Can be used to filter the launch date of emails
+     - Used to filter emails by the launch date
      -
    * - endDate
      - date
