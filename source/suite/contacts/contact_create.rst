@@ -1,7 +1,7 @@
-Creating a Contact
-==================
+Creating a New Contact
+======================
 
-Creates a new contact.
+Info on creating a new contact.
 
 Endpoint
 --------
@@ -14,7 +14,7 @@ Parameters
 Required Parameters
 ^^^^^^^^^^^^^^^^^^^
 
-Key-value pairs which identify the contact.
+Key-value pairs which uniquely identify the contact.
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
@@ -26,17 +26,17 @@ Key-value pairs which identify the contact.
      - Comments
    * - key_id
      - mixed
-     - key which identifies the contacts, [field_id]
+     - Key which identifies the contacts, [field_id]
      -
    * - source_id
      - int
-     - an ID assigned to the application of a customer to integrate, used to differentiate contacts created or modified by the customer's applications, [source_id]
+     - ID assigned to the customers application, used to differentiate contacts created or modified by the external applications, [source_id]
      -
 
 Notes:
 
-* If the key_id is omitted, the default value for key_field ID is 3 (email).
-* Multi-choice values must be passed as an array, even if they contain only one choice ID. Empty arrays are not allowed.
+* If the key_id is omitted, the key_field_id value defaults to using ID 3 (email).
+* Multi-choice values must be included as an array, even if there is only one choice ID. Empty arrays are not allowed.
 
 Request Example
 ---------------
