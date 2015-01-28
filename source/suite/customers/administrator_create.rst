@@ -1,7 +1,7 @@
 Creating an Administrator Account
 =================================
 
-Creates a new admin account.
+Info on how to create a new admin account.
 
 .. include:: _warning.rst
 
