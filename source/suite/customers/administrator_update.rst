@@ -68,7 +68,7 @@ Parameters
      -
    * - disabled
      - int
-     - Disabled (1) or not disabled (0)
+     - Indicates if the account is disabled (1) or not (0)
      -
    * - superadmin
      - int
