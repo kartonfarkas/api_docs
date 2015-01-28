@@ -23,23 +23,23 @@ Parameters
      - Comments
    * - username
      - string
-     - username for the new admin
+     - Username for the new admin
      - Use actual names for easy maintenance, etc.
    * - password
      - string
-     - password for the new admin
+     - Password for the new admin
      -
    * - email
      - string
-     - email address
+     - Email address
      -
    * - access_level
      - int
-     - desired access level ID of the new admin
+     - Desired access level ID of the new admin
      - For a list of available access level IDs, see administrator/getaccesslevels.
    * - interface_language
      - string
-     - interface language for the new admin account
+     - Interface language for the new admin account
      - For a list of available languages, see administrator/getinterfacelanguages.
 
 .. list-table:: **Optional Parameters**

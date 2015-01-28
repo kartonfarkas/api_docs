@@ -21,11 +21,11 @@ Parameters
      - Comments
    * - name
      - string
-     - the name of the new folder
+     - Name of the new folder
      -
    * - parent
      - int
-     - the ID of the parent folder
+     - ID of the parent folder
      -
 
 Result Example

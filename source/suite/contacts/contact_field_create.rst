@@ -21,12 +21,12 @@ Parameters
      - Comments
    * - name
      - string
-     - name of the new field
+     - Name of the new field
      -
    * - application_type
      - string
-     - type of the new field
-     - supported types:
+     - Type of the new field
+     - Supported types:
 
        * shorttext: max 60 characters
        * longtext: max 255 characters

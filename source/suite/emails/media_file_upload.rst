@@ -22,11 +22,11 @@ Parameters
      - Comments
    * - filename
      - string
-     - full name of the file plus extension (e.g.: testimage.jpg)
+     - Full name of the file plus extension (e.g.: testimage.jpg)
      -
    * - file
      - string
-     - base64 encoded content of the file
+     - Base64 encoded content of the file
      -
 
 The upload limit is 128 kB for images and 4 MB for other file types

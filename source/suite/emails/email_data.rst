@@ -69,43 +69,43 @@ Result Data Structure
      - Comments
    * - id
      - int
-     - internal ID of the email
+     - Internal ID of the email
      -
    * - language
      - string
-     - language of the email
+     - Language of the email
      -
    * - created
      - datetime
-     - creation date of the email
+     - Creation date of the email
      -
    * - name
      - string
-     - name of the email
+     - Name of the email
      -
    * - fromemail
      - string
-     - email address of the sender
+     - Email address of the sender
      -
    * - fromname
      - string
-     - name of the sender
+     - Name of the sender
      -
    * - subject
      - string
-     - subject line of the email
+     - Subject line of the email
      -
    * - email_category
      - int
-     - category ID of the email
+     - Category ID of the email
      - Categories may be retrieved via the :doc:`email_categories` endpoint
    * - filter
      - int
-     - filter ID
+     - Segment ID
      - Available filters can be retrieved via the :doc:`../contacts/segment_list` endpoint
    * - contactlist
      - int
-     - contact list ID
+     - Contact list ID
      - Contact lists may be retrieved via the :doc:`../contacts/contact_list_list` endpoint
    * - cc_list
      - int
@@ -117,23 +117,23 @@ Result Data Structure
      -
    * - text_source
      - string
-     - text source of the email
+     - Text source of the email
      -
    * - status
      - int
-     - status of the email
+     - Status of the email
      - See :doc:`../appendices/email_status`
    * - api_status
      - int
-     - launch status of the email
+     - Launch status of the email
      - See :doc:`../appendices/launch_status`
    * - api_error
      - int
-     - launch error codes
+     - Launch error codes
      - See :doc:`../appendices/launch_error_status`
    * - source
      - string
-     - source of the recipients.
+     - Source of the recipients
      - Possible values are:
 
        * userlist

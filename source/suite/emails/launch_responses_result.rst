@@ -25,7 +25,7 @@ Parameters
      - Comments
    * - query_id
      - int
-     - the query ID from the ``Querying Responses`` response
+     - Query ID from the ``Querying Responses`` response
      -
 
 Result Example

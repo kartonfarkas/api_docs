@@ -30,7 +30,7 @@ Parameters
      - Comments
    * - email_id
      - int
-     - email ID to launch, part of the URI
+     - Email ID to launch, part of the URI
      -
 
 .. list-table:: **Optional Parameters**

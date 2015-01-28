@@ -21,11 +21,11 @@ Parameters
      - Comments
    * - email_id
      - int
-     - email ID, part of the URI
+     - Email ID, part of the URI
      -
    * - version
      - int
-     - content type of the response
+     - Content type of the response
      - *html* or *text*
 
 Request Example

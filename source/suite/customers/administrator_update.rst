@@ -44,7 +44,7 @@ Parameters
      - Has to meet the password strength requirements.
    * - email
      - string
-     - email address
+     - Email address
      -
    * - access_level
      - int

@@ -34,7 +34,7 @@ Parameters
      - Comments
    * - lastId
      - int
-     - last returned ID
+     - Last returned ID
      -
    * - launchId
      - int

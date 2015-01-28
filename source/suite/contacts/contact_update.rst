@@ -26,11 +26,11 @@ Key-value pairs which identify the contact.
      - Comments
    * - key_id
      - mixed
-     - The value provided for the key_id field identifies the contact which will be updated. The other fields contain the changes requested for the contact. If more than one contact with the requested external ID is found, an error message is returned, [field_id]
+     - Value provided for the key_id field identifies the contact which will be updated. The other fields contain the changes requested for the contact. If more than one contact with the requested external ID is found, an error message is returned, [field_id]
      -
    * - source_id
      - int
-     - an ID assigned to the application of a customer to integrate, used to differentiate contacts created of modified by the customer's applications, [source_id]
+     - ID assigned to the application of a customer to integrate, used to differentiate contacts created of modified by the customer's applications, [source_id]
      -
 
 See `Creating a Contact <creating_a_contact.html>`_ for further information.

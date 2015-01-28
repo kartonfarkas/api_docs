@@ -21,19 +21,19 @@ Parameters
      - Comments
    * - key_id
      - mixed
-     - key which identifies the contacts, [field_id]
+     - Key which identifies the contacts, [field_id]
      -
    * - field_id
      - int
-     - the ID of the field, [field_value]
+     - ID of the field, [field_value]
      -
    * - field_id
      - int
-     - the ID of the field, [field_value]
+     - ID of the field, [field_value]
      -
    * - source_id
      - int
-     - an ID assigned to the application of a customer to integrate, used to differentiate contacts created of modified by the customer's applications, [source_id]
+     - ID assigned to the application of a customer to integrate, used to differentiate contacts created of modified by the customer's applications, [source_id]
      -
 
 See :doc:`contact_multiple_create` for further information.

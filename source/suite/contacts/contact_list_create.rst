@@ -25,11 +25,11 @@ Parameters
      - **id** or **uid** can be used.
    * - name
      - string
-     - name of the contact list
+     - Name of the contact list
      -
    * - external_ids
      - array
-     - list of contact IDs to be inserted
+     - List of contact IDs to be inserted
      - The maximum value is 10,000 contacts.
 
 .. list-table:: **Optional Parameters**
@@ -42,7 +42,7 @@ Parameters
      - Comments
    * - description
      - string
-     - additional information about the contact list
+     - Additional information about the contact list
      -
 
 JSON Payload Example

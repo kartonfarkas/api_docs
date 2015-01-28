@@ -21,35 +21,35 @@ Parameters
      - Comments
    * - language
      - string
-     - language of the email campaign
+     - Language of the email campaign
      - short, 2 letter language code, like "en"
    * - name
      - string
-     - title of the email
+     - Title of the email
      -
    * - fromemail
      - string
-     - email address of the sender
+     - Email address of the sender
      -
    * - fromname
      - string
-     - name of the sender
+     - Name of the sender
      -
    * - subject
      - string
-     - subject of the email
+     - Subject of the email
      -
    * - email_category
      - string
-     - category (see :doc:`email_categories`)
+     - Category (see :doc:`email_categories`)
      -
    * - filter
      - int
-     - filter ID for the email
+     - Filter ID for the email
      -
    * - contactlist
      - int
-     - contact list ID for the email
+     - Contact list ID for the email
      -
    * - html_source
      - string
@@ -57,7 +57,7 @@ Parameters
      -
    * - text_source
      - string
-     - text source of the email
+     - Text source of the email
      -
 
 .. note::

@@ -22,7 +22,7 @@ Parameters
      - Comments
    * - contactlist_id
      - int
-     - exports the fields of the contacts in this contact list
+     - Exports the fields of the contacts in this contact list.
      -
    * - distribution_method
      - string
@@ -50,7 +50,7 @@ Parameters
      - Comments
    * - distribution_email_address
      - string
-     - if the distribution method is set to "mail", then the result of the export is sent in an email
+     - If the distribution method is set to "mail", then the result of the export is sent in an email.
      -
    * - delimiter
      - string
@@ -62,11 +62,11 @@ Parameters
      - Default value is **1**.
    * - language
      - string
-     - see supported :doc:`../appendices/language_codes`
+     - See supported :doc:`../appendices/language_codes`.
      - Default value is the account’s default language.
    * - ftp_settings
      - object
-     - an object with the following fields must be provided:
+     - Object with the following required fields:
        * *(string)* host
        * *(integer)* port
        * *(string)* username

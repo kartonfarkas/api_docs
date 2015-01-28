@@ -57,7 +57,7 @@ Parameters
      - Comments
    * - contactlist_id
      - int
-     - if you check the contacts who registered within a contact list
+     - If you check the contacts who registered within a contact list
      -
    * - with_timestamp
      - int
@@ -73,11 +73,11 @@ Parameters
      - Default value is 1.
    * - language
      - string
-     - see supported :doc:`../appendices/language_codes`
+     - See supported :doc:`../appendices/language_codes`.
      - Default value is the account’s default language.
    * - ftp_settings
      - object
-     - an object with the following fields must be provided:
+     - Object with the following required fields:
         * *(string)* host
         * *(integer)* port
         * *(string)* username

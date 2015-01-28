@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - <id>
      - int
-     - field ID, part of the URL
+     - Field ID, part of the URL
      -
 
 .. list-table:: **Optional Parameters**

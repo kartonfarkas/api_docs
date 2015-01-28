@@ -23,7 +23,7 @@ Parameters
      - Comments
    * - email_id
      - int
-     - the ID of the email campaign
+     - ID of the email campaign
      -
    * - filterId, contactlistId
      - int

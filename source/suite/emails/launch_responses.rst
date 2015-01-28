@@ -44,11 +44,11 @@ Parameters
      - Comments
    * - start_date
      - string
-     - date from which we would like to return the states
+     - Date from which we would like to return the states
      -
    * - end_date
      - string
-     - date until which we would like to return the states
+     - Date until which we would like to return the states
      -
 
 Result Example

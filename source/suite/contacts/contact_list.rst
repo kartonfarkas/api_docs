@@ -35,7 +35,7 @@ Parameters
    * - field_id
      - int
      - Value determines if a contact should be returned or not, [field_value]
-     - Can be an empty string as that will also match to cells with NULL value
+     - Can be an empty string as that will also match to cells with NULL value.
    * - limit
      - int
      - Specifies the maximum number of contacts to return

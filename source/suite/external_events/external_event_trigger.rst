@@ -25,11 +25,11 @@ Parameters
      -
    * - key_id
      - mixed
-     - the key which which identifies the contacts
+     - Key which which identifies the contacts
      - field id, "id" or "uid".
    * - external_id
      - string
-     - external ID for the given field specified with field_id
+     - External ID for the given field specified with field_id
      -
 
 .. list-table:: **Optional Parameters**
@@ -42,7 +42,7 @@ Parameters
      - Comments
    * - data
      - string
-     - External Data in JSON format.
+     - External Data in JSON format
      -
 
 JSON Payload Example

@@ -26,11 +26,11 @@ Parameters
      -
    * - key_id
      - mixed
-     - key which identifies the contact
+     - Key which identifies the contact
      - field id, “id” or “uid” can be used
    * - key_value
      - mixed
-     - value of the field identified by the key_id
+     - Value of the field identified by the key_id
      -
 
 JSON Payload Example

@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - <id>
      - int
-     - requested export ID, part of the URI
+     - Requested export ID, part of the URI
      -
 
 Result Example
@@ -57,7 +57,7 @@ Result Data Structure
      - Comments
    * - status
      - string
-     - status of the export
+     - Status of the export
      - * **scheduled**: the export process has not been started yet
        * **in progress**: the export is being processed
        * **ready**: the CSV file is ready to be distributed
@@ -67,20 +67,20 @@ Result Data Structure
        * If the export process cannot connect and stays in **‘ready’** status for more than one hour, please contact your Emarsys Account Manager.
    * - type
      - string
-     - type of the export
+     - Type of the export
      - * responses
        * registrations
    * - file_name
      - string
-     - name of the output CSV file
+     - Name of the output CSV file
      - If status is not done, it is **NULL**.
    * - ftp_host
      - string
-     - export settings to locate the file if the distribution method is FTP
+     - Export settings to locate the file if the distribution method is FTP
      -
    * - ftp_dir
      - string
-     - export settings to locate the file if the distribution method is FTP
+     - Export settings to locate the file if the distribution method is FTP
      -
 
 Errors

@@ -35,7 +35,7 @@ Parameters
      - Comments
    * - name
      - string
-     - The name of the new email campaign. If not defined, a unique name will be automatically generated.
+     - Name of the new email campaign. If not defined, a unique name will be automatically generated.
      -
 
 Result Data Structure

@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - <translate_id>
      - string
-     - can be: en, de, ru, …
+     - Can be: en, de, ru, …
      - For a full list of supported languages, see :doc:`../appendices/language_codes`.
 
 URI Example

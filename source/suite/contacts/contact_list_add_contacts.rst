@@ -25,11 +25,11 @@ Parameters
      -
    * - key_id
      - mixed
-     - key which identifies the contacts
+     - Key which identifies the contacts
      - a field ID, **id** or **uid** can be used
    * - external_ids
      - array
-     - list of contact IDs to be inserted
+     - List of contact IDs to be inserted
      -
 
 Request Example

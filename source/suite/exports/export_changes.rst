@@ -34,18 +34,18 @@ Parameters
      - If *distribution_method* is **ftp**, then *ftp_settings* is a required parameter.
    * - time_range
      - date array
-     - array with two elements (start date, end date)
+     - Array with two elements (start date, end date)
      - The following date formats are accepted here:
         - [2014-06-20 16:16:00, 2014-06-20 16:16:21]
         - [2014-06-20 16:16, 2014-06-20 16:21]
         - [2014-06-20, 2014-06-21]
    * - origin
      - string
-     - from which platform was the change executed, **form**, **api**, or **all**
+     - From which platform was the change executed, **form**, **api**, or **all**.
      -
    * - origin_id
      - int array
-     - in the case of form, it is the ID of the form, in api, it is the source ID (0: without source)
+     - In the case of form, it is the ID of the form, in api, it is the source ID (0: without source).
      -
    * - contact_fields
      - int array

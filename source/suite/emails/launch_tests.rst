@@ -21,11 +21,11 @@ Parameters
      - Comments
    * - id
      - int
-     - email ID, part of the URI
+     - Email ID, part of the URI
      -
    * - recipientlist
      - string
-     - recipient email addresses
+     - Recipient email addresses
      - Can contain multiple email addresses separated by ‘;’
    * - filter_id
      - int
@@ -54,7 +54,7 @@ Parameters
      - Comments
    * - subject
      - string
-     - subject of the email
+     - Subject of the email
      - If specified, it will be appended to the email name.
 
 Request Example
