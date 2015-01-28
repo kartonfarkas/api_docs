@@ -28,7 +28,7 @@ The response will appear on the bottom of the same page. The following table sho
      - Suggested solution
    * - 0, OK
      - You succeeded, and your credentials were accepted.
-       You should also see the list of the languages.
+     - You should also see the list of the languages.
      -
    * - 1, Unauthorized
      - Something is wrong with your credentials.
