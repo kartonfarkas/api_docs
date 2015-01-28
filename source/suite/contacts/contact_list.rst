@@ -1,7 +1,7 @@
 Listing Contacts
 ================
 
-Returns the value of the requested field for every contacts that meets the optional condition specified.
+Return a list of all contacts, or optionally all contacts meeting a specific field requirement (e.g. field_id).
 
 Endpoint
 --------
@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - return
      - int
-     - the ID of the field that the response needs to contain in addition to the internal ID of the contact
+     - Field ID that needs to be included in the response (in addition to the internal ID of the contact).
      -
 
 .. list-table:: **Optional Parameters**
@@ -34,19 +34,19 @@ Parameters
      - Comments
    * - field_id
      - int
-     - to decide if we need to return a contact or not, [field_value]
-     - field_value can be an empty string, that will also match to cells with NULL value
+     - Value determines if a contact should be returned or not, [field_value]
+     - Can be an empty string as that will also match to cells with NULL value
    * - limit
      - int
-     - if set, it limits the number of the returned contacts
-     - By default it is 10.000, and it is not possible to specify bigger limit then that.
+     - Specifies the maximum number of contacts to return
+     - Default is 10.000, which is also the maximum number of contacts that can be returned (you cannot specify more).
    * - offset
      - int
-     - specifies an offset for pagination (like in SQL)
+     - Specifies an offset for pagination (like in SQL)
      -
    * - excludeempty
      - boolean
-     - If true sent as the value of this parameter, the contacts having null or empty value at the field requested to return are not returned. Any value except from true will interpreted as false.
+     - If set to true, then all contacts with a null or empty value in the requested field not returned. Any value except from true will be interpreted as false.
      -
 
 URI Example
