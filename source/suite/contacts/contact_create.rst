@@ -30,7 +30,7 @@ Key-value pairs which uniquely identify the contact.
      -
    * - source_id
      - int
-     - ID assigned to the customers application, used to differentiate contacts created or modified by the external applications, [source_id]
+     - ID assigned to the customer's application, used to differentiate contacts created or modified by the external applications, [source_id]
      -
 
 Notes:
