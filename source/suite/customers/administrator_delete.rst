@@ -1,7 +1,7 @@
-Deleting an Administrator
-=========================
+Deleting an Administrator Account
+=================================
 
-Deletes an administrator and passes the rights to a different administrator.
+Info on how to delete an admin account and pass their rights to another admin account.
 
 .. include:: _warning.rst
 
@@ -23,7 +23,7 @@ Parameters
      - Comments
    * - successor_administrator_id
      - int
-     - ID of the administrator who takes over the deleted administrator's rights
+     - ID of the admin to take over the deleted admin's rights
      -
 
 .. list-table:: **Optional Parameters**
@@ -36,7 +36,7 @@ Parameters
      - Comments
    * - admin_id
      - int
-     - the ID of the admin to delete
+     - ID of the admin to delete
      -
 
 Result Example
