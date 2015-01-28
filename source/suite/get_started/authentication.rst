@@ -35,7 +35,9 @@ support token-based authentication.
 **Username**
 
 This field contains the username your Account Manager gave you. It is usually in the following
-format: account_name00X, where X is a digit. Always substitute your own API user name for each request.
+format: account_name00X, where X is a digit.
+
+.. note:: Always substitute your own API user name for each request.
 
 **PasswordDigest**
 
@@ -49,10 +51,10 @@ party. This string is always 16 bytes long and should be represented as a 32 cha
 
 **Created**
 
-This field contains the current UTC, GMT, ZULU timestamp according to the ISO8601 format.
+This field contains the current UTC, GMT, ZULU timestamp (YYYY-MM-DD-HH:MM:SS) according to the ISO8601 format.
 
 Please note that you can use any timezone you want, but it has to be defined in the timestamp. Here is
-an example: `2014-03-20T12:51:45+01:00`. We recommend setting your timezonne to UTC time as this is the global Emarsys
+an example: `2014-03-20 12:51:45+01:00`. We recommend setting your timezonne to UTC time as this is the global Emarsys
 standard.
 
 .. note::
