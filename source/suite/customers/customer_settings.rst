@@ -1,14 +1,14 @@
 Querying Customer Settings
 ==========================
 
-Returns the settings of the customer.
+Returns the current settings of the customer account (e.g. timezone, customer name, etc.).
 
 Endpoint
 --------
 
 ``GET /api/v2/settings/``
 
-Result Data Structure
+Data Structure of the Result
 ---------------------
 
 .. code-block:: json
@@ -22,8 +22,6 @@ Result Data Structure
        "name": "Heimdall"
      }
    }
-
-Where *name* is the name of the customer.
 
 For more information on timezones available in the Suite, see :doc:`../appendices/time_zones`.
 
