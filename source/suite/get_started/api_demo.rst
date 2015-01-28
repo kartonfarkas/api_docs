@@ -1,19 +1,18 @@
 The API Demo Page
 =================
 
-API Demo Page: Experiment before You Code!
+API Demo Page: Experiment Before You Code!
 ------------------------------------------
 
-We offer an API-demo page for our customers, which is a graphical user interface to experiment with API requests and
-their parameters. The responses are displayed. The URL of the API demo page is: <the URL of the Suite environment
-you use>/api-demo/
+We offer an API-demo page for our customers, which has a graphical user interface allowing experimentation with API requests and
+their parameters. The responses to the requests are then displayed so they can see what to expect. To access the demo, simply append your Suite URL with /api-demo/
 
-* Example: if your account is on Suite 5, the URL is https://suite5.emarsys.net/api-demo
+* Example: if your account is on Suite 5 (https://suite5.emarsys.net), the API demo URL is https://suite5.emarsys.net/api-demo
 
 Check Your Access to the Suite API
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Check whether your access data is valid by requesting the available languages as follows:
+Check whether your access data is valid by making a test request to see what languages are available:
 
 * Go to the **Language** tab
 * Leave the text field empty and click **OK**
@@ -29,13 +28,14 @@ The response will appear on the bottom of the same page. The following table sho
      - Suggested solution
    * - 0, OK
      - You succeeded, and your credentials were accepted.
-       You could also see the list of the languages.
+       You should also see the list of the languages.
      -
    * - 1, Unauthorized
      - Something is wrong with your credentials.
+     
      - Check your access information again.
    * - No response at all
-     - Something is wrong with your connection./API URL is invalid./Suite API is not available.
+     - Something is wrong with your connection./API URL is invalid, or the /Suite API is not available.
      - Check with your IT support why you cannot reach the API (e.g. if the traffic is blocked by your firewall.)/Check your access information again./Please try again later.
 
 If you have tried the suggested solutions without success, then please contact your Account Manager.
