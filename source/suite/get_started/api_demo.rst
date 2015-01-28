@@ -33,7 +33,7 @@ The response will appear on the bottom of the same page. The following table sho
      - Something is wrong with your credentials.
      - Check your access information again.
    * - No response at all
-     - Something is wrong with your connection./API URL is invalid./The Suite API is not available.
+     - Something is wrong with your connection./The API URL is invalid./The Suite API is not available.
      - Check with your IT support why you cannot reach the API (e.g. if the traffic is blocked by your firewall.)/Check your access information again./Please try again later.
 
 If you have tried the suggested solutions without success, then please contact your Account Manager.
