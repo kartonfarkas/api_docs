@@ -35,7 +35,7 @@ Key-value pairs which uniquely identify the contact.
 
 Notes:
 
-* If the key_id is omitted, the key_field_id value defaults to using ID 3 (email).
+* If the key_id is omitted, the key field ID value defaults to using ID 3 (email).
 * Multi-choice values must be included as an array, even if there is only one choice ID. Empty arrays are not allowed.
 
 Request Example
