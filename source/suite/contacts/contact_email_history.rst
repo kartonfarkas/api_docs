@@ -79,7 +79,7 @@ Result Example
      ]
    }
 
-Result Example
+Result Data Structure
 ---------------------
 
 .. code-block:: json
