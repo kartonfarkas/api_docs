@@ -30,4 +30,4 @@ Result Example
        }
    }
 
-Where the strings are the two-letter identifiers of the languages.
+Where the strings are the two-letter ISO-639-1 identifiers of the languages.
