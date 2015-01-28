@@ -36,11 +36,11 @@ Parameters
      - Comments
    * - username
      - string
-     - name of the admin
+     - Username of the admin
      - Unique, cannot be modified
    * - password
      - string
-     - password of the admin
+     - Password used by the admin
      - Has to meet the password strength requirements
    * - email
      - string
@@ -52,27 +52,27 @@ Parameters
      - For a list of available access level IDs, see administrator/getaccesslevels
    * - interface_language
      - string
-     - interface language for the admin account
+     - Interface language of the admin account
      - For a list of available languages, see administrator/getinterfacelanguages
    * - first_name
      - string
-     - first name of the admin
+     - First name of the admin
      -
    * - last_name
      - string
-     - last name of the admin
+     - Last name of the admin
      -
    * - position
      - string
-     - admin's role/position
+     - Admin's role/position
      -
    * - disabled
      - int
-     - It indicates if the account is disabled (1) or not (0).
+     - Indicates if the account is disabled (1) or not (0).
      -
    * - superadmin
      - int
-     - It indicates if this administrator has superadmin access (1) or not (0).
+     - Indicates if this administrator has superadmin access (1) or not (0).
      -
 
 Result Example
