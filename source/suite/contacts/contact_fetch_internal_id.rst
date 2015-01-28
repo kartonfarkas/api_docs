@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - key_field_id
      - mixed
-     - ID of the key field to use, or ‘ID’ if the internal ID used
+     - ID of the key field to use, or ‘ID’ if the internal ID is used
      -
    * - key_field_value
      - field dependent
