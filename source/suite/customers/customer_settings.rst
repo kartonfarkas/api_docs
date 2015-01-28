@@ -23,6 +23,9 @@ Data Structure of the Result
      }
    }
 
+Where:
+* *name* is the customer name
+
 For more information on timezones available in the Suite, see :doc:`../appendices/time_zones`.
 
 
