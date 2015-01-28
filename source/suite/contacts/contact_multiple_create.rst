@@ -33,13 +33,15 @@ Parameters
      -
    * - source_id
      - int
-     - ID assigned to the application of a customer to integrate, used to differentiate contacts created of modified by the customer's applications, [source_id]
+     - ID assigned to the customer's application, used to differentiate contacts created or modified by the external applications, [source_id]
      -
 
-If the key_id is omitted, the default value for key_field ID is 3 (email).
-The optional key_id must be provided once.
-The parameters of the different contacts must be sent in an array (see example below).
-The maximum size of the array (and therefore the **maximum number of new contacts**) is **1,000.**
+Notes:
+
+* If the key_id is omitted, the key field ID value defaults to using ID 3 (email).
+* The optional key_id must be provided once.
+* The parameters of the different contacts must be sent in an array (see example below).
+* The maximum size of the array (and therefore the **maximum number of new contacts**) is **1,000.**
 
 JSON Payload Example
 --------------------
@@ -102,8 +104,8 @@ Result Example
 
 Where:
 
-* *[idx]* means that the IDs of successfully-created contacts are returned in an array
-* *[errorx]* is that if an error occurred during the creation of a contact, the error message is returned with the value of the key_id
+* *[idx]* are the IDs of successfully-created contacts (returned as an array).
+* *[errorx]* indicates that an error occurred during the creation of a contact, and the error message returns the value of the key_id (i.e. the failed contact).
 
 Errors
 ------
