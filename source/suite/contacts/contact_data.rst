@@ -41,24 +41,6 @@ Parameters
      - fields in the result set can be set with the fields parameter
      - If empty, all fields will be returned.
 
-Error Condition:
-
-.. code-block:: json
-
-   {
-     "key": "ironman@example.com",
-     "errorCode": "2008",
-     "errorMsg": "No contact found with the external id: 3"
-   }
-
-.. code-block:: json
-
-   {
-     "key": "hulk@example.com",
-     "errorCode": "2008",
-     "errorMsg": "No contact found with the external id: 3"
-   }
-
 JSON Payload Example
 --------------------
 
@@ -72,6 +54,8 @@ JSON Payload Example
 
 Result Example
 --------------
+
+Normal Result:
 
 .. code-block:: json
 
@@ -95,25 +79,27 @@ Result Example
       }
    }
 
-Result Data Structure
----------------------
-
-Normal Result:
+Error Condition:
 
 .. code-block:: json
 
    {
-     "id": "23897",
-     "1": "Ironman",
-     "3": "tony.stark@example.com"
-   }
-
-.. code-block:: json
-
-   {
-     "id": "23898",
-     "1": "Hulk",
-     "3": "bruce.banner@example.com"
+      "replyCode":0,
+      "replyText":"OK",
+      "data":{
+         "errors":[
+            {
+               "key":"ironman@example.com",
+               "errorCode":"2008",
+               "errorMsg":"No contact found with the external id: 3"
+            },
+            {
+               "key":"hulk@example.com",
+               "errorCode":"2008",
+               "errorMsg":"No contact found with the external id: 3"
+            }
+         ]
+      }
    }
 
 Errors
