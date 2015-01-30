@@ -1,7 +1,7 @@
 Querying Access Levels
 ======================
 
-Returns the list of available access levels for the customers account.
+Returns the list of available access levels for the customer's account.
 
 .. include:: _warning.rst
 
