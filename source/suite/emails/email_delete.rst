@@ -60,6 +60,6 @@ Errors
      - The selected email is an active event-based email; active event-based emails cannot be deleted.
    * - 400
      - 6022
-     - You cannot delete this email because it is used by the following programs: <program names>
+     - You cannot delete this email, because it is used by the following programs: <program names>
      - If an email is used by an active program, you cannot delete it. You must either end the
        program or change the email.

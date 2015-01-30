@@ -38,8 +38,8 @@ Parameters
      - Name of the new email campaign. If not defined, a unique name will be automatically generated.
      -
 
-Result Data Structure
----------------------
+Result Example
+--------------
 
 Normal Result:
 
@@ -88,4 +88,4 @@ Errors
    * - 500
      - 6024
      - Copy of campaign <email_id> failed
-     - An error occurred during copying the campaign.
+     - An error occurred during the copying of the campaign.

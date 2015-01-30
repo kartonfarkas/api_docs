@@ -25,7 +25,7 @@ Data Structure of the Result
 
 Where:
 
-* *name* is the customer name
+* *name* is the customer's name
 
 For more information on timezones available in the Suite, see :doc:`../appendices/time_zones`.
 

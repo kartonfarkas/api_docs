@@ -89,8 +89,8 @@ Result Example
 
 Where:
 
-* *[idx]* is the IDs of successfully-created contacts are returned in an array
-* *[errorx]* means that if an error occurred during the creation of a contact, the error message is returned with the value of the key_id
+* *[ids]* is the IDs of successfully-created contacts are returned in an array
+* *[errors]* means that if an error occurred during the creation of a contact, the error message is returned with the value of the key_id
 
 Errors
 ------

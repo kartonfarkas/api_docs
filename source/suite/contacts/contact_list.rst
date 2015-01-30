@@ -111,11 +111,11 @@ Errors
    * - 400
      - 2015
      - No index on column <field_id>
-     - Filtering enabled only for indexed columns
+     - Filtering is enabled only for the indexed columns.
    * - 400
      - 2016
      - Invalid limit
-     - Limit should be between 1 and 10000
+     - Limit should be between 1 and 10000.
    * - 500
      - 2011
      - <depends on the error>

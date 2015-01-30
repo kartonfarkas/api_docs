@@ -45,8 +45,8 @@ Example Parameters
      "application_type": "shorttext"
    }
 
-Result Data Structure
----------------------
+Result Example
+--------------
 
 Normal Result:
 
