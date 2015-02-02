@@ -1,6 +1,8 @@
 Launch Error Statuses
 =====================
 
+The following is a list of errors that can prevent a successful email launch:
+
 .. list-table:: Launch Error Codes
    :header-rows: 1
    :widths: 10 40
