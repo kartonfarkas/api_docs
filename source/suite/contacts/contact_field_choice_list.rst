@@ -1,7 +1,7 @@
 Listing a Choice List
 =====================
 
-Returns the choice options (possible values) of a field.
+Generates a list of all available options for any given field.
 
 Endpoint
 --------
