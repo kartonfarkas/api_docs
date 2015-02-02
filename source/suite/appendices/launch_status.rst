@@ -1,7 +1,7 @@
 Launch Statuses
 ===============
 
-Emails have one of the following launch statuses:
+An email can have one of the following launch statuses:
 
 .. list-table:: E-Mail Status Codes
    :header-rows: 1
