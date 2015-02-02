@@ -1,7 +1,7 @@
 E-Mail Status Codes
 ===================
 
-The ID is one of the following:
+The Email Status ID code indicates the current status of an email and can be one of the following:
 
 .. list-table:: E-Mail Status Codes
    :header-rows: 1
