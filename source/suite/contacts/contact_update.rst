@@ -1,7 +1,7 @@
 Updating a Contact
 ==================
 
-Updates a contact using their external ID as reference.
+Updates a single contact using their external ID as reference.
 
 Endpoint
 --------
@@ -63,4 +63,4 @@ Errors
      - Cannot set id or uid on contact creation
      - IDs cannot be specified manually.
 
-Also see `contact_create` for further information.
+Also see :doc:`contact_create` for further information.
