@@ -1,7 +1,7 @@
 Listing Segments
 ================
 
-Returns a list of segments. Segment is used for filtering according to different criteria.
+Generates a list of segments, which are used for filtering according to different criteria.
 
 Endpoint
 --------
