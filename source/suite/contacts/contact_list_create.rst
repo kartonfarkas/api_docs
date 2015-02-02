@@ -1,7 +1,7 @@
 Creating a Contact List
 =======================
 
-Creates a contact list with the specified contacts.
+Creates a contact list with specific contacts.
 
 Endpoint
 --------
@@ -104,7 +104,7 @@ Result Example
 Where:
 
 * *id* is the ID of the contact list
-* *errors* contains the error ID and the error message as a key-value pair.
+* *errors* lists any error(s) and contains the ID and error message as a key-value pair.
 
 Errors
 ------
