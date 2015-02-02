@@ -34,7 +34,7 @@ Parameters
      - Comments
    * - /translate/<id>
      - string
-     - <id> can be: en, de, ru, …
+     - Lists available translations where <id> defines the target language (e.g. fr, ru, etc.)
      - For a full list of supported languages, see :doc:`../appendices/language_codes`.
 
 URI Example
