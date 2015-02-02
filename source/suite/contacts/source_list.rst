@@ -1,4 +1,4 @@
-Listing Contact Sources
+List Contact Sources
 =======================
 
 Generates a list of available contact sources currently integrated with Suite (e.g. multiple eCommerce sites linked with one Suite account).
