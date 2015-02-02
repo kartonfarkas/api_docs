@@ -22,7 +22,7 @@ Parameters
    * - key_id
      - mixed
      - [field ID]
-     - **id** or **uid** can be used.
+     - You can use a field ID, **id** or **uid**.
    * - name
      - string
      - Name of the contact list
