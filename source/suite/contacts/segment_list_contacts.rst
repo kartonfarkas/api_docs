@@ -1,11 +1,11 @@
 List Contacts in a Segment
 ==========================
 
-Results in a list of contacts after applying the segment.
+Generates a list of contacts after a specific segment (i.e. filter) has been applied.
 
 .. warning::
 
-   This function does not answer immediately.
+   This function does not respond immediately as it needs to process the segment before it can generate the list.
 
 Endpoint
 --------
@@ -25,7 +25,7 @@ Parameters
      - Comments
    * - <segment_id>
      - int
-     - ID of the segment to be evaluated
+     - ID of the segment to use
      -
 
 URI Example
@@ -46,7 +46,7 @@ Result Example
 
 .. note::
 
-   The values of data are internal IDs of the contacts.
+   The data values the internal Suite IDs of the contacts.
 
 Errors
 ------
