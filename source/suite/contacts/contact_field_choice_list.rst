@@ -67,9 +67,9 @@ Result Example
 
 Where:
 
-* *id* is the internal identifier of the choice, and *choice* is the name of the choice
+* *id* is the internal identifier of the chosen option, and *choice* is the label of the chosen option
 
 Errors
 ------
 
-The standard HTML status and error codes.
+Standard HTML status and error codes apply.
