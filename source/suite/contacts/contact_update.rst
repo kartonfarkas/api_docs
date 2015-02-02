@@ -30,7 +30,7 @@ Key-value pairs which identify the contact.
      -
    * - source_id
      - int
-     - ID assigned to the application of a customers external application, and is used to differentiate contacts created or modified by the external (3rd party) applications, [source_id]
+     - ID assigned to a customers external application, and is used to identify contacts created or modified by the external (3rd party) applications, [source_id] 
      -
 
 See `Creating a Contact <creating_a_contact.html>`_ for further information.
