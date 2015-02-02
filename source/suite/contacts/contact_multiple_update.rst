@@ -33,7 +33,7 @@ Parameters
      -
    * - source_id
      - int
-     - ID assigned to the application of a customer to integrate, used to differentiate contacts created of modified by the customer's applications, [source_id]
+     - ID assigned to a customers external application, and is used to identify contacts created or modified by the external (3rd party) applications, [source_id] 
      -
 
 See :doc:`contact_multiple_create` for further information.
@@ -89,8 +89,8 @@ Result Example
 
 Where:
 
-* *[ids]* is the IDs of successfully-created contacts are returned in an array
-* *[errors]* means that if an error occurred during the creation of a contact, the error message is returned with the value of the key_id
+* *[ids]* is a list of the IDs of successfully-created contacts expressed as an array
+* *[errors]* is a list of any error(s) that occurred during the updating of a contact; the error message is returned with the value of the key_id
 
 Errors
 ------
