@@ -26,11 +26,11 @@ Parameters
    * - key_id
      - mixed
      - Key which identifies the contacts
-     - You can use a field ID, **id** or **uid**.
+     - Field ID, **id** or **uid** can be used
    * - external_ids
      - array
      - List of contact IDs to be included
-     - This list can include existing and new contacts, and any contacts not on this list will not be included in this list (i.e. deleted)
+     - This list can include existing and new contacts, and any contacts not on this list will not be included in this list (i.e. deleted).
 
 Request Example
 ---------------
