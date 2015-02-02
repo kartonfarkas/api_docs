@@ -1,7 +1,7 @@
 Adding Contacts to a Contact List
 =================================
 
-Adds contacts to the contact list.
+Adds new contacts to an existing contact list.
 
 Endpoint
 --------
@@ -21,12 +21,12 @@ Parameters
      - Comments
    * - list_id
      - int
-     - ID of the contact list to extend, part of the URI
+     - ID of the contact list, part of the URI
      -
    * - key_id
      - mixed
      - Key which identifies the contacts
-     - a field ID, **id** or **uid** can be used
+     - You can use a field ID, **id** or **uid**.
    * - external_ids
      - array
      - List of contact IDs to be inserted
@@ -89,7 +89,7 @@ Result Example
 Where:
 
 * *inserted_contacts* is the number of contacts successfully added to the list
-* *errors* is an array of contacts not added to the list. The array contains the ID and the reason for the error.
+* *errors* details any contacts not added to the list, expressed as an array which contains the ID and the reason for the error.
 
 Errors
 ------
