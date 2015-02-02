@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - <translate_id>
      - string
-     - Can be: en, de, ru, …
+     - Any two letter ISO 639-1 abbreviation, e.g. en, de, ru, etc. 
      - For a full list of supported languages, see :doc:`../appendices/language_codes`.
 
 URI Example
