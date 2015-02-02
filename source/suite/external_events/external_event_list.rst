@@ -1,8 +1,7 @@
 Querying External Events
 ========================
 
-Returns a list of external events which can be used in programs. External event has an ID with which emails can be sent or AC
-programs can be started for a contact through the API.
+Returns a list of all existing external events IDs, which can then be used to trigger emails or Automation Center programs.
 
 Endpoint
 --------
