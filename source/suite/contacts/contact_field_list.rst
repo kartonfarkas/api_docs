@@ -1,7 +1,7 @@
 Listing Field Lists
 ===================
 
-Returns a list of fields (including custom fields and vouchers) which can be used to personalize content.
+Generates a list of all fields which can be used to personalize content (including custom fields and vouchers).
 
 Endpoint
 --------
@@ -70,4 +70,4 @@ Result Example
 Errors
 ------
 
-The standard HTML status and error codes.
+Standard HTML status and error codes apply. 
