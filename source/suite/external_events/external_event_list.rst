@@ -1,5 +1,5 @@
-Querying External Events
-========================
+Querying Available External Events
+==================================
 
 Returns a list of all existing external events IDs, which can then be used to trigger emails or Automation Center programs.
 
