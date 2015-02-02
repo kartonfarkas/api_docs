@@ -1,7 +1,7 @@
 Removing Contacts from a Contact List
 =====================================
 
-This removes contacts from the contact list.
+Removes contacts from an existing contact list.
 
 Endpoint
 --------
@@ -26,7 +26,7 @@ Parameters
    * - key_id
      - mixed
      - Key which identifies the contacts, [field ID]
-     - **id** or **uid** can be used
+     - You can use **id** or **uid**.
    * - external_ids
      - [id1];[id2];…
      - Field ID of the contacts
@@ -91,7 +91,7 @@ Result Example
 Where:
 
 * *deleted_contacts* is the number of contacts successfully deleted from the list
-* *errors* is an array of contacts not removed from the list. The array contains the ID and reason for the error.
+* *errors* details any contacts not removed from the list, expressed as an array which contains the ID and the reason for the error.
 
 Errors
 ------
