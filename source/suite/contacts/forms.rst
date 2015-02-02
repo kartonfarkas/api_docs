@@ -1,9 +1,8 @@
 Querying Customer Forms
 =======================
 
-Returns a list of available forms.
-Suite offers simple functionality to create different kinds of forms to collect data from contacts.
-Customers can embed these registration forms in web pages.
+Generate a list of all available Suite forms available for use (e.g. registration form in a web page). 
+Suite offers simple functionality to create different kinds of forms to collect data from contacts, this is how you see all available forms. 
 
 Endpoint
 --------
@@ -33,7 +32,7 @@ Result Example
 Form Types
 ----------
 
-These are the possible values for the form's *type*:
+The following *type* of forms are currently available:
 
 .. list-table:: **Form Types**
    :header-rows: 1
@@ -42,15 +41,15 @@ These are the possible values for the form's *type*:
    * - Name
      - Type
    * - 1
-     - General Registration
+     - General Registration Form
    * - 2
-     - Newsletter Registration
+     - Newsletter Registration Form
    * - 3
-     - Contact Us
+     - Contact Us Form
    * - 4
      - Change-profile Form
 
 Errors
 ------
 
-The standard HTML error and status codes.
+Standard HTML error and status codes apply.
