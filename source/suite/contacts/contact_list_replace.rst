@@ -1,7 +1,7 @@
 Replacing a Contact List
 ========================
 
-Overwrites an already existing contact list.
+Overwrites an existing contact list.
 
 Endpoint
 --------
@@ -26,11 +26,11 @@ Parameters
    * - key_id
      - mixed
      - Key which identifies the contacts
-     - a field ID, **id** or **uid** can be used
+     - You can use a field ID, **id** or **uid**.
    * - external_ids
      - array
      - List of contact IDs to be included
-     - These can be contacts already in the contact list and other contacts as well. Contacts not listed here are deleted from the contact list.
+     - This list can include existing and new contacts, and any contacts not on this list will not be included in this list (i.e. deleted)
 
 Request Example
 ---------------
@@ -88,7 +88,7 @@ Result Example
 Where:
 
 * *inserted_contacts* is the number of contacts successfully added to the list
-* *errors* is an array of contacts not added to the list. The array contains the ID and the reason for the error.
+* *errors* is a list of contacts not added, expressed as an array containing the ID and the reason for the error.
 
 Errors
 ------
