@@ -1,7 +1,7 @@
 Listing Sources
 ===============
 
-Generates a list of sources.
+Generates a list of external sources integrated with Suite.
 
 Endpoint
 --------
