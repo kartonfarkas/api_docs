@@ -1,7 +1,7 @@
-Deleting a Source
-=================
+Deleting a Contact Source
+=========================
 
-Deletes an existing source which is used for tracking the source of contact data changes.
+Deletes an existing contact source.
 
 Endpoint
 --------
@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - source_id
      - int
-     - ID of the source to be deleted
+     - ID of the contact source to be deleted.
      -
 
 Errors
