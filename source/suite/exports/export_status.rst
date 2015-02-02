@@ -44,8 +44,8 @@ Result Example
      }
    }
 
-Result Data Structure
----------------------
+Data Structure of the Result
+----------------------------
 
 .. list-table:: **Result Data Structure**
    :header-rows: 1
