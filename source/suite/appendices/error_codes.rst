@@ -1,10 +1,10 @@
 Error Codes
 ===========
 
-General Error Codes
--------------------
+General Error API Codes
+-----------------------
 
-For information on the error codes used by the API, please refer to the documentation of the individual interfaces.
+The following is a list of general API errors that can arise, please note that each section includes the specific errors related to that interface (if applicable). 
 
 If a resource is called with an unsupported method, the following error is returned:
 
@@ -22,7 +22,7 @@ If a resource is called with an unsupported method, the following error is retur
 API Launch Error Codes
 ----------------------
 
-Launching an email might produce one of the following launch errors:
+Launching an email might produce any one of the following launch errors:
 
 .. list-table:: **Launch Errors**
    :header-rows: 1
@@ -31,48 +31,48 @@ Launching an email might produce one of the following launch errors:
    * - api_error
      - Description
    * - 1
-     - Internal error
+     - Internal error.
    * - 2
-     - The user does not have permission to launch this email
+     - The user does not have permission to launch this email.
    * - 3
-     - The fromemail is missing
+     - The fromemail address is missing.
    * - 4
-     - Missing subject line
+     - The subject line is missing.
    * - 5
-     - Empty launch list
+     - The launch list is empty.
    * - 6
-     - The final launch is scheduled too soon after the A/B tests. The default delay is one hour.
+     - The final launch is scheduled too close to the A/B tests: The default delay is one hour (minimum).
    * - 7
-     - The personalization has not been checked
+     - The personalization has not been checked.
    * - 8
-     - Failed to schedule the email launch
+     - Failed to schedule the email launch.
    * - 9
-     - The email campaign type does not support A/B versioning
+     - The email campaign type does not support A/B versioning.
    * - 16
-     - Failed to unschedule the email launch
+     - Failed to unschedule the email launch.
    * - 17
-     - Another test is not possible because there are too few contacts left in the launch list
+     - Another test is not possible because there are too few contacts left in the launch list.
    * - 18
-     - If the final launch is dependent on A/B tests, there must be at least two tests before the final launch can proceed
+     - If the final launch is dependent on A/B tests, there must be at least two tests before the final launch can proceed.
    * - 19
-     - Launch started
+     - Launch already started.
    * - 20
-     - The email name already exists
+     - The email name already exists.
    * - 21
-     - The campaign cannot be paused because the launch is over (this is currently not available via the API)
+     - The campaign cannot be paused because the launch is over (currently not available via the API).
    * - 22
-     - The fromname is missing
+     - The fromname is missing.
    * - 23
-     - Lock time out (internal error)
+     - Lock time out (internal error).
    * - 24
-     - Lock failure (internal error)
+     - Lock failure (internal error).
    * - 25
      - Processed by job (the campaign has already been launched)
    * - 32
-     - The size of the campaign exceeds 6 MB
+     - The size of the campaign exceeds 6 MB.
    * - 33
-     - Some sections selected for section targeting have no segment defined
+     - Some sections selected for section targeting have no segment defined.
    * - 34
-     - The HTML code is not complete (missing tags)
+     - The HTML code is not complete (i.e. missing tags).
    * - 35
-     - Empty seedlist
+     - The Seedlist is empty.
