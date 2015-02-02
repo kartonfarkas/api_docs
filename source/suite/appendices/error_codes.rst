@@ -4,7 +4,9 @@ Error Codes
 General Error API Codes
 -----------------------
 
-The following is a list of general API errors that can arise, please note that each section includes the specific errors related to that interface (if applicable). 
+The following is a list of general API errors that can arise. 
+
+Please note: Specific errors related to endpoints or methods (if applicable) are listed with the methods themselves.
 
 If a resource is called with an unsupported method, the following error is returned:
 
