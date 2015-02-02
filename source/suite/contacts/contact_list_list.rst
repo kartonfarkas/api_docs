@@ -1,7 +1,7 @@
 Listing Contact Lists
 =====================
 
-Returns a list of the available contact lists of the customer.
+Generates a list of the available contact lists.
 
 Endpoint
 --------
@@ -32,4 +32,4 @@ Result Example
 Errors
 ------
 
-The standard HTML status and error codes.
+Standard HTML status and error codes apply.
