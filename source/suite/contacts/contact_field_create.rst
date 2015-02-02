@@ -1,7 +1,7 @@
 Creating a Field
 ================
 
-Creates a new contact field.
+Creates a new field in your contact database. 
 
 Endpoint
 --------
@@ -19,9 +19,6 @@ Parameters
      - Type
      - Description
      - Comments
-   * - name
-     - string
-     - Name of the new field
      -
    * - application_type
      - string
