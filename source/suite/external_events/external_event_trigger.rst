@@ -1,7 +1,7 @@
 Triggering External Events
 ==========================
 
-Triggers the given event for the specified contact.
+Trigger any named External Event for a specified contact.
 
 Endpoint
 --------
