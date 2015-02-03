@@ -53,7 +53,7 @@ party. This string is always 16 bytes long and should be represented as a 32 cha
 
 This field contains the current UTC, GMT, ZULU timestamp (YYYY-MM-DD-HH:MM:SS) according to the ISO8601 format, e.g. `2014-03-20 12:51:45+01:00`.
 
-Please note that you can use any timezone you want, but it has to be defined in the timestamp but we recommend setting your timezonne to UTC time as this is the global Emarsys
+Please note: You can use any timezone you want, but it has to be defined in the timestamp. We recommend setting your timezonne to UTC time as this is the global Emarsys
 standard.
 
 .. note::
