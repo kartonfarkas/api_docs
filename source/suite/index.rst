@@ -1,7 +1,7 @@
 Suite REST API
 ==============
 
-Suite REST API provides programmatic access to our service. Most of our customers are using our APIs
+Suite REST API provides programmatic access to the Emarsys Suite. Most of our customers are using our APIs
 to automate working with :doc:`contacts/index`, :doc:`emails/index`, or :doc:`exports/index` related to contacts and
 launches.
 
