@@ -1,8 +1,8 @@
 Querying Customer Forms
 =======================
 
-Generate a list of all available Suite forms available for use (e.g. registration form in a web page). 
-Suite offers simple functionality to create different kinds of forms to collect data from contacts, this is how you see all available forms. 
+Generates a list of all Suite forms available for use (e.g. registration form in a web page).
+Suite offers simple functionality to create different kinds of forms to collect data from contacts.
 
 Endpoint
 --------

@@ -26,7 +26,7 @@ Parameters
    * - key_id
      - mixed
      - Key which which identifies the contacts
-     - You can use either of these as the field ID: id or UID.
+     - You can use any field ID, id or uid here.
    * - external_id
      - string
      - External ID for the given field specified with field_id
