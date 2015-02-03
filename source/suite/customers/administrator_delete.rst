@@ -21,22 +21,13 @@ Parameters
      - Type
      - Description
      - Comments
-   * - successor_administrator_id
-     - int
-     - ID of the admin to take over the deleted admin's rights
-     -
-
-.. list-table:: **Optional Parameters**
-   :header-rows: 1
-   :widths: 20 20 40 40
-
-   * - Name
-     - Type
-     - Description
-     - Comments
    * - admin_id
      - int
      - ID of the admin to delete
+     -
+   * - successor_administrator_id
+     - int
+     - ID of the admin to take over the deleted admin's rights
      -
 
 Result Example
