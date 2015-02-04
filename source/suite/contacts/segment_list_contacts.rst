@@ -46,7 +46,7 @@ Result Example
 
 .. note::
 
-   The data values the internal Suite IDs of the contacts.
+   The data values are the internal Suite IDs of the contacts.
 
 Errors
 ------
