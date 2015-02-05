@@ -35,8 +35,8 @@ Launches
    launch_preview.rst
    launch_tests.rst
 
-Media Library
--------------
+Media Database
+--------------
 
 .. toctree::
    :maxdepth: 1
