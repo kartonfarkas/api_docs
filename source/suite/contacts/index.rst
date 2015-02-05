@@ -1,8 +1,9 @@
 Contacts, Contact Lists and Segments
 ====================================
 
-The targeted user of the customer, the potential recipient of his/her emails.
-We use field IDs for identifying fields, for example, first name is 1, family name is 2, and email is 3, etc.
+A *contact* is one of the customers users which can be sent specific content, i.e. a potential recipient of emails.
+Field IDs are used to differentiate the content fields for each contact (e.g. first name is 1, family name is 2, and email is 3, etc.), and can be used to...
+
 
 Contacts
 --------
