@@ -22,7 +22,7 @@ Parameters
    * - folder_id
      - int
      - folder_id is the ID of an existing folder in the Media Database. 
-     - If folder_id is provided then the files in the folder are returned as part of the URI.
+     - If folder_id is provided then any files in the folder are returned as part of the URI.
 
 URI Examples
 ------------
