@@ -6,8 +6,8 @@ only that the request was received by the API.
 
 .. warning::
 
-   Launches are asynchronous operations. A successful request might end up in a failed
-   launch (for example when email subject or recipient list was not specified). The
+   Launches are asynchronous operations, so a successful request might end up in a failed
+   launch, e.g. when the email subject  or recipient list was not specified. The
    :doc:`email_data` endpoint must be polled to obtain information on the
    launch progress, where the *api_status* and *api_error* parameters will contain the
    status.
@@ -43,12 +43,12 @@ Parameters
      - Comments
    * - schedule
      - datetime
-     - If specified, the launch will be scheduled for this time in the default timezone
+     - If specified, the launch will be scheduled for the set time (in the default timezone).
        of the customer.
      -
    * - timezone
      - string
-     - If specified, the schedule parameter is interpreted in this timezone.
+     - Applies the specified timezone to the launchtime in the *schedule* parameter.
      - See :doc:`../appendices/time_zones`.
 
 URI Example
