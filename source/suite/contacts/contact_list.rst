@@ -1,7 +1,7 @@
 Listing Contacts
 ================
 
-Returns a list of all contacts, or optionally all contacts meeting a specific field requirement (e.g. field_id).
+Generate a list of Contact IDs that display the content of a specific field, e.g. field_id 1 returns a list of all contacts and their first name.
 
 Endpoint
 --------
@@ -21,7 +21,7 @@ Parameters
      - Comments
    * - return
      - int
-     - Field ID that needs to be included in the response (in addition to the internal ID of the contact).
+     - Field ID used to generate the list.
      -
 
 .. list-table:: **Optional Parameters**
