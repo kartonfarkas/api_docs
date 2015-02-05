@@ -1,7 +1,7 @@
 Listing Email Campaign Launches
 ===============================
 
-Lists all the launches of an email campaign, including launch ID, launch date and 'done' status.
+Lists all the launches of an email campaign, inluding the launch ID, date and "done" status for each individual launch.
 
 Endpoint
 --------
