@@ -1,6 +1,5 @@
 .. warning::
 
-   If you would like to use the Export functions, please contact Emarsys Support.
-   The (S)FTP server IP address must be whitelisted on our server for security reasons.
-   WebDav has its own user/password for authentication and WebDav access must be
-   enabled for the customer.
+   If you would like to use any of the Export functions, please contact Emarsys Support first
+   - The (S)FTP server IP address must first be whitelisted on our server (for security reasons).
+   - WebDav access has to be enabled first, and requires authentication to use.
