@@ -1,8 +1,7 @@
 Querying Used Program Resources
 ===============================
 
-Lists the resources of a customer in an external service and provides information about in which Automation Center
-program the customer uses the external service. It can be narrowed to items within a service.
+Generates a list of all external services, and their resources, that a customer currently has available for use in the Automation Center.
 
 Endpoint
 --------
