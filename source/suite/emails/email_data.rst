@@ -59,7 +59,7 @@ Result Example
 Data Structure of the Result
 ----------------------------
 
-.. list-table:: **Result Data Structure**
+.. list-table:: **Resulting Data Structure**
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -69,27 +69,27 @@ Data Structure of the Result
      - Comments
    * - id
      - int
-     - Internal ID of the email
+     - Internal ID of the email campaign
      -
    * - language
      - string
-     - Language of the email
+     - Language used in the email campaign
      -
    * - created
      - datetime
-     - Creation date of the email
+     - Creation date of the email campaign
      -
    * - name
      - string
-     - Name of the email
+     - Name of the email campaign
      -
    * - fromemail
      - string
-     - Email address of the sender
+     - Address the email shows as being sent from.
      -
    * - fromname
      - string
-     - Name of the sender
+     - Senders display name.
      -
    * - subject
      - string
@@ -133,7 +133,7 @@ Data Structure of the Result
      - See :doc:`../appendices/launch_error_status`
    * - source
      - string
-     - Source of the recipients
+     - Recipient source used.
      - Possible values are:
 
        * userlist
