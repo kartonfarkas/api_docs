@@ -1,8 +1,7 @@
 Copying an Email Campaign
 =========================
 
-Copies the specified email campaign. Optionally, a name can be defined for the new
-email campaign.
+Makes a copy of a specified email campaign, and can rename the new copy (optional).
 
 Endpoint
 --------
@@ -35,8 +34,8 @@ Parameters
      - Comments
    * - name
      - string
-     - Name of the new email campaign. If not defined, a unique name will be automatically generated.
-     -
+     - Name of the new email campaign. 
+     - If a new name is not specified, a unique name will be automatically generated.
 
 Result Example
 --------------
