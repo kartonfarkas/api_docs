@@ -39,4 +39,4 @@ Where:
 Errors
 ------
 
-The standard HTML status and error codes.
+Standard HTML status and error codes apply.
