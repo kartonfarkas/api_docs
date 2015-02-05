@@ -49,15 +49,15 @@ Result Example
 
 Where:
 
-* *sent* = the number of emails which have actually left the Suite mail servers
-* *planned* = the number of all contacts which are assigned to this launch
-* *soft_bounces* = the number of emails which were bounced (returned to sender) due to temporary problems
-* *hard_bounces* = the number of emails which were bounced (returned to sender) due to permanent problems
-* *block_bounces* = the number of emails which were bounced (returned to sender) due to being blocked by spam filters
-* *opened* = the number of emails which were opened by recipients; the open rate refers to graphic (HTML) emails only, where the images were downloaded.
-* *unsubscribe* = the number of clicks on the unsubscribe link
-* *total_clicks* = the number of total clicks (multiple clicks per contact are counted) on links tracked by the Suite within an email
-* *unique_clicks* = the number of unique clicks (one click per contact is counted) on links tracked by the Suite within an email
+* *sent* = The number of emails which have actually left the Suite mail servers.
+* *planned* = The number of all contacts which are assigned to this launch.
+* *soft_bounces* = The number of emails which were returned to sender due to temporary problems.
+* *hard_bounces* = The number of emails which were returned to sender due to permanent problems.
+* *block_bounces* = The number of emails which were returned to sender due to being blocked by spam filters.
+* *opened* = The number of emails which were opened by recipients; the open rate refers to graphic (HTML) emails only, where the images were downloaded..
+* *unsubscribe* = The number of clicks on the unsubscribe link.
+* *total_clicks* = The number of total clicks on links tracked by the Suite within an email (multiple clicks per contact are counted).
+* *unique_clicks* = The number of unique clicks on links tracked by the Suite within an email (one click per contact is counted).
 
 Errors
 ------
