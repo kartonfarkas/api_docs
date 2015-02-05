@@ -1,14 +1,12 @@
 Exporting Changes
 =================
 
-Exports the selected fields of all contacts with properties that changed within the time range specified.
-The contacts must belong to the given form or API source.
+Exports all contacts which have had a specific field updated during a specified time period. The contacts must belong to the given form or API source to be included. 
 
-The request starts a background export process and returns its ID which can be used to obtain the status of
-the export. The background process saves the results as a CSV file, either locally or via FTP on another
-computer.
+The request starts a background export process and returns an Export ID which can be used to obtain further status information.
+The background process saves the results as a CSV file, either locally or to another computer (via FTP).
 
-Local exports will save the CSV file to our own server which can be accessed via the WebDav protocol. For a WebDav account, please contact Emarsys Support.
+Local exports will save the CSV file to our own server which can be accessed via WebDav. For a WebDav account, please contact Emarsys Support.
 
 .. include:: _warning.rst
 
@@ -31,7 +29,7 @@ Parameters
    * - distribution_method
      - string
      - **ftp** or **local**
-     - If *distribution_method* is **ftp**, then *ftp_settings* is a required parameter.
+     - If **ftp** is selected, then the *ftp_settings* parameter is required for this to work.
    * - time_range
      - date array
      - Array with two elements (start date, end date)
@@ -41,11 +39,12 @@ Parameters
         - [2014-06-20, 2014-06-21]
    * - origin
      - string
-     - From which platform was the change executed, **form**, **api**, or **all**.
+     - Indicates which platform triggered the the change, **form**, **api**, or **all**.
      -
    * - origin_id
      - int array
-     - In the case of form, it is the ID of the form, in api, it is the source ID (0: without source).
+     - For **forms** use the form ID
+       For **API** use the source ID (0: without source).
      -
    * - contact_fields
      - int array
@@ -57,7 +56,7 @@ Parameters
        * 32 – user status
        * 33 – contact source
 
-     - The array must not be empty.
+     - The array must not be empty!
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
@@ -77,11 +76,11 @@ Parameters
      - Default value is **1**.
    * - language
      - string
-     - See supported language codes <http://documentation.emarsys.com/?page_id=424>`_.
+     - For supported language codes see <http://documentation.emarsys.com/?page_id=424>`_.
      - Default value is the account’s default language.
    * - ftp_settings
      - object
-     - an object with the following fields must be provided:
+     - An object with the following fields must be provided:
 
        * *(string)* host
        * *(integer)* port
@@ -89,7 +88,7 @@ Parameters
        * *(string)* password
        * *(string)* folder – optional
 
-     - If *distribution_method* is **local**, then *ftp_settings* is ignored.
+     - This variable has to be used if the *distribution_method* is set to use *ftp*. If **local** is used, then any content here is ignored. 
    * - notification_url
      - string
      - A request is sent to the url if the export is ready. This way it is not necessary to poll the export status.
