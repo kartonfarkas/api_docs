@@ -34,15 +34,14 @@ Parameters
    * - /fromdate
      - int
      - Part of the URI
-     - If fromdate is set, only those campaigns will be listed which were created after the given date, accepted format YYYY-MM-DD, example: 2013-01-25.
+     - If *fromdate* is set, only those campaigns will be listed which were created after the given date, accepted format YYYY-MM-DD, example: 2013-01-25.
    * - /todate
      - int
      - Part of the URI
-     - If todate is set, only those campaigns will be listed which were created before the given date, accepted format YYYY-MM-DD, example: 2013-01-25.
+     - If *todate* is set, only those campaigns will be listed which were created before the given date, accepted format YYYY-MM-DD, example: 2013-01-25.
 
 For a list of possible values for <id>, see :doc:`../appendices/email_status`.
-You can combine the fromdate and todate parameters.
-If two or more parameters are used, they must be separated by an & character.
+You can combine the *fromdate* and *todate* parameters, and if two or more parameters are used then they must be separated by an & (ampersand).
 
 URI Example
 -----------
@@ -110,19 +109,19 @@ Result Example
 
 Where:
 
-* *id* = the internal identifier of the email
-* *name* = the name of the email
-* *fromemail* = the sender email address
-* *fromname* = the sender name
-* *subject* = the email subject line
-* *email category* = the category identifier for this email. Categories can be retrieved via :doc:`../emails/email_categories`.
-* *filter* = the filter identifier. Available filters can be retrieved via :doc:`../contacts/segment_list`.
-* *contactlist* = the contact list identifier. Contact lists can be retrieved via :doc:`../contacts/contact_list_list`.
-* *cc_list* = the contact list ID, if the email is sent, this contact list also receives it. Only works if BCC List is enabled.
+* *id* = The internal identifier of the email
+* *name* = The name of the email
+* *fromemail* = The sender email address
+* *fromname* = The sender name
+* *subject* = The email subject line
+* *email category* = The category identifier for this email. Categories can be retrieved via :doc:`../emails/email_categories`.
+* *filter* = The filter identifier. Available filters can be retrieved via :doc:`../contacts/segment_list`.
+* *contactlist* = The contact list identifier. Contact lists can be retrieved via :doc:`../contacts/contact_list_list`.
+* *cc_list* = The contact list ID, if the email is sent, this contact list also receives it. Only works if BCC List is enabled.
 * *status* = See :doc:`../appendices/email_status`.
 * *api_status* = See :doc:`../appendices/launch_status`.
 * *api_error* = See :doc:`../appendices/error_codes`.
-* *source* = the source of the recipients. Possible values are: **userlist, profile, api**
+* *source* = Where the recipient originated, possible values are: **userlist, profile, api**
 
 Errors
 ------
