@@ -1,21 +1,17 @@
 Use Cases
 =========
 
-This section describes some typical use cases for the Suite API. Although there are optional parameters for most of the
-Suite API calls, only those parameters are described that you need to use for the given use case.
+This section describes some typical use cases for the Suite API, and only the relevant optional parameters the API calls are included for each use case.
 
-The use cases are divided into groups covering similar actions but with increasing complexity. For example sending a
-welcome email without any bells and whistles is a simple use case, whereas sending a welcome email referring to a
-product the contact has just bought is a more complex one.
+The use cases are grouped by action type, listed in order of increasing complexity. For example, sending a plain welcome emailis a simple use case, whereas sending a welcome email referring to a product the contact has just bought is more complex.
 
-We currently offer use cases covering these activities:
+We currently offer use cases covering the following activities:
 
 Sending Transactional Emails
 ----------------------------
 
-The aim of this use case is to send an email after an event took place (e.g.: send an email to all newly-registered
-contacts, or for those who purchased a product). To trigger an email, we use an external event which contains
-information about the intended recipient.
+The aim here is to send an email in response to an event, e.g.: welcome email to all newly-registered contacts, product purchase confirmation, etc.. 
+Here an external event, which contains information about the intended recipient, is used to trigger the email.
 
 .. toctree::
    :maxdepth: 1
