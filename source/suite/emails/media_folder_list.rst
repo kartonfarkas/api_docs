@@ -1,7 +1,7 @@
 Listing Folders
 ===============
 
-Returns the available folders in the Media Database.
+Returns a list of the available folders in the Media Database.
 
 Endpoint
 --------
@@ -21,8 +21,8 @@ Parameters
      - Comments
    * - <folder_id>
      - int
-     - ID of an already existing folder in the Media Database. If it is provided, its subfolders are returned, part of the URI.
-     -
+     - <folder_id> is the ID of an existing folder in the Media Database. 
+     - If <folder_id> is provided then any subfolders are returned as part of the URI.
 
 URI Example
 -----------
