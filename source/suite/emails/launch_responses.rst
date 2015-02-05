@@ -1,16 +1,14 @@
 Querying Responses
 ==================
 
-The goal of this call is to list the contacts who reacted to the email campaigns in the given time interval
-the same way, for example all contacts who opened emails.
+Generates a list of all contacts who reacted a certain way to email campaigns durig a specified time-frame, e.g. all contacts who opened emails.
 
-A call to this endpoint starts a background query and returns a query ID which can be used to poll the
-:doc:`launch_responses_result` endpoint for the results. Ideally, the results will be available
-in some minutes.
+A call to this endpoint starts a background query that returns a query ID, which can the be used to poll the
+:doc:`launch_responses_result` endpoint for the results. As this method requires multiple steps, it may take a few minutes for the results to come back.
 
 .. note::
 
-   This endpoint is rate limited. Within a minute, a customer can do only one request.
+   This endpoint is rate limited, meaning that only one request per minute can be made.
 
 Endpoint
 --------
@@ -30,8 +28,16 @@ Parameters
      - Comments
    * - type
      - string
-     - Reaction of contacts to emails, it can be 'opened', 'not_opened', 'received', 'clicked',
-       'not_clicked' (a link in the email), 'bounced', 'hard_bounced', 'soft_bounced' or 'block_bounced'.
+     - * Reaction of contacts to emails which can be:
+       * 'opened'
+       * 'not_opened'
+       * 'received'
+       * 'clicked',
+       * 'not_clicked' (a link in the email)
+       * 'bounced'
+       * 'hard_bounced'
+       * 'soft_bounced'
+       * 'block_bounced'.
      -
 
 .. list-table:: **Optional Parameters**
