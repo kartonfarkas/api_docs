@@ -1,7 +1,7 @@
-Exporting Registrations
-=======================
+Exporting Contact Registrations
+===============================
 
-Exports the selected fields of all contacts who registered within the specified time range.
+Exports the selected fields of all contacts who registered during a specified time period.
 The request starts a background export process and returns its ID which can be used to obtain the status of the export. The background process saves the results as a CSV file, either locally or via FTP on another computer.
 
 .. include:: _warning.rst
