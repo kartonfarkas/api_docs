@@ -28,8 +28,9 @@ Parameters
      - string
      - Base64 encoded content of the file
      -
+.. note::
 
-The upload limit is 128 kB for images and 4 MB for other file types
+   The upload limit is 128 kB for images and 4 MB for other file types
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
@@ -42,8 +43,8 @@ The upload limit is 128 kB for images and 4 MB for other file types
    * - folder_id
      - int
      - ID of an already existing folder in the Media Database
-     - If folder is not specified, the file is uploaded to the root directory.
-       The list of folders can be retrieved using the /api/v2/folder interface.
+     - If a folder is not specified, the file is uploaded to the root directory by default.
+       A list of available folders can be retrieved using the /api/v2/folder interface.
 
 JSON Payload Example
 --------------------
@@ -93,8 +94,8 @@ Result Example
 
 Where:
 
-* *filename* is the resulting file name in the media database after upload
-* *original_name* is the file name provided in the request
+* *filename*: The resulting file name in the media database after upload
+* *original_name*: The file name provided in the request
 
 Errors
 ------
