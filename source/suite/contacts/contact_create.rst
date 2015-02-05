@@ -1,7 +1,7 @@
 Creating a New Contact
 ======================
 
-Info on creating a new contact.
+Info on creating a new contact and mapping their data to the correct fields, using the relevant Field IDs.
 
 Endpoint
 --------
