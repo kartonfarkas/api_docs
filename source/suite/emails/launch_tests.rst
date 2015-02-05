@@ -10,7 +10,7 @@ Endpoint
 
 .. warning::
 
-   Only one of the following three required parameters should be sent:
+   Only one of the following three required parameters should be sent (i.e. do not combine):
     * ``recipientlist``
     * ``filter_id``
     * ``contactlist_id``
