@@ -1,7 +1,7 @@
 Creating a Folder
 =================
 
-Creates a new folder under the specified parent folder in the Media Database.
+Creates a new folder in a specified existing parent folder in the Media Database.
 
 Endpoint
 --------
