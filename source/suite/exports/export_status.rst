@@ -1,7 +1,7 @@
 Querying Export Status
 ======================
 
-Fetches the status data of an export. Uses the ID returned by :doc:`export_responses` or :doc:`export_registrations`.
+Fetches the status data of an export, and uses the ID returned by :doc:`export_responses` or :doc:`export_registrations` as the Export ID.
 
 Endpoint
 --------
@@ -47,7 +47,7 @@ Result Example
 Data Structure of the Result
 ----------------------------
 
-.. list-table:: **Result Data Structure**
+.. list-table:: **Resulting Data Structure**
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -57,13 +57,12 @@ Data Structure of the Result
      - Comments
    * - status
      - string
-     - Status of the export
-     - * **scheduled**: the export process has not been started yet
-       * **in progress**: the export is being processed
-       * **ready**: the CSV file is ready to be distributed
-       * **done**: the export finished without errors, the CSV file was created and distributed successfully
-       * **error**: an error occurred during the export process
-       * In case of an FTP delivery and if the FTP host is unavailable or the authentication failed, the export status remains **ready** and the process will try to connect to the FTP after one hour.
+     - * **scheduled**: The export process has not been started yet
+       * **in progress**: The export is currently being processed
+       * **ready**: The CSV file is ready to be distributed
+       * **done**: The export finished without errors; the CSV file was created and distributed successfully
+       * **error**: An error occurred during the export process
+     - * In case of an FTP delivery and if the FTP host is unavailable or the authentication failed, the export status remains **ready** and the process will try to connect to the FTP after one hour.
        * If the export process cannot connect and stays in **‘ready’** status for more than one hour, please contact your Emarsys Account Manager.
    * - type
      - string
