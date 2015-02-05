@@ -1,8 +1,7 @@
 Querying Email Campaign Categories
 ==================================
 
-Returns the list of the email campaign categories which can be used in email
-creation. The list is sorted alphabetically by category name.
+Returns the list of the available email campaign categories which can be used in email creation. The list is alphabetised by category name.
 
 Endpoint
 --------
@@ -32,4 +31,4 @@ Result Example
 Errors
 ------
 
-The standard HTML error and status codes.
+Standard HTML error and status codes apply.
