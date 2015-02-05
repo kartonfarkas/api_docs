@@ -1,5 +1,5 @@
-Listing a Choice List
-=====================
+Listing Available Field Choices
+===============================
 
 Generates a list of all available options for any given field.
 
