@@ -5,7 +5,7 @@ Lists the contact IDs for the email campaigns, based on the :doc:`launch_respons
 
 .. note::
 
-   The result is kept for 2 hours.
+   The results are available for 2 hours after the query is made.
 
 Endpoint
 --------
