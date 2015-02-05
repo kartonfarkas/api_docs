@@ -1,8 +1,10 @@
 Customers and Administrators
 ============================
 
-Customer is the owner of the Suite account (i.e. your company). Administrators are people authorized to login on behalf
-of the Customer to the Emarsys Suite. Please note that there are different access levels for admins.
+Customer is the owner of the Suite account (i.e. your company), and Administrators are the people authorized to login on behalf
+of the Customer to the Emarsys Suite. 
+
+Please note that there are different access levels for admins.
 
 Customer Settings
 -----------------
