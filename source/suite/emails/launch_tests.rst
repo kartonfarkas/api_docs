@@ -8,6 +8,16 @@ Endpoint
 
 ``POST /api/v2/email/<id>/sendtestmail``
 
+.. warning::
+
+   **Only one of the following three required parameters should be sent:
+    * ``recipientlist``
+    * ``filter_id``
+    * ``contactlist_id``
+
+   The number of recipients in any of the parameters must be less than 50. If more than 50 are
+   included, only the first 50 will receive the testmail and the rest will be ignored.
+
 Parameters
 ----------
 
@@ -35,14 +45,6 @@ Parameters
      - int
      - ID of the contact list the emails will be sent to
      -
-
-.. warning::
-
-   One and only one of the three required parameters (``recipientlist``, ``filter_id`` and
-   ``contactlist_id``) must be sent.
-
-   The number of recipients in any of the parameters must be less than 50. If more than 50 are
-   included, only the first 50 will receive the testmail and the rest will be ignored.
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
