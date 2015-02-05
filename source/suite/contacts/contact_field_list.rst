@@ -1,5 +1,5 @@
-Listing Field Lists
-===================
+Listing Available Fields
+========================
 
 Generates a list of all fields which can be used to personalize content (including custom fields and vouchers).
 
