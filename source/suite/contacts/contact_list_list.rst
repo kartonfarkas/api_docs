@@ -1,5 +1,5 @@
-Listing Contact Lists
-=====================
+Listing Available Contact Lists
+===============================
 
 Generates a list of the available contact lists.
 
