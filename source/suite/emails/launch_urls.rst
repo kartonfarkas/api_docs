@@ -1,8 +1,7 @@
-Querying URL for a Launched Email Campaign Content
-==================================================
+Querying URL Launched Email Campaign Content
+============================================
 
-Returns the URL of a launched email campaign's content for the specified
-contact.
+Returns the URL of a launched email campaign's content for the specified contact.
 
 Endpoint
 --------
