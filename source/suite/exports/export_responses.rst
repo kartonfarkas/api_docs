@@ -59,7 +59,7 @@ Parameters
        * complaint
    * - analysis_fields
      - string
-     - Array which defines analysis fields
+     - Array which defines analytic fields
      - * 1 – Campaign title
        * 2 – Section header
        * 3 – Section group
@@ -71,7 +71,7 @@ Parameters
        * 14 – Campaign category
        * 15 – Link category
 
-The number of the fields provided for contact_fields and analysis_fields must be at least 1 and at most 20 in total.
+The number of fields required to use *contact_fields* and *analysis_fields* has to be between 1 (minimum) and 20 (maximum).
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
