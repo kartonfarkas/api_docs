@@ -1,4 +1,4 @@
-Creating a Folder
+Creating a Folder 
 =================
 
 Creates a new folder in a specified existing parent folder in the Media Database.
