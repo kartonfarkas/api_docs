@@ -22,7 +22,7 @@ Parameters
    * - language
      - string
      - Language of the email campaign
-     - short, 2 letter language code, like "en"
+     - Short using 2 letter (ISO-639-1) language codes, e.g. en.
    * - name
      - string
      - Title of the email
@@ -75,24 +75,24 @@ Parameters
      - Comments
    * - unsubscribe
      - int
-     - if the email contains a link to unsubscribe
+     - The email contains an unsubscribe link
      - * 0: false
        * 1: true
    * - browse
      - int
-     - if the email contains a link to the online version
+     - The email contain a link to an online version
      - * 0: false
        * 1: true
    * - text_only
      - int
-     - used only if both HTML and TEXT sources are available
-     - * 0: false
+     - The email includes a text only version. 
+     - Can only be used if both an HTML and TEXT source is available
+       * 0: false
        * 1: true
    * - cc_list
      - int
-     - Contact list ID, if the email is sent, this contact list also receives it.
-       Only works if the BCC List feature is enabled for the customer.
-     -
+     - The contact list ID to include when CCing a copy of the email.
+     - Only works if the BCC List feature is enabled for the customer.
 
 Request Example
 ---------------
