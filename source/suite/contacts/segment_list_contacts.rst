@@ -1,5 +1,5 @@
-List Contacts in a Segment
-==========================
+Listing Contacts in a Segment
+=============================
 
 Generates a list of contacts after a specific segment (i.e. filter) has been applied.
 
