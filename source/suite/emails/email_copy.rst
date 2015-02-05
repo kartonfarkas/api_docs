@@ -53,7 +53,7 @@ Normal Result:
      }
    }
 
-When copying a campaign with multiple versions, the ID of the copy of the first version is returned.
+When copying a campaign that has multiple versions, the ID of the original is returned.
 
 Error Condition:
 
