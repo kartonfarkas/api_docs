@@ -9,11 +9,7 @@ The CSV file is then uploaded to either:
 Exports happen asynchronously, and the status can be queried using the :doc:`export_status`
 endpoint. Alternatively, it is possible to specify a *notification_url* which is called when the export is finished.
 
-.. warning::
-
-   If you would like to use any of the Export functions, please contact Emarsys Support first
-   - The (S)FTP server IP address must first be whitelisted on our server (for security reasons).
-   - WebDav access has to be enabled first, and requires authentication to use.
+.. include:: _warning.rst
 
 .. toctree::
    :maxdepth: 1
