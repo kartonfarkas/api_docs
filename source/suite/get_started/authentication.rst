@@ -1,7 +1,8 @@
 Authentication
 ==============
 
-Every call to the API must be authenticated, which must be done by adding a custom HTTP header (X-WSSE).
+Every call to the API must be authenticated, which must be done by adding a custom HTTP header (X-WSSE) with your
+username and secret for the API (please request them from your contact person).
 This page contains detailed instructions on how to create valid headers for the Suite REST API.
 
 X-WSSE Format
@@ -66,7 +67,7 @@ Computing the password digest involves 5 simple steps:
 
  1. Get a randomly generated 16 byte Nonce formatted as 32 hexadecimal characters.
  2. Get the current Created timestamp in ISO8601 format.
- 3. Concatenate the following three values in this order: nonce, timestamp, secretKey.
+ 3. Concatenate the following three values in this order: nonce, timestamp, secret.
  4. Calculate the SHA1 hash value of the concatenated string, and make sure this value is in hexadecimal
     format! Some languages, like PHP, output hexadecimal hash by default. You may need to use special methods
     to obtain hexadecimal hashes in different languages or even convert byte to hex values by hand (see the
