@@ -1,7 +1,7 @@
 Listing Available Field Choices
 ===============================
 
-Generates a list of all available options for any given field.
+Generates a list of all available options for any given single- or multichoice field.
 
 Endpoint
 --------
@@ -50,19 +50,18 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode": 0 ,
-     "replyText": "OK",
-     "data":
-     [
-       {
-         "id": "1",
-         "choice": "HTML"
-       },
-       {
-         "id": "2",
-         "choice": "Text only"
-       }
-     ]
+      "replyCode":0,
+      "replyText":"OK",
+      "data":[
+         {
+            "id":"1",
+            "choice":"Masculin"
+         },
+         {
+            "id":"2",
+            "choice":"Féminin"
+         }
+      ]
    }
 
 Where:

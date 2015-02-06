@@ -38,7 +38,7 @@ Parameters
      -
    * - endDate
      - date
-     - Can be used to filter the launch date of emails
+     - Used to filter the launch date of emails
      -
 
 JSON Payload Example

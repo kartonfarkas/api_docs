@@ -1,7 +1,7 @@
 Contacts, Contact Lists and Segments
 ====================================
 
-A *contact* is one of the customers users which can be sent specific content, i.e. a potential recipient of emails.
+A *contact* is one of the customers' users which can be sent specific content, i.e. a potential recipient of emails.
 Field IDs are used to differentiate between the content fields for each contact (e.g. first name is 1, family name is 2, and email is 3, etc.), and can be used to...
 
 

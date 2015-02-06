@@ -3,9 +3,7 @@ Listing Contacts in a Segment
 
 Generates a list of contacts after a specific segment (i.e. filter) has been applied.
 
-.. warning::
-
-   This function does not respond immediately as it needs to process the segment before it can generate the list.
+.. include:: _warning.rst
 
 Endpoint
 --------

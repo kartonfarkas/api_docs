@@ -26,7 +26,7 @@ Parameters
      - Comments
    * - key_id
      - mixed
-     - Key which identifies the contacts
+     - Key which identifies the contacts, [field_id]
      -
    * - external_ids
      - mixed
