@@ -1,7 +1,8 @@
 Querying Email Campaign Data
 ============================
 
-Returns the details of an email campaign, including the personalized text and HTML source.
+Returns the details of an email campaign, including the personalized text and HTML source. Please note that email campaign data
+is not available if the campaign's recipient source is set to **On External Event**.
 
 Endpoint
 --------
