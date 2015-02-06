@@ -19,9 +19,9 @@ Parameters
      - Type
      - Description
      - Comments
-   * - <folder_id>
+   * - folder_id
      - int
-     - <folder_id> is the ID of an existing folder in the Media Database. 
+     - ID of an existing folder in the Media Database
      - If <folder_id> is provided then any subfolders are returned as part of the URI.
 
 URI Example
