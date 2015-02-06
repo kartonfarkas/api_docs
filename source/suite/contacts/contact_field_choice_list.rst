@@ -50,16 +50,16 @@ Result Example
 .. code-block:: json
 
    {
-      "replyCode":0,
-      "replyText":"OK",
-      "data":[
+      "replyCode": 0,
+      "replyText": "OK",
+      "data": [
          {
-            "id":"1",
-            "choice":"Masculin"
+            "id": "1",
+            "choice": "Masculin"
          },
          {
-            "id":"2",
-            "choice":"Féminin"
+            "id": "2",
+            "choice": "Féminin"
          }
       ]
    }
