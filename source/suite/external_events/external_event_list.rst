@@ -1,7 +1,7 @@
 Querying Available External Events
 ==================================
 
-Lists all existing external events and their data (i.e. name and ID), which can then be used to send emails or trigger Automation Center programs.
+Lists all available external event names and IDs. These IDs can then be used to trigger email sending or Automation Center programs.
 
 Endpoint
 --------
