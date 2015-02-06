@@ -98,11 +98,11 @@ Data Structure of the Result
      -
    * - email_category
      - int
-     - Category ID of the email
+     - Category ID that the email is assigned to.
      - Categories may be retrieved via the :doc:`email_categories` endpoint
    * - filter
      - int
-     - Segment ID
+     - Segment ID of the applied filter criteria.
      - Available filters can be retrieved via the :doc:`../contacts/segment_list` endpoint
    * - contactlist
      - int
