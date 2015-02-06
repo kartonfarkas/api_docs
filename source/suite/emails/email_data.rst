@@ -52,7 +52,7 @@ Result Example
          "cc_list": 564365356,
          "source": "api",
          "html_source": "<html>Hello $First Name$...</html>",
-         "text_source": "Hello $First Name$ http://login.emarsys.net/u/nrd.php?p=$uid$_$llid$_$cid$_$sid$_2"
+         "text_source": "Hello $First Name$..."
        }
      ]
    }
