@@ -118,9 +118,9 @@ Where:
 * *filter* = The filter identifier. Available filters can be retrieved via :doc:`../contacts/segment_list`.
 * *contactlist* = The contact list identifier. Contact lists can be retrieved via :doc:`../contacts/contact_list_list`.
 * *cc_list* = The contact list ID, if the email is sent, this contact list also receives it. Only works if BCC List is enabled.
-* *status* = See :doc:`../appendices/email_status`.
-* *api_status* = See :doc:`../appendices/launch_status`.
-* *api_error* = See :doc:`../appendices/error_codes`.
+* *status* = The status of the email, for more info see :doc:`../appendices/email_status`.
+* *api_status* = The launch status of the email, for more info see :doc:`../appendices/launch_status`.
+* *api_error* = Any specific errors related to the endpoints or methods, for more info see :doc:`../appendices/error_codes`.
 * *source* = Where the recipient originated, possible values are: **userlist, profile, api**
 
 Errors
