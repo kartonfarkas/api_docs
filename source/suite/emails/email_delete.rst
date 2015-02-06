@@ -1,7 +1,7 @@
 Deleting an Email Campaign
 ==========================
 
-Deletes an email campaign and all related launches.
+Deletes an email campaign and all related launches, including any pending launches. 
 
 Endpoint
 --------
