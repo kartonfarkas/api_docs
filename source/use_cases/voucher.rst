@@ -1,5 +1,5 @@
-Put a Voucher into the Email
-============================
+Include a Voucher in an Email
+=============================
 
 If you want to give a voucher for a contact who purchased a product, then you can send an email which contains a voucher for
 the contact.
