@@ -114,7 +114,7 @@ Where:
 * *fromemail* = The sender email address
 * *fromname* = The sender name
 * *subject* = The email subject line
-* *email_category* = The category identifier for this email. Categories can be retrieved via :doc:`../emails/email_categories`.
+* *email_category* = The category identifier for this email, for more info see :doc:`../emails/email_categories`.
 * *filter* = The filter identifier. Available filters can be retrieved via :doc:`../contacts/segment_list`.
 * *contactlist* = The contact list identifier. Contact lists can be retrieved via :doc:`../contacts/contact_list_list`.
 * *cc_list* = The contact list ID, if the email is sent, this contact list also receives it. Only works if BCC List is enabled.
