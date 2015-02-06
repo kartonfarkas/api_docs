@@ -51,8 +51,8 @@ Result Example
          "contactlist": "0",
          "cc_list": 564365356,
          "source": "api",
-         "html_source": "Hello $Last Name$. How are you?",
-         "text_source": "Hello $Last Name$ http://login.emarsys.net/u/nrd.php?p=$uid$_$llid$_$cid$_$sid$_2"
+         "html_source": "<html>Hello $First Name$...</html>",
+         "text_source": "Hello $First Name$ http://login.emarsys.net/u/nrd.php?p=$uid$_$llid$_$cid$_$sid$_2"
        }
      ]
    }

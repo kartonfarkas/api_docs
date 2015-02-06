@@ -106,7 +106,7 @@ Request Example
      "fromname": "Malekith",
      "fromemail": "malekith@example.com",
      "email_category": "111111111",
-     "html_source": "<html>Hello $First Name$... </html>",
+     "html_source": "<html>Hello $First Name$...</html>",
      "text_source": "Hello $First Name$...",
      "browse": 0,
      "text_only": 0,
