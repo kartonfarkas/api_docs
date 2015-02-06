@@ -1,10 +1,14 @@
 Include a Voucher in an Email
 =============================
 
-If you want to give a voucher for a contact who purchased a product, then you can send an email which contains a voucher for
-the contact.
+To reward a valued contact, you might want to send them a voucher by email as a thank you for their loyalty, their purchase, etc. 
 
-The steps will be as follows:
+You include the actual voucher during the email campaign creation, but this example will take you through the whole process from creation to sending the email.
+
+Required stages:
+- Create an Email Campaign
+- Define the Email Campaign Trigger
+- Trigger the External Event
 
 1. Creating an Email Campaign
 -----------------------------
@@ -31,7 +35,7 @@ The steps will be as follows:
      "contactlist": 0
    }
 
-.. note:: The $voucher$ placeholder has to be used in the email.
+.. note:: The $voucher$ placeholder is what includes the Suite voucher, and has to be used in the email to work.
 
 **Response**:
 
@@ -50,10 +54,13 @@ Where *id* is the new email campaign ID.
 
 See :doc:`../../suite/emails/email_create`.
 
-After creating the email, go to the UI and set the *Recipient Source* to "**Generated through an event**", the *Event* to
-"**On External Event**", and choose the proper external event under.
+2. Define the Email Campaign Trigger
+-----------------------------
 
-2. Triggering External Events
+Once the email has been created, access the email via the UI and set the *Recipient Source* to "**Generated through an event**". Then set the *Event* to
+"**On External Event**", and select the External Event you want to use as a trigger for this email.
+
+3. Triggering External Events
 -----------------------------
 
 **Request**:
