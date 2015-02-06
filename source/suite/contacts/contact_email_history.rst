@@ -34,11 +34,11 @@ Parameters
      - Comments
    * - startDate
      - date
-     - Used to filter emails by the launch date
+     - Used to filter emails by the date the launch was initiated.
      -
    * - endDate
      - date
-     - Used to filter the launch date of emails
+     - Used to filter emails by the date the launch completed.
      -
 
 JSON Payload Example
