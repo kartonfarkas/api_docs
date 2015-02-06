@@ -2,9 +2,9 @@ Contacts, Contact Lists and Segments
 ====================================
 
 A *contact* is one of the customers' users which can be sent specific content, i.e. a potential recipient of emails.
-Field IDs are used to differentiate between the content fields for each contact (e.g. first name is 1, family name is 2, and email is 3, etc.), and can be used to...
+Fields are used to store various data and their IDs are used to differentiate between the content fields for each contact (e.g. first name is 1, family name is 2, and email is 3, etc.).
 
-
+Contacts can be grouped into eihter *Contact Lists* or *Segments*. The difference is that a *Contact List* is created where contacts added manually (i.e. specified), and Segments is where contacts are included if they meet a certain filtering criteria.
 Contacts
 --------
 
