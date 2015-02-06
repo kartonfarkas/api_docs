@@ -41,8 +41,8 @@ Parameters
      -
    * - email_category
      - string
+     - Category ID that the email is assigned to.
      - Category (see :doc:`email_categories`)
-     -
    * - filter
      - int
      - Filter ID for the email
