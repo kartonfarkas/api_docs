@@ -86,6 +86,14 @@ Errors
      - 10003
      - The admin already running a segment. Please wait until it is finished.
      - You can run only one segment at a particular time.
+   * - 400
+     - 10001
+     - Offset must be zero, or a positive number.
+     -
+   * - 400
+     - 10001
+     - Limit must be a positive number.
+     -
 
 
 
