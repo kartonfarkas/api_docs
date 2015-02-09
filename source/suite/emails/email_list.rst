@@ -1,7 +1,8 @@
 Listing Email Campaigns
 =======================
 
-Returns the list of all the email campaigns or the data of a campaign if it is specified with its ID.
+Returns a list of all available email campaigns, or the data of a campaign if it is specified with its ID.
+It also lists selected campaigns by using optional parameters to limit the results, e.g. all campaigns launched until a given date.
 
 Endpoint
 --------
