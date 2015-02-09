@@ -20,26 +20,26 @@ Parameters
      - Type
      - Description
      - Comments
-   * - /status
+   * - status
      - int
-     - Part of the URI
+     - Status of the email, see E-Mail Status Codes, part of the URI
      -
-   * - /contactlist
+   * - contactlist
      - int
-     - Part of the URI
+     - 0 if no contact list is set, otherwise it is the contact list ID, part of the URI
      -
-   * - /showdeleted
+   * - showdeleted
      - int
-     - Part of the URI
-     - If showdeleted is set to 1, deleted campaigns are also listed.
-   * - /fromdate
+     - If *showdeleted* is set to 1, deleted campaigns are also listed, part of the URI
+     -
+   * - fromdate
      - int
-     - Part of the URI
-     - If *fromdate* is set, only those campaigns will be listed which were created after the given date, accepted format YYYY-MM-DD, example: 2013-01-25.
-   * - /todate
+     - If *fromdate* is set, only those campaigns will be listed which were created after the given date, part of the URI
+     - The accepted format is YYYY-MM-DD, example: 2013-01-25.
+   * - todate
      - int
-     - Part of the URI
-     - If *todate* is set, only those campaigns will be listed which were created before the given date, accepted format YYYY-MM-DD, example: 2013-01-25.
+     - If *todate* is set, only those campaigns will be listed which were created before the given date, part of the URI
+     - The accepted format is YYYY-MM-DD, example: 2013-01-25.
 
 For a list of possible values for <id>, see :doc:`../appendices/email_status`.
 You can combine the *fromdate* and *todate* parameters, and if two or more parameters are used then they must be separated by an & (ampersand).
