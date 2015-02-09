@@ -42,7 +42,7 @@ Parameters
      - int
      - Defines how many IDs are listed, part of the URI
      -
-.. include:: ..appendices\test.rst
+.. include:: test.rst
 
 URI Example
 -----------
