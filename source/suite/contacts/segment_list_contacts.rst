@@ -26,6 +26,23 @@ Parameters
      - ID of the segment to use
      -
 
+.. list-table:: **Optional Parameters**
+   :header-rows: 1
+   :widths: 20 20 40 40
+
+   * - Name
+     - Type
+     - Description
+     - Comments
+   * - offset
+     - int
+     - defines from which ID the listing starts, part of the URI
+     - The provided one is not included.
+   * - limit
+     - int
+     - sets how many IDs are listed, part of the URI
+     -
+
 URI Example
 -----------
 
