@@ -1,7 +1,7 @@
 Querying Conditions
 ===================
 
-Returns a list of rules for conditional text. You can use conditional text to specify content which contact sees what content in the email campaign. 
+Returns a list of rules for conditional text. You can use conditional text to specify which contact sees what content in the email campaign.
 
 Endpoint
 --------

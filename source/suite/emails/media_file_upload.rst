@@ -4,7 +4,7 @@ Uploading a File
 Uploads a file to the Media Database. When an email campaign is created, the uploaded file has to be referred
 to like this: ``<img src=”/custloads/<customer_id>/img.png”>``.
 
-Please note: only one file can be uploaded at a time, and the filename reference is case sensitive.
+.. note:: Only one file can be uploaded at a time, and the filename reference is case sensitive.
 
 Endpoint
 --------
@@ -96,8 +96,8 @@ Result Example
 
 Where:
 
-* *filename*: The resulting file name in the media database after upload
-* *original_name*: The file name provided in the request
+* *filename* is the resulting file name in the media database after upload
+* *original_name* is the file name provided in the request
 
 Errors
 ------
