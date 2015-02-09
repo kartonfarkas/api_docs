@@ -21,7 +21,7 @@ Parameters
      - Type
      - Description
      - Comments
-   * - <segment_id>
+   * - segment_id
      - int
      - ID of the segment to use
      -
