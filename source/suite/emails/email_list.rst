@@ -20,10 +20,14 @@ Parameters
      - Type
      - Description
      - Comments
+   * - id
+     - int
+     - ID of a specific email
+     -
    * - status
      - int
-     - Status of the email, see E-Mail Status Codes, part of the URI
-     -
+     - Status of the email, part of the URI
+     - See :doc:`../appendices/email_status`.
    * - contactlist
      - int
      - 0 if no contact list is set, otherwise it is the contact list ID, part of the URI
@@ -41,8 +45,8 @@ Parameters
      - If *todate* is set, only those campaigns will be listed which were created before the given date, part of the URI
      - The accepted format is YYYY-MM-DD, example: 2013-01-25.
 
-For a list of possible values for <id>, see :doc:`../appendices/email_status`.
-You can combine the *fromdate* and *todate* parameters, and if two or more parameters are used then they must be separated by an & (ampersand).
+You can combine the *fromdate* and *todate* parameters, and if two or more parameters are used then they must be
+separated by an & (ampersand).
 
 URI Example
 -----------
