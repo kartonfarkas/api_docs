@@ -4,7 +4,7 @@ Creating an Additional Contact Source
 Creates and labels a new source for your contacts to enter the Suite DB from, which can be used to track the origin of contact data changes.
 Change tracking information will be available for you at :doc:`../exports/export_changes`.
 
-Please note that for other purposes, contacts have a system source field (field id #33) dedicated to record the source of the
+.. note:: For other purposes, contacts have a system source field (field id #33) dedicated to record the source of the
 contact (e.g. Manual entry, Import or Registration form).
 
 Endpoint
