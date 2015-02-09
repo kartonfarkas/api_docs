@@ -37,7 +37,7 @@ Parameters
    * - offset
      - int
      - Defines the ID to start listing from, part of the URI
-     - The provided one is not included, i.e. if the 2nd ID is defined, then the list starts from the 3rd.
+     - The provided ID is not included, i.e. if the 2nd ID is defined, then the list starts from the 3rd.
    * - limit
      - int
      - Defines how many IDs are listed, part of the URI
