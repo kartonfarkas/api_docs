@@ -26,11 +26,16 @@ Parameters
      - int
      - ID of the email campaign
      -
-   * - filterId, contactlistId
+   * - filterId
      - int
-     - Recipient source for the email campaign. At least the filterId (segment ID) or the contactlistId
-       have to be specified and must not be 0. If both are sent, only one must be different from 0.
-     -
+     - Recipient source for the email campaign
+     - At least the filterId (segment ID) or the contactlistId has to be specified and must not be 0. If both are sent,
+       only one must be different from 0.
+   * - contactlistId
+     - int
+     - Recipient source for the email campaign
+     - At least the filterId (segment ID) or the contactlistId has to be specified and must not be 0. If both are sent,
+       only one must be different from 0.
 
 JSON Payload Example
 --------------------
