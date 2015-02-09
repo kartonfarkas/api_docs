@@ -36,11 +36,11 @@ Parameters
      - Comments
    * - offset
      - int
-     - defines from which ID the listing starts, part of the URI
-     - The provided one is not included.
+     - Defines the ID to start listing from, part of the URI
+     - The provided one is not included, i.e. if the 2nd ID is defined, then the list starts from the 3rd.
    * - limit
      - int
-     - sets how many IDs are listed, part of the URI
+     - Defines how many IDs are listed, part of the URI
      -
 
 URI Example
