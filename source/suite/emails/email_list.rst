@@ -151,5 +151,3 @@ Errors
      - 10001
      - Invalid contact list ID: <id>
      - The specified contact list ID is not valid.
-
-
