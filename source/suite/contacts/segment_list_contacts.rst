@@ -29,7 +29,7 @@ Parameters
 .. list-table:: **Optional Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
-
+.. include:: _test.rst
    * - Name
      - Type
      - Description
@@ -42,7 +42,7 @@ Parameters
      - int
      - Defines how many IDs are listed, part of the URI
      -
-.. include:: _test.rst
+
 
 URI Example
 -----------
