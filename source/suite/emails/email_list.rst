@@ -1,7 +1,7 @@
 Listing Email Campaigns
 =======================
 
-Returns the list of the email campaigns.
+Returns the list of all the email campaigns or the data of a campaign if it is specified with its ID.
 
 Endpoint
 --------
