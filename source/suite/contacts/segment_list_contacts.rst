@@ -43,8 +43,6 @@ Parameters
      - Defines how many IDs are listed, part of the URI
      -
 
-.. include:: test.rst
-
 URI Example
 -----------
 
