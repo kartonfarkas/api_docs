@@ -31,63 +31,25 @@ Sending Batch Emails
    batch_emails/recurring_email_changing.rst
    batch_emails/recurring_email.rst
 
-Keeping Contacts Up-to-date
----------------------------
+Contacts
+--------
 
 .. toctree::
    :maxdepth: 1
 
-   keeping_contacts.rst
+   contacts/keeping_contacts.rst
+   contacts/multiple_sources.rst
+   contacts/new_contact.rst
+   contacts/querying_contact_data.rst
 
-Querying Contact Data from a Contact List
------------------------------------------
-
-.. toctree::
-   :maxdepth: 1
-
-   querying_contact_data.rst
-
-Put a Voucher into the Email
-----------------------------
+Emails
+------
 
 .. toctree::
    :maxdepth: 1
 
-   voucher.rst
-
-Checking to which Source the Contact Belongs to
------------------------------------------------
-
-.. toctree::
-   :maxdepth: 1
-
-   multiple_sources.rst
-
-Sending an Email with a Condition
----------------------------------
-
-.. toctree::
-   :maxdepth: 1
-
-   condition_email.rst
-
-Adding a New Contact to a Contact List
---------------------------------------
-
-.. toctree::
-   :maxdepth: 1
-
-   new_contact.rst
-
-Checking Email Data
--------------------
-
-.. toctree::
-   :maxdepth: 1
-
-   check_email_data.rst
+   emails/check_email_data.rst
+   emails/condition_email.rst
+   emails/voucher.rst
 
 If you would like to see use cases covering different marketing activities, please pass a request on to your Account Manager.
-
-
-
