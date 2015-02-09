@@ -37,9 +37,11 @@ For this scenario, you will need to:
      ]
    }
 
-Where *filename* is the resulting file name in the media database after upload, and *original_name* is the file name
-provided in the request. When an email campaign is created, which is the next step, the uploaded file has to be referred
-to like this: ``<img src=”/custloads/<customer_id>/img.png”>``.
+Where:
+
+* *filename* is the resulting file name in the media database after upload
+* *original_name* is the file name provided in the request. When an email campaign is created, which is the next step,
+the uploaded file has to be referred to like this: ``<img src=”/custloads/<customer_id>/img.png”>``.
 
 See :doc:`../../suite/emails/media_file_upload`.
 
@@ -81,7 +83,9 @@ See :doc:`../../suite/emails/media_file_upload`.
      }
    }
 
-Where *id* is the new email campaign ID.
+Where:
+
+* *id* is the new email campaign ID
 
 See :doc:`../../suite/emails/email_create`.
 

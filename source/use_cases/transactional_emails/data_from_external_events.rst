@@ -81,12 +81,12 @@ Use your external event ID (not the name!) as *id*. Since these IDs don’t chan
       "external_id": "peter@example.com"
    }
 
-Where
+Where:
 
 * *key_id* is the ID of the key field of the contact. We are using *3* meaning the email address. For a list of
   available Field IDs, see :doc:`../../suite/appendices/system_fields`.
-* *external_id* is the value of the key field, the contact’s email in this case.
-* *data* is your transaction-specific content in the form of **placeholder: value** that are included in a *global* object.
+* *external_id* is the value of the key field, the contact’s email in this case
+* *data* is your transaction-specific content in the form of **placeholder: value** that are included in a *global* object
 
 Retrieve external event IDs by querying all external events on the API (see :doc:`../../suite/external_events/external_event_list`).
 For further information about triggering external events, see :doc:`../../suite/external_events/external_event_trigger`.

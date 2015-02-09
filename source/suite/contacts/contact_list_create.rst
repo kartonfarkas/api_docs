@@ -104,7 +104,7 @@ Result Example
 Where:
 
 * *id* is the ID of the contact list
-* *errors* lists any error(s) and contains the ID and error message as a key-value pair.
+* *errors* lists any error(s) and contains the ID and error message as a key-value pair
 
 Errors
 ------

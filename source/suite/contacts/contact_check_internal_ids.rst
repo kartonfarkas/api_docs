@@ -76,8 +76,8 @@ Result Example
 
 Where:
 
-* *ids* are the internal IDs
-* *errors* contain the error ID and the error message as a key-value pair
+* *ids* is a list of the internal IDs
+* *errors* contains the error ID and the error message as a key-value pair
 
 Errors
 ------

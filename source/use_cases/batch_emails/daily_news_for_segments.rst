@@ -28,7 +28,9 @@ For this scenario, you will need to:
       "contactlist": 0
    }
 
-Where *filter* is the segment ID to which the email is sent.
+Where:
+
+* *filter* is the segment ID to which the email is sent
 
 **Response**:
 
@@ -43,7 +45,9 @@ Where *filter* is the segment ID to which the email is sent.
      }
    }
 
-Where *id* is the new email campaign ID.
+Where:
+
+* *id* is the new email campaign ID
 
 See :doc:`../../suite/emails/email_create`.
 

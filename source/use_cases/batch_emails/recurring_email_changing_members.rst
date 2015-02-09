@@ -44,8 +44,10 @@ For this scenario, you will need to:
      }
    }
 
-Where *deleted_contacts* is the number of contacts successfully deleted from the list, and *errors* is an array of
-contacts not removed from the list. The array contains the ID and reason for the error.
+Where:
+
+* *deleted_contacts* is the number of contacts successfully deleted from the list
+* *errors* is an array of contacts not removed from the list. The array contains the ID and reason for the error.
 
 See :doc:`../../suite/contacts/contact_list_remove_contacts`.
 
@@ -88,9 +90,10 @@ See :doc:`../../suite/contacts/contact_list_remove_contacts`.
      }
    }
 
-Where *inserted_contacts* is the number of contacts successfully added to the list, and
-*errors* is an array of contacts not added to the list. The array contains the ID and the
-reason for the error.
+Where:
+
+* *inserted_contacts* is the number of contacts successfully added to the list
+* *errors* is an array of contacts not added to the list. The array contains the ID and the reason for the error.
 
 See :doc:`../../suite/contacts/contact_list_add_contacts`.
 
@@ -132,7 +135,9 @@ See :doc:`../../suite/contacts/contact_list_add_contacts`.
      }
    }
 
-Where *id* is the new email campaign ID.
+Where:
+
+* *id* is the new email campaign ID
 
 See :doc:`../../suite/emails/email_create`.
 

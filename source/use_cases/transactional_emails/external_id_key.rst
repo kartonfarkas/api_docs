@@ -88,11 +88,11 @@ get the ID, and use it in your integration script.
       "external_id": "789"
    }
 
-Where
+Where:
 
 * *key_id* is the ID of the key field of the contact. We are using the key id of the **externalID** field you identified
   during the preparation. For a list of available Field IDs, see :doc:`../../suite/appendices/system_fields`.
-* *external_id* is the value of the key field, your ‘external ID’ in this case.
+* *external_id* is the value of the key field, your ‘external ID’ in this case
 
 Retrieve external event IDs by querying all external events on the API (see :doc:`../../suite/external_events/external_event_list`).
 For further information about triggering external events, see :doc:`../../suite/external_events/external_event_trigger`.

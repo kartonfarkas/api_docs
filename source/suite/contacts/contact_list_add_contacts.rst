@@ -89,7 +89,7 @@ Result Example
 Where:
 
 * *inserted_contacts* is the number of contacts successfully added to the list
-* *errors* details any contacts not added to the list, expressed as an array which contains the ID and the reason for the error.
+* *errors* details any contacts not added to the list, expressed as an array which contains the ID and the reason for the error
 
 Errors
 ------

@@ -91,7 +91,7 @@ Result Example
 Where:
 
 * *deleted_contacts* is the number of contacts successfully deleted from the list
-* *errors* details any contacts not removed from the list, expressed as an array which contains the ID and the reason for the error.
+* *errors* details any contacts not removed from the list, expressed as an array which contains the ID and the reason for the error
 
 Errors
 ------

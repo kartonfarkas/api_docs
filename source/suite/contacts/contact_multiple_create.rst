@@ -104,8 +104,8 @@ Result Example
 
 Where:
 
-* *[ids]* are the IDs of successfully-created contacts (returned as an array).
-* *[errors]* indicates that an error occurred during the creation of a contact, and the error message returns the value of the key_id.
+* *[ids]* is a list of the IDs of successfully-created contacts (returned as an array)
+* *[errors]* indicates that an error occurred during the creation of a contact, and the error message returns the value of the key_id
 
 Errors
 ------
