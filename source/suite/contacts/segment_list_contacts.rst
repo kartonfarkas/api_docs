@@ -37,7 +37,7 @@ Parameters
    * - offset
      - int
      - Defines the ID to start listing from, part of the URI
-     - The provided ID is not included, i.e. if the 2nd ID is defined, then the list starts from the 3rd.
+     - The offset of the first contact ID is 0.
    * - limit
      - int
      - Defines how many IDs are listed, part of the URI
@@ -47,7 +47,7 @@ Parameters
 URI Example
 -----------
 
-* /api/v2/filter/100011553/contacts
+* /api/v2/filter/100011553/contacts/offset=0&limit=1000
 
 Result Example
 --------------
