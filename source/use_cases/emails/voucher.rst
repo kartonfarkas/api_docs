@@ -55,7 +55,7 @@ Where *id* is the new email campaign ID.
 See :doc:`../../suite/emails/email_create`.
 
 2. Define the Email Campaign Trigger
------------------------------
+------------------------------------
 
 Once the email has been created, access the email via the UI and set the *Recipient Source* to "**Generated through an event**". Then set the *Event* to
 "**On External Event**", and select the External Event you want to use as a trigger for this email.
