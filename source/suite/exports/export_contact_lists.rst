@@ -27,7 +27,7 @@ Parameters
    * - distribution_method
      - string
      - **ftp** or **local**
-     - If *distribution_method* is **ftp**, then *ftp_settings* is a required parameter.
+     - If **ftp** is selected, then the *ftp_settings* parameter is required for this to work.
    * - contact_fields
      - int array
      - It may contain any contact field ID except:
@@ -58,8 +58,8 @@ Parameters
      - Default value is **,** (comma).
    * - add_field_names_header
      - int
-     - **0** or **1**
-     - Default value is **1**.
+     - **1** (yes) or **0** (no)
+     - Determines if field headers should be included. Default value is **1**.
    * - language
      - string
      - See supported :doc:`../appendices/language_codes`.
