@@ -72,8 +72,8 @@ Parameters
      - Default value is **,** (comma).
    * - add_field_names_header
      - int
-     - **0** or **1**
-     - Default value is **1**.
+     - **1** (yes) or **0** (no)
+     - Determines if field headers should be included. Default value is **1** .
    * - language
      - string
      - For supported language codes, see :doc:`../appendices/language_codes`.
