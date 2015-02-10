@@ -1,5 +1,5 @@
-Integration Guide
-=================
+Integration Use Case
+====================
 
 In the following sections, we illustrate how it is possible to integrate with the Suite. We will use
 an SMS Automation Center node as an example service to give you ideas. Please note that this
