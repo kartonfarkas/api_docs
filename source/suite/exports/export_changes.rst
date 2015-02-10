@@ -39,7 +39,7 @@ Parameters
         - [2014-06-20, 2014-06-21]
    * - origin
      - string
-     - Indicates which platform triggered the the change, **form**, **api**, or **all**.
+     - Indicates which platform triggered the change, **form**, **api**, or **all**
      -
    * - origin_id
      - int array
@@ -76,7 +76,7 @@ Parameters
      - Default value is **1**.
    * - language
      - string
-     - For supported language codes see <http://documentation.emarsys.com/?page_id=424>`_.
+     - For supported language codes, see <http://documentation.emarsys.com/?page_id=424>`_.
      - Default value is the account’s default language.
    * - ftp_settings
      - object
