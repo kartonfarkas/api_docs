@@ -1,5 +1,5 @@
-Creating Automation Center Nodes
-================================
+Automation Center Nodes
+=======================
 
 The Automation Center node integration API allows you to add a node to Automation Center that will
 call your service on a predefined HTTP endpoint. When the program reaches your node, it will call
