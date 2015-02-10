@@ -15,7 +15,7 @@ For each Suite API request, you need:
 
 Requests to the API must be authenticated. The authentication method of the API is X-WSSE, see :doc:`get_started/authentication`. 
 
-The following is a list of exammples for how to authenticate using different languages: 
+The following is a list of examples for how to authenticate using different languages: 
  * :doc:`get_started/authentication_php`
  * :doc:`get_started/authentication_perl`
  * :doc:`get_started/authentication_ruby`
