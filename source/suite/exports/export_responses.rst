@@ -110,7 +110,7 @@ The number of fields required to use *contact_fields* and *analysis_fields* has 
        * *(string)* username
        * *(string)* password
        * *(string)* folder – optional
-       
+
      - If *distribution_method* is local, then *ftp_settings* is ignored.
    * - notification_url
      - string
