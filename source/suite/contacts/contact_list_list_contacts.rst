@@ -1,7 +1,7 @@
 Listing Contacts in a Contact List
 ==================================
 
-Generates a list of users, and their IDs, in a contact list.
+Generates a list of users and their IDs in a contact list.
 
 Endpoint
 --------

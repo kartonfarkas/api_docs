@@ -62,7 +62,7 @@ Parameters
 
 .. note::
 
-   For filter and contact list, at least one property must be sent and it must not be 0 (zero).
+   For filter and contactlist, at least one property must be sent and it must not be 0 (zero).
    If both are sent, only one must be different from 0 (zero).
 
 .. list-table:: **Optional Parameters**
@@ -85,13 +85,13 @@ Parameters
        * 1: true
    * - text_only
      - int
-     - The email includes a text only version. 
+     - The email includes a text only version
      - Can only be used if both an HTML and TEXT source is available
        * 0: false
        * 1: true
    * - cc_list
      - int
-     - The contact list ID to include when CCing a copy of the email.
+     - The contact list ID to include when CCing a copy of the email
      - Only works if the BCC List feature is enabled for the customer.
 
 Request Example

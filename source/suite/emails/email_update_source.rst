@@ -4,7 +4,7 @@ Updating an Email Campaign Recipient Source
 Email campaigns can be created with the *recipient source* set to *"Using the API"* via the Suite UI.
 This call can assign a segment or a contact list to an email campaign. 
 
-The recipient source parameter can only be changed once, if the previous value was set to *"Using the API"*.
+.. include:: _warning.rst
 
 Endpoint
 --------

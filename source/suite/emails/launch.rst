@@ -1,8 +1,8 @@
 Launching an Email Campaign
 ===========================
 
-Launches an email campaign. The launch will happen later, an "OK" response will report
-only that the request was received by the API.
+Initiates the launch of an email campaign and returns an OK response from the API to confirm that the request has been
+received. The actual launch itself will take place after the launch request has been processed.
 
 .. warning::
 

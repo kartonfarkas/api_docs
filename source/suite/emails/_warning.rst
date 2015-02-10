@@ -1,0 +1,1 @@
+.. warning:: The recipient source parameter can only be changed once if the previous value was set to *"Using the API"*.

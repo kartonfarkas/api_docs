@@ -1,7 +1,8 @@
 Listing Contacts
 ================
 
-Generate a list of Contact IDs that display the content of a specific field, e.g. field_id 1 returns a list of all contacts and their first name.
+Generates a list of Contact IDs that display the content of a specific field, e.g. field_id 1 returns the first names
+of all contacts.
 
 Endpoint
 --------
