@@ -76,7 +76,7 @@ Parameters
      - Default value is **1**.
    * - language
      - string
-     - For supported language codes, see :doc:`../../appendices/language_codes`.
+     - For supported language codes, see :doc:`../appendices/language_codes`.
      - Default value is the account’s default language.
    * - ftp_settings
      - object
