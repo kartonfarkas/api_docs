@@ -67,11 +67,13 @@ Parameters
    * - ftp_settings
      - object
      - Object with the following required fields:
+
        * *(string)* host
        * *(integer)* port
        * *(string)* username
        * *(string)* password
        * *(string)* folder – optional
+       
      - If *distribution_method* is **local**, then *ftp_settings* is ignored.
    * - notification_url
      - string
