@@ -13,7 +13,8 @@ For each Suite API request, you need:
  * the API URL based on the Suite environment you use (e.g. `https://suite5.emarsys.net/api/v2/`)
  * your *username* and *secret* for the API (please request them from your contact person)
 
-Requests to the API must be authenticated. The authentication method of the API is X-WSSE, see :doc:`get_started/authentication`.
+Requests to the API must be authenticated. The authentication method of the API is X-WSSE, see :doc:`get_started/authentication`. 
+The following is a list of exammples for how to authenticate using different languages: 
 
  * :doc:`get_started/authentication_php`
  * :doc:`get_started/authentication_perl`
