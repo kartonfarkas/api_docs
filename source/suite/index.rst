@@ -1,11 +1,11 @@
 Suite REST API
 ==============
 
-Suite REST API provides programmatic access to the Emarsys Suite. Most of our customers are using our APIs
+The Suite REST API provides programmatic access to the Emarsys Suite. Most of our customers use our APIs
 to automate working with :doc:`contacts/index`, :doc:`emails/index`, or :doc:`exports/index` related to contacts and
 launches.
 
-If you have already connected successfully to the API you might want to move straight to the `Use Cases <http://documentation.emarsys.com/?page_id=357>`_,
+If you have already successfully connected to the API you might want to move straight to the `Use Cases <http://documentation.emarsys.com/?page_id=357>`_,
 where we show you a number of typical API-related scenarios.
 
 For each Suite API request you need:
@@ -20,8 +20,7 @@ Requests to the API must be authenticated. The authentication method of the API 
  * :doc:`get_started/authentication_ruby`
  * :doc:`get_started/authentication_java`
 
-We also provide a demo page where you can try the API (see :doc:`get_started/api_demo`.
-If you need more help, we have listed some third party clients on the :doc:`get_started/sdk` page).
+We also provide a demo page where you can try the API (see :doc:`get_started/api_demo`), and if you any help, we have listed some third party clients on the :doc:`get_started/sdk` page for your convenience.
 
 .. toctree::
    :maxdepth: 1
