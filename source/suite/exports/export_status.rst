@@ -72,7 +72,7 @@ Data Structure of the Result
    * - file_name
      - string
      - Name of the output CSV file
-     - If status is not done, it is **NULL**.
+     - Will default to **NULL** if the *status* is anything other than **done**.
    * - ftp_host
      - string
      - Export settings to locate the file if the distribution method is FTP
