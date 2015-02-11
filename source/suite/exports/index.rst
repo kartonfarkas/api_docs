@@ -1,7 +1,7 @@
 Exporting Contact and Email Data
 ================================
 
-Lists contacts according to the method used (e.g. Contact Registrations), then exports them as a CSV file.
+Lists contacts according to the function used (e.g. Contact Registrations), then exports them as a CSV file.
 The CSV file is then uploaded to either:
 
 * A specified (S)FTP server
