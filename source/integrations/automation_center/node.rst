@@ -9,7 +9,7 @@ which you can use to trigger necessary actions for the contacts entering the nod
 HTTP Interfaces
 ---------------
 
-The following describe the HTTP interface(s) that need to be implemented for each Automation Center node
+The following describes the HTTP interface(s) that need to be implemented for each Automation Center node
 integration. Sample PHP code is included for each interface.
 
 .. toctree::
