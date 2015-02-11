@@ -34,9 +34,9 @@ Parameters
      - date array
      - Array with two elements (start date, end date)
      - The following date formats are accepted here:
-        - [2014-06-20 16:16:00, 2014-06-20 16:16:21]
-        - [2014-06-20 16:16, 2014-06-20 16:21]
-        - [2014-06-20, 2014-06-21]
+        - [YYYY-MM-DD HH:MM:SS, YYYY-MM-DD HH:MM:SS]
+        - [YYYY-MM-DD HH:MM, YYYY-MM-DD HH:MM]
+        - [YYYY-MM-DD, YYYY-MM-DD]
    * - origin
      - string
      - Indicates which platform triggered the change, **form**, **api**, or **all**
