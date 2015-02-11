@@ -9,8 +9,8 @@ which you can use to trigger necessary actions for the contacts entering the nod
 HTTP Interfaces
 ---------------
 
-In these pages, we describe the HTTP interface that needs to be implemented for each Automation Center node
-integration. An example PHP code is included.
+The following describe the HTTP interface(s) that need to be implemented for each Automation Center node
+integration. Sample PHP code is included for each interface.
 
 .. toctree::
    :maxdepth: 1
@@ -19,11 +19,11 @@ integration. An example PHP code is included.
    node_resource_options_endpoint
    node_custom_node_dialogue_endpoint
 
-Integration
------------
+Integration Checklist
+---------------------
 
-We have created a checklist about the information we need to enable an Automation Center node, and collected some best
-practices based on our experiences with Suite integrations.
+The following is a requirements checklist regarding the information we need to create and enable an Automation Center node. We have also collected and included some best
+practices based on our experience with Suite integrations.
 
 .. toctree::
    :maxdepth: 1
@@ -34,8 +34,7 @@ practices based on our experiences with Suite integrations.
 Useful Resources
 ----------------
 
-We recommend checking out these resources. These can provide the details of the contacts
-from the contact list specified at the trigger endpoint, or information about
+The following is a collection of resources which can help with, e.g. providing the details of the contacts from the contact list specified at the trigger endpoint, or information about
 the usage of a resource.
 
 * :doc:`../../suite/contacts/contact_list_list_contacts`
