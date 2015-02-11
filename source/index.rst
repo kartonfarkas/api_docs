@@ -8,7 +8,7 @@ Welcome to the Emarsys Suite API Documentation Site
 
 This is a developer site with detailed information about using our REST API and how to develop integrations with our services. 
 
-For more information regarding product documentation, please visit the `Emarsys Product Documentation Site <https://documentation.emarsys.com>`_.
+For more information regarding product specific documentation, please visit the `Emarsys Product Documentation Site <https://documentation.emarsys.com>`_.
 
 Contents
 --------
