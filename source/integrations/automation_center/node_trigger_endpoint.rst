@@ -99,6 +99,7 @@ Your service may or may not need a set of node specific settings from the user. 
 settings as *resources*.  If your service needs such resources, then there are two options available:
 
 1. The ‘Resource options endpoint’. 
+
 In this case your service needs to be able to provide a list of options for the customer (Automation Center user) to select from via a drop-down list in the program node dialog. 
 To enable this feature the ‘Resource options endpoint’ needs to be implemented.
 
@@ -107,7 +108,8 @@ Each of these setups should be stored and managed by your service. Resources sho
 which is then passed to the trigger endpoint via the resource_id parameter. A string ID can also be used,
 but we suggest using integers when possible.
 
-1. The ‘Custom node dialogue endpoint’. 
+2. The ‘Custom node dialogue endpoint’. 
+
 In this case your service needs to be able to provide an HTML page that will be rendered inside an iframe in the node dialogue. 
 This iframe can then be used to integrate the resource management page into Automation Center.
 
