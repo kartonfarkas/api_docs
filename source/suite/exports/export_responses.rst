@@ -59,7 +59,7 @@ Parameters
        * complaint
    * - analysis_fields
      - string
-     - Array which defines analytic fields
+     - Array which defines analysis fields
      - * 1 – Campaign title
        * 2 – Section header
        * 3 – Section group
