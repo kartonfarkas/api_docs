@@ -62,8 +62,7 @@ Parameters
 
 .. note::
 
-   For filter and contactlist, at least one property must be sent and it must not be 0 (zero).
-   If both are sent, only one must be different from 0 (zero).
+   For the filter and contactlist parameters, both have to be sent and one must be different from 0 (zero).
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
