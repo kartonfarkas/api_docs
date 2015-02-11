@@ -1,7 +1,7 @@
 Exporting a Contact List
 ========================
 
-Exports selected fields of contacts. Contacts are passed as a contact list with the given ID.
+Exports selected fields of contacts from a specific contact list into a CSV file.
 
 .. include:: _warning.rst
 
