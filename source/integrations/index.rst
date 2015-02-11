@@ -25,7 +25,7 @@ The endpoints **must** be implemented via the HTTPS protocol.
 .. toctree::
    :maxdepth: 1
 
-   integration_use_case.rst
+   integration_how_to.rst
    automation_center/node.rst
    iframe/iframe.rst
    marketplace/index.rst
