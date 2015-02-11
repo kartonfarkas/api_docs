@@ -1,35 +1,34 @@
 Integration Use Case
 ====================
 
-In the following sections, we illustrate how it is possible to integrate with the Suite. We will use
+In the following sections, we illustrate how it is possible to integrate with Suite functionalities. We will use
 an SMS Automation Center node as an example service to give you ideas. Please note that this
 is just an example, you can implement an Automation Center node, or a Suite page only.
 
 .. image:: /_static/images/suite_integrations.png
 
-A partner service can provide a UI with an iframe displayed as a *page in Suite*. Depending on
-the implementation, (selected or all) customers will be able to access it via a Suite menu point.
-For example, an SMS Automation Center node can provide the editing of the SMS campaigns via this
-interface.
+A partner service can provide their own UI content by an iframe displayed as a *page in Suite*. Depending on how
+the partner service was implemented, customer accounts can be selectively given access via a Suite menu entry.
+For example, an SMS Automation Center node can enable you to edit the external SMS campaign content via its own
+menu entry.
 
 .. image:: /_static/images/iframe.png
 
-The partner service can integrate with the Automation Center as well
+The partner service can be integrated with the Automation Center as well
 (see :doc:`automation_center/node` for details).
 
-The Automation Center program can trigger the partner service as part of an Automation Center program
+The Automation Center program can then trigger the partner service as part of an Automation Center program
 (see :doc:`automation_center/node_trigger_endpoint`).
 
 .. image:: /_static/images/AC.png
 
 During this process, the Automation Center optionally passes a service resource as well
-(for example, an SMS campaign in the SMS node). The resource can be selected by the customer
-during configuring the node by clicking on it. When the dialog appears, it calls the partner service
-to obtain the list of the available resources via the :doc:`automation_center/node_resource_options_endpoint`.
+(for example, an SMS campaign in the SMS node). Resources can be included by clcking on the node and adjusting the configuration settings. 
+When the dialog appears, it calls the partner service to obtain the list of available resources via the :doc:`automation_center/node_resource_options_endpoint`.
 
 .. image:: /_static/images/sms_campaign.png
 
-If some services require more complex solutions to configure the node, the
-:doc:`automation_center/node_custom_node_dialogue_endpoint` should be used instead of the
+If some services require more complex node configurations, then please use the
+:doc:`automation_center/node_custom_node_dialogue_endpoint` instead of the
 resource options endpoint. It can embed the configuration interface provided by the
 service via an iframe.
