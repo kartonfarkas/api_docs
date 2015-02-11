@@ -44,7 +44,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Emarsys Suite Developer Documentation'
-copyright = u'2014, Emarsys'
+copyright = u'2014-2015, Emarsys'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -113,7 +113,7 @@ html_theme_path = ['_themes', ]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-#html_title = None
+html_title = "Emarsys Suite Developer Documentation"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -125,7 +125,7 @@ html_theme_path = ['_themes', ]
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-#html_favicon = None
+html_favicon = "favicon.ico"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -165,7 +165,7 @@ html_static_path = ['_static']
 #html_show_sourcelink = True
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
-#html_show_sphinx = True
+html_show_sphinx = False
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
 #html_show_copyright = True
@@ -179,7 +179,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'EmarsysAPIsdeveloperdocumentationdoc'
+htmlhelp_basename = 'EmarsysDevDocs'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -199,7 +199,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'EmarsysAPIsdeveloperdocumentation.tex', u'Emarsys APIs developer documentation Documentation',
+  ('index', 'EmarsysDevDocs.tex', u'Emarsys Suite Developer Documentation',
    u'Emarsys', 'manual'),
 ]
 
@@ -229,7 +229,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'emarsysapisdeveloperdocumentation', u'Emarsys APIs developer documentation Documentation',
+    ('index', 'EmarsysDevDocs', u'Emarsys Suite Developer Documentation',
      [u'Emarsys'], 1)
 ]
 
@@ -243,8 +243,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'EmarsysAPIsdeveloperdocumentation', u'Emarsys APIs developer documentation Documentation',
-   u'Emarsys', 'EmarsysAPIsdeveloperdocumentation', 'One line description of project.',
+  ('index', 'EmarsysDevDocs', u'Emarsys Suite Developer Documentation',
+   u'Emarsys', 'EmarsysDevDocs', 'Working with Emarsys APIs.',
    'Miscellaneous'),
 ]
 
@@ -264,10 +264,10 @@ texinfo_documents = [
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'Emarsys APIs developer documentation'
+epub_title = u'Emarsys Suite Developer Documentation'
 epub_author = u'Emarsys'
 epub_publisher = u'Emarsys'
-epub_copyright = u'2014, Emarsys'
+epub_copyright = u'2014-2§15, Emarsys'
 
 # The basename for the epub file. It defaults to the project name.
 #epub_basename = u'Emarsys APIs developer documentation'
