@@ -1,7 +1,7 @@
 Exporting Changes
 =================
 
-Exports all contacts which have had a specific field updated during a specified time period. The contacts must belong to the given form or API source to be included. 
+Exports the selected fields of all contacts which have been updated within a specified time period. The contacts must belong to the given form or API source to be included.
 
 The request starts a background export process and returns an Export ID which can be used to obtain further status information.
 The background process saves the results as a CSV file, either locally or to another computer (via FTP).
