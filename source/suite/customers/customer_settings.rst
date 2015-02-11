@@ -8,8 +8,8 @@ Endpoint
 
 ``GET /api/v2/settings/``
 
-Data Structure of the Result
-----------------------------
+Resulting Data Structure
+------------------------
 
 .. code-block:: json
 

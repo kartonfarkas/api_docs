@@ -29,8 +29,8 @@ URI Example
 
 * ``/api/v2/contactlist/123456``
 
-Data Structure of the Result
-----------------------------
+Resulting Data Structure
+------------------------
 
 Normal Result:
 

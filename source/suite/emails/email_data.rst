@@ -57,8 +57,8 @@ Result Example
      ]
    }
 
-Data Structure of the Result
-----------------------------
+Resulting Data Structure
+------------------------
 
 .. list-table:: **Resulting Data Structure**
    :header-rows: 1
