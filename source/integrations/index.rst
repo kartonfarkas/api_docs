@@ -22,9 +22,9 @@ sign our requests. It is demanded that the endpoints are implemented through the
 .. toctree::
    :maxdepth: 1
 
+   integration_use_case.rst
    automation_center/node.rst
    iframe/iframe.rst
-   integration_use_case.rst
    marketplace/index.rst
 
 .. image:: /_static/images/marketplace.png
