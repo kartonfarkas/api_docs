@@ -73,7 +73,7 @@ Parameters
    * - add_field_names_header
      - int
      - **1** (yes) or **0** (no)
-     - Determines if field headers should be included. Default value is **1**.
+     - It determines if field headers should be included. Default value is **1**.
    * - language
      - string
      - For supported language codes, see :doc:`../appendices/language_codes`.
