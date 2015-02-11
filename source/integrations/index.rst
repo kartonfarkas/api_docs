@@ -1,7 +1,7 @@
 Suite Integrations
 ==================
 
-We are providing several opportunities to integrate with our services. You can integrate with the
+We provide various methods for you to integrate with our services. You can integrate with the
 Automation Center by creating a custom node that works with contacts, or you can add your
 service to the Suite as a menu point and provide an integrated experience for your customers.
 
@@ -9,9 +9,9 @@ service to the Suite as a menu point and provide an integrated experience for yo
 
    <h2>Authentication</h2>
 
-We are using the open source `Escher <http://escherauth.io/>`_ library to
-sign our requests towards your service, and to validate incoming request from you.
-It is demanded that the endpoints are implemented through the HTTPS protocol.
+We use the open source `Escher <http://escherauth.io/>`_ library to
+sign requests sent to your service, and also to validate your incoming requests.
+The endpoints **must** be implemented via the HTTPS protocol.
 
 **Integration Points**:
 
