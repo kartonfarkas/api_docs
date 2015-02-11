@@ -17,19 +17,19 @@ HTTP Method: POST
      - Description
    * - environment
      - string
-     - the Suite environment that triggered the event (example: login.emarsys.net)
+     - The Suite environment that triggered the event (example: login.emarsys.net)
    * - customer_id
      - int
      - ID of the customer in the Suite database
    * - program_type
      - string
-     - possible values: ‘batch’, ‘transactional’, ‘recurring’
+     - Possible values: ‘batch’, ‘transactional’, ‘recurring’
    * - list_id
      - int
-     - contact list ID in the Suite database (optional)
+     - Contact list ID in the Suite database (optional)
    * - user_id
      - int
-     - contact ID in the Suite database (optional)
+     - Contact ID in the Suite database (optional)
    * - resource_id
      - int/string
      - ID of a resource managed by the service (optional)
@@ -42,7 +42,7 @@ HTTP Method: POST
        program resulting from a single entry.
    * - data
      - json
-     - campaign specific external data (optional)
+     - Campaign specific external data (optional)
 
 Required Response
 -----------------
