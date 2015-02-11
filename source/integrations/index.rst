@@ -5,6 +5,8 @@ We provide various methods for you to integrate with our services. You can integ
 Automation Center by creating a custom node that works with contacts, or you can add your
 service to the Suite as a menu point and provide an integrated experience for your users.
 
+.. include:: warning.rst
+
 .. raw:: html
 
    <h2>Authentication</h2>
