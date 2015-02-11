@@ -30,5 +30,5 @@ When the dialog appears, it calls the partner service to obtain the list of avai
 
 If some services require more complex node configurations, then please use the
 :doc:`automation_center/node_custom_node_dialogue_endpoint` instead of the
-resource options endpoint. It can embed the configuration interface provided by the
+resource options endpoint. The custom node dialogue endpoint can embed the configuration interface provided by the
 service via an iframe.
