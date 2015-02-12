@@ -1,7 +1,7 @@
 Removal
 =======
 
-This endpoint is called by the Marketplace, when the customer removes the add-on.
+This endpoint is called by the Marketplace when the customer removes the add-on.
 
 Endpoint
 --------
@@ -20,13 +20,13 @@ Parameters
      - Description
    * - integration_removal_url
      - url
-     - provided by the integration partner
+     - Provided by the integration partner
    * - environment
      - int
-     - the ID of the environment
+     - ID of the environment
    * - customerId
      - int
-     - the ID of the customer
+     - ID of the customer
 
 Request Example
 ---------------
