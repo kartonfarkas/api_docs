@@ -1,9 +1,9 @@
 Custom Node Dialog Endpoint
 ===========================
 
-This endpoint is called when the customer opens up the program node dialogue. For this, your service should respond with
-an HTTP page that contains a user interface for setting up a new resource or editing an existing one.
-The HTTP page should also contain a JavaScript code that can handle the ‘resource.save’ message when received from
+This endpoint is called when the customer opens up the program node dialogue, and for this your service should respond with
+an HTTP page which contains a user interface for setting up a new resource or editing an existing one.
+The HTTP page also needs to contain a JavaScript code that can handle the ‘resource.save’ message when received from
 the parent page and should respond with the ID and label of the saved resource as explained below.
 
 .. image:: /_static/images/ac_node_custom_dialog_workflow.png
@@ -19,13 +19,13 @@ HTTP Method: GET
      - Description
    * - environment
      - string
-     - host name of the Suite environment where the customer is (example: login.emarsys.net)
+     - Host name of the customer’s Suite environment (e.g. login.emarsys.net)
    * - customer_id
      - int
      - ID of the customer in the Suite database
    * - resource_id
      - int/string
-     - ID of the resource that is edited (optional)
+     - ID of the resource to be edited (optional)
    * - resource_label
      - string
      - label that appeared below the node so far if an existing resource is edited (optional)
@@ -36,8 +36,7 @@ HTTP Method: GET
 Required Response:
 
 * A resource editor should be returned as an HTML page.
-* If the resource_id is sent as a GET parameter, then the page should be filled up with the current
-   values for that resource.
+* If the resource_id is sent as a GET parameter, then the page should be populated with the current values for that resource.
 * The JavaScript in the page should listen to messages. See example receiveMessage implementation
    at the end of this section.
 
@@ -54,11 +53,12 @@ Required Response:
 Resizing the Dialog
 -------------------
 
-The iframe that displays the custom content returned by the custom node dialog endpoint is 360 pixels wide and
-100 pixels high. Since the size of the content may be different, we provide an API that can be used to resize the dialog
-once your content has been loaded into the iframe. The maximum allowed size is 800x300 pixels.
+The iframe that displays the content returned by the custom node dialog endpoint is 360 pixels wide and 100 pixels high. 
+Since the size of the content may vary, we provide an API that can be used to resize the dialog to a maximum size of 800x300 pixels
+**Note:*** You can only resize the frame once the content has been loaded into the iframe. 
 
-To resize the dialog, simply send the required iframe size in a message. The data sent should be of the following format:
+
+To resize the dialog, simply include the required iframe size in a message, sending the data in the following format:
 
 .. code-block:: json
 
