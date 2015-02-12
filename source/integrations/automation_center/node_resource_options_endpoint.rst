@@ -1,8 +1,8 @@
 Resource Options Endpoint
 =========================
 
-This endpoint is called when the customer opens up the program node dialogue. For this your service
-should respond with the list of available resources as described below.
+This endpoint is called when the customer opens up the program node dialogue, and for this your service
+should respond with the list of available resources as outlined below.
 
 .. image:: /_static/images/ac_node_options_workflow.png
 
@@ -17,20 +17,19 @@ should respond with the list of available resources as described below.
      - Description
    * - environment
      - string
-     - host name of the Suite environment where the customer is (example: login.emarsys.net)
+     - Host name of the customer's Suite environment (e.g. login.emarsys.net)
    * - customer_id
      - int
      - ID of the customer in the Suite database
    * - language
      - string
-     - specifies the preferred language of the admin
+     - Specifies the preferred language of the admin
 
 Required Response
 -----------------
 
-* The service needs to respond with a JSON object. If the request was successful, the HTTP status should be in
-   the 200-299 range while in case of errors, it should be in the 400-599 range.
-* In case of success, the service should provide an array of objects with the following keys:
+* The service needs to respond with a JSON object. If the request was successful, the HTTP status will be in the 200-299 range. If there were any issues the HTTP status response will be in the 400-599 range.
+* A successful response should include an array of objects with the following keys:
 
 .. list-table:: **Possible Keys**
    :header-rows: 1
@@ -41,10 +40,10 @@ Required Response
      - Description
    * - ID
      - int
-     - integer ID that identifies the resource
+     - Integer ID that identifies the resource
    * - name
      - string
-     - name of the resource (usually this should be specified by the customer.)
+     - Name of the resource, usually this should be specified by the customer.
 
 Normal Result:
 
@@ -61,8 +60,7 @@ Normal Result:
       }
    ]
 
-In case of error, the service should also provide a userMessage that is a human readable message indicating
-the cause of failure and a code key which contains an error code.
+If an error occurs the service will include a *userMessage* which indicates what caused the failiure, along with a code key which contains an error code.
 
 Error Condition:
 
@@ -76,8 +74,7 @@ Error Condition:
 PHP Implementation
 ------------------
 
-Similarly to the trigger api, the simplest implementation that returns no options is an options.php
-that looks something like this:
+Similarly to the trigger api, the simplest implementation that returns no options is an options.php, which looks like this:
 
 .. code-block:: php
 
