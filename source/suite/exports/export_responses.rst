@@ -59,7 +59,7 @@ Parameters
        * complaint
    * - analysis_fields
      - string
-     - Array which defines analysis fields
+     - Array that defines which contact behaviours to analyse based on specific field types.
      - * 1 – Campaign title
        * 2 – Section header
        * 3 – Section group
