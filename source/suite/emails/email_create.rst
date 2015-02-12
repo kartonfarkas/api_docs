@@ -62,7 +62,7 @@ Parameters
 
 .. note::
 
-   For the filter and contactlist parameters, both have to be sent and one must be different from 0 (zero).
+   Both the *filter* and *contactlist* parameters have to be included, and at least one must always be set to 1 (i.e. different from 0 (zero)). 
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
