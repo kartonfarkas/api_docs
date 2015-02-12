@@ -20,13 +20,13 @@ Parameters
      - Description
    * - integration_installation_url
      - url
-     - provided by the integration partner
+     - Provided by the integration partner
    * - customer_id
      - int
-     - the ID of the customer
+     - ID of the customer
    * - environment
      - int
-     - the ID of the environment
+     - ID of the environment
 
 .. list-table:: **Optionally Sent Parameters**
    :header-rows: 1
@@ -37,7 +37,7 @@ Parameters
      - Description
    * - configuration
      - hash
-     - integration-specific data (based on the integration needs)
+     - Integration-specific data (based on the integration needs)
 
 Request Example
 ---------------
