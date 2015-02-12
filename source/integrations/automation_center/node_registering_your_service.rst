@@ -1,29 +1,27 @@
 Registering your Service with Automation Center
 ===============================================
 
-At this point, we do not have a UI for registering services, so this will need to be handled by the Automation
+At this point, we do not have a UI for registering services, so this will need to be taken care of manually by the Automation
 Center team. Please send the following information to your contact person:
 
-* two icons:
+* Icons - Two copies:
 
-  * a 20x20 pixel icon that will appear on the toolbar
-  * a 50x50 pixel icon that will be used inside the editor
+  * A 20x20 pixel icon to use on the toolbar
+  * A 50x50 pixel icon to use in the editor
 
-* a name for your service that will appear next to the icon
-* description about which customers should have access to the API node (all customers or customers with a given feature)
-* trigger endpoint URL - the URL that needs to be called when the program wants to trigger your service
-* a label that will appear below the nodes (if your service does not use resources)
-* resource options endpoint URL (if your service uses the resource options endpoint)
-* a label that will appear below the nodes and will be followed by the resource name (if your service uses
-  the resource options endpoint)
-* custom node dialogue endpoint URL (if your service uses the custom node dialogue endpoint)
+* The name of your service that you want to display next to the icon
+* A list of which customers should have access to the API node (all customers, or customers with a given feature)
+* A trigger endpoint URL, i.e. the URL that needs to be called when the program wants to trigger your service
+* A label that will appear below the nodes in the Automation Center (if your service does not use resources)
+* A resource options endpoint URL (if your service uses the resource options endpoint)
+* A label that will appear below the nodes and will be followed by the resource name (if your service uses the resource options endpoint).
+* The custom node dialogue endpoint URL (if your service uses the custom node dialogue endpoint)
 
 .. note::
 
    If the new node is going to be available for a large number of customers, the icons should be created by
    our graphic designer.
 
-Based on this information, the Automation Center team will add your service and notify you when it is
-available. During development time, the new node will be available only for you and you can test
-before it is released to the customers.
+Using the provided information, the Automation Center team will add your service and notify you as soon as it is
+available. During the development process, the new node will only be available to you so that you can test before it is released.
 
