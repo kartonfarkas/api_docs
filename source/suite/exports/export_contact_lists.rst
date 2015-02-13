@@ -5,7 +5,6 @@ Exports selected fields of contacts from a specified contact list as a CSV file.
 A contact list export including first name, last name, email address and opt-in status would result in a CSV with:
 
 ``First Name;Last Name;E-mail;Opt-in``
-
 ``Fname_1;Lname_1;testuser@example.com;True``
 ``Fname_2;Lname_2;testuser@example.com;True``
 ``Fname_3;Lname_3;testuser@example.com;True``
