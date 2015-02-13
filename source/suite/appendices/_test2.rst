@@ -1,2 +1,2 @@
-| body row 1, column 1   | column 2   |
+| Arrriba!   | column 2   |
 +------------------------+------------+
