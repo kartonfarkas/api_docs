@@ -90,5 +90,3 @@ The following languages are supported by the Suite for email campaigns.
    * - VI
      - Vietnamese
 .. include:: _petertest.rst
-
-.. include:: _petertest.rst
