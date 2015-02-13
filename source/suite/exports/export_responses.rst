@@ -59,7 +59,8 @@ Parameters
        * complaint
    * - analysis_fields
      - string
-     - Array that defines which contact behaviours to analyse based on specific field types.
+     - Array that defines the contact behaviours to analyse (e.g. to which campaign the contact clicked) based
+       on specific field types determining the email campaign
      - * 1 – Campaign title
        * 2 – Section header
        * 3 – Section group
