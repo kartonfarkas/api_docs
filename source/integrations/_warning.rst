@@ -1,1 +1,1 @@
-.. warning:: Please contact Suite Integrations for details.
+.. warning:: Please contact your Account Manager for details.
