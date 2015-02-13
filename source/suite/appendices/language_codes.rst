@@ -89,6 +89,3 @@ The following languages are supported by the Suite for email campaigns.
      - Ukrainian
    * - VI
      - Vietnamese
-.. include:: _petertest.rst
-.. include:: _petertest.rst
-.. include:: _test2.rst
