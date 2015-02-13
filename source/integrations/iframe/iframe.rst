@@ -35,7 +35,7 @@ We have created a checklist regarding the required information to enable an ifra
 Please send the following information to your contact person:
 
 * The name of your service
-* A description of which customers should have access to the API node (all customers, or customers with a given feature)
+* A description of which customers should have access to the page (all customers, or customers with a given feature)
 * The iframe URL - it provides the access of the services
 
 Useful Resources

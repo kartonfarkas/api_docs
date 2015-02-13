@@ -123,7 +123,7 @@ API based nodes will receive this JSON object in the data field (when present).
 PHP Implementation
 ------------------
 
-In its simplest form, the trigger endpoint is just a single url that returns a JSON object.
+In its simplest form, the trigger endpoint is just a single URL that returns a JSON object.
 For example, our trigger.php could look like this:
 
 .. code-block:: php
