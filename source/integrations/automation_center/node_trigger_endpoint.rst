@@ -74,7 +74,7 @@ Automation Center makes a distinction between batch, recurring and transactional
    (for example ‘New contact’, ‘Datachange’ and ‘External event’ are transactional entry points).
 
 The post request must contain either a list_id or a user_id, for batch and recurring programs, the Automation Center
-will always send a list_id. For transactional programs, a user_id is normally sent but under high loads the Automation Center may decide to send transactional events in batches. 
+will always send a list_id. For transactional programs, a user_id is normally sent but under high loads, the Automation Center may decide to send transactional events in batches.
 In such circumstances, the Automation Center will include a list_id even if the program is transactional.
 
 .. note::
@@ -84,7 +84,7 @@ In such circumstances, the Automation Center will include a list_id even if the 
 Resolving user_ids and list_ids
 -------------------------------
 
-* Please use the suite API v2 to retrieve contact informations based on the *user_id* or *list_id*. 
+* Please use the suite API v2 to retrieve contact information based on the *user_id* or *list_id*.
 
 * Note that user lists are deleted after ??? hours, so your service needs to resolve the *list_id* to the actual user data within that timeframe.
 
@@ -98,9 +98,9 @@ Resources
 Your service may or may not need a set of node specific settings from the user. We refer to such
 settings as *resources*.  If your service needs such resources, then there are two options available:
 
-1. The ‘Resource options endpoint’. 
+1. The ‘Resource options endpoint’
 
-In this case your service needs to be able to provide a list of options for the customer (Automation Center user) to select from via a drop-down list in the program node dialog. 
+In this case, your service needs to be able to provide a list of options for the customer (Automation Center user) to select from via a drop-down list in the program node dialog.
 To enable this feature the ‘Resource options endpoint’ needs to be implemented.
 
 For example, if your service sends SMS messages, you will want to set up the content of the messages first.
@@ -108,23 +108,23 @@ Each of these setups should be stored and managed by your service. Resources sho
 which is then passed to the trigger endpoint via the resource_id parameter. A string ID can also be used,
 but we suggest using integers when possible.
 
-2. The ‘Custom node dialogue endpoint’. 
+2. The ‘Custom node dialogue endpoint’
 
-In this case your service needs to be able to provide an HTML page that will be rendered inside an iframe in the node dialogue. 
+In this case, your service needs to be able to provide an HTML page that will be rendered inside an iframe in the node dialogue.
 This iframe can then be used to integrate the resource management page into Automation Center.
 
 Campaign Specific External Data
 -------------------------------
 
 The External Event entry point allows the user to post a JSON data structure along with the triggered external event.
-This JSON data structure is passed along the program, and can be used to customize program runs. For example this data is used to dynamically generate sections in email. 
+This JSON data structure is passed along the program, and can be used to customize program runs. For example, this data is used to dynamically generate sections in email.
 API based nodes will receive this JSON object in the data field (when present).
 
 PHP Implementation
 ------------------
 
-In its simplest form the trigger endpoint is just a single url that returns a JSON object.
-For example our trigger.php could look like this:
+In its simplest form, the trigger endpoint is just a single url that returns a JSON object.
+For example, our trigger.php could look like this:
 
 .. code-block:: php
 
