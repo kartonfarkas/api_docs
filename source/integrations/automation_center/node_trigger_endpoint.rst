@@ -49,7 +49,7 @@ Required Response
 
 * HTTP Status codes in the range 200-299 indicate a successful execution by the service. 
 * HTTP Status codes in the range 400-499 indicate a client-side error (i.e. the request is invalid and cannot be fulfilled).
-* HTTP Status codes in the range 500-599 indicate a client-side error. In the case of a server-side error, the Automation Center will resend the request 3 times, and then stop. The service should also return a json containing a userMessage and a code key.
+* HTTP Status codes in the range 500-599 indicate a client-side error. In the case of a server-side error, the Automation Center will resend the request 3 times, and then stop. The service should also return a JSON containing a userMessage and a code key.
 
 Example
 -------
