@@ -1,8 +1,8 @@
 Trigger Endpoint
 ================
 
-This endpoint is called by the Automation Center when the program execution reaches your node. It should start
-the execution of your service.
+This endpoint is called by the Automation Center when the program execution reaches your node, and starts
+the execution of your external service.
 
 .. image:: /_static/images/ac_node_trigger_workflow.png
 
@@ -94,7 +94,7 @@ Resolving user_ids and list_ids
 
 * Please use the suite API v2 to retrieve contact information based on the *user_id* or *list_id*.
 
-* Note that user lists are deleted after ??? hours, so your service needs to resolve the *list_id* to the actual user data within that timeframe.
+* Note that user lists are deleted after 1 hour, so your service needs to resolve the *list_id* to the actual user data within that timeframe.
 
 * If your service is specific to a customer, or a small set of customers, then use a regular API user/secret pair, and maintain the keys for your customers in your service itself. You can access the Suite API through the external endpoint: ‘/api/v2’
 
@@ -112,7 +112,7 @@ In this case, your service needs to be able to provide a list of options for the
 To enable this feature the ‘Resource options endpoint’ needs to be implemented.
 
 For example, if your service sends SMS messages, you will want to set up the content of the messages first.
-Each of these setups should be stored and managed by your service. Resources should have an integer ID,
+Each of these setups should be stored and managed by your external service. Resources should have an integer ID,
 which is then passed to the trigger endpoint via the resource_id parameter. A string ID can also be used,
 but we suggest using integers when possible.
 
@@ -124,8 +124,8 @@ This iframe can then be used to integrate the resource management page into Auto
 Campaign Specific External Data
 -------------------------------
 
-The External Event entry point allows the user to post a JSON data structure along with the triggered external event.
-This JSON data structure is passed along the program, and can be used to customize program runs. For example, this data is used to dynamically generate sections in email.
+The External Event entry point allows you to post a JSON data structure along with the triggered external event.
+This JSON data structure is passed along the program, and can be used to customize how the node behaves when the program is run. For example, this data is used to dynamically generate sections in email.
 API based nodes will receive this JSON object in the data field (when present).
 
 PHP Implementation
@@ -140,8 +140,7 @@ For example, our trigger.php could look like this:
 
    echo json_encode(array('success' => true));
 
-This service doesn’t do anything. Supposing you want to use a class that can trigger the required actions when passed an ServiceRequest object. 
-The trigger API could then look something like this:
+This service is empty and will not be able to do anything just yet. Suppose you want to use a class that can trigger the required actions when passed an ServiceRequest object, the trigger API would then look something like this:
 
 .. code-block:: php
 
