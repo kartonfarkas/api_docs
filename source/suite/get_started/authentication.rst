@@ -52,7 +52,7 @@ party. This string is always 16 bytes long and should be represented as a 32 cha
 
 **Created**
 
-This field contains the current UTC, GMT, ZULU timestamp (YYYY-MM-DD-HH:MM:SS) according to the ISO8601 format, e.g. `2014-03-20 12:51:45+01:00`.
+This field contains the current UTC, GMT, ZULU timestamp (YYYY-MM-DDTHH:MM:SS) according to the ISO8601 format, e.g. `2014-03-20T12:51:45+01:00`.
 
 You can use any timezone you want as long as it is defined in the timestamp, but recommend that you use UTC time as this is the global Emarsys
 standard.
@@ -60,6 +60,13 @@ standard.
 .. note::
 
    The Created timestamp must be within **five** minutes of the Emarsys server's time. If it is not within the specified timeframe, the request will be rejected. We recommend using NTP to synchronize your time.
+
+.. note::
+
+   The following timezone formats are accepted and considered the same: 
+      - 2014-01-01T01:01:01+00:00
+      - 2014-01-01T01:01:01Z
+      - 2014-01-01T01:01:01+0000
 
 **Computing the Password Digest**
 
