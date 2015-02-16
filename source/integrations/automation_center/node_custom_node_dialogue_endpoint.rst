@@ -1,10 +1,10 @@
 Custom Node Dialog Endpoint
 ===========================
 
-This endpoint is called when the customer opens up the program node dialogue, and for this your service should respond with
-an HTTP page which contains a user interface for setting up a new resource or editing an existing one.
+This endpoint is called when the customer opens up the program node dialogue in Suite, and for this your service should respond with
+an HTTP page containing a user interface which allows a new resource to be setup or an existing one to be edited.
 The HTTP page also needs to contain a JavaScript code that can handle the ‘resource.save’ message when received from
-the parent page and should respond with the ID and label of the saved resource as explained below.
+the parent page in Suite, and should respond with the ID and label of the saved resource as outlined below.
 
 .. image:: /_static/images/ac_node_custom_dialog_workflow.png
 
@@ -39,7 +39,7 @@ HTTP Method: GET
      - ID of the resource to be edited
    * - resource_label
      - string
-     - Label that appeared below the node so far if an existing resource is edited
+     - Label for the node which uses the same name as the resource. Renaming the resource updates the node label as well.
 
 Required Response:
 
@@ -66,7 +66,7 @@ Since the size of the content may vary, we provide an API that can be used to re
 **Note:*** You can only resize the frame once the content has been loaded into the iframe. 
 
 
-To resize the dialog, simply include the required iframe size in a message, sending the data in the following format:
+To resize the dialog, simply include the required iframe size in a message to the API, sending the data in the following format:
 
 .. code-block:: json
 
