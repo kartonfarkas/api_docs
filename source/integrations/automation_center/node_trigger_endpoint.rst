@@ -8,7 +8,7 @@ the execution of your service.
 
 HTTP Method: POST
 
-.. list-table:: **Parameters (sent as form data)**
+.. list-table:: **Required Parameters (sent as form data)**
    :header-rows: 1
    :widths: 30 20 40
 
@@ -17,22 +17,13 @@ HTTP Method: POST
      - Description
    * - environment
      - string
-     - The Suite environment that triggered the event (example: login.emarsys.net)
+     - Suite environment that triggered the event (example: login.emarsys.net)
    * - customer_id
      - int
      - ID of the customer in the Suite database
    * - program_type
      - string
      - Possible values: ‘batch’, ‘transactional’, ‘recurring’
-   * - list_id
-     - int
-     - Contact list ID in the Suite database (optional)
-   * - user_id
-     - int
-     - Contact ID in the Suite database (optional)
-   * - resource_id
-     - int/string
-     - ID of a resource managed by the service (optional)
    * - queue_id
      - int
      - Identifies the trigger request. This value is unique for each trigger event from a given environment.
@@ -40,9 +31,26 @@ HTTP Method: POST
      - string
      - Identifies the program run. This value can be used to link together multiple trigger events from the same
        program resulting from a single entry.
+
+.. list-table:: **Optional Parameters (sent as form data)**
+   :header-rows: 1
+   :widths: 30 20 40
+
+   * - Name
+     - Type
+     - Description
+   * - list_id
+     - int
+     - Contact list ID in the Suite database
+   * - user_id
+     - int
+     - Contact ID in the Suite database
+   * - resource_id
+     - int/string
+     - ID of a resource managed by the service
    * - data
      - json
-     - Campaign specific external data (optional)
+     - Campaign specific external data
 
 Required Response
 -----------------
