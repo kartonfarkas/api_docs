@@ -12,23 +12,22 @@ Asynchronous Execution
 ----------------------
 
 As most services will involve tasks that can take a considerable amount of time, we strongly recommend that 
-that requests are added to some kind of queue (or database table) and then executed in a separate process.
+that requests are rationalised into a queue (or database table) and then executed in a separate process, enabling the requests to be handled in parallel rather than in one-by-one.
 This way your service can respond to an Automation Center request immediately, without the program having to wait for the request to be processed.
 
 Idempotent Services
 -------------------
 
-When a trigger fails Automation Center retries. That also means that if the HTTP connection fails
-just before the service responds, the situation can arise where the service has already taken
-care of completing the triggered task. However, the Automation Center thinks the service failed and that the trigger needs to be resent.
-For that reason we strongly recommend that service implementers check if they have received the exact same request before, and then ignore any duplicate requests. 
-The *queue_id*, *run_id* and *environment* id parameters together should form a unique id for each request.
+If a trigger fails, the Automation Center retry automatically, which could be an issue if, e.g. the HTTP connection fails
+just before the service responds. The service has already taken care of the triggered task, but as there was no response to the AC, it will keep sending the request as it thinks it failed. 
+For that reason we strongly recommend that service implementers check if they have received the exact same request before, and then ignore any duplicate requests.
+The *queue_id*, *run_id* and *environment* id parameters together should form a unique id for each request. 
 
 
 Logging
 -------
 
 Although we have very detailed logs relating to the Automation Center with regards to communication with each
-service, you should also log requests and failures client-side as well. At the very minimum log every incoming request,
+service, you should also log requests and failures as well. At the very minimum log every incoming request,
 and every response sent to Automation Center.
 
