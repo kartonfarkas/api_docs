@@ -3,8 +3,8 @@ Automation Center Nodes
 
 The Automation Center node integration API allows you to add a node to Automation Center that will
 call your service on a predefined HTTP endpoint. When the program reaches your node, it will call
-the specified :doc:`node_trigger_endpoint` with a set of parameters (including a contact list ID),
-which you can use to trigger necessary actions for the contacts entering the node.
+the specified :doc:`node_trigger_endpoint` with a set of parameters, including a contact list ID.
+You can then use this endpoint to trigger the desired actions for the contacts entering the node.
 
 HTTP Interfaces
 ---------------
