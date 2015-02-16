@@ -43,7 +43,7 @@ Required Response
      - Integer ID that identifies the resource
    * - name
      - string
-     - Name of the resource, usually this should be specified by the customer.
+     - Name of the resource, as specified by the customer.
 
 Normal Result:
 
