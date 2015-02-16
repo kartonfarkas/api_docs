@@ -10,7 +10,7 @@ the parent page and should respond with the ID and label of the saved resource a
 
 HTTP Method: GET
 
-.. list-table:: **Parameters**
+.. list-table:: **Required Parameters**
    :header-rows: 1
    :widths: 30 20 40
 
@@ -23,15 +23,23 @@ HTTP Method: GET
    * - customer_id
      - int
      - ID of the customer in the Suite database
-   * - resource_id
-     - int/string
-     - ID of the resource to be edited (optional)
-   * - resource_label
-     - string
-     - label that appeared below the node so far if an existing resource is edited (optional)
    * - language
      - string
-     - specifies the admin's preferred language
+     - Specifies the admin's preferred language
+
+.. list-table:: **Optional Parameters**
+   :header-rows: 1
+   :widths: 30 20 40
+
+   * - Parameter Name
+     - Type
+     - Description
+   * - resource_id
+     - int/string
+     - ID of the resource to be edited
+   * - resource_label
+     - string
+     - Label that appeared below the node so far if an existing resource is edited
 
 Required Response:
 
