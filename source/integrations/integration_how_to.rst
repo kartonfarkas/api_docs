@@ -8,7 +8,7 @@ Please note that this example illustrates how you can implement an Automation Ce
 
 .. image:: /_static/images/suite_integrations.png
 
-A partner service can provide their own UI content by using an iframe  to display the content as a *page in Suite*. Depending on how
+A partner service can provide their own UI content by using an iframe to display the content as a *page in Suite*. Depending on how
 the partner service was implemented, customer accounts can be selectively given access via a Suite menu entry.
 For example, an SMS Automation Center node can enable you to edit the external SMS campaign content via its own
 menu entry (i.e. Campaigns -> Entryname).
