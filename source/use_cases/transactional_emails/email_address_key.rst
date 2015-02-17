@@ -28,6 +28,8 @@ user name and password).
 
 For further information about creating an email via the Suite UI, please see the Suite Online Help.
 
+.. image:: /_static/images/use_cases.png
+
 1. Create the Contact
 ---------------------
 
