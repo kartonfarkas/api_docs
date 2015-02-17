@@ -4,7 +4,7 @@ Custom Node Dialog Endpoint
 This endpoint is called when the customer opens up the program node dialogue in Suite, and for this, your service should respond with
 an HTTP page containing a user interface which allows a new resource to be setup or an existing one to be edited.
 The HTTP page also needs to contain a JavaScript code that can handle the ‘resource.save’ message when received from
-the parent page in Suite, and should respond with the ID and label of the saved resource as outlined below.
+the program node in Suite, and should respond with the ID and label of the saved resource as outlined below.
 
 .. image:: /_static/images/ac_node_custom_dialog_workflow.png
 
