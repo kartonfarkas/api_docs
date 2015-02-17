@@ -6,7 +6,7 @@ the execution of your external service.
 
 .. image:: /_static/images/ac_node_trigger_workflow.png
 
-HTTP Method: POST
+* HTTP Method: POST
 
 .. list-table:: **Required Parameters (sent as form data)**
    :header-rows: 1
@@ -79,15 +79,16 @@ Automation Center makes a distinction between batch, recurring and transactional
 * **Recurring programs** are similar to batch programs in that they operate on user list level and they
    are also triggered by a timer, but these might be triggered repeatedly as opposed to one time only programs.
 * **Transactional programs** operate on individual user level and are triggered by user specific events
-   (for example ‘New contact’, ‘Datachange’ and ‘External event’ are transactional entry points).
+   (for example, ‘New contact’, ‘Datachange’ and ‘External event’ are transactional entry points).
 
-The post request must contain either a list_id or a user_id, for batch and recurring programs, the Automation Center
-will always send a list_id. For transactional programs, a user_id is normally sent but under high loads, the Automation Center may decide to send transactional events in batches.
-In such circumstances, the Automation Center will include a list_id even if the program is transactional.
+The post request must contain either a list_id or a user_id. For batch and recurring programs, the Automation Center
+will always send a list_id. For transactional programs, a user_id is normally sent but under high loads, the Automation
+Center may decide to send transactional events in batches. In such circumstances, the Automation Center will include
+a list_id even if the program is transactional.
 
 .. note::
 
-   Always check for both user_id and list_id, and do not rely on the *program_type* to decide which one to use.
+   Always check for both user_id and list_id, and do not rely on the *program_type* to decide upon which one to use.
 
 Resolving user_ids and list_ids
 -------------------------------
@@ -96,25 +97,26 @@ Resolving user_ids and list_ids
 
 * Note that user lists are deleted after 1 hour, so your service needs to resolve the *list_id* to the actual user data within that timeframe.
 
-* If your service is specific to a customer, or a small set of customers, then use a regular API user/secret pair, and maintain the keys for your customers in your service itself. You can access the Suite API through the external endpoint: ‘/api/v2’
+* If your service is specific to a customer, or a small set of customers, then use a regular API user/secret pair, and maintain the keys for your customers in your service itself. You can access the Suite API through the external endpoint: ‘/api/v2’.
 
-* If your service is generic to all customers, or a larger set of customers, then an internal API secret is required which should be used with the internal endpoint for the Suite API: ‘/api/v2/internal/<customer_id>’
+* If your service is generic to all customers, or a larger set of customers, then an internal API secret is required which should be used with the internal endpoint for the Suite API: ‘/api/v2/internal/<customer_id>’.
 
 Resources
 ---------
 
 Your service may or may not need a set of node specific settings from the user. We refer to such
-settings as *resources*.  If your service needs such resources, then there are two options available:
+settings as *resources*. If your service needs such resources, then there are two options available:
 
 1. The ‘Resource options endpoint’
 
-In this case, your service needs to be able to provide a list of options for the customer (Automation Center user) to select from via a drop-down list in the program node dialog.
-To enable this feature the ‘Resource options endpoint’ needs to be implemented.
+In this case, your service needs to be able to provide a list of options for the customer (Automation Center user) to
+select from with a drop-down list in the program node dialog.
+To enable this feature, the ‘Resource options endpoint’ needs to be implemented.
 
 For example, if your service sends SMS messages, you will want to set up the content of the messages first.
 Each of these setups should be stored and managed by your external service. Resources should have an integer ID,
 which is then passed to the trigger endpoint via the resource_id parameter. A string ID can also be used,
-but we suggest using integers when possible.
+but we suggest using integers when it is possible.
 
 2. The ‘Custom node dialogue endpoint’
 
@@ -140,7 +142,8 @@ For example, our trigger.php could look like this:
 
    echo json_encode(array('success' => true));
 
-This service is empty and will not be able to do anything just yet. Suppose you want to use a class that can trigger the required actions when passed an ServiceRequest object, the trigger API would then look something like this:
+This service is empty and will not be able to do anything just yet. Suppose you want to use a class that can trigger
+the required actions when passed an ServiceRequest object, the trigger API would then look something like this:
 
 .. code-block:: php
 

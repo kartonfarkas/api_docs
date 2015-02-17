@@ -1,7 +1,7 @@
 Custom Node Dialog Endpoint
 ===========================
 
-This endpoint is called when the customer opens up the program node dialogue in Suite, and for this your service should respond with
+This endpoint is called when the customer opens up the program node dialogue in Suite, and for this, your service should respond with
 an HTTP page containing a user interface which allows a new resource to be setup or an existing one to be edited.
 The HTTP page also needs to contain a JavaScript code that can handle the ‘resource.save’ message when received from
 the parent page in Suite, and should respond with the ID and label of the saved resource as outlined below.
@@ -46,7 +46,7 @@ Required Response:
 * A resource editor should be returned as an HTML page.
 * If the resource_id is sent as a GET parameter, then the page should be populated with the current values for that resource.
 * The JavaScript in the page should listen to messages. See example receiveMessage implementation
-   at the end of this section.
+  at the end of this section.
 
   * When a message with `messageId` == `resource.save` is received, the editor should save the values
      set up by the customer, and respond with another message to the parent iframe. The message should
@@ -62,9 +62,9 @@ Resizing the Dialog
 -------------------
 
 The iframe that displays the content returned by the custom node dialog endpoint is 360 pixels wide and 100 pixels high. 
-Since the size of the content may vary, we provide an API that can be used to resize the dialog to a maximum size of 800x300 pixels
-**Note:*** You can only resize the frame once the content has been loaded into the iframe. 
+Since the size of the content may vary, we provide an API that can be used to resize the dialog to a maximum size of 800x300 pixels.
 
+.. note:: You can only resize the frame once the content has been loaded into the iframe.
 
 To resize the dialog, simply include the required iframe size in a message to the API, sending the data in the following format:
 

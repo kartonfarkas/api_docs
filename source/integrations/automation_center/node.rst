@@ -22,8 +22,8 @@ integration. Sample PHP code is included for each interface.
 Integration Checklist
 ---------------------
 
-The following is a requirements checklist regarding the information we need to create and enable an Automation Center node. We have also collected and included some best
-practices based on our experience with Suite integrations.
+The following is a requirements checklist regarding the information we need to create and enable an Automation Center node.
+We also have collected and included some best practices based on our experience with Suite integrations.
 
 .. toctree::
    :maxdepth: 1
@@ -34,8 +34,8 @@ practices based on our experience with Suite integrations.
 Useful Resources
 ----------------
 
-The following is a collection of resources which can help with, e.g. providing the details of the contacts from the contact list specified at the trigger endpoint, or information about
-the usage of a resource.
+The following is a collection of resources which can help with e.g. providing the details of the contacts from the
+contact list specified at the trigger endpoint, or information about the usage of a resource.
 
 * :doc:`../../suite/contacts/contact_list_list_contacts`
 * :doc:`../../suite/contacts/contact_data`

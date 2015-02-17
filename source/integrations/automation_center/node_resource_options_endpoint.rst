@@ -1,12 +1,12 @@
 Resource Options Endpoint
 =========================
 
-This endpoint is called when the customer opens up the program node dialogue, and for this your service
+This endpoint is called when the customer opens up the program node dialogue, and for this, your service
 should respond with the list of available resources as outlined below.
 
 .. image:: /_static/images/ac_node_options_workflow.png
 
- * HTTP Method: GET
+* HTTP Method: GET
 
 .. list-table:: **Parameters**
    :header-rows: 1
@@ -28,7 +28,8 @@ should respond with the list of available resources as outlined below.
 Required Response
 -----------------
 
-* The service needs to respond with a JSON object. If the request was successful, the HTTP status will be in the 200-299 range. If there were any issues the HTTP status response will be in the 400-599 range.
+* The service needs to respond with a JSON object. If the request was successful, the HTTP status will be in the
+  200-299 range. If there were any issues the HTTP status response will be in the 400-599 range.
 * A successful response should include an array of objects with the following keys:
 
 .. list-table:: **Possible Keys**
@@ -60,7 +61,7 @@ Normal Result:
       }
    ]
 
-If an error occurs the service will include a *userMessage* which indicates what caused the failiure, along with a code key which contains an error code.
+If an error occurs, the service will include a *userMessage* which indicates what caused the failure, along with a code key which contains an error code.
 
 Error Condition:
 
@@ -74,7 +75,7 @@ Error Condition:
 PHP Implementation
 ------------------
 
-Similarly to the trigger api, the simplest implementation that returns no options is an options.php, which looks like this:
+Similarly to the trigger API, the simplest implementation that returns no options is an options.php, which looks like this:
 
 .. code-block:: php
 
