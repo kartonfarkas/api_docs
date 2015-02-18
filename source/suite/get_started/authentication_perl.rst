@@ -19,7 +19,7 @@ Perl
    my $timestamp = strftime "%Y-%m-%dT%H:%M:%SZ", gmtime;
    my $text = $nonce . $timestamp . $secretKey;
 
-   my $url = 'http://suite5.emarsys.net/api/v2/language';
+   my $url = 'https://suite5.emarsys.net/api/v2/language';
    my $passwordDigest = encode_base64(sha1_hex($text), "");
 
    my $header = 'UsernameToken ' .
