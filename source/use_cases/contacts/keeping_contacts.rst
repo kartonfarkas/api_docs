@@ -7,6 +7,8 @@ to create it, otherwise you have to update it. This use case is about deciding w
 
 .. :note:: We say that a contact exists in the Suite if a contact with the same key can be found.
 
+.. image:: /_static/images/use_case.png
+
 1. Check whether a Contact Exists in the Suite
 ----------------------------------------------
 
