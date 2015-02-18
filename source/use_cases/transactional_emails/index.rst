@@ -21,3 +21,6 @@ This use case will be presented in varying degrees of complexity:
 * :doc:`external_id_key`
 * :doc:`data_from_external_events`
 
+The following visualisation gives you an overview of how all scenarios of sending transactional emails work:
+
+.. image:: /_static/images/use_case.png
