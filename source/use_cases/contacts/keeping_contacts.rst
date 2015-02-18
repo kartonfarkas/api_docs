@@ -9,8 +9,8 @@ to create it, otherwise you have to update it. This use case is about deciding w
 
 .. image:: /_static/images/use_case_2.png
 
-1. Check whether a Contact Exists in the Suite
-----------------------------------------------
+1. Check whether a Contact Exists in Suite
+------------------------------------------
 
 You can check whether a contact exists in the Suite by requesting its internal contact ID.
 
