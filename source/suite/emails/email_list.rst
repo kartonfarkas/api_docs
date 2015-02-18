@@ -115,7 +115,7 @@ Result Example
 Where:
 
 * *id* = The internal identifier of the email
-* *name* = The name of the email in the Suite
+* *name* = The name of the email in Suite
 * *fromemail* = The sender email address
 * *fromname* = The sender name
 * *subject* = The email subject line

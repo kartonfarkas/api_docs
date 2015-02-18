@@ -14,7 +14,7 @@ at ``andras.barthazi@emarsys.com``.
 
 An optional API parameter is added to the ``Creating an Email Campaign`` and ``Querying Email Campaign Data`` calls.
 Its value is a contactlist ID. If an email is sent, this contactlist also receives it. Please note that it only works
-if the BCC List feature is enabled in the Suite.
+if the BCC List feature is enabled in Suite.
 
 10/12/2014: Querying Responses
 ------------------------------

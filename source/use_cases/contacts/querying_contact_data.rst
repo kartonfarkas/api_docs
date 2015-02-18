@@ -1,7 +1,7 @@
 Querying Contact Data from a Contact List
 =========================================
 
-If you already have contacts in the Suite, then you can query contact data if you have a contact list ID.
+If you already have contacts in Suite, then you can query contact data if you have a contact list ID.
 
 The steps will be as follows:
 

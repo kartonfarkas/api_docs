@@ -27,7 +27,7 @@ Where:
 
 * *name* is the customer's name
 
-For more information on the timezones available in the Suite, see :doc:`../appendices/time_zones`.
+For more information on the timezones available in Suite, see :doc:`../appendices/time_zones`.
 
 
 
