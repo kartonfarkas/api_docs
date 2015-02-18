@@ -16,7 +16,7 @@ Ruby
    text = nonce + timestamp + secretKey
    passwordDigest = Base64.encode64(Digest::SHA1.new.hexdigest(nonce + timestamp + secretKey)).strip
 
-   url = 'http://trunk.suite.ett.local/api/v2/language'
+   url = 'https://suite5.emarsys.net/api/v2/language'
 
    header = 'UsernameToken ' +
          "Username=\"#{username}\", " +
