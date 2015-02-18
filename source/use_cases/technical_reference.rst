@@ -60,7 +60,7 @@ Below is a reference of the interfaces implemented in the Suite API.
      - Returns a list of emails.
    * - /api/v2/email
      - POST
-     - Creates an email in eMarketing Suite and assigns it the respective parameters.
+     - Creates an email in Suite and assigns it the respective parameters.
    * - /api/v2/email/<id>
      - GET
      - Returns the attributes of an email and the personalized text and HTML source.
@@ -81,7 +81,7 @@ Below is a reference of the interfaces implemented in the Suite API.
      - Instructs the system to send a test email.
    * - /api/v2/email/<id>/updatesource
      - POST
-     - Defines Using API as recipient source for an email in eMarketing Suite.
+     - Defines Using API as recipient source for an email in Suite.
    * - /api/v2/email/<id>/url
      - POST
      - Returns the URL to the online version of an email, provided it has been sent to the specified contact.
