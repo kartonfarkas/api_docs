@@ -13,12 +13,6 @@ Sending Transactional Emails
 The aim here is to send an email in response to an event, e.g.: welcome email to all newly-registered contacts, product purchase confirmation, etc.. 
 Here an external event, which contains information about the intended recipient, is used to trigger the email.
 
-The steps of this use case will be as follows:
-
-1. Add a new contact to your Suite database.
-2. Send a welcome email to the contact via an external event in the Suite.
-3. Check the results.
-
 The following visualisation gives you an overview of how all scenarios of sending transactional emails work:
 
 .. image:: /_static/images/use_case.png
