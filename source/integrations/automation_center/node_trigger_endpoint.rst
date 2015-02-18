@@ -74,12 +74,9 @@ Program Types and Users
 
 Automation Center makes a distinction between batch, recurring and transactional programs.
 
-* **Batch programs** operate on user list level and are triggered by a timer as a one-off (see ‘Target segment’ entry point in
-   Automation Center).
-* **Recurring programs** are similar to batch programs in that they operate on user list level and they
-   are also triggered by a timer, but these might be triggered repeatedly as opposed to one time only programs.
-* **Transactional programs** operate on individual user level and are triggered by user specific events
-   (for example, ‘New contact’, ‘Datachange’ and ‘External event’ are transactional entry points).
+* **Batch programs** operate on user list level and are triggered by a timer as a one-off (see ‘Target segment’ entry point in the Automation Center).
+* **Recurring programs** are similar to batch programs in that they operate on user list level and they are also triggered by a timer, but these might be triggered repeatedly as opposed to one time only programs.
+* **Transactional programs** operate on individual user level and are triggered by user specific events (for example, ‘New contact’, ‘Datachange’ and ‘External event’ are transactional entry points).
 
 The post request must contain either a list_id or a user_id. For batch and recurring programs, the Automation Center
 will always send a list_id. For transactional programs, a user_id is normally sent but under high loads, the Automation
@@ -108,6 +105,7 @@ Your service may or may not need a set of node specific settings from the user. 
 settings as *resources*. If your service needs such resources, then there are two options available:
 
 1. The ‘Resource options endpoint’
+..................................
 
 In this case, your service needs to be able to provide a list of options for the customer (Automation Center user) to
 select from with a drop-down list in the program node dialog.
@@ -119,6 +117,7 @@ which is then passed to the trigger endpoint via the resource_id parameter. A st
 but we suggest using integers when it is possible.
 
 2. The ‘Custom node dialogue endpoint’
+......................................
 
 In this case, your service needs to be able to provide an HTML page that will be rendered inside an iframe in the node dialogue.
 This iframe can then be used to integrate the resource management page into Automation Center.
@@ -142,7 +141,7 @@ For example, our trigger.php could look like this:
 
    echo json_encode(array('success' => true));
 
-This service is empty and will not be able to do anything just yet. Suppose you want to use a class that can trigger
+This service is empty and will not do anything apart from checking that the connection to the API is working. Suppose you want to use a class that can trigger
 the required actions when passed an ServiceRequest object, the trigger API would then look something like this:
 
 .. code-block:: php
