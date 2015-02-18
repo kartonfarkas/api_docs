@@ -19,17 +19,6 @@ The steps of this use case will be as follows:
 2. Send a welcome email to the contact via an external event in the Suite.
 3. Check the results.
 
-This use case will be presented in varying degrees of complexity:
-
-**Basic Scenario**:
-
-* :doc:`email_address_key`
-
-**Advanced Scenario**:
-
-* :doc:`external_id_key`
-* :doc:`data_from_external_events`
-
 The following visualisation gives you an overview of how all scenarios of sending transactional emails work:
 
 .. image:: /_static/images/use_case.png
