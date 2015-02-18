@@ -38,7 +38,7 @@ Java
        }
 
        private void sendGet() throws Exception {
-           String url = "http://trunk.suite.ett.local/api/v2/language";
+           String url = "https://suite5.emarsys.net/api/v2/language";
 
            URL obj = new URL(url);
            HttpURLConnection con = (HttpURLConnection) obj.openConnection();
