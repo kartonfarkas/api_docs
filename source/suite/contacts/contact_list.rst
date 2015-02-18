@@ -26,6 +26,7 @@ Parameters
      -
 
 .. include:: ptest2.rst
+.. include:: ptest2.rst
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
