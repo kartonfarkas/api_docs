@@ -20,7 +20,17 @@
 
 .wy-nav-side {
     background: #072568;
+
+.wy-nav-side .wy-menu.rst-pro {
+    padding: 0 10px;
+    position: absolute;
+    bottom: 25px;
 }
+
+.wy-nav-side .wy-menu.rst-pro a {
+    color: #2372A6;
+}
+
 .rst-versions {
     border-top-color: #072568;
 }
