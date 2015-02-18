@@ -1,10 +1,10 @@
 Use Custom External ID as Key
 =============================
 
-If you want to use the same ID that you have in your external database to identify contacts in the Suite, you can use an
+If you want to use the same ID that you have in your external database to identify contacts in Suite, you can use an
 external ID.
 Let’s suppose that external ID is the name of the column in your database that contains the external ID and you want to
-use the same name for your custom field in the Suite.
+use the same name for your custom field in Suite.
 
 Preparation
 -----------
@@ -17,7 +17,7 @@ Preparation
           trigger many emails.
 
 + You should already have a custom field for the external ID, called **externalId**.
-  If you do not have one, create it in the Suite via the **Admin** menu, **Field editor**.
+  If you do not have one, create it in Suite via the **Admin** menu, **Field editor**.
 + Fetch the field ID of the **externalID** field.
   To create a contact with custom fields like our **externalID**, you need the IDs of the fields you want to involve
   (see :doc:`../../suite/contacts/contact_field_list`).
@@ -39,7 +39,7 @@ For further information about creating an email via the Suite UI, please see the
 1. Create the Contact
 ---------------------
 
-You need at least one contact available in the Suite so that the contact data can be used.
+You need at least one contact available in Suite so that the contact data can be used.
 
 **Request**:
 
@@ -68,7 +68,7 @@ You need at least one contact available in the Suite so that the contact data ca
 
 To identify the contact, we are using the key_id of the **externalID** field mentioned in *Preparation*.
 
-This is the easiest way to create a contact. For further information about creating or updating a contact in the Suite,
+This is the easiest way to create a contact. For further information about creating or updating a contact in Suite,
 see :doc:`../../suite/contacts/contact_create` and :doc:`../../suite/contacts/contact_update`.
 
 2. Trigger the Event

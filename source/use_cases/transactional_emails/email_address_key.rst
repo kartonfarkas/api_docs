@@ -31,7 +31,7 @@ For further information about creating an email via the Suite UI, please see the
 1. Create the Contact
 ---------------------
 
-You need at least one contact available in the Suite so that the contact data can be used.
+You need at least one contact available in Suite so that the contact data can be used.
 
 **Request**:
 
@@ -59,7 +59,7 @@ You need at least one contact available in the Suite so that the contact data ca
 To identify the contact, we are using their email address which is also the default key. Therefore, we do not have to
 define a key_id here.
 
-This is the easiest way to create a contact. For further information about creating and updating a contact in the Suite, see
+This is the easiest way to create a contact. For further information about creating and updating a contact in Suite, see
 :doc:`../../suite/contacts/contact_create` and :doc:`../../suite/contacts/contact_update`.
 
 2. Trigger the Event
