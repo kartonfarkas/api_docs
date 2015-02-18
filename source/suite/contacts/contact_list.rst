@@ -25,6 +25,8 @@ Parameters
      - Field ID used to generate the list.
      -
 
+.. include:: ptest2.rst
+
 .. list-table:: **Optional Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
