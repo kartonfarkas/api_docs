@@ -19,18 +19,10 @@ Parameters
      - Type
      - Description
      - Comments
-   * - key_id
-     - mixed
-     - [field ID]
-     - You can use a field ID, **id** or **uid**.
    * - name
      - string
      - Name of the contact list
      -
-   * - external_ids
-     - array
-     - List of contact IDs to be inserted
-     - The maximum value is 10,000 contacts.
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
@@ -40,10 +32,18 @@ Parameters
      - Type
      - Description
      - Comments
+   * - key_id
+     - mixed
+     - [field ID]
+     - You can use a field ID, **id** or **uid**. The default value is 3.
    * - description
      - string
      - Additional information about the contact list
      -
+   * - external_ids
+     - array
+     - List of contact IDs to be inserted
+     - The maximum value is 10,000 contacts.
 
 JSON Payload Example
 --------------------
