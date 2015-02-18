@@ -132,21 +132,8 @@ API based nodes will receive this JSON object in the data field (when present).
 PHP Implementation
 ------------------
 
-<<<<<<< HEAD
-Suppose you want to use a class that can trigger
-=======
-In its simplest form, the trigger endpoint is just a single URL that returns a JSON object.
-For example, our trigger.php could look like this:
-
-.. code-block:: php
-
-   <?php
-
-   echo json_encode(array('success' => true));
-
-This service is empty and will not do anything apart from checking that the connection to the API is working. Suppose you want to use a class that can trigger
->>>>>>> origin/master
-the required actions when passed an ServiceRequest object, the trigger API would then look something like this:
+Suppose you want to use a class that can trigger the required actions when passed an ServiceRequest object, the trigger
+API would then look something like this:
 
 .. code-block:: php
 
