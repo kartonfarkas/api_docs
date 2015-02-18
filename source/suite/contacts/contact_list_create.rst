@@ -35,14 +35,14 @@ Parameters
    * - key_id
      - mixed
      - [field ID]
-     - You can use a field ID, **id** or **uid**. The default value is 3.
+     - You can use a field ID, **id** or **uid**. The default value is 3, it has to be provided.
    * - description
      - string
      - Additional information about the contact list
      -
    * - external_ids
      - array
-     - List of contact IDs to be inserted
+     - List of contact IDs to be inserted. The external_id for key_id 3 has to be provided.
      - The maximum value is 10,000 contacts.
 
 JSON Payload Example
