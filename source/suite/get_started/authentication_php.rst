@@ -11,7 +11,7 @@ PHP
     */
    $username = "ani001";   // TODO change with your data
    $secret = "XXXuv21JlSHv4mM9vA";  // TODO change with your data
-   $suiteApiUrl = "http://suite5.emarsys.net/api/v2/"; // TODO change with your data
+   $suiteApiUrl = "https://suite5.emarsys.net/api/v2/"; // TODO change with your data
 
    $ch = curl_init();
    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
