@@ -5,7 +5,7 @@ If you already have contacts in the Suite, then inserting further ones requires 
 methods depending on whether the contact already exists or not. If the contact does not exist in the Suite yet, then you have
 to create it, otherwise you have to update it. This use case is about deciding whether a given contact exists and creating or updating it accordingly.
 
-.. :note:: We say that a contact exists in the Suite if a contact with the same key can be found.
+.. note:: We say that a contact exists in the Suite if a contact with the same key can be found.
 
 .. image:: /_static/images/use_case.png
 
