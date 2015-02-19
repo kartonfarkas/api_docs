@@ -59,6 +59,10 @@ standard.
 
 .. note::
 
+   If no timezone is provided, Emarsys server's timezone is assumed, which is GMT+1. Under these circumstances this timestamp "2014-01-01T01:01:01" would be translated to "2014-01-01T01:01:01+01:00". 
+
+.. note::
+
    The Created timestamp must be within **five** minutes of the Emarsys server's time. If it is not within the specified timeframe, the request will be rejected. We recommend using NTP to synchronize your time.
 
 .. note::
