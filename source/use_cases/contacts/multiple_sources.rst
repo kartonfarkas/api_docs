@@ -4,6 +4,8 @@ Checking to which Source the Contact Belongs to
 If the customer has more than one application (e.g.: 2 webshops), then creating contacts via the API is with
 different sources which stand for a particular webshop. The customer can export to which of the sources the contact belongs to.
 
+.. image:: /_static/images/use_case_3.png
+
 1. Creating a Source
 --------------------
 
