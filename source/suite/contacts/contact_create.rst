@@ -37,7 +37,8 @@ email address of the specific contact).
 Notes:
 
 * If the key_id is omitted, the key field ID value defaults to using ID 3 (email).
-* Multi-choice values must be included as an array, even if there is only one choice ID. Empty arrays are not allowed.
+* Multi-choice values must be included as an array, even if there is only one choice ID
+  (see :doc:`../../suite/contacts/contact_field_choice_list`). Empty arrays are not allowed.
 
 Request Example
 ---------------
