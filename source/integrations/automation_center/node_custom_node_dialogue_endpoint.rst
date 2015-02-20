@@ -39,7 +39,7 @@ HTTP Method: GET
      - ID of the resource to be edited
    * - resource_label
      - string
-     - Label for the node which uses the same name as the resource. Renaming the resource updates the node label as well.
+     - Label for the node which uses the same name as the resource, e.g. Send SMS <name of the SMS>. Renaming the resource updates the node label as well.
 
 Required Response:
 
