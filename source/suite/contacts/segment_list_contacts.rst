@@ -23,7 +23,11 @@ Parameters
      - Comments
    * - segment_id
      - int
-     - ID of the segment to use
+     - ID of the segment to use, if it is 0, then all the contact IDs are listed
+     -
+   * - limit
+     - int
+     - Defines how many IDs are listed, its maximum value is 1000000, part of the URI
      -
 
 .. list-table:: **Optional Parameters**
@@ -38,11 +42,6 @@ Parameters
      - int
      - Defines the ID to start listing from, part of the URI
      - The offset of the first contact ID is 0.
-   * - limit
-     - int
-     - Defines how many IDs are listed, part of the URI
-     -
-
 
 URI Example
 -----------
