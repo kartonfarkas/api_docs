@@ -125,9 +125,8 @@ This iframe can then be used to integrate the resource management page into Auto
 Campaign Specific External Data
 -------------------------------
 
-The External Event entry point allows you to post a JSON data structure along with the triggered external event.
-This JSON data structure is passed along the program, and can be used to customize how the node behaves when the program is run. For example, this data is used to dynamically generate sections in email.
-API based nodes will receive this JSON object in the data field (when present).
+The External Event entry point allows you to post a JSON data structure along with the triggered external event, which acts as content place holders for personalization.
+This JSON data structure is passed along the program, and can be used to customize content for recipients as the program is run. For example, this data is used to dynamically insert a relevant field value such as *firstname*. When the JSON object is present the API based nodes will receive this content in the data field.
 
 PHP Implementation
 ------------------
