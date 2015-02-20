@@ -94,6 +94,14 @@ Errors
      - 10001
      - Limit must be a positive number.
      -
+   * - 400
+     - 10001
+     - Limit is a required parameter.
+     -
+   * - 400
+     - 10001
+     - Limit must be less than 1000000.
+     -
 
 
 
