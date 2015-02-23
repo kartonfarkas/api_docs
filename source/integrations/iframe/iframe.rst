@@ -15,7 +15,7 @@ and display it to the customer.
 Checklist
 ---------
 
-We have created a checklist regarding the required information to enable an iframe integration for your convenience.
+We have created a checklist regarding the required information to enable the Single Sign-On for your convenience.
 Please send the following information to your contact person:
 
 * The name of your service
