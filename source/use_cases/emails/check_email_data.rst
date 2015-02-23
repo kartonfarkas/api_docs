@@ -4,6 +4,8 @@ Checking the Content of a Launched Email
 If a contact list had been created to which an email campaign was sent, the customer can export the selected fields of all contacts who
 responded to the email within the specified time range.
 
+.. image:: /_static/images/use_case_6.png
+
 The steps will be as follows:
 
 1. Creating Multiple Contacts
