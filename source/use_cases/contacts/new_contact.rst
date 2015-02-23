@@ -3,6 +3,8 @@ Adding a New Contact to a Contact List
 
 For adding a new contact to an already existing contact list, the steps will be as follows:
 
+.. image:: /_static/images/use_case_4.png
+
 1. Creating Multiple Contacts
 -----------------------------
 
