@@ -4,6 +4,8 @@ Sending an Email with a Condition
 In a condition, you can define a part of the content of the email campaign according to a criterion (e.g.: if the first
 name of the contact is Peter, put "Hi Peter! Happy nameday!" into the email).
 
+.. image:: /_static/images/use_case_7.png
+
 The steps will be as follows:
 
 1. Querying Conditions
