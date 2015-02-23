@@ -5,11 +5,29 @@ We provide an integration point where your service can be integrated with Suite 
 This involves adding a new menu entry and loading your page content within an iframe. The design of your page
 should ideally match the Suite design, so it will look like it is part of the Suite.
 
-Parameters
-----------
+Some browsers like Safari and Internet Explorer blocks setting cookies in "third-party" iframes. In our case,
+it would make cookie based session handling impossible, and session handling generally hard. The solution is
+that on loading the integration's Suite page, Suite will redirect the browser to the integration's login URL,
+allowing it to create the session cookie. It will send customer information, and a redirect URL, where the
+integration have to redirect back the browser. On that page we are going to load the iframe of the integration,
+and display it to the customer.
 
-Suite embeds your service URL as an iframe by extending it with the query parameters that the service needs
-to authenticate the customer. The following information will be made available:
+Checklist
+---------
+
+We have created a checklist regarding the required information to enable an iframe integration for your convenience.
+Please send the following information to your contact person:
+
+* The name of your service
+* A description of which customers should have access to the page (all customers, or customers with a given feature)
+* The login URL - it have to create a session, and redirect the customer back to Suite to the provided URL
+* The iframe URL - it will be loaded into the iframe
+
+Login Parameters
+----------------
+
+As a first step, we redirect the browser to the login URL, and providing the following query parameters (the request
+will be also presigned with Escher):
 
 .. list-table:: **Parameters**
    :header-rows: 1
@@ -27,16 +45,9 @@ to authenticate the customer. The following information will be made available:
    * - admin_id
      - int
      - ID of the admin
-
-Integration
------------
-
-We have created a checklist regarding the required information to enable an iframe integration for your convenience.
-Please send the following information to your contact person:
-
-* The name of your service
-* A description of which customers should have access to the page (all customers, or customers with a given feature)
-* The iframe URL - it provides the access of the services
+   * - redirect_to
+     - string
+     - URL where the integration have to redirect the customer to
 
 Useful Resources
 ----------------
