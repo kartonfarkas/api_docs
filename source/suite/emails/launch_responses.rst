@@ -1,7 +1,7 @@
 Querying Responses
 ==================
 
-Generates a list of all contacts who reacted a certain way to email campaigns durig a specified time-frame, e.g. all contacts who opened emails.
+Generates a list of all contacts who reacted a certain way to email campaigns during a specified time-frame, e.g. all contacts who opened emails.
 
 A call to this endpoint starts a background query that returns a query ID, which can the be used to poll the
 :doc:`launch_responses_result` endpoint for the results. As this method requires multiple steps, it may take a few minutes for the results to come back.
