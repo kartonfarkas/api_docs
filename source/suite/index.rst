@@ -22,7 +22,7 @@ The following is a list of examples for how to authenticate using different lang
  * :doc:`get_started/authentication_ruby`
  * :doc:`get_started/authentication_java`
 
-We also provide a demo page where you can try the API (see :doc:`get_started/api_demo`), and if you any help, we have listed some third party clients on the :doc:`get_started/sdk` page for your convenience.
+We also provide a demo page where you can try the API (see :doc:`get_started/api_demo`), and if you need any help, we have listed some third party clients on the :doc:`get_started/sdk` page for your convenience.
 
 .. toctree::
    :maxdepth: 1
