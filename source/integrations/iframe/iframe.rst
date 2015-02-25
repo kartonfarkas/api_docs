@@ -19,7 +19,6 @@ We have created a checklist regarding the required information to enable the Sin
 Please send the following information to your contact person:
 
 * The name of your service
-* A description of which customers should have access to the page (all customers, or customers with a given feature)
 * The login URL - it have to create a session, and redirect the customer back to Suite to the provided URL
 * The iframe URL - it will be loaded into the iframe
 
