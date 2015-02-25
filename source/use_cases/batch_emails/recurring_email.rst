@@ -5,6 +5,8 @@ You have to create the email in Suite, it is possible only once.
 
 For this scenario, you will need to:
 
+.. image:: /_static/images/use_case_10.png
+
 1. Update an Email Campaign Recipient Source
 --------------------------------------------
 
