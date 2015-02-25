@@ -3,6 +3,8 @@ Recurring Email to a Contact List with Changing Members
 
 For this scenario, you will need to:
 
+.. image:: /_static/images/use_case_11.png
+
 1. Remove Contacts from a Contact List
 --------------------------------------
 
