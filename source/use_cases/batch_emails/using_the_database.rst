@@ -3,6 +3,8 @@ Using the Media Database
 
 For this scenario, you will need to:
 
+.. image:: /_static/images/use_case_12.png
+
 1. Upload a File
 ----------------
 
