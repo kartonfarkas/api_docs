@@ -11,6 +11,8 @@ Required stages:
 - Define the Email Campaign Trigger
 - Trigger the External Event
 
+.. image:: /_static/images/use_case_8.png
+
 1. Creating an Email Campaign
 -----------------------------
 
