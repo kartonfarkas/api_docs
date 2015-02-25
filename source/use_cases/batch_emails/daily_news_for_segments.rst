@@ -3,6 +3,8 @@ Daily News for Different Segments
 
 For this scenario, you will need to:
 
+.. image:: /_static/images/use_case_9.png
+
 1. Create an Email Campaign
 ---------------------------
 
