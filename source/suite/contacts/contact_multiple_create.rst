@@ -126,3 +126,7 @@ Errors
      - 2004
      - Cannot use internal ID as key on contact creation.
      -
+   * - 400
+     - 2009
+     - Contact with the external id already exists: 3.
+     -
