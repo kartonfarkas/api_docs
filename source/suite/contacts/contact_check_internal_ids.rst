@@ -26,8 +26,8 @@ Parameters
      - Comments
    * - key_id
      - mixed
-     - Key which identifies the contacts, [field_id]
-     -
+     - Key which identifies the contacts
+     - This can be a field id, **id** or **uid**. If left empty, the internal ID will be used by default.
    * - external_ids
      - mixed
      - [id1];[id2];… values specified in the key_id for those contacts whose internal IDs the customer wants to receive

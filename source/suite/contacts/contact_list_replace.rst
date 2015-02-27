@@ -26,7 +26,7 @@ Parameters
    * - key_id
      - mixed
      - Key which identifies the contacts
-     - Field ID, **id** or **uid** can be used
+     - This can be a field id, **id** or **uid**. If left empty, the internal ID will be used by default.
    * - external_ids
      - array
      - List of contact IDs to be included

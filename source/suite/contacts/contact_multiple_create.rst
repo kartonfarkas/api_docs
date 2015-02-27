@@ -21,8 +21,8 @@ Parameters
      - Comments
    * - key_id
      - mixed
-     - Key which identifies the contacts, [field_id]
-     -
+     - Key which identifies the contacts
+     - This can be a field id, **id** or **uid**. If left empty, the internal ID will be used by default.
    * - field_id
      - int
      - ID of the field, [field_value]

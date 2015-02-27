@@ -27,8 +27,8 @@ email address of the specific contact).
      - Comments
    * - key_id
      - mixed
-     - Key which identifies the contacts, [field_id]
-     -
+     - Key which identifies the contacts
+     - This can be a field id, **id** or **uid**. If left empty, the internal ID will be used by default.
    * - source_id
      - int
      - ID assigned to the customer's application, used to differentiate contacts created or modified by the external applications, [source_id]

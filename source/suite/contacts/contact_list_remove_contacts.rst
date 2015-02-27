@@ -25,8 +25,8 @@ Parameters
      - The maximum value is 10,000 contacts to be deleted with each request.
    * - key_id
      - mixed
-     - Key which identifies the contacts, [field ID]
-     - You can use **id** or **uid**.
+     - Key which identifies the contacts
+     - This can be a field id, **id** or **uid**. If left empty, the internal ID will be used by default.
    * - external_ids
      - [id1];[id2];…
      - Field ID of the contacts
