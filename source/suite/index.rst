@@ -34,4 +34,4 @@ We also provide a demo page where you can try the API (see :doc:`get_started/api
    exports/index.rst
    external_events/index.rst
    appendices/index.rst
-   api_endpoints.rst
+   api_endpoints/api_endpoints.rst
