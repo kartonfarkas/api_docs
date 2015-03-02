@@ -128,5 +128,5 @@ Errors
      -
    * - 400
      - 2009
-     - Contact with the external id already exists: 3.
+     - Contact with external ID: [id] already exists.
      -
