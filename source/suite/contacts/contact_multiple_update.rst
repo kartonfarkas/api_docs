@@ -42,16 +42,24 @@ JSON Payload Example
 .. code-block:: json
 
    {
-     "key_id": "1",
+     "key_id": "3",
      "contacts":
      [
        {
-         "1": "Malekith",
-         "2": "the Accursed"
+         "3": "erik.selvig@example.com",
+         "2": "Selvig"
        },
        {
-         "1": "Frigga",
-         "679": ["1","2"]
+         "3": "ian.boothby@example.com",
+         "2": "Boothby"
+       },
+       {
+         "3": "james.rhodes@example.com",
+         "2": "Rhodes"
+       },
+       {
+         "3": "pepper.potts@example.com",
+         "2": "Potts"
        }
      ]
    }
