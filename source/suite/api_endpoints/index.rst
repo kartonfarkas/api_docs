@@ -15,6 +15,7 @@ Administrators
 * :doc:`../customers/administrator_create` POST /api/v2/administrator
 * :doc:`../customers/administrator_update` POST /api/v2/administrator/patch
 * :doc:`../customers/administrator_delete` POST /api/v2/administrator/#id#/delete
+
 Contacts
 --------
 

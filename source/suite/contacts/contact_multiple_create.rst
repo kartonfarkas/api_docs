@@ -79,27 +79,22 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode": 0,
-     "replyText": "OK",
-     "data":
-     {
-       "ids":
-       [
-         123,
-         456
-       ],
-       "errors":
-       {
-         "james.rhodes@example.com":
-         {
-           "2009": "Contact with the external id already exists: 3"
-         },
-         "pepper.potts@example.com":
-         {
-           "2009": "Contact with the external id already exists: 3"
+      "replyCode":0,
+      "replyText":"OK",
+      "data":{
+         "ids":[
+            "285291248",
+            "285292533"
+         ],
+         "errors":{
+            "erik.selvig@example.com":{
+               "2008":"No contact found with the external id: 3 - erik.selvig@example.com"
+            },
+            "james.rhodes@example.com":{
+               "2008":"No contact found with the external id: 3 - james.rhodes@example.com"
+            }
          }
-       }
-     }
+      }
    }
 
 Where:
@@ -127,6 +122,6 @@ Errors
      - Cannot use internal ID as key on contact creation.
      -
    * - 400
-     - 2009
-     - Contact with the external id already exists: 3.
+     - 2008
+     - No contact found with external ID: [id].
      -
