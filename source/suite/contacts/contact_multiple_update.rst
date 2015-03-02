@@ -110,5 +110,5 @@ Errors
      - Too many contacts were requested; contact creation is limited to 1,000.
    * - 400
      - 2008
-     - No contact found with external ID: [id].
+     - No contact found with external ID: [id] - [value].
      -
