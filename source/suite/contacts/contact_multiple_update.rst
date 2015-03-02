@@ -62,27 +62,22 @@ Result Example
 .. code-block:: json
 
    {
-     "replyCode": 0,
-     "replyText": "OK",
-     "data":
-     {
-       "ids":
-       [
-         123,
-         456
-       ],
-       "errors":
-       {
-         "malekith@example.com":
-         {
-           "2009": "Contact with the external id already exists: 3"
-         },
-         "frigga@example.com":
-         {
-           "2009": "Contact with the external id already exists: 3"
+      "replyCode":0,
+      "replyText":"OK",
+      "data":{
+         "ids":[
+            "285291248",
+            "285292533"
+         ],
+         "errors":{
+            "erik.selvig@example.com":{
+               "2008":"No contact found with the external id: 3 - erik.selvig@example.com"
+            },
+            "james.rhodes@example.com":{
+               "2008":"No contact found with the external id: 3 - james.rhodes@example.com"
+            }
          }
-       }
-     }
+      }
    }
 
 Where:
@@ -105,3 +100,7 @@ Errors
      - 1000
      - The request exceeded the maximum batch size 1,000
      - Too many contacts were requested; contact creation is limited to 1,000.
+   * - 400
+     - 2008
+     - No contact found with external ID: [id].
+     -
