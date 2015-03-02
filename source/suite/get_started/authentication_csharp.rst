@@ -1,7 +1,7 @@
 C#
 ==
 
-.. code-block:: java
+.. code-block:: csharp
 
 using System;
 using System.Security.Cryptography;
