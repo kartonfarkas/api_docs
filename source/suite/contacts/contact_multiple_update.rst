@@ -21,10 +21,10 @@ Parameters
      - Comments
    * - key_id
      - mixed
-     - Value provided for the key_id field identifies the contact which will be updated. The other fields contain the
-       changes requested for the contact. If more than one contact with the requested external ID is found, an error
-       message is returned, [field_id]
-     -
+     - Key which identifies the contacts
+     - This can be a field id, **id** or **uid**. If left empty, the internal ID will be used by default. Value provided
+       for the key_id field identifies the contact which will be updated. The other fields contain the changes requested
+       for the contact. If more than one contact with the requested external ID is found, an error message is returned, [field_id]
    * - field_id
      - int
      - ID of the field, [field_value]
