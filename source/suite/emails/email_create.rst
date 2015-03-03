@@ -93,6 +93,10 @@ Parameters
      - int
      - The contact list ID to include when CCing a copy of the email
      - Only works if the BCC List feature is enabled for the customer.
+   * - additional_linktracking_parameters
+     - string
+     - The additional url parameters that will be added to the url of the tracked links when redirected.
+     - Only works if the this feature is enabled for the customer.
 
 Request Example
 ---------------
@@ -192,8 +196,11 @@ Errors
      - 10001
      - No content
      - Both the html_source and the text_source are empty.
-   * - 400
+   * - 403
      - 6031
      - CC feature not enabled
      - if the BCC List feature is not enabled, then cc_list cannot be set
-
+   * - 403
+     - 6036
+     - Additional tracking parameters are not enabled.
+     - You may ask for this feature from your account manager.
