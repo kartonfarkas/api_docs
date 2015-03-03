@@ -6,7 +6,7 @@ Returns the current settings of the customer account (e.g. timezone, customer na
 Endpoint
 --------
 
-``GET /api/v2/settings/``
+``GET /api/v2/settings``
 
 Resulting Data Structure
 ------------------------

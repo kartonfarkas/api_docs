@@ -4,7 +4,7 @@ API Endpoints
 Customer Settings
 -----------------
 
-* :doc:`../customers/customer_settings` GET /api/v2/settings/
+* :doc:`../customers/customer_settings` GET /api/v2/settings
 
 Administrators
 --------------
@@ -14,12 +14,12 @@ Administrators
 * :doc:`../customers/administrator_access_levels` GET /api/v2/administrator/getaccesslevels
 * :doc:`../customers/administrator_create` POST /api/v2/administrator
 * :doc:`../customers/administrator_update` POST /api/v2/administrator/patch
-* :doc:`../customers/administrator_delete` POST /api/v2/administrator/#id#/delete
+* :doc:`../customers/administrator_delete` POST /api/v2/administrator/<id>/delete
 
 Contacts
 --------
 
-* :doc:`../contacts/contact_list` GET /api/v2/contact/query/return=
+* :doc:`../contacts/contact_list` GET /api/v2/contact/query
 * :doc:`../contacts/contact_data` POST /api/v2/contact/getdata
 * :doc:`../contacts/contact_email_history` POST /api/v2/contact/getcontacthistory
 * :doc:`../contacts/contact_fetch_internal_id` GET /api/v2/contact/<key_field_id>=<key_field_value>
@@ -82,7 +82,7 @@ Launches
 * :doc:`../emails/launch_list` POST /api/v2/email/getlaunchesofemail
 * :doc:`../emails/launch_delivery_status` POST /api/v2/email/getdeliverystatus
 * :doc:`../emails/launch_responses` GET /api/v2/email/responses
-* :doc:`../emails/launch_responses_result` GET /api/v2/email/responses/{query_id}
+* :doc:`../emails/launch_responses_result` GET /api/v2/email/responses/<query_id>
 * :doc:`../emails/launch_response_summary` GET /api/v2/email/<email_id>/responsesummary
 * :doc:`../emails/launch_urls` POST /api/v2/email/<email_id>/url
 * :doc:`../emails/launch` POST /api/v2/email/<email_id>/launch

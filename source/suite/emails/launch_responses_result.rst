@@ -10,7 +10,7 @@ Lists the contact IDs for the email campaigns, based on the :doc:`launch_respons
 Endpoint
 --------
 
-``GET /api/v2/email/responses/{query_id}``
+``GET /api/v2/email/responses/<query_id>``
 
 Parameters
 ----------
