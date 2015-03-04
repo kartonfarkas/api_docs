@@ -36,10 +36,6 @@
     border-top-color: #072568;
 }
 
-.rst-content .full-width {
-    width: 100%;
-}
-
 .rst-content table td,
 .rst-content table th {
     white-space: normal !important;
@@ -49,6 +45,10 @@
 code,
 .rst-content tt {
     font-size: 100%;
+}
+
+.rst-content table.docutils {
+    width: 100%;
 }
 
 .rst-content table.docutils caption,

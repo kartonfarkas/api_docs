@@ -2,13 +2,11 @@ API Endpoints
 =============
 
 .. list-table:: **Customer Settings**
-   :class: full-width
 
    * - :doc:`../customers/customer_settings`
      - GET /api/v2/settings
 
 .. list-table:: **Administrators**
-   :class: full-width
 
    * - :doc:`../customers/administrator_list`
      - GET /api/v2/administrator
@@ -24,7 +22,6 @@ API Endpoints
      - POST /api/v2/administrator/<id>/delete
 
 .. list-table:: **Contacts**
-   :class: full-width
 
    * - :doc:`../contacts/contact_list`
      - GET /api/v2/contact/query
@@ -46,7 +43,6 @@ API Endpoints
      - PUT /api/v2/contact
 
 .. list-table:: **Contact Fields**
-   :class: full-width
 
    * - :doc:`../contacts/contact_field_list`
      - GET /api/v2/field/translate/<translate_id>
@@ -56,7 +52,6 @@ API Endpoints
      - GET /api/v2/field/<id>/choice
 
 .. list-table:: **Contact Lists**
-   :class: full-width
 
    * - :doc:`../contacts/contact_list_list`
      - GET /api/v2/contactlist
@@ -72,7 +67,6 @@ API Endpoints
      - POST /api/v2/contactlist/<list_id>/delete
 
 .. list-table:: **Segments**
-   :class: full-width
 
    * - :doc:`../contacts/segment_list`
      - GET /api/v2/filter
@@ -80,7 +74,6 @@ API Endpoints
      - GET /api/v2/filter/<segment_id>/contacts
 
 .. list-table:: **Contact Sources**
-   :class: full-width
 
    * - :doc:`../contacts/source_list`
      - GET /api/v2/source
@@ -90,13 +83,11 @@ API Endpoints
      - DELETE /api/v2/source/<id>
 
 .. list-table:: **Forms**
-   :class: full-width
 
    * - :doc:`../contacts/forms`
      - GET /api/v2/form
 
 .. list-table:: **Email Campaigns**
-   :class: full-width
 
    * - :doc:`../emails/email_list`
      - GET /api/v2/email
@@ -116,7 +107,6 @@ API Endpoints
      - POST /api/v2/email/<email_id>/updatesource
 
 .. list-table:: **Launches**
-   :class: full-width
 
    * - :doc:`../emails/launch_list`
      - POST /api/v2/email/getlaunchesofemail
@@ -138,7 +128,6 @@ API Endpoints
      - POST /api/v2/email/<id>/sendtestmail
 
 .. list-table:: **Media Database**
-   :class: full-width
 
    * - :doc:`../emails/media_file_list`
      - GET /api/v2/file
@@ -150,13 +139,11 @@ API Endpoints
      - POST /api/v2/folder
 
 .. list-table:: **Conditions**
-   :class: full-width
 
    * - :doc:`../emails/conditions`
      - GET /api/v2/condition
 
 .. list-table:: **Exports**
-   :class: full-width
 
    * - :doc:`../exports/export_changes`
      - POST /api/v2/contact/getchanges
@@ -170,7 +157,6 @@ API Endpoints
      - GET /api/v2/export/<id>
 
 .. list-table:: **External Events**
-   :class: full-width
 
    * - :doc:`../external_events/external_event_list`
      - GET /api/v2/event
