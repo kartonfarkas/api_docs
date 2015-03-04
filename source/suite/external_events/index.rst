@@ -9,3 +9,4 @@ and also can be used to send transactional emails.
 
    external_event_list.rst
    external_event_trigger.rst
+   external_event_use.rst
