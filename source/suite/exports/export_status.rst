@@ -6,7 +6,7 @@ Fetches the status data of an export, and uses the ID returned by :doc:`export_r
 Endpoint
 --------
 
-``GET /api/v2/export/<id>``
+``GET /api/v2/export/<export_id>``
 
 Parameters
 ----------

@@ -6,7 +6,7 @@ Instructs the system to send a test email.
 Endpoint
 --------
 
-``POST /api/v2/email/<id>/sendtestmail``
+``POST /api/v2/email/<email_id>/sendtestmail``
 
 .. warning::
 

@@ -6,7 +6,7 @@ Deletes an existing contact source.
 Endpoint
 --------
 
-``DELETE /api/v2/source/<id>``
+``DELETE /api/v2/source/<source_id>``
 
 Parameters
 ----------

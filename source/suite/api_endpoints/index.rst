@@ -19,7 +19,7 @@ API Endpoints
    * - :doc:`../customers/administrator_update`
      - POST /api/v2/administrator/patch
    * - :doc:`../customers/administrator_delete`
-     - POST /api/v2/administrator/<id>/delete
+     - POST /api/v2/administrator/<admin_id>/delete
 
 .. list-table:: **Contacts**
 
@@ -45,11 +45,11 @@ API Endpoints
 .. list-table:: **Contact Fields**
 
    * - :doc:`../contacts/contact_field_list`
-     - GET /api/v2/field/translate/<translate_id>
+     - GET /api/v2/field
    * - :doc:`../contacts/contact_field_create`
      - POST /api/v2/field
    * - :doc:`../contacts/contact_field_choice_list`
-     - GET /api/v2/field/<id>/choice
+     - GET /api/v2/field/<list_id>/choice
 
 .. list-table:: **Contact Lists**
 
@@ -80,7 +80,7 @@ API Endpoints
    * - :doc:`../contacts/source_create`
      - POST /api/v2/source/create
    * - :doc:`../contacts/source_delete`
-     - DELETE /api/v2/source/<id>
+     - DELETE /api/v2/source/<source_id>
 
 .. list-table:: **Forms**
 
@@ -125,7 +125,7 @@ API Endpoints
    * - :doc:`../emails/launch_preview`
      - POST /api/v2/email/<email_id>/preview
    * - :doc:`../emails/launch_tests`
-     - POST /api/v2/email/<id>/sendtestmail
+     - POST /api/v2/email/<email_id>/sendtestmail
 
 .. list-table:: **Media Database**
 
@@ -154,11 +154,11 @@ API Endpoints
    * - :doc:`../exports/export_responses`
      - POST /api/v2/email/getresponses
    * - :doc:`../exports/export_status`
-     - GET /api/v2/export/<id>
+     - GET /api/v2/export/<export_id>
 
 .. list-table:: **External Events**
 
    * - :doc:`../external_events/external_event_list`
      - GET /api/v2/event
    * - :doc:`../external_events/external_event_trigger`
-     - POST /api/v2/event/<id>/trigger
+     - POST /api/v2/event/<event_id>/trigger

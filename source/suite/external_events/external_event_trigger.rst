@@ -6,7 +6,7 @@ Trigger any named External Event for a specified contact.
 Endpoint
 --------
 
-``POST /api/v2/event/<id>/trigger``
+``POST /api/v2/event/<event_id>/trigger``
 
 Parameters
 ----------

@@ -6,7 +6,7 @@ Returns a list of all available fields which can be used to personalize content 
 Endpoint
 --------
 
-``GET /api/v2/field/translate/<translate_id>``
+``GET /api/v2/field``
 
 Parameters
 ----------

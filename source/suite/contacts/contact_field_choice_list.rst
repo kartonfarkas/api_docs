@@ -6,7 +6,7 @@ Generates a list of all available options for any given single- or multichoice f
 Endpoint
 --------
 
-``GET /api/v2/field/<id>/choice``
+``GET /api/v2/field/<list_id>/choice``
 
 Parameters
 ----------

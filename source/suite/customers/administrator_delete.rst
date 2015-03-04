@@ -8,7 +8,7 @@ Info on how to delete an admin account and pass their rights to another admin ac
 Endpoint
 --------
 
-``POST /api/v2/administrator/#id#/delete``
+``POST /api/v2/administrator/<admin_id>/delete``
 
 Parameters
 ----------
