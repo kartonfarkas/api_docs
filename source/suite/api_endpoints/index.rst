@@ -3,14 +3,12 @@ API Endpoints
 
 .. list-table:: **Customer Settings**
    :class: full-width
-   :widths: 40 40
 
    * - :doc:`../customers/customer_settings`
      - GET /api/v2/settings
 
 .. list-table:: **Administrators**
    :class: full-width
-   :widths: 40 40
 
    * - :doc:`../customers/administrator_list`
      - GET /api/v2/administrator
@@ -27,7 +25,6 @@ API Endpoints
 
 .. list-table:: **Contacts**
    :class: full-width
-   :widths: 40 40
 
    * - :doc:`../contacts/contact_list`
      - GET /api/v2/contact/query
@@ -50,7 +47,6 @@ API Endpoints
 
 .. list-table:: **Contact Fields**
    :class: full-width
-   :widths: 40 40
 
    * - :doc:`../contacts/contact_field_list`
      - GET /api/v2/field/translate/<translate_id>
@@ -61,7 +57,6 @@ API Endpoints
 
 .. list-table:: **Contact Lists**
    :class: full-width
-   :widths: 40 40
 
    * - :doc:`../contacts/contact_list_list`
      - GET /api/v2/contactlist
@@ -78,7 +73,6 @@ API Endpoints
 
 .. list-table:: **Segments**
    :class: full-width
-   :widths: 40 40
 
    * - :doc:`../contacts/segment_list`
      - GET /api/v2/filter
@@ -87,7 +81,6 @@ API Endpoints
 
 .. list-table:: **Contact Sources**
    :class: full-width
-   :widths: 40 40
 
    * - :doc:`../contacts/source_list`
      - GET /api/v2/source
@@ -98,14 +91,12 @@ API Endpoints
 
 .. list-table:: **Forms**
    :class: full-width
-   :widths: 40 40
 
    * - :doc:`../contacts/forms`
      - GET /api/v2/form
 
 .. list-table:: **Email Campaigns**
    :class: full-width
-   :widths: 40 40
 
    * - :doc:`../emails/email_list`
      - GET /api/v2/email
@@ -126,7 +117,6 @@ API Endpoints
 
 .. list-table:: **Launches**
    :class: full-width
-   :widths: 40 40
 
    * - :doc:`../emails/launch_list`
      - POST /api/v2/email/getlaunchesofemail
@@ -149,7 +139,6 @@ API Endpoints
 
 .. list-table:: **Media Database**
    :class: full-width
-   :widths: 40 40
 
    * - :doc:`../emails/media_file_list`
      - GET /api/v2/file
@@ -162,14 +151,12 @@ API Endpoints
 
 .. list-table:: **Conditions**
    :class: full-width
-   :widths: 40 40
 
    * - :doc:`../emails/conditions`
      - GET /api/v2/condition
 
 .. list-table:: **Exports**
    :class: full-width
-   :widths: 40 40
 
    * - :doc:`../exports/export_changes`
      - POST /api/v2/contact/getchanges
@@ -184,7 +171,6 @@ API Endpoints
 
 .. list-table:: **External Events**
    :class: full-width
-   :widths: 40 40
 
    * - :doc:`../external_events/external_event_list`
      - GET /api/v2/event
