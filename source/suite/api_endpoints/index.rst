@@ -4,6 +4,15 @@ API Endpoints
 Customer Settings
 -----------------
 
+.. list-table:: **Customer Settings**
+   :header-rows: 1
+   :widths: 20 20 40 40
+
+       * - Name
+         - Type
+         - Description
+         - Comments
+       * - query_id
 * :doc:`../customers/customer_settings` GET /api/v2/settings
 
 Administrators
