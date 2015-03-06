@@ -112,3 +112,19 @@ Errors
      - 6008
      - Invalid timezone
      - The value in the timezone parameter is invalid or not supported by the application.
+   * - 400
+     - 6032
+     - Contact list or segment is missing.
+     -
+   * - 400
+     - 6033
+     - "fromname" is missing.
+     -
+   * - 400
+     - 6034
+     - "fromemail" is missing.
+     -
+   * - 400
+     - 6035
+     - Subject is missing.
+     -
