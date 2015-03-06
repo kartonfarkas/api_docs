@@ -4,7 +4,7 @@ Listing All Usages of an External Event
 Lists the IDs of the programs which would be started and the emails which would be sent by triggering a specific
 external event. The result is a program ID and possibly more than one email ID.
 
-.. note:: Programs and emails must be launched in Suite.
+.. note:: Programs and emails must have a "launched" state in order to appear.
 
 Endpoint
 --------
