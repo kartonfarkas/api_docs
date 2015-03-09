@@ -131,8 +131,8 @@ Errors
      - The provided name is reserved for system fields.
    * - 500
      - 9004
-     - No more slots to create the field, please contact account manager
-     - There is no more free column for this type of field in the contact database, please contact your account manager.
+     - No more slots to create the field, please contact your Account Manager
+     - There is no more free column for this type of field in the contact database, please contact your Account Manager.
    * - 400
      - 9005
      - Parameters name and application_type are required.
