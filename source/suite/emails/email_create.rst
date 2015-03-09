@@ -199,8 +199,9 @@ Errors
    * - 403
      - 6031
      - CC feature not enabled
-     - if the BCC List feature is not enabled, then cc_list cannot be set
+     - If the "BCC List" feature is not enabled, then cc_list cannot be set. Ask for this feature from your Account Manager.
    * - 403
      - 6036
      - Additional tracking parameters are not enabled.
-     - You may ask for this feature from your Account Manager.
+     - If the "Enable additional campaign specific tracking params" feature is not enabled, then
+       additional_linktracking_parameters cannot be set. Ask for this feature from your Account Manager.
