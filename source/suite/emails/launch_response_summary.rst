@@ -43,7 +43,8 @@ Result Example
        "opened": "6",
        "unsubscribe": "7",
        "total_clicks": "8",
-       "unique_clicks": "9"
+       "unique_clicks": "9",
+       "complained": "0"
      }
    }
 
