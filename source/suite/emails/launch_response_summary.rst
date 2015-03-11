@@ -35,15 +35,15 @@ Result Example
      "replyText": "OK",
      "data":
      {
-       "sent": "1",
-       "planned": "2",
-       "soft_bounces": "3",
-       "hard_bounces": "4",
-       "block_bounces": "5",
-       "opened": "6",
-       "unsubscribe": "7",
-       "total_clicks": "8",
-       "unique_clicks": "9",
+       "sent": "3",
+       "planned": "3",
+       "soft_bounces": "0",
+       "hard_bounces": "0",
+       "block_bounces": "0",
+       "opened": "2",
+       "unsubscribe": "0",
+       "total_clicks": "0",
+       "unique_clicks": "0",
        "complained": "0"
      }
    }
@@ -59,6 +59,7 @@ Where:
 * *unsubscribe* = The number of clicks on the unsubscribe link.
 * *total_clicks* = The number of total clicks on links tracked by the Suite within an email (multiple clicks per contact are counted).
 * *unique_clicks* = The number of unique clicks on links tracked by the Suite within an email (one click per contact is counted).
+* *complained* = These recipients marked this email as spam in their email client.
 
 Errors
 ------
