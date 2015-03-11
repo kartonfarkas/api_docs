@@ -59,7 +59,7 @@ Where:
 * *unsubscribe* = The number of clicks on the unsubscribe link.
 * *total_clicks* = The number of total clicks on links tracked by the Suite within an email (multiple clicks per contact are counted).
 * *unique_clicks* = The number of unique clicks on links tracked by the Suite within an email (one click per contact is counted).
-* *complained* = These recipients marked this email as spam in their email client.
+* *complained* = The number of recipients who marked this email as spam in their email client.
 
 Errors
 ------
