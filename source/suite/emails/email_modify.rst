@@ -58,7 +58,7 @@ Result Example
          "deleted": "",
          "fromemail": "odin@example.com",
          "fromname": "Odin",
-         "subject": "prepare to fight",
+         "subject": "Prepare to fight!",
          "email_category": "0",
          "filter": "0",
          "contactlist": "176523015",
