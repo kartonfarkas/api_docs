@@ -17,6 +17,7 @@ Email Campaigns
    email_create.rst
    email_copy.rst
    email_delete.rst
+   email_modify.rst
    email_update_source.rst
 
 Launches
