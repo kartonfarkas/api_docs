@@ -65,7 +65,7 @@ Result Example
          "additional_linktracking_parameters": "",
          "cc_list": 0,
          "html_source": "<html>Hello $First Name$...</html>",
-         "text_source": ""Hello $First Name$..."",
+         "text_source": "Hello $First Name$...",
          "unsubscribe": "y",
          "browse": "y",
          "status": "1",
