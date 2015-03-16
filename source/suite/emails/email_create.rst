@@ -91,11 +91,11 @@ Parameters
        * 1: true
    * - cc_list
      - int
-     - The contact list ID to include when CCing a copy of the email
+     - The ID of the contact list which will receive a copy of the email when sent.
      - Only works if the BCC List feature is enabled for the customer.
    * - additional_linktracking_parameters
      - string
-     - The additional url parameters that will be added to the url of the tracked links when redirected.
+     - Additional URL parameters that are added to the tracked links URL when redirected.
      - Only works if the this feature is enabled for the customer.
 
 Request Example
