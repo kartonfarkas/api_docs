@@ -1,5 +1,5 @@
-Modifying Email Campaigns
-=========================
+Updating Email Campaigns
+========================
 
 Updates an email campaign with the specified parameters.
 
