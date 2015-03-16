@@ -96,7 +96,7 @@ Parameters
    * - additional_linktracking_parameters
      - string
      - Additional URL parameters that are added to the tracked links URL when redirected.
-     - Only works if the this feature is enabled for the customer.
+     - Only works if this feature is enabled for the customer.
 
 Request Example
 ---------------
