@@ -19,7 +19,6 @@ Parameters
      - Type
      - Description
      - Comments
-     -
    * - application_type
      - string
      - Type of the new field
