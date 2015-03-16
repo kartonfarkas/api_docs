@@ -19,7 +19,7 @@ Parameters
      - Type
      - Description
      - Comments
-   * - id
+   * - email_id
      - int
      - ID of a specific email
      -
@@ -40,6 +40,17 @@ Parameters
      - string
      - Additional url parameters that are added to the tracked links url when redirected.
      - Only works if the this feature is enabled for the customer.
+
+Request Example
+---------------
+
+.. code-block:: json
+
+   {
+      "emailId": "100018233",
+      "name": "asgardian_email",
+      "additional_linktracking_parameters": ""
+   }
 
 Result Example
 --------------
