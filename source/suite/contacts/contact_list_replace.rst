@@ -26,7 +26,7 @@ Parameters
    * - key_id
      - mixed
      - Key which identifies the contacts
-     - This can be a field id, **id** or **uid**. If left empty, the internal ID will be used by default.
+     - This can be a `field id <../../suite/appendices/system_fields.html>`_, **id** or **uid**. If left empty, the internal ID will be used by default.
    * - external_ids
      - array
      - List of contact IDs to be included

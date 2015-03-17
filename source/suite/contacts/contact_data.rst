@@ -22,7 +22,7 @@ Parameters
    * - keyId
      - mixed
      - Key which identifies the contacts
-     - This can be a field id, **id** or **uid**. If left empty, the internal ID will be used by default.
+     - This can be a `field id <../../suite/appendices/system_fields.html>`_, **id** or **uid**. If left empty, the internal ID will be used by default.
    * - keyValues
      - array
      - Value of the keyId

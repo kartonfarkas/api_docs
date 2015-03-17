@@ -22,7 +22,7 @@ Parameters
    * - key_id
      - mixed
      - Key which identifies the contacts
-     - This can be a field id, **id** or **uid**. If left empty, the internal ID will be used by default. Value provided
+     - This can be a `field id <../../suite/appendices/system_fields.html>`_, **id** or **uid**. If left empty, the internal ID will be used by default. Value provided
        for the key_id field identifies the contact which will be updated. The other fields contain the changes requested
        for the contact. If more than one contact with the requested external ID is found, an error message is returned, [field_id]
    * - field_id

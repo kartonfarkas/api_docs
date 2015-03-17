@@ -35,7 +35,7 @@ Parameters
    * - key_id
      - mixed
      - Key which identifies the contacts
-     - You can use a field ID, **id** or **uid**. The default value is 3, it has to be provided.
+     - You can use a `field id <../../suite/appendices/system_fields.html>`_, **id** or **uid**. The default value is 3, it has to be provided.
    * - description
      - string
      - Additional information about the contact list
