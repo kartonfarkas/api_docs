@@ -3,6 +3,8 @@ Updating Multiple Contacts
 
 Updates multiple contacts all at once.
 
+.. note:: Please note that read-only fields, which are listed in System Fields, cannot be updated.
+
 Endpoint
 --------
 

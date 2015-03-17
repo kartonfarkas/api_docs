@@ -3,6 +3,8 @@ Updating a Contact
 
 Updates a single contact using their external ID as reference.
 
+.. note:: Please note that read-only fields, which are listed in System Fields, cannot be updated.
+
 Endpoint
 --------
 
