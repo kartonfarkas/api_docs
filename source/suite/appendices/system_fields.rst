@@ -1,6 +1,9 @@
 System Fields
 =============
 
+System fields are the default fields that include contact data. :doc:`../../suite/contacts/contact_field_create` with a unique
+name is possible, and a `list of fields <../../suite/contacts/contact_field_list.html> can be queried. Read-only fields cannot be updated.
+
 .. list-table:: System Fields
    :header-rows: 1
    :widths: 10 40 40 40
