@@ -35,7 +35,7 @@ Key-value pairs which identify the contact.
      - ID assigned to a customer's external application, and is used to identify contacts created or modified by the external (3rd party) applications, [source_id]
      -
 
-See `Creating a Contact <creating_a_contact.html>`_ for further information.
+See :doc:`contact_create` for further information.
 
 Errors
 ------
