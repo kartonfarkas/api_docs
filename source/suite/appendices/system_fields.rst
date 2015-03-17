@@ -15,7 +15,7 @@ name is possible, and the `list of fields <../../suite/contacts/contact_field_li
    * - 0
      - Interests
      - interests
-     - *Yes*
+     - **Yes**
    * - 1
      - First Name
      - shorttext
@@ -123,19 +123,19 @@ name is possible, and the `list of fields <../../suite/contacts/contact_field_li
    * - 27
      - Avg. length of visit (minutes)
      - special
-     - *Yes*
+     - **Yes**
    * - 28
      - Page views per day
      - special
-     - *Yes*
+     - **Yes**
    * - 29
      - Days since last e-mail sent
      - special
-     - *Yes*
+     - **Yes**
    * - 30
      - Response rate (% of campaigns sent)
      - special
-     - *Yes*
+     - **Yes**
    * - 31
      - Opt-In
      - special
@@ -143,15 +143,15 @@ name is possible, and the `list of fields <../../suite/contacts/contact_field_li
    * - 32
      - User status
      - special
-     - *Yes*
+     - **Yes**
    * - 33
      - Contact source
      - special
-     - *Yes*
+     - **Yes**
    * - 34
      - Contact form
      - special
-     - *Yes*
+     - **Yes**
    * - 35
      - Registration Language
      - singlechoice
@@ -159,7 +159,7 @@ name is possible, and the `list of fields <../../suite/contacts/contact_field_li
    * - 36
      - Newsletter
      - special
-     - *Yes*
+     - **Yes**
    * - 37
      - Mobile
      - shorttext
@@ -203,8 +203,8 @@ name is possible, and the `list of fields <../../suite/contacts/contact_field_li
    * - 47
      - E-Mail valid
      - special
-     - *Yes*
+     - **Yes**
    * - 48
      - Date of first registration
      - special
-     - *Yes*
+     - **Yes**
