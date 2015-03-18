@@ -35,7 +35,7 @@ Parameters
    * - name
      - string
      - Name of the email campaign
-     -
+     - Empty string is not accepted.
    * - additional_linktracking_parameters
      - string
      - Additional url parameters that are added to the tracked links url when redirected.
@@ -122,11 +122,6 @@ Errors
      - 6025
      - No such campaign
      -
-   * - 403
-     - 6036
-     - Additional tracking parameters are not enabled.
-     - If the "Enable additional campaign specific tracking params" feature is not enabled, then
-       additional_linktracking_parameters cannot be set. Ask for this feature from your Account Manager.
    * - 400
      - 6037
      - Campaign is not editable
@@ -134,8 +129,13 @@ Errors
    * - 400
      - 6038
      - Campaign name is invalid
-     -
+     - Empty string is not accepted.
    * - 400
      - 6023
      - Campaign name already taken
      -
+   * - 403
+     - 6036
+     - Additional tracking parameters are not enabled.
+     - If the "Enable additional campaign specific tracking params" feature is not enabled, then
+       additional_linktracking_parameters cannot be set. Ask for this feature from your Account Manager.
