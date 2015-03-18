@@ -127,3 +127,15 @@ Errors
      - Additional tracking parameters are not enabled.
      - If the "Enable additional campaign specific tracking params" feature is not enabled, then
        additional_linktracking_parameters cannot be set. Ask for this feature from your Account Manager.
+   * - 400
+     - 6037
+     - Campaign is not editable
+     -
+   * - 400
+     - 6038
+     - Campaign name is invalid
+     -
+   * - 400
+     - 6023
+     - Campaign name already taken
+     -
