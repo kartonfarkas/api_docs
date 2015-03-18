@@ -119,6 +119,10 @@ Errors
      - No email ID provided
      -
    * - 400
+     - 6023
+     - Campaign name already taken
+     -
+   * - 400
      - 6025
      - No such campaign
      -
@@ -130,10 +134,6 @@ Errors
      - 6038
      - Campaign name is invalid
      - Empty string is not accepted.
-   * - 400
-     - 6023
-     - Campaign name already taken
-     -
    * - 403
      - 6036
      - Additional tracking parameters are not enabled.
