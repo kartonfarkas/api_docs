@@ -3,10 +3,12 @@ Listing Contacts in a Contact List
 
 Generates a list of users and their IDs in a contact list.
 
+.. note:: This function provides the contact list immediately.
+
 Endpoint
 --------
 
-``GET /api/v2/contactlist/<list_id>``
+``GET /api/v2/internal/<customerId>/contactlist/list/id=<contact_list_id>&limit=<limit>&offset=<offset>``
 
 Parameters
 ----------
@@ -19,10 +21,27 @@ Parameters
      - Type
      - Description
      - Comments
-   * - <list_id>
+   * - list_id
      - int
      - ID of the contact list
      -
+
+.. list-table:: **Optional Parameters**
+   :header-rows: 1
+   :widths: 20 20 40 40
+
+   * - Name
+     - Type
+     - Description
+     - Comments
+   * - limit
+     - int
+     - Defines how many IDs are listed, its maximum value is 1000000, part of the URI
+     -
+   * - offset
+     - int
+     - Defines the ID to start listing from, part of the URI
+     - The offset of the first contact ID is 0.
 
 URI Example
 -----------
