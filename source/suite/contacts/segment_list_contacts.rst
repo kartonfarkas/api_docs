@@ -43,11 +43,6 @@ Parameters
      - Defines the ID to start listing from, part of the URI
      - The offset of the first contact ID is 0.
 
-URI Example
------------
-
-* /api/v2/filter/100011553/contacts/offset=0&limit=1000
-
 Result Example
 --------------
 
