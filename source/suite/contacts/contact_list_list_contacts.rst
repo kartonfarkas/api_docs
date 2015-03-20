@@ -8,7 +8,7 @@ Generates a list of users and their IDs in a contact list.
 Endpoint
 --------
 
-``GET /api/v2/internal/<customerId>/contactlist/list/id=<contact_list_id>&limit=<limit>&offset=<offset>``
+``GET /api/v2/contactlist/<list_id>``
 
 Parameters
 ----------

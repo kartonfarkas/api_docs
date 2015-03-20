@@ -8,7 +8,7 @@ Generates a list of contacts after a specific segment (i.e. filter) has been app
 Endpoint
 --------
 
-``GET/api/v2/filter/<segment_id>/contacts/offset=<offset>&limit=<limit>``
+``GET /api/v2/filter/<segment_id>/contacts``
 
 Parameters
 ----------
@@ -42,6 +42,11 @@ Parameters
      - int
      - Defines the ID to start listing from, part of the URI
      - The offset of the first contact ID is 0.
+
+URI Example
+-----------
+
+* /api/v2/filter/100011553/contacts/offset=0&limit=1000
 
 Result Example
 --------------
