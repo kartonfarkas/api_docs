@@ -8,7 +8,7 @@ Generates a list of users and their IDs in a contact list.
 Endpoint
 --------
 
-``GET /api/v2/contactlist/<list_id>``
+``GET /api/v2/contactlist/<list_id>/contacts``
 
 Parameters
 ----------
@@ -46,7 +46,8 @@ Parameters
 URI Example
 -----------
 
-* ``/api/v2/contactlist/123456``
+* ``/api/v2/contactlist/123456/contacts``
+* ``/api/v2/contactlist/123456/contacts/limit=1000&offset=5000``
 
 Resulting Data Structure
 ------------------------
