@@ -7,7 +7,7 @@ of all contacts.
 Endpoint
 --------
 
-``GET /api/v2/contact/query/return=``
+``GET /api/v2/contact/query/return=<field_id>``
 
 Parameters
 ----------
@@ -24,9 +24,6 @@ Parameters
      - int
      - Field ID used to generate the list.
      -
-
-.. include:: ptest2.rst
-.. include:: ptest2.rst
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
