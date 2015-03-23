@@ -33,8 +33,8 @@ Parameters
      - Type
      - Description
      - Comments
-   * - field_id
-     - int
+   * - <field_id>
+     - mixed
      - Value determines if a contact should be returned or not, [field_value]
      - Can be an empty string as that will also match to cells with NULL value.
    * - limit
