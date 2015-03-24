@@ -22,7 +22,7 @@ Parameters
    * - email_id
      - int
      - ID of a specific email
-     -
+     - Campaign cannot be modified when it is template-based or it has already been launched.
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
@@ -129,7 +129,7 @@ Errors
    * - 400
      - 6037
      - Campaign is not editable
-     -
+     - Campaign cannot be modified when it is template-based or it has already been launched.
    * - 400
      - 6038
      - Campaign name is invalid
