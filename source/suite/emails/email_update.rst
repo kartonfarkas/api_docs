@@ -38,23 +38,23 @@ Parameters
      - Empty string is not accepted.
    * - language
      - string
-     - The language of the email campaign
-     - For example 'en' or 'de'.
+     - Language of the email campaign
+     - Examples are 'en' or 'de'.
    * - subject
      - string
-     - The subject of the email campaign
-     - Can not be empty.
+     - Subject of the email campaign
+     - It cannot be empty.
    * - additional_linktracking_parameters
      - string
-     - Additional url parameters that are added to the tracked links url when redirected.
+     - Additional URL parameters that are added to the tracked links URL when redirected.
      - Only works if this feature is enabled for the customer.
    * - text_source
      - string
-     - The text source of a custom-html campaign.
+     - Text source of a custom HTML campaign
      - Only works if the campaign is not template-based.
    * - html_source
      - string
-     - The html source of a custom-html campaign.
+     - Html source of a custom HTML campaign
      - Only works if the campaign is not template-based.
 
 Request Example
@@ -158,11 +158,11 @@ Errors
    * - 400
      - 6039
      - Campaign language is invalid
-     - For available languages see the /languages api.
+     - For available languages, see :doc:`../appendices/language_codes`.
    * - 400
      - 6040
      - Campaign subject is invalid
-     - The subject of a campaign can not be empty.
+     - Subject of a campaign cannot be empty.
    * - 400
      - 6041
      - Campaign source cannot be changed for template based campaigns
