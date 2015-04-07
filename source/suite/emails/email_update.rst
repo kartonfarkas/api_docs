@@ -22,7 +22,7 @@ Parameters
    * - email_id
      - int
      - ID of a specific email
-     - Campaign cannot be modified when it is template-based or it has already been launched.
+     - Campaign cannot be modified when it has already been launched.
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
@@ -36,10 +36,26 @@ Parameters
      - string
      - Name of the email campaign
      - Empty string is not accepted.
+   * - language
+     - string
+     - The language of the email campaign
+     - For example 'en' or 'de'.
+   * - subject
+     - string
+     - The subject of the email campaign
+     - Can not be empty.
    * - additional_linktracking_parameters
      - string
      - Additional url parameters that are added to the tracked links url when redirected.
      - Only works if this feature is enabled for the customer.
+   * - text_source
+     - string
+     - The text source of a custom-html campaign.
+     - Only works if the campaign is not template-based.
+   * - html_source
+     - string
+     - The html source of a custom-html campaign.
+     - Only works if the campaign is not template-based.
 
 Request Example
 ---------------
@@ -139,3 +155,15 @@ Errors
      - Additional tracking parameters are not enabled.
      - If the "Enable additional campaign specific tracking params" feature is not enabled, then
        additional_linktracking_parameters cannot be set. Ask for this feature from your Account Manager.
+   * - 400
+     - 6039
+     - Campaign language is invalid
+     - For available languages see the /languages api.
+   * - 400
+     - 6040
+     - Campaign subject is invalid
+     - The subject of a campaign can not be empty.
+   * - 400
+     - 6041
+     - Campaign source cannot be changed for template based campaigns
+     - Only custom-html campaigns can have custom text or html source.
