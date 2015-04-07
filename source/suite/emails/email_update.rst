@@ -166,4 +166,4 @@ Errors
    * - 400
      - 6041
      - Campaign source cannot be changed for template based campaigns
-     - Only custom-html campaigns can have custom text or html source.
+     - Only custom HTML campaigns can have custom text or html source.
