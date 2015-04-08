@@ -35,7 +35,7 @@ Parameters
      -
    * - distribution_method
      - string
-     - **ftp** or **local**
+     - **ftp**, **sftp**, **local**, **mail**
      - If **ftp** is selected, then the *ftp_settings* parameter is required for this to work.
    * - contact_fields
      - int array
@@ -96,9 +96,6 @@ Request Example
 
    {
      "distribution_method": "ftp",
-     "origin": "form",
-     "origin_id": "123",
-     "time_range": ["2012-02-09", "2012-04-02"],
      "contact_fields": ["1", "3", "106533"],
      "delimiter": ";",
      "add_field_names_header": 1,
