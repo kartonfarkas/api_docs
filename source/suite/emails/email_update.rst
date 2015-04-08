@@ -39,11 +39,11 @@ Parameters
    * - language
      - string
      - Language of the email campaign
-     - Examples are 'en' or 'de'.
+     - Must be expressed using the correct ISO code, e.g. 'en', 'de', etc.
    * - subject
      - string
      - Subject of the email campaign
-     - It cannot be empty.
+     - Cannot be empty.
    * - additional_linktracking_parameters
      - string
      - Additional URL parameters that are added to the tracked links URL when redirected.
@@ -51,11 +51,11 @@ Parameters
    * - text_source
      - string
      - Text source of a custom HTML campaign
-     - Only works if the campaign is not template-based.
+     - Does not work for template-based campaigns.
    * - html_source
      - string
      - Html source of a custom HTML campaign
-     - Only works if the campaign is not template-based.
+     - Does not work for template-based campaigns.
 
 Request Example
 ---------------
@@ -145,7 +145,7 @@ Errors
    * - 400
      - 6037
      - Campaign is not editable
-     - Campaign cannot be modified when it is template-based or it has already been launched.
+     - Campaign cannot be modified if it is template-based or has already been launched.
    * - 400
      - 6038
      - Campaign name is invalid
@@ -154,11 +154,11 @@ Errors
      - 6036
      - Additional tracking parameters are not enabled.
      - If the "Enable additional campaign specific tracking params" feature is not enabled, then
-       additional_linktracking_parameters cannot be set. Ask for this feature from your Account Manager.
+       additional_linktracking_parameters cannot be set. Please contact Emarsys Support to find out more about this feature.
    * - 400
      - 6039
      - Campaign language is invalid
-     - For available languages, see :doc:`../appendices/language_codes`.
+     - Unsupported/erroneous language code used. For available languages, see :doc:`../appendices/language_codes`.
    * - 400
      - 6040
      - Campaign subject is invalid
@@ -166,4 +166,4 @@ Errors
    * - 400
      - 6041
      - Campaign source cannot be changed for template based campaigns
-     - Only custom HTML campaigns can have custom text or html source.
+     - Only custom HTML campaigns can have custom text or HTML source.
