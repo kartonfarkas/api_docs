@@ -128,8 +128,11 @@ Campaign Specific External Data
 The External Event entry point allows you to post a JSON data structure along with the triggered external event, which acts as content place holders for personalization.
 This JSON data structure is passed along the program, and can be used to customize content for recipients as the program is run. For example, this data is used to dynamically insert a relevant field value such as *firstname*. When the JSON object is present, the API based nodes will receive this content in the data field.
 
-PHP Implementation
-------------------
+Example Implementation in PHP
+-----------------------------
+
+To demonstrate the concepts above, we present an oversimplified example implementation in PHP below. We will assume
+that you already have a class called MyService that performs the desired action when the trigger function is called on one of it's instances.
 
 Suppose you want to use a class that can trigger the required actions when passed an ServiceRequest object, the trigger
 API would then look something like this:
