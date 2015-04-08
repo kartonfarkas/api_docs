@@ -35,7 +35,7 @@ support token-based authentication.
 
 **Username**
 
-This field contains the username your Account Manager gave you. It is usually in the following
+This field contains the username you were provided during onboarding. It is usually in the following
 format: account_name00X, where X is a digit.
 
 .. note:: Always substitute your own API user name for each request.

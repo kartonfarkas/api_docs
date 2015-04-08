@@ -56,4 +56,4 @@ Emails
    emails/condition_email.rst
    emails/voucher.rst
 
-If you would like to see use cases covering different marketing activities, please pass a request on to your Account Manager.
+If you would like to see use cases covering different marketing activities, please pass a request on to Emarsys Support.

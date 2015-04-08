@@ -1,1 +1,1 @@
-.. warning:: Please contact your Account Manager for details.
+.. warning:: Please contact Emarsys Support for details.
