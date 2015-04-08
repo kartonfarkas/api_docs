@@ -132,7 +132,7 @@ Example Implementation in PHP
 -----------------------------
 
 To demonstrate the concepts above, we present an oversimplified example implementation in PHP below. We will assume
-that you already have a class called MyService that performs the desired action when the trigger function is called on one of it's instances.
+that you already have a class called MyService that performs the desired action when the trigger function is called on one of its instances.
 
 Suppose you want to use a class that can trigger the required actions when passed an ServiceRequest object, the trigger
 API would then look something like this:
