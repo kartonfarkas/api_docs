@@ -36,7 +36,8 @@ Parameters
    * - distribution_method
      - string
      - **ftp**, **sftp**, **local**, **mail**
-     - If **ftp** is selected, then the *ftp_settings* parameter is required for this to work.
+     - If **ftp** is selected, host, username and password *ftp_settings* parameters are required for this to work.
+       If **sftp** is chosen, ftp_port is mandatory from *ftp_settings*.
    * - contact_fields
      - int array
      - It may contain any contact field ID except:
@@ -78,12 +79,12 @@ Parameters
      - Object with the following required fields:
 
        * *(string)* host
-       * *(integer)* port
+       * *(integer)* ftp_port
        * *(string)* username
        * *(string)* password
        * *(string)* folder – optional
 
-     - If *distribution_method* is **local**, then *ftp_settings* is ignored.
+     - If *distribution_method* is **local** or **mail**, then *ftp_settings* is ignored.
    * - notification_url
      - string
      - A request is sent to the url if the export is ready. This way it is not necessary to poll the export status.
