@@ -29,6 +29,6 @@ Perl
        "Created=\"$timestamp\"";
 
    $agent->default_header('X-WSSE' => $header);
-   my $response = $agent->get($url, content_type => 'application/json');
+   my $response = $agent->get($url);
 
    print $response->decoded_content . "\n";
