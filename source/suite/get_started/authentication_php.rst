@@ -35,8 +35,7 @@ PHP
        "Username=\"$username\", ".
        "PasswordDigest=\"$passwordDigest\", ".
        "Nonce=\"$nonce\", ".
-       "Created=\"$timestamp\", ",
-       'Content-Type: application/json'));
+       "Created=\"$timestamp\""));
 
    $output = curl_exec($ch);
    curl_close($ch);
