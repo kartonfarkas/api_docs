@@ -6,7 +6,7 @@ Ruby
    require 'time'
    require 'base64'
    require 'digest/sha1'
-   require 'net/http'
+   require 'net/https'
 
    username = 'bob001'
    secretKey = 'X4908hRffeH04F2ab5liCem0oiI'
@@ -27,10 +27,9 @@ Ruby
    uri = URI(url)
    req = Net::HTTP::Get.new(uri)
 
-   req['Content-Type'] = 'application/json'
    req['X-WSSE'] = header
 
-   res = Net::HTTP.start(uri.hostname, uri.port) do |http|
+   res = Net::HTTP.start(uri.hostname, uri.port, :use_ssl => true) do |http|
      http.request(req)
    end
 
