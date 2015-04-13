@@ -40,6 +40,9 @@
 
     <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
 
+    <link rel="stylesheet" href="_static/css/application.css" type="text/css" />
+
+
   {% for cssfile in css_files %}
     <link rel="stylesheet" href="{{ pathto(cssfile, 1) }}" type="text/css" />
   {% endfor %}
@@ -77,50 +80,78 @@
 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body role="document">
 
-  <div class="wy-grid-for-nav">
+
+  {# MAIN NAV #}
+  <section class="main-navigation-container">
+    <nav class="grid main-navigation">
+      <div class="unit emarsys-logo"><a href="http://www.emarsys.com/">Emarsys</a></div>
+      <div class="unit main-menu">
+        <ul class="main-menu-list plain horizontal">
+          <li><a href="http://www.emarsys.com/">Home</a></li>
+          <li><a href=" http://documentation.emarsys.com/">Dokumentation</a></li>
+          <li><a href="https://dev.emarsys.com/" class="active-menu">Developers</a></li>
+          <li><a href="http://help.emarsys.com/">Support</a></li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+
+  {# BREADCRUMBS #}
+  <div class="grid">
+    <div class="unit">
+      {% include "breadcrumbs.html" %}
+    </div>
+  </div>
+
+
+  <div class="grid">
 
     {# SIDE NAV, TOGGLES ON MOBILE #}
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
-      <div class="wy-side-nav-search">
-        {% block sidebartitle %}
-          <a href="{{ pathto(master_doc) }}" class="fa fa-home"> {{ project }}</a>
-        {% endblock %}
-        {% include "searchbox.html" %}
-      </div>
-
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-        {% set toctree = toctree(maxdepth=2, collapse=False, includehidden=True) %}
-        {% if toctree %}
-            {{ toctree }}
-        {% else %}
-            <!-- Local TOC -->
-            <div class="local-toc">{{ toc }}</div>
-        {% endif %}
-      </div>
-      &nbsp;
-    </nav>
-
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      {# MOBILE NAV, TRIGGLES SIDE NAV ON TOGGLE #}
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="{{ pathto(master_doc) }}">{{ project }}</a>
-      </nav>
-
-
-      {# PAGE CONTENT #}
-      <div class="wy-nav-content">
-        <div class="rst-content">
-          {% include "breadcrumbs.html" %}
-          <div role="main" class="document">
-            {% block body %}{% endblock %}
-          </div>
-          {% include "footer.html" %}
+    <div class="unit sidebar">
+      <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+        <div class="wy-side-nav-search">
+          {% block sidebartitle %}
+            <a href="{{ pathto(master_doc) }}" class="fa fa-home"> {{ project }}</a>
+          {% endblock %}
+          {% include "searchbox.html" %}
         </div>
-      </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          {% set toctree = toctree(maxdepth=2, collapse=False, includehidden=True) %}
+          {% if toctree %}
+              {{ toctree }}
+          {% else %}
+              <!-- Local TOC -->
+              <div class="local-toc">{{ toc }}</div>
+          {% endif %}
+        </div>
+        &nbsp;
+      </nav>
+    </div>
+
+    <div class="unit page-content">
+      <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+        {# MOBILE NAV, TRIGGLES SIDE NAV ON TOGGLE #}
+        <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="{{ pathto(master_doc) }}">{{ project }}</a>
+        </nav>
+
+
+        {# PAGE CONTENT #}
+        <div class="wy-nav-content">
+          <div class="rst-content">
+            <div role="main" class="document">
+              {% block body %}{% endblock %}
+            </div>
+            {% include "footer.html" %}
+          </div>
+        </div>
+    </div>
 
     </section>
 

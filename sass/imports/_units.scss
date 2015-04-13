@@ -1,0 +1,244 @@
+/* Icons---------------------- */
+.icon-defs {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.icon {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+
+  &.white {
+    fill: $color-white;
+  }
+
+  &.black {
+    fill: $color-white;
+  }
+}
+
+/* Forms ---------------------- */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+
+  legend {
+    padding-bottom: 0.5*$base-scale;
+  }
+}
+
+label {
+  font-family: $font-family-input;
+  font-size: $font-size-small;
+  line-height: $base-scale;
+
+  &.required {
+    font-weight: bold;
+
+    &:before {
+      content: "*";
+    }
+  }
+
+  &.right {
+    text-align: right;
+  }
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+input[type="tel"],
+input[type="search"],
+input[type="number"],
+textarea {
+  width: $unit-twelve;
+  padding: 8px 10px 9px;
+  font-family: $font-family-input;
+  font-size: $font-size-small;
+  color: $input-color-font;
+  border: 1px solid $input-color-border;
+  outline: none;
+  border-radius: $radius-small;
+  @include transition(all 0.15s ease-out);
+
+  &:focus {
+    background-color: lighten($color-blue, 80%);
+    border-color: $color-blue;
+    box-shadow: 0 1px 10px rgba($color-blue, 0.2);
+  }
+}
+
+textarea {
+  resize: vertical;
+  line-height: $base-scale;
+}
+
+input::-webkit-input-placeholder, input::-moz-placeholder, input::placeholder {
+  color: $input-color-placeholder;
+  @include font-smoothing(antialiased);
+}
+
+.data-label {
+  font-family: $font-family-input;
+  font-size: $font-size-small;
+  line-height: $base-scale;
+  color: $font-color-secondary;
+
+  &.inline {
+    display: inline;
+  }
+
+  a {
+    display: block;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.form-field {
+  @include flexbox((
+    display: flex,
+    flex-flow: row wrap,
+    justify-content: center,
+    align-items: center
+  ));
+  min-height: 1.25*$base-scale;
+  margin-bottom: 0.5*$base-scale;
+
+  .field-label {
+    @include flex(1);
+
+    &.inline {
+      text-align: right;
+
+      label {
+        margin-right: $grid-gutter;
+      }
+    }
+  }
+
+  .field-input {
+    width: $unit-twelve;
+    padding-left: $unit-four;
+
+    .info-panel:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .field-label ~ .field-input {
+    width: auto;
+    padding-left: 0;
+    @include flex(2);
+  }
+}
+
+.form-actions {
+  @include flexbox((
+    display: flex,
+    flex-flow: row wrap,
+    justify-content: center,
+    align-items: center
+  ));
+  padding-top: 0.5*$base-scale;
+  font-family: $font-family-input;
+  font-size: $font-size-small;
+  color: $font-color-secondary;
+  border-top: 1px solid $color-light;
+
+  &.plain {
+    padding-top: 0;
+    border-top: none;
+  }
+
+  a {
+    color: $color-red;
+    text-decoration: underline;
+  }
+}
+
+.button {
+  @include flexbox((
+    display: flex,
+    flex-flow: row wrap,
+    justify-content: center,
+    align-items: center
+  ));
+  height: 1.3*$base-scale;
+  padding: 0 0.45*$base-scale;
+  font-family: $font-family-base;
+  font-size: $font-size-small;
+  font-weight: bold;
+  color: $color-white;
+  text-decoration: none;
+  background-color: $color-secondary;
+  border: none;
+  border-radius: $radius-small;
+  outline: none;
+  cursor: pointer;
+  appearance: none;
+  @include font-smoothing(antialiased);
+
+  &:hover {
+    color: $color-white;
+  }
+
+  &:active {
+    background-color: darken($color-secondary, 10%);
+  }
+
+  &.full-width {
+    width: $unit-twelve;
+  }
+
+  &:disabled {
+    cursor: normal;
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+  .icon {
+    margin-right: 0.25*$base-scale;
+  }
+}
+
+.button-panel {
+  .button {
+    border-radius: 0;
+  }
+
+  li:first-child .button {
+    border-radius: $radius-small 0 0 $radius-small;
+  }
+
+  li:last-child .button {
+    border-radius: 0 $radius-small $radius-small 0;
+  }
+
+  li:only-child .button {
+    border-radius: $radius-small;
+  }
+}
+
+.panel {
+  padding: 0.5*$base-scale;
+  background-color: $color-panel;
+}
+
+
+.horizontal {
+  @include flexbox((
+    display: flex,
+    flex-flow: row wrap,
+    justify-content: flex-start,
+    align-items: center
+  ));
+}
