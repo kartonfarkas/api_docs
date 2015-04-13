@@ -34,7 +34,6 @@ C#
                var httpRequest = (HttpWebRequest)WebRequest.Create("https://trunk-int.s.emarsys.com/api/v2/" + uri);
                httpRequest.Method = "GET";
                httpRequest.Headers.Add("X-WSSE: " + authHeader);
-               httpRequest.ContentType = "application/json";
 
                var response = (HttpWebResponse) httpRequest.GetResponse();
                using (var reader = new StreamReader(response.GetResponseStream()))
@@ -64,8 +63,8 @@ C#
        {
            public static void Main(string[] args)
            {
-               var key = "your api username";
-               var secret = "your api password";
+               var key = "bob001";
+               var secret = "abcdefghijkl0123456789";
                var client = new SuiteApiClientExapmle(key, secret);
                var result = client.Get("field");
 

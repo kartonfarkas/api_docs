@@ -45,7 +45,6 @@ Java
 
            con.setRequestMethod("GET");
            con.addRequestProperty("X-WSSE", getSignature());
-           con.addRequestProperty("Content-Type", "application/json");
 
            BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
            String inputLine;
