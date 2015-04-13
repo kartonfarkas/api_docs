@@ -12,6 +12,9 @@ received. The actual launch itself will take place after the launch request has 
    launch progress, where the *api_status* and *api_error* parameters will contain the
    status.
 
+.. note:: If an email campaign is launched, the segment or contact list specified in
+          :doc:`email_create` receives it.
+
 Endpoint
 --------
 
