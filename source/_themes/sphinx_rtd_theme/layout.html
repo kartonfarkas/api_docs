@@ -11,11 +11,13 @@
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 <head>
+<!--
   <script>
     if (window.location.hostname && window.location.hostname !== "dev.emarsys.com") {
       window.location.hostname = "dev.emarsys.com";
     }
   </script>
+-->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {% block htmltitle %}
@@ -39,8 +41,6 @@
   {% endif %}
 
     <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
-
-    <link rel="stylesheet" href="_static/css/application.css" type="text/css" />
 
 
   {% for cssfile in css_files %}
