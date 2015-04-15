@@ -67,23 +67,23 @@ Errors
      - Reply Code
      - Message
      - Description
-   * -
-     -
-     - "distribution_method" parameter value is invalid.
+   * - 404
+     - 4004
+     - "distribution_method" of this export is not compatible.
      - Distribution method is set to *ftp*, but *local* is required.
-   * -
-     -
+   * - 404
+     - 4005
      - Export is currently in progress. Please wait until that has finished.
      - Process of exporting is not finished yet.
-   * -
-     -
+   * - 500
+     - 4007
      - Server error occurred. Please choose another file.
      - Server Error.
-   * -
-     -
+   * - 410
+     - 4003
      - Exported data is not available.
      - Export is completed, but the file is not stored anymore.
-   * -
-     -
+   * - 404
+     - 4006
      - Internal error occurred. File was not found.
      - Internal Server Error.
