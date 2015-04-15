@@ -1,7 +1,7 @@
 Querying Export Data
 ====================
 
-Results in data extraction. For example, if data is exported with :doc:`export_contact_list` into a csv file and
+Results in data extraction. For example, if data is exported with :doc:`../../suite/exports/export_contact_list` into a csv file and
 distribution_method is set to local, the file is stored in our server and it can be queried also through the API (besides
 through FTP or WebDAV).
 
