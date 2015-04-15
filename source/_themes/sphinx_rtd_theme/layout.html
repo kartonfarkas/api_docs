@@ -88,12 +88,17 @@
     <nav class="grid main-navigation">
       <div class="unit emarsys-logo"><a href="http://www.emarsys.com/">Emarsys</a></div>
       <div class="unit main-menu">
+
         <ul class="main-menu-list plain horizontal">
           <li><a href="http://www.emarsys.com/">Home</a></li>
           <li><a href=" http://documentation.emarsys.com/">Dokumentation</a></li>
           <li><a href="https://dev.emarsys.com/" class="active-menu">Developers</a></li>
           <li><a href="http://help.emarsys.com/">Support</a></li>
         </ul>
+      </div>
+
+      <div class="unit docs-search-container">
+        {% include "searchbox.html" %}
       </div>
     </nav>
   </section>
@@ -112,9 +117,6 @@
     {# SIDE NAV, TOGGLES ON MOBILE #}
     <div class="unit sidebar">
       <nav data-toggle="wy-nav-shift" class="wy-nav-side">
-        <div class="wy-side-nav-search">
-          {% include "searchbox.html" %}
-        </div>
 
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           {% set toctree = toctree(maxdepth=2, collapse=False, includehidden=True) %}
