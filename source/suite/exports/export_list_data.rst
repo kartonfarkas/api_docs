@@ -77,7 +77,7 @@ Errors
    * - 500
      - 4007
      - Server error occurred. Please choose another file.
-     - Server Error.
+     - 
    * - 410
      - 4003
      - Exported data is not available.
@@ -85,4 +85,4 @@ Errors
    * - 404
      - 4006
      - Internal error occurred. File was not found.
-     - Internal Server Error.
+     -
