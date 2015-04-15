@@ -156,15 +156,11 @@ a {
 
 .unit.sidebar {
   width: $unit-four !important;
-  margin-top: 0.75*$base-scale;
+  margin-top: 0.25*$base-scale;
 
 
   .stickynav {
     position: relative !important;
-  }
-
-  .wy-side-nav-search {
-    background-color: #F7F7F7;
   }
 
   .wy-nav-side {
@@ -187,7 +183,13 @@ a {
   }
 }
 
+/* Content ---------------------- */
 
+.rst-content {
+  h1 {
+    margin-top: 0;
+  }
+}
 
 
 .unit.page-content {

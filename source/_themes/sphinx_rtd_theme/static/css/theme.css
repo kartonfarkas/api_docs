@@ -6916,35 +6916,37 @@ a:active {
 /* line 157, ../../../../../sass/imports/_shared.scss */
 .unit.sidebar {
   width: 33.33333% !important;
-  margin-top: 1.23rem;
+  margin-top: 0.41rem;
 }
 /* line 162, ../../../../../sass/imports/_shared.scss */
 .unit.sidebar .stickynav {
   position: relative !important;
 }
 /* line 166, ../../../../../sass/imports/_shared.scss */
-.unit.sidebar .wy-side-nav-search {
-  background-color: #F7F7F7;
-}
-/* line 170, ../../../../../sass/imports/_shared.scss */
 .unit.sidebar .wy-nav-side {
   background-color: #F7F7F7;
 }
-/* line 175, ../../../../../sass/imports/_shared.scss */
+/* line 171, ../../../../../sass/imports/_shared.scss */
 .unit.sidebar .wy-menu-vertical a {
   color: #163c8e;
 }
-/* line 178, ../../../../../sass/imports/_shared.scss */
+/* line 174, ../../../../../sass/imports/_shared.scss */
 .unit.sidebar .wy-menu-vertical a:hover {
   color: #72B626;
 }
-/* line 182, ../../../../../sass/imports/_shared.scss */
+/* line 178, ../../../../../sass/imports/_shared.scss */
 .unit.sidebar .wy-menu-vertical a.current {
   background-color: #72B626;
   color: #fff;
 }
 
-/* line 193, ../../../../../sass/imports/_shared.scss */
+/* Content ---------------------- */
+/* line 189, ../../../../../sass/imports/_shared.scss */
+.rst-content h1 {
+  margin-top: 0;
+}
+
+/* line 195, ../../../../../sass/imports/_shared.scss */
 .unit.page-content {
   width: 66.66667% !important;
 }
