@@ -69,21 +69,21 @@ Errors
      - Description
    * -
      -
-     - Invalid distribution method
+     - "distribution_method" parameter value is invalid.
      - Distribution method is set to *ftp*, but *local* is required.
    * -
      -
-     - Export is in progress
+     - Export is currently in progress. Please wait until that has finished.
      - Process of exporting is not finished yet.
    * -
      -
-     - Insecure file path
+     - Server error occurred. Please choose another file.
      - Server Error.
    * -
      -
-     - Exported data is not available anymore
+     - Exported data is not available.
      - Export is completed, but the file is not stored anymore.
    * -
      -
-     - File not found
+     - Internal error occurred. File was not found.
      - Internal Server Error.
