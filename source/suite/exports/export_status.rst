@@ -19,7 +19,7 @@ Parameters
      - Type
      - Description
      - Comments
-   * - <id>
+   * - id
      - int
      - Requested export ID, part of the URI
      -
