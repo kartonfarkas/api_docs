@@ -113,9 +113,6 @@
     <div class="unit sidebar">
       <nav data-toggle="wy-nav-shift" class="wy-nav-side">
         <div class="wy-side-nav-search">
-          {% block sidebartitle %}
-            <a href="{{ pathto(master_doc) }}" class="fa fa-home"> {{ project }}</a>
-          {% endblock %}
           {% include "searchbox.html" %}
         </div>
 
@@ -128,7 +125,6 @@
               <div class="local-toc">{{ toc }}</div>
           {% endif %}
         </div>
-        &nbsp;
       </nav>
     </div>
 
