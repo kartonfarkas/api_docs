@@ -17,6 +17,7 @@ endpoint. Alternatively, it is possible to specify a *notification_url* which is
 
    export_changes.rst
    export_contact_lists.rst
+   export_segments.rst
    export_registrations.rst
    export_responses.rst
    export_status.rst
