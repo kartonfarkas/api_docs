@@ -55,7 +55,7 @@ Parameters
      - Type
      - Description
      - Comments
-   * - contactlist_id
+   * - contactlist
      - int
      - If you check the contacts who registered within a contact list
      -
@@ -96,8 +96,7 @@ Request Example
 
    {
      "distribution_method": "ftp",
-     "origin": "form",
-     "origin_id": "123",
+     "contactlist": "111111111",
      "time_range": ["2012-02-09", "2012-04-02"],
      "contact_fields": ["1","3","106533"],
      "delimiter": ";",
@@ -123,7 +122,7 @@ Result Example
      "replyText": "OK",
      "data":
      {
-       "id": 2140
+       "id": 222222222Delete
      }
    }
 
