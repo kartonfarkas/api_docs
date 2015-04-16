@@ -72,7 +72,7 @@ Errors
    * - 404
      - 4004
      - "distribution_method" of this export is not compatible.
-     - Distribution method is set to *ftp*/*sft*/*mail*, but *local* is required.
+     - Distribution method is set to *ftp*/*sftp*/*mail*, but *local* is required.
    * - 404
      - 4005
      - Export is currently in progress. Please wait until that has finished.
