@@ -59,7 +59,7 @@ standard.
 
 .. note::
 
-   If no timezone is provided, Emarsys server's timezone is assumed, which is GMT+1. Under these circumstances, this timestamp "2014-01-01T01:01:01" would be translated to "2014-01-01T01:01:01+01:00". During daylight saving time, Emarsys server's timezone is GMT+2.
+   If no timezone is provided, Emarsys server's timezone is assumed, which is GMT+1. Under these circumstances, the timestamp "2014-01-01T01:01:01" would be translated to "2014-01-01T01:01:01+01:00". During daylight saving time, Emarsys server's timezone is GMT+2.
 
 .. note::
 
