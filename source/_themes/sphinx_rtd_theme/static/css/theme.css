@@ -4970,7 +4970,7 @@ div[class^='highlight'] pre {
 /* line 4, ../../../../../sass/imports/_theme.scss */
 .wy-menu-vertical li.on a, .wy-menu-vertical li.current > a {
   color: #404040;
-  padding: 0.4045em 1.618em;
+  padding: 0.5em 1em;
   font-weight: bold;
   position: relative;
   background: #e6e6e6;
@@ -5019,7 +5019,6 @@ div[class^='highlight'] pre {
 
 /* line 4, ../../../../../sass/imports/_theme.scss */
 .wy-menu-vertical a:hover {
-  color: #72B626;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -6782,29 +6781,35 @@ body {
   max-width: 1000px;
   margin: 0 auto;
 }
+@media screen and (min-width: 760px) {
+  /* line 15, ../../../../../sass/imports/_shared.scss */
+  .grid {
+    max-width: 1200px;
+  }
+}
 
-/* line 21, ../../../../../sass/imports/_shared.scss */
+/* line 24, ../../../../../sass/imports/_shared.scss */
 .grid .grid {
   width: auto;
   min-width: 0;
   margin: 0 0.984rem;
 }
 
-/* line 27, ../../../../../sass/imports/_shared.scss */
+/* line 30, ../../../../../sass/imports/_shared.scss */
 .grid {
   *zoom: 1;
 }
-/* line 30, ../../../../../sass/imports/_shared.scss */
+/* line 33, ../../../../../sass/imports/_shared.scss */
 .grid:before, .grid:after {
   content: " ";
   display: table;
 }
-/* line 35, ../../../../../sass/imports/_shared.scss */
+/* line 38, ../../../../../sass/imports/_shared.scss */
 .grid:after {
   clear: both;
 }
 
-/* line 40, ../../../../../sass/imports/_shared.scss */
+/* line 43, ../../../../../sass/imports/_shared.scss */
 .unit {
   display: block;
   float: left;
@@ -6812,7 +6817,7 @@ body {
   width: 100%;
 }
 
-/* line 47, ../../../../../sass/imports/_shared.scss */
+/* line 50, ../../../../../sass/imports/_shared.scss */
 a {
   color: #163c8e;
   text-decoration: none;
@@ -6821,12 +6826,12 @@ a {
   -webkit-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
 }
-/* line 52, ../../../../../sass/imports/_shared.scss */
+/* line 55, ../../../../../sass/imports/_shared.scss */
 a:hover {
   color: #1945a4;
   text-decoration: underline;
 }
-/* line 57, ../../../../../sass/imports/_shared.scss */
+/* line 60, ../../../../../sass/imports/_shared.scss */
 a:active {
   color: #f26522;
   -moz-transition: none !important;
@@ -6836,117 +6841,145 @@ a:active {
 }
 
 /* Main Navigation ---------------------- */
-/* line 65, ../../../../../sass/imports/_shared.scss */
+/* line 68, ../../../../../sass/imports/_shared.scss */
 .main-navigation-container {
   background-color: #fff;
   box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
-/* line 70, ../../../../../sass/imports/_shared.scss */
+/* line 73, ../../../../../sass/imports/_shared.scss */
 .main-navigation {
   padding: 0.82rem 0;
 }
-/* line 73, ../../../../../sass/imports/_shared.scss */
+/* line 76, ../../../../../sass/imports/_shared.scss */
 .main-navigation .unit.emarsys-logo {
   width: 25%;
 }
-/* line 76, ../../../../../sass/imports/_shared.scss */
+/* line 79, ../../../../../sass/imports/_shared.scss */
 .main-navigation .unit.emarsys-logo a {
   display: block;
   text-indent: -999px;
   background: url("../images/logo_no_claim.png") center center no-repeat;
   height: 50px;
 }
-/* line 85, ../../../../../sass/imports/_shared.scss */
+/* line 87, ../../../../../sass/imports/_shared.scss */
 .main-navigation .unit.docs-search-container {
   width: 25%;
   float: right;
   margin-top: 0.492rem;
 }
-/* line 92, ../../../../../sass/imports/_shared.scss */
+/* line 94, ../../../../../sass/imports/_shared.scss */
 .main-navigation .unit.docs-search-container input[type="text"]:focus {
   border: 1px solid #163c8e;
   box-shadow: inset 0 1px 3px #ddd;
 }
-/* line 101, ../../../../../sass/imports/_shared.scss */
+/* line 102, ../../../../../sass/imports/_shared.scss */
 .main-navigation .unit.main-menu {
   width: 50%;
 }
-/* line 104, ../../../../../sass/imports/_shared.scss */
+/* line 105, ../../../../../sass/imports/_shared.scss */
 .main-navigation .unit.main-menu .main-menu-list {
   margin-top: 0.738rem;
   float: right;
   font-size: 1rem;
   font-weight: 700;
 }
-/* line 111, ../../../../../sass/imports/_shared.scss */
+/* line 112, ../../../../../sass/imports/_shared.scss */
 .main-navigation .unit.main-menu .main-menu-list li {
   margin-left: 0.82rem;
   margin-right: 0.82rem;
 }
-/* line 115, ../../../../../sass/imports/_shared.scss */
+/* line 116, ../../../../../sass/imports/_shared.scss */
 .main-navigation .unit.main-menu .main-menu-list li:first-child {
   margin-left: 0;
 }
-/* line 119, ../../../../../sass/imports/_shared.scss */
+/* line 120, ../../../../../sass/imports/_shared.scss */
 .main-navigation .unit.main-menu .main-menu-list li:last-child {
   margin-right: 0;
 }
-/* line 125, ../../../../../sass/imports/_shared.scss */
+/* line 126, ../../../../../sass/imports/_shared.scss */
 .main-navigation .unit.main-menu .main-menu-list li a:visited {
   color: #163c8e;
 }
-/* line 129, ../../../../../sass/imports/_shared.scss */
+/* line 130, ../../../../../sass/imports/_shared.scss */
 .main-navigation .unit.main-menu .main-menu-list li a:hover {
   color: #f26522;
   text-decoration: underline;
 }
-/* line 134, ../../../../../sass/imports/_shared.scss */
+/* line 135, ../../../../../sass/imports/_shared.scss */
 .main-navigation .unit.main-menu .main-menu-list li a.active-menu {
   color: #f26522;
 }
 
 /* Breadcrumbs ---------------------- */
-/* line 150, ../../../../../sass/imports/_shared.scss */
+/* line 151, ../../../../../sass/imports/_shared.scss */
 .wy-breadcrumbs {
   margin: 1.23rem 0 0 0;
 }
 
 /* Sidebar ---------------------- */
-/* line 157, ../../../../../sass/imports/_shared.scss */
+/* line 158, ../../../../../sass/imports/_shared.scss */
 .unit.sidebar {
   width: 33.33333% !important;
-  margin-top: 0.41rem;
+  margin-top: 0.984rem;
 }
-/* line 162, ../../../../../sass/imports/_shared.scss */
+/* line 163, ../../../../../sass/imports/_shared.scss */
 .unit.sidebar .stickynav {
   position: relative !important;
 }
-/* line 166, ../../../../../sass/imports/_shared.scss */
+/* line 167, ../../../../../sass/imports/_shared.scss */
 .unit.sidebar .wy-nav-side {
   background-color: #F7F7F7;
+  padding-top: 0.41rem;
+  padding-bottom: 0.41rem;
 }
-/* line 171, ../../../../../sass/imports/_shared.scss */
+/* line 175, ../../../../../sass/imports/_shared.scss */
 .unit.sidebar .wy-menu-vertical a {
   color: #163c8e;
 }
-/* line 174, ../../../../../sass/imports/_shared.scss */
-.unit.sidebar .wy-menu-vertical a:hover {
-  color: #72B626;
-}
 /* line 178, ../../../../../sass/imports/_shared.scss */
+.unit.sidebar .wy-menu-vertical a:hover {
+  text-decoration: underline;
+}
+/* line 182, ../../../../../sass/imports/_shared.scss */
 .unit.sidebar .wy-menu-vertical a.current {
   background-color: #72B626;
   color: #fff;
 }
 
 /* Content ---------------------- */
-/* line 189, ../../../../../sass/imports/_shared.scss */
-.rst-content h1 {
-  margin-top: 0;
-}
-
-/* line 195, ../../../../../sass/imports/_shared.scss */
+/* line 193, ../../../../../sass/imports/_shared.scss */
 .unit.page-content {
   width: 66.66667% !important;
+}
+
+/* Footer ---------------------- */
+/* line 199, ../../../../../sass/imports/_shared.scss */
+.unit.footer-container {
+  width: 100%;
+}
+/* line 202, ../../../../../sass/imports/_shared.scss */
+.unit.footer-container .grid {
+  margin: 0;
+}
+/* line 206, ../../../../../sass/imports/_shared.scss */
+.unit.footer-container .unit.footer-content {
+  width: 91.66667%;
+  padding-left: 0;
+}
+/* line 212, ../../../../../sass/imports/_shared.scss */
+.unit.footer-container .unit.scroll-button {
+  width: 8.33333%;
+  padding-right: 0;
+}
+/* line 216, ../../../../../sass/imports/_shared.scss */
+.unit.footer-container .unit.scroll-button .scroll-to-top {
+  display: block;
+  width: 2.132rem;
+  height: 1.968rem;
+  background-color: #72B626;
+  background-image: url("../images/scroll-top-top.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  float: right;
 }
