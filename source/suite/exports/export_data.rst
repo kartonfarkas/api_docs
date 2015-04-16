@@ -1,8 +1,8 @@
 Downloading Export Data
 =======================
 
-If data is exported into a CSV file and distribution_method is set to local, the file is stored in our server and it can
-be queried also through the API. This function is available for :doc:`index`.
+If data was exported into a CSV file and distribution_method was set to local for the export, the file is stored in our server and it can
+be queried also through the API via this endpoint. This function is available for all exports at :doc:`index`.
 
 Endpoint
 --------
