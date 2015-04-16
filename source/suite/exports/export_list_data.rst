@@ -77,7 +77,7 @@ Errors
    * - 500
      - 4007
      - Server error occurred. Please choose another file.
-     - 
+     -
    * - 410
      - 4003
      - Exported data is not available.

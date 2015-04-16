@@ -1,7 +1,7 @@
 Querying Export Status
 ======================
 
-Fetches the status data of an export, and uses the ID returned by :doc:`export_responses` or :doc:`export_registrations` as the Export ID.
+Fetches the status data of an export, and uses the ID returned by :doc:`index` as the Export ID.
 
 Endpoint
 --------
@@ -19,7 +19,7 @@ Parameters
      - Type
      - Description
      - Comments
-   * - id
+   * - export_id
      - int
      - Requested export ID, part of the URI
      -
