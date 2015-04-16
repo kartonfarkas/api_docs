@@ -129,4 +129,43 @@ Result Example
 Errors
 ------
 
-Standard HTML status and error codes apply.
+.. list-table:: Possible Error Codes
+   :header-rows: 1
+   :widths: 20 20 40 40
+
+   * - HTTP Code
+     - Reply Code
+     - Message
+     - Description
+   * - 400
+     - 10001
+     - Missing parameter: [parameter]
+     - The required parameter [parameter] is missing.
+   * - 400
+     - 10001
+     - Invalid data format for [parameter]. Array expected
+     - The [parameter] value is not an array.
+   * - 400
+     - 10001
+     - Invalid distribution method: [value]
+     - The provided [value] is not ftp or local.
+   * - 400
+     - 10001
+     - Invalid value for [parameter]: [value]
+     - The provided [value] value for the parameter [parameter] is not valid.
+   * - 400
+     - 10001
+     - Invalid contact field id: [id1], [id2]
+     - [id1], [id2], … values are not valid contact field IDs.
+   * - 400
+     - 10001
+     - Invalid number of fields
+     - The number of IDs provided for contact_fields is 0.
+   * - 400
+     - 4001
+     - An export with the same setting is currently running. It is not possible to run the same export more than once simultaneously.
+     - The specified export is already running.
+   * - 400
+     - 10001
+     - Invalid data format for contactlist. Integer expected
+     - No ID was provided or this contact list does not exist.

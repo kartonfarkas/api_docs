@@ -166,3 +166,7 @@ Errors
      - 4001
      - An export with the same setting is currently running. It is not possible to run the same export more than once simultaneously.
      - The specified export is already running.
+   * - 400
+     - 10001
+     - Invalid data format for filter. Integer expected
+     - No ID was provided or this segment does not exist.
