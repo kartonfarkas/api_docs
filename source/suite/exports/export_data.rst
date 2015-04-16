@@ -44,7 +44,7 @@ URI Example
 Result Example
 --------------
 
-.. code-block:: csv
+.. code-block:: text
 
    user_id,First Name,Last Name,E-Mail,Gender,Marital Status,Children,Education,Title,Address,City,State,ZIP Code,Country,Phone,Job Position,Company,Department,Industry,Phone (office),Number of Employees,Annual Revenue (in 000 EUR),URL,Preferred e-mail format,Fax,Date of Birth,Fax (office),Response rate (% of campaigns sent)
    1,Rachael,Clark,Rachael.Clark@y.ah.oo.com,Female,,,,,,,,,United Kingdom,,,,,,,,,,,,1974-09-06,,
@@ -72,7 +72,7 @@ Errors
    * - 404
      - 4004
      - "distribution_method" of this export is not compatible.
-     - Distribution method is set to *ftp*, but *local* is required.
+     - Distribution method is set to *ftp*/*sft*/*mail*, but *local* is required.
    * - 404
      - 4005
      - Export is currently in progress. Please wait until that has finished.
