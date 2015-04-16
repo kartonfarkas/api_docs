@@ -149,6 +149,8 @@ API Endpoints
      - POST /api/v2/contact/getchanges
    * - :doc:`../exports/export_contact_lists`
      - POST /api/v2/email/getcontacts
+   * - :doc:`../exports/export_segments`
+     - POST /api/v2/email/filter
    * - :doc:`../exports/export_registrations`
      - POST /api/v2/contact/getregistrations
    * - :doc:`../exports/export_responses`
