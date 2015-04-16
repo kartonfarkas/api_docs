@@ -4,7 +4,7 @@ Downloading Export Data
 If data was exported into a CSV file and the export’s distribution method was set to local, the file is stored in our server and it can
 be queried also through the API via this endpoint. This function is available for all exports at :doc:`index`.
 
-.. note:: This is a special endpoint as it answers with a file instead of a JSON. The content-type of the response is `text/csv`.
+.. note:: This is a special endpoint as it answers with a file instead of a JSON. The content-type of the response is ``text/csv``.
 
 Endpoint
 --------
