@@ -148,14 +148,6 @@ Errors
      - The [parameter] value is not an array.
    * - 400
      - 10001
-     - Invalid origin: [parameter]
-     - An invalid origin type was sent.
-   * - 400
-     - 10001
-     - Invalid data format for origin_id. Integer expected
-     - Invalid origin ID (form or API source) was sent.
-   * - 400
-     - 10001
      - Invalid distribution method: [value]
      - The provided [value] is not ftp or local.
    * - 400
