@@ -1,7 +1,7 @@
 Querying Export Status
 ======================
 
-Fetches the status data of an export, and uses the ID returned by :doc:`index` as the Export ID.
+Fetches the status data of an export, and uses the ID returned by an export as the Export ID at :doc:`index`.
 
 Endpoint
 --------
