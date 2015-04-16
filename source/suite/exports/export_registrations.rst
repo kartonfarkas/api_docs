@@ -151,14 +151,6 @@ Errors
      - The length of the array provided for time_range is not 2.
    * - 400
      - 10001
-     - Invalid origin: [parameter]
-     - An invalid origin type was sent.
-   * - 400
-     - 10001
-     - Invalid data format for origin_id. Integer expected
-     - Invalid origin ID (form or API source) was sent.
-   * - 400
-     - 10001
      - Invalid distribution method: [value]
      - The provided [value] is not ftp or local.
    * - 400
