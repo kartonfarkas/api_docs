@@ -97,6 +97,7 @@ Request Example
 
    {
      "distribution_method": "ftp",
+     "contactlist": "111111111",
      "contact_fields": ["1", "3", "106533"],
      "delimiter": ";",
      "add_field_names_header": 1,
@@ -121,7 +122,7 @@ Result Example
      "replyText": "OK",
      "data":
      {
-       "id": 2140
+       "id": 333333333
      }
    }
 
