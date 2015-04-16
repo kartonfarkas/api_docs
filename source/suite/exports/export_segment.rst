@@ -32,7 +32,7 @@ Parameters
      - Comments
    * - segment_id
      - int
-     - Exports the fields of the contacts in this contact list.
+     - Exports the fields of the contacts in this segment.
      -
    * - distribution_method
      - string
