@@ -22,7 +22,7 @@ Parameters
    * - export_id
      - int
      - Requested export ID, part of the URI
-     -
+     - ID returned by an export as the Export ID at :doc:`index`.
 
 Result Example
 --------------
