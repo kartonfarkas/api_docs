@@ -29,7 +29,7 @@ Parameters
      - Type
      - Description
      - Comments
-   * - contactlist_id
+   * - contactlist
      - int
      - Exports the fields of the contacts in this contact list.
      -
