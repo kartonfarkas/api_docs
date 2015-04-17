@@ -16,7 +16,7 @@ body {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  @media screen and (min-width: $break-point-small) {
+  @media screen and (min-width: $break-point-large) {
     max-width: 1200px;
   }
 }
@@ -75,12 +75,19 @@ a {
 
   .unit.emarsys-logo {
     width: $unit-three;
+    @media screen and (max-width: $break-point-small) {
+      width: 100%;
+    }
 
     a {
       display: block;
       text-indent: -999px;
       background: url('../images/logo_no_claim.png') left center no-repeat;
       height: 50px;
+      @media screen and (max-width: $break-point-small) {
+        background-position: center center;
+      }
+
     }
   }
 
@@ -88,6 +95,9 @@ a {
     width: $unit-three;
     float: right;
     margin-top: 0.3*$base-scale;
+    @media screen and (max-width: $break-point-small) {
+      display: none;
+    }
 
     input[type="text"] {
 
@@ -101,18 +111,30 @@ a {
 
   .unit.main-menu {
     width: $unit-six;
+    @media screen and (max-width: $break-point-small) {
+      width: 100%;
+      text-align: center;
+    }
 
     .main-menu-list {
       margin-top: 0.45*$base-scale;
       float: right;
       font-size: $font-size-small;
       font-family: $font-family-menu;
+      @media screen and (max-width: $break-point-small) {
+        float: none;
+        display: inline-block;
+      }
+
 
 
       li {
         margin-left: 0.5*$base-scale;
         margin-right: 0.5*$base-scale;
         letter-spacing: 1px;
+        @media screen and (max-width: $break-point-small) {
+          display: inline;
+        }
 
         &:first-child {
           margin-left: 0;
@@ -152,14 +174,25 @@ a {
 
 .wy-breadcrumbs {
   margin: 0.75*$base-scale 0 0 0;
+
+  .wy-breadcrumbs-aside {
+    @media screen and (max-width: $break-point-small) {
+      display: none;
+    }
+  }
+
 }
+
 
 
 /* Sidebar ---------------------- */
 
 .unit.sidebar {
-  width: $unit-four !important;
+  width: $unit-four;
   margin-top: 0.6*$base-scale;
+  @media screen and (max-width: $break-point-small) {
+    display: none;
+  }
 
 
   .stickynav {
@@ -193,7 +226,10 @@ a {
 
 
 .unit.page-content {
-  width: $unit-eight !important;
+  width: $unit-eight;
+  @media screen and (max-width: $break-point-small) {
+    width: 100%;
+  }
 }
 
 /* Footer ---------------------- */
