@@ -6,7 +6,12 @@ Generates a list of all external services, and their resources, that a customer 
 Endpoint
 --------
 
-``GET /api/v2/programresource/service_id=<id>``
+.. raw:: html
+
+   <div class="http-method get">
+     <span class="method">GET</span>
+     <span class="path">/api/v2/programresource/service_id=<span class="variable">{service_id}</span></span>
+   </div>
 
 Parameters
 ----------
