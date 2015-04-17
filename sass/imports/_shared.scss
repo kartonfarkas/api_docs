@@ -79,7 +79,7 @@ a {
     a {
       display: block;
       text-indent: -999px;
-      background: url('../images/logo_no_claim.png') center center no-repeat;
+      background: url('../images/logo_no_claim.png') left center no-repeat;
       height: 50px;
     }
   }
@@ -105,13 +105,14 @@ a {
     .main-menu-list {
       margin-top: 0.45*$base-scale;
       float: right;
-      font-size: $font-size-medium;
-      font-weight: 700;
+      font-size: $font-size-small;
+      font-family: $font-family-menu;
 
 
       li {
         margin-left: 0.5*$base-scale;
         margin-right: 0.5*$base-scale;
+        letter-spacing: 1px;
 
         &:first-child {
           margin-left: 0;
@@ -122,6 +123,7 @@ a {
         }
 
         a {
+          text-transform: uppercase;
 
           &:visited {
             color: $color-primary;
