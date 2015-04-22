@@ -1,8 +1,8 @@
 Exporting a Segment
 ===================
 
-Exports selected fields of contacts from a specified segment as a CSV file.
-A segment export including first name, last name, email address and opt-in status would result in a CSV with:
+Exports the content from specific fields from all contacts within a specified segment as a CSV file.
+A segment export including: first name, last name, email address and opt-in status would result in a CSV with the following:
 
 .. code-block:: csv
 
@@ -32,13 +32,15 @@ Parameters
      - Comments
    * - filter
      - int
-     - Exports the fields of the contacts in this segment.
+     - Exports the desired field content from contacts in this segment.
      -
    * - distribution_method
      - string
      - **ftp**, **sftp**, **local**, **mail**
-     - If **ftp** is selected, host, username and password *ftp_settings* parameters are required for this to work.
-       If **sftp** is chosen, ftp_port is mandatory from *ftp_settings*.
+     - If **ftp** is selected, then the following parameters in *ftp_settings* are mandatory:
+       host, username and password.
+
+       If **sftp** is chosen, then the ftp_port parameter in *ftp_settings* has to be used.
    * - contact_fields
      - int array
      - It may contain any contact field ID except:
@@ -85,7 +87,7 @@ Parameters
        * *(string)* password
        * *(string)* folder – optional
 
-     - If *distribution_method* is **local** or **mail**, then *ftp_settings* is ignored.
+     - If *distribution_method* is **local** or **mail**, then the *ftp_settings* parameter is ignored.
    * - notification_url
      - string
      - A request is sent to the URL if the export is ready. This way, it is not necessary to poll the export status.
