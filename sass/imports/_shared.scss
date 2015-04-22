@@ -337,10 +337,17 @@ a {
     border-radius: $radius-small;
     color: $color-white;
     text-transform: uppercase;
+    @media screen and (max-width: $break-point-small) {
+      font-size: $font-size-tiny;
+      width: 2*$base-scale;
+    }
   }
 
   .path {
     display: inline-block;
+    @media screen and (max-width: $break-point-small) {
+      font-size: $font-size-tiny;
+    }
 
     .variable {
       font-style: italic;

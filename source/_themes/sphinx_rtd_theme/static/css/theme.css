@@ -7170,27 +7170,40 @@ a:active {
   color: #fff;
   text-transform: uppercase;
 }
-/* line 342, ../../../../../sass/imports/_shared.scss */
+@media screen and (max-width: 760px) {
+  /* line 331, ../../../../../sass/imports/_shared.scss */
+  .http-method .method {
+    font-size: 0.7rem;
+    width: 3.28rem;
+  }
+}
+/* line 346, ../../../../../sass/imports/_shared.scss */
 .http-method .path {
   display: inline-block;
 }
-/* line 345, ../../../../../sass/imports/_shared.scss */
+@media screen and (max-width: 760px) {
+  /* line 346, ../../../../../sass/imports/_shared.scss */
+  .http-method .path {
+    font-size: 0.7rem;
+  }
+}
+/* line 352, ../../../../../sass/imports/_shared.scss */
 .http-method .path .variable {
   font-style: italic;
 }
 
 /* Footer ---------------------- */
-/* line 356, ../../../../../sass/imports/_shared.scss */
+/* line 363, ../../../../../sass/imports/_shared.scss */
 .footer-container {
   background-color: #333;
 }
 
-/* line 360, ../../../../../sass/imports/_shared.scss */
+/* line 367, ../../../../../sass/imports/_shared.scss */
 .unit.footer {
   width: 100%;
   text-align: right;
 }
-/* line 365, ../../../../../sass/imports/_shared.scss */
+/* line 372, ../../../../../sass/imports/_shared.scss */
 .unit.footer footer p {
   margin-bottom: 0.328rem;
   margin-top: 0.328rem;
