@@ -144,15 +144,6 @@ a {
       }
     }
 
-    .unit.collapse-mobile-menu {
-      display: none;
-      @media screen and (max-width: $break-point-small) {
-        display: block;
-        width: $unit-twelve;
-      }
-
-    }
-
   }
 
   .unit.docs-search-container {
@@ -160,8 +151,7 @@ a {
     float: right;
     margin-top: 0.3*$base-scale;
     @media screen and (max-width: $break-point-small) {
-      width: 100%;
-      margin-bottom: 0.3*$base-scale;
+      display: none;
     }
 
     input[type="text"] {
@@ -177,9 +167,19 @@ a {
   .unit.main-menu {
     width: $unit-six;
     @media screen and (max-width: $break-point-small) {
+      display: none;
+    }
+  }
+
+  .unit.collapse-mobile-menu {
+    display: none;
+    @media screen and (max-width: $break-point-small) {
       width: 100%;
       border-top: 1px solid #e7e7e7;
     }
+  }
+
+  .main-menu, .collapse-mobile-menu {
 
     .main-menu-list {
       margin-top: 0.5*$base-scale;
@@ -227,6 +227,9 @@ a {
             color: $color-secondary;
             text-decoration: underline;
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+            @media screen and (max-width: $break-point-small) {
+                box-shadow: none;
+            }
           }
 
           &.active-menu {
@@ -239,6 +242,7 @@ a {
     }
   }
 
+
 }
 
 
@@ -248,6 +252,9 @@ a {
 .wy-breadcrumbs {
   margin: 0.75*$base-scale 0 0 0;
   padding-top: 2*$base-scale;
+  @media screen and (max-width: $break-point-small) {
+    padding-top: 2.5*$base-scale;
+  }
 
   .wy-breadcrumbs-aside {
     @media screen and (max-width: $break-point-small) {

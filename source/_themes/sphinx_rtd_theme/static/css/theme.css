@@ -6977,48 +6977,46 @@ a:active {
 .main-navigation .unit.mobile-menu-button .burger-button .icon-bar:last-child {
   margin-bottom: 0;
 }
-/* line 147, ../../../../../sass/imports/_shared.scss */
-.main-navigation .unit.mobile-menu-button .unit.collapse-mobile-menu {
-  display: none;
-}
-@media screen and (max-width: 760px) {
-  /* line 147, ../../../../../sass/imports/_shared.scss */
-  .main-navigation .unit.mobile-menu-button .unit.collapse-mobile-menu {
-    display: block;
-    width: 100%;
-  }
-}
-/* line 158, ../../../../../sass/imports/_shared.scss */
+/* line 149, ../../../../../sass/imports/_shared.scss */
 .main-navigation .unit.docs-search-container {
   width: 25%;
   float: right;
   margin-top: 0.492rem;
 }
 @media screen and (max-width: 760px) {
-  /* line 158, ../../../../../sass/imports/_shared.scss */
+  /* line 149, ../../../../../sass/imports/_shared.scss */
   .main-navigation .unit.docs-search-container {
-    width: 100%;
-    margin-bottom: 0.492rem;
+    display: none;
   }
 }
-/* line 169, ../../../../../sass/imports/_shared.scss */
+/* line 159, ../../../../../sass/imports/_shared.scss */
 .main-navigation .unit.docs-search-container input[type="text"]:focus {
   border: 1px solid #163c8e;
   box-shadow: inset 0 1px 3px #ddd;
 }
-/* line 177, ../../../../../sass/imports/_shared.scss */
+/* line 167, ../../../../../sass/imports/_shared.scss */
 .main-navigation .unit.main-menu {
   width: 50%;
 }
 @media screen and (max-width: 760px) {
-  /* line 177, ../../../../../sass/imports/_shared.scss */
+  /* line 167, ../../../../../sass/imports/_shared.scss */
   .main-navigation .unit.main-menu {
+    display: none;
+  }
+}
+/* line 174, ../../../../../sass/imports/_shared.scss */
+.main-navigation .unit.collapse-mobile-menu {
+  display: none;
+}
+@media screen and (max-width: 760px) {
+  /* line 174, ../../../../../sass/imports/_shared.scss */
+  .main-navigation .unit.collapse-mobile-menu {
     width: 100%;
     border-top: 1px solid #e7e7e7;
   }
 }
 /* line 184, ../../../../../sass/imports/_shared.scss */
-.main-navigation .unit.main-menu .main-menu-list {
+.main-navigation .main-menu .main-menu-list, .main-navigation .collapse-mobile-menu .main-menu-list {
   margin-top: 0.82rem;
   float: right;
   font-size: 0.85rem;
@@ -7026,33 +7024,33 @@ a:active {
 }
 @media screen and (max-width: 760px) {
   /* line 184, ../../../../../sass/imports/_shared.scss */
-  .main-navigation .unit.main-menu .main-menu-list {
+  .main-navigation .main-menu .main-menu-list, .main-navigation .collapse-mobile-menu .main-menu-list {
     float: none;
   }
 }
 /* line 195, ../../../../../sass/imports/_shared.scss */
-.main-navigation .unit.main-menu .main-menu-list li {
+.main-navigation .main-menu .main-menu-list li, .main-navigation .collapse-mobile-menu .main-menu-list li {
   margin-left: 0.82rem;
   margin-right: 0.82rem;
   letter-spacing: 1px;
 }
 @media screen and (max-width: 760px) {
   /* line 195, ../../../../../sass/imports/_shared.scss */
-  .main-navigation .unit.main-menu .main-menu-list li {
+  .main-navigation .main-menu .main-menu-list li, .main-navigation .collapse-mobile-menu .main-menu-list li {
     margin: 0;
     width: 100%;
   }
 }
 /* line 204, ../../../../../sass/imports/_shared.scss */
-.main-navigation .unit.main-menu .main-menu-list li:first-child {
+.main-navigation .main-menu .main-menu-list li:first-child, .main-navigation .collapse-mobile-menu .main-menu-list li:first-child {
   margin-left: 0;
 }
 /* line 208, ../../../../../sass/imports/_shared.scss */
-.main-navigation .unit.main-menu .main-menu-list li:last-child {
+.main-navigation .main-menu .main-menu-list li:last-child, .main-navigation .collapse-mobile-menu .main-menu-list li:last-child {
   margin-right: 0;
 }
 /* line 212, ../../../../../sass/imports/_shared.scss */
-.main-navigation .unit.main-menu .main-menu-list li a {
+.main-navigation .main-menu .main-menu-list li a, .main-navigation .collapse-mobile-menu .main-menu-list li a {
   text-transform: uppercase;
   padding: 0.656rem;
   -moz-transition: all 0.15s ease-out;
@@ -7062,142 +7060,154 @@ a:active {
 }
 @media screen and (max-width: 760px) {
   /* line 212, ../../../../../sass/imports/_shared.scss */
-  .main-navigation .unit.main-menu .main-menu-list li a {
+  .main-navigation .main-menu .main-menu-list li a, .main-navigation .collapse-mobile-menu .main-menu-list li a {
     display: block;
     width: 100%;
     padding: 0.328rem;
   }
 }
 /* line 222, ../../../../../sass/imports/_shared.scss */
-.main-navigation .unit.main-menu .main-menu-list li a:visited {
+.main-navigation .main-menu .main-menu-list li a:visited, .main-navigation .collapse-mobile-menu .main-menu-list li a:visited {
   color: #163c8e;
 }
 /* line 226, ../../../../../sass/imports/_shared.scss */
-.main-navigation .unit.main-menu .main-menu-list li a:hover {
+.main-navigation .main-menu .main-menu-list li a:hover, .main-navigation .collapse-mobile-menu .main-menu-list li a:hover {
   color: #b61b3e;
   text-decoration: underline;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
 }
-/* line 232, ../../../../../sass/imports/_shared.scss */
-.main-navigation .unit.main-menu .main-menu-list li a.active-menu {
+@media screen and (max-width: 760px) {
+  /* line 226, ../../../../../sass/imports/_shared.scss */
+  .main-navigation .main-menu .main-menu-list li a:hover, .main-navigation .collapse-mobile-menu .main-menu-list li a:hover {
+    box-shadow: none;
+  }
+}
+/* line 235, ../../../../../sass/imports/_shared.scss */
+.main-navigation .main-menu .main-menu-list li a.active-menu, .main-navigation .collapse-mobile-menu .main-menu-list li a.active-menu {
   color: #b61b3e;
 }
 
 /* Breadcrumbs ---------------------- */
-/* line 248, ../../../../../sass/imports/_shared.scss */
+/* line 252, ../../../../../sass/imports/_shared.scss */
 .wy-breadcrumbs {
   margin: 1.23rem 0 0 0;
   padding-top: 3.28rem;
 }
 @media screen and (max-width: 760px) {
   /* line 252, ../../../../../sass/imports/_shared.scss */
+  .wy-breadcrumbs {
+    padding-top: 4.1rem;
+  }
+}
+@media screen and (max-width: 760px) {
+  /* line 259, ../../../../../sass/imports/_shared.scss */
   .wy-breadcrumbs .wy-breadcrumbs-aside {
     display: none;
   }
 }
 
 /* Sidebar ---------------------- */
-/* line 264, ../../../../../sass/imports/_shared.scss */
+/* line 271, ../../../../../sass/imports/_shared.scss */
 .unit.sidebar {
   width: 33.33333%;
   margin-top: 0.984rem;
 }
 @media screen and (max-width: 760px) {
-  /* line 264, ../../../../../sass/imports/_shared.scss */
+  /* line 271, ../../../../../sass/imports/_shared.scss */
   .unit.sidebar {
     display: none;
   }
 }
 @media screen and (min-width: 1400px) {
-  /* line 264, ../../../../../sass/imports/_shared.scss */
+  /* line 271, ../../../../../sass/imports/_shared.scss */
   .unit.sidebar {
     width: 25%;
   }
 }
-/* line 275, ../../../../../sass/imports/_shared.scss */
+/* line 282, ../../../../../sass/imports/_shared.scss */
 .unit.sidebar .stickynav {
   position: relative !important;
 }
-/* line 279, ../../../../../sass/imports/_shared.scss */
+/* line 286, ../../../../../sass/imports/_shared.scss */
 .unit.sidebar .wy-nav-side {
   background-color: #F7F7F7;
   padding-top: 0.41rem;
   padding-bottom: 0.41rem;
 }
-/* line 287, ../../../../../sass/imports/_shared.scss */
+/* line 294, ../../../../../sass/imports/_shared.scss */
 .unit.sidebar .wy-menu-vertical a {
   color: #163c8e;
 }
-/* line 290, ../../../../../sass/imports/_shared.scss */
+/* line 297, ../../../../../sass/imports/_shared.scss */
 .unit.sidebar .wy-menu-vertical a:hover {
   text-decoration: underline;
 }
-/* line 294, ../../../../../sass/imports/_shared.scss */
+/* line 301, ../../../../../sass/imports/_shared.scss */
 .unit.sidebar .wy-menu-vertical a.current {
   background-color: #72B626;
   color: #fff;
 }
 
 /* Content ---------------------- */
-/* line 305, ../../../../../sass/imports/_shared.scss */
+/* line 312, ../../../../../sass/imports/_shared.scss */
 .unit.page-content {
   width: 66.66667%;
 }
 @media screen and (max-width: 760px) {
-  /* line 305, ../../../../../sass/imports/_shared.scss */
+  /* line 312, ../../../../../sass/imports/_shared.scss */
   .unit.page-content {
     width: 100%;
   }
 }
 @media screen and (min-width: 1400px) {
-  /* line 305, ../../../../../sass/imports/_shared.scss */
+  /* line 312, ../../../../../sass/imports/_shared.scss */
   .unit.page-content {
     width: 75%;
   }
 }
 
 /* HTTP Method ---------------------- */
-/* line 318, ../../../../../sass/imports/_shared.scss */
+/* line 325, ../../../../../sass/imports/_shared.scss */
 .http-method {
   border-radius: 0.15rem;
 }
-/* line 321, ../../../../../sass/imports/_shared.scss */
+/* line 328, ../../../../../sass/imports/_shared.scss */
 .http-method.post {
   background-color: rgba(78, 166, 75, 0.1);
   border: 1px solid rgba(78, 166, 75, 0.3);
 }
-/* line 325, ../../../../../sass/imports/_shared.scss */
+/* line 332, ../../../../../sass/imports/_shared.scss */
 .http-method.post .method {
   background-color: #4EA64B;
 }
-/* line 330, ../../../../../sass/imports/_shared.scss */
+/* line 337, ../../../../../sass/imports/_shared.scss */
 .http-method.get {
   background-color: rgba(24, 106, 180, 0.1);
   border: 1px solid rgba(24, 106, 180, 0.3);
 }
-/* line 334, ../../../../../sass/imports/_shared.scss */
+/* line 341, ../../../../../sass/imports/_shared.scss */
 .http-method.get .method {
   background-color: #186AB4;
 }
-/* line 339, ../../../../../sass/imports/_shared.scss */
+/* line 346, ../../../../../sass/imports/_shared.scss */
 .http-method.put {
   background-color: rgba(197, 134, 43, 0.1);
   border: 1px solid rgba(197, 134, 43, 0.3);
 }
-/* line 343, ../../../../../sass/imports/_shared.scss */
+/* line 350, ../../../../../sass/imports/_shared.scss */
 .http-method.put .method {
   background-color: #C5862B;
 }
-/* line 348, ../../../../../sass/imports/_shared.scss */
+/* line 355, ../../../../../sass/imports/_shared.scss */
 .http-method.delete {
   background-color: rgba(164, 46, 34, 0.1);
   border: 1px solid rgba(164, 46, 34, 0.3);
 }
-/* line 352, ../../../../../sass/imports/_shared.scss */
+/* line 359, ../../../../../sass/imports/_shared.scss */
 .http-method.delete .method {
   background-color: #A42E22;
 }
-/* line 358, ../../../../../sass/imports/_shared.scss */
+/* line 365, ../../../../../sass/imports/_shared.scss */
 .http-method .method {
   display: inline-block;
   padding: 0.492rem 0;
@@ -7209,45 +7219,45 @@ a:active {
   text-transform: uppercase;
 }
 @media screen and (max-width: 760px) {
-  /* line 358, ../../../../../sass/imports/_shared.scss */
+  /* line 365, ../../../../../sass/imports/_shared.scss */
   .http-method .method {
     font-size: 0.7rem;
     width: 3.28rem;
   }
 }
-/* line 373, ../../../../../sass/imports/_shared.scss */
+/* line 380, ../../../../../sass/imports/_shared.scss */
 .http-method .path {
   display: inline-block;
 }
 @media screen and (max-width: 760px) {
-  /* line 373, ../../../../../sass/imports/_shared.scss */
+  /* line 380, ../../../../../sass/imports/_shared.scss */
   .http-method .path {
     font-size: 0.7rem;
   }
 }
-/* line 379, ../../../../../sass/imports/_shared.scss */
+/* line 386, ../../../../../sass/imports/_shared.scss */
 .http-method .path .variable {
   font-style: italic;
 }
 
 /* Footer ---------------------- */
-/* line 390, ../../../../../sass/imports/_shared.scss */
+/* line 397, ../../../../../sass/imports/_shared.scss */
 .footer-container {
   background-color: #333;
 }
 
-/* line 394, ../../../../../sass/imports/_shared.scss */
+/* line 401, ../../../../../sass/imports/_shared.scss */
 .unit.footer {
   width: 100%;
   text-align: right;
 }
 @media screen and (max-width: 760px) {
-  /* line 394, ../../../../../sass/imports/_shared.scss */
+  /* line 401, ../../../../../sass/imports/_shared.scss */
   .unit.footer {
     text-align: center;
   }
 }
-/* line 402, ../../../../../sass/imports/_shared.scss */
+/* line 409, ../../../../../sass/imports/_shared.scss */
 .unit.footer footer p {
   margin-bottom: 0.328rem;
   margin-top: 0.328rem;

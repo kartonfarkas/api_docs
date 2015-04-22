@@ -14,6 +14,11 @@ $( document ).ready(function() {
     });
     // Make tables responsive
     $("table.docutils:not(.field-list)").wrap("<div class='wy-table-responsive'></div>");
+    // Collapse main menu on mobile
+    $(".collapse-mobile-menu").hide();
+    $( ".burger-button" ).click(function() {
+      $( ".collapse-mobile-menu" ).slideToggle( "slow");
+    });
 });
 
 window.SphinxRtdTheme = (function (jquery) {
