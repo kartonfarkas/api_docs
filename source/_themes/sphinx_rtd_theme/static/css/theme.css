@@ -7118,9 +7118,79 @@ a:active {
   }
 }
 
+/* HTTP Method ---------------------- */
+/* line 291, ../../../../../sass/imports/_shared.scss */
+.http-method {
+  border-radius: 0.15rem;
+}
+/* line 294, ../../../../../sass/imports/_shared.scss */
+.http-method.post {
+  background-color: rgba(78, 166, 75, 0.1);
+  border: 1px solid rgba(78, 166, 75, 0.3);
+}
+/* line 298, ../../../../../sass/imports/_shared.scss */
+.http-method.post .method {
+  background-color: #4EA64B;
+}
+/* line 303, ../../../../../sass/imports/_shared.scss */
+.http-method.get {
+  background-color: rgba(24, 106, 180, 0.1);
+  border: 1px solid rgba(24, 106, 180, 0.3);
+}
+/* line 307, ../../../../../sass/imports/_shared.scss */
+.http-method.get .method {
+  background-color: #186AB4;
+}
+/* line 312, ../../../../../sass/imports/_shared.scss */
+.http-method.put {
+  background-color: rgba(197, 134, 43, 0.1);
+  border: 1px solid rgba(197, 134, 43, 0.3);
+}
+/* line 316, ../../../../../sass/imports/_shared.scss */
+.http-method.put .method {
+  background-color: #C5862B;
+}
+/* line 321, ../../../../../sass/imports/_shared.scss */
+.http-method.delete {
+  background-color: rgba(164, 46, 34, 0.1);
+  border: 1px solid rgba(164, 46, 34, 0.3);
+}
+/* line 325, ../../../../../sass/imports/_shared.scss */
+.http-method.delete .method {
+  background-color: #A42E22;
+}
+/* line 331, ../../../../../sass/imports/_shared.scss */
+.http-method .method {
+  display: inline-block;
+  padding: 0.492rem 0;
+  width: 4.92rem;
+  text-align: center;
+  margin-right: 0.492rem;
+  border-radius: 0.15rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+/* line 342, ../../../../../sass/imports/_shared.scss */
+.http-method .path {
+  display: inline-block;
+  font-style: italic;
+}
+
 /* Footer ---------------------- */
-/* line 290, ../../../../../sass/imports/_shared.scss */
-.unit.footer-container {
+/* line 353, ../../../../../sass/imports/_shared.scss */
+.footer-container {
+  background-color: #333;
+}
+
+/* line 357, ../../../../../sass/imports/_shared.scss */
+.unit.footer {
   width: 100%;
   text-align: right;
+}
+/* line 362, ../../../../../sass/imports/_shared.scss */
+.unit.footer footer p {
+  margin-bottom: 0.328rem;
+  margin-top: 0.328rem;
+  font-size: 0.85rem;
+  color: #cdcdcd;
 }

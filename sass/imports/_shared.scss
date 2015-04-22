@@ -285,11 +285,88 @@ a {
   }
 }
 
+
+/* HTTP Method ---------------------- */
+
+.http-method {
+  border-radius: $radius-small;
+
+  &.post {
+    background-color: rgba($color-post, 0.1);
+    border: 1px solid rgba($color-post, 0.3);
+
+    .method {
+      background-color: $color-post;
+    }
+  }
+
+  &.get {
+    background-color: rgba($color-get, 0.1);
+    border: 1px solid rgba($color-get, 0.3);
+
+    .method {
+      background-color: $color-get;
+    }
+  }
+
+  &.put {
+    background-color: rgba($color-put, 0.1);
+    border: 1px solid rgba($color-put, 0.3);
+
+    .method {
+      background-color: $color-put;
+    }
+  }
+
+  &.delete {
+    background-color: rgba($color-delete, 0.1);
+    border: 1px solid rgba($color-delete, 0.3);
+
+    .method {
+      background-color: $color-delete;
+    }
+  }
+
+
+  .method {
+    display: inline-block;
+    padding: 0.3*$base-scale 0;
+    width: 3*$base-scale;
+    text-align: center;
+    margin-right: 0.3*$base-scale;
+    border-radius: $radius-small;
+    color: $color-white;
+    text-transform: uppercase;
+  }
+
+  .path {
+    display: inline-block;
+    font-style: italic;
+  }
+
+}
+
+
+
 /* Footer ---------------------- */
 
-.unit.footer-container {
+.footer-container {
+  background-color: #333;
+}
+
+.unit.footer {
   width: $unit-twelve;
   text-align: right;
+
+  footer {
+    p {
+      margin-bottom: 0.2*$base-scale;
+      margin-top: 0.2*$base-scale;
+      font-size: $font-size-small;
+      color: #cdcdcd;
+    }
+  }
+
 }
 
 
