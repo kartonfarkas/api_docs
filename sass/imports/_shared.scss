@@ -272,7 +272,7 @@ a {
   width: $unit-four;
   margin-top: 0.6*$base-scale;
   @media screen and (max-width: $break-point-small) {
-    display: none;
+    width: 100%;
   }
   @media screen and (min-width: $break-point-large) {
     width: $unit-three;

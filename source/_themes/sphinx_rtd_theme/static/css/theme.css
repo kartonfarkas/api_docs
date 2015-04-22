@@ -5327,55 +5327,6 @@ footer p {
   font-size: 90%;
 }
 
-@media screen and (max-width: 768px) {
-  /* line 4, ../../../../../sass/imports/_theme.scss */
-  .wy-body-for-nav {
-    background: #fcfcfc;
-  }
-
-  /* line 4, ../../../../../sass/imports/_theme.scss */
-  .wy-nav-top {
-    display: block;
-  }
-
-  /* line 4, ../../../../../sass/imports/_theme.scss */
-  .wy-nav-side {
-    left: -300px;
-  }
-
-  /* line 4, ../../../../../sass/imports/_theme.scss */
-  .wy-nav-side.shift {
-    width: 85%;
-    left: 0;
-  }
-
-  /* line 4, ../../../../../sass/imports/_theme.scss */
-  .wy-nav-content-wrap {
-    margin-left: 0;
-  }
-
-  /* line 4, ../../../../../sass/imports/_theme.scss */
-  .wy-nav-content-wrap .wy-nav-content {
-    padding: 1.618em;
-  }
-
-  /* line 4, ../../../../../sass/imports/_theme.scss */
-  .wy-nav-content-wrap.shift {
-    position: fixed;
-    min-width: 100%;
-    left: 85%;
-    top: 0;
-    height: 100%;
-    overflow: hidden;
-  }
-}
-@media screen and (min-width: 1400px) {
-  /* line 4, ../../../../../sass/imports/_theme.scss */
-  .wy-nav-content {
-    margin: 0;
-    background: #fff;
-  }
-}
 @media print {
   /* line 4, ../../../../../sass/imports/_theme.scss */
   .rst-versions, footer, .wy-nav-side {
@@ -7115,7 +7066,7 @@ a:active {
 @media screen and (max-width: 760px) {
   /* line 271, ../../../../../sass/imports/_shared.scss */
   .unit.sidebar {
-    display: none;
+    width: 100%;
   }
 }
 @media screen and (min-width: 1400px) {
