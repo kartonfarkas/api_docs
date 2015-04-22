@@ -341,7 +341,10 @@ a {
 
   .path {
     display: inline-block;
-    font-style: italic;
+
+    .variable {
+      font-style: italic;
+    }
   }
 
 }

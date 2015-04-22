@@ -7173,21 +7173,24 @@ a:active {
 /* line 342, ../../../../../sass/imports/_shared.scss */
 .http-method .path {
   display: inline-block;
+}
+/* line 345, ../../../../../sass/imports/_shared.scss */
+.http-method .path .variable {
   font-style: italic;
 }
 
 /* Footer ---------------------- */
-/* line 353, ../../../../../sass/imports/_shared.scss */
+/* line 356, ../../../../../sass/imports/_shared.scss */
 .footer-container {
   background-color: #333;
 }
 
-/* line 357, ../../../../../sass/imports/_shared.scss */
+/* line 360, ../../../../../sass/imports/_shared.scss */
 .unit.footer {
   width: 100%;
   text-align: right;
 }
-/* line 362, ../../../../../sass/imports/_shared.scss */
+/* line 365, ../../../../../sass/imports/_shared.scss */
 .unit.footer footer p {
   margin-bottom: 0.328rem;
   margin-top: 0.328rem;
