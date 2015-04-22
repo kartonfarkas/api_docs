@@ -71,6 +71,18 @@ a {
   box-shadow: 5px 5px 5px rgba(0,0,0,.3);
 }
 
+.navbar {
+  z-index: 1030;
+  left: 0;
+  right: 0;
+  @include transition(all 0.25s ease-out);
+
+  &.has-sticky {
+    top: 0;
+    position: fixed;
+  }
+}
+
 .main-navigation {
 
   .unit.emarsys-logo {
@@ -129,7 +141,14 @@ a {
         &:last-child {
           margin-bottom: 0;
         }
+      }
+    }
 
+    .unit.collapse-mobile-menu {
+      display: none;
+      @media screen and (max-width: $break-point-small) {
+        display: block;
+        width: $unit-twelve;
       }
 
     }
@@ -141,7 +160,8 @@ a {
     float: right;
     margin-top: 0.3*$base-scale;
     @media screen and (max-width: $break-point-small) {
-      display: none;
+      width: 100%;
+      margin-bottom: 0.3*$base-scale;
     }
 
     input[type="text"] {
@@ -157,7 +177,8 @@ a {
   .unit.main-menu {
     width: $unit-six;
     @media screen and (max-width: $break-point-small) {
-      display: none;
+      width: 100%;
+      border-top: 1px solid #e7e7e7;
     }
 
     .main-menu-list {
@@ -167,7 +188,6 @@ a {
       font-family: $font-family-menu;
       @media screen and (max-width: $break-point-small) {
         float: none;
-        display: inline-block;
       }
 
 
@@ -177,7 +197,8 @@ a {
         margin-right: 0.5*$base-scale;
         letter-spacing: 1px;
         @media screen and (max-width: $break-point-small) {
-          display: inline;
+          margin: 0;
+          width: 100%;
         }
 
         &:first-child {
@@ -192,6 +213,11 @@ a {
           text-transform: uppercase;
           padding: 0.4*$base-scale;
           @include transition(all 0.15s ease-out);
+          @media screen and (max-width: $break-point-small) {
+            display: block;
+            width: 100%;
+            padding: 0.2*$base-scale;
+          }
 
           &:visited {
             color: $color-primary;
@@ -221,6 +247,7 @@ a {
 
 .wy-breadcrumbs {
   margin: 0.75*$base-scale 0 0 0;
+  padding-top: 2*$base-scale;
 
   .wy-breadcrumbs-aside {
     @media screen and (max-width: $break-point-small) {
@@ -367,6 +394,9 @@ a {
 .unit.footer {
   width: $unit-twelve;
   text-align: right;
+  @media screen and (max-width: $break-point-small) {
+    text-align: center;
+  }
 
   footer {
     p {
