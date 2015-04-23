@@ -40,7 +40,9 @@ Parameters
      - If **ftp** is selected, then the following parameters in *ftp_settings* are mandatory:
        host, username and password.
 
-       If **sftp** is chosen, then the ftp_port parameter in *ftp_settings* has to be used.
+       If **sftp** is selected, then the following parameters in *ftp_settings* are mandatory:
+       ftp_port, host, username and password.
+       
    * - contact_fields
      - int array
      - It may contain any contact field ID except:
