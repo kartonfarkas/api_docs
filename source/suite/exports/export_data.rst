@@ -33,7 +33,7 @@ Parameters
      - The offset of the first contact ID is 0.
    * - limit
      - int
-     - Defines how many IDs are listed, its maximum value is 1000000, part of the URI
+     - Defines how many IDs are listed, its maximum value is 1.000.000, part of the URI
      -
 
 URI Example
