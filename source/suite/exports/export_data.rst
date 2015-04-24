@@ -1,8 +1,7 @@
 Downloading Export Data
 =======================
 
-If data was exported into a CSV file and the export’s distribution method was set to local, the file is stored on our server and it can
-be queried also through the API via this endpoint. This function is available for all exports at :doc:`index`.
+Data exports stored on our server, i.e. data exported as CSV using distribution method *local*, can be queried using this endpoint. This function is available for all exports at :doc:`index`.
 
 .. note:: This is a special endpoint as it answers with a file instead of a JSON. The Content-Type of the response is
           ``text/csv``.
@@ -25,15 +24,15 @@ Parameters
      - Comments
    * - export_id
      - int
-     - Requested export ID, part of the URI
+     - Requested export ID, is part of the URI.
      - ID returned by an export as the Export ID at :doc:`index`.
    * - offset
      - int
-     - Defines the ID to start listing from, part of the URI
+     - Defines the ID to start listing from, is part of the URI.
      - The offset of the first contact ID is 0.
    * - limit
      - int
-     - Defines how many IDs are listed, its maximum value is 1.000.000, part of the URI
+     - Defines how many IDs are listed, part of the URI. Maximum value is 1.000.000 IDs.
      -
 
 URI Example
