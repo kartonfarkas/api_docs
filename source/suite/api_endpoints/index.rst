@@ -157,6 +157,8 @@ API Endpoints
      - POST /api/v2/email/getresponses
    * - :doc:`../exports/export_status`
      - GET /api/v2/export/<export_id>
+   * - :doc:`../exports/export_data`
+     - GET /api/v2/export/<export_id>/data
 
 .. list-table:: **External Events**
 
