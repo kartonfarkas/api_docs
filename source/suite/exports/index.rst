@@ -21,4 +21,5 @@ endpoint. Alternatively, it is possible to specify a *notification_url* which is
    export_registrations.rst
    export_responses.rst
    export_status.rst
+   export_data.rst
 
