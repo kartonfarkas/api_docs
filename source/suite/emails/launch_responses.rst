@@ -13,7 +13,7 @@ A call to this endpoint starts a background query that returns a query ID, which
 Endpoint
 --------
 
-``GET /api/v2/email/responses``
+``POST /api/v2/email/responses``
 
 Parameters
 ----------
