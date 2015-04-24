@@ -4,6 +4,14 @@ Exporting Contact Registrations
 Exports the selected fields of all contacts according to the *time_range* parameter (e.g. all contacts registered between **X** and **Y**).
 The request starts a background export process and returns its ID which can be used to obtain the status of the export. The background process saves the results as a CSV file, either locally or via FTP on another computer.
 
+.. code-block:: txt
+
+   user_id;First Name;Last Name;E-Mail;Company;last update
+   135369573;user3;test_import;test1@emarsys.com;;
+   171879718;user3;test_import;test1@emarsys.com;;
+   183453150;user3;test_import;test1@emarsys.com;;
+   188925627;user3;test_import;test1@emarsys.com;;
+
 .. include:: _warning.rst
 
 Endpoint

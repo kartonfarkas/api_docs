@@ -4,6 +4,13 @@ Exporting Responses
 Exports the selected fields of all contacts who responded to emails within the specified time range.
 The request starts a background export process and returns its ID which can be used to obtain the status of the export. The background process saves the results as a CSV file, either locally or via FTP on another computer.
 
+.. code-block:: txt
+
+   user_id;First Name;Last Name;E-Mail;Campaign title;Link title;Url;source
+   287705659;user3;test_import;test1@emarsys.com;VisualCMS_2015_04_09_10_05_03;;www.emarsys.com;click
+   287705659;user3;test_import;test1@emarsys.com;RSS_2015_04_09_10_05_03;;www.google.com.com;click
+   287705659;user3;test_import;test1@emarsys.com;AC_reccuring_2015_04_09_10_05_03;;;open
+
 .. include:: _warning.rst
 
 Endpoint

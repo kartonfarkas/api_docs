@@ -8,6 +8,14 @@ The background process saves the results as a CSV file, either locally or to ano
 
 Local exports will save the CSV file to our own server which can be accessed via WebDav. For a WebDav account, please contact Emarsys Support.
 
+.. code-block:: txt
+
+   user_id;First Name;Last Name;E-Mail;Company;last update
+   8019189;user3;test_import;test1@emarsys.com;;2015-04-20 10:22:13
+   49036141;user3;test_import;test1@emarsys.com;;
+   50123406;user3;test_import;test1@emarsys.com;;
+   85600590;user3;test_import;test1@emarsys.com;;2015-04-20 10:22:13
+
 .. include:: _warning.rst
 
 Endpoint
