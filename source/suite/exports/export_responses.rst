@@ -9,7 +9,7 @@ The request starts a background export process and returns its ID which can be u
    user_id;First Name;Last Name;E-Mail;Campaign title;Link title;Url;source
    287705659;user3;test_import;test1@emarsys.com;VisualCMS_2015_04_09_10_05_03;;www.emarsys.com;click
    287705659;user3;test_import;test1@emarsys.com;RSS_2015_04_09_10_05_03;;www.google.com.com;click
-   287705659;user3;test_import;test1@emarsys.com;AC_reccuring_2015_04_09_10_05_03;;;open
+   287705659;user3;test_import;test1@emarsys.com;AC_recurring_2015_04_09_10_05_03;;;open
 
 .. include:: _warning.rst
 
