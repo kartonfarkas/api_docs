@@ -1,9 +1,9 @@
 Downloading Export Data
 =======================
 
-Data exports stored on our server, i.e. data exported as CSV using distribution method *local*, can also be queried via API using this endpoint. This function is available for all exports at :doc:`index`.
+Data exports stored on our server, i.e. data exported as CSV using distribution method *local* can also be queried via API using this endpoint. This function is available for all exports at :doc:`index`.
 
-.. note:: This is a special endpoint as it answers with a file instead of a JSON. The Content-Type of the response is
+.. note:: This is a special endpoint which returns a file instead of a JSON. The Content-Type of the response is
           ``text/csv``.
 
 Endpoint
