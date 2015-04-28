@@ -22,7 +22,7 @@ Parameters
    * - language
      - string
      - Language of the email campaign
-     - Short using 2 letter (ISO-639-1) language codes, e.g. en.
+     - 2 letter language identifiers, according to :doc:`../appendices/language_codes`.
    * - name
      - string
      - Title of the email
