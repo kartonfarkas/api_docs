@@ -35,7 +35,6 @@ Launches
    launch.rst
    launch_preview.rst
    launch_tests.rst
-   launch_unsubscribe.rst
 
 Media Database
 --------------
