@@ -62,7 +62,7 @@ Errors
      - Description
    * - 400
      - 1006
-     - Empty parameter(s): value
+     - Empty parameter(s): [value]
      -
    * - 400
      - 6042
