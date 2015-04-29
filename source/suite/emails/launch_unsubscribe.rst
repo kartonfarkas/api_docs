@@ -2,7 +2,7 @@ Unsubscribing a Contact from an Email Campaign
 ==============================================
 
 Marks a user unsubscribed in the launch list so it will be counted in the campaign statistics. It does not change the
-opt-in status of the contact but updates the response summary (:doc:`email_response_summary`) of the specific launch.
+opt-in status of the contact but updates the response summary only (:doc:`email_response_summary`).
 
 Endpoint
 --------
@@ -22,7 +22,7 @@ Parameters
      - Comments
    * - key_id
      - mixed
-     - Key which identifies the contacts
+     - Key which identifies the contact
      - This can be a `field id <../../suite/appendices/system_fields.html>`_, **id** or **uid**. If left empty, the internal ID will be used by default.
    * - key_value
      - mixed
@@ -30,12 +30,12 @@ Parameters
      -
    * - launch_id
      - int
-     - ID of a launch
+     - ID of the launch
      -
    * - email_id
      - int
      - ID of a specific email
-     - Campaign cannot be modified when it has already been launched.
+     -
 
 Request Example
 ---------------
@@ -43,8 +43,8 @@ Request Example
 .. code-block:: json
 
    {
-      "key_id": "",
-      "key_value": "123456789",
+      "key_id": "3",
+      "key_value": "the_flash@example.com",
       "launch_id": "111111111",
       "email_id": "222222222"
    }
@@ -62,9 +62,17 @@ Errors
      - Description
    * - 400
      - 1006
-     - Empty parameter(s): key_id
+     - Empty parameter(s): value
      -
    * - 400
      - 6042
      - No such launch
+   * - 400
+     - 6025
+     - No such campaign
      -
+     -
+   * - 400
+     - 1003
+     - Internal error
+     - key_id and key_value must uniquely identify a contact to be unsubscribed, otherwise this message is displayed.
