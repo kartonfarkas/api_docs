@@ -1,8 +1,9 @@
 Unsubscribing a Contact from an Email Campaign
 ==============================================
 
-Marks a user unsubscribed in the launch list so it will be counted in the campaign statistics. It does not change the
-opt-in status of the contact but updates the response summary only (:doc:`launch_response_summary`).
+Marks a user unsubscribed for an email campaign launch so it will be counted in the campaign statistics. It does not change the
+opt-in status of the contact, this must be done with an additional API request (:doc:`../../suite/contacts/contact_update`)
+if necessary. It updates the response summary only (:doc:`launch_response_summary`).
 
 Endpoint
 --------
