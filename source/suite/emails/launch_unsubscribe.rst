@@ -5,6 +5,9 @@ Marks a user unsubscribed for an email campaign launch so it will be counted in 
 opt-in status of the contact, this must be done with an additional API request (:doc:`../../suite/contacts/contact_update`)
 if necessary. It updates the response summary only (:doc:`launch_response_summary`).
 
+.. note:: It is useful if you aim at sending email campaigns with unsubscribed links which target your own domain and
+          unsubscribing the user only from the specific email campaign, not from all campaigns.
+
 Endpoint
 --------
 
