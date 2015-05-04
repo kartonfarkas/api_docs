@@ -137,7 +137,7 @@ Errors
    * - 400
      - 5034
      - File type is forbidden
-     - The file type is not allowed in the media database (e.g. *.exe).
+     - The file type is not allowed in the media database (e.g. .exe).
    * - 400
      - 10001
      - Folder does not exist: [folder]

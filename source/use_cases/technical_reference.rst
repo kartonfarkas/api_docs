@@ -5,7 +5,7 @@ Below is a reference of the interfaces implemented in the Suite API.
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
-   :widths: 20 20 40 40
+   :widths: 20 20 40
 
    * - Interface
      - Method

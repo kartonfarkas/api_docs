@@ -6,6 +6,6 @@ Sending Batch Emails
 
    daily_news_for_segments.rst
    using_the_database.rst
-   recurring_email_changing.rst
+   recurring_email_changing_members.rst
    recurring_email.rst
 

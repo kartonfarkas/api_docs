@@ -4,7 +4,7 @@ Exporting a Segment
 Exports the content from specific fields from all contacts within a specified segment as a CSV file.
 A segment export including: first name, last name, email address and opt-in status would result in a CSV with the following:
 
-.. code-block:: txt
+.. code-block:: text
 
    First Name;Last Name;E-mail;Opt-in
    Fname_1;Lname_1;testuser@example.com;True

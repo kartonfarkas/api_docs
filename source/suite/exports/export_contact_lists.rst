@@ -4,7 +4,7 @@ Exporting a Contact List
 Exports selected fields of contacts from a specified contact list as a CSV file.
 A contact list export including first name, last name, email address and opt-in status would result in a CSV with:
 
-.. code-block:: txt
+.. code-block:: text
 
    First Name;Last Name;E-mail;Opt-in
    Fname_1;Lname_1;testuser@example.com;True

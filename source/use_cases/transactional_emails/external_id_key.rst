@@ -57,6 +57,7 @@ You need at least one contact available in Suite so that the contact data can be
 **Response**:
 
 .. code-block:: json
+
    {
      "replyCode": 0,
      "replyText": "OK",

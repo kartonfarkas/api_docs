@@ -132,4 +132,4 @@ Errors
      - Subject is missing.
      -
 
-    Click here for the relevant API documentation page: https://dev.emarsys.com/suite/contacts/contact_field_list.html.
+Click here for the relevant API documentation page: https://dev.emarsys.com/suite/contacts/contact_field_list.html.
