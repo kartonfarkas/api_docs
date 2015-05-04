@@ -3,7 +3,7 @@ Unsubscribing a Contact from an Email Campaign
 
 Marks a user unsubscribed for an email campaign launch so it will be counted in the campaign statistics. It affects
 the response summary (:doc:`launch_response_summary`) and :doc:`../../suite/exports/export_responses`, and
-makes segmentation based on unsubscribed contacts possible.
+makes segmentation based on unsubscribtion possible.
 
 It **does not change** the opt-in status of the contact, this must be done with an additional API request
 (:doc:`../../suite/contacts/contact_update`) if necessary.
