@@ -126,6 +126,8 @@ API Endpoints
      - POST /api/v2/email/<email_id>/preview
    * - :doc:`../emails/launch_tests`
      - POST /api/v2/email/<email_id>/sendtestmail
+   * - :doc:`../emails/launch_unsubscribe`
+     - POST /api/v2/email/unsubscribe
 
 .. list-table:: **Media Database**
 
