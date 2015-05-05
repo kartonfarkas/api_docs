@@ -45,6 +45,7 @@ Parameters
         - [YYYY-MM-DD HH:MM:SS, YYYY-MM-DD HH:MM:SS]
         - [YYYY-MM-DD HH:MM, YYYY-MM-DD HH:MM]
         - [YYYY-MM-DD, YYYY-MM-DD]
+       Please note that the start date and end date must not contain the same dates (e.g.["2015-04-20 00:00:00","2015-04-20 23:59:59"] is not valid).
    * - origin
      - string
      - Indicates which platform triggered the change, **form**, **api**, or **all**
