@@ -27,17 +27,9 @@ Parameters
      - Type
      - Description
      - Comments
-   * - key_id
-     - mixed
-     - Key which identifies the contact
-     - This can be a `field id <../../suite/appendices/system_fields.html>`_, **id** or **uid**. If left empty, the internal ID will be used by default.
-   * - key_value
-     - mixed
-     - Value of the field identified by the key_id
-     -
-   * - launch_id
+   * - launch_list_id
      - int
-     - ID of the launch
+     - ID on the basis of which contacts who clicked on the unsubscribe link can be identified
      -
    * - email_id
      - int
@@ -50,8 +42,6 @@ Request Example
 .. code-block:: json
 
    {
-      "key_id": "3",
-      "key_value": "the_flash@example.com",
       "launch_id": "111111111",
       "email_id": "222222222"
    }
