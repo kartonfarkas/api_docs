@@ -1,7 +1,7 @@
 Unsubscribing a Contact from an Email Campaign
 ==============================================
 
-Marks a user unsubscribed for an email campaign launch so it will be counted in the campaign statistics. It affects
+Marks a contact unsubscribed for an email campaign launch so it will be counted in the campaign statistics. It affects
 the response summary (:doc:`launch_response_summary`) and :doc:`../../suite/exports/export_responses`, and
 makes segmentation based on unsubscribtion possible.
 
@@ -9,7 +9,7 @@ It **does not change** the opt-in status of the contact, this must be done with 
 (:doc:`../../suite/contacts/contact_update`) if necessary.
 
 .. note:: It is useful if you aim at sending email campaigns with unsubscribe links which target your own website and
-          unsubscribing the user only from the specific email campaign, not from all campaigns.
+          unsubscribing the contact only from the specific email campaign, not from all campaigns.
 
 Endpoint
 --------
@@ -29,7 +29,8 @@ Parameters
      - Comments
    * - launch_list_id
      - int
-     - ID on the basis of which contacts who clicked on the unsubscribe link can be identified
+     - ID on the basis of which contacts who clicked on the unsubscribe link can be identified.
+       In the case of on event emails, there is no availability limit for the launch_list_id. For batch emails, it lasts for 2 months.
      -
    * - email_id
      - int
@@ -42,7 +43,7 @@ Request Example
 .. code-block:: json
 
    {
-      "launch_id": "111111111",
+      "launch_list_id": "111111111",
       "email_id": "222222222"
    }
 
