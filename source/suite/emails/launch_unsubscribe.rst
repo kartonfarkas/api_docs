@@ -9,7 +9,8 @@ It **does not change** the opt-in status of the contact, this must be done with 
 (:doc:`../../suite/contacts/contact_update`) if necessary.
 
 .. note:: It is useful if you aim at sending email campaigns with unsubscribe links which target your own website and
-          unsubscribing the contact only from the specific email campaign, not from all campaigns.
+          unsubscribing the contact only from the specific email campaign, not from all campaigns. Unsubscribe link must contain
+          parameters $cid$ and $llid$.
 
 Endpoint
 --------
