@@ -69,15 +69,21 @@ Normal Result:
                "1": "Ironman",
                "3": "tony.stark@example.com",
                "id": "23897"
+               "uid": "A1BBbBCcC1"
             },
             {
                "1": "Hulk",
                "3": "bruce.banner@example.com",
                "id": "23898"
+               "uid": "2eeEEFFggG"
             }
          ]
       }
    }
+
+Where:
+
+* *uid* is the user ID, a random string
 
 Error Condition:
 
