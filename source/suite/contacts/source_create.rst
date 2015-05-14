@@ -5,7 +5,7 @@ Creates and labels a new source for your contacts to enter the Suite DB from, wh
 Change tracking information will be available for you at :doc:`../exports/export_changes`.
 
 .. note:: For other purposes, contacts have a system source field (field id #33) dedicated to record the source of the
-contact (e.g. Manual entry, Import or Registration form).
+          contact (e.g. Manual entry, Import or Registration form).
 
 Endpoint
 --------

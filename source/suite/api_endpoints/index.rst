@@ -126,6 +126,8 @@ API Endpoints
      - POST /api/v2/email/<email_id>/preview
    * - :doc:`../emails/launch_tests`
      - POST /api/v2/email/<email_id>/sendtestmail
+   * - :doc:`../emails/launch_unsubscribe`
+     - POST /api/v2/email/unsubscribe
 
 .. list-table:: **Media Database**
 
@@ -149,12 +151,16 @@ API Endpoints
      - POST /api/v2/contact/getchanges
    * - :doc:`../exports/export_contact_lists`
      - POST /api/v2/email/getcontacts
+   * - :doc:`../exports/export_segments`
+     - POST /api/v2/email/filter
    * - :doc:`../exports/export_registrations`
      - POST /api/v2/contact/getregistrations
    * - :doc:`../exports/export_responses`
      - POST /api/v2/email/getresponses
    * - :doc:`../exports/export_status`
      - GET /api/v2/export/<export_id>
+   * - :doc:`../exports/export_data`
+     - GET /api/v2/export/<export_id>/data
 
 .. list-table:: **External Events**
 

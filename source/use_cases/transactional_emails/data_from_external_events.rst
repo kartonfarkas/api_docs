@@ -72,7 +72,7 @@ see :doc:`../../suite/contacts/contact_create` and :doc:`../../suite/contacts/co
 ``POST /api/v2/event/<id>/trigger``
 
 Use your external event ID (not the name!) as *id*. Since these IDs don’t change, you can just use
-:doc:`get_started/api_demo` to get the ID, and use it in your integration script.
+:doc:`../../suite/get_started/api_demo` to get the ID, and use it in your integration script.
 
 .. code-block:: json
 

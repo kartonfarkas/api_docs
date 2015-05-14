@@ -4,6 +4,13 @@ Exporting Responses
 Exports the selected fields of all contacts who responded to emails within the specified time range.
 The request starts a background export process and returns its ID which can be used to obtain the status of the export. The background process saves the results as a CSV file, either locally or via FTP on another computer.
 
+.. code-block:: text
+
+   user_id;First Name;Last Name;E-Mail;Campaign title;Link title;Url;source
+   287705659;user3;test_import;test1@emarsys.com;VisualCMS_2015_04_09_10_05_03;;www.emarsys.com;click
+   287705659;user3;test_import;test1@emarsys.com;RSS_2015_04_09_10_05_03;;www.google.com.com;click
+   287705659;user3;test_import;test1@emarsys.com;AC_recurring_2015_04_09_10_05_03;;;open
+
 .. include:: _warning.rst
 
 Endpoint
@@ -86,7 +93,7 @@ The number of fields required to use *contact_fields* and *analysis_fields* has 
      - int
      - Campaign ID, provides the responses to this email
      -
-   * - contactlist_id
+   * - contactlist
      - int
      - If you check the contacts who answered within a contact list
      -
@@ -124,22 +131,32 @@ Request Example
 .. code-block:: json
 
    {
-     "distribution_method": "ftp",
-     "origin": "form",
-     "origin_id": "123",
-     "time_range": ["2012-02-09", "2012-04-02"],
-     "contact_fields": ["1", "3", "106533"],
-     "delimiter": ";",
-     "add_field_names_header": 1,
-     "language": "en",
-     "ftp_settings":
-     {
-       "host": "www.example.com",
-       "port": "1234",
-       "username": "user",
-       "password": "pass",
-       "folder": "path/of/a/folder"
-     }
+      "distribution_method":"ftp",
+      "sources":"all",
+      "email_id":"89268",
+      "time_range":[
+         "2012-02-09",
+         "2014-08-13"
+      ],
+      "contact_fields":[
+         "1",
+         "3"
+      ],
+      "analysis_fields":[
+         "5",
+         "8",
+         "15"
+      ],
+      "delimiter":";",
+      "add_field_names_header":1,
+      "language":"en",
+      "ftp_settings":{
+         "host":"XXXXXXXX",
+         "port":"21",
+         "username":"XXXXXX",
+         "password":"xxxxxx",
+         "folder":"public_html/bonus/full"
+      }
    }
 
 Result Example
@@ -179,14 +196,6 @@ Errors
      - 10001
      - Invalid data format for time_range. Array size must be 2
      - The length of the array provided for time_range is not 2.
-   * - 400
-     - 10001
-     - Invalid origin: [parameter]
-     - An invalid origin type was sent.
-   * - 400
-     - 10001
-     - Invalid data format for origin_id. Integer expected
-     - Invalid origin ID (form or API source) was sent.
    * - 400
      - 10001
      - Invalid distribution method: [value]

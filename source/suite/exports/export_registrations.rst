@@ -4,6 +4,14 @@ Exporting Contact Registrations
 Exports the selected fields of all contacts according to the *time_range* parameter (e.g. all contacts registered between **X** and **Y**).
 The request starts a background export process and returns its ID which can be used to obtain the status of the export. The background process saves the results as a CSV file, either locally or via FTP on another computer.
 
+.. code-block:: text
+
+   user_id;First Name;Last Name;E-Mail;Company;last update
+   135369573;user3;test_import;test1@emarsys.com;;
+   171879718;user3;test_import;test1@emarsys.com;;
+   183453150;user3;test_import;test1@emarsys.com;;
+   188925627;user3;test_import;test1@emarsys.com;;
+
 .. include:: _warning.rst
 
 Endpoint
@@ -55,7 +63,7 @@ Parameters
      - Type
      - Description
      - Comments
-   * - contactlist_id
+   * - contactlist
      - int
      - If you check the contacts who registered within a contact list
      -
@@ -96,8 +104,7 @@ Request Example
 
    {
      "distribution_method": "ftp",
-     "origin": "form",
-     "origin_id": "123",
+     "contactlist": "111111111",
      "time_range": ["2012-02-09", "2012-04-02"],
      "contact_fields": ["1","3","106533"],
      "delimiter": ";",
@@ -123,7 +130,7 @@ Result Example
      "replyText": "OK",
      "data":
      {
-       "id": 2140
+       "id": 222222222
      }
    }
 
@@ -150,14 +157,6 @@ Errors
      - 10001
      - Invalid data format for time_range. Array size must be 2
      - The length of the array provided for time_range is not 2.
-   * - 400
-     - 10001
-     - Invalid origin: [parameter]
-     - An invalid origin type was sent.
-   * - 400
-     - 10001
-     - Invalid data format for origin_id. Integer expected
-     - Invalid origin ID (form or API source) was sent.
    * - 400
      - 10001
      - Invalid distribution method: [value]

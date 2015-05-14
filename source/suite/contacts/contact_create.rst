@@ -141,7 +141,7 @@ Errors
    * - 400
      - 2007
      - Invalid date format for field id: [id]
-     - The date format provided for the specified field is invalid.
+     - The date format provided for the specified field is invalid. Valid date formats are YYYY-MM-DD, YYYY-MM-DD HH:MM and YYYY-MM-DD HH:MM:SS.
    * - 400
      - 2007
      - Invalid choice id for field id: [id]
