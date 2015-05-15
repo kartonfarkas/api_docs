@@ -9,7 +9,8 @@ It **does not change** the opt-in status of the contact, this must be done with 
 (:doc:`../../suite/contacts/contact_update`) if necessary.
 
 .. note:: It is useful if you aim at sending email campaigns with unsubscribe links which target your own website and
-          unsubscribing the contact only from the specific email campaign, not from all campaigns. Unsubscribe link must contain
+          unsubscribing the user by updating specific fields in his user profile (e.g. a newsletter flag) and count the
+          unsubscription for the statistics of the specific campaign, not from all campaigns. Unsubscribe link must contain
           parameters $cid$ and $llid$.
 
 Endpoint
@@ -37,6 +38,11 @@ Parameters
      - int
      - ID of a specific email
      -
+
+Where to get these IDs from: In your campaign, create a new link which points to the unsubscription page of your
+website. You can use $cid$ and $llid$. $cid$ will be replaced with the email_id and $llid$ will be replaced with the
+launch_list_id. Please make sure that you track the link in Emarsys suite.
+Example: http://yourwebsite.com/unsubscribe.html?email_id=$cid$&launchlist_id=$llid$
 
 Request Example
 ---------------
