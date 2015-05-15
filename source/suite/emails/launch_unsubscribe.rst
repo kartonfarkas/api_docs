@@ -42,7 +42,7 @@ Parameters
 Where to get these IDs from: In your campaign, create a new link which points to the unsubscription page of your
 website. You can use $cid$ and $llid$. $cid$ will be replaced with the email_id and $llid$ will be replaced with the
 launch_list_id. Please make sure that you track the link in Emarsys suite.
-Example: http://yourwebsite.com/unsubscribe.html?email_id=$cid$&launchlist_id=$llid$
+Example: `http://yourwebsite.com/unsubscribe.html?email_id=$cid$&launchlist_id=$llid$`
 
 Request Example
 ---------------
