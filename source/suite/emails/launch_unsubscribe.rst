@@ -38,6 +38,10 @@ Parameters
      - int
      - ID of a specific email
      -
+   * - uid
+     - string
+     - Identifies a contact, a randomly generated string.
+     -
 
 Where to get these IDs from: In your campaign, create a new link which points to the unsubscription page of your
 website. You can use $cid$ and $llid$. $cid$ will be replaced with the email_id and $llid$ will be replaced with the
