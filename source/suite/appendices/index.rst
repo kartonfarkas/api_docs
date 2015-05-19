@@ -14,6 +14,7 @@ Useful Resources
    launch_error_status.rst
    system_fields.rst
    language_codes.rst
+   placeholders.rst
 
 Special Endpoints
 -----------------
