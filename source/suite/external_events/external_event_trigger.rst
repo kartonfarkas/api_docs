@@ -4,7 +4,8 @@ Triggering External Events
 Trigger any named External Event for a specified contact.
 
 .. note::
-         `Creating Transactional Emails <http://documentation.emarsys.com/suite/txm/>`_, :doc:`../appendices/placeholders`
+         For further information about creating emails with transaction-specific content, see `Creating Transactional Emails <http://documentation.emarsys.com/suite/txm/>`_.
+         For the list of possible campaign related placeholders, see :doc:`../appendices/placeholders`.
 
 Endpoint
 --------

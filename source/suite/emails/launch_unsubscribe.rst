@@ -11,7 +11,7 @@ It **does not change** the opt-in status of the contact, this must be done with 
 .. note:: It is useful if you aim at sending email campaigns with unsubscribe links which target your own website and
           unsubscribing the user by updating specific fields in his user profile (e.g. a newsletter flag) and count the
           unsubscription for the statistics of the specific campaign, not from all campaigns. Unsubscribe link must contain
-          parameters $cid$ and $llid$.
+          parameters $cid$, $llid$ and $uid$. For the list of possible campaign related placeholders, see :doc:`../appendices/placeholders`.
 
 Endpoint
 --------
