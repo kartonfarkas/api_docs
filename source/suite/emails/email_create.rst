@@ -3,6 +3,9 @@ Creating an Email Campaign
 
 Creates an email campaign with the specified parameters.
 
+.. note::
+         `Creating Transactional Emails <http://documentation.emarsys.com/suite/txm/>`_
+
 Endpoint
 --------
 

@@ -3,6 +3,9 @@ Triggering External Events
 
 Trigger any named External Event for a specified contact.
 
+.. note::
+         `Creating Transactional Emails <http://documentation.emarsys.com/suite/txm/>`_
+
 Endpoint
 --------
 
