@@ -1,3 +1,14 @@
+.wy-breadcrumbs li.wy-breadcrumbs-aside {
+    margin: -20px -40px 15px 20px;
+}
+
+.wy-side-nav-search {
+    background: #163c8e;
+    background-image: url(./images/suite_logo.png);
+    background-position: 12px 10px;
+    background-repeat: no-repeat;
+}
+
 .wy-side-nav-search a {
     text-align: left;
     padding: 6px 0 6px 53px;
@@ -5,6 +16,10 @@
 
 .wy-side-nav-search a::before {
     display: none;
+}
+
+.wy-nav-side {
+    background: #072568;
 }
 
 .wy-nav-side .wy-menu.rst-pro {
