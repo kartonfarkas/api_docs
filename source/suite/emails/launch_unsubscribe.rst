@@ -14,8 +14,11 @@ It **does not change** the opt-in status of the contact, this must be done with 
           * unsubscribing the user by updating specific fields in his user profile (e.g. a newsletter flag)
           * counting the unsubscription for the statistics of the specific campaign, not from all campaigns
 
-Unsubscribe link must contain parameters $cid$, $llid$ and $uid$. For the list of possible campaign related
-placeholders, see :doc:`../appendices/placeholders`.
+In your campaign body, create a new link which points to the unsubscription page of your
+website. You can use $cid$, $llid$ and $uid$. $cid$ will be replaced with the email ID, $llid$ with the
+launch list ID and $uid$ with the randomly generated contact ID. Example: `http://yourwebsite.com/unsubscribe.html?email_id=$cid$&launchlist_id=$llid$`
+
+For the list of possible campaign related placeholders, see :doc:`../appendices/placeholders`.
 
 Endpoint
 --------
@@ -46,11 +49,6 @@ Parameters
      - string
      - Identifies a contact, a randomly generated string.
      -
-
-Where to get these IDs from: In your campaign, create a new link which points to the unsubscription page of your
-website. You can use $cid$ and $llid$. $cid$ will be replaced with the email_id and $llid$ will be replaced with the
-launch_list_id. Please make sure that you track the link in Emarsys suite.
-Example: `http://yourwebsite.com/unsubscribe.html?email_id=$cid$&launchlist_id=$llid$`
 
 Request Example
 ---------------
