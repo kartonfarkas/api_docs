@@ -57,7 +57,7 @@ Required Response
 
 * HTTP Status codes in the range 200-299 indicate a successful execution by the service. 
 * HTTP Status codes in the range 400-499 indicate a client-side error (i.e. the request is invalid and cannot be fulfilled).
-* HTTP Status codes in the range 500-599 indicate a server-side error. In the case of a server-side error, the Automation Center will resend the request 3 times, and then stop. The service should also return a JSON containing a userMessage and a code key.
+* HTTP Status codes in the range 500-599 indicate a server-side error. In the case of a server-side error, the Automation Center will resend the request 3 times, and then stop. The service should also return a JSON containing a userMessage and a code key. An example for this follows.
 
 Example
 -------
@@ -166,7 +166,8 @@ API would then look something like this:
        $service->trigger($request);
 
        // Finally if all went well we respond with a success message
-       echo json_encode(array('success' => true));
+       http_response_code(200)
+       echo json_encode(array());
 
    } catch(Exception $e) {
 
@@ -174,5 +175,6 @@ API would then look something like this:
        // We assumed here that all exceptions have error messages that
        // make sense for the user. Usually you may need to rephrase
        // some of these messages for the users.
-       echo json_encode(array('success' => false, 'errorMessage' => $e->getMessage()));
+       http_response_code(500)
+       echo json_encode(array('userMessage' => $e->getMessage(),'code' => 45));
    }
