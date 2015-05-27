@@ -16,7 +16,8 @@ It **does not change** the opt-in status of the contact, this must be done with 
 
 In your campaign body, create a new link which points to the unsubscription page of your
 website. You can use $cid$, $llid$ and $uid$. $cid$ will be replaced with the email ID, $llid$ with the
-launch list ID and $uid$ with the randomly generated contact ID. Example: `http://yourwebsite.com/unsubscribe.html?email_id=$cid$&launchlist_id=$llid$`
+launch list ID and $uid$ with the randomly generated contact ID. Example:
+`http://yourwebsite.com/unsubscribe.html?email_id=$cid$&launchlist_id=$llid$contact_id=$uid$`
 
 For the list of possible campaign related placeholders, see :doc:`../appendices/placeholders`.
 
