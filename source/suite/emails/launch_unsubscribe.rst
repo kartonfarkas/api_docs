@@ -1,7 +1,7 @@
 Unsubscribing a Contact from an Email Campaign
 ==============================================
 
-Flagsa contact as unsubscribed for an email campaign launch so they will included in the campaign statistics. It affects
+Flags a contact as unsubscribed for an email campaign launch so they will included in the campaign statistics. It affects
 the response summary (:doc:`launch_response_summary`) and :doc:`../../suite/exports/export_responses`, as well as making
 segmentation based on unsubscription possible.
 
