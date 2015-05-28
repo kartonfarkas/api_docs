@@ -71,6 +71,7 @@ Error Condition:
      "code": "45"
    }
 
+Please note that no data is expected in the case of a normal result. We recommend to send status code 204 and an empty body.
 
 Program Types and Users
 -----------------------
