@@ -62,12 +62,15 @@ Required Response
 Example
 -------
 
+Error Condition:
+
 .. code-block:: json
 
    {
      "userMessage": "Could not trigger event",
      "code": "45"
    }
+
 
 Program Types and Users
 -----------------------
