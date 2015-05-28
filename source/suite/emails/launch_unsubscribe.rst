@@ -1,7 +1,7 @@
 Unsubscribing a Contact from an Email Campaign
 ==============================================
 
-Flags a contact as unsubscribed for an email campaign launch so they will included in the campaign statistics. It affects
+Flags contacts as unsubscribed for an email campaign launch so they will be included in the campaign statistics. It affects
 the response summary (:doc:`launch_response_summary`) and :doc:`../../suite/exports/export_responses`, as well as making
 segmentation based on unsubscription possible.
 
@@ -10,13 +10,12 @@ Unsubscribing the contact from an email campaign **does not change** the opt-in 
 
 .. note:: This endpoint is useful if you intend to:
 
-           * send email campaigns with unsubscribe links which target your own website
-          * unsubscribe a contact by updating specific fields in their user profile (e.g. a newsletter flag)
+          * send email campaigns with unsubscribe links which target your own website
+          * unsubscribe contacts by updating specific fields in their user profile (e.g. a newsletter flag)
           * count the unsubscription statistics of a specific campaign (not from all campaigns)
 
 In your campaign body, create a new link which points to the unsubscription page of your
-website. You can include any of the following additional placeholders: $cid$, $llid$ and $uid$. 
-
+website. You can include placeholders $cid$, $llid$ and $uid$ to get the required parameters for calling this API endpoint.
 $cid$ will be replaced with the email ID, $llid$ with the launch list ID and $uid$ with the randomly generated contact ID. Example: `http://yourwebsite.com/unsubscribe.html?email_id=$cid$&launchlist_id=$llid$`
 
 For a complete list of campaign related placeholders, see :doc:`../appendices/placeholders`.
