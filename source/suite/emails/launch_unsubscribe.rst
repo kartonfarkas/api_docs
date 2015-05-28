@@ -16,7 +16,11 @@ Unsubscribing the contact from an email campaign **does not change** the opt-in 
 
 In your campaign body, create a new link which points to the unsubscription page of your
 website. You can include placeholders $cid$, $llid$ and $uid$ to get the required parameters for calling this API endpoint.
-$cid$ will be replaced with the email ID, $llid$ with the launch list ID and $uid$ with the randomly generated contact ID. Example: `http://yourwebsite.com/unsubscribe.html?email_id=$cid$&launchlist_id=$llid$`
+         * $cid$ will be replaced with the email ID
+         * $llid$ with the launch list ID 
+         * $uid$ with the randomly generated contact ID
+
+An example link is: `http://yourwebsite.com/unsubscribe.html?email_id=$cid$&launchlist_id=$llid$`
 
 For a complete list of campaign related placeholders, see :doc:`../appendices/placeholders`.
 
