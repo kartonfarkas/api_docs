@@ -48,7 +48,6 @@ Media Database
    media_folder_list.rst
    media_folder_create.rst
 
-
 Conditions
 ----------
 
@@ -57,5 +56,10 @@ Conditions
 
    conditions.rst
 
+Templates
+---------
 
+.. toctree::
+   :maxdepth: 1
 
+   template_list.rst
