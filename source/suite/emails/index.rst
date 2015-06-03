@@ -72,3 +72,4 @@ Tracked Links
    :maxdepth: 1
 
    tracked_link_list.rst
+   tracked_link.rst
