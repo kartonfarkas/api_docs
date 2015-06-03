@@ -63,3 +63,4 @@ Templates
    :maxdepth: 1
 
    template_list.rst
+   template.rst
