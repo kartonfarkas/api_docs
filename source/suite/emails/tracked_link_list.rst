@@ -50,7 +50,6 @@ Where:
 
 * *id* is the link ID
 * *section_id* is the ID of the email campaign section of the URL
-* *url* is the link itself
 
 Errors
 ------
