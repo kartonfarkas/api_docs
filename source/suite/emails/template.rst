@@ -65,6 +65,6 @@ Errors
      - Message
      - Description
    * - 404
-     - 10001
+     - 6046
      - Template not found.
      -
