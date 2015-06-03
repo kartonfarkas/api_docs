@@ -1,6 +1,8 @@
 Querying an Email Template
 ==========================
 
+Returns all the details of an email template.
+
 Endpoint
 --------
 
