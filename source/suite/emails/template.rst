@@ -35,16 +35,21 @@ Result Example
          "name": "example_template 04 2012 EN",
          "groups": [
             {
-               "id": "groupid",
-               "name": "groupname"
+               "id": "group_id",
+               "name": "group_name"
             },
             {
-               "id": "groupid",
-               "name": "groupname"
+               "id": "group_id",
+               "name": "group_name"
             }
          ]
       }
    }
+
+Where:
+
+* *group_id* is the ID of a template section
+* *group_name* is the name of a template section
 
 Errors
 ------
