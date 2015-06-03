@@ -64,3 +64,11 @@ Templates
 
    template_list.rst
    template.rst
+
+Tracked Links
+-------------
+
+.. toctree::
+   :maxdepth: 1
+
+   tracked_link_list.rst
