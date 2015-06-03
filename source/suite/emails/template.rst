@@ -50,8 +50,8 @@ Result Example
 
 Where:
 
-* *group_id* is the ID of a template section
-* *group_name* is the name of a template section
+* *group_id* is the ID of a group containing sections
+* *group_name* is the name of a group containing sections
 
 Errors
 ------
