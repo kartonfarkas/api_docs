@@ -5,7 +5,7 @@ Updates the URL parameter of an email campaign's tracked link.
 
 .. note:: Please note that for template-based campaigns, it is not sufficient to update the link only.
           Updating the section is required as well as the old link remains stored in it.
-          
+
 Endpoint
 --------
 
