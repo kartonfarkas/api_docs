@@ -153,6 +153,8 @@ API Endpoints
      - GET /api/v2/email/<email_id>/sections/<section_id>
    * - :doc:`../emails/section_create`
      - POST /api/v2/email/sections
+   * - :doc:`../emails/section_update`
+     - POST /api/v2/email/sections
    * - :doc:`../emails/section_delete`
      - POST /api/v2/email/<email_id>/sections/<section_id>/delete
 
