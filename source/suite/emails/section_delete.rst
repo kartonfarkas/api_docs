@@ -6,7 +6,7 @@ Deletes a section of a template-based email campaign. Section is a part of a cam
 Endpoint
 --------
 
-``GET /api/v2/email/<email_id>/sections/<section_id>/delete``
+``POST /api/v2/email/<email_id>/sections/<section_id>/delete``
 
 Parameters
 ----------
