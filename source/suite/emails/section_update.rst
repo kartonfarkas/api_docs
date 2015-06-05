@@ -1,5 +1,5 @@
-Update a Section of a Template Based Email Campaign
-===================================================
+Updating a Section of a Template Based Email Campaign
+=====================================================
 
 Updates a section of a template_based email campaign with the specified parameters.
 
