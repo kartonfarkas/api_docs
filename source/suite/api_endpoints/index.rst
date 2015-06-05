@@ -129,6 +129,33 @@ API Endpoints
    * - :doc:`../emails/launch_unsubscribe`
      - POST /api/v2/email/unsubscribe
 
+.. list-table:: **Templates**
+
+   * - :doc:`../emails/template_list`
+     - GET /api/v2/email/templates
+   * - :doc:`../emails/template`
+     - GET /api/v2/email/templates/<template_id>
+
+.. list-table:: **Tracked Links**
+
+   * - :doc:`../emails/tracked_link_list`
+     - GET /api/v2/email/<email_id>/trackedlinks
+   * - :doc:`../emails/tracked_link`
+     - GET /api/v2/email/<email_id>/trackedlinks/<link_id>
+   * - :doc:`../emails/tracked_link_update`
+     - POST /api/v2/email/<email_id>/trackedlinks/<link_id>
+
+.. list-table:: **Sections**
+
+   * - :doc:`../emails/section_list`
+     - GET /api/v2/email/<email_id>/sections
+   * - :doc:`../emails/section`
+     - GET /api/v2/email/<email_id>/sections/<section_id>
+   * - :doc:`../emails/section_create`
+     - POST /api/v2/email/sections
+   * - :doc:`../emails/section_delete`
+     - POST /api/v2/email/<email_id>/sections/<section_id>/delete
+
 .. list-table:: **Media Database**
 
    * - :doc:`../emails/media_file_list`
