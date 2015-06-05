@@ -83,3 +83,4 @@ Sections
 
    section_list.rst
    section.rst
+   section_delete.rst
