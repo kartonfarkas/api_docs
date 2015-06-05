@@ -74,6 +74,7 @@ Where:
    * - id
      - int
      - ID of the section
+     -
    * - order
      - int
      - Signs the ranking of the sections
