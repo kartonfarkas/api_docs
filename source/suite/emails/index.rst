@@ -82,3 +82,4 @@ Sections
    :maxdepth: 1
 
    section_list.rst
+   section.rst
