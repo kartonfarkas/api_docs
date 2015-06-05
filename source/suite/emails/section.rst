@@ -61,6 +61,17 @@ Result Example
      }
    }
 
+Where:
+
+* *id* is the ID of the section.
+* *order* signs the ranking of the sections. Please note that if sections are deleted, ranking of the existing sections will not change.
+* *header_source* is the HTML content of the header.
+* *header_align* can be **left, center, right**.
+* *image_link* is the URL to which an image points.
+* *image_align* can be **left, right**.
+* *form_id* is the ID of the `form <../../suite/contacts/forms.html>`_.
+* *target_audience* can be **all, segment**.
+
 Errors
 ------
 
