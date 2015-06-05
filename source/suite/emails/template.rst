@@ -50,7 +50,7 @@ Result Example
 
 Where:
 
-* *id* is the group_id, the ID of a group containing sections
+* *id* is the ID of a group containing sections
 * *name* is the name of a group containing sections
 
 Errors
