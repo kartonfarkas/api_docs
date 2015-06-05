@@ -77,6 +77,10 @@ Parameters
      - Type
      - Description
      - Comments
+   * - template_id
+     - int
+     - ID of the template for creating a template-based campaign
+     -
    * - unsubscribe
      - int
      - The email contains an unsubscribe link
