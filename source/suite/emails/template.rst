@@ -37,12 +37,12 @@ Result Example
          "name": "example_template 04 2012 EN",
          "groups": [
             {
-               "id": "group_id",
-               "name": "group_name"
+               "id": "111111111",
+               "name": "group_name_example"
             },
             {
-               "id": "group_id",
-               "name": "group_name"
+               "id": "222222222",
+               "name": "group_name_example_2"
             }
          ]
       }
@@ -50,8 +50,8 @@ Result Example
 
 Where:
 
-* *group_id* is the ID of a group containing sections
-* *group_name* is the name of a group containing sections
+* *id* is the group_id, the ID of a group containing sections
+* *name* is the name of a group containing sections
 
 Errors
 ------
