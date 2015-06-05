@@ -27,6 +27,7 @@ Parameters
      - int
      - ID of the section, part of the URI
      -
+     
 Result Example
 --------------
 
