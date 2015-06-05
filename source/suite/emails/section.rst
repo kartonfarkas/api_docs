@@ -1,5 +1,5 @@
 Querying a Section of a Template Based Email Campaign
------------------------------------------------------
+=====================================================
 
 Returns all the details of a section of a template-based campaign. Section is a part of a campaign.
 
