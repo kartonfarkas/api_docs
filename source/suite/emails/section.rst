@@ -52,7 +52,7 @@ Result Example
        "link_url": "http://example.com",
        "link_title": "example_title",
        "is_image_linked": "true",
-       "is_header_linked": "y",
+       "is_header_linked": "true",
        "link_description": "link",
        "form_id": 0,
        "form_title": "",
