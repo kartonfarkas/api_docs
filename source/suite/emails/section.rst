@@ -63,7 +63,7 @@ Result Example
 
 Where:
 
-.. list-table::
+.. list-table:: Parameters
    :header-rows: 1
    :widths: 20 20 40 40
 
