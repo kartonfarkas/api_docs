@@ -136,3 +136,23 @@ Where:
      - string
      - Can be **all, segment**
      -
+
+Errors
+------
+
+.. list-table:: Possible Error Codes
+   :header-rows: 1
+   :widths: 20 20 40 40
+
+   * - HTTP Code
+     - Reply Code
+     - Message
+     - Description
+   * - 400
+     - 1007
+     - No such field: %s.
+     - Field name has a mistype in the code.
+   * - 400
+     - 1008
+     - Invalid value for field: %s.
+     -
