@@ -22,11 +22,11 @@ Parameters
    * - email_id
      - int
      - ID of the email, part of the URI
-     -
+     - The email which should have the section removed.
    * - section_id
      - int
      - ID of the section, part of the URI
-     -
+     - The section to remove
      
 Result Example
 --------------
