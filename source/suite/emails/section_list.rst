@@ -22,7 +22,7 @@ Parameters
    * - email_id
      - int
      - ID of the email, part of the URI
-     -
+     - Speficies which email to query.
 
 Result Example
 --------------
