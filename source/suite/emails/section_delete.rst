@@ -1,7 +1,7 @@
-Deleting a Section of a Template Based Email Campaign
-=====================================================
+Deleting a Section from a Template Based Email Campaign
+=======================================================
 
-Deletes a section of a template-based email campaign. Section is a part of a campaign.
+Deletes a section from a template-based email campaign. Section is a part of a campaign.
 
 Endpoint
 --------
