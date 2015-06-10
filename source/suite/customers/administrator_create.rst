@@ -40,7 +40,7 @@ Parameters
    * - interface_language
      - string
      - ISO code of the current language used in the Suite UI by the admin
-     - For a list of available languages, see administrator/getinterfacelanguages.
+     - For a list of available languages, see :doc:`administrator_interface_languages`.
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
