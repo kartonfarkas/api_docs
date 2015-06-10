@@ -70,7 +70,7 @@ Request Example
      "default_upages_lang": "en",
      "first_name": "Black",
      "last_name": "Panther",
-     "mobile_phone": "+1 222 333 4444",
+     "mobile_phone": "",
      "tz": "",
      "position": "superhero",
      "last_verification_action_date": "2015-05-14 11:24:09",
