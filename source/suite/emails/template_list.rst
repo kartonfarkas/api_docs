@@ -1,7 +1,7 @@
 Listing Email Templates
 =======================
 
-Returns a list of all available templates, each with name and ID.
+Returns a list of all available templates, including their names and IDs.
 
 Endpoint
 --------
@@ -19,19 +19,19 @@ Result Example
       "data":[
          {
             "id":1111111111,
-            "name":"example_template 04 2012 EN"
+            "name":"Weekly Newsletter - English"
          },
          {
             "id":2222222222,
-            "name":"example_template 04 2012 DE"
+            "name":"Monthly Customer Satisfaction Survey - English"
          },
          {
             "id":3333333333,
-            "name":"example_template 07 2011 EN"
+            "name":"Monthly Customer Satisfaction Survey - Russian"
          },
          {
             "id":4444444444,
-            "name":"example_template 07 2010 EN"
+            "name":"Re-engagement campaign - French"
          }
       ]
    }
