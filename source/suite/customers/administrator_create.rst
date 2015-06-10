@@ -163,6 +163,10 @@ Errors
      - 1003
      - Database connection error
      -
+   * - 400
+     - 8019
+     - Email violates domain restrictions
+     - The domain provided in the email is not accepted.
 
 
 
