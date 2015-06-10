@@ -31,7 +31,7 @@ Result Example
          },
          {
             "id":4444444444,
-            "name":"Re-engagement campaign - French"
+            "name":"Re-engagement Campaign - French"
          }
       ]
    }
