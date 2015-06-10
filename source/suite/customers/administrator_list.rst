@@ -65,11 +65,11 @@ Where:
 
 * *id* is the internal ID of the admin for the customer
 * *interface_language* is the ISO code of the current language used in the Suite UI by the admin (for a list of possible languages see administrator/getinterfacelanguages)
+* *default_upages_lang* is the default language of the www.emarsys.net/u/… links of the launched email campaigns
 * *access_level* is the admin role ID (for a list of possible values see :doc:`administrator_access_levels`)
 * *tz* is the time zone, the default timezone of the account will apply if this is empty
 * *superadmin* indicates if this admin has superadmin access (1) or not (0). Superadmins can define administrators for the account and can also provide admin data.
 * *disabled* indicates if the account is locked (1) or unlocked (0)
-* *default_upages_lang* is the default language of the www.emarsys.net/u/… links of the launched email campaigns
 * *last_verification_action_date* is for internal use only
 * *actual_login* is the date of the last login
 * *pwd_update_interval* is the number of days after which password change is necessary
