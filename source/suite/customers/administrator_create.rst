@@ -55,6 +55,30 @@ Parameters
    * - position
      - string
 
+Request Example
+---------------
+
+.. code-block:: json
+
+   {
+     "username": "black_panther",
+     "password": "",
+     "pwd_update_interval": "30",
+     "email": "black.panther@rvnbizu.com",
+     "access_level": "1",
+     "interface_language": "en",
+     "default_upages_lang": "en",
+     "first_name": "Black",
+     "last_name": "Panther",
+     "mobile_phone": "+1 222 333 4444",
+     "tz": "",
+     "position": "superhero",
+     "last_verification_action_date": "2015-05-14 11:24:09",
+     "actual_login": "2015-06-10 09:45:54",
+     "disabled": 0,
+     "superadmin": 0
+   }
+
 Result Example
 --------------
 
