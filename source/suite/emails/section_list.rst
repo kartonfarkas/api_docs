@@ -1,7 +1,7 @@
-Listing Sections of a Template Based Email Campaign
+Listing Sections in a Template Based Email Campaign
 ===================================================
 
-Returns a list of sections which are parts of an email template-based campaign.
+Returns a list of sections used in a particular template-based email campaign.
 
 Endpoint
 --------
@@ -22,7 +22,7 @@ Parameters
    * - email_id
      - int
      - ID of the email, part of the URI
-     - Speficies which email to query.
+     - 
 
 Result Example
 --------------
