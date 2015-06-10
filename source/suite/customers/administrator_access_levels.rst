@@ -16,17 +16,16 @@ Result Example
 .. code-block:: json
 
    {
-       "replyCode": 0,
-       "replyText": "OK",
-       "data":
-       [
-           {
-               "id": "1",
-               "name": "Operator"
-           },
-           {
-               "id": "974",
-               "name": "Blacklist Administrator"
-           }
-       ]
+      "replyCode": 0,
+      "replyText": "OK",
+      "data": [
+         {
+            "id": 0,
+            "name": "Administrator"
+         },
+         {
+            "id": 1,
+            "name": "Operator"
+         }
+      ]
    }
