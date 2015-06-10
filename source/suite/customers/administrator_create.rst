@@ -35,25 +35,65 @@ Parameters
      -
    * - access_level
      - int
-     - Desired access level ID of the new admin
-     - For a list of available access level IDs, see administrator/getaccesslevels.
+     - Admin role ID
+     - For a list of possible values, see :doc:`administrator_access_levels`.
    * - interface_language
      - string
-     - Interface language for the new admin account
+     - ISO code of the current language used in the Suite UI by the admin
      - For a list of available languages, see administrator/getinterfacelanguages.
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
-   :widths: 20 20
+   :widths: 20 20 40 40
 
    * - Name
      - Type
+     - Description
+     - Comments
    * - first_name
      - string
+     -
+     -
    * - last_name
      - string
+     -
+     -
    * - position
      - string
+     -
+     -
+   * - pwd_update_interval
+     - int
+     - Number of days after which password change is necessary
+     -
+   * - default_upages_lang
+     - string
+     - Default language of the www.emarsys.net/u/… links of the launched email campaigns
+     -
+   * - tz
+     - string
+     - Time zone
+     -
+   * - mobile_phone
+     -
+     -
+     -
+   * - last_verification_action_date
+     - date
+     - For internal use only
+     -
+   * - actual_login
+     - date
+     - Date of the last login
+     -
+   * - disabled
+     - int
+     - Indicates if the account is locked (1) or unlocked (0)
+     -
+   * - superadmin
+     - int
+     - Indicates if this admin has superadmin access (1) or not (0)
+     - Superadmins can define administrators for the account and can also provide admin data.
 
 Request Example
 ---------------
@@ -110,15 +150,6 @@ Result Example
 Where:
 
 * *id* is the internal ID of the admin
-* *interface_language* is the ISO code of the current language used in the Suite UI by the admin (for a list of possible languages see administrator/getinterfacelanguages)
-* *default_upages_lang* is the default language of the www.emarsys.net/u/… links of the launched email campaigns
-* *access_level* is the admin role ID (for a list of possible values see :doc:`administrator_access_levels`)
-* *tz* is the time zone, the default timezone of the account will apply if this is empty
-* *superadmin* indicates if this admin has superadmin access (1) or not (0). Superadmins can define administrators for the account and can also provide admin data.
-* *disabled* indicates if the account is locked (1) or unlocked (0)
-* *last_verification_action_date* is for internal use only
-* *actual_login* is the date of the last login
-* *pwd_update_interval* is the number of days after which password change is necessary
 
 Errors
 ------
