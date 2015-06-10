@@ -6,7 +6,7 @@ Creates a section of a template-based email campaign with the specified paramete
 Endpoint
 --------
 
-``POST /api/v2/email/sections``
+``POST /api/v2/email/<email_id>/sections``
 
 Parameters
 ----------
