@@ -114,19 +114,19 @@ Result Example
 
 Where:
 
-* *id* = The internal identifier of the email
-* *name* = The name of the email in Suite
-* *fromemail* = The sender email address
-* *fromname* = The sender name
-* *subject* = The email subject line
-* *email_category* = The category identifier for this email, for more info see :doc:`../emails/email_categories`.
-* *filter* = The filter identifier. Available filters can be retrieved via :doc:`../contacts/segment_list`.
-* *contactlist* = The contact list identifier. Contact lists can be retrieved via :doc:`../contacts/contact_list_list`.
-* *cc_list* = The ID of the contact list which will receive a copy of the email when sent. Only works if BCC List is enabled.
-* *status* = The status of the email, for more info see :doc:`../appendices/email_status`.
-* *api_status* = The launch status of the email, for more info see :doc:`../appendices/launch_status`.
-* *api_error* = Any specific errors related to the endpoints or methods, for more info see :doc:`../appendices/error_codes`.
-* *source* = Where the recipient originated, possible values are: **userlist, profile, api**
+* *id* is the internal identifier of the email
+* *name* is the name of the email in Suite
+* *fromemail* is the sender email address
+* *fromname* is the sender name
+* *subject* is the email subject line
+* *email_category* is the category identifier for this email, for more info see :doc:`../emails/email_categories`.
+* *filter* is the filter identifier. Available filters can be retrieved via :doc:`../contacts/segment_list`.
+* *contactlist* is the contact list identifier. Contact lists can be retrieved via :doc:`../contacts/contact_list_list`.
+* *cc_list* is the ID of the contact list which will receive a copy of the email when sent. Only works if BCC List is enabled.
+* *status* is the status of the email, for more info see :doc:`../appendices/email_status`.
+* *api_status* is the launch status of the email, for more info see :doc:`../appendices/launch_status`.
+* *api_error* is any specific error related to the endpoints or methods, for more info see :doc:`../appendices/error_codes`.
+* *source* is where the recipient originated, possible values are: **userlist, profile, api**
 
 Errors
 ------
