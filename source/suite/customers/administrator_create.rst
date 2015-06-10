@@ -61,22 +61,21 @@ Request Example
 .. code-block:: json
 
    {
-     "username": "black_panther",
-     "password": "",
-     "pwd_update_interval": "30",
-     "email": "black.panther@rvnbizu.com",
-     "access_level": "1",
-     "interface_language": "en",
-     "default_upages_lang": "en",
-     "first_name": "Black",
-     "last_name": "Panther",
-     "mobile_phone": "",
-     "tz": "",
-     "position": "superhero",
-     "last_verification_action_date": "2015-05-14 11:24:09",
-     "actual_login": "2015-06-10 09:45:54",
-     "disabled": 0,
-     "superadmin": 0
+      "username": "black_panther",
+      "password": "Black891+Panther",
+      "pwd_update_interval": "30",
+      "email": "black.panther@emarsys.com",
+      "access_level": "1",
+      "interface_language": "en",
+      "default_upages_lang": "en",
+      "first_name": "Black",
+      "last_name": "Panther",
+      "mobile_phone": "36-304445555",
+      "position": "superhero",
+      "last_verification_action_date": "2015-05-14 11:24:09",
+      "actual_login": "2015-06-10 09:45:54",
+      "disabled": 0,
+      "superadmin": 0
    }
 
 Result Example
@@ -85,17 +84,41 @@ Result Example
 .. code-block:: json
 
    {
-       "replyCode": 0,
-       "replyText": "OK",
-       "data":
-       {
-           "id": 456
-       }
+      "replyCode": 0,
+      "replyText": "OK",
+      "data": {
+         "id": "100001241",
+         "username": "black_panther",
+         "email": "black.panther@emarsys.com",
+         "first_name": "Black",
+         "last_name": "Panther",
+         "interface_language": "en",
+         "default_upages_lang": "en",
+         "access_level": "1",
+         "position": "superhero",
+         "title": 0,
+         "tz": "",
+         "mobile_phone": "36-304445556",
+         "superadmin": 0,
+         "disabled": 0,
+         "last_verification_action_date": "2015-05-14 11:24:09",
+         "actual_login": "2015-06-10 09:45:54",
+         "pwd_update_interval": "30"
+      }
    }
 
 Where:
 
 * *id* is the internal ID of the admin
+* *interface_language* is the ISO code of the current language used in the Suite UI by the admin (for a list of possible languages see administrator/getinterfacelanguages)
+* *default_upages_lang* is the default language of the www.emarsys.net/u/… links of the launched email campaigns
+* *access_level* is the admin role ID (for a list of possible values see :doc:`administrator_access_levels`)
+* *tz* is the time zone, the default timezone of the account will apply if this is empty
+* *superadmin* indicates if this admin has superadmin access (1) or not (0). Superadmins can define administrators for the account and can also provide admin data.
+* *disabled* indicates if the account is locked (1) or unlocked (0)
+* *last_verification_action_date* is for internal use only
+* *actual_login* is the date of the last login
+* *pwd_update_interval* is the number of days after which password change is necessary
 
 Errors
 ------
