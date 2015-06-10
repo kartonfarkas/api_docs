@@ -1,5 +1,3 @@
 .. warning::
 
-   Access to the administrator endpoints may be limited. 
-   
-   If you need access, please contact Emarsys Support.
+   Access to the administrator endpoints is restricted. If you need access, you can consult with Emarsys Support.
