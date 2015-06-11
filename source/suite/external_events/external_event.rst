@@ -26,7 +26,7 @@ Parameters
      -
 
 Result Example
-==============
+--------------
 
 .. code-block:: json
 
@@ -52,5 +52,5 @@ Errors
      - Description
    * - 400
      - 5001
-     - Event is not found
+     - No event found with the specified ID.
      - There is no such event for this account.
