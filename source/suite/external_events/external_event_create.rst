@@ -20,7 +20,7 @@ Parameters
      - Description
      - Comments
    * - name
-     - int
+     - string
      - Name of the external event
      -
 
