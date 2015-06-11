@@ -190,7 +190,7 @@ Errors
        Please note the following restrictions:
 
        - the country code must be between 1 and 3 digits long
-       - the number after the hyphen must be between 6 and 20 digits long.
+       - the number after the hyphen must be between 6 and 20 digits long
 
    * - 400
      - 8006
