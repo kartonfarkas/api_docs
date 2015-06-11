@@ -52,15 +52,15 @@ Parameters
      - Comments
    * - first_name
      - string
-     -
+     - First name of the admin
      -
    * - last_name
      - string
-     -
+     - Last name of the admin
      -
    * - position
      - string
-     -
+     - Admin's role/position
      -
    * - pwd_update_interval
      - int
@@ -75,8 +75,8 @@ Parameters
      - Time zone
      -
    * - mobile_phone
-     -
-     -
+     - string
+     - Admin's mobile phone number
      -
    * - last_verification_action_date
      - date

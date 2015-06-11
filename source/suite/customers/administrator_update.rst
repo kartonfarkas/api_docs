@@ -49,11 +49,11 @@ Parameters
    * - access_level
      - int
      - Access level ID of the admin
-     - For a list of available access level IDs, see administrator/getaccesslevels.
+     - For a list of possible values, see :doc:`administrator_access_levels`.
    * - interface_language
      - string
      - Interface language of the admin account
-     - For a list of available languages, see administrator/getinterfacelanguages.
+     - For a list of available languages, see :doc:`administrator_interface_languages`.
    * - first_name
      - string
      - First name of the admin
@@ -66,6 +66,30 @@ Parameters
      - string
      - Admin's role/position
      -
+   * - pwd_update_interval
+      - int
+      - Number of days after which password change is necessary
+      -
+   * - default_upages_lang
+     - string
+     - Default language of the www.emarsys.net/u/… links of the launched email campaigns
+     -
+   * - tz
+     - string
+     - Time zone
+     -
+   * - mobile_phone
+     - string
+     - Admin's mobile phone number
+     -
+   * - last_verification_action_date
+     - date
+     - For internal use only
+     -
+   * - actual_login
+     - date
+     - Date of the last login
+     -
    * - disabled
      - int
      - Indicates if the account is disabled (1) or not (0).
@@ -75,29 +99,44 @@ Parameters
      - Indicates if this administrator has superadmin access (1) or not (0).
      -
 
+Request Example
+---------------
+
+.. code-block:: json
+
+   {
+      "administratorId":"111111111",
+      "username":"b_panther"
+   }
+
 Result Example
 --------------
 
-Normal Result:
-
 .. code-block:: json
 
    {
-      "replyCode": 0,
-      "replyText": "OK",
-      "data": null
+     "replyCode": 0,
+     "replyText": "OK",
+     "data": {
+       "id": "111111111",
+       "username": "b_panther",
+       "email": "black.panther@emarsys.com",
+       "first_name": "Black",
+       "last_name": "Panther",
+       "interface_language": "en",
+       "default_upages_lang": "en",
+       "access_level": "1",
+       "position": "superhero",
+       "title": 0,
+       "tz": "",
+       "mobile_phone": "36-304445555",
+       "superadmin": 0,
+       "disabled": 0,
+       "last_verification_action_date": "2015-05-14 11:24:09",
+       "actual_login": "2015-06-10 09:45:54",
+       "pwd_update_interval": "90"
+     }
    }
-
-Error Condition:
-
-.. code-block:: json
-
-   {
-      "replyCode": 8002,
-      "replyText": "Invalid username",
-      "data": ""
-   }
-
 
 Errors
 ------
@@ -133,11 +172,11 @@ Errors
    * - 400
      - 8003
      - Invalid access level
-     - For possible access level identifiers, see administrator/getaccesslevels.
+     - For possible access level identifiers, see :doc:`administrator_access_levels`.
    * - 400
      - 8004
      - Invalid interface language code
-     - For possible languages, see administrator/getinterfacelanguages.
+     - For possible languages, see :doc:`administrator_interface_languages`.
    * - 400
      - 8005
      - Invalid email
