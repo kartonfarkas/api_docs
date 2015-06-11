@@ -49,8 +49,8 @@ Parameters
      - External Data in JSON format
      -
 
-JSON Payload Example
---------------------
+Request Example
+---------------
 
 .. code-block:: json
 
