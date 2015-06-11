@@ -173,11 +173,11 @@ Errors
    * - 400
      - 8003
      - Invalid access level
-     - For a list of available access level IDs, see administrator/getaccesslevels
+     - For a list of available access level IDs, see see :doc:`administrator_access_levels`.
    * - 400
      - 8004
      - Invalid interface language code
-     - For a list of available languages, see administrator/getinterfacelanguages
+     - For a list of available languages, see see :doc:`administrator_interface_languages`.
    * - 400
      - 8005
      - Invalid email
