@@ -67,9 +67,9 @@ Parameters
      - Admin's role/position
      -
    * - pwd_update_interval
-      - int
-      - Number of days after which password change is necessary
-      -
+     - int
+     - Number of days after which password change is necessary
+     -
    * - default_upages_lang
      - string
      - Default language of the www.emarsys.net/u/… links of the launched email campaigns
