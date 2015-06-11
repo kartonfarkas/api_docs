@@ -183,6 +183,16 @@ Errors
      - Invalid email
      -
    * - 400
+     - 8022
+     - Invalid mobile phone
+     - Only numbers formatted as follows can be accepted: 36-XXXXXXXXX, where the country code has no prefix, and is
+       separated from the number with a hyphen.
+       Please note the following restrictions:
+
+       - the country code must be between 1 and 3 digits long
+       - the number after the hyphen must be between 6 and 20 digits long.
+
+   * - 400
      - 8006
      - Invalid password
      - Password should only contain letters and numbers.
