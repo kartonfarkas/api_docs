@@ -1,4 +1,4 @@
-Listing Sections in a Template Based Email Campaign
+Listing Sections in a Template-Based Email Campaign
 ===================================================
 
 Returns a list of sections used in a particular template-based email campaign.
