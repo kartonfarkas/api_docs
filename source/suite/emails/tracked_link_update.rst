@@ -1,4 +1,4 @@
-Updating a Tracked Link of an Email Campaign
+Updating a Tracked Link in an Email Campaign
 ============================================
 
 Updates the URL parameter of an email campaign's tracked link.
