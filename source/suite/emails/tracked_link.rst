@@ -1,4 +1,4 @@
-Querying a Tracked Link of an Email Campaign
+Querying a Tracked Link in an Email Campaign
 ============================================
 
 Returns all the details of an email campaign's tracked link.
