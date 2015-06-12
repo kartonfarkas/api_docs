@@ -1,7 +1,7 @@
-Querying a Section of a Template Based Email Campaign
+Querying a Section of a Template-Based Email Campaign
 =====================================================
 
-Returns all the details of a section of a template-based campaign. Section is a part of a campaign.
+Returns the full details of a section used in a template-based campaign.
 
 Endpoint
 --------
@@ -77,32 +77,32 @@ Where:
      -
    * - order
      - int
-     - Signs the ranking of the sections
-     - Please note that if sections are deleted, ranking of the existing sections will not change.
+     - Indicates the order in which sections should be used 
+     - Please note that if any sections are deleted, the order of the remaining sections will not change.
    * - header_source
      - string
      - HTML content of the header
      -
    * - header_align
      - string
+     - 
      - Can be **left, center, right**
-     -
    * - image_link
      - string
      - URL to which an image points
      -
    * - image_align
      - string
+     - 
      - Can be **left, right**
-     -
    * - form_id
      - int
      - ID of the `form <../../suite/contacts/forms.html>`_
      -
    * - target_audience
      - string
+     - 
      - Can be **all, segment**
-     -
 
 Errors
 ------
