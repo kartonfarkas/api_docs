@@ -34,7 +34,7 @@ Request Example
 .. code-block:: json
 
    {
-     "name": "response_mail"
+     "name": "response_email"
    }
 
 Result Example
