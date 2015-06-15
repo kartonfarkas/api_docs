@@ -102,20 +102,8 @@ Errors
      - Message
      - Description
    * - 400
-     - 3004
-     - List name is not set.
-     - No name was provided for the contact list.
-   * - 400
-     - 3004
-     - List name contains invalid character(s).
-     - The provided name contains characters which are not allowed.
-   * - 400
      - 3005
      - Contact list with the requested name already exists.
-     -
-   * - 400
-     - 3004
-     - Description contains invalid character(s).
      -
    * - 400
      - 3003
