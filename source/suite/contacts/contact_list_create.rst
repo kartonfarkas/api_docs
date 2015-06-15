@@ -104,8 +104,9 @@ Result Example
 Where:
 
 * *id* is the ID of the contact list
-* *errors* lists any error(s) and contains the ID and error message as a key-value pair. Please note that if no
-  contacts were defined for the contact list, the following is displayed:
+* *errors* lists any error(s) and contains the ID and error message as a key-value pair. Please note that when no
+  contacts are defined for the contact list, *errors* is not shown. If contacts were defined for the contact list but
+  no error occurred, the following is displayed:
 
 .. code-block:: json
 
