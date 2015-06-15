@@ -53,4 +53,4 @@ Errors
    * - 400
      - 5001
      - No event found with the specified ID.
-     - There is no such event for this account.
+     - 
