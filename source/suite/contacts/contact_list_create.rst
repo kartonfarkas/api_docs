@@ -90,7 +90,7 @@ Result Example
      "replyText": "OK",
      "data":
      {
-       "id": "123",
+       "id": 123,
        "errors":
        {
          "loki@example.com":
@@ -113,7 +113,7 @@ Where:
       "replyCode": 0,
       "replyText": "OK",
       "data": {
-         "id": "123",
+         "id": 123,
          "errors": []
       }
    }
