@@ -24,6 +24,15 @@ Parameters
      - Name of the external event
      -
 
+Request Example
+---------------
+
+.. code-block:: json
+
+   {
+      "name":"bulk purchasing"
+   }
+
 Result Example
 --------------
 
