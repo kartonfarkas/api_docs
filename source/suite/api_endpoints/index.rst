@@ -195,5 +195,15 @@ API Endpoints
 
    * - :doc:`../external_events/external_event_list`
      - GET /api/v2/event
+   * - :doc:`../external_events/external_event`
+     - GET /api/v2/event/<event_id>
+   * - :doc:`../external_events/external_event_create`
+     - POST /api/v2/event`
+   * - :doc:`../external_events/external_event_update`
+     - POST /api/v2/event/<event_id>
+   * - :doc:`../external_events/external_event_delete`
+     - POST /api/v2/event/<event_id>/delete
    * - :doc:`../external_events/external_event_trigger`
      - POST /api/v2/event/<event_id>/trigger
+   * - :doc:`../external_events/external_event_use`
+     - GET /api/v2/event/<id>/usages
