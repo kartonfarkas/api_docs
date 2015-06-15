@@ -78,8 +78,8 @@ Where:
    * - order
      - int
      - Indicates the order in which sections should be used 
-     - Please note that if any sections are deleted, then the numbering of the remaining sections will not change, e.g.
-       if section 3 is removed, then the numbering of section 4 remains the same.
+     - "Please note that if any sections are deleted, then the numbering of the remaining sections will not change,
+       e.g. if section 3 is removed, then any subsequent section number remains the same: 4, 5, 6, etc."
    * - header_source
      - string
      - HTML content of the header
