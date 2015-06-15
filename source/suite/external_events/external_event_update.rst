@@ -28,6 +28,15 @@ Parameters
      - Name of the external event
      -
 
+Request Example
+---------------
+
+.. code-block:: json
+
+   {
+     "name": "response_mail"
+   }
+
 Result Example
 --------------
 

@@ -1,7 +1,7 @@
 Deleting an External Event
 ==========================
 
-Deletes an existing external event; only one event can be deleted at a time using this endpoint.
+Deletes an external event. Deleting an event has no effect on the AC program/email linked to the event.
 
 Endpoint
 --------
