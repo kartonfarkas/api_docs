@@ -75,7 +75,7 @@ Result Example
      "replyText": "OK",
      "data":
      {
-       "inserted_contacts": "2",
+       "inserted_contacts": 2,
        "errors":
        {
          "loki@example.com":
