@@ -1,7 +1,7 @@
 Querying an External Event
 ==========================
 
-Returns all the details of an external event. The ID can then be used to trigger email sending or Automation Center
+Returns the details of an external event. The ID can then be used to trigger email sending or Automation Center
 programs.
 
 Endpoint
