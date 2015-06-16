@@ -47,7 +47,7 @@ Parameters
      -
    * - header_align
      - string
-     - 
+     - Alignment of the header
      - Can be **left, center, right**
    * - image_link
      - string
@@ -55,7 +55,7 @@ Parameters
      -
    * - image_align
      - string
-     - 
+     - Alignment of the image
      - Can be **left, right**
    * - form_id
      - int
@@ -63,7 +63,7 @@ Parameters
      -
    * - target_audience
      - string
-     - 
+     - Contacts who receive the email
      - Can be **all, segment**
 
 Request Example
