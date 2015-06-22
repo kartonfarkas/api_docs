@@ -23,6 +23,7 @@ Contacts
    contact_multiple_create.rst
    contact_update.rst
    contact_multiple_update.rst
+   contact_delete.rst
 
 Contact Fields
 --------------
