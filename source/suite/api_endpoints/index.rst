@@ -41,6 +41,8 @@ API Endpoints
      - POST /api/v2/contact
    * - :doc:`../contacts/contact_multiple_update`
      - PUT /api/v2/contact
+   * - :doc:`../contacts/contact_delete`
+     - POST /api/v2/contact/delete
 
 .. list-table:: **Contact Fields**
 
