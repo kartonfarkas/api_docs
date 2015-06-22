@@ -39,7 +39,7 @@ Parameters
    * - order
      - int
      - Indicates the order in which sections should be used
-     - Please note that if any sections are deleted, then the numbering of the remaining sections will not change,
+     - If any sections are deleted, then the numbering of the remaining sections will not change,
        e.g. if section 3 is removed, then any subsequent section number remains the same: 4, 5, 6, etc.
    * - header_source
      - string
@@ -119,7 +119,7 @@ Where:
      -
    * - header_align
      - string
-     - 
+     - Alignment of the header
      - Can be **left, center, right**
    * - image_link
      - string
@@ -127,7 +127,7 @@ Where:
      -
    * - image_align
      - string
-     - 
+     - Alignment of the image 
      - Can be **left, right**
    * - form_id
      - int
