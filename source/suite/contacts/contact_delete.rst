@@ -39,8 +39,8 @@ Request Example
 .. code-block:: json
 
    {
-     "1": "storm",
-     "key_id": "1"
+     "key_id": "1",
+     "1": "storm"
    }
 
 Result Example
