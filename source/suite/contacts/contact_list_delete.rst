@@ -1,0 +1,56 @@
+Deleting a Contact List
+=======================
+
+Deletes a contact list.
+
+Endpoint
+--------
+
+``POST /api/v2/contactlist/<list_id>/deletelist``
+
+Parameters
+----------
+
+.. list-table:: **Required Parameters**
+   :header-rows: 1
+   :widths: 20 20 40 40
+
+   * - Name
+     - Type
+     - Description
+     - Comments
+   * - list_id
+     - int
+     - ID of the contact list, part of the URI
+     -
+
+Result Example
+--------------
+
+.. code-block:: json
+
+   {
+      "replyCode": 0,
+      "replyText": "OK",
+      "data": {}
+   }
+
+Errors
+------
+
+.. list-table:: Possible Error Codes
+   :header-rows: 1
+   :widths: 20 20 40 40
+
+   * - HTTP Code
+     - Reply Code
+     - Message
+     - Description
+   * - 400
+     - 3006
+     - No contact list found with the specified ID.
+     -
+   * - 400
+     - 1
+     - Action deletelist is invalid.
+     - No list_id was provided.
