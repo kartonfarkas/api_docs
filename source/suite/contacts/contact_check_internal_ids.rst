@@ -73,11 +73,16 @@ Result Example
      }
    }
 
+.. list-table:: **Where:**
+   :header-rows: 1
+   :widths: 20 40
 
-Where:
-
-* *ids* is a list of the internal IDs
-* *errors* contains the error ID and the error message as a key-value pair
+   * - Name
+     - Description
+   * - *ids*
+     - List of the internal IDs
+   * - *errors*
+     - Contains the error ID and the error message as a key-value pair
 
 Errors
 ------
