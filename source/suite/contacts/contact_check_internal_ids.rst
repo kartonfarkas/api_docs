@@ -73,7 +73,7 @@ Result Example
      }
    }
 
-.. list-table:: **Where:**
+.. list-table:: **Result Details**
    :header-rows: 1
    :widths: 20 40
 
