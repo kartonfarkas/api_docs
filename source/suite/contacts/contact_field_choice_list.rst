@@ -19,9 +19,9 @@ Parameters
      - Type
      - Description
      - Comments
-   * - <id>
+   * - list_id
      - int
-     - Field ID, part of the URL
+     - Field ID, part of the URI
      -
 
 .. list-table:: **Optional Parameters**
@@ -32,7 +32,7 @@ Parameters
      - Type
      - Description
      - Comments
-   * - /translate/<id>
+   * - lang
      - string
      - Lists available translations where <id> defines the target language (e.g. fr, ru, etc.)
      - For a full list of supported languages, see :doc:`../appendices/language_codes`.
@@ -63,10 +63,6 @@ Result Example
          }
       ]
    }
-
-Where:
-
-* *id* is the internal identifier of the chosen option, and *choice* is the label of the chosen option
 
 Errors
 ------
