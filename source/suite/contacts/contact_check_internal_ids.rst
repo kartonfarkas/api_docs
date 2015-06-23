@@ -73,7 +73,7 @@ Result Example
      }
    }
 
-.. list-table:: **Result Details**
+.. list-table:: **Result Example Details**
    :header-rows: 1
    :widths: 10 40
 
