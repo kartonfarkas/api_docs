@@ -34,7 +34,7 @@ Parameters
      - Comments
    * - lang
      - string
-     - Lists available translations where <id> defines the target language (e.g. fr, ru, etc.)
+     - Lists available translations where lang defines the target language (e.g. fr, ru, etc.)
      - For a full list of supported languages, see :doc:`../appendices/language_codes`.
 
 URI Example
