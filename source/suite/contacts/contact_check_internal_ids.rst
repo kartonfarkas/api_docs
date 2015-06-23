@@ -75,7 +75,7 @@ Result Example
 
 .. list-table:: **Result Details**
    :header-rows: 1
-   :widths: 20 40
+   :widths: 10 40
 
    * - Name
      - Description
