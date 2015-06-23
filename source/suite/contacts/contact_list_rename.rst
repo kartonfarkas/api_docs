@@ -70,9 +70,5 @@ Errors
      - 3006
      - No contact list found with the specified ID.
      -
-   * - 400
-     - 1
-     - Action rename is invalid.
-     - No list_id was provided.
 
 
