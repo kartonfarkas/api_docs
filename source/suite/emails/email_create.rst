@@ -49,11 +49,15 @@ Parameters
      - Category (see :doc:`email_categories`)
    * - filter
      - int
-     - Filter ID for the email
+     - Segment ID for the email
      -
    * - contactlist
      - int
      - Contact list ID for the email
+     -
+   * - external_event_id
+     - int
+     - External event ID for the email
      -
    * - html_source
      - string
@@ -66,7 +70,7 @@ Parameters
 
 .. note::
 
-   Both the *filter* and *contactlist* parameters have to be included, and at least one must always be defined by its
+   *filter*, *contactlist* and *external_event_id* parameters have to be included, and at least one must always be defined by its
    ID, (i.e. it has to be different from 0 (zero)).
 
 .. list-table:: **Optional Parameters**
