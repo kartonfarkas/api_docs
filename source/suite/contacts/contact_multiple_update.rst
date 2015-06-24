@@ -72,28 +72,34 @@ Result Example
 .. code-block:: json
 
    {
-      "replyCode":0,
-      "replyText":"OK",
-      "data":{
-         "ids":[
+      "replyCode": 0,
+      "replyText": "OK",
+      "data": {
+         "ids": [
             "285291248",
             "285292533"
          ],
-         "errors":{
-            "erik.selvig@example.com":{
-               "2008":"No contact found with the external id: 3 - erik.selvig@example.com"
+         "errors": {
+            "erik.selvig@example.com": {
+               "2008": "No contact found with the external id: 3 - erik.selvig@example.com"
             },
-            "james.rhodes@example.com":{
-               "2008":"No contact found with the external id: 3 - james.rhodes@example.com"
+            "james.rhodes@example.com": {
+               "2008": "No contact found with the external id: 3 - james.rhodes@example.com"
             }
          }
       }
    }
 
-Where:
+.. list-table:: **Result Example Details**
+   :header-rows: 1
+   :widths: 10 40
 
-* *[ids]* is a list of the IDs of successfully-created contacts expressed as an array
-* *[errors]* is a list of any error(s) that occurred during the updating of a contact; the error message is returned with the value of the key_id
+   * - Name
+     - Description
+   * - *ids*
+     - List of the IDs of successfully-created contacts expressed as an array
+   * - *errors*
+     - List of any error(s) that occurred during the updating of a contact; the error message is returned with the value of the key_id
 
 Errors
 ------

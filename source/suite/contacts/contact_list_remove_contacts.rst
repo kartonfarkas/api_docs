@@ -88,10 +88,16 @@ Result Example
      }
    }
 
-Where:
+.. list-table:: **Result Example Details**
+   :header-rows: 1
+   :widths: 10 40
 
-* *deleted_contacts* is the number of contacts successfully deleted from the list
-* *errors* details any contacts not removed from the list, expressed as an array which contains the ID and the reason for the error
+   * - Name
+     - Description
+   * - *deleted_contacts*
+     - Number of contacts successfully deleted from the list
+   * - *errors*
+     - Details any contacts not removed from the list, expressed as an array which contains the ID and the reason for the error
 
 Errors
 ------

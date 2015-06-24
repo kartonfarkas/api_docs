@@ -101,12 +101,19 @@ Result Example
      }
    }
 
-Where:
+.. list-table:: **Result Example Details**
+   :header-rows: 1
+   :widths: 10 40
 
-* *id* is the ID of the contact list
-* *errors* lists any error(s) and contains the ID and error message as a key-value pair. Please note that when no
-  contacts are defined for the contact list, *errors* is not shown. If contacts were defined for the contact list but
-  no error occurred, the following is displayed:
+   * - Name
+     - Description
+   * - *id*
+     - ID of the contact list
+   * - *errors*
+     - Lists any error(s) and contains the ID and error message as a key-value pair.
+
+Please note that when no contacts are defined for the contact list, *errors* is not shown. If contacts were defined for
+the contact list but no error occurred, the following is displayed:
 
 .. code-block:: json
 

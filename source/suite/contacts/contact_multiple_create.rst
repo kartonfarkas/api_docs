@@ -102,10 +102,16 @@ Result Example
      }
    }
 
-Where:
+.. list-table:: **Result Example Details**
+   :header-rows: 1
+   :widths: 10 40
 
-* *[ids]* is a list of the IDs of successfully-created contacts (returned as an array)
-* *[errors]* indicates that an error occurred during the creation of a contact, and the error message returns the value of the key_id
+   * - Name
+     - Description
+   * - *ids*
+     - List of the IDs of successfully-created contacts (returned as an array)
+   * - *errors*
+     - Indicates that an error occurred during the creation of a contact, and the error message returns the value of the key_id
 
 Errors
 ------
