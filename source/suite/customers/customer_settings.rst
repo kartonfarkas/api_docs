@@ -19,7 +19,8 @@ Resulting Data Structure
       "data":{
          "timezone": "America/New_York",
          "name": "Heimdall",
-         "password_history_queue_size": 3
+         "password_history_queue_size": 3,
+         "country": "United States of America"
       }
    }
 
