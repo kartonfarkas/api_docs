@@ -64,10 +64,6 @@ The key_id is Provided
      "source_id": "123"
    }
 
-Where:
-
-* *source_id* is an ID assigned to the application of a customer to integrate
-
 Multichoice Field
 ^^^^^^^^^^^^^^^^^
 

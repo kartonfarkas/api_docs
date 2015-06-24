@@ -86,10 +86,16 @@ Result Example
      }
    }
 
-Where:
+.. list-table:: **Result Example Details**
+   :header-rows: 1
+   :widths: 10 40
 
-* *inserted_contacts* is the number of contacts successfully added to the list
-* *errors* details any contacts not added to the list, expressed as an array which contains the ID and the reason for the error
+   * - Name
+     - Description
+   * - *inserted_contacts*
+     - Number of contacts successfully added to the list
+   * - *errors*
+     - Details any contacts not added to the list, expressed as an array which contains the ID and the reason for the error
 
 Errors
 ------

@@ -81,9 +81,14 @@ Normal Result:
       }
    }
 
-Where:
+.. list-table:: **Result Example Details**
+   :header-rows: 1
+   :widths: 10 40
 
-* *uid* is the user ID, a random string
+   * - Name
+     - Description
+   * - *uid*
+     - User ID, a random string
 
 Error Condition:
 
