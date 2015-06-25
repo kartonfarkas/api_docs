@@ -95,15 +95,15 @@ Parameters
    * - filter
      - int
      - Segment ID for the email
-     - Email campaign of type *Segment* is created.
+     - Email campaign with a *Segment* recipient source is created.
    * - contactlist
      - int
      - Contact list ID for the email
-     - Email campaign of type *Contact list* is created.
+     - Email campaign with a *Contact list* recipient source is created.
    * - external_event_id
      - int
      - External event ID for the email
-     - Email campaign of type *On External Event* is created.
+     - Email campaign with an *External Event* recipient source is created.
 
 .. note::
 
