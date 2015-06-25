@@ -1,7 +1,7 @@
 Creating an External Event
 ==========================
 
-Creates an external event with the specified name.
+Creates an external event with the specified name, which lets your external program (e.g. CMS, CRM) act as a trigger to be used in Suite.
 
 Endpoint
 --------
