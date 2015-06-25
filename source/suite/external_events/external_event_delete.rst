@@ -1,7 +1,7 @@
 Deleting an External Event
 ==========================
 
-Deletes an external event. Deleting an event has no effect on the AC program/email linked to the event.
+Deletes an external event. Deleting an event has no effect on any Automation Center programs or email campaigns linked to the event.
 
 Endpoint
 --------
