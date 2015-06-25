@@ -25,7 +25,7 @@ Parameters
      -
    * - name
      - string
-     - The new name of the external event
+     - New name of the external event
      -
 
 Request Example
