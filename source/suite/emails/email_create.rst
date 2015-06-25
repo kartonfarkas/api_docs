@@ -70,7 +70,7 @@ Parameters
 
 .. note::
 
-   ***: From *filter*, *contactlist* and *external_event_id* parameters, at least one must always be defined by its
+   ****: From *filter*, *contactlist* and *external_event_id* parameters, at least one must always be defined by its
    ID.
 
 .. list-table:: **Optional Parameters**
