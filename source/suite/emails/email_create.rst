@@ -55,22 +55,22 @@ Parameters
      - string
      - Text source of the email
      -
-   * - filter
+   * - filter*
      - int
      - Segment ID for the email
      - Email campaign with a *Segment* recipient source is created.
-   * - contactlist
+   * - contactlist*
      - int
      - Contact list ID for the email
      - Email campaign with a *Contact list* recipient source is created.
-   * - external_event_id
+   * - external_event_id*
      - int
      - External event ID for the email
      - Email campaign with an *External Event* recipient source is created.
 
 .. note::
 
-   From *filter*, *contactlist* and *external_event_id* parameters, at least one must always be defined by its
+   *: From *filter*, *contactlist* and *external_event_id* parameters, at least one must always be defined by its
    ID.
 
 .. list-table:: **Optional Parameters**
@@ -127,8 +127,7 @@ Request Example
      "browse": 0,
      "text_only": 0,
      "unsubscribe": 1,
-     "filter": "222222222",
-     "contactlist": 0
+     "filter": "222222222"
    }
 
 Result Example
