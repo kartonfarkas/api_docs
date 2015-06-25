@@ -56,11 +56,6 @@ Parameters
      - Text source of the email
      -
 
-.. note::
-
-   Both *filter* and *contactlist* parameters have to be included, and at least one must always be defined by its
-   ID, (i.e. it has to be different from 0 (zero)).
-
 .. list-table:: **Optional Parameters**
    :header-rows: 1
    :widths: 20 20 40 40
@@ -109,6 +104,11 @@ Parameters
      - int
      - External event ID for the email
      - Email campaign of type *On External Event* is created.
+
+.. note::
+
+   From *filter*, *contactlist* and *external_event_id* parameters, at least one must always be defined by its
+   ID.
 
 Request Example
 ---------------
