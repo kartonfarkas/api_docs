@@ -1,7 +1,7 @@
 Updating an External Event
 ==========================
 
-Updates an external event with the specified name.
+Updates an external event with a new name.
 
 Endpoint
 --------
@@ -25,7 +25,7 @@ Parameters
      -
    * - name
      - string
-     - Name of the external event
+     - The new name of the external event
      -
 
 Request Example
