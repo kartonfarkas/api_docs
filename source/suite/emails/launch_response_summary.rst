@@ -35,7 +35,7 @@ Parameters
      - Comments
    * - launch_id
      - int
-     - ID of the launch
+     - ID of the launch, part of the URI (e.g. /api/v2/email/<email_id>/responsesummary/launch_id=<launch_id>
      -
 
 Result Example
