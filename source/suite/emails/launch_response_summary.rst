@@ -25,6 +25,19 @@ Parameters
      - ID of the email, part of the URI
      -
 
+.. list-table:: **Optional Parameters**
+   :header-rows: 1
+   :widths: 20 20 40 40
+
+   * - Name
+     - Type
+     - Description
+     - Comments
+   * - launch_id
+     - int
+     - ID of the launch
+     -
+
 Result Example
 --------------
 
