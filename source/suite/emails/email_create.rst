@@ -55,6 +55,23 @@ Parameters
      - string
      - Text source of the email
      -
+   * - filter
+     - int
+     - Segment ID for the email
+     - Email campaign with a *Segment* recipient source is created.
+   * - contactlist
+     - int
+     - Contact list ID for the email
+     - Email campaign with a *Contact list* recipient source is created.
+   * - external_event_id
+     - int
+     - External event ID for the email
+     - Email campaign with an *External Event* recipient source is created.
+
+.. note::
+
+   From *filter*, *contactlist* and *external_event_id* parameters, at least one must always be defined by its
+   ID.
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
@@ -92,23 +109,6 @@ Parameters
      - string
      - Additional URL parameters that are added to the tracked links URL when redirected.
      - Only works if this feature is enabled for the customer.
-   * - filter
-     - int
-     - Segment ID for the email
-     - Email campaign with a *Segment* recipient source is created.
-   * - contactlist
-     - int
-     - Contact list ID for the email
-     - Email campaign with a *Contact list* recipient source is created.
-   * - external_event_id
-     - int
-     - External event ID for the email
-     - Email campaign with an *External Event* recipient source is created.
-
-.. note::
-
-   From *filter*, *contactlist* and *external_event_id* parameters, at least one must always be defined by its
-   ID.
 
 Request Example
 ---------------
