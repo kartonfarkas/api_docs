@@ -47,14 +47,6 @@ Parameters
      - string
      - Category ID that the email is assigned to.
      - Category (see :doc:`email_categories`)
-   * - filter
-     - int
-     - Segment ID for the email
-     - Email campaign of type *Segment* is created.
-   * - contactlist
-     - int
-     - Contact list ID for the email
-     - Email campaign of type *Contact list* is created.
    * - html_source
      - string
      - HTML body of the email
@@ -105,6 +97,14 @@ Parameters
      - string
      - Additional URL parameters that are added to the tracked links URL when redirected.
      - Only works if this feature is enabled for the customer.
+   * - filter
+     - int
+     - Segment ID for the email
+     - Email campaign of type *Segment* is created.
+   * - contactlist
+     - int
+     - Contact list ID for the email
+     - Email campaign of type *Contact list* is created.
    * - external_event_id
      - int
      - External event ID for the email
