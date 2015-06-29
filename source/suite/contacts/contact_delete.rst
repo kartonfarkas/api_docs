@@ -1,7 +1,7 @@
 Deleting a Contact
 ==================
 
-Deletes a contact.
+Deletes a contact from the Suite Contacts DB.
 
 Endpoint
 --------
@@ -14,8 +14,8 @@ Parameters
 Required Parameters
 ^^^^^^^^^^^^^^^^^^^
 
-Key-value pairs which uniquely identify the contact (e.g. a key can be the email field ID (3), and its value is the
-email address of the specific contact).
+Key-value pairs which uniquely identify the contact, e.g. a key can be the email field ID (3), and its value is the
+email address of the specific contact.
 
 .. list-table:: **Optional Parameters**
    :header-rows: 1
