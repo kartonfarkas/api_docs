@@ -1,7 +1,7 @@
 Querying an Email Template
 ==========================
 
-Returns all the details of an email template.
+Returns all the details related to an email template.
 
 Endpoint
 --------
@@ -67,4 +67,4 @@ Errors
    * - 404
      - 6046
      - Template not found.
-     -
+     - Check that the correct ID was entered.
