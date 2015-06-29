@@ -1,7 +1,7 @@
 Updating a Section of a Template-Based Email Campaign
 =====================================================
 
-Updates a section of a template_based email campaign with the specified parameters.
+Updates a content section of a template-based email campaign using the specified parameters.
 
 Endpoint
 --------
@@ -43,7 +43,7 @@ Parameters
    * - order
      - int
      - Signs the ranking of the sections
-     - Please note that if sections are deleted, ranking of the existing sections will not change.
+     - If any sections are deleted, then the numbering of the remaining sections will not change, e.g. if section 3 is removed, then any subsequent section number remains the same: 4, 5, 6, etc..
    * - header_source
      - string
      - HTML content of the header
