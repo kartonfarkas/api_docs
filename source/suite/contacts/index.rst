@@ -43,7 +43,9 @@ Contact Lists
 
    contact_list_list.rst
    contact_list_create.rst
+   contact_list_rename.rst
    contact_list_replace.rst
+   contact_list_delete.rst
    contact_list_list_contacts.rst
    contact_list_add_contacts.rst
    contact_list_remove_contacts.rst
