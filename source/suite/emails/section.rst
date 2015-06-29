@@ -1,4 +1,4 @@
-Querying a Section of a Template-Based Email Campaign
+Querying a Section of a Template-based Email Campaign
 =====================================================
 
 Returns the full details of a section used in a template-based campaign.

@@ -1,4 +1,4 @@
-Deleting a Section from a Template-Based Email Campaign
+Deleting a Section from a Template-based Email Campaign
 =======================================================
 
 Deletes an existing section from a template-based email campaign.

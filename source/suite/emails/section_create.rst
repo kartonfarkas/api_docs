@@ -1,4 +1,4 @@
-Creating a Section in a Template-Based Email Campaign
+Creating a Section in a Template-based Email Campaign
 =====================================================
 
 Creates and adds a new section to a template-based email campaign with the specified parameters.
