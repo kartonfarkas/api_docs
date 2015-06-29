@@ -59,8 +59,12 @@ API Endpoints
      - GET /api/v2/contactlist
    * - :doc:`../contacts/contact_list_create`
      - POST /api/v2/contactlist
+   * - :doc:`../contacts/contact_list_rename`
+     - POST /api/v2/contactlist/<list_id>/rename
    * - :doc:`../contacts/contact_list_replace`
      - POST /api/v2/contactlist/<list_id>/replace
+   * - :doc:`../contacts/contact_list_delete`
+     - POST /api/v2/contactlist/<list_id>/deletelist
    * - :doc:`../contacts/contact_list_list_contacts`
      - GET /api/v2/contactlist/<list_id>
    * - :doc:`../contacts/contact_list_add_contacts`
