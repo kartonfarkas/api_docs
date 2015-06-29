@@ -116,7 +116,7 @@ Errors
    * - 400
      - 1007
      - No such field: %s.
-     - Field name has a mistype in the code.
+     - Typo in the field name.
    * - 400
      - 1008
      - Invalid value for field: %s.
