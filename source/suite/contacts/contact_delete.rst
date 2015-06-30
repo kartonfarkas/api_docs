@@ -1,7 +1,7 @@
 Deleting a Contact
 ==================
 
-Deletes a contact from the Suite Contacts DB.
+Deletes a contact.
 
 Endpoint
 --------
