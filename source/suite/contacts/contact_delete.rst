@@ -73,7 +73,7 @@ Errors
      - 2005
      - No value provided for key field: [id]
      - The value of the key field has not been provided or is empty.
-   * - 400
+   * - 404
      - 2008
      - No contact found with the specified external ID
      - There is no match for the specified ID.

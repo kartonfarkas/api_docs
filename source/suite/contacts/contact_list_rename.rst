@@ -66,7 +66,7 @@ Errors
      - 3004
      - Parameter name is required.
      -
-   * - 400
+   * - 404
      - 3006
      - No contact list found with the specified ID.
      -

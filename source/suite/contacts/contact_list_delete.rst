@@ -46,7 +46,7 @@ Errors
      - Reply Code
      - Message
      - Description
-   * - 400
+   * - 404
      - 3006
      - No contact list found with the specified ID.
      -
