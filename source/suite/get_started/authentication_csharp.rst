@@ -17,60 +17,70 @@ C#
        {
            private readonly string key;
            private readonly string secret;
-
+   
            public SuiteApiClientExapmle(string key, string secret)
            {
                this.key = key;
                this.secret = secret;
            }
-
-           public object Get(string uri)
+   
+           public object Send(string method, string uri, string postData = null)
            {
                var nonce = GetRandomString(32);
                var timestamp = DateTime.UtcNow.ToString("o");
                var passwordDigest = System.Convert.ToBase64String(Encoding.UTF8.GetBytes(Sha1(nonce + timestamp + secret)));
                var authHeader = String.Format("Username=\"{0}\", PasswordDigest=\"{1}\", Nonce=\"{2}\", Created=\"{3}\"", key, passwordDigest, nonce, timestamp);
-
-               var httpRequest = (HttpWebRequest)WebRequest.Create("https://trunk-int.s.emarsys.com/api/v2/" + uri);
-               httpRequest.Method = "GET";
+   
+               var httpRequest = (HttpWebRequest)WebRequest.Create("https://api.emarsys.net/api/v2/" + uri);
+               httpRequest.Method = method;
                httpRequest.Headers.Add("X-WSSE: " + authHeader);
-
-               var response = (HttpWebResponse) httpRequest.GetResponse();
-               using (var reader = new StreamReader(response.GetResponseStream()))
+   
+               if (method.Equals("POST"))
                {
-                   string responseJson = reader.ReadToEnd();
-                   return new JavaScriptSerializer().Deserialize<object>(responseJson);
+                   var data = Encoding.ASCII.GetBytes(postData);
+                   httpRequest.ContentType = "application/json";
+                   httpRequest.ContentLength = data.Length;
+   
+                   using (var stream = httpRequest.GetRequestStream())
+                   {
+                       stream.Write(data, 0, data.Length);
+                   }
                }
+   
+               var response = (HttpWebResponse)httpRequest.GetResponse();
+               return new StreamReader(response.GetResponseStream()).ReadToEnd();
            }
-
+   
            private static string Sha1(string input)
            {
                var hashInBytes = new SHA1CryptoServiceProvider().ComputeHash(Encoding.UTF8.GetBytes(input));
                return string.Join(string.Empty, Array.ConvertAll(hashInBytes, b => b.ToString("x2")));
            }
-
+   
            private static string GetRandomString(int length)
            {
                var random = new Random();
-               string[] chars = new string[] { "0","2","3","4","5","6","8","9","a","b","c","d","e","f","g","h","j","k","m","n","p","q","r","s","t","u","v","w","x","y","z" };
+               string[] chars = new string[] { "0", "2", "3", "4", "5", "6", "8", "9", "a", "b", "c", "d", "e", "f", "g", "h", "j", "k", "m", "n", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" };
                var sb = new StringBuilder();
                for (int i = 0; i < length; i++) sb.Append(chars[random.Next(chars.Length)]);
                return sb.ToString();
            }
        }
-
+   
        class MainClass
        {
            public static void Main(string[] args)
            {
-               var key = "bob001";
-               var secret = "abcdefghijkl0123456789";
+               var key = "customer001";
+               var secret = "customersecret";
                var client = new SuiteApiClientExapmle(key, secret);
-               var result = client.Get("field");
-
-               Print(result);
+               var resultGet = client.Send("GET", "settings");
+               var resultPost = client.Send("POST", "source/create", "{\"name\": \"RANDOM\"}");
+   
+               Print(resultGet);
+               Print(resultPost);
            }
-
+   
            private static void Print(object data, string prefix = "")
            {
                if (data is Dictionary<string, object>)
@@ -96,3 +106,4 @@ C#
            }
        }
    }
+
