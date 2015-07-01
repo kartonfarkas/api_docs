@@ -55,6 +55,10 @@ Parameters
      - string
      - Text source of the email
      -
+   * - external_event_id*
+     - int
+     - External event ID for the email
+     - Email campaign with an *External Event* recipient source is created.
    * - filter*
      - int
      - Segment ID for the email
@@ -63,14 +67,10 @@ Parameters
      - int
      - Contact list ID for the email
      - Email campaign with a *Contact list* recipient source is created.
-   * - external_event_id*
-     - int
-     - External event ID for the email
-     - Email campaign with an *External Event* recipient source is created.
 
 .. note::
 
-   *\**: From *filter*, *contactlist* and *external_event_id* parameters, at least one must always be defined by its
+   *\**: From *external_event_id*, *filter* and *contactlist* parameters, at least one must always be defined by its
    ID.
 
 .. list-table:: **Optional Parameters**
@@ -216,3 +216,7 @@ Errors
      - Additional tracking parameters are not enabled.
      - If the "Enable additional campaign specific tracking params" feature is not enabled, then
        additional_linktracking_parameters cannot be set. Ask for this feature from Emarsys Support.
+   * - 400
+     - 6049
+     - You must provide a recipient source. External event, segment or contact list.
+     -
