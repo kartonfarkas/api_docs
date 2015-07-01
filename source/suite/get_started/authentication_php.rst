@@ -4,40 +4,49 @@ PHP
 .. code-block:: php
 
    <?php
-   
+
    class SuiteApi
    {
        private
            $_username,
            $_secret,
            $_suiteApiUrl;
-   
-       public function __construct($username, $secret, $suiteApiUrl = "https://api.emarsys.net/api/v2/")
+
+       public function __construct($username, $secret, $suiteApiUrl = 'https://api.emarsys.net/api/v2/')
        {
            $this->_username = $username;
            $this->_secret = $secret;
            $this->_suiteApiUrl = $suiteApiUrl;
        }
-   
-       public function send($requestType, $endPoint)
+
+       public function send($requestType, $endPoint, $requestBody = '')
        {
-           if (!in_array($requestType, array('GET', 'POST'))) {
+           if (!in_array($requestType, array('GET', 'POST', 'PUT'))) {
                throw new Exception('Send first parameter must be "GET" or "POST"');
            }
-   
-           $curlTypes = array(
-             'GET'  => CURLOPT_HTTPGET,
-             'POST' => CURLOPT_POST
-           );
-   
+
+
            $ch = curl_init();
            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-           curl_setopt($ch, $curlTypes[$requestType], 1);
+           switch ($requestType)
+           {
+               case 'GET':
+                   curl_setopt($ch, CURLOPT_HTTPGET, 1);
+                   break;
+               case 'POST':
+                   curl_setopt($ch, CURLOPT_POST, 1);
+                   curl_setopt($ch, CURLOPT_POSTFIELDS, $requestBody);
+                   break;
+               case 'PUT':
+                   curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");
+                   curl_setopt($ch, CURLOPT_POSTFIELDS, $requestBody);
+                   break;
+           }
            curl_setopt($ch, CURLOPT_HEADER, true);
-   
+
            $requestUri = $this->_suiteApiUrl . $endPoint;
            curl_setopt($ch, CURLOPT_URL, $requestUri);
-   
+
            /**
             * We add X-WSSE header for authentication.
             * Always use random 'nonce' for increased security.
@@ -57,14 +66,15 @@ PHP
                "Content-type: application/json;charset=\"utf-8\"",
                )
            );
-   
+
            $output = curl_exec($ch);
            curl_close($ch);
-   
+
            return $output;
        }
    }
-   
-   $demo = new SuiteApi('customer001', 'customersecret');
+
+   $demo = new SuiteApi('devbalazs001', 'FgLz6yAa0ez3UQYmizOo', 'http://suite.ett.local/api/v2/');
    echo $demo->send('GET', 'settings') . "\n\n";
    echo $demo->send('POST', 'source/create', '{"name":"RANDOM"}') . "\n\n";
+   echo $demo->send('PUT', 'contact', '{"key_id": "3","contacts":[{"3": "erik.selvig@example.com","2": "Selvig"},{"3": "ian.boothby@example.com","2": "Boothby"}]}') . "\n\n";
