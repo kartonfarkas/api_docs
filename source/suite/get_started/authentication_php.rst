@@ -21,10 +21,9 @@ PHP
 
        public function send($requestType, $endPoint, $requestBody = '')
        {
-           if (!in_array($requestType, array('GET', 'POST', 'PUT'))) {
-               throw new Exception('Send first parameter must be "GET", "POST" or "PUT"');
+           if (!in_array($requestType, array('GET', 'POST', 'PUT', 'DELETE'))) {
+               throw new Exception('Send first parameter must be "GET", "POST", "PUT" or "DELETE"');
            }
-
 
            $ch = curl_init();
            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -39,6 +38,10 @@ PHP
                    break;
                case 'PUT':
                    curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");
+                   curl_setopt($ch, CURLOPT_POSTFIELDS, $requestBody);
+                   break;
+               case 'DELETE':
+                   curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "DELETE");
                    curl_setopt($ch, CURLOPT_POSTFIELDS, $requestBody);
                    break;
            }
@@ -78,3 +81,5 @@ PHP
    echo $demo->send('GET', 'settings') . "\n\n";
    echo $demo->send('POST', 'source/create', '{"name":"RANDOM"}') . "\n\n";
    echo $demo->send('PUT', 'contact', '{"key_id": "3","contacts":[{"3": "erik.selvig@example.com","2": "Selvig"},{"3": "ian.boothby@example.com","2": "Boothby"}]}') . "\n\n";
+   echo $demo->send('DELETE', 'source/1');
+   
