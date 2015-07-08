@@ -50,6 +50,9 @@ Result Example
        "image_align": "right",
        "image_width": null,
        "image_height": null,
+       "image_hide_on_mobile": false,
+       "image_mobile": "",
+       "image_mobile_name": "",
        "link_url": "http://example.com",
        "link_title": "example_title",
        "is_image_linked": true,
@@ -91,7 +94,7 @@ Where:
      -
    * - hide_on_mobile
      - boolean
-     -
+     - Section is not displayed on mobile
      -
    * - header_source
      - string
@@ -128,6 +131,18 @@ Where:
    * - image_height
      - int
      - Height of the image
+     -
+   * - image_hide_on_mobile
+     - boolean
+     - Image is not displayed on mobile
+     -
+   * - image_mobile
+     - string
+     - URL of an image or a generated name if it is in the media database
+     -
+   * - image_mobile_name
+     - string
+     - Original name of the image is kept, not the generated media database name
      -
    * - link_url
      - string
