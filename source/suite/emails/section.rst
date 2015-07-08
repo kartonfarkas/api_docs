@@ -61,7 +61,7 @@ Result Example
        "use_social_network": "0",
        "enable_network_sharing": false,
        "advanced_html_source":"",
-       "advanced_text_source":""
+       "advanced_text_source":"",
        "target_audience_segment_id": 111111111
      }
    }
