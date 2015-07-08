@@ -39,7 +39,8 @@ Result Example
      "data": {
        "id": 6,
        "order": 1,
-       "group_id": 932155095,
+       "group_id": 111111111,
+       "hide_on_mobile": true,
        "header_source": "example",
        "header_align": "left",
        "body_source": "hello<br>world<br><a href=\"https://example.com/u/nrd.php?p=$uid$_$llid$_$cid$_$sid$_2\" target=\"_blank\" style=\"color: rgb(73, 120, 190); font-weight: normal; text-decoration: underline;\"><font face=\"Arial, Verdana, sans-serif\" color=\"#4978be\" size=\"3\" style=\"font-size:15px; line-height:18px; color:#4978be; font-weight:normal; text-decoration:underline;\"><u>example</u></font></a>",
@@ -51,13 +52,17 @@ Result Example
        "image_height": null,
        "link_url": "http://example.com",
        "link_title": "example_title",
-       "is_image_linked": "true",
-       "is_header_linked": "true",
+       "is_image_linked": true,
+       "is_header_linked": true,
        "link_description": "link",
        "form_id": 0,
        "form_title": "",
-       "target_audience": "all",
-       "use_social_network": "0"
+       "target_audience": "segment",
+       "use_social_network": "0",
+       "enable_network_sharing": false,
+       "advanced_html_source":"",
+       "advanced_text_source":""
+       "target_audience_segment_id": 111111111
      }
    }
 
@@ -102,8 +107,24 @@ Where:
      -
    * - target_audience
      - string
-     - 
+     - Contacts who receive the email
      - Can be **all, segment**
+   * - enable_network_sharing
+     - boolean
+     -
+     -
+   * - advanced_html_source
+     - string
+     - HTML of the section can be edited in advanced mode
+     -
+   * - advanced_text_source
+     - string
+     - Section can be edited in advanced mode
+     -
+   * - target_audience_segment_id
+     - int
+     - ID of the target segment
+     -
 
 Errors
 ------
