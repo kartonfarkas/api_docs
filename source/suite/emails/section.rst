@@ -85,6 +85,14 @@ Where:
      - Indicates the order in which sections should be used 
      - If any sections are deleted, then the numbering of the remaining sections will not change,
        e.g. if section 3 is removed, then any subsequent section number remains the same: 4, 5, 6, etc.
+   * - group_id
+     - int
+     - ID of the group containing the section
+     -
+   * - hide_on_mobile
+     - boolean
+     -
+     -
    * - header_source
      - string
      - HTML content of the header
@@ -93,6 +101,18 @@ Where:
      - string
      - 
      - Can be **left, center, right**
+   * - body_source
+     - string
+     - HTML content of the body
+     -
+   * - image_url
+     - string
+     - URL of the image
+     -
+   * - image_title
+     - string
+     - Title of the image
+     -
    * - image_link
      - string
      - URL to which an image points
@@ -101,14 +121,50 @@ Where:
      - string
      - 
      - Can be **left, right**
+   * - image_width
+     - int
+     - Width of the image
+     -
+   * - image_height
+     - int
+     - Height of the image
+     -
+   * - link_url
+     - string
+     - URL of the link
+     -
+   * - link_title
+     - string
+     - Title of the link
+     -
+   * - is_image_linked
+     - boolean
+     -
+     -
+   * - is_header_linked
+     - boolean
+     -
+     -
+   * - link_description
+     - string
+     - Description added for the link
+     -
    * - form_id
      - int
      - ID of the `form <../../suite/contacts/forms.html>`_
+     -
+   * - form_title
+     - string
+     - Title of the form
      -
    * - target_audience
      - string
      - Contacts who receive the email
      - Can be **all, segment**
+   * - use_social_network
+     - boolean
+     - Clickable social network icons are displayed in the section
+     -
    * - enable_network_sharing
      - boolean
      -
