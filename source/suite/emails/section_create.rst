@@ -41,30 +41,114 @@ Parameters
      - Indicates the order in which sections should be used
      - If any sections are deleted, then the numbering of the remaining sections will not change,
        e.g. if section 3 is removed, then any subsequent section number remains the same: 4, 5, 6, etc.
+   * - group_id
+     - int
+     - ID of the group containing the section
+     -
+   * - hide_on_mobile
+     - boolean
+     - Section is not displayed on mobile
+     -
    * - header_source
      - string
      - HTML content of the header
      -
    * - header_align
      - string
-     - Alignment of the header
+     -
      - Can be **left, center, right**
+   * - body_source
+     - string
+     - HTML content of the body
+     -
+   * - image_url
+     - string
+     - URL of the image
+     -
+   * - image_title
+     - string
+     - Title of the image
+     -
    * - image_link
      - string
      - URL to which an image points
      -
    * - image_align
      - string
-     - Alignment of the image
+     -
      - Can be **left, right**
+   * - image_width
+     - int
+     - Width of the image
+     -
+   * - image_height
+     - int
+     - Height of the image
+     -
+   * - image_hide_on_mobile
+     - boolean
+     - Image is not displayed on mobile
+     -
+   * - image_mobile
+     - string
+     - URL of an image or a generated name if it is in the media database
+     -
+   * - image_mobile_name
+     - string
+     - Original name of the image is kept, not the generated media database name
+     -
+   * - link_url
+     - string
+     - URL of the link
+     -
+   * - link_title
+     - string
+     - Title of the link
+     -
+   * - is_image_linked
+     - boolean
+     -
+     -
+   * - is_header_linked
+     - boolean
+     -
+     -
+   * - link_description
+     - string
+     - Description added for the link
+     -
    * - form_id
      - int
      - ID of the `form <../../suite/contacts/forms.html>`_
+     -
+   * - form_title
+     - string
+     - Title of the form
      -
    * - target_audience
      - string
      - Contacts who receive the email
      - Can be **all, segment**
+   * - use_social_network
+     - boolean
+     - Clickable social network icons are displayed in the section
+     -
+   * - enable_network_sharing
+     - boolean
+     -
+     -
+   * - advanced_html_source
+     - string
+     - HTML of the section can be edited in advanced mode
+     -
+   * - advanced_text_source
+     - string
+     - Section can be edited in advanced mode
+     -
+   * - target_audience_segment_id
+     - int
+     - ID of the target segment
+     -
 
 Request Example
 ---------------
@@ -72,28 +156,39 @@ Request Example
 .. code-block:: json
 
    {
-      "id": 6,
-      "order": 1,
-      "group_id": 932155095,
-      "hide_on_mobile":true,
-      "header_source": "example",
-      "header_align": "left",
-      "body_source": "hello<br>world<br><a href=\"https://example.com/u/nrd.php?p=$uid$_$llid$_$cid$_$sid$_2\" target=\"_blank\" style=\"color: rgb(73, 120, 190); font-weight: normal; text-decoration: underline;\"><font face=\"Arial, Verdana, sans-serif\" color=\"#4978be\" size=\"3\" style=\"font-size:15px; line-height:18px; color:#4978be; font-weight:normal; text-decoration:underline;\"><u>example</u></font></a>",
-      "image_url": "https://example.com/image_placeholder.php?a",
-      "image_title": "",
-      "image_link": "",
-      "image_align": "right",
-      "image_width": null,
-      "image_height": null,
-      "link_url": "http://example.com",
-      "link_title": "example_title",
-      "is_image_linked": true,
-      "is_header_linked": true,
-      "link_description": "link",
-      "form_id": 0,
-      "form_title": "",
-      "target_audience": "all",
-      "use_social_network": "0"
+     "replyCode": 0,
+     "replyText": "OK",
+     "data": {
+       "id": 6,
+       "order": 1,
+       "group_id": 111111111,
+       "hide_on_mobile": true,
+       "header_source": "example",
+       "header_align": "left",
+       "body_source": "hello<br>world<br><a href=\"https://example.com/u/nrd.php?p=$uid$_$llid$_$cid$_$sid$_2\" target=\"_blank\" style=\"color: rgb(73, 120, 190); font-weight: normal; text-decoration: underline;\"><font face=\"Arial, Verdana, sans-serif\" color=\"#4978be\" size=\"3\" style=\"font-size:15px; line-height:18px; color:#4978be; font-weight:normal; text-decoration:underline;\"><u>example</u></font></a>",
+       "image_url": "https://example.com/image_placeholder.php?a",
+       "image_title": "",
+       "image_link": "",
+       "image_align": "right",
+       "image_width": null,
+       "image_height": null,
+       "image_hide_on_mobile": false,
+       "image_mobile": "",
+       "image_mobile_name": "",
+       "link_url": "http://example.com",
+       "link_title": "example_title",
+       "is_image_linked": true,
+       "is_header_linked": true,
+       "link_description": "link",
+       "form_id": 0,
+       "form_title": "",
+       "target_audience": "segment",
+       "use_social_network": "0",
+       "enable_network_sharing": false,
+       "advanced_html_source":"",
+       "advanced_text_source":"",
+       "target_audience_segment_id": 111111111
+     }
    }
 
 Errors
