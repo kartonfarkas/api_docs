@@ -28,7 +28,7 @@ Parameters
    * - password
      - string
      - Password for the new admin
-     -
+     - Password must not have less than 10 characters, and must contain capital-, lowercase letters and numbers as well.
    * - email
      - string
      - Email address
@@ -199,7 +199,7 @@ Errors
    * - 400
      - 8006
      - Too weak password
-     - The password should be at least 8 character long and should contain both letters and numbers.
+     - Password must not have less than 10 characters, and must contain capital-, lowercase letters and numbers as well.
    * - 500
      - 1003
      - Database connection error
