@@ -186,11 +186,13 @@ Where:
      -
    * - advanced_html_source
      - string
-     - Section can be edited as HTML in advanced mode
+     - If the section has been edited in Advanced Mode, all other parameters will be overwritten and the HTML code is
+       shown here. If not, it is NULL.
      -
    * - advanced_text_source
      - string
-     - Section can be edited as text in advanced mode
+     - If the section has been edited in Advanced Mode, all other parameters will be overwritten and the text version is
+       shown here. If not, it is NULL.
      -
    * - target_audience_segment_id
      - int
