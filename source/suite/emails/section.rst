@@ -162,7 +162,7 @@ Where:
      -
    * - link_description
      - string
-     - Description added for the link
+     - Name that displays in the individual link tracking analysis in the Reporting screens
      -
    * - form_id
      - int
