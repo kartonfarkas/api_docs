@@ -182,7 +182,7 @@ Where:
      -
    * - enable_network_sharing
      - boolean
-     - 
+     -
      -
    * - advanced_html_source
      - string
