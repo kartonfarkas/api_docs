@@ -41,7 +41,7 @@ Parameters
    * - password
      - string
      - Password used by the admin
-     - Has to meet the password strength requirements.
+     - Password must not have less than 10 characters, and must contain capital-, lowercase letters and numbers as well.
    * - email
      - string
      - Email address
@@ -194,7 +194,7 @@ Errors
    * - 400
      - 8006
      - Invalid password
-     - Password should only contain letters and numbers.
+     - Password must not have less than 10 characters, and must contain capital-, lowercase letters and numbers as well.
    * - 400
      - 8006
      - Too weak password
