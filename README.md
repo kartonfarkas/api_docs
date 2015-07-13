@@ -1,2 +1,2 @@
 # Emarsys Suite Developer Documentation
-See our site at https://dev.emarsys.com/.
+Our developer site is available at: https://dev.emarsys.com/
