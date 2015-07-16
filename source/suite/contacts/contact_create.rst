@@ -31,7 +31,7 @@ email address of the specific contact).
      - This can be a `field id <../../suite/appendices/system_fields.html>`_, **id** or **uid**. If left empty, the internal ID will be used by default.
    * - source_id
      - int
-     - ID assigned to the customer's application, used to differentiate contacts created or modified by the external applications, [source_id]
+     - ID assigned to the customer's application, used to differentiate contacts created or modified by the external applications
      -
 
 Notes:
