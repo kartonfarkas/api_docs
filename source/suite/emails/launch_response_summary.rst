@@ -37,10 +37,14 @@ Parameters
      - int
      - ID of the launch, part of the URI (e.g. /api/v2/email/<email_id>/responsesummary/launch_id=<launch_id>
      -
-   * -
-     -
-     -
-     -
+   * - start_date
+     - date
+     - Returns the response summary from the given time
+     - Accepted forms are YYYY-MM-DD HH:MM:SS, YYYY-MM-DD HH:MM, YYYY-MM-DD.
+   * - end_date
+     - date
+     - Returns the response summary until the given time
+     - Accepted forms are YYYY-MM-DD HH:MM:SS, YYYY-MM-DD HH:MM, YYYY-MM-DD.
 
 Result Example
 --------------
