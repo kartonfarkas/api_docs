@@ -11,11 +11,13 @@
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 <head>
+<!--
   <script>
     if (window.location.hostname && window.location.hostname !== "dev.emarsys.com") {
       window.location.hostname = "dev.emarsys.com";
     }
   </script>
+-->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {% block htmltitle %}
@@ -39,6 +41,7 @@
   {% endif %}
 
     <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
+
 
   {% for cssfile in css_files %}
     <link rel="stylesheet" href="{{ pathto(cssfile, 1) }}" type="text/css" />
@@ -75,56 +78,106 @@
   {# Keep modernizr in head - http://modernizr.com/docs/#installing #}
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body role="document">
 
-  <div class="wy-grid-for-nav">
 
-    {# SIDE NAV, TOGGLES ON MOBILE #}
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
-      <div class="wy-side-nav-search">
-        {% block sidebartitle %}
-          <a href="{{ pathto(master_doc) }}" class="fa fa-home"> {{ project }}</a>
-        {% endblock %}
+  {# MAIN NAV #}
+  <section class="main-navigation-container navbar has-sticky">
+    <nav class="grid main-navigation">
+      <div class="unit emarsys-logo"><a href="http://www.emarsys.com/">Emarsys</a></div>
+      <div class="unit mobile-menu-button">
+        <a href="#" class="burger-button">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+      </div>
+      <div class="unit collapse-mobile-menu">
+        <ul class="main-menu-list plain horizontal">
+          <li><a href="https://www.emarsys.com/">Home</a></li>
+          <li><a href="https://documentation.emarsys.com/">Documentation</a></li>
+          <li><a href="https://dev.emarsys.com/" class="active-menu">Developers</a></li>
+          <li><a href="https://help.emarsys.com/">Support</a></li>
+        </ul>
+      </div>
+      <div class="unit main-menu">
+        <ul class="main-menu-list plain horizontal">
+          <li><a href="https://www.emarsys.com/">Home</a></li>
+          <li><a href="https://documentation.emarsys.com/">Documentation</a></li>
+          <li><a href="https://dev.emarsys.com/" class="active-menu">Developers</a></li>
+          <li><a href="https://help.emarsys.com/">Support</a></li>
+        </ul>
+      </div>
+
+      <div class="unit docs-search-container">
         {% include "searchbox.html" %}
       </div>
-
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-        {% set toctree = toctree(maxdepth=2, collapse=False, includehidden=True) %}
-        {% if toctree %}
-            {{ toctree }}
-        {% else %}
-            <!-- Local TOC -->
-            <div class="local-toc">{{ toc }}</div>
-        {% endif %}
-      </div>
-      &nbsp;
     </nav>
-
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      {# MOBILE NAV, TRIGGLES SIDE NAV ON TOGGLE #}
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="{{ pathto(master_doc) }}">{{ project }}</a>
-      </nav>
+  </section>
 
 
-      {# PAGE CONTENT #}
-      <div class="wy-nav-content">
-        <div class="rst-content">
-          {% include "breadcrumbs.html" %}
-          <div role="main" class="document">
-            {% block body %}{% endblock %}
-          </div>
-          {% include "footer.html" %}
-        </div>
-      </div>
-
-    </section>
-
+  {# BREADCRUMBS #}
+  <div class="grid">
+    <div class="unit">
+      {% include "breadcrumbs.html" %}
+    </div>
   </div>
+
+
+  <div class="grid">
+
+    {# SIDE NAV, TOGGLES ON MOBILE #}
+    <div class="unit sidebar">
+      <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          {% set toctree = toctree(maxdepth=2, collapse=False, includehidden=True) %}
+          {% if toctree %}
+              {{ toctree }}
+          {% else %}
+              <!-- Local TOC -->
+              <div class="local-toc">{{ toc }}</div>
+          {% endif %}
+        </div>
+      </nav>
+    </div>
+
+    <div class="unit page-content">
+      <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+<!--
+        {# MOBILE NAV, TRIGGLES SIDE NAV ON TOGGLE #}
+        <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="{{ pathto(master_doc) }}">{{ project }}</a>
+        </nav>
+-->
+
+
+        {# PAGE CONTENT #}
+        <div class="wy-nav-content">
+          <div class="rst-content">
+            <div role="main" class="document">
+              {% block body %}{% endblock %}
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <section class="footer-container">
+    <div class="grid">
+      <div class="unit footer">
+          {% include "footer.html" %}
+      </div>
+    </div>
+  </section>
+
   {% include "versions.html" %}
 
   {% if not embedded %}
