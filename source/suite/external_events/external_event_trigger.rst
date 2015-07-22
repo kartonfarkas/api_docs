@@ -102,4 +102,8 @@ Errors
      - 2012
      - Invalid contact id for customer.
      - The customer doesn't have a contact with the specified [external_id].
+   * - 400
+     - 5005
+     - No program or campaign is triggered.
+     -
 
