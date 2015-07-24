@@ -19,10 +19,10 @@ Parameters
      - Type
      - Description
      - Comments
-   * - folder_id
+   * - folder
      - int
      - ID of an existing folder in the Media Database
-     - If <folder_id> is provided then any subfolders are returned as part of the URI.
+     - If <folder> is provided then any subfolders are returned as part of the URI.
 
 URI Example
 -----------
