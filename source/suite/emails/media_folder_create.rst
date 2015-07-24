@@ -54,7 +54,7 @@ Errors
      - Description
    * - 400
      - 11001
-     - Folder does not exist: <folder id>
+     - Folder does not exist: <folder ID>
      -
    * - 400
      - 11002
