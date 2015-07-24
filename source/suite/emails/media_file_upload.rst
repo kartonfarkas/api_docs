@@ -42,7 +42,7 @@ Parameters
      - Type
      - Description
      - Comments
-   * - folder_id
+   * - folder
      - int
      - ID of an already existing folder in the Media Database
      - If a folder is not specified, the file is uploaded to the root directory by default.
