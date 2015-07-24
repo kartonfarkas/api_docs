@@ -17,6 +17,7 @@ Resulting Data Structure
       "replyCode": 0,
       "replyText": "OK",
       "data":{
+         "environment": "suite.emarsys.com",
          "timezone": "America/New_York",
          "name": "Heimdall",
          "password_history_queue_size": 3,
