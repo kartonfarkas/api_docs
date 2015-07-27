@@ -105,5 +105,5 @@ Errors
    * - 400
      - 5005
      - No program or campaign is triggered.
-     -
+     - No active Automation Center program or email campaign is assigned for the external event.
 
