@@ -8,15 +8,15 @@ Ruby
    require 'digest/sha1'
    require 'net/https'
 
-   username = 'bob001'
-   secretKey = 'X4908hRffeH04F2ab5liCem0oiI'
+   username = 'customer001'
+   secretKey = 'customersecret'
 
    nonce = 'd36e316282959a9ed4c89851497a717f'
    timestamp = Time.now.utc.iso8601
    text = nonce + timestamp + secretKey
    passwordDigest = Base64.encode64(Digest::SHA1.new.hexdigest(nonce + timestamp + secretKey)).strip
 
-   url = 'https://suite5.emarsys.net/api/v2/language'
+   url = 'https://api.emarsys.net/api/v2/language'
 
    header = 'UsernameToken ' +
          "Username=\"#{username}\", " +
