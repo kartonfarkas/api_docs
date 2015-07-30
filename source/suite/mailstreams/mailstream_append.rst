@@ -1,23 +1,14 @@
 Append to Mail Stream
 =====================
 
-When creating a mail stream, the mail template was already defined. Therefore, simply POST recipient data in a flat CSV format to a mail stream to send mails. The request must have a Content-Type header with value `text/csv`
+Mails are sent by appending data to a mail stream. A mail stream contains a snapshot of a mail template which means that only data specific to a recipient like EMAIL, Firstname and so on needs to be included. This is done via a POST request with the recipient data in a [CSV format](https://en.wikipedia.org/wiki/Comma-separated_values). The request must have a Content-Type header with value `text/csv`
 
-This triggers merging the recipient data with the mail template. Once a mail is generated, it is queued for sending.
+When the request is processed the data is validated and if everything is ok the mails are queued for sending. As soon as the mails are queued the request is finished and returns a new unique ID for each recipient in the request. See below for examples on this format.
 
 Endpoint
 --------
 
 ``POST /api/v2/mailstream/<mailstream_id>``
-
-Response
---------
-
-The response of the request contains information about all recipient records in the request. The response format is CSV with the following columns:
-
-* line - location of the recipient record from the request, with the header line being 1.
-* recipient_id - generated unique recipient ID. Only available if recipient record is valid.
-* error - message describing the reason why the record was invalid. Only available for invalid records.
 
 Request Example
 ---------------
@@ -38,6 +29,16 @@ Result Example
    line,recipient_id,error
    2,995893849,
    3,,"Invalid number of columns."
+
+Result Format
+-------------
+
+The result of the request contains information about all recipient records in the request. The result format is CSV with the columns described below.
+
+* line - location of the recipient record from the request, with the header line being 1.
+* recipient_id - generated unique recipient ID. Only available if recipient record is valid.
+* error - message describing the reason why the record was invalid. Only available for invalid records.
+
 
 Errors
 ------
