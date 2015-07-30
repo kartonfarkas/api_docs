@@ -101,15 +101,16 @@ Error Condition:
          "errors":[
             {
                "key":"ironman@example.com",
-               "errorCode":"2008",
+               "errorCode":2008,
                "errorMsg":"No contact found with the external id: 3"
             },
             {
                "key":"hulk@example.com",
-               "errorCode":"2008",
+               "errorCode":2008,
                "errorMsg":"No contact found with the external id: 3"
             }
-         ]
+         ],
+         "result":false
       }
    }
 
