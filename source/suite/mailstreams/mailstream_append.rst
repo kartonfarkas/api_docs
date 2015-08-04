@@ -1,7 +1,7 @@
 Append to Mail Stream
 =====================
 
-Mails are sent by appending data to a mail stream. A mail stream contains a snapshot of a mail template which means that only data specific to a recipient like EMAIL, Firstname and so on needs to be included. This is done via a POST request with the recipient data in a [CSV format](https://en.wikipedia.org/wiki/Comma-separated_values). The request must have a Content-Type header with value `text/csv`
+Mails are sent by appending data to a mail stream. A mail stream contains a snapshot of a mail template which means that only data specific to a recipient like EMAIL, Firstname and so on needs to be included. This is done via a POST request with the recipient data in a `CSV format <https://en.wikipedia.org/wiki/Comma-separated_values>`_. The request must have a Content-Type header with value `text/csv`
 
 When the request is processed the data is validated and if everything is ok the mails are queued for sending. As soon as the mails are queued the request is finished and returns a new unique ID for each recipient in the request. See below for examples on this format.
 

@@ -137,7 +137,7 @@ API Endpoints
 
 .. list-table:: **Mail Streams**
 
-   * - :doc:`../mailstreams/mailstream`
+   * - :doc:`../mailstreams/mailstream_append`
      - POST /api/v2/mailstream/<mailstream_id>
 
 .. list-table:: **Templates**

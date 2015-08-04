@@ -1,7 +1,7 @@
 Mail Streams
 ============
 
-In Sendkit, mails are being sent asynchronously over so-called _mail streams_, referenced by their ID.
+In Sendkit, mails are being sent asynchronously over so-called mail streams, referenced by their ID.
 
 Each mail stream is associated with a mail template which defines how the final mails should look like when combined with recipient data. Therefore, a mail template has to be provided when creating a new mail stream.
 

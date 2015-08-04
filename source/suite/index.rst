@@ -32,6 +32,7 @@ We also provide a demo page where you can try the API (see :doc:`get_started/api
    customers/index.rst
    contacts/index.rst
    emails/index.rst
+   mailstreams/index.rst
    exports/index.rst
    external_events/index.rst
    appendices/index.rst
