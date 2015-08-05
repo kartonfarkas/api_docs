@@ -47,6 +47,10 @@ Parameters
      - ID of an already existing folder in the Media Database
      - If a folder is not specified, the file is uploaded to the root directory by default.
        A list of available folders can be retrieved using the /api/v2/folder interface.
+   * - preserve_filename
+     - int
+     - If 1, the original filename won't be modified
+     - 
 
 JSON Payload Example
 --------------------
@@ -71,7 +75,8 @@ The file will be uploaded to the specified folder:
    {
      "folder": "840559",
      "filename": "logo.png",
-     "file": "Dm++/vUMBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAcO/w4Dvv70RCO+/veKCrO+/veKCrAMBIgRAQ==..."
+     "file": "Dm++/vUMBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAcO/w4Dvv70RCO+/veKCrO+/veKCrAMBIgRAQ==...",
+     "preserve_filename": 0
    }
 
 Result Example
