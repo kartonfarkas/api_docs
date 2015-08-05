@@ -135,11 +135,6 @@ API Endpoints
    * - :doc:`../emails/launch_unsubscribe`
      - POST /api/v2/email/unsubscribe
 
-.. list-table:: **Mail Streams**
-
-   * - :doc:`../mailstreams/mailstream_append`
-     - POST /api/v2/mailstream/<mailstream_id>
-
 .. list-table:: **Templates**
 
    * - :doc:`../emails/template_list`

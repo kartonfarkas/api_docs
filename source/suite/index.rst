@@ -13,7 +13,7 @@ For each Suite API request, you need:
  * the API URL based on the Suite environment you use (e.g. `https://suite5.emarsys.net/api/v2/`)
  * your *username* and *secret* for the API (please request them from your contact person)
 
-Requests to the API must be authenticated. The authentication method of the API is X-WSSE, see :doc:`get_started/authentication`. 
+Requests to the API must be authenticated. The authentication method of the API is X-WSSE, see :doc:`get_started/authentication`.
 
 The following is a list of examples for how to authenticate using different languages:
 
@@ -32,7 +32,6 @@ We also provide a demo page where you can try the API (see :doc:`get_started/api
    customers/index.rst
    contacts/index.rst
    emails/index.rst
-   mailstreams/index.rst
    exports/index.rst
    external_events/index.rst
    appendices/index.rst
