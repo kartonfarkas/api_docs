@@ -115,8 +115,6 @@ Where:
 
 * *id* = The internal identifier of the email
 * *name* = The name of the email in Suite
-* *fromemail* = The sender email address
-* *fromname* = The sender name
 * *subject* = The email subject line
 * *email_category* = The category identifier for this email, for more info see :doc:`../emails/email_categories`.
 * *filter* = The filter identifier. Available filters can be retrieved via :doc:`../contacts/segment_list`.
