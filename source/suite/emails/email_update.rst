@@ -56,6 +56,14 @@ Parameters
      - string
      - Html source of a custom HTML campaign
      - Does not work for template-based campaigns.
+   * - fromname
+     - string
+     - Name of the sender.
+     -
+   * - fromemail
+     - string
+     - Email address of the sender.
+     -
 
 Request Example
 ---------------
