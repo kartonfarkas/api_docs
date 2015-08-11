@@ -64,6 +64,14 @@ Parameters
      - string
      - Email address of the sender.
      -
+   * - unsubscribe
+     - boolean
+     - Unsubscribe text and link are shown in the email campaign
+     -
+   * - browse
+     - boolean
+     - Link of the online version is shown in the email campaign
+     -
 
 Request Example
 ---------------
