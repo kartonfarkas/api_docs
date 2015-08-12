@@ -40,3 +40,5 @@ contact list specified at the trigger endpoint, or information about the usage o
 * :doc:`../../suite/contacts/contact_list_list_contacts`
 * :doc:`../../suite/contacts/contact_data`
 * :doc:`../../suite/appendices/program_resources`
+* :doc:`../../suite/appendices/program_run`
+
