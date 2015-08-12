@@ -1,14 +1,14 @@
-Creating a Program Run
-======================
+Starting a Program
+==================
 
-Starts an Automation Center program after user data change.
+Starts an Automation Center program with triggering an external event by providing a contact list or contact.
 
 .. note:: With the entry API node, it is possible to send only transactional email campaigns in Automation Center.
 
 Endpoint
 --------
 
-``POST http://api.emarsys.net/api/v2/ac/programs/entrypoints/<service-id>/resources/<resource-id>/runs``
+``POST /api/v2/ac/programs/entrypoints/<service_id>/resources/<resource_id>/runs``
 
 Parameters
 ----------
