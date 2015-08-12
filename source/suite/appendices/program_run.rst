@@ -3,7 +3,7 @@ Creating a Program Run
 
 Starts an Automation Center program after user data change.
 
-.. note:: With this entry API node, it is possible to send only transactional email campaigns in Automation Center.
+.. note:: With the entry API node, it is possible to send only transactional email campaigns in Automation Center.
 
 Endpoint
 --------
