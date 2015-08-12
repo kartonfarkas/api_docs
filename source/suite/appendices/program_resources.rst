@@ -26,7 +26,7 @@ Parameters
      - Comments
    * - service_id
      - string
-     - the ID of the external service
+     - ID of the external service
      -
 
 .. list-table:: **Optional Parameters**
@@ -39,7 +39,7 @@ Parameters
      - Comments
    * - resource_id
      - int
-     - the settings of a particular node of a customer in the Automation Center
+     - Settings of a particular node of a customer in the Automation Center
      -
 
 Result Example
