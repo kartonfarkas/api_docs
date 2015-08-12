@@ -3,8 +3,6 @@ Starting a Program
 
 Starts an Automation Center program with triggering an external event by providing a contact list or contact.
 
-.. note:: With the entry API node, it is possible to send only transactional email campaigns in Automation Center.
-
 Endpoint
 --------
 
