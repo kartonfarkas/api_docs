@@ -37,11 +37,11 @@ Parameters
      - If *showdeleted* is set to 1, deleted campaigns are also listed, part of the URI
      -
    * - fromdate
-     - int
+     - date
      - If *fromdate* is set, only those campaigns will be listed which were created after the given date, part of the URI
      - The accepted format is YYYY-MM-DD, example: 2013-01-25.
    * - todate
-     - int
+     - date
      - If *todate* is set, only those campaigns will be listed which were created before the given date, part of the URI
      - The accepted format is YYYY-MM-DD, example: 2013-01-25.
 
