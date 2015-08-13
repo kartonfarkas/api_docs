@@ -67,7 +67,7 @@ standard.
 
 .. note::
 
-   The following timezone formats are accepted and considered the same: 
+   The following timezone formats are accepted and considered the same:
       - 2014-01-01T01:01:01+00:00
       - 2014-01-01T01:01:01Z
       - 2014-01-01T01:01:01+0000
@@ -96,3 +96,4 @@ Sample codes are available in these languages:
    authentication_ruby
    authentication_java
    authentication_csharp
+   authentication_go
