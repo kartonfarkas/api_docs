@@ -1,5 +1,5 @@
-Ruby
-====
+Go
+==
 
 .. code-block:: go
 
