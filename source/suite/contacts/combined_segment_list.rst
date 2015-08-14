@@ -1,7 +1,8 @@
 Listing Combined Segments
 =========================
 
-Generates a list of combined segments, which are used for filtering according to different criteria.
+Generates a list of combined segments. With combined segments, it is possible to combine the results of several other
+segments.
 
 Endpoint
 --------
