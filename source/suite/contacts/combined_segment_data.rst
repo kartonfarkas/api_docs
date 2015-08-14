@@ -73,11 +73,11 @@ Resulting Data Structure
      -
    * - include
      - object
-     - Include relation between the segments
+     - Included segments
      -
    * - exclude
      - object
-     - Exclude relation between the segments
+     - Excluded segments
      -
    * - relation
      - string
