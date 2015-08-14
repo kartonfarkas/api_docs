@@ -59,6 +59,7 @@ Segments
    segment_list.rst
    segment_list_contacts.rst
    combined_segment_list.rst
+   combined_segment_data.rst
 
 Contact Sources
 ---------------
