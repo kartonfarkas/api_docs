@@ -1,7 +1,7 @@
 Querying Combined Segment Data
 ==============================
 
-Returns all the details of a combined segment, i.e. relations & attributes among the segments it includes.
+Returns all the details of a combined segment, i.e. relations & attributes of the segments it includes.
 
 Endpoint
 --------
