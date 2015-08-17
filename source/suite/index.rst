@@ -5,15 +5,19 @@ The Suite REST API provides programmatic access to the Emarsys Suite. Most of ou
 to automate working with :doc:`contacts/index`, :doc:`emails/index`, or :doc:`exports/index` related to contacts
 and launches.
 
-If you have already connected successfully to the API, you might want to move straight to the `Use Cases <http://documentation.emarsys.com/?page_id=357>`_,
-where we show you a number of typical API-related scenarios.
+If you have already connected successfully to the API, you might want to move straight to the
+`Use Cases <http://documentation.emarsys.com/?page_id=357>`_, where we show you a number of typical API-related
+scenarios.
 
 For each Suite API request, you need:
 
  * the API URL based on the Suite environment you use (e.g. `https://suite5.emarsys.net/api/v2/`)
  * your *username* and *secret* for the API (please request them from your contact person)
 
-Requests to the API must be authenticated. The authentication method of the API is X-WSSE, see :doc:`get_started/authentication`.
+Requests to the API must be authenticated. The authentication method of the API is X-WSSE, see
+:doc:`get_started/authentication`.
+
+Our API is rate limited, please read the details at :doc:`get_started/rate_limiting`.
 
 The following is a list of examples for how to authenticate using different languages:
 
