@@ -109,6 +109,14 @@ Parameters
      - string
      - Additional URL parameters that are added to the tracked links URL when redirected.
      - Only works if this feature is enabled for the customer.
+   * - Exclude Segment ID
+     - int
+     - Additional parameter for exclude e-mail campaign.
+     - Can only be integer. A validator checks it.
+   * - Exclude Contact List ID
+     - int
+     - Additional parameter for exclude e-mail campaign.
+     - Can only be integer. A validator checks it.
 
 Request Example
 ---------------
@@ -220,3 +228,19 @@ Errors
      - 6049
      - You must provide a recipient source. External event, segment or contact list.
      -
+   * - 404
+     - 6054
+     - You must select either a contact list exclude or a segment exclude.
+     - Both the exclude segment ID and the exclude contact list ID are set.
+   * - 404
+     - 6055
+     - Invalid exclude segment ID.
+     - The given customer hasn't got this exlcude segment.
+   * - 404
+     - 6056
+     - Invalid exclude userlist ID..
+     - The given customer hasn't got this exlcude contact list.
+   * - 400
+     - 1016
+     - Invalid input type: {field}
+     - The given {field} can only contains integers.
