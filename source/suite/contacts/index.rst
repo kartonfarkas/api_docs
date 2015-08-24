@@ -60,6 +60,7 @@ Segments
    segment_list_contacts.rst
    combined_segment_list.rst
    combined_segment_data.rst
+   combined_segment_create.rst
 
 Contact Sources
 ---------------

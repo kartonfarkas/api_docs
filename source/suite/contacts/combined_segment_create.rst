@@ -1,7 +1,7 @@
-Querying Combined Segment Data
-==============================
+Creating a Combined Segment
+===========================
 
-Returns all the details of a combined segment, i.e. relations & attributes of the segments it includes.
+Info on creating a new combined segment.
 
 Endpoint
 --------
@@ -19,9 +19,17 @@ Parameters
      - Type
      - Description
      - Comments
-   * - combined_segment_id
+   * - name
+     - string
+     - Name of the combined segment
+     -
+   * - relation
+     - string
+     - Defines an AND or OR relation between the included and excluded segments
+     - Please note that it must have a value even if only one segment is defined.
+   * - segment_ids
      - int
-     - ID of the combined segment
+     - ID of the segments to combine
      -
 
 Result Example
@@ -32,30 +40,29 @@ Result Example
    {
       "replyCode": 0,
       "replyText": "OK",
-      "data": {
-         "id": 33,
-         "name": "test_segment",
+      "data":{
+         "id": 21,
+         "name": "combined_2",
          "definition": {
             "include": {
                "relation": "OR",
                "segment_ids": [
-                  0
+                  "100011869"
                ]
             },
             "exclude": {
                "relation": "OR",
                "segment_ids": [
-                  "111111111"
+                  "100017571,100017572"
                ]
             }
          }
       }
    }
 
-Resulting Data Structure
-------------------------
+Where:
 
-.. list-table:: **Resulting Data Structure**
+.. list-table::
    :header-rows: 1
    :widths: 20 20 40 40
 
@@ -79,10 +86,6 @@ Resulting Data Structure
      - object
      - Excluded segments
      -
-   * - relation
-     - string
-     - Defines an AND or OR relation between the segments
-     -
 
 Errors
 ------
@@ -95,7 +98,7 @@ Errors
      - Reply Code
      - Message
      - Description
-   * - 404
-     - 13001
-     - Combined segment not found.
-     - Combined Segment ID is not valid.
+   * - 400
+     - 13002
+     - Invalid JSON input.
+     - Signs one or more mistakes in the syntax of the request or an existing combined segment name.
