@@ -6,7 +6,7 @@ Info on creating a new combined segment.
 Endpoint
 --------
 
-``GET /api/v2/segments/combined/<combined_segment_id>``
+``POST /api/v2/segments/combined/<combined_segment_id>``
 
 Parameters
 ----------
@@ -31,6 +31,30 @@ Parameters
      - int
      - ID of the segments to combine
      -
+
+Request Example
+---------------
+
+.. code-block:: json
+
+   {
+      "name": "combined_2",
+      "definition": {
+         "include": {
+            "relation": "OR",
+            "segment_ids": [
+               "100011869"
+            ]
+         },
+         "exclude": {
+            "relation": "OR",
+            "segment_ids": [
+               "100017571",
+               " 100017571"
+            ]
+         }
+      }
+   }
 
 Result Example
 --------------
