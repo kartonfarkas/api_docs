@@ -1,7 +1,7 @@
-Creating a Combined Segment
+Updating a Combined Segment
 ===========================
 
-Creates a new combined segment.
+Updates a combined segment.
 
 Endpoint
 --------
@@ -19,6 +19,10 @@ Parameters
      - Type
      - Description
      - Comments
+   * - combined_segment_id
+     - int
+     - ID of the combined segment to use
+     -
    * - name
      - string
      - Name of the combined segment
@@ -47,7 +51,7 @@ Request Example
             ]
          },
          "exclude": {
-            "relation": "OR",
+            "relation": "AND",
             "segment_ids": [
                "100017571",
                " 100017572"
@@ -55,6 +59,7 @@ Request Example
          }
       }
    }
+
 
 Result Example
 --------------
@@ -64,8 +69,8 @@ Result Example
    {
       "replyCode": 0,
       "replyText": "OK",
-      "data":{
-         "id": 21,
+      "data": {
+         "id": 22,
          "name": "combined_2",
          "definition": {
             "include": {
@@ -75,9 +80,10 @@ Result Example
                ]
             },
             "exclude": {
-               "relation": "OR",
+               "relation": "AND",
                "segment_ids": [
-                  "100017571,100017572"
+                  "100017571",
+                  " 100017572"
                ]
             }
          }
@@ -125,4 +131,4 @@ Errors
    * - 400
      - 13002
      - Invalid JSON input.
-     - Signs one or more mistakes in the syntax of the request or an existing combined segment name.
+     - Signs one or more mistakes in the syntax of the request or an invalid segment ID.
