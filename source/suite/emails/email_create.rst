@@ -63,6 +63,10 @@ Parameters
      - int
      - Segment ID for the email
      - Email campaign with a *Segment* recipient source is created.
+   * - combined_segment*
+     - int
+     - Combined Segment ID for the email
+     - Email campaign with a *Combined segment* recipient source is created.
    * - contactlist*
      - int
      - Contact list ID for the email
@@ -70,7 +74,7 @@ Parameters
 
 .. note::
 
-   *\**: From *external_event_id*, *filter* and *contactlist* parameters, at least one must always be defined by its
+   *\**: From *external_event_id*, *filter*, *combined_segment* and *contactlist* parameters, at least one must always be defined by its
    ID.
 
 .. list-table:: **Optional Parameters**
