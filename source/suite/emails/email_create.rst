@@ -65,7 +65,7 @@ Parameters
      - Email campaign with a *Segment* recipient source is created.
    * - combined_segment*
      - int
-     - Combined Segment ID for the email
+     - Combined segment ID for the email
      - Email campaign with a *Combined segment* recipient source is created.
    * - contactlist*
      - int
