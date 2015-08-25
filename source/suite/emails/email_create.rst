@@ -109,11 +109,11 @@ Parameters
      - string
      - Additional URL parameters that are added to the tracked links URL when redirected.
      - Only works if this feature is enabled for the customer.
-   * - Exclude Segment ID
+   * - exclude_segment_id
      - int
      - Additional parameter for exclude e-mail campaign.
      - Can only be integer. A validator checks it.
-   * - Exclude Contact List ID
+   * - exclude_contact_list_id
      - int
      - Additional parameter for exclude e-mail campaign.
      - Can only be integer. A validator checks it.
