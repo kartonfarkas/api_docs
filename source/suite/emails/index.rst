@@ -19,6 +19,7 @@ Email Campaigns
    email_delete.rst
    email_update.rst
    email_update_source.rst
+   email_raw.rst
 
 Launches
 --------
