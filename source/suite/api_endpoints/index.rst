@@ -78,6 +78,14 @@ API Endpoints
      - GET /api/v2/filter
    * - :doc:`../contacts/segment_list_contacts`
      - GET /api/v2/filter/<segment_id>/contacts
+   * - :doc:`../contacts/combined_segment_list`
+     - GET /api/v2/segments/combined
+   * - :doc:`../contacts/combined_segment_data`
+     - GET /api/v2/segments/combined/<combined_segment_id>
+   * - :doc:`../contacts/combined_segment_create`
+     - POST /api/v2/segments/combined/<combined_segment_id>
+   * - :doc:`../contacts/combined_segment_update`
+     - POST /api/v2/segments/combined/<combined_segment_id>
 
 .. list-table:: **Contact Sources**
 
@@ -103,6 +111,8 @@ API Endpoints
      - GET /api/v2/language
    * - :doc:`../emails/email_categories`
      - GET /api/v2/emailcategory
+   * - :doc:`../emails/email_raw`
+     - GET /api/v2/email/<email_id>/raw
    * - :doc:`../emails/email_create`
      - POST /api/v2/email
    * - :doc:`../emails/email_copy`
@@ -150,6 +160,8 @@ API Endpoints
      - GET /api/v2/email/<email_id>/trackedlinks/<link_id>
    * - :doc:`../emails/tracked_link_update`
      - POST /api/v2/email/<email_id>/trackedlinks/<link_id>
+   * - :doc:`../emails/tracked_link_delete`
+     - POST /api/v2/email/<email_id>/deletetrackedlinks/<link_id>
 
 .. list-table:: **Sections**
 
