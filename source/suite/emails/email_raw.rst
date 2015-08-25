@@ -29,6 +29,9 @@ Parameters
 Result Example
 --------------
 
+.. note:: It is a simple email campaign like in the case of
+          :doc:`../emails/email_list`.
+
 .. code-block:: json
 
    {
