@@ -1,12 +1,13 @@
-Deleting a Tracked Link in an Email Campaign
-============================================
+Deleting All Tracked Links in an Email Campaign
+===============================================
 
-Deletes a tracked links of an email campaign with providing its link ID, so the link won’t be tracked anymore for that campaign.
+Deletes all tracked links of an email campaign, so the links won’t be tracked anymore for that campaign.
+
 
 Endpoint
 --------
 
-``POST /api/v2/email/<email_id>/deletetrackedlinks/<link_id>``
+``POST /api/v2/email/<email_id>/deletetrackedlinks``
 
 Parameters
 ----------
@@ -23,19 +24,6 @@ Parameters
      - int
      - ID of the email, part of the URI
      -
-
-.. list-table:: **Optional Parameters**
-   :header-rows: 1
-   :widths: 20 20 40 40
-
-   * - Name
-     - Type
-     - Description
-     - Comments
-   * - link_id
-     - int
-     - ID of the URL, part of the URI
-     - Please note that if it is not provided, all URLs of the email campaign will be deleted.
 
 Result Example
 --------------
