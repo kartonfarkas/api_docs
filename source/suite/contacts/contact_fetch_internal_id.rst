@@ -1,5 +1,5 @@
-Fetching Contact Internal ID
-============================
+Fetching a Contact Internal ID
+==============================
 
 Returns the internal ID of a contact based on a specified key ID.
 

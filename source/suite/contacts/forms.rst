@@ -1,5 +1,5 @@
-Querying Customer Forms
-=======================
+Listing Customer Forms
+======================
 
 Generates a list of all Suite forms available for use (e.g. registration form in a web page).
 Suite offers simple functionality to create different kinds of forms to collect data from contacts.
