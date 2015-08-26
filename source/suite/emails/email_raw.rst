@@ -1,5 +1,5 @@
-Querying Raw Email Campaigns
-============================
+Querying Raw Email Campaign Data
+================================
 
 Returns the content of all email campaigns with their original URL instead of the tracking URL. With providing an
 email ID, content of a specific email campaign can be seen with the original URL.
