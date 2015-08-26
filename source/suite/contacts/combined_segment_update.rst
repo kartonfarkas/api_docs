@@ -54,7 +54,7 @@ Request Example
             "relation": "AND",
             "segment_ids": [
                "100017571",
-               " 100017572"
+               "100017572"
             ]
          }
       }
@@ -83,7 +83,7 @@ Result Example
                "relation": "AND",
                "segment_ids": [
                   "100017571",
-                  " 100017572"
+                  "100017572"
                ]
             }
          }
