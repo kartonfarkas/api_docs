@@ -74,6 +74,7 @@ Tracked Links
 
    tracked_link_list.rst
    tracked_link.rst
+   tracked_link_category.rst
    tracked_link_update.rst
    tracked_link_delete_all.rst
    tracked_link_delete.rst
