@@ -1,7 +1,7 @@
 Deleting a Tracked Link in an Email Campaign
 ============================================
 
-Deletes a tracked links of an email campaign with providing its link ID, so the link won’t be tracked anymore for that campaign.
+Deletes a tracked link of an email campaign with providing its link ID, so the link won’t be tracked anymore for that campaign.
 
 Endpoint
 --------
