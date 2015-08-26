@@ -115,11 +115,11 @@ Parameters
      - Only works if this feature is enabled for the customer.
    * - exclude_segment_id
      - int
-     - Additional parameter for exclude e-mail campaign.
+     - Additional parameter for excluding a segment.
      - Can only be integer. A validator checks it.
    * - exclude_contact_list_id
      - int
-     - Additional parameter for exclude e-mail campaign.
+     - Additional parameter for excluding a contact list.
      - Can only be integer. A validator checks it.
 
 Request Example
