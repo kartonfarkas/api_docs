@@ -1,7 +1,7 @@
 Listing Link Categories
 =======================
 
-Returns link categories of tracked links. These categories group tracked links on the basis of their type.
+Returns link categories of links in emails. These categories group links in emails on the basis of their type.
 
 Endpoint
 --------
