@@ -13,6 +13,7 @@ Customer Settings
    :maxdepth: 1
 
    customer_settings.rst
+   tracked_link_category.rst
 
 Administrators
 --------------
