@@ -18,7 +18,7 @@ Resulting Data Structure
       "replyCode": 0,
       "replyText": "OK",
       "data": {
-         "111111111": "product_link",
-         "222222222": "common_link"
+         "111111111": "Products",
+         "222222222": "Common links"
       }
    }
