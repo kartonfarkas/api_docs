@@ -6,7 +6,7 @@ Creates a new combined segment.
 Endpoint
 --------
 
-``POST /api/v2/segments/combined/<combined_segment_id>``
+``POST /api/v2/combinedsegments``
 
 Parameters
 ----------
@@ -126,4 +126,16 @@ Errors
    * - 400
      - 13002
      - Invalid JSON input.
-     - Indicates one or more mistakes in the syntax of the request, or an existing combined segment name.
+     - Indicates one or more mistakes in the syntax of the request.
+   * - 400
+     - 13003
+     - Empty name.
+     - Empty string has been provided for name, or name is missing.
+   * - 400
+     - 13004
+     - Name already exists.
+     - The provided name is used already by an other combined segment.
+   * - 400
+     - 13005
+     - Invalid definition.
+     - The provided definition is invalid. E.g.: the include part is missing, wrong relation given or a non-intger is used in segment_ids.

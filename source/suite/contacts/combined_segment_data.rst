@@ -6,7 +6,7 @@ Returns all the details of a combined segment, i.e. relations & attributes of th
 Endpoint
 --------
 
-``GET /api/v2/segments/combined/<combined_segment_id>``
+``GET /api/v2/combinedsegments/<combined_segment_id>``
 
 Parameters
 ----------

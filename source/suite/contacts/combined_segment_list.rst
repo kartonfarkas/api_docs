@@ -7,7 +7,7 @@ segments.
 Endpoint
 --------
 
-``GET /api/v2/segments/combined``
+``GET /api/v2/combinedsegments``
 
 Result Example
 --------------
