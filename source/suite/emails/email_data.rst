@@ -140,9 +140,10 @@ Resulting Data Structure
      - string
      - HTML source of the email
      - Additional attributes for raw campaigns:
-       - *notrack*: link will not be tracked
-       - *name*: link name
-       - *category*: link category
+
+       * *notrack*: link will not be tracked
+       * *name*: link name
+       * *category*: link category
    * - text_source
      - string
      - Text source of the email
