@@ -25,6 +25,19 @@ Parameters
      - ID of the email, part of the URI
      -
 
+.. list-table:: **Optional Parameters**
+   :header-rows: 1
+   :widths: 20 20 40 40
+
+   * - Name
+     - Type
+     - Description
+     - Comments
+   * - raw
+     - int
+     - Returns email content with the original URL instead of the tracking URL
+     - Also lists additional attributes in the html_source.
+
 Result Example
 --------------
 
@@ -37,22 +50,33 @@ Result Example
      [
        {
          "id": "12345",
+         "root_email": "0",
          "language": "en",
-         "created": "2011-08-12 18:12:23",
          "name": "funny_email",
-         "status": "3",
-         "api_status": "2",
-         "api_error": "0",
+         "created": "2011-08-12 18:12:23",
+         "deleted": "",
          "fromemail": "loki@example.com",
          "fromname": "Loki",
          "subject": "I'm alive",
          "email_category": "111111111",
          "filter": "333333333",
+         "exclude_filter": 0,
          "contactlist": "0",
+         "exclude_contactlist": 0,
+         "additional_linktracking_parameters": "",
          "cc_list": 564365356,
+         "html_source": "<html>\n  \n  <head></head>\n  \n  <body style=\"visibility: visible;\"><a ems:notrack=\"true\" href=\"http://google.com\" ems:notrack=\"true\" ems:name=\"name\" ems:category target=\"_blank\">link</a>\n  </body>\n\n</html>",
+         "text_source": "",
+         "template": "0",
+         "unsubscribe": "y",
+         "browse": "y",
+         "status": "3",
+         "api_status": "2",
+         "api_error": "0",
+         "external_event_id": null,
+         "combined_segment_id": null,
+         "text_only": "n",
          "source": "api",
-         "html_source": "<html>Hello $First Name$...</html>",
-         "text_source": "Hello $First Name$..."
        }
      ]
    }
@@ -115,7 +139,10 @@ Resulting Data Structure
    * - html_source
      - string
      - HTML source of the email
-     -
+     - Additional attributes for raw campaigns:
+       - *notrack*: link will not be tracked
+       - *name*: link name
+       - *category*: link category
    * - text_source
      - string
      - Text source of the email
