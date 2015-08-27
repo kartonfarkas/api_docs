@@ -29,7 +29,7 @@ Parameters
      -
    * - relation
      - string
-     - Defines an AND or OR relation between the included and excluded segments
+     - Defines the relation between (AND / OR) the segments to be included or excluded
      - Please note that it must have a value even if only one segment is defined.
    * - segment_ids
      - int
@@ -102,7 +102,7 @@ Where:
      - Comments
    * - id
      - int
-     - ID of the combined segment
+     - New segment ID
      -
    * - definition
      - object
@@ -110,11 +110,11 @@ Where:
      -
    * - include
      - object
-     - Included segments
+     - Segments included
      -
    * - exclude
      - object
-     - Excluded segments
+     - Segments excluded
      -
 
 Errors
@@ -131,4 +131,4 @@ Errors
    * - 400
      - 13002
      - Invalid JSON input.
-     - Signs one or more mistakes in the syntax of the request or an invalid segment ID.
+     - Indicates one or more mistakes in the syntax of the request, or an invalid segment ID.
