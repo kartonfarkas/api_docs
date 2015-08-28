@@ -134,7 +134,7 @@ Errors
      - Indicates one or more mistakes in the syntax of the request.
    * - 400
      - 13003
-     - Empty name.
+     - No name provided.
      - Empty string has been provided for name, or name is missing.
    * - 400
      - 13004
@@ -142,5 +142,6 @@ Errors
      - The provided name is used already by an other combined segment.
    * - 400
      - 13005
-     - Invalid definition.
-     - The provided definition is invalid. E.g.: the include part is missing, wrong relation given or a non-intger is used in segment_ids.
+     - Definition is invalid.
+     - The provided definition is invalid, e.g.: the include part is missing, wrong relation is given or a non-integer
+       is used in segment_ids.
