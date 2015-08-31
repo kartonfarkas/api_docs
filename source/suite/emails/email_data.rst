@@ -65,7 +65,7 @@ Result Example
          "exclude_contactlist": 0,
          "additional_linktracking_parameters": "",
          "cc_list": 564365356,
-         "html_source": "<html>\n  \n  <head></head>\n  \n  <body style=\"visibility: visible;\"><a ems:notrack=\"true\" href=\"http://google.com\" ems:notrack=\"true\" ems:name=\"name\" ems:category target=\"_blank\">link</a>\n  </body>\n\n</html>",
+         "html_source": "<a href=\"http://google.com\" ems:name=\"name\" ems:category=\"category #1\" target=\"_blank\">tracked link</a><a href=\"http://bing.com\" ems:notrack=\"true\" target=\"_blank\">link with no tracking</a>",
          "text_source": "",
          "template": "0",
          "unsubscribe": "y",
