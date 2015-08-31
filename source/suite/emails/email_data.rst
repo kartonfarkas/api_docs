@@ -35,7 +35,7 @@ Parameters
      - Comments
    * - raw
      - int
-     - Returns email content with the original URL instead of the tracking URL
+     - Returns links in email content with the original URL instead of the tracking URL
      - Also lists additional attributes in the html_source.
 
 Result Example
