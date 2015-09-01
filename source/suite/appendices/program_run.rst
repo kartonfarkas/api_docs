@@ -1,13 +1,13 @@
 Starting Programs
 =================
 
-Starts Automation Center programs with entry point API nodes of an integration where the resource of the entry point
-API node is the same as the resource ID.
+Starts Automation Center programs with the specified node_type entry point API nodes, where
+the selected resource of the node is the same as the specified resource_id.
 
 Endpoint
 --------
 
-``POST /api/v2/ac/programs/entrypoints/<integration_id>/resources/<resource_id>/runs``
+``POST /api/v2/ac/programs/entrypoints/<node_type>/resources/<resource_id>/runs``
 
 Parameters
 ----------
@@ -20,13 +20,13 @@ Parameters
      - Type
      - Description
      - Comments
-   * - integration_id
+   * - node_type
      - string
-     - ID of the integration
+     - The string ID of the integration's node, provided by Emarsys, part of the URI
      -
    * - resource_id
      - int
-     - Resource ID of the integration selected in the integration's API node (http://dev.emarsys.com/integrations/automation_center/node.html)
+     - Resource ID of the integration selected in the integration's API node (http://dev.emarsys.com/integrations/automation_center/node.html), part of the URI
      -
    * - contact_list_id
      - int
@@ -36,6 +36,11 @@ Parameters
      - int
      - ID of the contact which gets into the program
      - Please note that either contact_list_id or contact_id must be provided.
+
+URI Example
+-----------
+
+* ``/api/v2/ac/programs/entrypoints/example-event/resources/42/runs``
 
 Request Example
 ---------------
