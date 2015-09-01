@@ -4,6 +4,8 @@ Querying Email Campaign Data
 Returns all the details of an email campaign, i.e. content & attributes, including the personalized text and HTML
 source.
 
+.. note:: With using the optional raw parameter, the original URLs are displayed in html_source and text_source.
+
 Endpoint
 --------
 
@@ -65,8 +67,8 @@ Result Example
          "exclude_contactlist": 0,
          "additional_linktracking_parameters": "",
          "cc_list": 564365356,
-         "html_source": "<a href=\"http://google.com\" ems:name=\"name\" ems:category=\"category #1\" target=\"_blank\">tracked link</a><a href=\"http://bing.com\" ems:notrack=\"true\" target=\"_blank\">link with no tracking</a>",
-         "text_source": "",
+         "html_source": "<html>Hello $First Name$...</html>",
+         "text_source": "Hello $First Name$...",
          "template": "0",
          "unsubscribe": "y",
          "browse": "y",
