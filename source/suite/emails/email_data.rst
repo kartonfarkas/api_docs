@@ -4,7 +4,8 @@ Querying Email Campaign Data
 Returns all the details of an email campaign, i.e. content & attributes, including the personalized text and HTML
 source.
 
-.. note:: With using the optional raw parameter, the original URLs are displayed in html_source and text_source.
+.. note:: With using the optional raw parameter, the original URLs (not tracked link URLs) are displayed in html_source
+          and text_source.
 
 Endpoint
 --------
@@ -141,7 +142,7 @@ Resulting Data Structure
    * - html_source
      - string
      - HTML source of the email
-     - Additional attributes for raw campaigns:
+     - Additional attributes for links when optional raw parameter is used:
 
        * *notrack*: link will not be tracked
        * *name*: link name
