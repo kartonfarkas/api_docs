@@ -111,8 +111,6 @@ API Endpoints
      - GET /api/v2/language
    * - :doc:`../emails/email_categories`
      - GET /api/v2/emailcategory
-   * - :doc:`../emails/email_raw`
-     - GET /api/v2/email/<email_id>/raw
    * - :doc:`../emails/email_create`
      - POST /api/v2/email
    * - :doc:`../emails/email_copy`
