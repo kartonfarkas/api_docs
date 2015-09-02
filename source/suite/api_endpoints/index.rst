@@ -5,6 +5,8 @@ API Endpoints
 
    * - :doc:`../customers/customer_settings`
      - GET /api/v2/settings
+   * - :doc:`../customers/email_link_category`
+     - GET api/v2/settings/linkcategories
 
 .. list-table:: **Administrators**
 
