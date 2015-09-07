@@ -1,7 +1,7 @@
 Updating a Combined Segment
 ===========================
 
-Updates a combined segment.
+Update any parameters of an existing combined segment.
 
 Endpoint
 --------
@@ -135,13 +135,13 @@ Errors
    * - 400
      - 13003
      - No name provided.
-     - Empty string has been provided for name, or name is missing.
+     - An empty string has been provided for the name, or the name is missing.
    * - 400
      - 13004
      - Name already exists.
-     - The provided name is used already by an other combined segment.
+     - The requested name is already in use by another combined segment.
    * - 400
      - 13005
      - Definition is invalid.
-     - The provided definition is invalid, e.g.: the include part is missing, wrong relation is given or a non-integer
-       is used in segment_ids.
+     - The provided definition is invalid, e.g.: the include part is missing, a wrong relation is used, or a
+       non-integer is used in segment_ids.
