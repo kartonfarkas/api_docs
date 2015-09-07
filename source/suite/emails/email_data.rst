@@ -1,8 +1,7 @@
 Querying Email Campaign Data
 ============================
 
-Returns all the details of an email campaign, i.e. content & attributes, including the personalized text and HTML
-source.
+Returns all the details of an email campaign, i.e. content & attributes, including personalized text and HTML source.
 
 .. note:: With using the optional raw parameter, the original URLs (not tracked link URLs) are displayed in html_source
           and text_source.
@@ -38,8 +37,8 @@ Parameters
      - Comments
    * - raw
      - int
-     - Returns links in email content with the original URL instead of the tracking URL
-     - Also lists additional attributes in the html_source.
+     - Returns the actual links of the email content with the original URL instead of the tracking URL
+     - Also lists any additional attributes used in the html_source.
 
 Result Example
 --------------
