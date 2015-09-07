@@ -1,7 +1,7 @@
 Creating a Combined Segment
 ===========================
 
-Creates a new combined segment.
+Creates a new combined segment using two or more existing segments.
 
 Endpoint
 --------
@@ -101,7 +101,7 @@ Where:
      -
    * - definition
      - object
-     - Contains the defined relations between the segments
+     - Lists the relations between the original segments and the combined segment
      -
    * - include
      - object
