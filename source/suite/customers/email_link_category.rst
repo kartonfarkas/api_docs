@@ -1,7 +1,7 @@
 Listing Link Categories
 =======================
 
-Returns link categories of links in emails. These categories group links in emails on the basis of their type.
+Returns the link categories of links used in emails. These categories group the links in emails based on their type.
 
 Endpoint
 --------
