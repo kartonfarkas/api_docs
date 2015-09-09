@@ -1,7 +1,7 @@
 Finalizing a Multilanguage Email Campaign
 =========================================
 
-Finalizes A/B testing results of a successful email campaign which is launched. Email campaign must be finalized before the launch,
+Finalizes A/B testing results of a successful email campaign. Email campaign must be finalized before the launch,
 then all contacts will receive it in their own language.
 
 Endpoint
