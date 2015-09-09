@@ -61,5 +61,5 @@ Errors
      -
    * - 500
      - 6025
-     - No such campaign exist.
+     - No such campaign exists.
      -
