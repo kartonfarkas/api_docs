@@ -5,7 +5,7 @@ Finalizes A/B testing results of a successful email campaign. Email campaign mus
 then all contacts will receive it in their own language.
 
 
-.. note:: This endpoint works only if Multilanguage Email Campaigns feature is enabled for your account.
+.. note:: This endpoint works only if the Multilanguage Email Campaigns feature is enabled for your account.
 
 Endpoint
 --------
