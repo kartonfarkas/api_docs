@@ -48,18 +48,18 @@ Errors
      - Message
      - Description
    * - 500
-     - 6058
-     - Campaign is not multilanguage.
-     - Campaign which should be finalized is not a multilanguage campaign.
-   * - 500
-     - 6059
-     - Campaign is already finalized.
-     -
-   * - 500
      - 6010
      - This feature is not available for your account.
      -
    * - 500
      - 6025
      - No such campaign exists.
+     -
+   * - 500
+     - 6058
+     - Campaign is not multilanguage.
+     - Campaign which should be finalized is not a multilanguage campaign.
+   * - 500
+     - 6059
+     - Campaign is already finalized.
      -
