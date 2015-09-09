@@ -10,7 +10,7 @@ then all contacts will receive it in their own language.
 Endpoint
 --------
 
-``POST /api/v2/email/<email_id>/finalizeMultilanguage``
+``POST /api/v2/email/<email_id>/finalize``
 
 Parameters
 ----------
