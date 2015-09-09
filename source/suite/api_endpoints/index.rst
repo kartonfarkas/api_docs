@@ -121,6 +121,8 @@ API Endpoints
      - POST /api/v2/email/delete
    * - :doc:`../emails/email_update_source`
      - POST /api/v2/email/<email_id>/updatesource
+   * - :doc:`../emails/email_multilanguage`
+     - POST /api/v2/email/<email_id>/finalize
 
 .. list-table:: **Launches**
 
