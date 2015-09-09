@@ -54,7 +54,7 @@ Errors
    * - 500
      - 6059
      - Campaign is already finalized.
-     - Campaign which should be finalized is already finalized.
+     -
    * - 500
      - 6010
      - This feature is not available for your account.
