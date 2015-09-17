@@ -1,9 +1,10 @@
 Suite Integrations
 ==================
 
-We provide various methods for you to integrate with our services. You can integrate with the
-Automation Center by creating a custom node that works with contacts, or you can add your
-service to the Suite as a menu point and provide an integrated experience for your users.
+We provide various methods for you to integrate with the Emarsys B2C Marketing Cloud. Our goal
+is creating a platform for seamless and deep integrations. Beside using our API, you can
+extend Automation Center with your own nodes, create pages or page blocks in the Emarsys
+or subscribe to events in our system.
 
 .. include:: _warning.rst
 
@@ -12,12 +13,15 @@ service to the Suite as a menu point and provide an integrated experience for yo
    <h2>Authentication</h2>
 
 We use the open source `Escher <http://escherauth.io/>`_ library to
-sign requests sent to your service, and also to validate your incoming requests.
-The endpoints **must** be implemented via the HTTPS protocol.
+sign requests sent to your service, and also to validate your incoming requests to the
+Emarsys API. The endpoints **must** support the HTTPS protocol.
 
-**Integration Points**:
+The Escher library should configured with these values:
 
-* *Credential Scope* is specific to your service, for example "**eu/yourservice/ems_request**" (your contact person will share this information)
+* *Credential Scope* is specific to the service the request is going to. If you are receiving
+  calls from us, it will be your credential scope, for example "**eu/yourservice/ems_request**".
+  If you are sending requests to the Emarsys API, you have to set the credential scope to
+  "**eu/suite/ems_request**".
 * *Algo Prefix* and *Vendor Key* are both set to "**EMS**"
 * *Date Header Key* is set to "**X-Ems-Date**"
 * *Authentication Header Key* is set to "**X-Ems-Auth**"
