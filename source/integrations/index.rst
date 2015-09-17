@@ -4,7 +4,7 @@ Suite Integrations
 We provide various methods for you to integrate with the Emarsys B2C Marketing Cloud. Our goal
 is creating a platform for seamless and deep integrations. Beside using our API, you can
 extend Automation Center with your own nodes, create pages or page blocks in the Emarsys
-or subscribe to events in our system.
+application or subscribe to events in our system.
 
 .. include:: _warning.rst
 
