@@ -101,10 +101,6 @@ Errors
      - The email cannot be launched. Reason: It has already been launched either via the API or the Suite user interface.
    * - 409
      - 6005
-     - Invalid email type
-     - Launching an on-event email is not supported in this version.
-   * - 409
-     - 6005
      - Child email cannot be launched
      - Launching an A/B version child or a recurring email child is not supported.
    * - 400
