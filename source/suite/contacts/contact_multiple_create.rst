@@ -22,7 +22,8 @@ Parameters
    * - key_id
      - mixed
      - Key which identifies the contacts
-     - This can be a `field id <../../suite/appendices/system_fields.html>`_, **id** or **uid**. If left empty, the internal ID will be used by default.
+     - This can be a `field id <../../suite/appendices/system_fields.html>`_, **id**, **uid** or **eid**.
+       If left empty, the email address (field ID 3) will be used by default.
    * - field_id
      - int
      - ID of the field, [field_value]
@@ -39,7 +40,8 @@ Parameters
 Notes:
 
 * If the key_id is omitted, the key field ID value defaults to using ID 3 (email).
-* The optional key_id must be provided once.
+* You can use "eid" as "key_id" if the external ID is configured for your account.
+  This is an experimental feature, please consult with Emarsys Support.
 * The parameters of the different contacts must be sent in an array (see example below).
 * The maximum size of the array (and therefore the **maximum number of new contacts**) is **1,000.**
 

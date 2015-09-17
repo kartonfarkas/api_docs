@@ -24,17 +24,24 @@ Parameters
    * - key_id
      - mixed
      - Key which identifies the contacts
-     - This can be a `field id <../../suite/appendices/system_fields.html>`_, **id** or **uid**. If left empty, the internal ID will be used by default. Value provided
-       for the key_id field identifies the contact which will be updated. The other fields contain the changes requested
-       for the contact. If more than one contact with the requested external ID is found, an error message is returned, [field_id]
+     - This can be a `field id <../../suite/appendices/system_fields.html>`_, **id**, **uid** or **eid**.
+       If left empty, the email address (field ID 3) will be used by default.
    * - field_id
      - int
      - ID of the field, [field_value]
      -
    * - source_id
      - int
-     - ID assigned to a customers external application, and is used to identify contacts created or modified by the external (3rd party) applications, [source_id] 
+     - ID assigned to a customers external application, and is used to identify contacts created or modified by the external (3rd party) applications, [source_id]
      -
+
+Notes:
+
+* If the key_id is omitted, the key field ID value defaults to using ID 3 (email).
+* You can use "eid" as "key_id" if the external ID is configured for your account.
+  This is an experimental feature, please consult with Emarsys Support.
+* The parameters of the different contacts must be sent in an array (see example below).
+* The maximum size of the array (and therefore the **maximum number of new contacts**) is **1,000.**
 
 See :doc:`contact_multiple_create` for further information.
 
