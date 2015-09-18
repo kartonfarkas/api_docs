@@ -44,5 +44,6 @@ and our `WSSE plugin for HTTPie <https://github.com/emartech/httpie-wsse-auth>`_
    emails/index.rst
    exports/index.rst
    external_events/index.rst
+   automation_center/index.rst
    appendices/index.rst
    api_endpoints/index.rst
