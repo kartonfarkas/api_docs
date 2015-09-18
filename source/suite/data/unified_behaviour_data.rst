@@ -60,7 +60,7 @@ Parameters
      - Used to create a connection between different events related to a single message within the scope of a campaign.
        It is needed to connect events of different types to the original message that was sent to the contact.
        For example, if a contact can receive the same email campaign twice, we need to be able to tell if an open event
-       comes from the first or second email. In Suite this would be the launch list id.
+       comes from the first or second email. In Suite, this would be the launch list ID.
      -
 
 Result Example
