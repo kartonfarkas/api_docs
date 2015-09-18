@@ -40,5 +40,5 @@ from the contact list specified at the trigger endpoint, or information about th
 
 * :doc:`../../suite/contacts/contact_list_list_contacts`
 * :doc:`../../suite/contacts/contact_data`
-* :doc:`../../suite/appendices/program_resources`
-* :doc:`../../suite/appendices/program_run`
+* :doc:`../../suite/automation_center/program_resources`
+* :doc:`../../suite/automation_center/program_run`
