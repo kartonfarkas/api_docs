@@ -1,18 +1,18 @@
 Keeping Contacts Up-to-date
 ===========================
 
-If you already have contacts in Suite, then inserting further ones requires a little care as you need to use different
-methods depending on whether the contact already exists or not. If the contact does not exist in Suite yet, then you have
+If you already have contacts in Emarsys, then inserting further ones requires a little care as you need to use different
+methods depending on whether the contact already exists or not. If the contact does not exist in Emarsys yet, then you have
 to create it, otherwise you have to update it. This use case is about deciding whether a given contact exists and creating or updating it accordingly.
 
-.. note:: We say that a contact exists in Suite if a contact with the same key can be found.
+.. note:: We say that a contact exists in Emarsys if a contact with the same key can be found.
 
 .. image:: /_static/images/use_case_2.png
 
-1. Check whether a Contact Exists in Suite
-------------------------------------------
+1. Check whether a Contact Exists in Emarsys
+--------------------------------------------
 
-You can check whether a contact exists in Suite by requesting its internal contact ID.
+You can check whether a contact exists in Emarsys by requesting its internal contact ID.
 
 * If you get a result with replyCode 0, then it already exists, so you have to update it.
 * If you get a result with replyCode 2008, then it does not yet exist, so you have to create it.
@@ -67,9 +67,9 @@ See :doc:`../../suite/contacts/contact_check_internal_ids`.
 ---------------------
 
 You have to execute this step if replyCode 0 was returned in step 1. This means that you have to update the contact
-(not create it) in Suite.
+(not create it) in Emarsys.
 
-.. :note:: Each field value that you provide here will override the already existing ones in Suite.
+.. :note:: Each field value that you provide here will override the already existing ones in Emarsys.
 
 **Request**:
 
@@ -103,7 +103,7 @@ This is the easiest way to update a contact. For further information about updat
 -------------------------
 
 You have to execute this step if replyCode 2008 was returned in step 1. Here you can simply create the new contact
-in Suite.
+in Emarsys.
 
 **Request**:
 
@@ -132,4 +132,3 @@ Where *id* is the ID of the new contact.
 
 This is the easiest way to create a contact. For further information about creating a contact, see
 :doc:`../../suite/contacts/contact_create`.
-

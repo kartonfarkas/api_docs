@@ -1,7 +1,7 @@
 Use Cases
 =========
 
-This section describes some typical use cases for the Suite API, and only the relevant optional parameters the API calls are included for each use case.
+This section describes some typical use cases for the Emarsys API, and only the relevant optional parameters the API calls are included for each use case.
 
 The use cases are grouped by action type, listed in order of increasing complexity. For example, sending a plain welcome emailis a simple use case, whereas sending a welcome email referring to a product the contact has just bought is more complex.
 
@@ -10,7 +10,7 @@ We currently offer use cases covering the following activities:
 Sending Transactional Emails
 ----------------------------
 
-The aim here is to send an email in response to an event, e.g.: welcome email to all newly-registered contacts, product purchase confirmation, etc.. 
+The aim here is to send an email in response to an event, e.g.: welcome email to all newly-registered contacts, product purchase confirmation, etc..
 Here an external event, which contains information about the intended recipient, is used to trigger the email.
 
 The following visualisation gives you an overview of how all scenarios of sending transactional emails work:

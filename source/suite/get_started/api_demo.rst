@@ -5,12 +5,12 @@ API Demo Page: Experiment Before You Code!
 ------------------------------------------
 
 We offer an API-demo page for our customers, which has a graphical user interface allowing experimentation with API requests and
-their parameters. The responses to the requests are then displayed so they can see what to expect. To access the demo, simply append your Suite URL with /api-demo/
+their parameters. The responses to the requests are then displayed so they can see what to expect. To access the demo, simply append your Emarsys environment URL with /api-demo/
 
-* Example: if your account is on Suite 5 (https://suite5.emarsys.net), the API demo URL is https://suite5.emarsys.net/api-demo
+* Example: if your account is on the suite5.emarsys.net environment, the API demo URL is https://suite5.emarsys.net/api-demo
 
-Check Your Access to the Suite API
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Check Your Access to the Emarsys API
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Check whether your access data is valid by making a test request to see what languages are available. The steps for this are the following:
 
@@ -33,7 +33,7 @@ The response will appear on the bottom of the same page. The following table sho
      - Something is wrong with your credentials.
      - Check your access information again.
    * - No response at all
-     - Something is wrong with your connection./The API URL is invalid./The Suite API is not available.
+     - Something is wrong with your connection./The API URL is invalid./The Emarsys API is not available.
      - Check with your IT support why you cannot reach the API (e.g. if the traffic is blocked by your firewall.)/Check your access information again./Please try again later.
 
 If you have tried the suggested solutions without success, then please contact Emarsys Support.
@@ -45,13 +45,13 @@ The response of your request always appears on the bottom of the page, so after 
 
 .. note::
 
-   If the Suite API is not available or the URL is invalid, the last successful response will be displayed rather than an error message.
+   If the Emarsys API is not available or the URL is invalid, the last successful response will be displayed rather than an error message.
 
 Check the Request
 ^^^^^^^^^^^^^^^^^
 
-Above the tab bar, you can see the language availability request sent to the Suite API. With the aid of this, you can assemble your
-request URI by simply concatenating this request with your API URL. For example, if your Suite API environment URL is:
+Above the tab bar, you can see the language availability request sent to the Emarsys API. With the aid of this, you can assemble your
+request URI by simply concatenating this request with your API URL. For example, if your Emarsys API environment URL is:
 
 * https://suite5.emarsys.net/api/v2/
    and the request which appeared on the API-demo after you sent a contact ID check request is:

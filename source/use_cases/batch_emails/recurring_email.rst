@@ -1,7 +1,7 @@
 Recurring Email to a Contact List; Changing the Email Source Assigned to the Email
 ==================================================================================
 
-You have to create the email in Suite, it is possible only once.
+You have to create the email in Emarsys, it is possible only once.
 
 For this scenario, you will need to:
 

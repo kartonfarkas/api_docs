@@ -115,7 +115,7 @@ Result Example
 Where:
 
 * *id* is the internal identifier of the email
-* *name* is the name of the email in Suite
+* *name* is the name of the email in the Emarsys application
 * *fromemail* is the sender email address
 * *fromname* is the sender name
 * *subject* is the email subject line

@@ -39,7 +39,7 @@ Parameters
      - For a list of possible values, see :doc:`administrator_access_levels`.
    * - interface_language
      - string
-     - ISO code of the current language used in the Suite UI by the admin
+     - ISO code of the current language used in the Emarsys application by the admin
      - For a list of available languages, see :doc:`administrator_interface_languages`.
 
 .. list-table:: **Optional Parameters**
@@ -204,6 +204,3 @@ Errors
      - 8019
      - Email violates domain restrictions
      - The domain provided in the email is not accepted.
-
-
-

@@ -17,8 +17,8 @@ Go
        "time"
    )
 
-   // SuiteAPI represents the credentials to talk with Emarsys API
-   type SuiteAPI struct {
+   // EmarsysAPI represents the credentials to talk with Emarsys API
+   type EmarsysAPI struct {
        user   string
        secret string
    }
@@ -34,7 +34,7 @@ Go
    }
 
    // Sends an HTTP request to the Emarsys API
-   func (config SuiteAPI) send(method string, path string, body string) (string, string) {
+   func (config EmarsysAPI) send(method string, path string, body string) (string, string) {
        url := "https://api.emarsys.net/api/v2/" + path
        var timestamp = time.Now().Format(time.RFC3339)
        nonce := generateRandString(36)
@@ -64,7 +64,7 @@ Go
    }
 
    func main() {
-       suiteapi := SuiteAPI{user: "customer001", secret: "customersecret"}
-       fmt.Println(suiteapi.send("GET", "settings", ""))
-       fmt.Println(suiteapi.send("POST", "source/create", "{\"name\":\"RANDOM\"}"))
+       emarsysapi := EmarsysAPI{user: "customer001", secret: "customersecret"}
+       fmt.Println(emarsysapi.send("GET", "settings", ""))
+       fmt.Println(emarsysapi.send("POST", "source/create", "{\"name\":\"RANDOM\"}"))
    }

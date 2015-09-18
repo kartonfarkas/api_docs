@@ -1,5 +1,5 @@
-Suite Integrations
-==================
+Emarsys Integration Platform
+============================
 
 We provide various methods for you to integrate with the Emarsys B2C Marketing Cloud. Our goal
 is creating a platform for seamless and deep integrations. Beside using our API, you can
@@ -32,6 +32,6 @@ The Escher library should configured with these values:
    integration_how_to.rst
    automation_center/node.rst
    iframe/iframe.rst
-   marketplace/index.rst
+   lifecycle_events/index.rst
 
 .. image:: /_static/images/marketplace.png

@@ -1,10 +1,10 @@
 Email Personalization Placeholders
 ==================================
 
-Template is a standard email structure, a template-based email can be sent to a lot of customers. Customer has a
-template set according to his/her needs, and a template-based email campaign can be created in
-Campaign/Email Campaigns/Create Template-based Email in Suite. Template contains different parameters which are
-displayed in the email.
+Template is a standard email structure, a template-based email can be sent to a lot of customers. Customer
+has a template set according to his/her needs, and a template-based email campaign can be created in
+Campaign/Email Campaigns/Create Template-based Email in the Emarsys application. Template contains different
+parameters which are displayed in the email.
 
 .. note:: Please note that customers cannot put these parameters into the template.
 
@@ -24,5 +24,3 @@ displayed in the email.
      - Stands for launch list ID. Launch list contains the IDs of the recipients of launches (identified by launch IDs).
    * - $cid$
      - Campaign includes the campaign ID.
-
-

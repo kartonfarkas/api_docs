@@ -1,7 +1,7 @@
 Time Zones
 ==========
 
-The following timezones are supported by Suite:
+The following timezones are supported by Emarsys:
 
 * Pacific/Midway
 * Pacific/Marquesas

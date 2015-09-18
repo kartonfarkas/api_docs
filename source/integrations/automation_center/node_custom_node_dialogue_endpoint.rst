@@ -1,10 +1,11 @@
 Custom Node Dialog Endpoint
 ===========================
 
-This endpoint is called when the customer opens up the program node dialogue in Suite, and for this, your service should respond with
-an HTTP page containing a user interface which allows a new resource to be setup or an existing one to be edited.
-The HTTP page also needs to contain a JavaScript code that can handle the ‘resource.save’ message when received from
-the program node in Suite, and should respond with the ID and label of the saved resource as outlined below.
+This endpoint is called when the customer opens up the program node dialogue, and for this, your
+service should respond with an HTTP page containing a user interface which allows a new resource
+to be setup or an existing one to be edited. The HTTP page also needs to contain a JavaScript code
+that can handle the ‘resource.save’ message when received from the program node, and should respond
+with the ID and label of the saved resource as outlined below.
 
 .. image:: /_static/images/ac_node_custom_dialog_workflow.png
 
@@ -19,10 +20,10 @@ HTTP Method: GET
      - Description
    * - environment
      - string
-     - Host name of the customer’s Suite environment (e.g. login.emarsys.net)
+     - Domain name of the customer’s Emarsys environment (e.g. login.emarsys.net)
    * - customer_id
      - int
-     - ID of the customer in the Suite database
+     - ID of the customer in the Emarsys database
    * - language
      - string
      - Specifies the admin's preferred language
@@ -61,7 +62,7 @@ Required Response:
 Resizing the Dialog
 -------------------
 
-The iframe that displays the content returned by the custom node dialog endpoint is 360 pixels wide and 100 pixels high. 
+The iframe that displays the content returned by the custom node dialog endpoint is 360 pixels wide and 100 pixels high.
 Since the size of the content may vary, we provide an API that can be used to resize the dialog to a maximum size of 800x300 pixels.
 
 .. note:: You can only resize the frame once the content has been loaded into the iframe.

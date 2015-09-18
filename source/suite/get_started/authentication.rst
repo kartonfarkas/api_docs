@@ -3,7 +3,7 @@ Authentication
 
 Every call to the API must be authenticated, which must be done by adding a custom HTTP header (X-WSSE) with your
 username and secret for the API (please request them from your contact person).
-This page contains detailed instructions on how to create valid headers for the Suite REST API.
+This page contains detailed instructions on how to create valid headers for the Emarsys API.
 
 X-WSSE Format
 -------------

@@ -43,7 +43,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Emarsys Suite API Documentation'
+project = u'Emarsys Developer Documentation'
 copyright = u'2014-2015, Emarsys'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -113,7 +113,7 @@ html_theme_path = ['_themes', ]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = "Emarsys Suite API Documentation"
+html_title = "Emarsys Developer Documentation"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -199,7 +199,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'EmarsysDevDocs.tex', u'Emarsys Suite API Documentation',
+  ('index', 'EmarsysDevDocs.tex', u'Emarsys Developer Documentation',
    u'Emarsys', 'manual'),
 ]
 
@@ -229,7 +229,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'EmarsysDevDocs', u'Emarsys Suite API Documentation',
+    ('index', 'EmarsysDevDocs', u'Emarsys Developer Documentation',
      [u'Emarsys'], 1)
 ]
 
@@ -243,7 +243,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'EmarsysDevDocs', u'Emarsys Suite API Documentation',
+  ('index', 'EmarsysDevDocs', u'Emarsys Developer API Documentation',
    u'Emarsys', 'EmarsysDevDocs', 'Working with the Emarsys APIs.',
    'Miscellaneous'),
 ]
@@ -264,7 +264,7 @@ texinfo_documents = [
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'Emarsys Suite API Documentation'
+epub_title = u'Emarsys Developer Documentation'
 epub_author = u'Emarsys'
 epub_publisher = u'Emarsys'
 epub_copyright = u'2014-2§15, Emarsys'
@@ -331,5 +331,3 @@ epub_exclude_files = ['search.html']
 #epub_use_index = True
 
 #---
-
-

@@ -1,17 +1,17 @@
-Suite REST API
-==============
+Emarsys API
+===========
 
-The Suite REST API provides programmatic access to the Emarsys Suite. Most of our customers use our APIs
-to automate working with :doc:`contacts/index`, :doc:`emails/index`, or :doc:`exports/index` related to contacts
-and launches.
+The Emarsys API provides programmatic access to the Emarsys B2C Marketing Cloud. Most of our customers use
+our API to automate working with :doc:`contacts/index`, :doc:`emails/index`, or :doc:`exports/index` related
+to contacts and launches.
 
 If you have already connected successfully to the API, you might want to move straight to the
-`Use Cases <http://documentation.emarsys.com/?page_id=357>`_, where we show you a number of typical API-related
-scenarios.
+`Use Cases <http://documentation.emarsys.com/resource/api-getting-started/api-use-cases/>`_, where we show
+you a number of typical API-related scenarios.
 
-For each Suite API request, you need:
+For each Emarsys API request, you need:
 
- * the API URL based on the Suite environment you use (e.g. `https://suite5.emarsys.net/api/v2/`)
+ * the API URL based on the Emarsys environment you use (e.g. `https://suite5.emarsys.net/api/v2/`)
  * your *username* and *secret* for the API (please request them from your contact person)
 
 Our API is rate limited, please read the details at :doc:`get_started/rate_limiting`. And there's a

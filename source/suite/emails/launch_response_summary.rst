@@ -71,15 +71,15 @@ Result Example
 
 Where:
 
-* *sent* = The number of emails which have actually left the Suite mail servers.
+* *sent* = The number of emails which have actually left the Emarsys mail servers.
 * *planned* = The number of all contacts which are assigned to this launch.
 * *soft_bounces* = The number of emails which were returned to sender due to temporary problems.
 * *hard_bounces* = The number of emails which were returned to sender due to permanent problems.
 * *block_bounces* = The number of emails which were returned to sender due to being blocked by spam filters.
 * *opened* = The number of emails which were opened by recipients; the open rate refers to graphic (HTML) emails only, where the images were downloaded..
 * *unsubscribe* = The number of clicks on the unsubscribe link.
-* *total_clicks* = The number of total clicks on links tracked by the Suite within an email (multiple clicks per contact are counted).
-* *unique_clicks* = The number of unique clicks on links tracked by the Suite within an email (one click per contact is counted).
+* *total_clicks* = The number of total clicks on links tracked by Emarsys within an email (multiple clicks per contact are counted).
+* *unique_clicks* = The number of unique clicks on links tracked by Emarsys within an email (one click per contact is counted).
 * *complained* = The number of recipients who marked this email as spam in their email client.
 
 Errors
@@ -101,7 +101,3 @@ Errors
      - 6003
      - Invalid email status
      - The status of the email is not one of the following: launched, paused, activated, deactivated.
-
-
-
-

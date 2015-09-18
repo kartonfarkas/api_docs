@@ -1,7 +1,7 @@
 Deleting an External Event
 ==========================
 
-Deletes an external event from the Suite DB of External Events. Deleting an event has no effect on any Automation Center programs or email campaigns linked to the event.
+Deletes an external event from the External Events. Deleting an event has no effect on any Automation Center programs or email campaigns linked to the event.
 
 Endpoint
 --------

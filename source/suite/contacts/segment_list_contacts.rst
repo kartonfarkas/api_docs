@@ -61,7 +61,7 @@ Result Example
 
 .. note::
 
-   The data values are the internal Suite IDs of the contacts.
+   The data values are the internal Emarsys IDs of the contacts.
 
 Errors
 ------
@@ -102,6 +102,3 @@ Errors
      - 10001
      - Limit must be less than 1000000.
      -
-
-
-

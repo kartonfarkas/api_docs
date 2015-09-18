@@ -1,10 +1,11 @@
 Include a Voucher in an Email
 =============================
 
-To reward a valued contact, you might want to send them a voucher by email as a thank you for their loyalty, their purchase, etc. 
+To reward a valued contact, you might want to send them a voucher by email as a thank you for
+their loyalty, their purchase, etc.
 
-You include the actual voucher during the email campaign creation, but this example will take you through the whole
-process from creation to sending the email.
+You include the actual voucher during the email campaign creation, but this example will take you
+through the whole process from creation to sending the email.
 
 Required stages:
 - Create an Email Campaign
@@ -38,7 +39,7 @@ Required stages:
      "contactlist": 0
    }
 
-.. note:: The $voucher$ placeholder is what includes the Suite voucher, and has to be used in the email to work.
+.. note:: The $voucher$ placeholder is what includes the Emarsys voucher, and has to be used in the email to work.
 
 **Response**:
 

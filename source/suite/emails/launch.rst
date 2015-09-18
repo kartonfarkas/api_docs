@@ -98,7 +98,7 @@ Errors
    * - 409
      - 6003
      - Invalid email status
-     - The email cannot be launched. Reason: It has already been launched either via the API or the Suite user interface.
+     - The email cannot be launched. Reason: It has already been launched either via the API or the Emarsys application.
    * - 409
      - 6005
      - Child email cannot be launched

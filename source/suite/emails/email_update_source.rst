@@ -1,8 +1,8 @@
 Updating an Email Campaign Recipient Source
 ===========================================
 
-Email campaigns can be created with the *recipient source* set to *"Using the API"* via the Suite UI.
-This call can assign a segment or a contact list to an email campaign. 
+Email campaigns can be created with the *recipient source* set to *"Using the API"* via the
+Emarsys application. This call can assign a segment or a contact list to an email campaign. 
 
 .. include:: _warning.rst
 
@@ -89,4 +89,3 @@ Errors
      - 6004
      - No email ID provided
      - Missing parameter: emailId
-

@@ -17,10 +17,10 @@ the execution of your external service.
      - Description
    * - environment
      - string
-     - Suite environment that triggered the event (example: login.emarsys.net)
+     - Domain name of the customer's Emarsys environment (e.g. login.emarsys.net)
    * - customer_id
      - int
-     - ID of the customer in the Suite database
+     - ID of the customer in the Emarsys database
    * - program_type
      - string
      - Possible values: ‘batch’, ‘transactional’, ‘recurring’
@@ -41,10 +41,10 @@ the execution of your external service.
      - Description
    * - list_id
      - int
-     - Contact list ID in the Suite database
+     - Contact List ID in the Emarsys database
    * - user_id
      - int
-     - Contact ID in the Suite database
+     - Contact ID in the Emarsys database
    * - resource_id
      - int/string
      - ID of a resource managed by the service
@@ -55,7 +55,7 @@ the execution of your external service.
 Required Response
 -----------------
 
-* HTTP Status codes in the range 200-299 indicate a successful execution by the service. 
+* HTTP Status codes in the range 200-299 indicate a successful execution by the service.
 * HTTP Status codes in the range 400-499 indicate a client-side error (i.e. the request is invalid and cannot be fulfilled).
 * HTTP Status codes in the range 500-599 indicate a server-side error. In the case of a server-side error, the Automation Center will resend the request 3 times, and then stop. The service should also return a JSON containing a userMessage and a code key. An example for this follows.
 
@@ -94,13 +94,10 @@ a list_id even if the program is transactional.
 Resolving user_ids and list_ids
 -------------------------------
 
-* Please use the suite API v2 to retrieve contact information based on the *user_id* or *list_id*.
-
+* Please use Emarsys API to retrieve contact information based on the *user_id* or *list_id*.
 * Note that user lists are deleted after 1 hour, so your service needs to resolve the *list_id* to the actual user data within that timeframe.
-
-* If your service is specific to a customer, or a small set of customers, then use a regular API user/secret pair, and maintain the keys for your customers in your service itself. You can access the Suite API through the external endpoint: ‘/api/v2’.
-
-* If your service is generic to all customers, or a larger set of customers, then an internal API secret is required which should be used with the internal endpoint for the Suite API: ‘/api/v2/internal/<customer_id>’.
+* If your service is specific to a customer, or a small set of customers, then use a regular API user/secret pair, and maintain the keys for your customers in your service itself. You can access the Emarsys API through the external endpoint: ‘/api/v2’.
+* If your service is generic to all customers, or a larger set of customers, then an internal API secret is required which should be used with the internal endpoint for the Emarsys API: ‘/api/v2/internal/<customer_id>’.
 
 Resources
 ---------

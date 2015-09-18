@@ -17,10 +17,10 @@ should respond with the list of available resources as outlined below.
      - Description
    * - environment
      - string
-     - Host name of the customer's Suite environment (e.g. login.emarsys.net)
+     - Domain name of the customer's Emarsys environment (e.g. login.emarsys.net)
    * - customer_id
      - int
-     - ID of the customer in the Suite database
+     - ID of the customer in the Emarsys database
    * - language
      - string
      - Specifies the preferred language of the admin

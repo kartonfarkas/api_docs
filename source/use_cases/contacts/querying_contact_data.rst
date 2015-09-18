@@ -1,7 +1,7 @@
 Querying Contact Data from a Contact List
 =========================================
 
-If you already have contacts in Suite, then you can query contact data if you have a contact list ID.
+If you already have contacts in Emarsys, then you can query contact data if you have a contact list ID.
 
 .. image:: /_static/images/use_case_5.png
 

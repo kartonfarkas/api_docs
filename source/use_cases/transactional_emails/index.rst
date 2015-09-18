@@ -6,8 +6,8 @@ To trigger a welcome email, we use an external event which contains information 
 
 The steps of this use case will be as follows:
 
-1. Add a new contact to your Suite database.
-2. Send a welcome email to the contact via an external event in Suite.
+1. Add a new contact to your Emarsys database.
+2. Send a welcome email to the contact via an external event in Emarsys.
 3. Check the results.
 
 This use case will be presented in varying degrees of complexity:

@@ -4,17 +4,16 @@ What's New
 17/12/2014: IP Restrictions
 ---------------------------
 
-We have introduced a new feature which optionally improves the security of the Suite API usage further for our
+We have introduced a new feature which optionally improves the security of the Emarsys API usage further for our
 customers. This new feature can restrict the API calls to IP addresses specified by the customer. If you have any
-questions, or you know a customer who is interested in this feature, please contact András Bártházi
-at ``andras.barthazi@emarsys.com``.
+questions, or you know a customer who is interested in this feature, please contact us.
 
 10/12/2014: cc_list
 -------------------
 
 An optional API parameter is added to the ``Creating an Email Campaign`` and ``Querying Email Campaign Data`` calls.
 Its value is a contactlist ID. If an email is sent, this contactlist also receives it. Please note that it only works
-if the BCC List feature is enabled in Suite.
+if the BCC List feature is enabled in Emarsys.
 
 10/12/2014: Querying Responses
 ------------------------------
@@ -67,7 +66,7 @@ evaluated, you need to call the resource again. Documentation is available at :d
 04/11/2014: Internal API
 ------------------------
 
-If you are working on a Suite integration, it would be useful for you to use the internal API. Please contact us for details and
+If you are working on a Emarsys integration, it would be useful for you to use the internal API. Please contact us for details and
 credentials.
 
 04/11/2014: EscherAuth.io
@@ -76,6 +75,3 @@ credentials.
 The documentation of our new stateless HTTP request signing library called Escher is now available at http://escherauth.io/.
 It allows secure authorization and request validation as it adds a security and authentication layer over HTTPS. The
 internal API already uses this protocol for authentication.
-
-
-

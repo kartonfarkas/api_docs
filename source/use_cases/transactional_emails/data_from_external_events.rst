@@ -10,14 +10,14 @@ Preparation
 
 **Preconditions**:
 
-* To perform these preparatory steps, you will need the credentials for your Suite account (account name and environment,
-  user name and password).
+* To perform these preparatory steps, you will need the credentials for your Emarsys account
+  (account name and environment, user name and password).
 
-.. note:: Create a dedicated external event for each of your emails, otherwise a single external event may accidentally
-          trigger many emails.
+.. note:: Create a dedicated external event for each of your emails, otherwise a single external event
+          may accidentally trigger many emails.
 
 * **Create an External Event**:
-  Create the external event in the Suite UI. You can find external events in the **Admin** menu.
+  Create the external event in the Emarsys application. You can find external events in the **Admin** menu.
 
 * **Create the Email**:
 
@@ -28,12 +28,12 @@ Preparation
 * **Launch Email**:
   Make sure that your email is launched.
 
-For further information about creating an email via the Suite UI, please see the Suite Online Help.
+For further information about creating an email via the Emarsys application, please see our Online Help.
 
 1. Create the Contact
 ---------------------
 
-You need at least one contact available in Suite so that the contact data can be used.
+You need at least one contact available in Emarsys so that the contact data can be used.
 
 **Request**:
 
@@ -61,7 +61,7 @@ You need at least one contact available in Suite so that the contact data can be
 To identify the contact, we are using the email address which is also the default key. Therefore, we do not have to
 define a key_id here.
 
-This is the easiest way to create a contact. For further information about creating or updating a contact in Suite,
+This is the easiest way to create a contact. For further information about creating or updating a contact in Emarsys,
 see :doc:`../../suite/contacts/contact_create` and :doc:`../../suite/contacts/contact_update`.
 
 2. Trigger the Event
@@ -97,7 +97,7 @@ For further information about triggering external events, see :doc:`../../suite/
 Find out whether an email was sent successfully:
 
 * Check with a test contact if the email has arrived – it should be delivered within seconds.
-* Use the Suite UI to check if an email was sent. In the Analysis module in the Emails page you can see that the
+* Use the Emarsys application to check if an email was sent. In the Analysis module in the Emails page you can see that the
   count of Sent emails increases.
 
-For further information, please see the Suite Online Help.
+For further information, please see the Emarsys Online Help.

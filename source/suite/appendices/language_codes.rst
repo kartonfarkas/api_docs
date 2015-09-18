@@ -1,7 +1,7 @@
 Language Codes
 ==============
 
-The following languages are supported by the Suite for email campaigns.
+The following languages are supported by Emarsys for email campaigns.
 
 .. list-table:: **Language Codes**
    :header-rows: 1

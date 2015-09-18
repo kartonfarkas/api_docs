@@ -1,9 +1,8 @@
 Listing Contact Sources
 =======================
 
-Generates a list of available contact sources currently integrated with the Suite (e.g. multiple eCommerce sites linked with one Suite account).
-
-
+Generates a list of available contact sources currently integrated with Emarsys (e.g. multiple
+eCommerce sites linked with one Emarsys customer account).
 
 Endpoint
 --------

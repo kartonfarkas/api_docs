@@ -1,8 +1,8 @@
 Email Campaigns and Launches
 ============================
 
-Email campaigns are templates and their settings which the Suite can launch.
-Emails can be created using the Suite UI or via API, however the API does not allow all features to be used (e.g. templates). It is therefore easier to use the API only to trigger the launches of email campaigns that have already been created via the Suite UI.
+Email campaigns are templates and their settings which Emarsys can launch. These API endpoints are
+working on email campaigns and email campaign launches.
 
 Email Campaigns
 ---------------

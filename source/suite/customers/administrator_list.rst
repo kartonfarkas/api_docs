@@ -64,7 +64,7 @@ Result Example
 Where:
 
 * *id* is the internal ID of the admin for the customer
-* *interface_language* is the ISO code of the current language used in the Suite UI by the admin (for a list of possible languages see administrator/getinterfacelanguages)
+* *interface_language* is the ISO code of the current language used in the Emarsys application by the admin (for a list of possible languages see administrator/getinterfacelanguages)
 * *default_upages_lang* is the default language of the www.emarsys.net/u/… links of the launched email campaigns
 * *access_level* is the admin role ID (for a list of possible values see :doc:`administrator_access_levels`)
 * *tz* is the time zone, the default timezone of the account will apply if this is empty
@@ -73,5 +73,3 @@ Where:
 * *last_verification_action_date* is for internal use only
 * *actual_login* is the date of the last login
 * *pwd_update_interval* is the number of days after which password change is necessary
-
-

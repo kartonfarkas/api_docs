@@ -30,9 +30,4 @@ Where:
 * *name* is the customer's name
 * *password_history_queue_size* defines the number of the previous passwords which are no longer allowed to be used
 
-For more information on the timezones available in Suite, see :doc:`../appendices/time_zones`.
-
-
-
-
-
+For more information on the timezones available in Emarsys, see :doc:`../appendices/time_zones`.
