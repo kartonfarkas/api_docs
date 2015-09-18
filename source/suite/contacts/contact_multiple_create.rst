@@ -28,10 +28,6 @@ Parameters
      - int
      - ID of the field, [field_value]
      -
-   * - field_id
-     - int
-     - ID of the field, [field_value]
-     -
    * - source_id
      - int
      - ID assigned to the customer's application, used to differentiate contacts created or modified by the external applications, [source_id]
