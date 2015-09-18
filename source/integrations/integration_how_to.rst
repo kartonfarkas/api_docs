@@ -1,5 +1,5 @@
-How to Integrate
-================
+Integration How-to
+==================
 
 In the following sections, we illustrate how it is possible to integrate with the
 Emarsys B2C Marketing Cloud. We will use an SMS Automation Center node as an example service to give

@@ -30,8 +30,9 @@ The Escher library should configured with these values:
    :maxdepth: 1
 
    integration_how_to.rst
-   automation_center/node.rst
-   iframe/iframe.rst
+   api/index.rst
    lifecycle_events/index.rst
+   iframe/iframe.rst
+   automation_center/node.rst
 
 .. image:: /_static/images/marketplace.png
