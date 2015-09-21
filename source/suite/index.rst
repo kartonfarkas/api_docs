@@ -11,7 +11,7 @@ you a number of typical API-related scenarios.
 
 For each Emarsys API request, you need:
 
- * the API URL based on the Emarsys environment you use (e.g. `https://suite5.emarsys.net/api/v2/`)
+ * API URL based on the Emarsys environment you use (e.g. `https://suite5.emarsys.net/api/v2/`)
  * your *username* and *secret* for the API (please request them from your contact person)
 
 Our API is rate limited, please read the details at :doc:`get_started/rate_limiting`. Please also note that there is a
