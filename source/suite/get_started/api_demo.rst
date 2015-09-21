@@ -1,8 +1,8 @@
-The API Demo Page
-=================
+API Demo Page
+=============
 
-API Demo Page: Experiment Before You Code!
-------------------------------------------
+Experiment Before You Code!
+---------------------------
 
 We offer an API-demo page for our customers, which has a graphical user interface allowing experimentation with API requests and
 their parameters. The responses to the requests are then displayed so they can see what to expect. To access the demo, simply append your Emarsys environment URL with /api-demo/
