@@ -1,7 +1,7 @@
 Emarsys API
 ===========
 
-The Emarsys API provides programmatic access to the Emarsys B2C Marketing Cloud. Most of our customers use
+Emarsys API provides programmatic access to the Emarsys B2C Marketing Cloud. Most of our customers use
 our API to automate working with :doc:`contacts/index`, :doc:`emails/index`, or :doc:`exports/index` related
 to contacts and launches.
 
