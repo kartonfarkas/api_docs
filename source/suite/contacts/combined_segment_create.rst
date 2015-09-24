@@ -25,7 +25,7 @@ Parameters
      -
    * - relation
      - string
-     - Defines the relation between (AND / OR) the segments to be included or excluded
+     - Defines which operator (AND / OR) is used between segments to define how contacts are included or excluded
      - Please note that it must have a value even if only one segment is defined.
    * - segment_ids
      - int
