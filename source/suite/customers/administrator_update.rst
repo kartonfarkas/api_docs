@@ -8,7 +8,7 @@ Modifies specific properties of an admin account.
 Endpoint
 --------
 
-``POST /api/v2/administrator/patch``
+``POST /api/v2/administrator/<admin_id>/patch``
 
 Parameters
 ----------
