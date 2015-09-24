@@ -24,8 +24,8 @@ Parameters
      - ID of the email
      -
 
-JSON Payload Example
---------------------
+Request Example
+---------------
 
 .. code-block:: json
 

@@ -37,8 +37,8 @@ Parameters
      - At least the filterId (segment ID) or the contactlistId has to be specified and must not be 0. If both are sent,
        only one must be different from 0.
 
-JSON Payload Example
---------------------
+Request Example
+---------------
 
 .. code-block:: json
 

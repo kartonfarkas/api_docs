@@ -45,8 +45,8 @@ Notes:
 
 See :doc:`contact_multiple_create` for further information.
 
-JSON Payload Example
---------------------
+Request Example
+---------------
 
 .. code-block:: json
 

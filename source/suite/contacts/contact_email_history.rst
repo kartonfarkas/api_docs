@@ -41,8 +41,8 @@ Parameters
      - Used to filter emails by the date the launch completed
      -
 
-JSON Payload Example
---------------------
+Request Example
+---------------
 
 .. code-block:: json
 

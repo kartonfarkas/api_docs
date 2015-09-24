@@ -29,8 +29,8 @@ Parameters
      - Name of the contact source to be created.
      -
 
-JSON Payload Example
---------------------
+Request Example
+---------------
 
 .. code-block:: json
 

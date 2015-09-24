@@ -33,8 +33,8 @@ Parameters
      - [id1];[id2];… values specified in the key_id for those contacts whose internal IDs the customer wants to receive
      - ID can be an integer, string or array depending on the key field type. For example, for custom numeric fields use an integer, for a multi-choice field use an array, etc..
 
-JSON Payload Example
---------------------
+Request Example
+---------------
 
 .. code-block:: json
 

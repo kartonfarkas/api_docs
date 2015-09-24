@@ -41,8 +41,8 @@ Notes:
 * The parameters of the different contacts must be sent in an array (see example below).
 * The maximum size of the array (and therefore the **maximum number of new contacts**) is **1,000.**
 
-JSON Payload Example
---------------------
+Request Example
+---------------
 
 .. code-block:: json
 

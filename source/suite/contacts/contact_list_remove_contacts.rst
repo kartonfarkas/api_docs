@@ -32,8 +32,8 @@ Parameters
      - Field ID of the contacts
      -
 
-JSON Payload Example
---------------------
+Request Example
+---------------
 
 **Simple Values**
 

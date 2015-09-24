@@ -41,8 +41,8 @@ Parameters
      - Define which results to include by using the fields parameter.
      - If empty, all fields will be returned.
 
-JSON Payload Example
---------------------
+Request Example
+---------------
 
 .. code-block:: json
 

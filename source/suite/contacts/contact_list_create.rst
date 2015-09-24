@@ -45,8 +45,8 @@ Parameters
      - List of contact IDs to be inserted. The external_id for key_id 3 has to be provided.
      - The maximum value is 10,000 contacts.
 
-JSON Payload Example
---------------------
+Request Example
+---------------
 
 **Simple Values**
 

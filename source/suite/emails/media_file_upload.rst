@@ -52,8 +52,8 @@ Parameters
      - If 1, the original filename won't be modified
      - 
 
-JSON Payload Example
---------------------
+Request Example
+---------------
 
 **Default Folder**
 

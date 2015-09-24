@@ -32,8 +32,8 @@ Parameters
      - Value of the field identified by the key_id
      -
 
-JSON Payload Example
---------------------
+Request Example
+---------------
 
 .. code-block:: json
 
