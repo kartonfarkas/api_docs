@@ -17,13 +17,13 @@ Result Example
 .. code-block:: json
 
    {
-      "replyCode":0,
-      "replyText":"OK",
+      "replyCode": 0,
+      "replyText": "OK",
       "data":{
-         "program_ids":[
+         "program_ids": [
             "111111111"
          ],
-         "email_ids":[
+         "email_ids": [
             "111111111"
          ]
       }

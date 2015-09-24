@@ -61,7 +61,7 @@ Result Example
 
 .. note::
 
-   The data values are the internal Emarsys IDs of the contacts.
+   Data values are the internal Emarsys IDs of the contacts.
 
 Errors
 ------
