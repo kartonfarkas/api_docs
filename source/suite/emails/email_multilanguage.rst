@@ -1,8 +1,10 @@
 Finalizing a Multi-language Email Campaign
 ==========================================
 
-Once the A/B testing for an existing multi-language campaign is completed, the email campaign is finalized by this
-endpoint. Contacts will then receive the content in their own language.
+During A/B testing of Multi-language campaigns, two versions are sent for contacts of the same mother tongue living in
+a particular country (e.g. Chinese living in the UK). Once the A/B testing for an existing Multi-language campaign is
+completed, the email campaign is finalized by this endpoint. Contacts in the defined countries will then receive the
+successful version in their own languages.
 
 .. note:: This endpoint only works if the Multi-language Email Campaigns feature is enabled for your account.
 
