@@ -19,7 +19,7 @@ API Endpoints
    * - :doc:`../customers/administrator_create`
      - POST /api/v2/administrator
    * - :doc:`../customers/administrator_update`
-     - POST /api/v2/administrator/patch
+     - POST /api/v2/administrator/<admin_id>/patch
    * - :doc:`../customers/administrator_delete`
      - POST /api/v2/administrator/<admin_id>/delete
 
