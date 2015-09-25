@@ -44,6 +44,18 @@ As a first step, we redirect the browser to the login URL, and providing the fol
    * - admin_id
      - int
      - ID of the admin
+   * - language
+     - string
+     - the UI language of the administrator
+   * - timezone
+     - string
+     - the timezone of the administrator
+   * - integration_id
+     - string
+     - the ID of your integration
+   * - integration_instance_id
+     - string
+     - a random generated ID of your integration instance
    * - redirect_to
      - string
      - URL where the integration have to redirect the customer to
