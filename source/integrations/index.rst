@@ -14,7 +14,7 @@ application or subscribe to events in our system.
 
 We use the open source `Escher <http://escherauth.io/>`_ library to
 sign requests sent to your service, and also to validate your incoming requests to the
-Emarsys API. The endpoints **must** support the HTTPS protocol.
+Emarsys API. Your endpoints **must** support the HTTPS protocol.
 
 Escher library should be configured with these values:
 
