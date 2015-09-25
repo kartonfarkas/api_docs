@@ -2,7 +2,7 @@ Trigger Endpoint
 ================
 
 This endpoint is called by the Automation Center when the program execution reaches your node, and starts
-the execution of your external service.
+the execution of your integration.
 
 .. image:: /_static/images/ac_node_trigger_workflow.png
 
