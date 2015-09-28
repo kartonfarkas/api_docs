@@ -31,8 +31,9 @@ Escher library should be configured with these values:
 
    integration_how_to.rst
    api/index.rst
-   lifecycle_events/index.rst
+   ui_framework/index.rst
    iframe/iframe.rst
    automation_center/node.rst
+   lifecycle_events/index.rst
 
 .. image:: /_static/images/marketplace.png
