@@ -34,6 +34,7 @@ Escher library should be configured with these values:
    ui_framework/index.rst
    iframe/iframe.rst
    iframe/container.rst
+   iframe/js_events.rst
    automation_center/node.rst
    lifecycle_events/index.rst
 
