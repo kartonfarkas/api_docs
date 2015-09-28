@@ -26,20 +26,17 @@ the execution of your integration.
      - Possible values: ‘batch’, ‘transactional’, ‘recurring’.
    * - program_id
      - int
-     - Identifies the Automation Center program running the node.
+     - Identifies the Automation Center program running the node. This value is unique for the given environment.
    * - node_id
      - int
-     - Identifies the Automation Center program running the node.
+     - Identifies the Automation Center node. This value is unique for the given environment.
    * - queue_id
      - int
-     - Identifies the trigger request. This value is unique for each trigger event from a given environment.
+     - Identifies the trigger request. This value is unique for each trigger event for the given environment.
    * - run_id
      - string
      - Identifies the program run. This value can be used to link together multiple trigger events from the same
-       program resulting from a single entry.
-   * - resource_id
-     - int
-     - Identifies the resource selected for the node. See (:doc)
+       program resulting from a single entry. This value is unique for the given environment.
 
 .. list-table:: **Optional Parameters (sent as form data)**
    :header-rows: 1
