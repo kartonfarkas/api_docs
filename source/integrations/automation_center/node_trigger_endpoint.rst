@@ -17,13 +17,19 @@ the execution of your integration.
      - Description
    * - environment
      - string
-     - Domain name of the customer's Emarsys environment (e.g. login.emarsys.net)
+     - Domain name of the customer's Emarsys environment (e.g. login.emarsys.net).
    * - customer_id
      - int
-     - ID of the customer in the Emarsys database
+     - ID of the customer in the Emarsys database.
    * - program_type
      - string
-     - Possible values: ‘batch’, ‘transactional’, ‘recurring’
+     - Possible values: ‘batch’, ‘transactional’, ‘recurring’.
+   * - program_id
+     - int
+     - Identifies the Automation Center program running the node.
+   * - node_id
+     - int
+     - Identifies the Automation Center program running the node.
    * - queue_id
      - int
      - Identifies the trigger request. This value is unique for each trigger event from a given environment.
@@ -31,6 +37,9 @@ the execution of your integration.
      - string
      - Identifies the program run. This value can be used to link together multiple trigger events from the same
        program resulting from a single entry.
+   * - resource_id
+     - int
+     - Identifies the resource selected for the node. See (:doc)
 
 .. list-table:: **Optional Parameters (sent as form data)**
    :header-rows: 1
