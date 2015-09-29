@@ -1,3 +1,51 @@
 Unified Behaviour Data for Unsubscribe
 ======================================
 
+Can be used to store *unsubscribe* behavior events in HDS.
+
+.. note:: Request must be signed with Escher.
+
+Endpoint
+--------
+
+``POST /api.hds.emarsys.net:4000/customers/<customer_id>/events/providers/sendkit/channels/email/campaign_types/txn/event_types/unsubscribe``
+
+Parameters
+----------
+
+.. list-table:: **Required Parameters**
+   :header-rows: 1
+   :widths: 20 20 40 40
+
+   * - Name
+     - Type
+     - Description
+     - Comments
+   * - customer_id
+     - int
+     - Suite customer ID, part of the URI
+     -
+   * - campaign_id
+     - int
+     - ID that groups messages into meaningful categories for segmentation or reporting, such as an email_id, or a Suitekit stream_id.
+     - Must be unique per customer.
+   * - contact_id
+     - int
+     - Internal ID of a contact in Suite.
+     -
+   * - event_time
+     - date
+     - ISO 8601 date format is recognized.
+     - Time and time zone offset are optional. If there is no offset, Vienna time is assumed.
+   * - message_id
+     - int
+     - Used to create a connection between different events related to a single message within the scope of a campaign.
+       It is needed to connect events of different types to the original message that was sent to the contact.
+       For example, if a contact can receive the same email campaign twice, we need to be able to tell if an open event
+       comes from the first or second email. In Suite, this would be the launch list ID.
+     -
+   * - field_id
+     - int
+     -
+     -
+     
