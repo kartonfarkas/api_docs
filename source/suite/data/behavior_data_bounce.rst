@@ -1,5 +1,5 @@
-Unified Behaviour Data for Bounce
-=================================
+Unified Behavior Data for Bounce
+================================
 
 Can be used to store *bounce* behavior events in HDS.
 

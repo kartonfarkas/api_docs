@@ -1,5 +1,5 @@
-Unified Behaviour Data for Send
-===============================
+Unified Behavior Data for Send
+==============================
 
 
 Can be used to store *send* behavior events in HDS.

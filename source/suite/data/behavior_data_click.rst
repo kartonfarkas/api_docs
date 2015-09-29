@@ -1,5 +1,5 @@
-Unified Behaviour Data for Click
-================================
+Unified Behavior Data for Click
+===============================
 
 Can be used to store *click* behavior events in HDS.
 
