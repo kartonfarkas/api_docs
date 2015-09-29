@@ -6838,9 +6838,7 @@ a:active {
 /* Main Navigation ---------------------- */
 /* line 68, ../../../../../sass/imports/_shared.scss */
 .main-navigation-container {
-  background-color: #fff;
-  border-bottom: 1px solid #e7e7e7;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  background-color: #002838;
 }
 
 /* line 74, ../../../../../sass/imports/_shared.scss */
@@ -6877,7 +6875,7 @@ a:active {
 .main-navigation .unit.emarsys-logo a {
   display: block;
   text-indent: -999px;
-  background: url("../images/logo.png") left center no-repeat;
+  background: url("../images/logo.svg") left center no-repeat;
   height: 40px;
   margin-left: 5px;
 }
@@ -7008,6 +7006,7 @@ a:active {
 @media screen and (max-width: 760px) {
   /* line 212, ../../../../../sass/imports/_shared.scss */
   .main-navigation .main-menu .main-menu-list li a, .main-navigation .collapse-mobile-menu .main-menu-list li a {
+    color: #b6bec3;
     display: block;
     width: 100%;
     padding: 0.328rem;
@@ -7015,11 +7014,11 @@ a:active {
 }
 /* line 222, ../../../../../sass/imports/_shared.scss */
 .main-navigation .main-menu .main-menu-list li a:visited, .main-navigation .collapse-mobile-menu .main-menu-list li a:visited {
-  color: #163c8e;
+  color: #b6bec3;
 }
 /* line 226, ../../../../../sass/imports/_shared.scss */
 .main-navigation .main-menu .main-menu-list li a:hover, .main-navigation .collapse-mobile-menu .main-menu-list li a:hover {
-  color: #b61b3e;
+  color: #fff;
   text-decoration: underline;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
 }
@@ -7031,7 +7030,7 @@ a:active {
 }
 /* line 235, ../../../../../sass/imports/_shared.scss */
 .main-navigation .main-menu .main-menu-list li a.active-menu, .main-navigation .collapse-mobile-menu .main-menu-list li a.active-menu {
-  color: #b61b3e;
+  color: #fff;
 }
 
 /* Breadcrumbs ---------------------- */
