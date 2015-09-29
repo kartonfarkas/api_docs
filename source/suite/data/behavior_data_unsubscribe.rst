@@ -48,4 +48,37 @@ Parameters
      - int
      -
      -
-     
+
+Result Example
+--------------
+
+.. code-block:: json
+
+   {
+     "replyCode": 0,
+     "replyText": "OK"
+   }
+
+Errors
+------
+
+.. list-table:: Possible Error Codes
+   :header-rows: 1
+   :widths: 20 20 40 40
+
+   * - HTTP Code
+     - Reply Code
+     - Message
+     - Description
+   * - 400
+     - 1
+     - Cannot parse CSV payload. Illegal quoting in line 1.
+     -
+   * - 400
+     - 2
+     - Missing required field: event_time, event number: 0
+     -
+   * - 400
+     - 3
+     - Invalid value for field campaign_id: Integer value expected, event number: 0
+     -
