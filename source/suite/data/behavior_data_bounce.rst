@@ -3,6 +3,9 @@ Unified Behaviour Data for Bounce
 
 Can be used to store *bounce* behavior events in HDS.
 
+CSV Example
+-----------
+
 .. code-block:: text
 
    campaign_id,message_id,contact_id,event_time,bounce_category
