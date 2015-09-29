@@ -3,6 +3,12 @@ Unified Behaviour Data for Bounce
 
 Can be used to store *bounce* behavior events in HDS.
 
+.. code-block:: text
+
+   campaign_id,message_id,contact_id,event_time,bounce_category
+   111111111,222222222,313131313,2015-09-29 14:32:23,hard
+   222222222,454545454,333333333,2015-10-02 11:30:01,soft
+
 .. note:: Request must be signed with Escher.
 
 Endpoint
