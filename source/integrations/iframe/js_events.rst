@@ -27,6 +27,20 @@ with the new height of the content.
      "height": 200 /* pixel */
    }, "*");
 
+refresh message
+---------------
+
+This message simply reloads the current page.
+
+.. code-block:: javascript
+
+   var integration_instance_id = document.location.href.match(/integration_instance_id=(\d+)/)[1];
+
+   window.postMessage({
+     "event": "refresh",
+     "source": { "integration_instance_id": integration_instance_id }
+   }, "*");
+
 alert message
 -------------
 
