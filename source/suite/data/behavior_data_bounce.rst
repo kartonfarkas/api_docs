@@ -55,7 +55,7 @@ Parameters
      -
    * - bounce_category
      - string
-     -
+     - Reason why the email could not be sent, can be *soft*, *hard*, *block*
      -
 
 Result Example

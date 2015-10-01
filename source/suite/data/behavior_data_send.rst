@@ -2,7 +2,7 @@ Unified Behavior Data for Send
 ==============================
 
 
-Can be used to store *send* behavior events in HDS.
+Can be used to store *send* events in HDS.
 
 .. note:: Request must be signed with Escher.
 

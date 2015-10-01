@@ -46,15 +46,15 @@ Parameters
      -
    * - link_id
      - string
-     -
+     - Unique ID of the link within the email on which a click was made
      -
    * - is_mobile
      - boolean
-     -
+     - Opening of the email happened on a mobile device
      -
    * - platform
      - string
-     -
+     - Platform of the mobile device, e.g. iPhone, Android, Windows Mobile
      -
 
 Result Example

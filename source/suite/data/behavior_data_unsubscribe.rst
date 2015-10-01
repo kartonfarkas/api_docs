@@ -46,7 +46,7 @@ Parameters
      -
    * - field_id
      - int
-     -
+     - ID of the field
      -
 
 Result Example

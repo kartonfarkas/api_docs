@@ -1,7 +1,9 @@
-Unified Behavior Data for Open
-==============================
+Storing Email Open Behavior Data
+================================
 
-Can be used to store *open* behavior events in HDS.
+Can be used to store *open* behavior events in HDS. These events are generated from emails sent from Sendkit.
+
+.. warning:: This is specific to the Sendkit integration and not for general use.
 
 .. note:: Request must be signed with Escher.
 
@@ -46,11 +48,11 @@ Parameters
      -
    * - is_mobile
      - boolean
-     -
+     - Opening of the email happened on a mobile device
      -
    * - platform
      - string
-     -
+     - Platform of the mobile device, e.g. iPhone, Android, Windows Mobile
      -
 
 Result Example
