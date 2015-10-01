@@ -46,8 +46,8 @@ Parameters
        comes from the first or second email. In Suite, this would be the launch list ID.
      -
    * - sending_segment_id
-     - int
-     -
+     - long
+     - ID of the sending segment
      -
 
 Result Example
