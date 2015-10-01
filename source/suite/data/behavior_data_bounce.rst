@@ -1,5 +1,5 @@
-Unified Behavior Data for Bounce
-================================
+Storing Email Bounce Behavior Data
+==================================
 
 Can be used to store *bounce* behavior events in HDS.
 

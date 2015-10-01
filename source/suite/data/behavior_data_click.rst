@@ -1,5 +1,5 @@
-Unified Behavior Data for Click
-===============================
+Storing Email Click Behavior Data
+=================================
 
 Can be used to store *click* behavior events in HDS.
 

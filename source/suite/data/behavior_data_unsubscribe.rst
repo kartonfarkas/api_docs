@@ -1,5 +1,5 @@
-Unified Behavior Data for Unsubscribe
-=====================================
+Storing Unsubscribe Behavior Data
+=================================
 
 Can be used to store *unsubscribe* behavior events in HDS.
 
