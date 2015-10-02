@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/custom-node-dialog-endpoint/
+
 Custom Node Dialog Endpoint
 ===========================
 

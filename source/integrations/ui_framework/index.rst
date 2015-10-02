@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=http://documentation.emarsys.com/resource/emarsys-ui-framework-2/
+
 Emarsys UI Framework
 ====================
 

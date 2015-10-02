@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/integration-best-practices/
+
 Best Practices
 ==============
 
@@ -32,4 +35,3 @@ Logging
 Although we have very detailed logs relating to the Automation Center with regards to communication with each
 service, you should also log requests and failures. At the very minimum, log every incoming request and every response
 sent to Automation Center.
-

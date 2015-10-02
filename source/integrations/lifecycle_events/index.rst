@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=http://documentation.emarsys.com/resource/developers/lifecycle-events/
+
 Integration Lifecycle Events
 ============================
 

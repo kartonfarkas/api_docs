@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/registering-automation-center/
+
 Registering your Service with Automation Center
 ===============================================
 
@@ -24,4 +27,3 @@ Center team. Please send the following information to your contact person:
 
 Using the provided information, the Automation Center team will add your service and notify you as soon as it is
 available. During the development process, the new node will only be available for you to test it before its release.
-
