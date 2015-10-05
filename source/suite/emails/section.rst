@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/email/section-details/
+
 Querying a Section of a Template-based Email Campaign
 =====================================================
 
@@ -85,7 +88,7 @@ Where:
      -
    * - order
      - int
-     - Indicates the order in which sections should be used 
+     - Indicates the order in which sections should be used
      - If any sections are deleted, then the numbering of the remaining sections will not change,
        e.g. if section 3 is removed, then any subsequent section number remains the same: 4, 5, 6, etc.
    * - group_id

@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/email/email-url/
+
 Querying the URL of a Launched Email Campaign Content
 =====================================================
 

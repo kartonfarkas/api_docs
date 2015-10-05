@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/email/delete-section/
+
 Deleting a Section from a Template-based Email Campaign
 =======================================================
 
@@ -27,7 +30,7 @@ Parameters
      - int
      - ID of the section, part of the URI
      - The section to remove
-     
+
 Result Example
 --------------
 

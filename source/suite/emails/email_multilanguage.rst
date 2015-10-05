@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/email/finalize-multilanguage-campaign/
+
 Finalizing a Multi-language Email Campaign
 ==========================================
 

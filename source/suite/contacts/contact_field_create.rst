@@ -1,7 +1,10 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/contacts/create-field/
+
 Creating a Field
 ================
 
-Creates a new field in your contact database. 
+Creates a new field in your contact database.
 
 Endpoint
 --------
@@ -110,4 +113,3 @@ Errors
      - 9002
      - A field with this name already exists
      -
-

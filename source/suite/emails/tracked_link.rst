@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/email/link-details/
+
 Querying a Tracked Link in an Email Campaign
 ============================================
 

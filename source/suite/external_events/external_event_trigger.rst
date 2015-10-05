@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/external-events/trigger-event/
+
 Triggering External Events
 ==========================
 
@@ -106,4 +109,3 @@ Errors
      - 5005
      - No program or campaign is triggered.
      - No active Automation Center program or email campaign is assigned for the external event.
-

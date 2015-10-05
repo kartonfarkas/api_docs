@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/customers/delete-administrator/
+
 Deleting an Administrator Account
 =================================
 
@@ -88,4 +91,3 @@ Errors
      - 1003
      - Database connection error
      -
-

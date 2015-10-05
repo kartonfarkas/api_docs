@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/exporting-data/export-segment/
+
 Exporting a Segment
 ===================
 
@@ -42,7 +45,7 @@ Parameters
 
        If **sftp** is selected, then the following parameters in *ftp_settings* are mandatory:
        ftp_port, host, username and password.
-       
+
    * - contact_fields
      - int array
      - It may contain any contact field ID except:

@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/contacts/list-field-choices/
+
 Listing Available Fields
 ========================
 
@@ -21,7 +24,7 @@ Parameters
      - Comments
    * - <translate_id>
      - string
-     - Any two letter ISO 639-1 abbreviation, e.g. en, de, ru, etc. 
+     - Any two letter ISO 639-1 abbreviation, e.g. en, de, ru, etc.
      - For a full list of supported languages, see :doc:`../appendices/language_codes`.
 
 URI Example
@@ -70,4 +73,4 @@ Result Example
 Errors
 ------
 
-Standard HTML status and error codes apply. 
+Standard HTML status and error codes apply.

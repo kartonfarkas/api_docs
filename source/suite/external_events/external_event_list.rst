@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/external-events/list-events/
+
 Querying Available External Events
 ==================================
 
@@ -28,6 +31,3 @@ Result Example
        }
      ]
    }
-
-
-

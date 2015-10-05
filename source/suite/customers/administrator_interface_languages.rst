@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/customers/administrator-ui-languages/
+
 Querying Interface Languages
 ============================
 

@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/contacts/remove-contacts-from-list/
+
 Removing Contacts from a Contact List
 =====================================
 

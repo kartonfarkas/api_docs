@@ -1,8 +1,11 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/email/update-source/
+
 Updating an Email Campaign Recipient Source
 ===========================================
 
 Email campaigns can be created with the *recipient source* set to *"Using the API"* via the
-Emarsys application. This call can assign a segment or a contact list to an email campaign. 
+Emarsys application. This call can assign a segment or a contact list to an email campaign.
 
 .. include:: _warning.rst
 

@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/email/unsubscribe-from-launch/
+
 Unsubscribing a Contact from an Email Campaign
 ==============================================
 
@@ -18,7 +21,7 @@ In your campaign body, create a new link which points to the unsubscription page
 website. You can include placeholders $cid$, $llid$ and $uid$ to get the required parameters for calling this API endpoint.
 
          * $cid$ will be replaced with the email ID
-         * $llid$ with the launch list ID 
+         * $llid$ with the launch list ID
          * $uid$ with the randomly generated contact ID
 
 An example link is: `http://yourwebsite.com/unsubscribe.html?email_id=$cid$&launchlist_id=$llid$`

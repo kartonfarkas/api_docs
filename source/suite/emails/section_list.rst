@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/email/list-sections/
+
 Listing Sections in a Template-based Email Campaign
 ===================================================
 
@@ -22,7 +25,7 @@ Parameters
    * - email_id
      - int
      - ID of the email, part of the URI
-     - 
+     -
 
 Result Example
 --------------

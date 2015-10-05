@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/email/upload-media-file/
+
 Uploading a File
 ================
 
@@ -50,7 +53,7 @@ Parameters
    * - preserve_filename
      - int
      - If 1, the original filename won't be modified
-     - 
+     -
 
 Request Example
 ---------------

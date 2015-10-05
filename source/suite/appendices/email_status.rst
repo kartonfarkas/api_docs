@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/appendices/email-status-codes/
+
 E-Mail Status Codes
 ===================
 
@@ -19,4 +22,3 @@ The Email Status ID code indicates the current status of an email and can be one
      - Ready to launch
    * - -3
      - Deactivated
-

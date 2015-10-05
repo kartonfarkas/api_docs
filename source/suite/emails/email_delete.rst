@@ -1,7 +1,10 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/email/delete-campaign/
+
 Deleting an Email Campaign
 ==========================
 
-Deletes an email campaign and all related launches, including any pending launches. 
+Deletes an email campaign and all related launches, including any pending launches.
 
 Endpoint
 --------
@@ -22,7 +25,7 @@ Parameters
    * - emailId
      - int
      - ID of the email campaign
-     - 
+     -
 
 Result Example
 --------------

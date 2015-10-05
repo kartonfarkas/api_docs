@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/automation-center/start-programs/
+
 Starting Programs
 =================
 
@@ -61,5 +64,3 @@ Result Example
       "replyText": "OK",
       "data": ""
    }
-
-

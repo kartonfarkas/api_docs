@@ -1,4 +1,7 @@
-Creating a Folder 
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/email/create-media-folder/
+
+Creating a Folder
 =================
 
 Creates a new folder in a specified existing parent folder in the Media Database.

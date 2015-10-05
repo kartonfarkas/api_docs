@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/email/copy-campaign/
+
 Copying an Email Campaign
 =========================
 
@@ -34,7 +37,7 @@ Parameters
      - Comments
    * - name
      - string
-     - Name of the new email campaign. 
+     - Name of the new email campaign.
      - If a new name is not specified, a unique name will be automatically generated.
 
 Result Example

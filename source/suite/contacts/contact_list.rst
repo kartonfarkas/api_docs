@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/contacts/list-contact-data/
+
 Listing Contacts
 ================
 
@@ -121,4 +124,3 @@ Errors
      - 2011
      - <depends on the error>
      - An internal error occurred.
-

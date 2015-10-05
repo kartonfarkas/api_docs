@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/exporting-data/
+
 Exporting Contact and Email Data
 ================================
 
@@ -22,4 +25,3 @@ endpoint. Alternatively, it is possible to specify a *notification_url* which is
    export_responses.rst
    export_status.rst
    export_data.rst
-

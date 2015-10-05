@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/contacts/rename-list/
+
 Renaming a Contact List
 =======================
 
@@ -70,5 +73,3 @@ Errors
      - 3006
      - No contact list found with the specified ID.
      -
-
-

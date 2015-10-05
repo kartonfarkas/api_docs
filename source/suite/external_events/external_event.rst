@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/external-events/event-details/
+
 Querying an External Event
 ==========================
 
@@ -53,4 +56,4 @@ Errors
    * - 400
      - 5001
      - No event found with the specified ID.
-     - 
+     -

@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/getting-started/authentication/php-sample/
+
 PHP
 ===
 
@@ -82,4 +85,3 @@ PHP
    echo $demo->send('POST', 'source/create', '{"name":"RANDOM"}') . "\n\n";
    echo $demo->send('PUT', 'contact', '{"key_id": "3","contacts":[{"3": "erik.selvig@example.com","2": "Selvig"},{"3": "ian.boothby@example.com","2": "Boothby"}]}') . "\n\n";
    echo $demo->send('DELETE', 'source/1');
-   

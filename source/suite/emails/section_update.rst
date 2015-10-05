@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/email/update-section/
+
 Updating a Section of a Template-based Email Campaign
 =====================================================
 

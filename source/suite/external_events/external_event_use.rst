@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/external-events/list-all-event-use/
+
 Listing All Usages of an External Event
 =======================================
 

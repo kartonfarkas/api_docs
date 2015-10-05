@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/email/campaign-languages/
+
 Querying Available Email Campaign Languages
 ===========================================
 
@@ -65,4 +68,3 @@ Errors
      - 1002
      - Invalid language code
      - The requested language code is not supported. For a list of supported languages, see the `list of language codes <http://documentation.emarsys.com/?page_id=417>`_ .
-

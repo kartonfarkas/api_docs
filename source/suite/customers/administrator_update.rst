@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/customers/update-administrator/
+
 Updating an Administrator
 =========================
 
@@ -81,7 +84,7 @@ Parameters
    * - mobile_phone
      - string
      - Admin's mobile phone number
-     - 
+     -
    * - last_verification_action_date
      - date
      - For internal use only
@@ -203,4 +206,3 @@ Errors
      - 1003
      - Database connection error
      -
-

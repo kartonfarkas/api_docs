@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/email/create-section/
+
 Creating a Section in a Template-based Email Campaign
 =====================================================
 

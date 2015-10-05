@@ -1,3 +1,6 @@
+.. meta::
+   :http-equiv=refresh: 0; url=https://documentation.emarsys.com/resource/developers/api/exporting-data/export-changes/
+
 Exporting Changes
 =================
 
@@ -94,7 +97,7 @@ Parameters
        * *(string)* password
        * *(string)* folder – optional
 
-     - This variable has to be used if the *distribution_method* is set to use *ftp*. If **local** is used, then any content here is ignored. 
+     - This variable has to be used if the *distribution_method* is set to use *ftp*. If **local** is used, then any content here is ignored.
    * - notification_url
      - string
      - A request is sent to the url if the export is ready. This way it is not necessary to poll the export status.
