@@ -20,8 +20,8 @@ function scanDirectories($rootDir, $allowext, $allData=array()) {
 $files = scanDirectories("source", array("rst"));
 foreach($files as $file) {
   $content = file_get_contents($file);
-  if (preg_match_all("/ url=https:\/\/documentation\.emarsys\.com(.*)/", $content, $matches)) {
-    echo substr($file, 6) . " => " . $matches[1][0] . "\n";
+  if (preg_match_all("/ url=(https:\/\/documentation\.emarsys\.com.*)/", $content, $matches)) {
+    echo str_replace(".rst", ".html", substr($file, 6)) . "|" . $matches[1][0] . "|0|0\n";
   }
 }
 ?>
