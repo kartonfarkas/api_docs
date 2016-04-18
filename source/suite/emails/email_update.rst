@@ -148,6 +148,10 @@ Errors
      - Message
      - Description
    * - 400
+     - 3006
+     - No contact list found with the specified ID.
+     -
+   * - 400
      - 6004
      - No email ID provided
      -
