@@ -4,7 +4,7 @@
 Inserting records to table
 ==========================
 
-Insert records to a custom table in the Relational Data Service
+Insert records to a custom table in the Relational Data Service ignoring records that would violate any constraints on the table.
 
 .. note::
          These tables only available if you specifically subscribed to this service. For further information please contact your account manager.
